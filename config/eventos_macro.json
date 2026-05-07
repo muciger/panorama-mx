@@ -1,0 +1,54 @@
+{
+  "_descripcion": "Eventos macroeconómicos relevantes que se dibujan como líneas verticales con tooltip en gráficas históricas.",
+  "_version": "1.0",
+  "eventos": [
+    {
+      "fecha": "2008-09",
+      "label": "Crisis financiera global",
+      "categoria": "crisis",
+      "color": "#9B2247"
+    },
+    {
+      "fecha": "2014-12",
+      "label": "Caída de precios del petróleo",
+      "categoria": "shock",
+      "color": "#A57F2C"
+    },
+    {
+      "fecha": "2017-01",
+      "label": "Renegociación TLCAN",
+      "categoria": "policy",
+      "color": "#003057"
+    },
+    {
+      "fecha": "2018-12",
+      "label": "Cambio de gobierno federal",
+      "categoria": "policy",
+      "color": "#003057"
+    },
+    {
+      "fecha": "2020-03",
+      "label": "Inicio pandemia COVID-19",
+      "categoria": "crisis",
+      "color": "#9B2247"
+    },
+    {
+      "fecha": "2020-07",
+      "label": "Entrada en vigor T-MEC",
+      "categoria": "policy",
+      "color": "#1E5B4F"
+    },
+    {
+      "fecha": "2022-02",
+      "label": "Invasión rusa a Ucrania",
+      "categoria": "shock",
+      "color": "#A57F2C"
+    },
+    {
+      "fecha": "2024-10",
+      "label": "Cambio de gobierno federal",
+      "categoria": "policy",
+      "color": "#003057"
+    }
+  ]
+}

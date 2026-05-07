@@ -1,0 +1,184 @@
+{
+  "igae": {
+    "tipo": "auto",
+    "mensaje": "La caída anual del IGAE en febrero de 2026 confirma que la economía mexicana entró en un deterioro estructural, no en una volatilidad puntual, al romper la tendencia de tasas anuales positivas observada desde octubre de 2025. El desplome lo explica el sector secundario, cuya contracción anual se profundizó a -1.33% por la debilidad de la manufactura y la construcción, sectores que arrastran al conjunto de la economía al ser los de mayor encadenamiento productivo. Esta señal obliga a anticipar una revisión a la baja de la meta de crecimiento para 2026 y a activar medidas de estímulo focalizadas en cadenas industriales, antes de que el deterioro se propague al empleo formal.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-24",
+    "modelo": "deepseek-chat"
+  },
+  "inpc_mensual": {
+    "tipo": "auto",
+    "mensaje": "El repunte de la inflación general y su salida de la banda objetivo del Banxico constituyen un deterioro estructural, no una volatilidad pasajera, por la aceleración simultánea de precios agropecuarios. La causa inmediata es el alza de 4.52% mensual en agropecuarios, que rompió su tendencia de desinflación y elevó la anual del rubro a 8.77%, mientras la inflación subyacente se mantiene rígida arriba de 4.4%. Esto obliga a Banxico a pausar cualquier ciclo de recortes de tasa y exige monitorear si el choque de oferta se contagia a servicios y mercancías en los próximos meses.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-23",
+    "modelo": "deepseek-chat"
+  },
+  "actividad_industrial": {
+    "tipo": "auto",
+    "mensaje": "La contracción de 0.24% en alimentos marca una ruptura de la tendencia de crecimiento que sostenía este subsector desde septiembre de 2025, lo que apunta a un deterioro estructural incipiente en la demanda doméstica más que a un evento puntual. Este retroceso no es compensado por la manufactura general, que reporta una ligera expansión, porque alimentos representa un piso de consumo básico y su caída adelanta un debilitamiento del ingreso real de los hogares que presionará hacia abajo al índice total. Para el resto del año, la política económica debe anticipar la necesidad de mantener o reforzar los programas de transferencias directas y evitar restricciones al crédito al consumo, pues la desaceleración en alimentos es un termómetro más confiable que la volatilidad en minería o construcción.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-10",
+    "modelo": "deepseek-chat"
+  },
+  "autos_ligeros": {
+    "tipo": "auto",
+    "mensaje": "El mercado interno de vehículos ligeros muestra una desaceleración tras un arranque de año dinámico, consistente con una contracción del consumo durable y no con una recuperación sostenida. La normalización simultánea de producción y exportación sugiere que el repunte de ventas en enero fue un efecto estacional o de inventarios, y que el motor externo aún no compensa la debilidad doméstica. Esto implica que, sin un estímulo focalizado al crédito automotriz o al ingreso disponible, el sector difícilmente contribuirá al crecimiento del PIB en el segundo trimestre de 2026.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-09",
+    "modelo": "deepseek-chat"
+  },
+  "autos_pesados": {
+    "tipo": "auto",
+    "mensaje": "Las ventas minoristas de vehículos pesados muestran una desaceleración de su caída que sugiere un piso en el ajuste del mercado interno, más que una recuperación genuina. La mejora obedece al agotamiento del efecto base por meses previos de contracción extrema y a un repunte en el canal de mayoreo que refleja reabastecimiento de inventarios, no demanda final. Para el resto de 2026, este dato reduce la urgencia de estímulos fiscales al sector pero obliga a vigilar que la producción y exportación no profundicen su caída, lo que sí arrastraría empleo formal en regiones especializadas.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-13",
+    "modelo": "deepseek-chat"
+  },
+  "balanza_comercial": {
+    "tipo": "auto",
+    "mensaje": "La balanza comercial muestra una recuperación cíclica vigorosa impulsada por las exportaciones manufactureras, que crecen a su mayor ritmo anual de los últimos seis meses y revierten el déficit de tres meses consecutivos. El motor principal son las manufacturas no automotrices, que aceleran su crecimiento anual a 38.1% en marzo, señal de que la relocalización de cadenas globales está beneficiando a la base industrial mexicana más que al sector automotriz. Esto refuerza la conveniencia de mantener los estímulos a la inversión en manufacturas avanzadas y diversificar mercados de exportación para sostener el superávit no petrolero sin depender de la coyuntura automotriz.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-27",
+    "modelo": "deepseek-chat"
+  },
+  "comercio_mayoreo": {
+    "tipo": "auto",
+    "mensaje": "El desplome de las ventas de farmacéuticos y perfumería en febrero confirma un cambio de tendencia hacia una contracción abrupta del comercio al mayoreo, después de un tercer trimestre de expansión volátil. La caída responde a un ajuste severo en inventarios del sector salud y belleza, ya que las compras de mercancías repuntaron 3.8% pero los ingresos cayeron 1.51%, lo que sugiere que los mayoristas están liquidando existencias ante un deterioro en la demanda final de estos productos. Para la política económica, esta señal anticipa presiones a la baja en el consumo privado y en la recaudación del ISR de personas morales del sector comercial, por lo que la SHCP debería revisar sus supuestos de ingresos para el cierre del primer semestre.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-23",
+    "modelo": "deepseek-chat"
+  },
+  "comercio_menudeo": {
+    "tipo": "auto",
+    "mensaje": "La contracción en ventas de vehículos y combustibles en febrero rompe una tendencia de crecimiento moderado y señala un deterioro en el consumo de bienes durables, lo que anticipa una desaceleración más amplia del comercio minorista. La caída responde a un efecto base adverso tras el fuerte repunte de enero, pero también al debilitamiento del ingreso real de los hogares, ya que las remuneraciones medias retrocedieron y el empleo dejó de crecer. Para el resto del año, esto implica que la política de estímulos al consumo deberá enfocarse en preservar el poder adquisitivo y evitar que la desaceleración se profundice hacia el segundo trimestre.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-23",
+    "modelo": "deepseek-chat"
+  },
+  "confianza_consumidor": {
+    "tipo": "auto",
+    "mensaje": "El dato de marzo confirma que la confianza del consumidor se estancó en zona de deterioro moderado, sin mostrar una recuperación genuina a pesar de la ligera mejora en las expectativas del hogar. La caída se explica por el desplome en la disposición a comprar bienes durables y el persistente pesimismo sobre la situación actual del país, lo que refleja que los hogares están postergando consumo ante la incertidumbre sobre el empleo y el entorno macro. Para la política económica, esto implica que el consumo privado mantendrá un sesgo contractivo durante el primer semestre de 2026, por lo que se requiere reforzar la certidumbre en el mercado laboral y evitar nuevas señales de ajuste fiscal que profundicen la cautela del gasto.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-08",
+    "modelo": "deepseek-chat"
+  },
+  "consumo_privado": {
+    "tipo": "auto",
+    "mensaje": "El consumo privado en enero de 2026 confirma una desaceleración estructural, no una simple volatilidad mensual, pues la tasa anual cae a terreno que anticipa un agotamiento del impulso de 2025. La caída mensual del gasto en origen nacional, especialmente en bienes duraderos y semiduraderos, revela que el ajuste en la demanda interna ya no se compensa con el consumo de servicios, cuyo crecimiento anual se reduce a la mitad respecto al trimestre anterior. Esto implica que la política de estímulo fiscal deberá focalizarse en el ingreso disponible de los hogares, ya que la desaceleración del consumo nacional sin un repunte del importado sugiere que el canal de precios relativos no está sosteniendo el gasto agregado.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-06",
+    "modelo": "deepseek-chat"
+  },
+  "emim": {
+    "tipo": "auto",
+    "mensaje": "El repunte en el volumen de producción manufacturera en febrero de 2026 rompe una secuencia de tres meses de contracción, pero no puede interpretarse como una recuperación sólida porque el personal ocupado sigue cayendo y las horas trabajadas apenas se recuperan, lo que sugiere un rebote técnico más que un cambio de tendencia. Este comportamiento se explica por una recomposición temporal de inventarios en sectores exportadores, donde las caídas previas en enero reflejaron ajustes por demanda externa y paros técnicos, y el repunte obedece a la normalización de esos factores, no a un aumento sostenido de la demanda interna o externa. Para la política económica, esto implica que la manufactura sigue expuesta a riesgos de desaceleración global y que el empleo formal seguirá presionado, por lo que cualquier estímulo al consumo o a la inversión debe priorizar la demanda final antes que esperar una tracción automática del sector exportador.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-16",
+    "modelo": "deepseek-chat"
+  },
+  "enoe_trimestral": {
+    "tipo": "auto",
+    "mensaje": "El crecimiento explosivo de la PNEA No Disponible revela una salida masiva de personas de la fuerza laboral, no por falta de oportunidades sino por desaliento o inactividad voluntaria, señal de un deterioro estructural en la oferta laboral más que una recesión cíclica. Este fenómeno refleja que casi 870 mil personas abandonaron la búsqueda de empleo durante el último año, probablemente por la combinación de salarios reales insuficientes, informalidad persistente y expectativas negativas sobre la calidad de las vacantes disponibles. Para la política económica, esta fuga de trabajadores implica que el mercado sigue sin generar incentivos para reincorporar a la población inactiva, por lo que cualquier programa de empleo deberá enfocarse en mejorar las condiciones de formalidad y remuneración de las nuevas plazas.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-24",
+    "modelo": "deepseek-chat"
+  },
+  "export_entidad": {
+    "tipo": "auto",
+    "mensaje": "El trimestre T4-25 muestra una señal de deterioro estructural en las exportaciones de Zacatecas, con una contracción que refleja pérdida de dinamismo frente a entidades como Tamaulipas o Tabasco. Esto responde a la caída en la producción minero-metalúrgica, sector clave en la entidad, que enfrenta menores precios internacionales de metales y agotamiento de yacimientos sin sustitución por nuevas actividades exportadoras. La implicación para política económica es priorizar la diversificación productiva de Zacatecas hacia manufacturas o agroindustria de alto valor, antes de que la dependencia minera erosione permanentemente su base exportadora.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-03-31",
+    "modelo": "deepseek-chat"
+  },
+  "fbcf": {
+    "tipo": "auto",
+    "mensaje": "La caída mensual de enero revierte dos meses de recuperación y confirma que la inversión fija aún no logra consolidar un punto de inflexión, tras haber reducido su tasa de contracción anual de forma consistente desde octubre. El retroceso se explica por un desplome sincronizado de maquinaria y equipo tanto nacional como importada, lo que refleja un ajuste en las expectativas de inversión del sector privado ante un entorno de mayor incertidumbre, mientras la construcción residencial mantiene un crecimiento sólido que evita una caída más profunda. La debilidad persistente en la inversión en maquinaria importada, con tasas anuales de doble dígito negativo, obliga a revisar los supuestos de recuperación de la inversión para el primer semestre y sugiere que el repunte esperado podría postergarse hasta la segunda mitad del año.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-06",
+    "modelo": "deepseek-chat"
+  },
+  "ind_ciclicos": {
+    "tipo": "auto",
+    "mensaje": "La desaceleración consistente del indicador adelantado sugiere que la economía mexicana transita hacia una fase de menor dinamismo, no una recesión inminente pero sí una pérdida de tracción en la actividad futura. Esta moderación responde a un debilitamiento gradual de la demanda interna por la contracción del gasto público al cierre del año y a la postergación de inversiones privadas ante la incertidumbre sobre la política comercial con Estados Unidos. Para el resto del año, la política fiscal debe evitar un ajuste procíclico y enfocarse en mantener el gasto en infraestructura y programas sociales para sostener el consumo interno y compensar la desaceleración externa.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-06",
+    "modelo": "deepseek-chat"
+  },
+  "enoe_mensual": {
+    "tipo": "auto",
+    "mensaje": "El mercado laboral muestra un deterioro estructural, con la tasa de participación total cayendo a 58.83%, la desocupación subiendo a 2.8% y la informalidad estancada cerca de 55%, lo que contradice la dinámica de recuperación esperada para el primer trimestre. La disminución de la participación masculina, que bajó 0.7 puntos porcentuales en el mes, y el repunte de la subocupación a 7.33% indican que sectores como la construcción o la manufactura están ajustando empleo de forma defensiva ante una demanda interna débil. Esto implica que la política económica debe priorizar estímulos al consumo y la inversión productiva en el corto plazo, o la contracción laboral podría consolidarse y frenar el crecimiento del PIB hacia mediados de año.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-24",
+    "modelo": "deepseek-chat"
+  },
+  "imai_estatal": {
+    "tipo": "auto",
+    "mensaje": "El índice secundarias de Zacatecas se mantiene en zona de estancamiento con una manufactura en deterioro estructural profundo que arrastra al agregado. La caída del índice de manufacturas muy por debajo del índice secundarias revela una desindustrialización focalizada que no logra compensar el débil repunte de otros subsectores industriales. Esto obliga a revisar los estímulos fiscales y de inversión dirigidos a la industria manufacturera zacatecana antes de que el arrastre contamine al resto de las actividades secundarias.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-10",
+    "modelo": "deepseek-chat"
+  },
+  "inflacion_resumen": {
+    "tipo": "auto",
+    "mensaje": "La inflación general rompe su trayectoria descendente al registrar su mayor nivel en seis meses, lo que refleja una reversión del proceso de convergencia hacia la meta de Banxico y no un simple rebote estadístico. El salto del componente no subyacente a más del doble respecto al mes anterior, impulsado por choques en precios agropecuarios y energéticos, contamina el núcleo subyacente que se mantiene estancado por arriba del 4.4 por ciento. Este repunte obliga a diferir cualquier expectativa de recorte en la tasa de referencia y eleva el riesgo de que la inflación cierre el año por encima del pronóstico oficial.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-23",
+    "modelo": "deepseek-chat"
+  },
+  "inpc_quincenal": {
+    "tipo": "auto",
+    "mensaje": "La inflación general se estabiliza en torno a 4.5% anual, pero el descenso de la subyacente a 4.27% confirma que la desinflación estructural avanza, aunque a un ritmo insuficiente para alcanzar la meta. La caída del componente no subyacente en la quincena refleja volatilidad en agropecuarios y energéticos, mientras que la subyacente sigue presionada por servicios, lo que revela persistencia de rigideces internas. Este escenario refuerza la necesidad de mantener una postura restrictiva de política monetaria y obliga a la Secretaría a acelerar medidas de competencia en servicios y logística para que la convergencia no se estanque.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-23",
+    "modelo": "deepseek-chat"
+  },
+  "inpp": {
+    "tipo": "auto",
+    "mensaje": "La aceleración mensual del INPP sin petróleo en marzo rompe una tendencia de desinflación sostenida de cinco meses, lo que indica que el proceso de contención de costos subyacentes enfrenta un obstáculo relevante y no es una simple volatilidad puntual. El alza mensual responde a un repunte en los precios de servicios y manufacturas no petroleras, lo que sugiere que la presión ya no se concentra en el sector primario o energético sino en la demanda interna y la transmisión de costos salariales y logísticos hacia los productores. Este dato implica que la política monetaria deberá mantener una postura restrictiva por más tiempo, y que la meta de inflación anual para cierre de año podría verse comprometida si el ritmo mensual no regresa a niveles por debajo de 0.4% en los próximos meses.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-09",
+    "modelo": "deepseek-chat"
+  },
+  "itaee_estatal": {
+    "tipo": "auto",
+    "mensaje": "Zacatecas muestra una recuperación en curso al cierre de 2025, con un avance anual que supera el promedio de las entidades del centro-norte del país. El dinamismo estatal probablemente responde al escalamiento en la producción minero-metalúrgica y al repunte en servicios logísticos vinculados al corredor industrial del bajío. Para 2026, la entidad requiere sostener la inversión en infraestructura carretera y eléctrica para no frenar el arrastre de 2025 hacia el primer semestre.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-29",
+    "modelo": "deepseek-chat"
+  },
+  "pib_anual": {
+    "tipo": "auto",
+    "mensaje": "El crecimiento económico en 2024 confirma una desaceleración estructural tras el rebote pose pandemia, alejándose de la velocidad de recuperación observada en 2021-2023. Esta moderación responde principalmente al agotamiento del dinamismo del sector servicios y al menor impulso de la inversión privada, factores que arrastran al PIB por debajo de su tasa potencial estimada. Para 2025, la política económica debe priorizar estímulos a la inversión fija y remover cuellos de botella regulatorios para evitar que la economía transite a una fase de crecimiento lento e insuficiente.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-02-23",
+    "modelo": "deepseek-chat"
+  },
+  "pib_estatal": {
+    "tipo": "auto",
+    "mensaje": "El crecimiento de Zacatecas se alinea con el desempeño moderado de entidades con alta participación del sector primario, lo que sugiere una recuperación acotada por condiciones climáticas y de mercado más que una expansión estructural. El IVF de 105.3 refleja un avance real impulsado principalmente por el sector agropecuario y la minería, sectores que explican cerca del 30% del PIB estatal y que enfrentan volatilidad externa e interna. Para el resto de 2024, la principal implicación es que Zacatecas requerirá estímulos específicos a la productividad agroindustrial y a la diversificación manufacturera para sostener este crecimiento sin depender exclusivamente de precios internacionales o del ciclo minero.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2025-12-05",
+    "modelo": "deepseek-chat"
+  },
+  "pib_por_actividad": {
+    "tipo": "auto",
+    "mensaje": "El dato del sector primario en T1-26 rompe la tendencia de recuperación observada en los dos trimestres previos y sugiere una volatilidad puntual, no un cambio estructural, pero obliga a monitorear el impacto de condiciones climáticas o de oferta. La caída anual del primario se explica fundamentalmente por el desplome trimestral de 1.36%, que contrasta con el fuerte repunte de 22.96% en T4-25, indicando un efecto de reversión estadística más que una contracción sostenida de la producción agropecuaria. Para el resto del año, este dato no altera la trayectoria de la actividad económica general, pero refuerza la necesidad de mantener los programas de cobertura y apoyo a productores ante choques externos recurrentes.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-02-23",
+    "modelo": "deepseek-chat"
+  },
+  "pib_trimestral": {
+    "tipo": "auto",
+    "mensaje": "La actividad económica en el primer trimestre de 2026 prácticamente se estancó, confirmando que la economía mexicana transita por una fase de deterioro estructural y no por una desaceleración temporal. Este freno se explica por la contracción del sector secundario, arrastrado por la minería y la construcción, y por el fin del impulso del sector primario que había sostenido el crecimiento en trimestres previos. Implica que la política económica debe dejar de apostar por una recuperación espontánea y enfocarse en reactivar la inversión en infraestructura y en apuntalar la demanda interna, particularmente el consumo privado, para evitar que la economía entre en una recesión técnica en los siguientes trimestres.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-02-23",
+    "modelo": "deepseek-chat"
+  },
+  "servicios": {
+    "tipo": "auto",
+    "mensaje": "El transporte y correos presenta un deterioro estructural que se ha profundizado en los últimos seis meses, sin señales de recuperación. La caída responde a la contracción sostenida del consumo interno y la desaceleración del comercio mayorista, que reducen la demanda de servicios logísticos. Esto implica que la política de estímulo al consumo debe reforzarse para evitar que el arrastre negativo del transporte afecte las cadenas de suministro y el empleo en el sector servicios durante el primer semestre de 2026.",
+    "generado_en": "2026-05-06",
+    "basado_en": "2026-04-23",
+    "modelo": "deepseek-chat"
+  }
+}

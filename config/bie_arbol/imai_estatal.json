@@ -1,0 +1,879 @@
+{
+  "_meta": {
+    "root_id": "607220",
+    "root_name": "Actividad industrial por entidad",
+    "elapsed_s": 69.0,
+    "calls": 74,
+    "queue_restante": 0,
+    "indicadores": 84
+  },
+  "indicadores": {
+    "740261": {
+      "nombre": "Índice",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total actividad industrial",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740262": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total actividad industrial",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740263": {
+      "nombre": "Índice",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total actividad industrial",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740264": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total actividad industrial",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740265": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total actividad industrial",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740266": {
+      "nombre": "Índice",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total actividad industrial",
+        "Tendencia-ciclo"
+      ]
+    },
+    "740267": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total actividad industrial",
+        "Tendencia-ciclo"
+      ]
+    },
+    "740487": {
+      "nombre": "Índice",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 22. Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740488": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 22. Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740489": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 22. Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740485": {
+      "nombre": "Índice",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 22. Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740486": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 22. Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "738545": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "Actividades secundarias"
+      ]
+    },
+    "740490": {
+      "nombre": "Índice",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 22. Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Tendencia-ciclo"
+      ]
+    },
+    "740491": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 22. Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Tendencia-ciclo"
+      ]
+    },
+    "738182": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "Actividades secundarias"
+      ]
+    },
+    "738743": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "Sector 23. Construcción"
+      ]
+    },
+    "738908": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "Actividades secundarias"
+      ]
+    },
+    "738380": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "Sector 23. Construcción"
+      ]
+    },
+    "739106": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "Sector 23. Construcción"
+      ]
+    },
+    "740711": {
+      "nombre": "Índice",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 31-33. Industrias manufactureras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740712": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 31-33. Industrias manufactureras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740713": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 31-33. Industrias manufactureras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740709": {
+      "nombre": "Índice",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 31-33. Industrias manufactureras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740710": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 31-33. Industrias manufactureras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740714": {
+      "nombre": "Índice",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 31-33. Industrias manufactureras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "740715": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Sector 31-33. Industrias manufactureras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "739271": {
+      "nombre": "Actividades secundarias ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Índice",
+        "Total nacional"
+      ]
+    },
+    "739275": {
+      "nombre": "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Índice",
+        "Total nacional"
+      ]
+    },
+    "739276": {
+      "nombre": "23 Construcción ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Índice",
+        "Total nacional"
+      ]
+    },
+    "738677": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "Total Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final"
+      ]
+    },
+    "739931": {
+      "nombre": "Actividades secundarias ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual acumulada",
+        "Total nacional"
+      ]
+    },
+    "739935": {
+      "nombre": "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual acumulada",
+        "Total nacional"
+      ]
+    },
+    "739936": {
+      "nombre": "23 Construcción ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual acumulada",
+        "Total nacional"
+      ]
+    },
+    "739601": {
+      "nombre": "Actividades secundarias ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual",
+        "Total nacional"
+      ]
+    },
+    "739605": {
+      "nombre": "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual",
+        "Total nacional"
+      ]
+    },
+    "739606": {
+      "nombre": "23 Construcción ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual",
+        "Total nacional"
+      ]
+    },
+    "738710": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "2211 Generación, transmisión, distribución y comercialización de energía eléctrica"
+      ]
+    },
+    "738578": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "21 Minería",
+        "Total Minería"
+      ]
+    },
+    "738776": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "31-33. Industrias manufactureras",
+        "Total industrias manufactureras"
+      ]
+    },
+    "738644": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "21 Minería",
+        "Minería no petrolera"
+      ]
+    },
+    "738611": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "21 Minería",
+        "Minería petrolera"
+      ]
+    },
+    "738875": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "31-33. Industrias manufactureras",
+        "33 Industrias manufactureras"
+      ]
+    },
+    "738842": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "31-33. Industrias manufactureras",
+        "32 Industrias manufactureras"
+      ]
+    },
+    "738215": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "21 Minería",
+        "Total Minería"
+      ]
+    },
+    "738809": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual",
+        "31-33. Industrias manufactureras",
+        "31 Industrias manufactureras"
+      ]
+    },
+    "738446": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "31-33. Industrias manufactureras",
+        "31 Industrias manufactureras"
+      ]
+    },
+    "738281": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "21 Minería",
+        "Minería no petrolera"
+      ]
+    },
+    "738413": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "31-33. Industrias manufactureras",
+        "Total industrias manufactureras"
+      ]
+    },
+    "738248": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "21 Minería",
+        "Minería petrolera"
+      ]
+    },
+    "738314": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "Total Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final"
+      ]
+    },
+    "738512": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "31-33. Industrias manufactureras",
+        "33 Industrias manufactureras"
+      ]
+    },
+    "738347": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "2211 Generación, transmisión, distribución y comercialización de energía eléctrica"
+      ]
+    },
+    "738479": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Índice",
+        "31-33. Industrias manufactureras",
+        "32 Industrias manufactureras"
+      ]
+    },
+    "739007": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "21 Minería",
+        "Minería no petrolera"
+      ]
+    },
+    "739139": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "31-33. Industrias manufactureras",
+        "Total industrias manufactureras"
+      ]
+    },
+    "738974": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "21 Minería",
+        "Minería petrolera"
+      ]
+    },
+    "738941": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "21 Minería",
+        "Total Minería"
+      ]
+    },
+    "739040": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "Total Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final"
+      ]
+    },
+    "739172": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "31-33. Industrias manufactureras",
+        "31 Industrias manufactureras"
+      ]
+    },
+    "739238": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "31-33. Industrias manufactureras",
+        "33 Industrias manufactureras"
+      ]
+    },
+    "739205": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "31-33. Industrias manufactureras",
+        "32 Industrias manufactureras"
+      ]
+    },
+    "739073": {
+      "nombre": "Total nacional ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por actividad económica y entidad federativa",
+        "Variación anual acumulada",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "2211 Generación, transmisión, distribución y comercialización de energía eléctrica"
+      ]
+    },
+    "739932": {
+      "nombre": "Total Minería ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual acumulada",
+        "Total nacional",
+        "21 Minería"
+      ]
+    },
+    "739933": {
+      "nombre": "Minería petrolera ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual acumulada",
+        "Total nacional",
+        "21 Minería"
+      ]
+    },
+    "739934": {
+      "nombre": "Minería no petrolera ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual acumulada",
+        "Total nacional",
+        "21 Minería"
+      ]
+    },
+    "739277": {
+      "nombre": "Total industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Índice",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739278": {
+      "nombre": "31 Industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Índice",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739279": {
+      "nombre": "32 Industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Índice",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739280": {
+      "nombre": "33 Industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Índice",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739272": {
+      "nombre": "Total Minería ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Índice",
+        "Total nacional",
+        "21 Minería"
+      ]
+    },
+    "739273": {
+      "nombre": "Minería petrolera ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Índice",
+        "Total nacional",
+        "21 Minería"
+      ]
+    },
+    "739274": {
+      "nombre": "Minería no petrolera ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Índice",
+        "Total nacional",
+        "21 Minería"
+      ]
+    },
+    "739602": {
+      "nombre": "Total Minería ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual",
+        "Total nacional",
+        "21 Minería"
+      ]
+    },
+    "739603": {
+      "nombre": "Minería petrolera ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual",
+        "Total nacional",
+        "21 Minería"
+      ]
+    },
+    "739604": {
+      "nombre": "Minería no petrolera ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual",
+        "Total nacional",
+        "21 Minería"
+      ]
+    },
+    "739607": {
+      "nombre": "Total industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739608": {
+      "nombre": "31 Industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739609": {
+      "nombre": "32 Industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739610": {
+      "nombre": "33 Industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739937": {
+      "nombre": "Total industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual acumulada",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739938": {
+      "nombre": "31 Industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual acumulada",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739939": {
+      "nombre": "32 Industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual acumulada",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    },
+    "739940": {
+      "nombre": "33 Industrias manufactureras ",
+      "ruta": [
+        "Actividad industrial por entidad",
+        "Series Originales",
+        "Por entidad federativa y actividad económica",
+        "Variación anual acumulada",
+        "Total nacional",
+        "31-33 Industrias manufactureras"
+      ]
+    }
+  }
+}

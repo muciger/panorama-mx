@@ -1,0 +1,140 @@
+{
+  "id": "autos_ligeros",
+  "nombre": "Industria Automotriz, vehículos ligeros",
+  "categoria": "automotriz",
+  "frecuencia": "mensual",
+  "unidad": "variación % anual",
+  "fuente_url": "https://www.inegi.org.mx/programas/raiavl/",
+  "sheet_origen": "Autos_ligeros",
+  "titulo_original": "Industria Automotriz, vehículos ligeros",
+  "subtitulo_original": "Variación anual (%)",
+  "columnas": [
+    "Mes",
+    "Ventas",
+    "Producción",
+    "Exportación"
+  ],
+  "columnas_normalizadas": [
+    "Mes",
+    "Ventas",
+    "Producción",
+    "Exportación"
+  ],
+  "ultima_actualizacion": "2026-04-10",
+  "proxima_actualizacion_manual": "11 de mayo de 2026",
+  "periodos": [
+    "mar-25",
+    "abr-25",
+    "may-25",
+    "jun-25",
+    "jul-25",
+    "ago-25",
+    "sep-25",
+    "oct-25",
+    "nov-25",
+    "dic-25",
+    "ene-26",
+    "feb-26",
+    "mar-26"
+  ],
+  "series": [
+    {
+      "Mes": "mar-25",
+      "Ventas": 1.8,
+      "Producción": 11,
+      "Exportación": 4.1
+    },
+    {
+      "Mes": "abr-25",
+      "Ventas": -4,
+      "Producción": -9.9,
+      "Exportación": -10.9
+    },
+    {
+      "Mes": "may-25",
+      "Ventas": 0.1,
+      "Producción": -2.6,
+      "Exportación": -2.9
+    },
+    {
+      "Mes": "jun-25",
+      "Ventas": -4.9,
+      "Producción": 4.9,
+      "Exportación": 14
+    },
+    {
+      "Mes": "jul-25",
+      "Ventas": 0.6,
+      "Producción": 2.4,
+      "Exportación": 7.9
+    },
+    {
+      "Mes": "ago-25",
+      "Ventas": -1.6,
+      "Producción": -0.8,
+      "Exportación": 1.4
+    },
+    {
+      "Mes": "sep-25",
+      "Ventas": 2.1,
+      "Producción": -6.1,
+      "Exportación": -0.3
+    },
+    {
+      "Mes": "oct-25",
+      "Ventas": 7.7,
+      "Producción": -3.7,
+      "Exportación": -5.5
+    },
+    {
+      "Mes": "nov-25",
+      "Ventas": -0.3,
+      "Producción": -8.4,
+      "Exportación": -4.2
+    },
+    {
+      "Mes": "dic-25",
+      "Ventas": 5,
+      "Producción": 8.5,
+      "Exportación": -14.5
+    },
+    {
+      "Mes": "ene-26",
+      "Ventas": 9,
+      "Producción": 0.7,
+      "Exportación": 8.2
+    },
+    {
+      "Mes": "feb-26",
+      "Ventas": -0.3,
+      "Producción": -1.8,
+      "Exportación": -4.4
+    },
+    {
+      "Mes": "mar-26",
+      "Ventas": 2.4,
+      "Producción": 2.5,
+      "Exportación": 4.2
+    }
+  ],
+  "benchmarks": {
+    "ma12_Ventas": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      -1.33,
+      -0.84,
+      0.22,
+      0.17,
+      0.65,
+      1.41,
+      1.27,
+      1.32
+    ]
+  },
+  "alertas_activas": [],
+  "ultima_revision_amia": "2026-05-04",
+  "nota_ingest": "Datos del último boletín AMIA-INEGI cargado manualmente. BIE no desagrega ligeros vs pesados. Para refresh automatizado se requiere parser del PDF mensual del RAIAVL (ligeros) y RAIAVPM (pesados)."
+}

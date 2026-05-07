@@ -1,0 +1,135 @@
+{% extends "base.html.j2" %}
+{% block content %}
+
+<section class="hero-section">
+  <header class="hero-head">
+    <div>
+      <h1 class="hero-title">Panorama económico de México</h1>
+      <p class="hero-sub">Indicadores económicos del INEGI con datos vivos del BIE. Refresh diario, desagregaciones sectoriales y por entidad.</p>
+    </div>
+    <a href="comparar.html" class="hero-personalize">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Análisis comparativos</span>
+    </a>
+  </header>
+
+  <div class="kpi-grid">
+    {% for k in kpis %}
+    <a class="kpi-card" href="{{ asset_prefix }}indicador/{{ k.id }}.html" aria-label="Ver detalle de {{ k.etiqueta }}">
+      <div class="kpi-icon-wrap" style="background:{{ k.icon_color }}1A;color:{{ k.icon_color }}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">{{ k.icon_svg | safe }}</svg>
+      </div>
+      <div class="kpi-meta">
+        <div class="kpi-label">{{ k.etiqueta }}</div>
+        <div class="kpi-periodo">{{ k.periodo_label }}</div>
+      </div>
+      <div class="kpi-valor-row">
+        <span class="kpi-valor" style="color:{{ k.color_valor }}">{{ k.valor_fmt }}</span>
+        <span class="kpi-unidad">{{ k.unidad }}</span>
+      </div>
+      <div class="kpi-unidad-label">{{ k.etiqueta_unidad }}</div>
+      {% if k.hom_pct is defined %}
+      <div class="kpi-genero">
+        <span class="kpi-genero-hom">♂ {{ k.hom_pct }}%</span>
+        <span class="kpi-genero-sep">·</span>
+        <span class="kpi-genero-muj">♀ {{ k.muj_pct }}%</span>
+      </div>
+      {% else %}
+      <div class="kpi-delta">
+        <span class="kpi-delta-arrow kpi-arrow-{{ k.delta_dir }}">{{ k.delta_arrow }}</span>
+        <span class="kpi-delta-text">{{ k.delta_texto }}</span>
+        <span class="kpi-delta-vs">vs. {{ k.delta_periodo_label }}</span>
+      </div>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<div class="content-grid">
+  <section class="pub-card">
+    <header class="card-head">
+      <h2 class="card-title">Publicaciones de hoy <span class="card-counter">{{ publicaciones | length }}</span></h2>
+      <a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener" class="card-action">Ver calendario INEGI</a>
+    </header>
+    <div class="pub-list">
+      {% if not publicaciones %}
+      <div style="padding:20px 12px;text-align:center;color:#71717A;font-size:12.5px;background:#FAFAFA;border:1px solid #F4F4F5;border-radius:8px">
+        Sin publicaciones programadas para hoy.
+        <br><a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener" style="color:#7C3AED;font-weight:500;margin-top:4px;display:inline-block">Ver calendario INEGI →</a>
+      </div>
+      {% endif %}
+      {% for p in publicaciones %}
+      <a class="pub-item" href="{{ asset_prefix }}indicador/{{ p.iid }}.html">
+        <div class="pub-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9zM14 3v6h6M9 13h6M9 17h6" stroke-width="2"/></svg>
+        </div>
+        <div class="pub-content">
+          <div class="pub-hora">{{ p.hora }}</div>
+          <div class="pub-nombre">{{ p.nombre }}</div>
+          <div class="pub-periodo">{{ p.fecha_label }}</div>
+        </div>
+        <div class="pub-actions">
+          <span class="pub-badge {% if p.es_hoy %}pub-publicado{% else %}pub-programado{% endif %}">{% if p.es_hoy %}Publicado{% else %}Programado{% endif %}</span>
+          <svg class="pub-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    <a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener" class="card-foot-link">Ver calendario completo en INEGI <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 4h6v6M10 14L20 4M19 13v6a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  </section>
+
+  <section class="indic-card">
+    <header class="card-head">
+      <h2 class="card-title">Indicadores económicos</h2>
+    </header>
+    <div class="indic-toolbar">
+      <div class="indic-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="tbl-search-v3" type="search" placeholder="Buscar indicador" aria-label="Buscar indicador">
+      </div>
+      <select id="tbl-cat-filter" class="indic-btn" aria-label="Filtrar por categoría" style="appearance:auto;padding-right:10px">
+        <option value="">Todas las categorías</option>
+        {% set cats_seen = [] %}
+        {% for r in tabla_rows %}
+          {% if r.categoria and r.categoria not in cats_seen %}
+            {% set _ = cats_seen.append(r.categoria) %}
+            <option value="{{ r.categoria }}">{{ r.categoria | capitalize }}</option>
+          {% endif %}
+        {% endfor %}
+      </select>
+      <a href="{{ asset_prefix }}data/tabla_resumen.csv" download class="indic-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 4v12M7 11l5 5 5-5M5 20h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Descargar</span>
+      </a>
+    </div>
+    <div class="indic-tbl-wrap">
+      <table class="indic-tbl" id="indic-tbl-v3">
+        <thead>
+          <tr><th>Indicador</th><th>Periodo</th><th class="num">Valor</th><th class="num">Variación</th><th>Tendencia</th></tr>
+        </thead>
+        <tbody>
+          {% for r in tabla_rows %}
+          <tr data-nombre="{{ r.nombre|lower }}" data-categoria="{{ r.categoria }}" onclick="location.href='{{ asset_prefix }}indicador/{{ r.iid }}.html'">
+            <td><strong>{{ r.nombre }}</strong></td>
+            <td class="muted">{{ r.periodo_label }}</td>
+            <td class="num">{{ r.valor_fmt }}</td>
+            <td class="num">
+              <div class="cell-delta delta-{{ r.delta_dir }}">
+                <span class="delta-arrow">{{ r.delta_arrow }}</span>
+                <span>{{ r.delta_fmt }}</span>
+              </div>
+              <div class="delta-sub">{{ r.var_label }}</div>
+            </td>
+            <td><canvas class="tabla-spark" id="spark-tbl-{{ r.iid }}" width="120" height="32"></canvas></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <a href="comparar.html" class="card-foot-link card-foot-center">Ver análisis comparativos <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg></a>
+  </section>
+</div>
+
+<script id="page-data-v3" type="application/json">{{ sparks_json | safe }}</script>
+{% endblock %}

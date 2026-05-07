@@ -1,0 +1,61 @@
+{
+  "id": "igae_ioae_resumen",
+  "nombre": "IGAE por gran actividad económica (resumen)",
+  "categoria": "actividad",
+  "frecuencia": "mensual",
+  "unidad": "%",
+  "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10741",
+  "sheet_origen": "IGAE_IOAE_resumen",
+  "titulo_original": "IGAE (enero 2026) e IOAE (febrero 2026)",
+  "subtitulo_original": "Variación real respecto al mismo mes del año anterior, series desestacionalizadas",
+  "columnas": [
+    "Concepto",
+    "Var_mensual_feb-26",
+    "Var_anual_feb-26"
+  ],
+  "columnas_normalizadas": [
+    "Concepto",
+    "Var_mensual_feb-26",
+    "Var_anual_feb-26"
+  ],
+  "ultima_actualizacion": "2026-05-05",
+  "proxima_actualizacion_manual": null,
+  "periodos": [
+    "feb-26",
+    "feb-26",
+    "feb-26",
+    "feb-26"
+  ],
+  "series": [
+    {
+      "Concepto": "Total",
+      "Var_mensual_feb-26": 0.11,
+      "Var_anual_feb-26": -0.27
+    },
+    {
+      "Concepto": "Actividades primarias",
+      "Var_mensual_feb-26": -0.26,
+      "Var_anual_feb-26": 2.28
+    },
+    {
+      "Concepto": "Actividades secundarias",
+      "Var_mensual_feb-26": 0.4,
+      "Var_anual_feb-26": -1.33
+    },
+    {
+      "Concepto": "Actividades terciarias",
+      "Var_mensual_feb-26": -0.05,
+      "Var_anual_feb-26": 0.18
+    }
+  ],
+  "benchmarks": {
+    "ma12_IGAE_ene-26": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "alertas_activas": [],
+  "fuente_ingest": "Composite derivado (igae)"
+}

@@ -1,0 +1,1646 @@
+{
+  "_meta": {
+    "root_id": "3623",
+    "root_name": "Indices de precios",
+    "elapsed_s": 29.9,
+    "calls": 39,
+    "queue_restante": 0,
+    "indicadores": 173
+  },
+  "indicadores": {
+    "910491": {
+      "nombre": "INPP sin Petróleo y con Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910492": {
+      "nombre": "INPP con Petróleo y con Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910493": {
+      "nombre": "Índice General Excluyendo Petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910494": {
+      "nombre": "Demanda Interna",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910495": {
+      "nombre": "Consumo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910496": {
+      "nombre": "Formación de capital",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910497": {
+      "nombre": "Exportaciones",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910498": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910499": {
+      "nombre": "21 Minería sin Petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910500": {
+      "nombre": "21 Minería con Petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910501": {
+      "nombre": "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910502": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910503": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910504": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910505": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910506": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910507": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910508": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910509": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910510": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910511": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910512": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "910513": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)"
+      ]
+    },
+    "316496": {
+      "nombre": "Paridades de Poder de Compra",
+      "ruta": [
+        "Indices de precios",
+        "Paridades de poder de compra para el Producto Interno Bruto de los países de la OCDE",
+        "Paridades de poder de compra"
+      ]
+    },
+    "316532": {
+      "nombre": "Niveles de precio comparativos",
+      "ruta": [
+        "Indices de precios",
+        "Paridades de poder de compra para el Producto Interno Bruto de los países de la OCDE",
+        "Paridades de poder de compra"
+      ]
+    },
+    "366721": {
+      "nombre": "Producto Interno Bruto en moneda nacional a precios corrientes",
+      "ruta": [
+        "Indices de precios",
+        "Paridades de poder de compra para el Producto Interno Bruto de los países de la OCDE",
+        "Paridades de poder de compra"
+      ]
+    },
+    "366757": {
+      "nombre": "Producto Interno Bruto en dólares de EU a Paridades de Poder de Compra corrientes",
+      "ruta": [
+        "Indices de precios",
+        "Paridades de poder de compra para el Producto Interno Bruto de los países de la OCDE",
+        "Paridades de poder de compra"
+      ]
+    },
+    "696978": {
+      "nombre": "Índices de volumen per cápita a paridades de poder de compra corrientes",
+      "ruta": [
+        "Indices de precios",
+        "Paridades de poder de compra para el Producto Interno Bruto de los países de la OCDE",
+        "Paridades de poder de compra"
+      ]
+    },
+    "696980": {
+      "nombre": "Índices de volumen per cápita a paridades de poder de compra constantes (2015)",
+      "ruta": [
+        "Indices de precios",
+        "Paridades de poder de compra para el Producto Interno Bruto de los países de la OCDE",
+        "Paridades de poder de compra"
+      ]
+    },
+    "910438": {
+      "nombre": "Índice general",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal interanual"
+      ]
+    },
+    "910427": {
+      "nombre": "Índice general",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal"
+      ]
+    },
+    "910445": {
+      "nombre": "Índice general",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal anual"
+      ]
+    },
+    "910420": {
+      "nombre": "Índice general",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Índice"
+      ]
+    },
+    "910392": {
+      "nombre": "Índice general",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Índice"
+      ]
+    },
+    "910413": {
+      "nombre": "Índice general",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación acumulada anual"
+      ]
+    },
+    "910399": {
+      "nombre": "Índice general",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual"
+      ]
+    },
+    "910406": {
+      "nombre": "Índice general",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual interanual"
+      ]
+    },
+    "909281": {
+      "nombre": "Índice general",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Incidencias"
+      ]
+    },
+    "909282": {
+      "nombre": "Subyacente",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Incidencias"
+      ]
+    },
+    "909283": {
+      "nombre": "Mercancías",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Incidencias"
+      ]
+    },
+    "909286": {
+      "nombre": "Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Incidencias"
+      ]
+    },
+    "909290": {
+      "nombre": "No Subyacente (nueva definición)",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Incidencias"
+      ]
+    },
+    "909291": {
+      "nombre": "Agropecuarios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Incidencias"
+      ]
+    },
+    "909294": {
+      "nombre": "Energéticos y tarifas autorizadas por el gobierno",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Incidencias"
+      ]
+    },
+    "910439": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal interanual",
+        "Subyacente"
+      ]
+    },
+    "910440": {
+      "nombre": "Mercancías",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal interanual",
+        "Subyacente"
+      ]
+    },
+    "910441": {
+      "nombre": "Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal interanual",
+        "Subyacente"
+      ]
+    },
+    "910442": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal interanual",
+        "No subyacente"
+      ]
+    },
+    "910443": {
+      "nombre": "Agropecuarios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal interanual",
+        "No subyacente"
+      ]
+    },
+    "910444": {
+      "nombre": "Energéticos y tarifas autorizadas por el gobierno",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal interanual",
+        "No subyacente"
+      ]
+    },
+    "910428": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal",
+        "Subyacente"
+      ]
+    },
+    "910429": {
+      "nombre": "Mercancías",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal",
+        "Subyacente"
+      ]
+    },
+    "910430": {
+      "nombre": "Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal",
+        "Subyacente"
+      ]
+    },
+    "910431": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal",
+        "No subyacente"
+      ]
+    },
+    "910432": {
+      "nombre": "Agropecuarios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal",
+        "No subyacente"
+      ]
+    },
+    "910433": {
+      "nombre": "Energéticos y tarifas autorizadas por el gobierno",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal",
+        "No subyacente"
+      ]
+    },
+    "910446": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal anual",
+        "Subyacente"
+      ]
+    },
+    "910447": {
+      "nombre": "Mercancías",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal anual",
+        "Subyacente"
+      ]
+    },
+    "910448": {
+      "nombre": "Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal anual",
+        "Subyacente"
+      ]
+    },
+    "910393": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Índice",
+        "Subyacente"
+      ]
+    },
+    "910394": {
+      "nombre": "Mercancías",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Índice",
+        "Subyacente"
+      ]
+    },
+    "910395": {
+      "nombre": "Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Índice",
+        "Subyacente"
+      ]
+    },
+    "910421": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Índice",
+        "Subyacente"
+      ]
+    },
+    "910422": {
+      "nombre": "Mercancías",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Índice",
+        "Subyacente"
+      ]
+    },
+    "910423": {
+      "nombre": "Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Índice",
+        "Subyacente"
+      ]
+    },
+    "910424": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Índice",
+        "No subyacente"
+      ]
+    },
+    "910425": {
+      "nombre": "Agropecuarios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Índice",
+        "No subyacente"
+      ]
+    },
+    "910426": {
+      "nombre": "Energéticos y tarifas autorizadas por el gobierno",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Índice",
+        "No subyacente"
+      ]
+    },
+    "910449": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal anual",
+        "No subyacente"
+      ]
+    },
+    "910450": {
+      "nombre": "Agropecuarios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal anual",
+        "No subyacente"
+      ]
+    },
+    "910451": {
+      "nombre": "Energéticos y tarifas autorizadas por el gobierno",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Quincenal",
+        "Inflación quincenal anual",
+        "No subyacente"
+      ]
+    },
+    "910417": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación acumulada anual",
+        "No subyacente"
+      ]
+    },
+    "910418": {
+      "nombre": "Agropecuarios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación acumulada anual",
+        "No subyacente"
+      ]
+    },
+    "910419": {
+      "nombre": "Energéticos y tarifas autorizadas por el gobierno",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación acumulada anual",
+        "No subyacente"
+      ]
+    },
+    "910396": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Índice",
+        "No subyacente"
+      ]
+    },
+    "910397": {
+      "nombre": "Agropecuarios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Índice",
+        "No subyacente"
+      ]
+    },
+    "910398": {
+      "nombre": "Energéticos y tarifas autorizadas por el gobierno",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Índice",
+        "No subyacente"
+      ]
+    },
+    "910400": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual",
+        "Subyacente"
+      ]
+    },
+    "910401": {
+      "nombre": "Mercancías",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual",
+        "Subyacente"
+      ]
+    },
+    "910402": {
+      "nombre": "Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual",
+        "Subyacente"
+      ]
+    },
+    "910414": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación acumulada anual",
+        "Subyacente"
+      ]
+    },
+    "910415": {
+      "nombre": "Mercancías",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación acumulada anual",
+        "Subyacente"
+      ]
+    },
+    "910416": {
+      "nombre": "Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación acumulada anual",
+        "Subyacente"
+      ]
+    },
+    "910410": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual interanual",
+        "No subyacente"
+      ]
+    },
+    "910411": {
+      "nombre": "Agropecuarios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual interanual",
+        "No subyacente"
+      ]
+    },
+    "910412": {
+      "nombre": "Energéticos y tarifas autorizadas por el gobierno",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual interanual",
+        "No subyacente"
+      ]
+    },
+    "910403": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual",
+        "No subyacente"
+      ]
+    },
+    "910404": {
+      "nombre": "Agropecuarios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual",
+        "No subyacente"
+      ]
+    },
+    "910405": {
+      "nombre": "Energéticos y tarifas autorizadas por el gobierno",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual",
+        "No subyacente"
+      ]
+    },
+    "1800001": {
+      "nombre": "INPP sin Petróleo y con Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800002": {
+      "nombre": "INPP con Petróleo y con Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800003": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800004": {
+      "nombre": "21 Minería sin petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800005": {
+      "nombre": "21 Minería con Petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800006": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800007": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800008": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800009": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800010": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800011": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800012": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800013": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800014": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800015": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800016": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800017": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "1800018": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Mensual"
+      ]
+    },
+    "910407": {
+      "nombre": "total",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual interanual",
+        "Subyacente"
+      ]
+    },
+    "910408": {
+      "nombre": "Mercancías",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual interanual",
+        "Subyacente"
+      ]
+    },
+    "910409": {
+      "nombre": "Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice Nacional de Precios al Consumidor. Base segunda quincena Julio 2018. Actualización de Canasta y Ponderadores 2024",
+        "Mensual",
+        "Inflación mensual interanual",
+        "Subyacente"
+      ]
+    },
+    "1801001": {
+      "nombre": "INPP sin Petróleo y con Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801002": {
+      "nombre": "INPP con Petróleo y con Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801003": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801004": {
+      "nombre": "21 Minería sin petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801005": {
+      "nombre": "21 Minería con Petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801006": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801007": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801008": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801009": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801010": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801011": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801012": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801013": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801014": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801015": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801016": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801017": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1801018": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Interanual"
+      ]
+    },
+    "1380015": {
+      "nombre": "1. Demanda interna",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1380016": {
+      "nombre": "1.1. Consumo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1380017": {
+      "nombre": "1.2. Formación de capital",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1380018": {
+      "nombre": "2. Exportaciones",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700001": {
+      "nombre": "INPP  Mercancías y Servicios Finales",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700002": {
+      "nombre": "INPP con Petróleo y con Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700003": {
+      "nombre": "Actividades primarias",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700004": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700160": {
+      "nombre": "Actividades secundarias sin petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700161": {
+      "nombre": "Actividades secundarias con petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700162": {
+      "nombre": "21 Minería sin petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700163": {
+      "nombre": "21 Minería con Petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700211": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700226": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1700244": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701070": {
+      "nombre": "Actividades terciarias",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701071": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701146": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701192": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701215": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701264": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701306": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701329": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701362": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701381": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1701404": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1750002": {
+      "nombre": "INPP Mercancías y Servicios intermedios",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Índices",
+        "Mensual"
+      ]
+    },
+    "1802001": {
+      "nombre": "INPP sin Petróleo y con Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802002": {
+      "nombre": "INPP con Petróleo y con Servicios",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802003": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802004": {
+      "nombre": "21 Minería sin petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802005": {
+      "nombre": "21 Minería con Petróleo",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802006": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802007": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802008": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802009": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802010": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802011": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802012": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802013": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802014": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802015": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802016": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802017": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    },
+    "1802018": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "Indices de precios",
+        "Índice nacional de precios productor. Producción total según actividad económica. Base Julio 2019=100 (SCIAN 2018)",
+        "Información General",
+        "Variaciones",
+        "Acumulada"
+      ]
+    }
+  }
+}

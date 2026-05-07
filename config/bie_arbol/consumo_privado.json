@@ -1,0 +1,844 @@
+{
+  "_meta": {
+    "root_id": "605903",
+    "root_name": "Consumo privado",
+    "elapsed_s": 46.0,
+    "calls": 44,
+    "queue_restante": 0,
+    "indicadores": 87
+  },
+  "indicadores": {
+    "740933": {
+      "nombre": "Total",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico"
+      ]
+    },
+    "740972": {
+      "nombre": "Total",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada"
+      ]
+    },
+    "740946": {
+      "nombre": "Total",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual"
+      ]
+    },
+    "740985": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740986": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740959": {
+      "nombre": "Total",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado"
+      ]
+    },
+    "740987": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740988": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740989": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740990": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "740991": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741015": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes importados",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741016": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes importados",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741017": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes importados",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741013": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes importados",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741014": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes importados",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741018": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes importados",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741019": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes importados",
+        "Tendencia-ciclo"
+      ]
+    },
+    "740940": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Importado"
+      ]
+    },
+    "740945": {
+      "nombre": "Compras netas de residentes y no residentes ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Importado"
+      ]
+    },
+    "740934": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Nacional"
+      ]
+    },
+    "740939": {
+      "nombre": "Servicios ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Nacional"
+      ]
+    },
+    "740973": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Nacional"
+      ]
+    },
+    "740978": {
+      "nombre": "Servicios ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Nacional"
+      ]
+    },
+    "740979": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Importado"
+      ]
+    },
+    "740984": {
+      "nombre": "Compras netas de residentes y no residentes ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Importado"
+      ]
+    },
+    "740966": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Importado"
+      ]
+    },
+    "740971": {
+      "nombre": "Compras netas de residentes y no residentes ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Importado"
+      ]
+    },
+    "740947": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Nacional"
+      ]
+    },
+    "740952": {
+      "nombre": "Servicios ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Nacional"
+      ]
+    },
+    "740953": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Importado"
+      ]
+    },
+    "740958": {
+      "nombre": "Compras netas de residentes y no residentes ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Importado"
+      ]
+    },
+    "740960": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Nacional"
+      ]
+    },
+    "740965": {
+      "nombre": "Servicios ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Nacional"
+      ]
+    },
+    "740941": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740942": {
+      "nombre": "Duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740943": {
+      "nombre": "Semi duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740944": {
+      "nombre": "No duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740992": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740993": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740994": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740995": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740996": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "740935": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740936": {
+      "nombre": "Duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740937": {
+      "nombre": "Semi duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740938": {
+      "nombre": "No duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740999": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Bienes",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741000": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Bienes",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740974": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740975": {
+      "nombre": "Duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740976": {
+      "nombre": "Semi duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740977": {
+      "nombre": "No duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740997": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "740998": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741001": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Bienes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741002": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Bienes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741003": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Bienes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741004": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Bienes",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741005": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Bienes",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741011": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741012": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741008": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741009": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741010": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741006": {
+      "nombre": "Índice",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Servicios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741007": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Consumo privado",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Bienes y servicios de origen nacional",
+        "Servicios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "740954": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740955": {
+      "nombre": "Duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740956": {
+      "nombre": "Semi duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740957": {
+      "nombre": "No duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740967": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740968": {
+      "nombre": "Duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740969": {
+      "nombre": "Semi duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740970": {
+      "nombre": "No duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740980": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740981": {
+      "nombre": "Duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740982": {
+      "nombre": "Semi duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740983": {
+      "nombre": "No duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Importado",
+        "Bienes"
+      ]
+    },
+    "740948": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740949": {
+      "nombre": "Duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740950": {
+      "nombre": "Semi duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740951": {
+      "nombre": "No duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Variación anual",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740961": {
+      "nombre": "Total ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740962": {
+      "nombre": "Duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740963": {
+      "nombre": "Semi duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Nacional",
+        "Bienes"
+      ]
+    },
+    "740964": {
+      "nombre": "No duraderos ",
+      "ruta": [
+        "Consumo privado",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Nacional",
+        "Bienes"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1142 @@
+{
+  "_fuente": "https://www.inegi.org.mx/contenidos/saladeprensa/doc/inegi.ics",
+  "_generado": "2026-05-02",
+  "_total_eventos_ics": 1201,
+  "_fecha_corte": "2026-05-02",
+  "indicadores": {
+    "pib_anual": {
+      "nombre": "PIB anual, variación real",
+      "categoria": "macro",
+      "frecuencia": "anual",
+      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)",
+      "vinculado_con": "pib_trimestral",
+      "ultima_publicacion_ics": {
+        "fecha": "2026-02-23",
+        "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Constantes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-24",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Constantes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-24",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-11-23",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Constantes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-11-23",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+        }
+      ],
+      "matches_total": 16
+    },
+    "pib_trimestral": {
+      "nombre": "PIB Total, variación trimestral y anual",
+      "categoria": "macro",
+      "frecuencia": "trimestral",
+      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-02-23",
+        "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Constantes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-24",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Constantes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-24",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-11-23",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Constantes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-11-23",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+        }
+      ],
+      "matches_total": 16
+    },
+    "pib_por_actividad": {
+      "nombre": "PIB por actividad",
+      "categoria": "macro",
+      "frecuencia": "trimestral",
+      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)",
+      "vinculado_con": "pib_trimestral",
+      "ultima_publicacion_ics": {
+        "fecha": "2026-02-23",
+        "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Constantes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-24",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Constantes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-24",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-11-23",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Constantes. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-11-23",
+          "evento_ics": "Producto Interno Bruto Trimestral (PIBT). Año base 2018. Precios Corrientes. Cifras preliminares"
+        }
+      ],
+      "matches_total": 16
+    },
+    "inflacion_resumen": {
+      "nombre": "Inflación anual INPC (resumen)",
+      "categoria": "precios",
+      "frecuencia": "mensual",
+      "patron_ics": "Índice Nacional de Precios al Consumidor \\(INPC\\)",
+      "vinculado_con": "inpc_mensual",
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-23",
+        "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-07",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. Mensual. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-06-09",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. Mensual. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-06-24",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-07-09",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. Mensual. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-07-23",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+        }
+      ],
+      "matches_total": 48
+    },
+    "igae_ioae_resumen": {
+      "nombre": "IGAE e IOAE resumen",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "patron_ics": "Indicador Global de la Actividad Económica",
+      "vinculado_con": "igae",
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-24",
+        "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-23",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-23",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-24",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-09-24",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-10-23",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        }
+      ],
+      "matches_total": 24
+    },
+    "igae": {
+      "nombre": "Indicador Global de la Actividad Económica",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "patron_ics": "Indicador Global de la Actividad Económica",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-24",
+        "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-23",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-23",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-24",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-09-24",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-10-23",
+          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        }
+      ],
+      "matches_total": 24
+    },
+    "actividad_industrial": {
+      "nombre": "Indicador Mensual de la Actividad Industrial",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "patron_ics": "Indicador Mensual de la Actividad Industrial",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-10",
+        "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-12",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial (IMAI). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-05-12",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-10",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-11",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial (IMAI). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-09",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-10",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial (IMAI). Año base 2018. Cifras preliminares"
+        }
+      ],
+      "matches_total": 48
+    },
+    "consumo_privado": {
+      "nombre": "Indicador Mensual del Consumo Privado",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "patron_ics": "Indicador Mensual del Consumo Privado",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-06",
+        "evento_ics": "Indicador Mensual del Consumo Privado (IMCP). Año base 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-06",
+          "evento_ics": "Indicador Mensual del Consumo Privado (IMCP). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-04",
+          "evento_ics": "Indicador Mensual del Consumo Privado (IMCP). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-06",
+          "evento_ics": "Indicador Mensual del Consumo Privado (IMCP). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-05",
+          "evento_ics": "Indicador Mensual del Consumo Privado (IMCP). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-09-04",
+          "evento_ics": "Indicador Mensual del Consumo Privado (IMCP). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-10-05",
+          "evento_ics": "Indicador Mensual del Consumo Privado (IMCP). Año base 2018. Cifras preliminares"
+        }
+      ],
+      "matches_total": 24
+    },
+    "fbcf": {
+      "nombre": "Formación Bruta de Capital Fijo",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "patron_ics": "Formación Bruta de Capital Fijo",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-06",
+        "evento_ics": "Indicador Mensual de la Formación Bruta de Capital Fijo (IMFBCF). Año base 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-06",
+          "evento_ics": "Indicador Mensual de la Formación Bruta de Capital Fijo (IMFBCF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-04",
+          "evento_ics": "Indicador Mensual de la Formación Bruta de Capital Fijo (IMFBCF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-06",
+          "evento_ics": "Indicador Mensual de la Formación Bruta de Capital Fijo (IMFBCF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-05",
+          "evento_ics": "Indicador Mensual de la Formación Bruta de Capital Fijo (IMFBCF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-09-04",
+          "evento_ics": "Indicador Mensual de la Formación Bruta de Capital Fijo (IMFBCF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-10-05",
+          "evento_ics": "Indicador Mensual de la Formación Bruta de Capital Fijo (IMFBCF). Año base 2018. Cifras preliminares"
+        }
+      ],
+      "matches_total": 26
+    },
+    "balanza_comercial": {
+      "nombre": "Balanza Comercial de Mercancías",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "patron_ics": "Balanza Comercial de Mercancías",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-27",
+        "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Información oportuna. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-11",
+          "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Cifras revisadas"
+        },
+        {
+          "fecha": "2026-05-25",
+          "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Información oportuna. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-10",
+          "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Cifras revisadas"
+        },
+        {
+          "fecha": "2026-06-26",
+          "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Información oportuna. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-10",
+          "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Cifras revisadas"
+        },
+        {
+          "fecha": "2026-07-27",
+          "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Información oportuna. Cifras preliminares"
+        }
+      ],
+      "matches_total": 50
+    },
+    "ind_ciclicos": {
+      "nombre": "Sistema de Indicadores Cíclicos",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "patron_ics": "Sistema de Indicadores Cíclicos",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-06",
+        "evento_ics": "Sistema de Indicadores Cíclicos"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-06",
+          "evento_ics": "Sistema de Indicadores Cíclicos"
+        },
+        {
+          "fecha": "2026-06-03",
+          "evento_ics": "Sistema de Indicadores Cíclicos"
+        },
+        {
+          "fecha": "2026-07-03",
+          "evento_ics": "Sistema de Indicadores Cíclicos"
+        },
+        {
+          "fecha": "2026-08-04",
+          "evento_ics": "Sistema de Indicadores Cíclicos"
+        },
+        {
+          "fecha": "2026-09-04",
+          "evento_ics": "Sistema de Indicadores Cíclicos"
+        },
+        {
+          "fecha": "2026-10-02",
+          "evento_ics": "Sistema de Indicadores Cíclicos"
+        }
+      ],
+      "matches_total": 24
+    },
+    "emim": {
+      "nombre": "Encuesta Mensual de la Industria Manufacturera",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "patron_ics": "Encuesta Mensual de la Industria Manufacturera",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-16",
+        "evento_ics": "Encuesta Mensual de la Industria Manufacturera (EMIM). Serie 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-15",
+          "evento_ics": "Encuesta Mensual de la Industria Manufacturera (EMIM). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-16",
+          "evento_ics": "Encuesta Mensual de la Industria Manufacturera (EMIM). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-16",
+          "evento_ics": "Encuesta Mensual de la Industria Manufacturera (EMIM). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-17",
+          "evento_ics": "Encuesta Mensual de la Industria Manufacturera (EMIM). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-09-17",
+          "evento_ics": "Encuesta Mensual de la Industria Manufacturera (EMIM). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-10-16",
+          "evento_ics": "Encuesta Mensual de la Industria Manufacturera (EMIM). Serie 2018. Cifras preliminares"
+        }
+      ],
+      "matches_total": 24
+    },
+    "enec": {
+      "nombre": "Encuesta Nacional de Empresas Constructoras",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "patron_ics": "Encuesta Nacional de Empresas Constructoras",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-24",
+        "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-21",
+          "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-24",
+          "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-24",
+          "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-08-25",
+          "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-09-24",
+          "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-10-23",
+          "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018"
+        }
+      ],
+      "matches_total": 24
+    },
+    "comercio_mayoreo": {
+      "nombre": "Empresas Comerciales, comercio al por mayor",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "patron_ics": "Empresas Comerciales",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-23",
+        "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-21",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-23",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-21",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-08-21",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-09-22",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-10-21",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
+        }
+      ],
+      "matches_total": 24
+    },
+    "comercio_menudeo": {
+      "nombre": "Empresas Comerciales, comercio al por menor",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "patron_ics": "Empresas Comerciales",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-23",
+        "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-21",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-23",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-21",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-08-21",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-09-22",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-10-21",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
+        }
+      ],
+      "matches_total": 24
+    },
+    "servicios": {
+      "nombre": "Encuesta Mensual de Servicios",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "patron_ics": "Encuesta Mensual de Servicios",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-23",
+        "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-21",
+          "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-23",
+          "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-21",
+          "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018"
+        },
+        {
+          "fecha": "2026-08-21",
+          "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018"
+        },
+        {
+          "fecha": "2026-09-22",
+          "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018"
+        },
+        {
+          "fecha": "2026-10-21",
+          "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018"
+        }
+      ],
+      "matches_total": 24
+    },
+    "autos_ligeros": {
+      "nombre": "Industria Automotriz, vehículos ligeros",
+      "categoria": "automotriz",
+      "frecuencia": "mensual",
+      "patron_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Ligeros",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-09",
+        "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Reporte del registro de la industria automotriz de vehículos ligeros"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-06",
+          "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Avance referente a las ventas al público de vehículos ligeros"
+        },
+        {
+          "fecha": "2026-05-11",
+          "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Reporte del registro de la industria automotriz de vehículos ligeros"
+        },
+        {
+          "fecha": "2026-06-03",
+          "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Avance referente a las ventas al público de vehículos ligeros"
+        },
+        {
+          "fecha": "2026-06-08",
+          "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Reporte del registro de la industria automotriz de vehículos ligeros"
+        },
+        {
+          "fecha": "2026-07-02",
+          "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Avance referente a las ventas al público de vehículos ligeros"
+        },
+        {
+          "fecha": "2026-07-07",
+          "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Reporte del registro de la industria automotriz de vehículos ligeros"
+        }
+      ],
+      "matches_total": 48
+    },
+    "autos_pesados": {
+      "nombre": "Industria Automotriz, vehículos pesados",
+      "categoria": "automotriz",
+      "frecuencia": "mensual",
+      "patron_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Pesados",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-13",
+        "evento_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Pesados"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-13",
+          "evento_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Pesados"
+        },
+        {
+          "fecha": "2026-06-09",
+          "evento_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Pesados"
+        },
+        {
+          "fecha": "2026-07-10",
+          "evento_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Pesados"
+        },
+        {
+          "fecha": "2026-08-11",
+          "evento_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Pesados"
+        },
+        {
+          "fecha": "2026-09-09",
+          "evento_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Pesados"
+        },
+        {
+          "fecha": "2026-10-09",
+          "evento_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Pesados"
+        }
+      ],
+      "matches_total": 24
+    },
+    "inpc_quincenal": {
+      "nombre": "INPC quincenal",
+      "categoria": "precios",
+      "frecuencia": "quincenal",
+      "patron_ics": "Índice Nacional de Precios al Consumidor \\(INPC\\)",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-23",
+        "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-07",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. Mensual. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-06-09",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. Mensual. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-06-24",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-07-09",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. Mensual. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-07-23",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+        }
+      ],
+      "matches_total": 48
+    },
+    "inpc_mensual": {
+      "nombre": "Índice Nacional de Precios al Consumidor",
+      "categoria": "precios",
+      "frecuencia": "mensual",
+      "patron_ics": "Índice Nacional de Precios al Consumidor \\(INPC\\)",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-23",
+        "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-07",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. Mensual. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-05-22",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-06-09",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. Mensual. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-06-24",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-07-09",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. Mensual. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-07-23",
+          "evento_ics": "Índice Nacional de Precios al Consumidor (INPC). Base 2ª Quincena Julio 2018. Actualización de Canasta y Ponderadores 2024. 1a quincena. Cifras definitivas"
+        }
+      ],
+      "matches_total": 48
+    },
+    "inpp": {
+      "nombre": "Índice Nacional de Precios Productor",
+      "categoria": "precios",
+      "frecuencia": "mensual",
+      "patron_ics": "Índice Nacional de Precios Productor",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-09",
+        "evento_ics": "Índice Nacional de Precios Productor (INPP). Año base julio 2019. Actualización 2025. Cifras definitivas"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-07",
+          "evento_ics": "Índice Nacional de Precios Productor (INPP). Año base julio 2019. Actualización 2025. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-06-09",
+          "evento_ics": "Índice Nacional de Precios Productor (INPP). Año base julio 2019. Actualización 2025. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-07-09",
+          "evento_ics": "Índice Nacional de Precios Productor (INPP). Año base julio 2019. Actualización 2025. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-08-07",
+          "evento_ics": "Índice Nacional de Precios Productor (INPP). Año base julio 2019. Actualización 2025. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-09-09",
+          "evento_ics": "Índice Nacional de Precios Productor (INPP). Año base julio 2019. Actualización 2025. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-10-08",
+          "evento_ics": "Índice Nacional de Precios Productor (INPP). Año base julio 2019. Actualización 2025. Cifras definitivas"
+        }
+      ],
+      "matches_total": 24
+    },
+    "enoe_trimestral": {
+      "nombre": "Encuesta Nacional de Ocupación y Empleo (trimestral)",
+      "categoria": "empleo",
+      "frecuencia": "trimestral",
+      "patron_ics": "Encuesta Nacional de Ocupación y Empleo",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-24",
+        "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Indicadores de Ocupación y Empleo. Cifras definitivas"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-26",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-05-28",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Indicadores de Ocupación y Empleo. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-06-25",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Indicadores de Ocupación y Empleo. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-07-24",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Indicadores de Ocupación y Empleo. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-08-25",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-08-27",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Indicadores de Ocupación y Empleo. Cifras definitivas"
+        }
+      ],
+      "matches_total": 33
+    },
+    "export_entidad": {
+      "nombre": "Exportaciones por Entidad Federativa",
+      "categoria": "regional",
+      "frecuencia": "trimestral",
+      "patron_ics": "Exportaciones por Entidad Federativa",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-03-31",
+        "evento_ics": "Exportaciones por Entidad Federativa (ETEF). Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-06-30",
+          "evento_ics": "Exportaciones por Entidad Federativa (ETEF). Cifras preliminares"
+        },
+        {
+          "fecha": "2026-09-30",
+          "evento_ics": "Exportaciones por Entidad Federativa (ETEF). Cifras preliminares"
+        },
+        {
+          "fecha": "2026-12-23",
+          "evento_ics": "Exportaciones por Entidad Federativa (ETEF). Cifras preliminares"
+        }
+      ],
+      "matches_total": 8
+    },
+    "confianza_consumidor": {
+      "nombre": "Indicador de Confianza del Consumidor",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "patron_ics": "Encuesta Nacional sobre Confianza del Consumidor",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-08",
+        "evento_ics": "Encuesta Nacional sobre Confianza del Consumidor (ENCO). Cifras definitivas"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-08",
+          "evento_ics": "Encuesta Nacional sobre Confianza del Consumidor (ENCO). Cifras definitivas"
+        },
+        {
+          "fecha": "2026-06-05",
+          "evento_ics": "Encuesta Nacional sobre Confianza del Consumidor (ENCO). Cifras definitivas"
+        },
+        {
+          "fecha": "2026-07-03",
+          "evento_ics": "Encuesta Nacional sobre Confianza del Consumidor (ENCO). Cifras definitivas"
+        },
+        {
+          "fecha": "2026-08-04",
+          "evento_ics": "Encuesta Nacional sobre Confianza del Consumidor (ENCO). Cifras definitivas"
+        },
+        {
+          "fecha": "2026-09-03",
+          "evento_ics": "Encuesta Nacional sobre Confianza del Consumidor (ENCO). Cifras definitivas"
+        },
+        {
+          "fecha": "2026-10-06",
+          "evento_ics": "Encuesta Nacional sobre Confianza del Consumidor (ENCO). Cifras definitivas"
+        }
+      ],
+      "matches_total": 24
+    },
+    "emoe_ipm": {
+      "nombre": "EMOE Indicador de Pedidos Manufactureros",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "patron_ics": "Indicadores de Expectativas Empresariales|Encuesta Mensual de Opinión Empresarial",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-01",
+        "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores Agregados de Tendencia y Expectativas Empresariales. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-04",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicador de Pedidos Manufactureros. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-05-04",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores de Confianza Empresarial. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-05-04",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores Agregados de Tendencia y Expectativas Empresariales. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-01",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicador de Pedidos Manufactureros. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-01",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores de Confianza Empresarial. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-01",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores Agregados de Tendencia y Expectativas Empresariales. Cifras preliminares"
+        }
+      ],
+      "matches_total": 72
+    },
+    "emoe_iat": {
+      "nombre": "EMOE Indicadores Agregados de Tendencia",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "patron_ics": "Indicadores Agregados de Tendencia|Encuesta Mensual de Opinión Empresarial",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-01",
+        "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores Agregados de Tendencia y Expectativas Empresariales. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-04",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicador de Pedidos Manufactureros. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-05-04",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores de Confianza Empresarial. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-05-04",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores Agregados de Tendencia y Expectativas Empresariales. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-01",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicador de Pedidos Manufactureros. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-01",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores de Confianza Empresarial. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-01",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores Agregados de Tendencia y Expectativas Empresariales. Cifras preliminares"
+        }
+      ],
+      "matches_total": 72
+    },
+    "emoe_ice": {
+      "nombre": "EMOE Indicador Global de Confianza Empresarial",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "patron_ics": "Indicador de Confianza Empresarial|Encuesta Mensual de Opinión Empresarial",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-01",
+        "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores Agregados de Tendencia y Expectativas Empresariales. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-04",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicador de Pedidos Manufactureros. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-05-04",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores de Confianza Empresarial. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-05-04",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores Agregados de Tendencia y Expectativas Empresariales. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-01",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicador de Pedidos Manufactureros. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-01",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores de Confianza Empresarial. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-01",
+          "evento_ics": "Encuesta Mensual de Opinión Empresarial (EMOE). Serie 2018. Indicadores Agregados de Tendencia y Expectativas Empresariales. Cifras preliminares"
+        }
+      ],
+      "matches_total": 72
+    },
+    "enoe_mensual": {
+      "nombre": "ENOE, tasas mensuales de participación, subocupación, desocupación e informalidad",
+      "categoria": "empleo",
+      "frecuencia": "mensual",
+      "patron_ics": "Encuesta Nacional de Ocupación y Empleo",
+      "vinculado_con": "enoe_trimestral",
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-24",
+        "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Indicadores de Ocupación y Empleo. Cifras definitivas"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-26",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-05-28",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Indicadores de Ocupación y Empleo. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-06-25",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Indicadores de Ocupación y Empleo. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-07-24",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Indicadores de Ocupación y Empleo. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-08-25",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Cifras definitivas"
+        },
+        {
+          "fecha": "2026-08-27",
+          "evento_ics": "Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de edad. Indicadores de Ocupación y Empleo. Cifras definitivas"
+        }
+      ],
+      "matches_total": 33
+    },
+    "pib_estatal": {
+      "nombre": "PIB estatal, variación anual real",
+      "categoria": "regional",
+      "frecuencia": "anual",
+      "patron_ics": "Producto Interno Bruto por Entidad Federativa",
+      "vinculado_con": "pib_anual",
+      "ultima_publicacion_ics": {
+        "fecha": "2025-12-05",
+        "evento_ics": "Producto Interno Bruto por Entidad Federativa (PIBE). Año base 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-07-06",
+          "evento_ics": "Producto Interno Bruto por Entidad Federativa (PIBE). Año base 2018. Cifras revisadas"
+        },
+        {
+          "fecha": "2026-12-07",
+          "evento_ics": "Producto Interno Bruto por Entidad Federativa (PIBE). Año base 2018. Cifras preliminares"
+        }
+      ],
+      "matches_total": 4
+    },
+    "itaee_estatal": {
+      "nombre": "ITAEE, actividad económica por entidad (trimestral)",
+      "categoria": "regional",
+      "frecuencia": "trimestral",
+      "patron_ics": "Indicador Trimestral de la Actividad Económica Estatal",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-29",
+        "evento_ics": "Indicador Trimestral de la Actividad Económica Estatal (ITAEE). Año base 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-07-29",
+          "evento_ics": "Indicador Trimestral de la Actividad Económica Estatal (ITAEE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-10-29",
+          "evento_ics": "Indicador Trimestral de la Actividad Económica Estatal (ITAEE). Año base 2018. Cifras preliminares"
+        }
+      ],
+      "matches_total": 8
+    },
+    "imai_estatal": {
+      "nombre": "IMAI estatal, actividad industrial por entidad",
+      "categoria": "regional",
+      "frecuencia": "mensual",
+      "patron_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa",
+      "vinculado_con": null,
+      "ultima_publicacion_ics": {
+        "fecha": "2026-04-10",
+        "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-05-12",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-10",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-09",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-08-10",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-09-09",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-10-09",
+          "evento_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa (IMAIEF). Año base 2018. Cifras preliminares"
+        }
+      ],
+      "matches_total": 24
+    }
+  }
+}

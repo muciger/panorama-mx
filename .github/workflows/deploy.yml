@@ -1,0 +1,59 @@
+name: Panorama MX — Build & Deploy
+
+on:
+  schedule:
+    # 8:30 AM hora Ciudad de México (CDT = UTC-5, CST = UTC-6)
+    # 13:30 UTC cubre CDT; en invierno corre a las 7:30 AM CST (aceptable)
+    - cron: '30 13 * * *'
+  workflow_dispatch:  # permite disparar manualmente desde GitHub Actions
+
+permissions:
+  contents: write   # necesario para push a gh-pages
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código fuente
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependencias del sistema
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            libmupdf-dev \
+            poppler-utils
+
+      - name: Instalar dependencias Python
+        run: pip install -r requirements.txt --break-system-packages || pip install -r requirements.txt
+
+      - name: Correr pipeline completo
+        env:
+          INEGI_BIE_TOKEN: ${{ secrets.INEGI_BIE_TOKEN }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/refresh_daily.py
+
+      - name: Verificar que site/ fue generado
+        run: |
+          if [ ! -f site/index.html ]; then
+            echo "ERROR: site/index.html no existe. El build falló."
+            exit 1
+          fi
+          echo "OK — $(find site -name '*.html' | wc -l) páginas HTML generadas"
+
+      - name: Deploy a GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages
+          commit_message: "deploy: ${{ github.run_number }} — ${{ github.event_name }}"
+          force_orphan: true   # rama gh-pages liviana, solo el último build

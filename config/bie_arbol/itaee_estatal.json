@@ -1,0 +1,622 @@
+{
+  "_meta": {
+    "root_id": "603944",
+    "root_name": "ITAEE base 2018",
+    "elapsed_s": 42.8,
+    "calls": 57,
+    "queue_restante": 0,
+    "indicadores": 63
+  },
+  "indicadores": {
+    "741925": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741926": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741930": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741931": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741927": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741928": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741929": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741218": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Total de la actividad económica estatal",
+        "Variación anual"
+      ]
+    },
+    "741221": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Total de la actividad económica estatal",
+        "Variación anual"
+      ]
+    },
+    "741222": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Total de la actividad económica estatal",
+        "Variación anual"
+      ]
+    },
+    "741177": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Total de la actividad económica estatal",
+        "Índice"
+      ]
+    },
+    "741180": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Total de la actividad económica estatal",
+        "Índice"
+      ]
+    },
+    "741181": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Total de la actividad económica estatal",
+        "Índice"
+      ]
+    },
+    "741733": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "Total",
+        "Índice"
+      ]
+    },
+    "778339": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "54-55-56-81 - Servicios profesionales, científicos y técnicos. Corporativos. Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación. Otros servicios excepto actividades gubernamentales",
+        "Índice"
+      ]
+    },
+    "741765": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "Total",
+        "Variación anual"
+      ]
+    },
+    "778371": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "54-55-56-81 - Servicios profesionales, científicos y técnicos. Corporativos. Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación. Otros servicios excepto actividades gubernamentales",
+        "Variación anual"
+      ]
+    },
+    "741829": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "43-46 Comercio al por mayor y al por menor",
+        "Variación anual"
+      ]
+    },
+    "778275": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "52-53 - Servicios financieros y de seguros. Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Índice"
+      ]
+    },
+    "741797": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "43-46 Comercio al por mayor y al por menor",
+        "Índice"
+      ]
+    },
+    "778307": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "52-53 - Servicios financieros y de seguros. Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Variación anual"
+      ]
+    },
+    "778211": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "48-49-51 - Transportes, correos y almacenamiento. Información en medios masivos",
+        "Índice"
+      ]
+    },
+    "778499": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "71-72 - Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos. Servicios de alojamiento temporal y de preparación de alimentos y bebidas ",
+        "Variación anual"
+      ]
+    },
+    "778467": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "71-72 - Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos. Servicios de alojamiento temporal y de preparación de alimentos y bebidas ",
+        "Índice"
+      ]
+    },
+    "778243": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "48-49-51 - Transportes, correos y almacenamiento. Información en medios masivos",
+        "Variación anual"
+      ]
+    },
+    "778435": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "61-62-93- Servicios educativos. Servicios de salud y de asistencia social. Actividades legislativas, gubernamentales, de impartición de justicia",
+        "Variación anual"
+      ]
+    },
+    "741364": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "Total",
+        "Variación anual"
+      ]
+    },
+    "741367": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "Total",
+        "Variación anual"
+      ]
+    },
+    "741368": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "Total",
+        "Variación anual"
+      ]
+    },
+    "741323": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "Total",
+        "Índice"
+      ]
+    },
+    "741326": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "Total",
+        "Índice"
+      ]
+    },
+    "741327": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "Total",
+        "Índice"
+      ]
+    },
+    "778403": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades terciarias",
+        "61-62-93- Servicios educativos. Servicios de salud y de asistencia social. Actividades legislativas, gubernamentales, de impartición de justicia",
+        "Índice"
+      ]
+    },
+    "741405": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "21 Minería",
+        "Índice"
+      ]
+    },
+    "741408": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "21 Minería",
+        "Índice"
+      ]
+    },
+    "741409": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "21 Minería",
+        "Índice"
+      ]
+    },
+    "741569": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Índice"
+      ]
+    },
+    "741572": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Índice"
+      ]
+    },
+    "741573": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Índice"
+      ]
+    },
+    "741446": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "21 Minería",
+        "Variación anual"
+      ]
+    },
+    "741449": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "21 Minería",
+        "Variación anual"
+      ]
+    },
+    "741450": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "21 Minería",
+        "Variación anual"
+      ]
+    },
+    "741610": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Variación anual"
+      ]
+    },
+    "741613": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Variación anual"
+      ]
+    },
+    "741614": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Variación anual"
+      ]
+    },
+    "778179": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades primarias",
+        "Resto",
+        "Variación anual"
+      ]
+    },
+    "741487": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Índice"
+      ]
+    },
+    "741490": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Índice"
+      ]
+    },
+    "741491": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Índice"
+      ]
+    },
+    "741528": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Variación anual"
+      ]
+    },
+    "741531": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Variación anual"
+      ]
+    },
+    "741532": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+        "Variación anual"
+      ]
+    },
+    "778147": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades primarias",
+        "Resto",
+        "Índice"
+      ]
+    },
+    "741651": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Índice"
+      ]
+    },
+    "741654": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Índice"
+      ]
+    },
+    "741655": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Índice"
+      ]
+    },
+    "741692": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Variación anual"
+      ]
+    },
+    "741695": {
+      "nombre": "Con petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Variación anual"
+      ]
+    },
+    "741696": {
+      "nombre": "Sin petróleo",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Variación anual"
+      ]
+    },
+    "778083": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades primarias",
+        "111-112 - Agricultura. Cría y explotación de animales",
+        "Índice"
+      ]
+    },
+    "778115": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades primarias",
+        "111-112 - Agricultura. Cría y explotación de animales",
+        "Variación anual"
+      ]
+    },
+    "741259": {
+      "nombre": "Índice",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades primarias",
+        "Total",
+        "Índice"
+      ]
+    },
+    "741291": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ITAEE base 2018",
+        "Series Originales",
+        "Actividades primarias",
+        "Total",
+        "Variación anual"
+      ]
+    }
+  }
+}

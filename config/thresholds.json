@@ -1,0 +1,52 @@
+{
+  "_descripcion": "Umbrales de alerta por indicador. Evaluación: verde (ok), amarillo (vigilancia), rojo (fuera de banda). Defaults aprobados 2026-04-17.",
+  "_version": "1.0",
+  "_regla": "Para campos con umbrales max: valor<verde_max=verde, verde_max<=valor<amarillo_max=amarillo, valor>=amarillo_max=rojo. Para campos con umbrales min: valor>=verde_min=verde, amarillo_min<=valor<verde_min=amarillo, valor<amarillo_min=rojo.",
+  "thresholds": {
+    "inpc_mensual": {
+      "INPC_Anual": {
+        "tipo": "max",
+        "verde_max": 3.5,
+        "amarillo_max": 4.5,
+        "mensaje_amarillo": "Inflación anual cerca del techo del objetivo Banxico (3% +/- 1pp)",
+        "mensaje_rojo": "Inflación fuera de banda superior del objetivo Banxico"
+      }
+    },
+    "balanza_comercial": {
+      "Exportaciones_totales_Anual": {
+        "tipo": "min",
+        "verde_min": 3.0,
+        "amarillo_min": 0.0,
+        "mensaje_amarillo": "Crecimiento débil de exportaciones (0-3% anual)",
+        "mensaje_rojo": "Caída en exportaciones totales anuales"
+      }
+    },
+    "igae": {
+      "Total_Anual": {
+        "tipo": "min",
+        "verde_min": 2.0,
+        "amarillo_min": 0.0,
+        "mensaje_amarillo": "Crecimiento anual débil (0 a 2%)",
+        "mensaje_rojo": "Contracción en IGAE anual"
+      }
+    },
+    "enoe_trimestral": {
+      "Tasa_desocupacion": {
+        "tipo": "max",
+        "verde_max": 3.0,
+        "amarillo_max": 4.0,
+        "mensaje_amarillo": "Desocupación entre 3% y 4%",
+        "mensaje_rojo": "Desocupación superior a 4%"
+      }
+    },
+    "confianza_consumidor": {
+      "Mensual": {
+        "tipo": "min",
+        "verde_min": 0.0,
+        "amarillo_min": -1.0,
+        "mensaje_amarillo": "Confianza del consumidor en retroceso leve (0 a -1 pp)",
+        "mensaje_rojo": "Caída significativa en confianza del consumidor (> -1 pp)"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_descripcion": "Síntesis macro del periodo, renderizada en hero del home. Draft Claude + aprobación editor. Datos vía API BIE-INEGI.",
+  "_version": "2.0",
+  "ultima_actualizacion": "2026-05-02",
+  "ventana_cubierta": "Indicadores publicados hasta mayo 2026",
+  "titulo": "Lectura macro al 2 de mayo",
+  "parrafos": [
+    "La inflación anual cerró marzo en 4.59% con subyacente en 4.45%. Ambos siguen arriba del objetivo Banxico de 3% ±1pp. El PIB se contrajo 0.77% trimestral en T1 2026 según la estimación oportuna y creció solo 0.20% anual. El arranque del año es débil. El IGAE de febrero subió 0.11% mensual pero cayó 0.27% anual. Secundarias retrocedieron 1.33%.",
+    "Las exportaciones crecieron 23.86% anual en marzo y las importaciones 19.93%. El mercado laboral mantiene baja holgura. La tasa de desocupación cerró marzo en 2.80% y la participación en 58.83%. La actividad industrial creció 0.40% mensual desestacionalizado en febrero, con manufacturas (+0.71%) y minería (+0.57%) liderando el avance. La confianza del consumidor cayó 1.99 puntos anuales en marzo.",
+    "La inversión fija bruta retrocedió 2.18% anual en enero. Maquinaria y equipo cayó 8.02%. El consumo privado avanzó 2.66% anual en enero pero retrocedió 1.55% mensual. El INPP general subió 2.46% anual sin petróleo en marzo."
+  ],
+  "kpis_destacados": [
+    {"id": "inpc_mensual", "etiqueta": "Inflación anual mar-26", "valor": "4.59%", "nota": "Subyacente 4.45%"},
+    {"id": "igae", "etiqueta": "IGAE anual feb-26", "valor": "-0.27%", "nota": "Var. mensual +0.11%"},
+    {"id": "balanza_comercial", "etiqueta": "Exportaciones anual mar-26", "valor": "+23.86%", "nota": "Importaciones +19.93%"},
+    {"id": "enoe_mensual", "etiqueta": "Desocupación mar-26", "valor": "2.80%", "nota": "Participación 58.83%"}
+  ]
+}

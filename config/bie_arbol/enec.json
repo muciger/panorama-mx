@@ -1,0 +1,2190 @@
+{
+  "_meta": {
+    "root_id": "568505",
+    "root_name": "ENEC serie 2018",
+    "elapsed_s": 114.3,
+    "calls": 137,
+    "queue_restante": 0,
+    "indicadores": 214
+  },
+  "indicadores": {
+    "720322": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Gastos por consumo de bienes y servicios totales"
+      ]
+    },
+    "720323": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Gastos por consumo de bienes y servicios totales"
+      ]
+    },
+    "720324": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Ingresos por suministro de bienes y servicios totales"
+      ]
+    },
+    "720325": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Ingresos por suministro de bienes y servicios totales"
+      ]
+    },
+    "720316": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones medias (Salarios y sueldos)"
+      ]
+    },
+    "720317": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones medias (Salarios y sueldos)"
+      ]
+    },
+    "720298": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal ocupado total"
+      ]
+    },
+    "720299": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal ocupado total"
+      ]
+    },
+    "720320": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones medias por hora trabajada"
+      ]
+    },
+    "720321": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones medias por hora trabajada"
+      ]
+    },
+    "720318": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones medias por persona ocupada"
+      ]
+    },
+    "720319": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones medias por persona ocupada"
+      ]
+    },
+    "720286": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal ocupado total"
+      ]
+    },
+    "720287": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal ocupado total"
+      ]
+    },
+    "720308": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal subcontratado"
+      ]
+    },
+    "720309": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal subcontratado"
+      ]
+    },
+    "720296": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal subcontratado"
+      ]
+    },
+    "720297": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal subcontratado"
+      ]
+    },
+    "720437": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720438": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720442": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720443": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720439": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720440": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720441": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720449": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Salarios medios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720450": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Salarios medios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720444": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Salarios medios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720445": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Salarios medios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720446": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Salarios medios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720447": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Salarios medios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720448": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Salarios medios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720493": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal suministrado por otra razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720494": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal suministrado por otra razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720463": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal ocupado total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720464": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal ocupado total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720460": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720461": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720462": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720458": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal ocupado total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720459": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal ocupado total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720451": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Sueldos medios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720452": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Sueldos medios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720453": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Sueldos medios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720454": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Sueldos medios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720455": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Sueldos medios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720495": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal suministrado por otra razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720496": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal suministrado por otra razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720497": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal suministrado por otra razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720498": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal suministrado por otra razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720499": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal suministrado por otra razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720348": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Total valor de producción",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720349": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Total valor de producción",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720350": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Total valor de producción",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720346": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Total valor de producción",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720347": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Total valor de producción",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720456": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Sueldos medios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720457": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones reales por persona ocupada",
+        "Sueldos medios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720351": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Total valor de producción",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720352": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Total valor de producción",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720369": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Electricidad y telecomunicaciones",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720370": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Electricidad y telecomunicaciones",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720371": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Electricidad y telecomunicaciones",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720360": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Agua, riego y saneamiento",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720361": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Agua, riego y saneamiento",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720367": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Electricidad y telecomunicaciones",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720368": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Electricidad y telecomunicaciones",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720372": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Electricidad y telecomunicaciones",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720373": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Electricidad y telecomunicaciones",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720365": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Agua, riego y saneamiento",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720366": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Agua, riego y saneamiento",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720355": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Edificación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720356": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Edificación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720357": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Edificación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720353": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Edificación",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720354": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Edificación",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720362": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Agua, riego y saneamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720363": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Agua, riego y saneamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720364": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Agua, riego y saneamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720400": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal ocupado total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720401": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal ocupado total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720395": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal ocupado total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720396": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal ocupado total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720397": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720398": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720399": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720358": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Edificación",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720359": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Edificación",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720374": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Transporte y urbanización",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720375": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Transporte y urbanización",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720388": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Otras construcciones",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720389": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Otras construcciones",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720390": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Otras construcciones",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720391": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Otras construcciones",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720392": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Otras construcciones",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720393": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Otras construcciones",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720394": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Otras construcciones",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720379": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Transporte y urbanización",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720380": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Transporte y urbanización",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720376": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Transporte y urbanización",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720377": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Transporte y urbanización",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720378": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Transporte y urbanización",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720381": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Petróleo y petroquímica",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720382": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Petróleo y petroquímica",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720383": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Petróleo y petroquímica",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720384": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Petróleo y petroquímica",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720385": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Petróleo y petroquímica",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720386": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Petróleo y petroquímica",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720387": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Valor de la producción",
+        "Petróleo y petroquímica",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720314": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones totales",
+        "Sueldos medios"
+      ]
+    },
+    "720315": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones totales",
+        "Sueldos medios"
+      ]
+    },
+    "720310": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones totales",
+        "Remuneraciones totales"
+      ]
+    },
+    "720311": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones totales",
+        "Remuneraciones totales"
+      ]
+    },
+    "720312": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones totales",
+        "Salarios medios"
+      ]
+    },
+    "720313": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Remuneraciones",
+        "Remuneraciones totales",
+        "Salarios medios"
+      ]
+    },
+    "720300": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social\t\t\t",
+        "Horas trabajadas por el personal dependiente de la razón social total"
+      ]
+    },
+    "720301": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social\t\t\t",
+        "Horas trabajadas por el personal dependiente de la razón social total"
+      ]
+    },
+    "720435": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal suministrado por otra razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720436": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal suministrado por otra razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720432": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal suministrado por otra razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720433": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal suministrado por otra razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720434": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal suministrado por otra razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720430": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal suministrado por otra razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720431": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal suministrado por otra razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720304": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social\t\t\t",
+        "Horas trabajadas por empleados administrativos, contables y de dirección"
+      ]
+    },
+    "720305": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social\t\t\t",
+        "Horas trabajadas por empleados administrativos, contables y de dirección"
+      ]
+    },
+    "720302": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social\t\t\t",
+        "Horas trabajadas por obreros"
+      ]
+    },
+    "720303": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social\t\t\t",
+        "Horas trabajadas por obreros"
+      ]
+    },
+    "720306": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social\t\t\t",
+        "Horas trabajadas por propietarios, familiares y otros trabajadores no remunerados"
+      ]
+    },
+    "720307": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social\t\t\t",
+        "Horas trabajadas por propietarios, familiares y otros trabajadores no remunerados"
+      ]
+    },
+    "720288": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Personal dependiente de la razón social total"
+      ]
+    },
+    "720289": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Personal dependiente de la razón social total"
+      ]
+    },
+    "720294": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Propietarios, familiares y otros trabajadores no remunerados"
+      ]
+    },
+    "720295": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Propietarios, familiares y otros trabajadores no remunerados"
+      ]
+    },
+    "720290": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Obreros"
+      ]
+    },
+    "720291": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Obreros"
+      ]
+    },
+    "720326": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Valor de la producción total",
+        "Valor de la producción total"
+      ]
+    },
+    "720327": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Valor de la producción total",
+        "Valor de la producción total"
+      ]
+    },
+    "720292": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Empleados administrativos, contables y de dirección"
+      ]
+    },
+    "720293": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Empleados administrativos, contables y de dirección"
+      ]
+    },
+    "720336": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Agua, riego y saneamiento"
+      ]
+    },
+    "720337": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Agua, riego y saneamiento"
+      ]
+    },
+    "720332": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Total"
+      ]
+    },
+    "720333": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Total"
+      ]
+    },
+    "720334": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Edificación"
+      ]
+    },
+    "720335": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Edificación"
+      ]
+    },
+    "720342": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Petróleo y petroquímica"
+      ]
+    },
+    "720343": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Petróleo y petroquímica"
+      ]
+    },
+    "720344": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Otras construcciones"
+      ]
+    },
+    "720345": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Otras construcciones"
+      ]
+    },
+    "720340": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Transporte y urbanización"
+      ]
+    },
+    "720341": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Transporte y urbanización"
+      ]
+    },
+    "720338": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Electricidad y telecomunicaciones"
+      ]
+    },
+    "720339": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Por tipo de obra",
+        "Electricidad y telecomunicaciones"
+      ]
+    },
+    "720488": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los propietarios, familiares y otros trabajadores no remunerados dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720489": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los propietarios, familiares y otros trabajadores no remunerados dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720490": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los propietarios, familiares y otros trabajadores no remunerados dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720486": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los propietarios, familiares y otros trabajadores no remunerados dependientes de la razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720487": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los propietarios, familiares y otros trabajadores no remunerados dependientes de la razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720491": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los propietarios, familiares y otros trabajadores no remunerados dependientes de la razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720492": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los propietarios, familiares y otros trabajadores no remunerados dependientes de la razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720465": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por el personal dependiente de la razón social total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720466": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por el personal dependiente de la razón social total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720472": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los obreros dependientes de la razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720473": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los obreros dependientes de la razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720470": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por el personal dependiente de la razón social total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720471": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por el personal dependiente de la razón social total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720467": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por el personal dependiente de la razón social total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720468": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por el personal dependiente de la razón social total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720469": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por el personal dependiente de la razón social total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720474": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los obreros dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720475": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los obreros dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720476": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los obreros dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720479": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los empleados dependientes de la razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720480": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los empleados dependientes de la razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720481": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los empleados dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720482": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los empleados dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720483": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los empleados dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720477": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los obreros dependientes de la razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720478": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los obreros dependientes de la razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720484": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los empleados dependientes de la razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720485": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Horas trabajadas por el personal ocupado",
+        "Horas trabajadas por el personal dependiente de la razón social",
+        "Horas trabajadas por los empleados dependientes de la razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720416": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Empleados dependientes de la razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720417": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Empleados dependientes de la razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720411": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Obreros dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720412": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Obreros dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720413": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Obreros dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720414": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Obreros dependientes de la razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720415": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Obreros dependientes de la razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720409": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Obreros dependientes de la razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720410": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Obreros dependientes de la razón social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720421": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Empleados dependientes de la razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720422": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Empleados dependientes de la razón social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720418": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Empleados dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720419": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Empleados dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720420": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Empleados dependientes de la razón social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720402": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Personal dependiente de la razón social total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720403": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Personal dependiente de la razón social total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720404": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Personal dependiente de la razón social total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720405": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Personal dependiente de la razón social total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720406": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Personal dependiente de la razón social total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720428": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Propietarios, familiares y otros trabajadores no remunerados",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720429": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Propietarios, familiares y otros trabajadores no remunerados",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720407": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Personal dependiente de la razón social total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720408": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Personal dependiente de la razón social total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720425": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Propietarios, familiares y otros trabajadores no remunerados",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720426": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Propietarios, familiares y otros trabajadores no remunerados",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720427": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Propietarios, familiares y otros trabajadores no remunerados",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720423": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Propietarios, familiares y otros trabajadores no remunerados",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720424": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado",
+        "Personal dependiente de la razón social",
+        "Propietarios, familiares y otros trabajadores no remunerados",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720328": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Valor de la producción total",
+        "Sector contratante",
+        "Sector público"
+      ]
+    },
+    "720329": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Valor de la producción total",
+        "Sector contratante",
+        "Sector público"
+      ]
+    },
+    "720330": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Valor de la producción total",
+        "Sector contratante",
+        "Sector privado"
+      ]
+    },
+    "720331": {
+      "nombre": "Sector 23: Construcción",
+      "ruta": [
+        "ENEC serie 2018",
+        "Series originales",
+        "Valor de producción",
+        "Valor de la producción total",
+        "Sector contratante",
+        "Sector privado"
+      ]
+    }
+  }
+}

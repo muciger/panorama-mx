@@ -1,0 +1,23 @@
+# Panorama MX — dependencias del pipeline
+# Instalar: pip install -r requirements.txt
+
+# HTTP y scraping
+requests>=2.31
+aiohttp>=3.9
+beautifulsoup4>=4.12
+
+# Data
+pandas>=2.1
+openpyxl>=3.1
+duckdb>=0.10
+
+# Documentos
+python-pptx>=0.6.23
+pymupdf4llm>=0.0.17
+
+# Templates
+jinja2>=3.1
+
+# APIs de interpretación
+openai>=1.14       # cliente DeepSeek usa base_url de OpenAI
+anthropic>=0.25    # generate_synthesis.py (--with-claude)

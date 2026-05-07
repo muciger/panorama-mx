@@ -1,0 +1,2275 @@
+{
+  "_meta": {
+    "root_id": "3655",
+    "root_name": "Balanza comercial",
+    "elapsed_s": 90.7,
+    "calls": 122,
+    "queue_restante": 0,
+    "indicadores": 213
+  },
+  "indicadores": {
+    "897": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Saldo"
+      ]
+    },
+    "206784": {
+      "nombre": "Productos petroleros",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Saldo"
+      ]
+    },
+    "206785": {
+      "nombre": "Productos no petroleros",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Saldo"
+      ]
+    },
+    "375922": {
+      "nombre": "Sin expotaciones petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Saldo"
+      ]
+    },
+    "87537": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Saldo",
+        "Total"
+      ]
+    },
+    "87538": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Saldo",
+        "Total"
+      ]
+    },
+    "208449": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Saldo",
+        "Total"
+      ]
+    },
+    "206780": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Saldo",
+        "Productos petroleros"
+      ]
+    },
+    "206781": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Saldo",
+        "Productos petroleros"
+      ]
+    },
+    "208450": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Saldo",
+        "Productos petroleros"
+      ]
+    },
+    "206782": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Saldo",
+        "Productos no petroleros"
+      ]
+    },
+    "206783": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Saldo",
+        "Productos no petroleros"
+      ]
+    },
+    "208451": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Saldo",
+        "Productos no petroleros"
+      ]
+    },
+    "127600": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual acumulada"
+      ]
+    },
+    "127599": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual"
+      ]
+    },
+    "127598": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Valores absolutos"
+      ]
+    },
+    "935": {
+      "nombre": "Bienes de capital",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Valores absolutos"
+      ]
+    },
+    "938": {
+      "nombre": "Bienes de capital",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual"
+      ]
+    },
+    "941": {
+      "nombre": "Bienes de capital",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual acumulada"
+      ]
+    },
+    "208448": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De Bienes de capital",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452054": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De Bienes de capital",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "87531": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De Bienes de capital",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452057": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De Bienes de capital",
+        "Tendencia-ciclo"
+      ]
+    },
+    "918": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual acumulada",
+        "Petroleras"
+      ]
+    },
+    "919": {
+      "nombre": "Petróleo crudo",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual acumulada",
+        "Petroleras"
+      ]
+    },
+    "920": {
+      "nombre": "Otras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual acumulada",
+        "Petroleras"
+      ]
+    },
+    "87530": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De Bienes de capital",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452055": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De Bienes de capital",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452056": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De Bienes de capital",
+        "Serie desestacionalizada"
+      ]
+    },
+    "929": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual acumulada",
+        "No petroleras"
+      ]
+    },
+    "930": {
+      "nombre": "Agropecuarias",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual acumulada",
+        "No petroleras"
+      ]
+    },
+    "931": {
+      "nombre": "Extractivas",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual acumulada",
+        "No petroleras"
+      ]
+    },
+    "912": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Valores absolutos",
+        "Petroleras"
+      ]
+    },
+    "913": {
+      "nombre": "Petróleo crudo",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Valores absolutos",
+        "Petroleras"
+      ]
+    },
+    "914": {
+      "nombre": "Otras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Valores absolutos",
+        "Petroleras"
+      ]
+    },
+    "921": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Valores absolutos",
+        "No petroleras"
+      ]
+    },
+    "922": {
+      "nombre": "Agropecuarias",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Valores absolutos",
+        "No petroleras"
+      ]
+    },
+    "923": {
+      "nombre": "Extractivas",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Valores absolutos",
+        "No petroleras"
+      ]
+    },
+    "925": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual",
+        "No petroleras"
+      ]
+    },
+    "926": {
+      "nombre": "Agropecuarias",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual",
+        "No petroleras"
+      ]
+    },
+    "927": {
+      "nombre": "Extractivas",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual",
+        "No petroleras"
+      ]
+    },
+    "915": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual",
+        "Petroleras"
+      ]
+    },
+    "916": {
+      "nombre": "Petróleo crudo",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual",
+        "Petroleras"
+      ]
+    },
+    "917": {
+      "nombre": "Otras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual",
+        "Petroleras"
+      ]
+    },
+    "65649": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451979": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451980": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "208442": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452030": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "65650": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451981": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "208431": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451978": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "87523": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452033": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "87522": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452031": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452032": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "206768": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452023": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452024": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "206769": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452025": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "208440": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452022": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "206773": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452037": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "206772": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452035": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452036": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "208443": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452034": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "Petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "208439": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452018": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "206774": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "No petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452039": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "No petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452040": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "No petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "65652": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452021": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "65651": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452019": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452020": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "208444": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "No petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452038": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "No petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "934": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Valores absolutos",
+        "Bienes intermedios"
+      ]
+    },
+    "206132": {
+      "nombre": "Petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Valores absolutos",
+        "Bienes intermedios"
+      ]
+    },
+    "206133": {
+      "nombre": "No petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Valores absolutos",
+        "Bienes intermedios"
+      ]
+    },
+    "933": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Valores absolutos",
+        "Bienes de consumo"
+      ]
+    },
+    "206130": {
+      "nombre": "Petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Valores absolutos",
+        "Bienes de consumo"
+      ]
+    },
+    "206131": {
+      "nombre": "No petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Valores absolutos",
+        "Bienes de consumo"
+      ]
+    },
+    "206775": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "No petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452041": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de consumo",
+        "No petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "127601": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Valores absolutos",
+        "Total"
+      ]
+    },
+    "206128": {
+      "nombre": "Petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Valores absolutos",
+        "Total"
+      ]
+    },
+    "206129": {
+      "nombre": "No petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Valores absolutos",
+        "Total"
+      ]
+    },
+    "937": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual",
+        "Bienes intermedios"
+      ]
+    },
+    "206138": {
+      "nombre": "Petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual",
+        "Bienes intermedios"
+      ]
+    },
+    "206139": {
+      "nombre": "No petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual",
+        "Bienes intermedios"
+      ]
+    },
+    "936": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual",
+        "Bienes de consumo"
+      ]
+    },
+    "206136": {
+      "nombre": "Petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual",
+        "Bienes de consumo"
+      ]
+    },
+    "206137": {
+      "nombre": "No petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual",
+        "Bienes de consumo"
+      ]
+    },
+    "127603": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual acumulada",
+        "Total"
+      ]
+    },
+    "206140": {
+      "nombre": "Petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual acumulada",
+        "Total"
+      ]
+    },
+    "206141": {
+      "nombre": "No petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual acumulada",
+        "Total"
+      ]
+    },
+    "127602": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual",
+        "Total"
+      ]
+    },
+    "206134": {
+      "nombre": "Petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual",
+        "Total"
+      ]
+    },
+    "206135": {
+      "nombre": "No petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual",
+        "Total"
+      ]
+    },
+    "208441": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "No petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452026": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "No petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "940": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual acumulada",
+        "Bienes intermedios"
+      ]
+    },
+    "206144": {
+      "nombre": "Petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual acumulada",
+        "Bienes intermedios"
+      ]
+    },
+    "206145": {
+      "nombre": "No petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual acumulada",
+        "Bienes intermedios"
+      ]
+    },
+    "939": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual acumulada",
+        "Bienes de consumo"
+      ]
+    },
+    "206142": {
+      "nombre": "Petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual acumulada",
+        "Bienes de consumo"
+      ]
+    },
+    "206143": {
+      "nombre": "No petroleras",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Importaciones (FOB)",
+        "Variación anual acumulada",
+        "Bienes de consumo"
+      ]
+    },
+    "206770": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "No petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452027": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "No petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452028": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "No petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "208446": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452046": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "206776": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452047": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452048": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "206777": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452049": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "206771": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "No petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452029": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "Total",
+        "No petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "206778": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "No petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452051": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "No petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452052": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "No petroleras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "208445": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452042": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "208447": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "No petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452050": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "No petroleras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "206779": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "No petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452053": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "No petroleras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "924": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Valores absolutos",
+        "No petroleras",
+        "Manufactureras"
+      ]
+    },
+    "206754": {
+      "nombre": "Automotriz",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Valores absolutos",
+        "No petroleras",
+        "Manufactureras"
+      ]
+    },
+    "206755": {
+      "nombre": "Resto",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Valores absolutos",
+        "No petroleras",
+        "Manufactureras"
+      ]
+    },
+    "932": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual acumulada",
+        "No petroleras",
+        "Manufactureras"
+      ]
+    },
+    "206758": {
+      "nombre": "Automotriz",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual acumulada",
+        "No petroleras",
+        "Manufactureras"
+      ]
+    },
+    "206759": {
+      "nombre": "Resto",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual acumulada",
+        "No petroleras",
+        "Manufactureras"
+      ]
+    },
+    "87524": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452043": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452044": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "87525": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452045": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Importaciones (FOB)",
+        "De bienes de uso Intermedio",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "127595": {
+      "nombre": "Total",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual",
+        "No petroleras",
+        "Manufactureras"
+      ]
+    },
+    "206756": {
+      "nombre": "Automotriz",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual",
+        "No petroleras",
+        "Manufactureras"
+      ]
+    },
+    "206757": {
+      "nombre": "Resto",
+      "ruta": [
+        "Balanza comercial",
+        "Series originales",
+        "Exportaciones (FOB)",
+        "Variación anual",
+        "No petroleras",
+        "Manufactureras"
+      ]
+    },
+    "206760": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "De petróleo crudo",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451987": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "De petróleo crudo",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451988": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "De petróleo crudo",
+        "Serie desestacionalizada"
+      ]
+    },
+    "206761": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "De petróleo crudo",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451989": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "De petróleo crudo",
+        "Tendencia-ciclo"
+      ]
+    },
+    "215686": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "De petróleo crudo",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451986": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "De petróleo crudo",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "87512": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451983": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451984": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "208433": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Otras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451990": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Otras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "87513": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451985": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "208432": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451982": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "215687": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Extractivas",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452002": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Extractivas",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "206762": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Otras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451991": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Otras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451992": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Otras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "87518": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Extractivas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452003": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Extractivas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452004": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Extractivas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "206763": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Otras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451993": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "Petroleras",
+        "Otras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "87515": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451997": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "208434": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451994": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "87519": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Extractivas",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452005": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Extractivas",
+        "Tendencia-ciclo"
+      ]
+    },
+    "87514": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451995": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451996": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "208435": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Agropecuarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451998": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Agropecuarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "87516": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Agropecuarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451999": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Agropecuarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452000": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Agropecuarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "87517": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Agropecuarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452001": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Agropecuarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "87520": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452007": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452008": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "208436": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452006": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "87521": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452009": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "208438": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Resto",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452014": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Resto",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "206766": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Resto",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452015": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Resto",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452016": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Resto",
+        "Serie desestacionalizada"
+      ]
+    },
+    "206767": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Resto",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452017": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Resto",
+        "Tendencia-ciclo"
+      ]
+    },
+    "206764": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Automotriz",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452011": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Automotriz",
+        "Serie desestacionalizada"
+      ]
+    },
+    "452012": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Automotriz",
+        "Serie desestacionalizada"
+      ]
+    },
+    "206765": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Automotriz",
+        "Tendencia-ciclo"
+      ]
+    },
+    "452013": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Automotriz",
+        "Tendencia-ciclo"
+      ]
+    },
+    "208437": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Automotriz",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "452010": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Balanza comercial",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Exportaciones (FOB)",
+        "No petroleras",
+        "Manufacturas",
+        "Automotriz",
+        "Serie original corregida por efectos del calendario"
+      ]
+    }
+  }
+}

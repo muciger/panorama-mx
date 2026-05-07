@@ -1,0 +1,138 @@
+
+--- PÁGINA 1 ---
+BOLETÍN DE INDICADOR 211/26
+ENCUESTA NACIONAL SOBRE CONFIANZA
+DEL CONSUMIDOR (ENCO)
+INDICADOR DE CONFIANZA DEL CONSUMIDOR
+8 de abril de 2026
+Página 1/7
+Próxima publicación: 8 de mayo de 2026
+Indicador de
+Diferencia Diferencia
+Confianza del
+mensual anual
+Consumidor
+marzo marzo marzo
+44.1 puntos ▼ -0.3 puntos ▼ -2.0 puntos
+Disminuyó 0.3 puntos la confianza del consumidor
+en marzo de 2026, respecto al mes previo
+Con los resultados de la Encuesta Nacional sobre Confianza del Consumidor (ENCO) se calcula
+el Indicador de Confianza del Consumidor (ICC). Este mide la percepción de las y los
+consumidores sobre su situación económica actual y la del país, así como sus expectativas.
+El Instituto Nacional de Estadística y Geografía (INEGI) y el Banco de México dan a conocer el
+ICC de marzo de 2026. Con datos ajustados por estacionalidad,1 el ICC se ubicó en 44.1 puntos,
+lo que implicó una disminución mensual de 0.3 puntos.
+Gráfica 1
+Serie desestacionalizada y de tendencia-ciclo
+del Indicador de Confianza del Consumidor
+enero de 2022–marzo de 2026
+(puntos)
+50.0
+47.5
+45.0
+42.5
+40.0
+2022 2023 2024 2025 2026
+Serie desestacionalizada Serie tendencia-ciclo
+Nota: Series elaboradas mediante métodos econométricos.
+Las cifras de noviembre y diciembre de 2023 no consideran información de Acapulco de Juárez.
+Fuente: INEGI y Banco de México. Encuesta Nacional sobre Confianza del Consumidor (ENCO), 2026.
+1 La mayoría de las series económicas se ve afectada por factores estacionales y de calendario. El ajuste de los datos por dichos factores
+permite obtener las cifras desestacionalizadas.
+La tendencia-ciclo es la combinación de los componentes de tendencia y ciclo. La tendencia se refiere a la evolución de largo plazo de la
+serie de tiempo, y el ciclo, a las desviaciones alrededor de la tendencia. Así, el análisis de las series ajustadas ayuda a realizar un mejor
+diagnóstico de la evolución de las variables.
+--- PÁGINA 2 ---
+BOLETÍN DE INDICADOR 211/26
+ENCUESTA NACIONAL SOBRE CONFIANZA
+DEL CONSUMIDOR (ENCO)
+INDICADOR DE CONFIANZA DEL CONSUMIDOR
+8 de abril de 2026
+Página 2/7
+El ICC resulta de promediar cinco indicadores parciales que recogen las percepciones sobre la
+situación económica actual de las y los integrantes de los hogares del país respecto a la de
+hace un año; la situación económica esperada de los hogares dentro de 12 meses frente a la
+actual; la situación económica presente del país respecto a la de hace un año; la situación
+económica esperada del país dentro de 12 meses frente a la actual, y qué tan propicio es el
+momento actual para la adquisición de bienes de consumo duradero.
+En su comparación anual y con cifras ajustadas por estacionalidad, el ICC presentó una caída
+de 2.0 puntos.
+Componentes del ICC
+A su interior, y con cifras desestacionalizadas, se observaron descensos mensuales en los
+componentes que captan la situación económica actual del país y la posibilidad en el momento
+actual de los integrantes del hogar para realizar compras de bienes durables. Por su parte, el
+indicador relativo a la situación económica futura del país se ubicó en un nivel similar al de
+febrero, en tanto que los componentes que evalúan la situación económica presente y
+esperada de los miembros del hogar registraron un aumento mensual.
+Cuadro 1
+Indicador de Confianza del Consumidor y sus componentes
+cifras desestacionalizadas
+marzo de 2026
+(puntos)
+Nivel en Diferencias en puntos respecto a:
+Indicador y componentes marzo febrero marzo
+de 2026 de 2026 de 2025
+Indicador de Confianza del Consumidor 44.1 -0.3 -2.0
+Situación económica en el momento actual de los miembros del
+51.0 0.2 -0.5
+hogar comparada con la que tenían hace 12 meses.
+Situación económica esperada de los miembros del hogar dentro de
+56.7 0.5 -0.5
+12 meses, respecto a la actual.
+Situación económica del país hoy en día, comparada con la de hace
+38.8 -1.2 -3.3
+12 meses.
+Situación económica del país esperada dentro de 12 meses, respecto
+45.1 0.0 -3.5
+a la actual.
+Posibilidades en el momento actual de las y los integrantes del hogar,
+comparadas con las de hace un año, para realizar compras de 29.1 -1.2 -2.0
+muebles, televisor, lavadora, otros aparatos electrodomésticos, etc.
+Nota: Cifras elaboradas mediante métodos econométricos.
+La serie desestacionalizada del ICC se calcula de manera independiente a la de sus componentes.
+Fuente: INEGI y Banco de México. Encuesta Nacional sobre Confianza del Consumidor (ENCO), 2026.
+--- PÁGINA 3 ---
+BOLETÍN DE INDICADOR 211/26
+ENCUESTA NACIONAL SOBRE CONFIANZA
+DEL CONSUMIDOR (ENCO)
+INDICADOR DE CONFIANZA DEL CONSUMIDOR
+8 de abril de 2026
+Página 3/7
+Gráfica 2
+Serie desestacionalizada y de tendencia-ciclo
+de los componentes del Indicador de Confianza del Consumidor
+enero de 2022–marzo de 2026
+(puntos)
+Situación económica en el momento actual de los Situación económica esperada de los miembros
+miembros del hogar comparada con la de un año antes del hogar dentro de 12 meses, respecto a la actual
+62.0
+54.0
+52.0 58.0
+50.0
+54.0
+48.0
+46.0 50.0
+2022 2023 2024 2025 2026 2022 2023 2024 2025 2026
+Situación económica del país hoy en día, Situación económica del país esperada
+comparada con la de hace 12 meses dentro de 12 meses, respecto a la actual
+50.0
+54.0
+45.0
+50.0
+40.0
+46.0
+35.0 42.0
+2022 2023 2024 2025 2026 2022 2023 2024 2025 2026
+Posibilidades en el momento actual de las y los integrantes del
+hogar comparadas con las de hace un año para realizar compras
+de bienes durables, tales como muebles, televisor, lavadora y
+otros aparatos electrodomésticos
+35.0
+30.0
+25.0
+20.0
+2022 2023 2024 2025 2026
+Serie desestacionalizada Serie tendencia-ciclo
+Nota: Series elaboradas mediante métodos econométricos.
+Las cifras de noviembre y diciembre de 2023 no consideran información de Acapulco de Juárez.
+Fuente: INEGI y Banco de México. Encuesta Nacional sobre Confianza del Consumidor (ENCO), 2026.

@@ -1,0 +1,515 @@
+{
+  "id": "pib_estatal",
+  "nombre": "PIB estatal, variación anual real",
+  "categoria": "regional",
+  "frecuencia": "anual",
+  "unidad": "variación % real por entidad",
+  "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10703",
+  "sheet_origen": "28_PIB_estatal",
+  "titulo_original": "PIB estatal",
+  "subtitulo_original": "Variación anual real (%)",
+  "columnas": [
+    "Entidad",
+    "Participacion",
+    "IVF_2018",
+    "Constante_2018"
+  ],
+  "columnas_normalizadas": [
+    "Entidad",
+    "Participacion",
+    "IVF_2018",
+    "Constante_2018"
+  ],
+  "ultima_actualizacion": "2026-05-02",
+  "proxima_actualizacion_manual": "",
+  "periodos": [
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024",
+    "2024"
+  ],
+  "series": [
+    {
+      "Entidad": "Aguascalientes",
+      "Participacion": 1.29,
+      "IVF_2018": 100.05,
+      "Constante_2018": 328087.96
+    },
+    {
+      "Entidad": "Baja California",
+      "Participacion": 3.74,
+      "IVF_2018": 107.84,
+      "Constante_2018": 947677.01
+    },
+    {
+      "Entidad": "Baja California Sur",
+      "Participacion": 0.74,
+      "IVF_2018": 101.37,
+      "Constante_2018": 187152.16
+    },
+    {
+      "Entidad": "Campeche",
+      "Participacion": 1.87,
+      "IVF_2018": 83.85,
+      "Constante_2018": 473399.46
+    },
+    {
+      "Entidad": "Coahuila",
+      "Participacion": 3.64,
+      "IVF_2018": 95.47,
+      "Constante_2018": 922286.19
+    },
+    {
+      "Entidad": "Colima",
+      "Participacion": 0.62,
+      "IVF_2018": 102.17,
+      "Constante_2018": 157139.89
+    },
+    {
+      "Entidad": "Chiapas",
+      "Participacion": 1.54,
+      "IVF_2018": 110.24,
+      "Constante_2018": 389794.85
+    },
+    {
+      "Entidad": "Chihuahua",
+      "Participacion": 3.67,
+      "IVF_2018": 109.09,
+      "Constante_2018": 930854.91
+    },
+    {
+      "Entidad": "Ciudad de México",
+      "Participacion": 15.32,
+      "IVF_2018": 105.18,
+      "Constante_2018": 3885956.59
+    },
+    {
+      "Entidad": "Durango",
+      "Participacion": 1.28,
+      "IVF_2018": 104.8,
+      "Constante_2018": 323802.36
+    },
+    {
+      "Entidad": "Guanajuato",
+      "Participacion": 4.62,
+      "IVF_2018": 104.47,
+      "Constante_2018": 1170675.9
+    },
+    {
+      "Entidad": "Guerrero",
+      "Participacion": 1.24,
+      "IVF_2018": 98.8,
+      "Constante_2018": 314019.72
+    },
+    {
+      "Entidad": "Hidalgo",
+      "Participacion": 1.79,
+      "IVF_2018": 108.48,
+      "Constante_2018": 454116.32
+    },
+    {
+      "Entidad": "Jalisco",
+      "Participacion": 7.35,
+      "IVF_2018": 106.26,
+      "Constante_2018": 1864059.17
+    },
+    {
+      "Entidad": "México",
+      "Participacion": 9.12,
+      "IVF_2018": 103.09,
+      "Constante_2018": 2313164.33
+    },
+    {
+      "Entidad": "Michoacán",
+      "Participacion": 2.69,
+      "IVF_2018": 107.52,
+      "Constante_2018": 681445.83
+    },
+    {
+      "Entidad": "Morelos",
+      "Participacion": 1.07,
+      "IVF_2018": 99.26,
+      "Constante_2018": 271218.84
+    },
+    {
+      "Entidad": "Nayarit",
+      "Participacion": 0.63,
+      "IVF_2018": 102.56,
+      "Constante_2018": 159749.67
+    },
+    {
+      "Entidad": "Nuevo León",
+      "Participacion": 8.12,
+      "IVF_2018": 107.91,
+      "Constante_2018": 2059995.56
+    },
+    {
+      "Entidad": "Oaxaca",
+      "Participacion": 1.84,
+      "IVF_2018": 121.98,
+      "Constante_2018": 467374.41
+    },
+    {
+      "Entidad": "Puebla",
+      "Participacion": 3.48,
+      "IVF_2018": 103.86,
+      "Constante_2018": 882359.63
+    },
+    {
+      "Entidad": "Querétaro",
+      "Participacion": 2.45,
+      "IVF_2018": 101.68,
+      "Constante_2018": 621620.13
+    },
+    {
+      "Entidad": "Quintana Roo",
+      "Participacion": 1.51,
+      "IVF_2018": 101.53,
+      "Constante_2018": 383116.45
+    },
+    {
+      "Entidad": "San Luis Potosí",
+      "Participacion": 2.29,
+      "IVF_2018": 103.92,
+      "Constante_2018": 579636.26
+    },
+    {
+      "Entidad": "Sinaloa",
+      "Participacion": 2.03,
+      "IVF_2018": 97.47,
+      "Constante_2018": 514385.48
+    },
+    {
+      "Entidad": "Sonora",
+      "Participacion": 3.24,
+      "IVF_2018": 105.17,
+      "Constante_2018": 822556.9
+    },
+    {
+      "Entidad": "Tabasco",
+      "Participacion": 2.39,
+      "IVF_2018": 128.34,
+      "Constante_2018": 605206.52
+    },
+    {
+      "Entidad": "Tamaulipas",
+      "Participacion": 3.01,
+      "IVF_2018": 104.46,
+      "Constante_2018": 764735.77
+    },
+    {
+      "Entidad": "Tlaxcala",
+      "Participacion": 0.6,
+      "IVF_2018": 102.54,
+      "Constante_2018": 151512.67
+    },
+    {
+      "Entidad": "Veracruz",
+      "Participacion": 4.32,
+      "IVF_2018": 106.3,
+      "Constante_2018": 1094822.17
+    },
+    {
+      "Entidad": "Yucatán",
+      "Participacion": 1.59,
+      "IVF_2018": 110.41,
+      "Constante_2018": 402785.75
+    },
+    {
+      "Entidad": "Zacatecas",
+      "Participacion": 0.95,
+      "IVF_2018": 105.31,
+      "Constante_2018": 240511.78
+    }
+  ],
+  "benchmarks": {},
+  "alertas_activas": [],
+  "entidades": [
+    {
+      "Entidad": "Aguascalientes",
+      "_geo": "01",
+      "Participacion": 1.29,
+      "IVF_2018": 100.05,
+      "Constante_2018": 328087.96,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Baja California",
+      "_geo": "02",
+      "Participacion": 3.74,
+      "IVF_2018": 107.84,
+      "Constante_2018": 947677.01,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Baja California Sur",
+      "_geo": "03",
+      "Participacion": 0.74,
+      "IVF_2018": 101.37,
+      "Constante_2018": 187152.16,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Campeche",
+      "_geo": "04",
+      "Participacion": 1.87,
+      "IVF_2018": 83.85,
+      "Constante_2018": 473399.46,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Coahuila",
+      "_geo": "05",
+      "Participacion": 3.64,
+      "IVF_2018": 95.47,
+      "Constante_2018": 922286.19,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Colima",
+      "_geo": "06",
+      "Participacion": 0.62,
+      "IVF_2018": 102.17,
+      "Constante_2018": 157139.89,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Chiapas",
+      "_geo": "07",
+      "Participacion": 1.54,
+      "IVF_2018": 110.24,
+      "Constante_2018": 389794.85,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Chihuahua",
+      "_geo": "08",
+      "Participacion": 3.67,
+      "IVF_2018": 109.09,
+      "Constante_2018": 930854.91,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Ciudad de México",
+      "_geo": "09",
+      "Participacion": 15.32,
+      "IVF_2018": 105.18,
+      "Constante_2018": 3885956.59,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Durango",
+      "_geo": "10",
+      "Participacion": 1.28,
+      "IVF_2018": 104.8,
+      "Constante_2018": 323802.36,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Guanajuato",
+      "_geo": "11",
+      "Participacion": 4.62,
+      "IVF_2018": 104.47,
+      "Constante_2018": 1170675.9,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Guerrero",
+      "_geo": "12",
+      "Participacion": 1.24,
+      "IVF_2018": 98.8,
+      "Constante_2018": 314019.72,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Hidalgo",
+      "_geo": "13",
+      "Participacion": 1.79,
+      "IVF_2018": 108.48,
+      "Constante_2018": 454116.32,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Jalisco",
+      "_geo": "14",
+      "Participacion": 7.35,
+      "IVF_2018": 106.26,
+      "Constante_2018": 1864059.17,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "México",
+      "_geo": "15",
+      "Participacion": 9.12,
+      "IVF_2018": 103.09,
+      "Constante_2018": 2313164.33,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Michoacán",
+      "_geo": "16",
+      "Participacion": 2.69,
+      "IVF_2018": 107.52,
+      "Constante_2018": 681445.83,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Morelos",
+      "_geo": "17",
+      "Participacion": 1.07,
+      "IVF_2018": 99.26,
+      "Constante_2018": 271218.84,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Nayarit",
+      "_geo": "18",
+      "Participacion": 0.63,
+      "IVF_2018": 102.56,
+      "Constante_2018": 159749.67,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Nuevo León",
+      "_geo": "19",
+      "Participacion": 8.12,
+      "IVF_2018": 107.91,
+      "Constante_2018": 2059995.56,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Oaxaca",
+      "_geo": "20",
+      "Participacion": 1.84,
+      "IVF_2018": 121.98,
+      "Constante_2018": 467374.41,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Puebla",
+      "_geo": "21",
+      "Participacion": 3.48,
+      "IVF_2018": 103.86,
+      "Constante_2018": 882359.63,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Querétaro",
+      "_geo": "22",
+      "Participacion": 2.45,
+      "IVF_2018": 101.68,
+      "Constante_2018": 621620.13,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Quintana Roo",
+      "_geo": "23",
+      "Participacion": 1.51,
+      "IVF_2018": 101.53,
+      "Constante_2018": 383116.45,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "San Luis Potosí",
+      "_geo": "24",
+      "Participacion": 2.29,
+      "IVF_2018": 103.92,
+      "Constante_2018": 579636.26,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Sinaloa",
+      "_geo": "25",
+      "Participacion": 2.03,
+      "IVF_2018": 97.47,
+      "Constante_2018": 514385.48,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Sonora",
+      "_geo": "26",
+      "Participacion": 3.24,
+      "IVF_2018": 105.17,
+      "Constante_2018": 822556.9,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Tabasco",
+      "_geo": "27",
+      "Participacion": 2.39,
+      "IVF_2018": 128.34,
+      "Constante_2018": 605206.52,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Tamaulipas",
+      "_geo": "28",
+      "Participacion": 3.01,
+      "IVF_2018": 104.46,
+      "Constante_2018": 764735.77,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Tlaxcala",
+      "_geo": "29",
+      "Participacion": 0.6,
+      "IVF_2018": 102.54,
+      "Constante_2018": 151512.67,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Veracruz",
+      "_geo": "30",
+      "Participacion": 4.32,
+      "IVF_2018": 106.3,
+      "Constante_2018": 1094822.17,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Yucatán",
+      "_geo": "31",
+      "Participacion": 1.59,
+      "IVF_2018": 110.41,
+      "Constante_2018": 402785.75,
+      "_periodo": "2024"
+    },
+    {
+      "Entidad": "Zacatecas",
+      "_geo": "32",
+      "Participacion": 0.95,
+      "IVF_2018": 105.31,
+      "Constante_2018": 240511.78,
+      "_periodo": "2024"
+    }
+  ],
+  "periodo_referencia": "2024",
+  "fuente_ingest": "BIE-INEGI (regional iter geo)"
+}

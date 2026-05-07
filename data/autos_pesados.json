@@ -1,0 +1,163 @@
+{
+  "id": "autos_pesados",
+  "nombre": "Industria Automotriz, vehículos pesados",
+  "categoria": "automotriz",
+  "frecuencia": "mensual",
+  "unidad": "variación % anual",
+  "fuente_url": "https://www.inegi.org.mx/programas/raiavpm/",
+  "sheet_origen": "Autos_pesados",
+  "titulo_original": "Industria Automotriz, vehículos pesados",
+  "subtitulo_original": "Variación anual (%)",
+  "columnas": [
+    "Mes",
+    "Ventas_Menudeo",
+    "Ventas_Mayoreo",
+    "Exportación",
+    "Producción"
+  ],
+  "columnas_normalizadas": [
+    "Mes",
+    "Ventas_Menudeo",
+    "Ventas_Mayoreo",
+    "Exportación",
+    "Producción"
+  ],
+  "ultima_actualizacion": "2026-05-05",
+  "proxima_actualizacion_manual": "13 de abril de 2026",
+  "periodos": [
+    "feb-25",
+    "mar-25",
+    "abr-25",
+    "may-25",
+    "jun-25",
+    "jul-25",
+    "ago-25",
+    "sep-25",
+    "oct-25",
+    "nov-25",
+    "dic-25",
+    "ene-26",
+    "feb-26",
+    "mar-26"
+  ],
+  "series": [
+    {
+      "Mes": "feb-25",
+      "Ventas_Menudeo": -18.8,
+      "Ventas_Mayoreo": -44.5,
+      "Exportación": -27.1,
+      "Producción": -23.9
+    },
+    {
+      "Mes": "mar-25",
+      "Ventas_Menudeo": -19.7,
+      "Ventas_Mayoreo": -41.3,
+      "Exportación": -26.7,
+      "Producción": -24.9
+    },
+    {
+      "Mes": "abr-25",
+      "Ventas_Menudeo": -34.4,
+      "Ventas_Mayoreo": -55.2,
+      "Exportación": -24.3,
+      "Producción": -21.3
+    },
+    {
+      "Mes": "may-25",
+      "Ventas_Menudeo": -21.4,
+      "Ventas_Mayoreo": -32.2,
+      "Exportación": 20.5,
+      "Producción": 31.3
+    },
+    {
+      "Mes": "jun-25",
+      "Ventas_Menudeo": -32.8,
+      "Ventas_Mayoreo": -66.8,
+      "Exportación": -35.7,
+      "Producción": -20.3
+    },
+    {
+      "Mes": "jul-25",
+      "Ventas_Menudeo": -33.2,
+      "Ventas_Mayoreo": -60.1,
+      "Exportación": -55.1,
+      "Producción": -51.6
+    },
+    {
+      "Mes": "ago-25",
+      "Ventas_Menudeo": -37.9,
+      "Ventas_Mayoreo": -59.8,
+      "Exportación": -62.4,
+      "Producción": -59.4
+    },
+    {
+      "Mes": "sep-25",
+      "Ventas_Menudeo": -34.6,
+      "Ventas_Mayoreo": -55,
+      "Exportación": -59.3,
+      "Producción": -58.3
+    },
+    {
+      "Mes": "oct-25",
+      "Ventas_Menudeo": -45.5,
+      "Ventas_Mayoreo": -61,
+      "Exportación": -58.8,
+      "Producción": -55.3
+    },
+    {
+      "Mes": "nov-25",
+      "Ventas_Menudeo": -43.2,
+      "Ventas_Mayoreo": -56.9,
+      "Exportación": -28,
+      "Producción": -21.9
+    },
+    {
+      "Mes": "dic-25",
+      "Ventas_Menudeo": -39.3,
+      "Ventas_Mayoreo": -62.7,
+      "Exportación": -19.8,
+      "Producción": -1.3
+    },
+    {
+      "Mes": "ene-26",
+      "Ventas_Menudeo": -46.3,
+      "Ventas_Mayoreo": -35.7,
+      "Exportación": -51.9,
+      "Producción": -53.8
+    },
+    {
+      "Mes": "feb-26",
+      "Ventas_Menudeo": -38.9,
+      "Ventas_Mayoreo": -27.3,
+      "Producción": -49.1,
+      "Exportación": -32.0
+    },
+    {
+      "Mes": "mar-26",
+      "Ventas_Menudeo": -18.6,
+      "Ventas_Mayoreo": 6.7,
+      "Producción": -6.6,
+      "Exportación": -5.9
+    }
+  ],
+  "benchmarks": {
+    "ma12_Ventas_Menudeo": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      -26.72,
+      -28.31,
+      -29.1,
+      -30.92,
+      -32.15,
+      -32.8,
+      -33.93,
+      -35.6
+    ]
+  },
+  "alertas_activas": [],
+  "ultima_revision_amia": "2026-05-04",
+  "nota_ingest": "Actualizado desde comunicado INEGI rm_riavp2026_04.md. Variaciones % anuales extraídas del headline del boletín RAIAVL/RAIAVP."
+}

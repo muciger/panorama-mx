@@ -1,0 +1,2468 @@
+{
+  "_meta": {
+    "root_id": "2",
+    "root_name": "ENOE mensual ocupacion",
+    "elapsed_s": 104.7,
+    "calls": 121,
+    "queue_restante": 0,
+    "indicadores": 235
+  },
+  "indicadores": {
+    "444602": {
+      "nombre": "Tasa de participación",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total"
+      ]
+    },
+    "444603": {
+      "nombre": "Tasa de desocupación",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total"
+      ]
+    },
+    "472033": {
+      "nombre": "Tasa de participación",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 39 ciudades"
+      ]
+    },
+    "472034": {
+      "nombre": "Tasa de desocupación",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 39 ciudades"
+      ]
+    },
+    "444611": {
+      "nombre": "Tasa de participación",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 32 ciudades"
+      ]
+    },
+    "444612": {
+      "nombre": "Tasa de desocupación",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 32 ciudades"
+      ]
+    },
+    "444557": {
+      "nombre": "Población económicamente activa (PEA)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población de 15 años y más"
+      ]
+    },
+    "444558": {
+      "nombre": "Población no económicamente activa (PNEA)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población de 15 años y más"
+      ]
+    },
+    "444559": {
+      "nombre": "Población ocupada",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población económicamente activa"
+      ]
+    },
+    "444560": {
+      "nombre": "Población desocupada",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población económicamente activa"
+      ]
+    },
+    "444604": {
+      "nombre": "Tasa de ocupación parcial y desocupación 1 (TOPD1)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Tasas complementarias"
+      ]
+    },
+    "444605": {
+      "nombre": "Tasa de presión general (TPRG)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Tasas complementarias"
+      ]
+    },
+    "444606": {
+      "nombre": "Tasa de trabajo asalariado",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Tasas complementarias"
+      ]
+    },
+    "444607": {
+      "nombre": "Tasa de subocupación",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Tasas complementarias"
+      ]
+    },
+    "444608": {
+      "nombre": "Tasa de condiciones críticas de ocupación (TCCO)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Tasas complementarias"
+      ]
+    },
+    "444609": {
+      "nombre": "Tasa de ocupación en el sector informal 1 (TOSI1)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Tasas complementarias"
+      ]
+    },
+    "444610": {
+      "nombre": "Tasa de informalidad laboral 1 (TIL1)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Tasas complementarias"
+      ]
+    },
+    "472035": {
+      "nombre": "Tasa de ocupación parcial y desocupación 1 (TOPD1)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 39 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "472036": {
+      "nombre": "Tasa de presión general (TPRG)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 39 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "472037": {
+      "nombre": "Tasa de trabajo asalariado",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 39 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "472038": {
+      "nombre": "Tasa de subocupación",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 39 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "472039": {
+      "nombre": "Tasa de condiciones críticas de ocupación (TCCO)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 39 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "472040": {
+      "nombre": "Tasa de ocupación en el sector informal 1 (TOSI1)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 39 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "472041": {
+      "nombre": "Tasa de informalidad laboral 1 (TIL1)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 39 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "444613": {
+      "nombre": "Tasa de ocupación parcial y desocupación 1 (TOPD1)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 32 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "444614": {
+      "nombre": "Tasa de presión general (TPRG)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 32 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "444615": {
+      "nombre": "Tasa de trabajo asalariado",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 32 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "444616": {
+      "nombre": "Tasa de subocupación",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 32 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "444617": {
+      "nombre": "Tasa de condiciones críticas de ocupación (TCCO)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 32 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "444618": {
+      "nombre": "Tasa de ocupación en el sector informal 1 (TOSI1)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 32 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "444619": {
+      "nombre": "Tasa de informalidad laboral 1 (TIL1)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población urbana, agregado de 32 ciudades",
+        "Tasas complementarias"
+      ]
+    },
+    "444566": {
+      "nombre": "Trabajadores subordinados y remunerados",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por posición en la ocupación"
+      ]
+    },
+    "444567": {
+      "nombre": "Empleadores",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por posición en la ocupación"
+      ]
+    },
+    "444568": {
+      "nombre": "Trabajadores por cuenta propia",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por posición en la ocupación"
+      ]
+    },
+    "444569": {
+      "nombre": "Trabajadores no remunerados",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por posición en la ocupación"
+      ]
+    },
+    "444570": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por posición en la ocupación"
+      ]
+    },
+    "668906": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica"
+      ]
+    },
+    "668907": {
+      "nombre": "Primario (agricultura, ganadería, silvicultura, caza y pesca)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica"
+      ]
+    },
+    "668920": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica"
+      ]
+    },
+    "444561": {
+      "nombre": "Primaria incompleta",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444562": {
+      "nombre": "Con primaria completa",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444563": {
+      "nombre": "Con secundaria completa",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444564": {
+      "nombre": "Medio superior y superior",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444565": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444578": {
+      "nombre": "Primaria incompleta",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población desocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444579": {
+      "nombre": "Con primaria completa",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población desocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444580": {
+      "nombre": "Con secundaria completa",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población desocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444581": {
+      "nombre": "Medio superior y superior",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población desocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444582": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población desocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444583": {
+      "nombre": "Con experiencia",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población desocupada",
+        "Por antecedentes laborales"
+      ]
+    },
+    "444584": {
+      "nombre": "Sin experiencia",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población desocupada",
+        "Por antecedentes laborales"
+      ]
+    },
+    "444585": {
+      "nombre": "Primaria incompleta",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444586": {
+      "nombre": "Con primaria completa",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444587": {
+      "nombre": "Con secundaria completa",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444588": {
+      "nombre": "Medio superior y superior",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444589": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por nivel de instrucción"
+      ]
+    },
+    "444590": {
+      "nombre": "Trabajadores subordinados y remunerados",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por posición en la ocupación"
+      ]
+    },
+    "444591": {
+      "nombre": "Empleadores",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por posición en la ocupación"
+      ]
+    },
+    "444592": {
+      "nombre": "Trabajadores por cuenta propia",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por posición en la ocupación"
+      ]
+    },
+    "444593": {
+      "nombre": "Trabajadores no remunerados",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por posición en la ocupación"
+      ]
+    },
+    "444594": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por posición en la ocupación"
+      ]
+    },
+    "668936": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica"
+      ]
+    },
+    "668937": {
+      "nombre": "Primario (agricultura, ganadería, silvicultura, caza y pesca)",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica"
+      ]
+    },
+    "668950": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica"
+      ]
+    },
+    "444899": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de subocupación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451810": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de subocupación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451811": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de subocupación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444898": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de subocupación",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451809": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de subocupación",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444900": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de subocupación",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451812": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de subocupación",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454853": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población ocupada nacional respecto a la población económicamente activa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454854": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población ocupada nacional respecto a la población económicamente activa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454855": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población ocupada nacional respecto a la población económicamente activa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454856": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población ocupada nacional respecto a la población económicamente activa",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454857": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población ocupada nacional respecto a la población económicamente activa",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454844": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población no económicamente activa respecto a la población de 15 años y más",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454845": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población no económicamente activa respecto a la población de 15 años y más",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454851": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población ocupada nacional respecto a la población económicamente activa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454852": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población ocupada nacional respecto a la población económicamente activa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454846": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población no económicamente activa respecto a la población de 15 años y más",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454847": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población no económicamente activa respecto a la población de 15 años y más",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454848": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población no económicamente activa respecto a la población de 15 años y más",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454849": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población no económicamente activa respecto a la población de 15 años y más",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454850": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Población no económicamente activa respecto a la población de 15 años y más",
+        "Tendencia-ciclo"
+      ]
+    },
+    "668912": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668913": {
+      "nombre": "Comercio",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668914": {
+      "nombre": "Restaurantes y servicios de alojamiento",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668915": {
+      "nombre": "Transportes, comunicaciones, correo y almacenamiento",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668916": {
+      "nombre": "Servicios profesionales, financieros y corporativos",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668917": {
+      "nombre": "Servicios sociales",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668918": {
+      "nombre": "Servicios diversos",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668919": {
+      "nombre": "Gobierno y organismos internacionales",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668908": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Secundario"
+      ]
+    },
+    "668909": {
+      "nombre": "Industria extractiva y de la electricidad",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Secundario"
+      ]
+    },
+    "668910": {
+      "nombre": "Industria manufacturera",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Secundario"
+      ]
+    },
+    "668911": {
+      "nombre": "Construcción",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población ocupada",
+        "Por sector de actividad económica",
+        "Secundario"
+      ]
+    },
+    "697783": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Población ocupada respecto a la población económicamente activa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "697784": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Población ocupada respecto a la población económicamente activa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "697785": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Población ocupada respecto a la población económicamente activa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "697781": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Población ocupada respecto a la población económicamente activa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "697782": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Población ocupada respecto a la población económicamente activa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444883": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451789": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444884": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451790": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451791": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "697786": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Población ocupada respecto a la población económicamente activa",
+        "Tendencia-ciclo"
+      ]
+    },
+    "697787": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Población ocupada respecto a la población económicamente activa",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444885": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451792": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "668942": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668943": {
+      "nombre": "Comercio",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668944": {
+      "nombre": "Restaurantes y servicios de alojamiento",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668945": {
+      "nombre": "Transportes, comunicaciones, correo y almacenamiento",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668946": {
+      "nombre": "Servicios profesionales, financieros y corporativos",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668947": {
+      "nombre": "Servicios sociales",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668948": {
+      "nombre": "Servicios diversos",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "668949": {
+      "nombre": "Gobierno y organismos internacionales",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Terciario"
+      ]
+    },
+    "444886": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Hombres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451793": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Hombres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444887": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451794": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451795": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "668938": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Secundario"
+      ]
+    },
+    "668939": {
+      "nombre": "Industria extractiva y de la electricidad",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Secundario"
+      ]
+    },
+    "668940": {
+      "nombre": "Industria manufacturera",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Secundario"
+      ]
+    },
+    "668941": {
+      "nombre": "Construcción",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series originales",
+        "Población total",
+        "Población subocupada",
+        "Por sector de actividad económica",
+        "Secundario"
+      ]
+    },
+    "444890": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451798": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451799": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444889": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451797": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444891": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451800": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444888": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Hombres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451796": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de desocupación",
+        "Hombres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444879": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Hombres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451784": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Hombres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444892": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451801": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444878": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451782": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451783": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444877": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Hombres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451781": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Hombres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444894": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451804": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444893": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451802": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451803": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444875": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451778": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451779": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444874": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451777": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444876": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451780": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444882": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Mujeres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451788": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Mujeres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444881": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451786": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451787": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444880": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Mujeres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451785": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de participación",
+        "Mujeres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444895": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451805": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444896": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451806": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451807": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444897": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451808": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Nacional",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444901": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451813": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444905": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451818": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451819": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444904": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Hombres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451817": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Hombres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444902": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451814": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451815": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444903": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451816": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444906": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Hombres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451820": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Hombres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444909": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Mujeres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451824": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Mujeres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444907": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Mujeres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451821": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Mujeres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444908": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451822": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451823": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de participación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444921": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451840": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444913": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Hombres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451829": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Hombres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444920": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451838": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451839": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444919": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451837": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de informalidad laboral 1 (TIL1)",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "668895": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de subocupación",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "668896": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de subocupación",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "668897": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de subocupación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "668898": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de subocupación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "668899": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de subocupación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444915": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Hombres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451832": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Hombres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444914": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451830": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451831": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Hombres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444912": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451828": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444911": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451826": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451827": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "668900": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de subocupación",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "668901": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de subocupación",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444910": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451825": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444922": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451841": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444916": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "451833": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "444918": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451836": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Tendencia-ciclo"
+      ]
+    },
+    "444917": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451834": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451835": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de desocupación",
+        "Mujeres",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444923": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451842": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "451843": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "444924": {
+      "nombre": "Índice",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "451844": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "ENOE mensual ocupacion",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Urbana, agregado de 32 ciudades",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_descripcion": "6 bloques headline que aparecen en la parte superior del home. Seleccionados por frecuencia de publicación y relevancia macro.",
+  "_version": "1.0",
+  "_generado": "2026-04-17",
+  "cards": [
+    {
+      "orden": 1,
+      "indicador_id": "inpc_mensual",
+      "campo_principal": "INPC_anual",
+      "etiqueta": "Inflación anual",
+      "unidad": "%",
+      "rationale": "INPC mensual + quincenal suman 48 publicaciones al año. Variable macro más monitoreada por Banxico.",
+      "frecuencia_anual": 48
+    },
+    {
+      "orden": 2,
+      "indicador_id": "balanza_comercial",
+      "campo_principal": "exportaciones_anual",
+      "etiqueta": "Exportaciones (anual)",
+      "unidad": "%",
+      "rationale": "BCMM publica 50 veces al año entre oportuna y revisada. Dato crítico para cuenta externa y IED.",
+      "frecuencia_anual": 50
+    },
+    {
+      "orden": 3,
+      "indicador_id": "igae",
+      "campo_principal": "Total_anual",
+      "etiqueta": "IGAE (anual)",
+      "unidad": "%",
+      "rationale": "Proxy mensual del PIB. Publicación 24 veces/año entre oportuna y definitiva.",
+      "frecuencia_anual": 24
+    },
+    {
+      "orden": 4,
+      "indicador_id": "enoe_trimestral",
+      "campo_principal": "tasa_desocupacion",
+      "etiqueta": "Tasa desocupación",
+      "unidad": "%",
+      "rationale": "ENOE suma 33 publicaciones/año entre oportuna y trimestral. Holgura laboral es insumo directo de Banxico.",
+      "frecuencia_anual": 33
+    },
+    {
+      "orden": 6,
+      "indicador_id": "confianza_consumidor",
+      "campo_principal": "Mensual",
+      "etiqueta": "Confianza consumidor",
+      "unidad": "puntos",
+      "rationale": "ENCO mensual, 24 publicaciones/año. Termómetro de demanda y expectativas del hogar.",
+      "frecuencia_anual": 24
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "_descripcion": "Catálogo canónico de los 31 indicadores del dashboard. Cada uno mapea a un patrón de búsqueda en el ICS oficial INEGI y a su boletín saladeprensa.",
+  "_version": "1.3",
+  "_generado": "2026-05-05",
+  "indicadores": [
+    {
+      "id": "pib_anual",
+      "nombre": "PIB anual, variación real",
+      "categoria": "macro",
+      "frecuencia": "anual",
+      "unidad": "variación % anual",
+      "sheet": "PIB_anual",
+      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10626",
+      "vinculado_con": "pib_trimestral"
+    },
+    {
+      "id": "pib_trimestral",
+      "nombre": "PIB Total, variación trimestral y anual",
+      "categoria": "macro",
+      "frecuencia": "trimestral",
+      "unidad": "variación % real",
+      "sheet": "PIB_trimestral",
+      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10626"
+    },
+    {
+      "id": "pib_por_actividad",
+      "nombre": "PIB por actividad",
+      "categoria": "macro",
+      "frecuencia": "trimestral",
+      "unidad": "variación % real",
+      "sheet": "PIB_por_actividad",
+      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10626",
+      "vinculado_con": "pib_trimestral"
+    },
+    {
+      "id": "inflacion_resumen",
+      "nombre": "Inflación anual INPC (resumen)",
+      "categoria": "precios",
+      "frecuencia": "mensual",
+      "unidad": "variación % anual",
+      "sheet": "Inflacion_resumen",
+      "patron_ics": "Índice Nacional de Precios al Consumidor \\(INPC\\)",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10757",
+      "vinculado_con": "inpc_mensual"
+    },
+    {
+      "id": "igae_ioae_resumen",
+      "nombre": "IGAE e IOAE resumen",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % real anual",
+      "sheet": "IGAE_IOAE_resumen",
+      "patron_ics": "Indicador Global de la Actividad Económica",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10741",
+      "vinculado_con": "igae"
+    },
+    {
+      "id": "igae",
+      "nombre": "Indicador Global de la Actividad Económica",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "sheet": "IGAE",
+      "patron_ics": "Indicador Global de la Actividad Económica",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10741"
+    },
+    {
+      "id": "actividad_industrial",
+      "nombre": "Indicador Mensual de la Actividad Industrial",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "sheet": "Actividad_industrial",
+      "patron_ics": "Indicador Mensual de la Actividad Industrial",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10761"
+    },
+    {
+      "id": "consumo_privado",
+      "nombre": "Indicador Mensual del Consumo Privado",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "sheet": "Consumo_privado",
+      "patron_ics": "Indicador Mensual del Consumo Privado",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10750"
+    },
+    {
+      "id": "fbcf",
+      "nombre": "Formación Bruta de Capital Fijo",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "sheet": "FBCF",
+      "patron_ics": "Formación Bruta de Capital Fijo",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10752"
+    },
+    {
+      "id": "balanza_comercial",
+      "nombre": "Balanza Comercial de Mercancías",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % y saldo",
+      "sheet": "Balanza_comercial",
+      "patron_ics": "Balanza Comercial de Mercancías",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10744"
+    },
+    {
+      "id": "ind_ciclicos",
+      "nombre": "Sistema de Indicadores Cíclicos",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "puntos, diferencia mensual",
+      "sheet": "Ind_ciclicos",
+      "patron_ics": "Sistema de Indicadores Cíclicos",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10751"
+    },
+    {
+      "id": "emim",
+      "nombre": "Encuesta Mensual de la Industria Manufacturera",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "sheet": "EMIM",
+      "patron_ics": "Encuesta Mensual de la Industria Manufacturera",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10728"
+    },
+    {
+      "id": "enec",
+      "nombre": "Encuesta Nacional de Empresas Constructoras",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "sheet": "ENEC",
+      "patron_ics": "Encuesta Nacional de Empresas Constructoras",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10740"
+    },
+    {
+      "id": "comercio_mayoreo",
+      "nombre": "Empresas Comerciales, comercio al por mayor",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "sheet": "Comercio_mayoreo",
+      "patron_ics": "Empresas Comerciales",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10736"
+    },
+    {
+      "id": "comercio_menudeo",
+      "nombre": "Empresas Comerciales, comercio al por menor",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "sheet": "Comercio_menudeo",
+      "patron_ics": "Empresas Comerciales",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10736"
+    },
+    {
+      "id": "servicios",
+      "nombre": "Encuesta Mensual de Servicios",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "sheet": "Servicios",
+      "patron_ics": "Encuesta Mensual de Servicios",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10735"
+    },
+    {
+      "id": "autos_ligeros",
+      "nombre": "Industria Automotriz, vehículos ligeros",
+      "categoria": "automotriz",
+      "frecuencia": "mensual",
+      "unidad": "variación % anual",
+      "sheet": "Autos_ligeros",
+      "patron_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Ligeros",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10758"
+    },
+    {
+      "id": "autos_pesados",
+      "nombre": "Industria Automotriz, vehículos pesados",
+      "categoria": "automotriz",
+      "frecuencia": "mensual",
+      "unidad": "variación % anual",
+      "sheet": "Autos_pesados",
+      "patron_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Pesados",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10723"
+    },
+    {
+      "id": "inpc_quincenal",
+      "nombre": "INPC quincenal",
+      "categoria": "precios",
+      "frecuencia": "quincenal",
+      "unidad": "variación % quincenal y anual",
+      "sheet": "INPC_quincenal",
+      "patron_ics": "Índice Nacional de Precios al Consumidor \\(INPC\\)",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10739"
+    },
+    {
+      "id": "inpc_mensual",
+      "nombre": "Índice Nacional de Precios al Consumidor",
+      "categoria": "precios",
+      "frecuencia": "mensual",
+      "unidad": "variación % mensual y anual",
+      "sheet": "INPC_mensual",
+      "patron_ics": "Índice Nacional de Precios al Consumidor \\(INPC\\)",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10757"
+    },
+    {
+      "id": "inpp",
+      "nombre": "Índice Nacional de Precios Productor",
+      "categoria": "precios",
+      "frecuencia": "mensual",
+      "unidad": "variación % mensual y anual",
+      "sheet": "INPP",
+      "patron_ics": "Índice Nacional de Precios Productor",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10756"
+    },
+    {
+      "id": "enoe_trimestral",
+      "nombre": "Encuesta Nacional de Ocupación y Empleo (trimestral)",
+      "categoria": "empleo",
+      "frecuencia": "trimestral",
+      "unidad": "personas y % de PET",
+      "sheet": "ENOE_T4_2025",
+      "patron_ics": "Encuesta Nacional de Ocupación y Empleo",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10629"
+    },
+    {
+      "id": "export_entidad",
+      "nombre": "Exportaciones por Entidad Federativa",
+      "categoria": "regional",
+      "frecuencia": "trimestral",
+      "unidad": "MDD y variación %",
+      "sheet": "Export_entidad_T4_2025",
+      "patron_ics": "Exportaciones por Entidad Federativa",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10746"
+    },
+    {
+      "id": "confianza_consumidor",
+      "nombre": "Indicador de Confianza del Consumidor",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "unidad": "puntos, diferencia mensual y anual",
+      "sheet": "Confianza_consumidor",
+      "patron_ics": "Encuesta Nacional sobre Confianza del Consumidor",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10754"
+    },
+    {
+      "id": "emoe_ipm",
+      "nombre": "EMOE Indicador de Pedidos Manufactureros",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "unidad": "puntos, diferencia mensual y anual",
+      "sheet": "EMOE_IPM",
+      "patron_ics": "Indicadores de Expectativas Empresariales|Encuesta Mensual de Opinión Empresarial",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10749"
+    },
+    {
+      "id": "emoe_iat",
+      "nombre": "EMOE Indicadores Agregados de Tendencia",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "unidad": "puntos, diferencia mensual y anual",
+      "sheet": "EMOE_IAT",
+      "patron_ics": "Indicadores Agregados de Tendencia|Encuesta Mensual de Opinión Empresarial",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10747"
+    },
+    {
+      "id": "emoe_ice",
+      "nombre": "EMOE Indicador Global de Confianza Empresarial",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "unidad": "puntos, diferencia mensual y anual",
+      "sheet": "EMOE_ICE",
+      "patron_ics": "Indicador de Confianza Empresarial|Encuesta Mensual de Opinión Empresarial",
+      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10748"
+    },
+    {
+      "id": "enoe_mensual",
+      "nombre": "ENOE, tasas mensuales de participación, subocupación, desocupación e informalidad",
+      "categoria": "empleo",
+      "frecuencia": "mensual",
+      "unidad": "% de la PEA y tasas derivadas",
+      "sheet": "ENOE_mensual",
+      "patron_ics": "Encuesta Nacional de Ocupación y Empleo",
+      "boletin_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/iooe/IOE2026_04.pdf",
+      "vinculado_con": "enoe_trimestral",
+      "_nota_boletin": "URL directa al PDF más reciente. Directorio correcto verificado 2026-05-04."
+    },
+    {
+      "id": "pib_estatal",
+      "nombre": "PIB estatal, variación anual real",
+      "categoria": "regional",
+      "frecuencia": "anual",
+      "unidad": "variación % real por entidad",
+      "sheet": "PIB_estatal",
+      "patron_ics": "Producto Interno Bruto por Entidad Federativa",
+      "boletin_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/pibent/PIBE2024_CP.pdf",
+      "vinculado_con": "pib_anual",
+      "_nota_boletin": "URL directa al PDF más reciente. Directorio correcto verificado 2026-05-04."
+    },
+    {
+      "id": "itaee_estatal",
+      "nombre": "ITAEE, actividad económica por entidad (trimestral)",
+      "categoria": "regional",
+      "frecuencia": "trimestral",
+      "unidad": "variación % anual y trimestral por entidad",
+      "sheet": "ITAEE_estatal",
+      "patron_ics": "Indicador Trimestral de la Actividad Económica Estatal",
+      "boletin_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/itaee/itaee2026_04.pdf",
+      "_nota_boletin": "URL directa al PDF más reciente. Directorio correcto verificado 2026-05-04."
+    },
+    {
+      "id": "imai_estatal",
+      "nombre": "IMAI estatal, actividad industrial por entidad",
+      "categoria": "regional",
+      "frecuencia": "mensual",
+      "unidad": "variación % anual y mensual por entidad",
+      "sheet": "IMAI_estatal",
+      "patron_ics": "Indicador Mensual de la Actividad Industrial por Entidad Federativa",
+      "boletin_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/aief/imaief2026_04.pdf",
+      "_nota_boletin": "URL directa al PDF más reciente. Directorio correcto verificado 2026-05-04."
+    },
+    {
+      "id": "empleo_imss",
+      "nombre": "Empleo formal IMSS",
+      "categoria": "empleo",
+      "frecuencia": "mensual",
+      "unidad": "puestos de trabajo afiliados",
+      "sheet": null,
+      "patron_ics": null,
+      "boletin_url": "https://datos.imss.gob.mx",
+      "fuente": "IMSS datos abiertos",
+      "_nota": "Microdatos parquet. Ingest via scripts/ingest_imss.py. No BIE."
+    }
+  ]
+}

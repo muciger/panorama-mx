@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "root_id": "650",
+    "root_name": "Indicadores compuestos coincidente y adelantado",
+    "elapsed_s": 5.2,
+    "calls": 3,
+    "queue_restante": 0,
+    "indicadores": 4
+  },
+  "indicadores": {
+    "436141": {
+      "nombre": "Índice desestacionalizado",
+      "ruta": [
+        "Indicadores compuestos coincidente y adelantado",
+        "Adelantado"
+      ]
+    },
+    "436142": {
+      "nombre": "Variación respecto al mes anterior",
+      "ruta": [
+        "Indicadores compuestos coincidente y adelantado",
+        "Adelantado"
+      ]
+    },
+    "436139": {
+      "nombre": "Índice desestacionalizado",
+      "ruta": [
+        "Indicadores compuestos coincidente y adelantado",
+        "Coincidente"
+      ]
+    },
+    "436140": {
+      "nombre": "Variación respecto al mes anterior",
+      "ruta": [
+        "Indicadores compuestos coincidente y adelantado",
+        "Coincidente"
+      ]
+    }
+  }
+}

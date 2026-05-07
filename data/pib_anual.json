@@ -1,0 +1,145 @@
+{
+  "id": "pib_anual",
+  "nombre": "PIB anual a precios constantes (resumen)",
+  "categoria": "actividad",
+  "frecuencia": "anual",
+  "unidad": "% var. real",
+  "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10626",
+  "sheet_origen": "PIB_anual",
+  "titulo_original": "Producto Interno Bruto, variación anual real (%)",
+  "subtitulo_original": "Cifras desestacionalizadas",
+  "columnas": [
+    "Periodo",
+    "PIB_anual"
+  ],
+  "columnas_normalizadas": [
+    "Periodo",
+    "PIB_anual"
+  ],
+  "ultima_actualizacion": "2026-05-05",
+  "proxima_actualizacion_manual": "22 de mayo de 2026",
+  "periodos": [
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "series": [
+    {
+      "Periodo": "2004",
+      "PIB_anual": 3.57
+    },
+    {
+      "Periodo": "2005",
+      "PIB_anual": 2.11
+    },
+    {
+      "Periodo": "2006",
+      "PIB_anual": 4.81
+    },
+    {
+      "Periodo": "2007",
+      "PIB_anual": 2.08
+    },
+    {
+      "Periodo": "2008",
+      "PIB_anual": 0.94
+    },
+    {
+      "Periodo": "2009",
+      "PIB_anual": -6.3
+    },
+    {
+      "Periodo": "2010",
+      "PIB_anual": 4.97
+    },
+    {
+      "Periodo": "2011",
+      "PIB_anual": 3.44
+    },
+    {
+      "Periodo": "2012",
+      "PIB_anual": 3.55
+    },
+    {
+      "Periodo": "2013",
+      "PIB_anual": 0.85
+    },
+    {
+      "Periodo": "2014",
+      "PIB_anual": 2.5
+    },
+    {
+      "Periodo": "2015",
+      "PIB_anual": 2.7
+    },
+    {
+      "Periodo": "2016",
+      "PIB_anual": 1.77
+    },
+    {
+      "Periodo": "2017",
+      "PIB_anual": 1.87
+    },
+    {
+      "Periodo": "2018",
+      "PIB_anual": 1.97
+    },
+    {
+      "Periodo": "2019",
+      "PIB_anual": -0.39
+    },
+    {
+      "Periodo": "2020",
+      "PIB_anual": -8.35
+    },
+    {
+      "Periodo": "2021",
+      "PIB_anual": 6.05
+    },
+    {
+      "Periodo": "2022",
+      "PIB_anual": 3.71
+    },
+    {
+      "Periodo": "2023",
+      "PIB_anual": 3.11
+    },
+    {
+      "Periodo": "2024",
+      "PIB_anual": 1.35
+    }
+  ],
+  "benchmarks": {
+    "ma12_PIB_anual": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      2.57,
+      2.34,
+      2.04,
+      2.01
+    ]
+  },
+  "alertas_activas": [],
+  "fuente_ingest": "BIE-INEGI 782389 (calculo de variacion desde volumen 2018)"
+}

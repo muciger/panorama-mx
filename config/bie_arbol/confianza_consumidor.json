@@ -1,0 +1,1260 @@
+{
+  "_meta": {
+    "root_id": "3552",
+    "root_name": "Confianza del consumidor",
+    "elapsed_s": 59.7,
+    "calls": 71,
+    "queue_restante": 0,
+    "indicadores": 128
+  },
+  "indicadores": {
+    "454168": {
+      "nombre": "Indicador de confianza del consumidor",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Indicador (balance)"
+      ]
+    },
+    "454169": {
+      "nombre": "Comparada con la situación económica que los miembros de este hogar tenían hace 12 meses ¿Cómo cree que es su situación en este momento?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Indicador (balance)"
+      ]
+    },
+    "454170": {
+      "nombre": "¿Cómo considera usted que será la situación económica de los miembros de este hogar dentro de 12 meses, respecto a la actual?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Indicador (balance)"
+      ]
+    },
+    "454171": {
+      "nombre": "¿Cómo considera usted la situación económica del país hoy en día comparada con la de hace 12 meses?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Indicador (balance)"
+      ]
+    },
+    "454172": {
+      "nombre": "¿Cómo considera usted que será la condición económica del país dentro de 12 meses respecto de la actual situación?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Indicador (balance)"
+      ]
+    },
+    "454173": {
+      "nombre": "Comparando la situación económica actual con la de hace un año ¿Cómo considera en el momento actual las posibilidades de que usted o alguno de los integrantes de este hogar...",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Indicador (balance)"
+      ]
+    },
+    "454828": {
+      "nombre": "¿Cómo describiría usted su situación económica comparada con la de hace 12 meses?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Otros índicadores complementarios (balance)"
+      ]
+    },
+    "454829": {
+      "nombre": "¿Y cómo cree usted que será su situación económica dentro de 12 meses, respecto de la actual?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Otros índicadores complementarios (balance)"
+      ]
+    },
+    "454830": {
+      "nombre": "¿En este momento tiene usted mayores posibilidades de comprar ropa, zapatos, alimentos, etc., que hace un año?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Otros índicadores complementarios (balance)"
+      ]
+    },
+    "454831": {
+      "nombre": "¿Considera usted que durante los próximos 12 meses usted o alguno de los integrantes de este hogar tendrán posibilidades económicas para salir de vacaciones?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Otros índicadores complementarios (balance)"
+      ]
+    },
+    "454832": {
+      "nombre": "¿Actualmente usted tiene posibilidades de ahorrar alguna parte de sus ingresos?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Otros índicadores complementarios (balance)"
+      ]
+    },
+    "454833": {
+      "nombre": "¿Cómo considera usted que serán sus condiciones económicas para ahorrar dentro de 12 meses comparadas con las actuales?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Otros índicadores complementarios (balance)"
+      ]
+    },
+    "454834": {
+      "nombre": "Comparando con los 12 meses anteriores, ¿cómo cree usted que se comporten los precios en el país en los siguientes 12 meses?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Otros índicadores complementarios (balance)"
+      ]
+    },
+    "454835": {
+      "nombre": "¿Cree usted que el empleo en el país en los próximos 12 meses (aumentará, permanecerá igual, disminuirá...) ?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Otros índicadores complementarios (balance)"
+      ]
+    },
+    "454836": {
+      "nombre": "¿Algún miembro de este hogar o usted están planeando comprar un automóvil nuevo o usado en los proximos 2 años?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Otros índicadores complementarios (balance)"
+      ]
+    },
+    "454837": {
+      "nombre": "¿Algún miembro de este hogar o usted están planeando comprar, construir o remodelar una casa en los próximos 2 años?",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series originales",
+        "Otros índicadores complementarios (balance)"
+      ]
+    },
+    "454205": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted la situación económica del país hoy en día comparada con la de hace 12 meses?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454206": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted la situación económica del país hoy en día comparada con la de hace 12 meses?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454198": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la situación económica de los miembros de este hogar dentro de 12 meses, respecto a la actual?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454199": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la situación económica de los miembros de este hogar dentro de 12 meses, respecto a la actual?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454200": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la situación económica de los miembros de este hogar dentro de 12 meses, respecto a la actual?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454201": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la situación económica de los miembros de este hogar dentro de 12 meses, respecto a la actual?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454202": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la situación económica de los miembros de este hogar dentro de 12 meses, respecto a la actual?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454203": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la situación económica de los miembros de este hogar dentro de 12 meses, respecto a la actual?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454204": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la situación económica de los miembros de este hogar dentro de 12 meses, respecto a la actual?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454186": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Indicador de confianza del consumidor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454187": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Indicador de confianza del consumidor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454188": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Indicador de confianza del consumidor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454210": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted la situación económica del país hoy en día comparada con la de hace 12 meses?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454211": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted la situación económica del país hoy en día comparada con la de hace 12 meses?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454184": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Indicador de confianza del consumidor",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454185": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Indicador de confianza del consumidor",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454207": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted la situación económica del país hoy en día comparada con la de hace 12 meses?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454208": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted la situación económica del país hoy en día comparada con la de hace 12 meses?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454209": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted la situación económica del país hoy en día comparada con la de hace 12 meses?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454189": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Indicador de confianza del consumidor",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454190": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Indicador de confianza del consumidor",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454196": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparada con la situación económica que los miembros de este hogar tenían hace 12 meses ¿cómo cree que es su situación en este momento?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454197": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparada con la situación económica que los miembros de este hogar tenían hace 12 meses ¿cómo cree que es su situación en este momento?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454193": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparada con la situación económica que los miembros de este hogar tenían hace 12 meses ¿cómo cree que es su situación en este momento?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454194": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparada con la situación económica que los miembros de este hogar tenían hace 12 meses ¿cómo cree que es su situación en este momento?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454195": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparada con la situación económica que los miembros de este hogar tenían hace 12 meses ¿cómo cree que es su situación en este momento?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454191": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparada con la situación económica que los miembros de este hogar tenían hace 12 meses ¿cómo cree que es su situación en este momento?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454192": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparada con la situación económica que los miembros de este hogar tenían hace 12 meses ¿cómo cree que es su situación en este momento?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454765": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo describiría usted su situación económica comparada con la de hace 12 meses?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454766": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo describiría usted su situación económica comparada con la de hace 12 meses?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454772": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Y cómo cree usted que será su situación económica dentro de 12 meses, respecto de la actual?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454773": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Y cómo cree usted que será su situación económica dentro de 12 meses, respecto de la actual?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454767": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo describiría usted su situación económica comparada con la de hace 12 meses?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454768": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo describiría usted su situación económica comparada con la de hace 12 meses?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454769": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo describiría usted su situación económica comparada con la de hace 12 meses?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454770": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo describiría usted su situación económica comparada con la de hace 12 meses?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454771": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo describiría usted su situación económica comparada con la de hace 12 meses?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454221": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparando la situación ecónomica actual con la de hace un año ¿cómo considera en el momento actual las posibilidades",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454222": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparando la situación ecónomica actual con la de hace un año ¿cómo considera en el momento actual las posibilidades",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454223": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparando la situación ecónomica actual con la de hace un año ¿cómo considera en el momento actual las posibilidades",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454777": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Y cómo cree usted que será su situación económica dentro de 12 meses, respecto de la actual?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454778": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Y cómo cree usted que será su situación económica dentro de 12 meses, respecto de la actual?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454774": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Y cómo cree usted que será su situación económica dentro de 12 meses, respecto de la actual?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454775": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Y cómo cree usted que será su situación económica dentro de 12 meses, respecto de la actual?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454776": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Y cómo cree usted que será su situación económica dentro de 12 meses, respecto de la actual?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454219": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparando la situación ecónomica actual con la de hace un año ¿cómo considera en el momento actual las posibilidades",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454220": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparando la situación ecónomica actual con la de hace un año ¿cómo considera en el momento actual las posibilidades",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454217": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la condición económica del país dentro de 12 meses respecto a la actual situación?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454218": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la condición económica del país dentro de 12 meses respecto a la actual situación?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454214": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la condición económica del país dentro de 12 meses respecto a la actual situación?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454215": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la condición económica del país dentro de 12 meses respecto a la actual situación?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454216": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la condición económica del país dentro de 12 meses respecto a la actual situación?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454212": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la condición económica del país dentro de 12 meses respecto a la actual situación?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454213": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "¿Cómo considera usted que será la condición económica del país dentro de 12 meses respecto a la actual situación?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454224": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparando la situación ecónomica actual con la de hace un año ¿cómo considera en el momento actual las posibilidades",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454225": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Indicador (balance)",
+        "Comparando la situación ecónomica actual con la de hace un año ¿cómo considera en el momento actual las posibilidades",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454800": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo considera usted que serán sus condiciones económicas para ahorrar dentro de 12 meses comparadas con las actuales?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454801": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo considera usted que serán sus condiciones económicas para ahorrar dentro de 12 meses comparadas con las actuales?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454802": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo considera usted que serán sus condiciones económicas para ahorrar dentro de 12 meses comparadas con las actuales?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454803": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo considera usted que serán sus condiciones económicas para ahorrar dentro de 12 meses comparadas con las actuales?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454804": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo considera usted que serán sus condiciones económicas para ahorrar dentro de 12 meses comparadas con las actuales?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454805": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo considera usted que serán sus condiciones económicas para ahorrar dentro de 12 meses comparadas con las actuales?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454806": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cómo considera usted que serán sus condiciones económicas para ahorrar dentro de 12 meses comparadas con las actuales?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454793": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Actualmente usted tiene posibilidades de ahorrar alguna parte de sus ingresos?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454794": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Actualmente usted tiene posibilidades de ahorrar alguna parte de sus ingresos?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454795": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Actualmente usted tiene posibilidades de ahorrar alguna parte de sus ingresos?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454796": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Actualmente usted tiene posibilidades de ahorrar alguna parte de sus ingresos?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454797": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Actualmente usted tiene posibilidades de ahorrar alguna parte de sus ingresos?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454798": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Actualmente usted tiene posibilidades de ahorrar alguna parte de sus ingresos?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454799": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Actualmente usted tiene posibilidades de ahorrar alguna parte de sus ingresos?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454781": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿En este momento tiene usted mayores posibilidades de comprar ropa, zapatos, alimentos, etc., que hace un año?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454782": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿En este momento tiene usted mayores posibilidades de comprar ropa, zapatos, alimentos, etc., que hace un año?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454783": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿En este momento tiene usted mayores posibilidades de comprar ropa, zapatos, alimentos, etc., que hace un año?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454779": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿En este momento tiene usted mayores posibilidades de comprar ropa, zapatos, alimentos, etc., que hace un año?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454780": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿En este momento tiene usted mayores posibilidades de comprar ropa, zapatos, alimentos, etc., que hace un año?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454786": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Considera usted que durante los próximos 12 meses usted o alguno de los integrantes de este hogar tendrán posibilidades económicas para salir de vacaciones?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454787": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Considera usted que durante los próximos 12 meses usted o alguno de los integrantes de este hogar tendrán posibilidades económicas para salir de vacaciones?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454784": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿En este momento tiene usted mayores posibilidades de comprar ropa, zapatos, alimentos, etc., que hace un año?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454785": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿En este momento tiene usted mayores posibilidades de comprar ropa, zapatos, alimentos, etc., que hace un año?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454788": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Considera usted que durante los próximos 12 meses usted o alguno de los integrantes de este hogar tendrán posibilidades económicas para salir de vacaciones?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454789": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Considera usted que durante los próximos 12 meses usted o alguno de los integrantes de este hogar tendrán posibilidades económicas para salir de vacaciones?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454790": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Considera usted que durante los próximos 12 meses usted o alguno de los integrantes de este hogar tendrán posibilidades económicas para salir de vacaciones?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454791": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Considera usted que durante los próximos 12 meses usted o alguno de los integrantes de este hogar tendrán posibilidades económicas para salir de vacaciones?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454792": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Considera usted que durante los próximos 12 meses usted o alguno de los integrantes de este hogar tendrán posibilidades económicas para salir de vacaciones?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454826": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar, construir o remodelar una casa en los próximos 2 años?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454827": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar, construir o remodelar una casa en los próximos 2 años?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454807": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cree usted que el empleo en el país en los próximos 12 meses (aumentará, permanecerá igual, disminuirá...) ?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454808": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cree usted que el empleo en el país en los próximos 12 meses (aumentará, permanecerá igual, disminuirá...) ?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454823": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar, construir o remodelar una casa en los próximos 2 años?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454824": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar, construir o remodelar una casa en los próximos 2 años?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454825": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar, construir o remodelar una casa en los próximos 2 años?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454821": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar, construir o remodelar una casa en los próximos 2 años?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454822": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar, construir o remodelar una casa en los próximos 2 años?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454809": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cree usted que el empleo en el país en los próximos 12 meses (aumentará, permanecerá igual, disminuirá...) ?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454810": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cree usted que el empleo en el país en los próximos 12 meses (aumentará, permanecerá igual, disminuirá...) ?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454811": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cree usted que el empleo en el país en los próximos 12 meses (aumentará, permanecerá igual, disminuirá...) ?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "461468": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "Comparando con los 12 meses anteriores, ¿cómo cree usted que se comporten los precios en el país en los siguientes 12 meses?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "461469": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "Comparando con los 12 meses anteriores, ¿cómo cree usted que se comporten los precios en el país en los siguientes 12 meses?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "461470": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "Comparando con los 12 meses anteriores, ¿cómo cree usted que se comporten los precios en el país en los siguientes 12 meses?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "461471": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "Comparando con los 12 meses anteriores, ¿cómo cree usted que se comporten los precios en el país en los siguientes 12 meses?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "461472": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "Comparando con los 12 meses anteriores, ¿cómo cree usted que se comporten los precios en el país en los siguientes 12 meses?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454812": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cree usted que el empleo en el país en los próximos 12 meses (aumentará, permanecerá igual, disminuirá...) ?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454813": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Cree usted que el empleo en el país en los próximos 12 meses (aumentará, permanecerá igual, disminuirá...) ?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454814": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar un automóvil nuevo o usado en los proximos 2 años?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "454815": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar un automóvil nuevo o usado en los proximos 2 años?",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "461473": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "Comparando con los 12 meses anteriores, ¿cómo cree usted que se comporten los precios en el país en los siguientes 12 meses?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "461474": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "Comparando con los 12 meses anteriores, ¿cómo cree usted que se comporten los precios en el país en los siguientes 12 meses?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454819": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar un automóvil nuevo o usado en los proximos 2 años?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454820": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar un automóvil nuevo o usado en los proximos 2 años?",
+        "Tendencia-ciclo"
+      ]
+    },
+    "454816": {
+      "nombre": "Indicador",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar un automóvil nuevo o usado en los proximos 2 años?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454817": {
+      "nombre": "Diferencia mensual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar un automóvil nuevo o usado en los proximos 2 años?",
+        "Serie desestacionalizada"
+      ]
+    },
+    "454818": {
+      "nombre": "Diferencia anual",
+      "ruta": [
+        "Confianza del consumidor",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Otros índicadores complementarios (balance)",
+        "¿Algún miembro de este hogar o usted están planeando comprar un automóvil nuevo o usado en los proximos 2 años?",
+        "Serie desestacionalizada"
+      ]
+    }
+  }
+}

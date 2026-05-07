@@ -1,0 +1,2388 @@
+{
+  "737145": {
+    "nombre": "Total",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual"
+    ]
+  },
+  "737169": {
+    "nombre": "Total",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado"
+    ]
+  },
+  "737121": {
+    "nombre": "Total",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico"
+    ]
+  },
+  "737193": {
+    "nombre": "Total",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada"
+    ]
+  },
+  "737149": {
+    "nombre": "Total actividades secundarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades secundarias"
+    ]
+  },
+  "737150": {
+    "nombre": "21 Minería",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades secundarias"
+    ]
+  },
+  "737151": {
+    "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades secundarias"
+    ]
+  },
+  "737152": {
+    "nombre": "23 Construcción",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades secundarias"
+    ]
+  },
+  "737153": {
+    "nombre": "31-33 Industrias manufactureras",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades secundarias"
+    ]
+  },
+  "737154": {
+    "nombre": "Total actividades terciarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737155": {
+    "nombre": "43 Comercio al por mayor",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737156": {
+    "nombre": "46 Comercio al por menor",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737157": {
+    "nombre": "48-49 Transportes, correos y almacenamiento",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737158": {
+    "nombre": "51 Información en medios masivos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737159": {
+    "nombre": "52 Servicios financieros y de seguros",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737160": {
+    "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737161": {
+    "nombre": "54 Servicios profesionales, científicos y técnicos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737162": {
+    "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737163": {
+    "nombre": "61 Servicios educativos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737164": {
+    "nombre": "62 Servicios de salud y de asistencia social",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737165": {
+    "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737166": {
+    "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737167": {
+    "nombre": "81 Otros servicios excepto actividades gubernamentales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737168": {
+    "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades terciarias"
+    ]
+  },
+  "737146": {
+    "nombre": "Total de actividades primarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades primarias"
+    ]
+  },
+  "737147": {
+    "nombre": "111 Agricultura",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades primarias"
+    ]
+  },
+  "737148": {
+    "nombre": "112 Cría y explotación de animales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual",
+      "Actividades primarias"
+    ]
+  },
+  "737170": {
+    "nombre": "Total de actividades primarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades primarias"
+    ]
+  },
+  "737171": {
+    "nombre": "111 Agricultura",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades primarias"
+    ]
+  },
+  "737172": {
+    "nombre": "112 Cría y explotación de animales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades primarias"
+    ]
+  },
+  "737122": {
+    "nombre": "Total de actividades primarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades primarias"
+    ]
+  },
+  "737123": {
+    "nombre": "111 Agricultura",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades primarias"
+    ]
+  },
+  "737124": {
+    "nombre": "112 Cría y explotación de animales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades primarias"
+    ]
+  },
+  "737173": {
+    "nombre": "Total actividades secundarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades secundarias"
+    ]
+  },
+  "737174": {
+    "nombre": "21 Minería",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades secundarias"
+    ]
+  },
+  "737175": {
+    "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades secundarias"
+    ]
+  },
+  "737176": {
+    "nombre": "23 Construcción",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades secundarias"
+    ]
+  },
+  "737177": {
+    "nombre": "31-33 Industrias manufactureras",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades secundarias"
+    ]
+  },
+  "737178": {
+    "nombre": "Total actividades terciarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737179": {
+    "nombre": "43 Comercio al por mayor",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737180": {
+    "nombre": "46 Comercio al por menor",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737181": {
+    "nombre": "48-49 Transportes, correos y almacenamiento",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737182": {
+    "nombre": "51 Información en medios masivos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737183": {
+    "nombre": "52 Servicios financieros y de seguros",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737184": {
+    "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737185": {
+    "nombre": "54 Servicios profesionales, científicos y técnicos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737186": {
+    "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737187": {
+    "nombre": "61 Servicios educativos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737188": {
+    "nombre": "62 Servicios de salud y de asistencia social",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737189": {
+    "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737190": {
+    "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737191": {
+    "nombre": "81 Otros servicios excepto actividades gubernamentales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737192": {
+    "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico acumulado",
+      "Actividades terciarias"
+    ]
+  },
+  "737125": {
+    "nombre": "Total actividades secundarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades secundarias"
+    ]
+  },
+  "737126": {
+    "nombre": "21 Minería",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades secundarias"
+    ]
+  },
+  "737127": {
+    "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades secundarias"
+    ]
+  },
+  "737128": {
+    "nombre": "23 Construcción",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades secundarias"
+    ]
+  },
+  "737129": {
+    "nombre": "31-33 Industrias manufactureras",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades secundarias"
+    ]
+  },
+  "737197": {
+    "nombre": "Total actividades secundarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades secundarias"
+    ]
+  },
+  "737198": {
+    "nombre": "21 Minería",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades secundarias"
+    ]
+  },
+  "737199": {
+    "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades secundarias"
+    ]
+  },
+  "737200": {
+    "nombre": "23 Construcción",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades secundarias"
+    ]
+  },
+  "737201": {
+    "nombre": "31-33 Industrias manufactureras",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades secundarias"
+    ]
+  },
+  "737130": {
+    "nombre": "Total actividades terciarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737131": {
+    "nombre": "43 Comercio al por mayor",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737132": {
+    "nombre": "46 Comercio al por menor",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737133": {
+    "nombre": "48-49 Transportes, correos y almacenamiento",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737134": {
+    "nombre": "51 Información en medios masivos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737135": {
+    "nombre": "52 Servicios financieros y de seguros",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737136": {
+    "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737137": {
+    "nombre": "54 Servicios profesionales, científicos y técnicos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737138": {
+    "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737139": {
+    "nombre": "61 Servicios educativos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737140": {
+    "nombre": "62 Servicios de salud y de asistencia social",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737141": {
+    "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737142": {
+    "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737143": {
+    "nombre": "81 Otros servicios excepto actividades gubernamentales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737144": {
+    "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Índice de volumen físico",
+      "Actividades terciarias"
+    ]
+  },
+  "737194": {
+    "nombre": "Total de actividades primarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades primarias"
+    ]
+  },
+  "737195": {
+    "nombre": "111 Agricultura",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades primarias"
+    ]
+  },
+  "737196": {
+    "nombre": "112 Cría y explotación de animales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades primarias"
+    ]
+  },
+  "737202": {
+    "nombre": "Total actividades terciarias",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737203": {
+    "nombre": "43 Comercio al por mayor",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737204": {
+    "nombre": "46 Comercio al por menor",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737205": {
+    "nombre": "48-49 Transportes, correos y almacenamiento",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737206": {
+    "nombre": "51 Información en medios masivos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737207": {
+    "nombre": "52 Servicios financieros y de seguros",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737208": {
+    "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737209": {
+    "nombre": "54 Servicios profesionales, científicos y técnicos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737210": {
+    "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737211": {
+    "nombre": "61 Servicios educativos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737212": {
+    "nombre": "62 Servicios de salud y de asistencia social",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737213": {
+    "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737214": {
+    "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737215": {
+    "nombre": "81 Otros servicios excepto actividades gubernamentales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737216": {
+    "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+    "ruta": [
+      "IGAE base 2018",
+      "Series originales",
+      "Variación anual acumulada",
+      "Actividades terciarias"
+    ]
+  },
+  "737224": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades primarias",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737225": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades primarias",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737229": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades primarias",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737230": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades primarias",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737217": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Total",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737218": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Total",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737226": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades primarias",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737227": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades primarias",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737228": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades primarias",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737219": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Total",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737220": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Total",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737221": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Total",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737222": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Total",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737223": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Total",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737266": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "Total actividades terciarias",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737267": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "Total actividades terciarias",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737268": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "Total actividades terciarias",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737269": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "Total actividades terciarias",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737270": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "Total actividades terciarias",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737292": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "48-49 Transportes, correos y almacenamiento",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737293": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "48-49 Transportes, correos y almacenamiento",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737271": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "Total actividades terciarias",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737272": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "Total actividades terciarias",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737289": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "48-49 Transportes, correos y almacenamiento",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737290": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "48-49 Transportes, correos y almacenamiento",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737291": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "48-49 Transportes, correos y almacenamiento",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737287": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "48-49 Transportes, correos y almacenamiento",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737288": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "48-49 Transportes, correos y almacenamiento",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737282": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "46 Comercio al por menor",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737283": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "46 Comercio al por menor",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737284": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "46 Comercio al por menor",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737273": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "43 Comercio al por mayor",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737274": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "43 Comercio al por mayor",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737280": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "46 Comercio al por menor",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737281": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "46 Comercio al por menor",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737285": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "46 Comercio al por menor",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737286": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "46 Comercio al por menor",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737301": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "52 Servicios financieros y de seguros",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737302": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "52 Servicios financieros y de seguros",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737278": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "43 Comercio al por mayor",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737279": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "43 Comercio al por mayor",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737275": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "43 Comercio al por mayor",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737276": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "43 Comercio al por mayor",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737277": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "43 Comercio al por mayor",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737303": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "52 Servicios financieros y de seguros",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737304": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "52 Servicios financieros y de seguros",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737305": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "52 Servicios financieros y de seguros",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737294": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "51 Información en medios masivos",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737295": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "51 Información en medios masivos",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737299": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "51 Información en medios masivos",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737300": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "51 Información en medios masivos",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737296": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "51 Información en medios masivos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737297": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "51 Información en medios masivos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737298": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "51 Información en medios masivos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737306": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "52 Servicios financieros y de seguros",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737307": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "52 Servicios financieros y de seguros",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737320": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "54 Servicios profesionales, científicos y técnicos",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737321": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "54 Servicios profesionales, científicos y técnicos",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737308": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737309": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737317": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "54 Servicios profesionales, científicos y técnicos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737318": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "54 Servicios profesionales, científicos y técnicos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737319": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "54 Servicios profesionales, científicos y técnicos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737315": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "54 Servicios profesionales, científicos y técnicos",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737316": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "54 Servicios profesionales, científicos y técnicos",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737313": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737314": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737310": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737311": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737312": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737343": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737344": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737345": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737346": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737347": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737338": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "62 Servicios de salud y de asistencia social",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737339": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "62 Servicios de salud y de asistencia social",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737340": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "62 Servicios de salud y de asistencia social",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737348": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737349": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737336": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "62 Servicios de salud y de asistencia social",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737337": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "62 Servicios de salud y de asistencia social",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737341": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "62 Servicios de salud y de asistencia social",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737342": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "62 Servicios de salud y de asistencia social",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737329": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "61 Servicios educativos",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737330": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "61 Servicios educativos",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737327": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737328": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737324": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737325": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737326": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737322": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737323": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737334": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "61 Servicios educativos",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737335": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "61 Servicios educativos",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737352": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737353": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737354": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737350": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737351": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737331": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "61 Servicios educativos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737332": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "61 Servicios educativos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737333": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "61 Servicios educativos",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737359": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "81 Otros servicios excepto actividades gubernamentales",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737360": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "81 Otros servicios excepto actividades gubernamentales",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737361": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "81 Otros servicios excepto actividades gubernamentales",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737357": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "81 Otros servicios excepto actividades gubernamentales",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737358": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "81 Otros servicios excepto actividades gubernamentales",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737355": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737356": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737362": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "81 Otros servicios excepto actividades gubernamentales",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737363": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "81 Otros servicios excepto actividades gubernamentales",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737364": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737365": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737366": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737367": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737368": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737369": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737370": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades terciarias",
+      "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737231": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "Total actividades secundarias",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737232": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "Total actividades secundarias",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737236": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "Total actividades secundarias",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737237": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "Total actividades secundarias",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737240": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "21 Minería",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737241": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "21 Minería",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737242": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "21 Minería",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737238": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "21 Minería",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737239": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "21 Minería",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737233": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "Total actividades secundarias",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737234": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "Total actividades secundarias",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737235": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "Total actividades secundarias",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737243": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "21 Minería",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737244": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "21 Minería",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737247": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737248": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737249": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737245": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737246": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737250": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737251": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737252": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "23 Construcción",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737253": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "23 Construcción",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737261": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "31-33 Industrias manufactureras",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737262": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "31-33 Industrias manufactureras",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737263": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "31-33 Industrias manufactureras",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737259": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "31-33 Industrias manufactureras",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737260": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "31-33 Industrias manufactureras",
+      "Serie original corregida por efectos del calendario"
+    ]
+  },
+  "737264": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "31-33 Industrias manufactureras",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737265": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "31-33 Industrias manufactureras",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737257": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "23 Construcción",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737258": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "23 Construcción",
+      "Tendencia-ciclo"
+    ]
+  },
+  "737254": {
+    "nombre": "Índice",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "23 Construcción",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737255": {
+    "nombre": "Variación mensual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "23 Construcción",
+      "Serie desestacionalizada"
+    ]
+  },
+  "737256": {
+    "nombre": "Variación anual",
+    "ruta": [
+      "IGAE base 2018",
+      "Series desestacionalizadas y tendencia-ciclo",
+      "Actividades secundarias",
+      "23 Construcción",
+      "Serie desestacionalizada"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+
+--- PÁGINA 1 ---
+BOLETÍN DE INDICADOR 230/26
+INDICADOR GLOBAL DE LA ACTIVIDAD
+ECONÓMICA (IGAE)
+24 de abril de 2026
+Página 1/5
+Próxima publicación: 22 de mayo de 2026
+IGAE Variación Variación
+índice 2018=100 mensual anual
+febrero febrero febrero
+104.7 ▲ 0.1 % ▼ -0.3 %
+Aumentó 0.1 % el IGAE a tasa mensual
+y disminuyó 0.3 % a tasa anual, en febrero de 2026
+El Indicador Global de la Actividad Económica (IGAE) permite conocer y dar seguimiento a la
+evolución del sector real de la economía en el corto plazo.
+I. CIFRAS DESESTACIONALIZADAS
+En febrero de 2026 y con cifras desestacionalizadas,1 el IGAE creció 0.1 % respecto al mes
+previo, en términos reales (ver gráfica 1). A tasa anual retrocedió 0.3 por ciento.
+Gráfica 1
+Variación del Indicador Global de la Actividad Económica
+cifras desestacionalizadas
+febrero de 2024–febrero de 2026
+(variación porcentual real mensual)
+1.2
+1.0 1.1
+1.0 0.9 0.9
+0.5 0.4 0.3 0.3 0.4 0.3 0.3
+0.1 0.1 0.0 0.1
+0.0
+-0.1
+-0.5 -0.3 -0.3
+-0.3
+-0.5
+-0.7
+-1.0
+-1.0
+-1.0
+-1.5 -1.4 -1.3
+F M A M J J A S O N D E F M A M J J A S O N D E F
+2024 2025 2026
+Nota: Serie elaborada mediante métodos econométricos.
+Fuente: INEGI. Sistema de Cuentas Nacionales de México (SCNM). Indicador Global de la Actividad Económica (IGAE), 2026.
+1 La mayoría de las series económicas se ve afectada por factores estacionales y de calendario. El ajuste de los datos por dichos factores
+permite obtener las cifras desestacionalizadas.
+La tendencia-ciclo es la combinación de los componentes de tendencia y ciclo. La tendencia se refiere a la evolución de largo plazo de la
+serie de tiempo, y el ciclo, a las desviaciones alrededor de la tendencia. Así, el análisis de las series ajustadas ayuda a realizar un mejor
+diagnóstico de la evolución de las variables.
+--- PÁGINA 2 ---
+BOLETÍN DE INDICADOR 230/26
+INDICADOR GLOBAL DE LA ACTIVIDAD
+ECONÓMICA (IGAE)
+24 de abril de 2026
+Página 2/5
+Por componente, las actividades secundarias incrementaron 0.4 %, mientras que las terciarias
+descendieron 0.1 % y las primarias, 0.3 % a tasa mensual.
+A tasa anual, las actividades secundarias disminuyeron 1.3 por ciento. Las terciarias
+aumentaron 0.2 % y las primarias, 2.3 % (ver cuadro 1).
+Cuadro 1
+Índice y variación del Indicador Global de la Actividad Económica por dominios
+cifras desestacionalizadas
+febrero de 2026
+(índice y variación porcentual mensual y anual)
+Variación porcentual real
+Índice respecto a:
+Indicador, actividades y sectores
+2018=100 enero febrero
+de 2026 de 2025
+Indicador Global de la Actividad Económica 104.7 0.1 -0.3
+Actividades primarias 107.8 -0.3 2.3
+Actividades secundarias 100.7 0.4 -1.3
+21 Minería 89.1 0.6 0.9
+22 Generación, transmisión, distribución y comercialización de
+energía eléctrica, suministro de agua y de gas natural por ductos 66.1 -1.4 -1.4
+al consumidor final
+23 Construcción 104.8 0.3 1.2
+31-33 Industrias manufactureras 105.3 0.7 -2.3
+Actividades terciarias 106.9 -0.1 0.2
+43 Comercio al por mayor 103.1 -0.7 -1.3
+46 Comercio al por menor 119.7 0.8 1.5
+48-49 Transportes, correos y almacenamiento 114.8 0.1 0.3
+51 Información en medios masivos 127.7 -0.8 0.1
+52 Servicios financieros y de seguros 117.4 -0.3 1.0
+53 Servicios inmobiliarios y de alquiler de bienes muebles e
+115.7 0.3 1.5
+intangibles
+54 Servicios profesionales, científicos y técnicos 141.1 0.1 -7.3
+56 Servicios de apoyo a los negocios y manejo de residuos, y
+27.4 -1.2 -2.1
+servicios de remediación
+61 Servicios educativos 101.8 -0.2 0.7
+62 Servicios de salud y de asistencia social 115.2 0.0 4.7
+71 Servicios de esparcimiento culturales y deportivos, y otros
+98.0 -4.8 -7.0
+servicios recreativos
+72 Servicios de alojamiento temporal y de preparación de alimentos
+93.5 -1.3 -3.2
+y bebidas
+81 Otros servicios excepto actividades gubernamentales 99.0 -0.4 0.0
+93 Actividades legislativas, gubernamentales, de impartición de
+99.9 0.5 1.7
+justicia y de organismos internacionales y extraterritoriales
+Nota: Cifras elaboradas mediante métodos econométricos.
+Las series desestacionalizadas de los agregados del IGAE se calculan de manera independiente a la de sus componentes.
+Fuente: INEGI. Sistema de Cuentas Nacionales de México (SCNM). Indicador Global de la Actividad Económica (IGAE), 2026.
+--- PÁGINA 3 ---
+BOLETÍN DE INDICADOR 230/26
+INDICADOR GLOBAL DE LA ACTIVIDAD
+ECONÓMICA (IGAE)
+24 de abril de 2026
+Página 3/5
+La gráfica 2 muestra el comportamiento del IGAE y el de los grupos de actividad, con cifras
+desestacionalizadas y su tendencia-ciclo.
+Gráfica 2
+Serie desestacionalizada y de tendencia-ciclo
+del Indicador Global de la Actividad Económica y sus componentes
+enero de 2022–febrero de 2026
+(índice 2018=100)
+Indicador Global de la Actividad Económica Actividades primarias
+106.0
+120.0
+103.0
+110.0
+100.0 100.0
+97.0 90.0
+2022 2023 2024 2025 2026 2022 2023 2024 2025 2026
+Actividades secundarias Actividades terciarias
+106.0 110.0
+103.0 105.0
+100.0 100.0
+97.0 95.0
+2022 2023 2024 2025 2026 2022 2023 2024 2025 2026
+Serie desestacionalizada Serie tendencia-ciclo
+Nota: Series elaboradas mediante métodos econométricos.
+Fuente: INEGI. Sistema de Cuentas Nacionales de México (SCNM). Indicador Global de la Actividad Económica (IGAE), 2026.

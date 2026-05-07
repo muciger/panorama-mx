@@ -1,0 +1,124 @@
+{
+  "_descripcion": "Comparativas curadas con sentido económico. Cada una agrupa indicadores con misma unidad y frecuencia para ser comparables en mismo eje.",
+  "_version": "1.0",
+  "comparativas": [
+    {
+      "id": "inflacion_descomposicion",
+      "titulo": "Descomposición de la inflación",
+      "descripcion": "INPC general contra subyacente y no subyacente. Identifica si el alza la explica el componente estructural o el volátil.",
+      "categoria": "Precios",
+      "unidad": "%",
+      "modo": "raw",
+      "lookback_meses": 60,
+      "series": [
+        {"iid": "inpc_mensual", "campo": "INPC_Anual", "label": "INPC general"},
+        {"iid": "inpc_mensual", "campo": "Subyacente_Anual", "label": "Subyacente"},
+        {"iid": "inpc_mensual", "campo": "No_subyacente_Anual", "label": "No subyacente"}
+      ],
+      "benchmark": {"y_min": 2, "y_max": 4, "label": "Banda Banxico 3% ±1pp", "tipo": "banda"}
+    },
+    {
+      "id": "pass_through_inpp_inpc",
+      "titulo": "Pass-through productor → consumidor",
+      "descripcion": "INPP sin petróleo contra INPC general y subyacente. El INPP anticipa al INPC con rezago de 3 a 6 meses.",
+      "categoria": "Precios",
+      "unidad": "%",
+      "modo": "raw",
+      "lookback_meses": 60,
+      "series": [
+        {"iid": "inpp", "campo": "Sin_petróleo_c_serv_Anual", "label": "INPP sin petróleo"},
+        {"iid": "inpc_mensual", "campo": "INPC_Anual", "label": "INPC general"},
+        {"iid": "inpc_mensual", "campo": "Subyacente_Anual", "label": "INPC subyacente"}
+      ]
+    },
+    {
+      "id": "igae_actividades",
+      "titulo": "IGAE por gran actividad económica",
+      "descripcion": "Variación anual desestacionalizada del IGAE total y por gran actividad. Identifica qué sector explica el movimiento.",
+      "categoria": "Actividad",
+      "unidad": "%",
+      "modo": "raw",
+      "lookback_meses": 60,
+      "series": [
+        {"iid": "igae", "campo": "Total_Anual", "label": "Total"},
+        {"iid": "igae", "campo": "Primarias_Anual", "label": "Primarias"},
+        {"iid": "igae", "campo": "Secundarias_Anual", "label": "Secundarias"},
+        {"iid": "igae", "campo": "Terciarias_Anual", "label": "Terciarias"}
+      ],
+      "benchmark": {"y": 0, "label": "Sin crecimiento", "tipo": "linea"}
+    },
+    {
+      "id": "balanza_externa",
+      "titulo": "Sector externo: exportaciones vs importaciones",
+      "descripcion": "Variación anual desestacionalizada de exportaciones e importaciones totales. Si las importaciones crecen más que las exportaciones, el déficit comercial se amplía.",
+      "categoria": "Externo",
+      "unidad": "%",
+      "modo": "raw",
+      "lookback_meses": 60,
+      "series": [
+        {"iid": "balanza_comercial", "campo": "Exportaciones_totales_Anual", "label": "Exportaciones"},
+        {"iid": "balanza_comercial", "campo": "Importaciones_totales_Anual", "label": "Importaciones"}
+      ]
+    },
+    {
+      "id": "empleo_holgura",
+      "titulo": "Holgura del mercado laboral",
+      "descripcion": "Tasas nacionales de desocupación, subocupación e informalidad. A mayor nivel, mayor holgura laboral y peor calidad del empleo.",
+      "categoria": "Empleo",
+      "unidad": "%",
+      "modo": "raw",
+      "lookback_meses": 60,
+      "series": [
+        {"iid": "enoe_mensual", "campo": "Tasa_desocupacion_Total", "label": "Desocupación"},
+        {"iid": "enoe_mensual", "campo": "Tasa_subocupacion", "label": "Subocupación"},
+        {"iid": "enoe_mensual", "campo": "Tasa_informalidad", "label": "Informalidad"}
+      ]
+    },
+    {
+      "id": "sentimiento_privado",
+      "titulo": "Sentimiento privado: consumidor y empresarial",
+      "descripcion": "Diferencia anual desestacionalizada del ICC y los tres índices EMOE (IPM, ICE, IAT). Anticipan la actividad real con uno a tres meses de adelanto.",
+      "categoria": "Confianza",
+      "unidad": "pp",
+      "modo": "raw",
+      "lookback_meses": 60,
+      "series": [
+        {"iid": "confianza_consumidor", "campo": "Anual", "label": "Confianza consumidor"},
+        {"iid": "emoe_ipm", "campo": "Anual", "label": "EMOE IPM"},
+        {"iid": "emoe_ice", "campo": "Anual", "label": "EMOE ICE"},
+        {"iid": "emoe_iat", "campo": "Anual", "label": "EMOE IAT"}
+      ],
+      "benchmark": {"y": 0, "label": "Sin cambio", "tipo": "linea"}
+    },
+    {
+      "id": "demanda_interna",
+      "titulo": "Demanda interna: consumo, inversión y actividad",
+      "descripcion": "IGAE total, consumo privado y FBCF en variación anual. Tres componentes principales de la demanda interna.",
+      "categoria": "Actividad",
+      "unidad": "%",
+      "modo": "raw",
+      "lookback_meses": 60,
+      "series": [
+        {"iid": "igae", "campo": "Total_Anual", "label": "IGAE total"},
+        {"iid": "consumo_privado", "campo": "Total_Anual", "label": "Consumo privado"},
+        {"iid": "fbcf", "campo": "Total_Anual", "label": "FBCF"}
+      ],
+      "benchmark": {"y": 0, "label": "Sin crecimiento", "tipo": "linea"}
+    },
+    {
+      "id": "fbcf_composicion",
+      "titulo": "Composición de la inversión (FBCF)",
+      "descripcion": "FBCF total, maquinaria y equipo, y construcción. Distingue inversión productiva de inversión en infraestructura.",
+      "categoria": "Inversión",
+      "unidad": "%",
+      "modo": "raw",
+      "lookback_meses": 60,
+      "series": [
+        {"iid": "fbcf", "campo": "Total_Anual", "label": "Total"},
+        {"iid": "fbcf", "campo": "Maquinaria_y_equipo_Anual", "label": "Maquinaria y equipo"},
+        {"iid": "fbcf", "campo": "Construcción_Anual", "label": "Construcción"}
+      ],
+      "benchmark": {"y": 0, "label": "Sin crecimiento", "tipo": "linea"}
+    }
+  ]
+}

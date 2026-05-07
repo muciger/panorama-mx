@@ -1,0 +1,2467 @@
+{
+  "_meta": {
+    "root_id": "123",
+    "root_name": "ENOE trimestral",
+    "elapsed_s": 65.5,
+    "calls": 87,
+    "queue_restante": 0,
+    "indicadores": 245
+  },
+  "indicadores": {
+    "448343": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de subocupación"
+      ]
+    },
+    "448344": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de subocupación"
+      ]
+    },
+    "448345": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de subocupación"
+      ]
+    },
+    "303309": {
+      "nombre": "Tasa de subocupación",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos"
+      ]
+    },
+    "380710": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de ocupación en el sector informal 2 (TOSI2)"
+      ]
+    },
+    "380711": {
+      "nombre": "Hombres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de ocupación en el sector informal 2 (TOSI2)"
+      ]
+    },
+    "380712": {
+      "nombre": "Mujeres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de ocupación en el sector informal 2 (TOSI2)"
+      ]
+    },
+    "303300": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)"
+      ]
+    },
+    "303301": {
+      "nombre": "Hombres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)"
+      ]
+    },
+    "303302": {
+      "nombre": "Mujeres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de ocupación en el sector informal 1 (TOSI1)"
+      ]
+    },
+    "303259": {
+      "nombre": "Tasas de desocupación",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasas de desocupación"
+      ]
+    },
+    "380713": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de informalidad laboral 1 (TIL1)"
+      ]
+    },
+    "380714": {
+      "nombre": "Hombres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de informalidad laboral 1 (TIL1)"
+      ]
+    },
+    "380715": {
+      "nombre": "Mujeres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de informalidad laboral 1 (TIL1)"
+      ]
+    },
+    "380716": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de informalidad laboral 2 (TIL2)"
+      ]
+    },
+    "380717": {
+      "nombre": "Hombres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de informalidad laboral 2 (TIL2)"
+      ]
+    },
+    "380718": {
+      "nombre": "Mujeres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de informalidad laboral 2 (TIL2)"
+      ]
+    },
+    "289242": {
+      "nombre": "Población total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total"
+      ]
+    },
+    "448334": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas de desocupación",
+        "Nacional",
+        "Total"
+      ]
+    },
+    "448335": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas de desocupación",
+        "Nacional",
+        "Total"
+      ]
+    },
+    "448336": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas de desocupación",
+        "Nacional",
+        "Total"
+      ]
+    },
+    "452074": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas de desocupación",
+        "Por entidad federativa"
+      ]
+    },
+    "289292": {
+      "nombre": "Hombres población total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres"
+      ]
+    },
+    "289342": {
+      "nombre": "Mujeres población total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres"
+      ]
+    },
+    "448373": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Urbana, agregado de 32 ciudades"
+      ]
+    },
+    "448374": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Urbana, agregado de 32 ciudades"
+      ]
+    },
+    "448375": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Urbana, agregado de 32 ciudades"
+      ]
+    },
+    "448376": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de informalidad laboral 1",
+        "Nacional"
+      ]
+    },
+    "448377": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de informalidad laboral 1",
+        "Nacional"
+      ]
+    },
+    "448378": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de informalidad laboral 1",
+        "Nacional"
+      ]
+    },
+    "448379": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de informalidad laboral 1",
+        "Urbana, agregado de 32 ciudades"
+      ]
+    },
+    "448380": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de informalidad laboral 1",
+        "Urbana, agregado de 32 ciudades"
+      ]
+    },
+    "448381": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de informalidad laboral 1",
+        "Urbana, agregado de 32 ciudades"
+      ]
+    },
+    "303294": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)"
+      ]
+    },
+    "303295": {
+      "nombre": "Hombres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)"
+      ]
+    },
+    "303296": {
+      "nombre": "Mujeres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)"
+      ]
+    },
+    "303260": {
+      "nombre": "Hombres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasas de desocupación",
+        "Nacional"
+      ]
+    },
+    "303261": {
+      "nombre": "Mujeres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasas de desocupación",
+        "Nacional"
+      ]
+    },
+    "303303": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de participación",
+        "Nacional"
+      ]
+    },
+    "303304": {
+      "nombre": "Hombres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de participación",
+        "Nacional"
+      ]
+    },
+    "303305": {
+      "nombre": "Mujeres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de participación",
+        "Nacional"
+      ]
+    },
+    "303297": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)"
+      ]
+    },
+    "303298": {
+      "nombre": "Hombres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)"
+      ]
+    },
+    "303299": {
+      "nombre": "Mujeres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)"
+      ]
+    },
+    "303306": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades"
+      ]
+    },
+    "303307": {
+      "nombre": "Hombres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades"
+      ]
+    },
+    "303308": {
+      "nombre": "Mujeres",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores relativos",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades"
+      ]
+    },
+    "448340": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas de desocupación",
+        "Nacional",
+        "Mujeres"
+      ]
+    },
+    "448341": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas de desocupación",
+        "Nacional",
+        "Mujeres"
+      ]
+    },
+    "448342": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas de desocupación",
+        "Nacional",
+        "Mujeres"
+      ]
+    },
+    "448337": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas de desocupación",
+        "Nacional",
+        "Hombres"
+      ]
+    },
+    "448338": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas de desocupación",
+        "Nacional",
+        "Hombres"
+      ]
+    },
+    "448339": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas de desocupación",
+        "Nacional",
+        "Hombres"
+      ]
+    },
+    "289255": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289256": {
+      "nombre": "Ausentes temporales con vínculo laboral",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289257": {
+      "nombre": "Menos de 15 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289258": {
+      "nombre": "De 15 a 34 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289259": {
+      "nombre": "De 35 a 48 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289260": {
+      "nombre": "Más de 48 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289261": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289250": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289251": {
+      "nombre": "Primario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289252": {
+      "nombre": "Secundario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289253": {
+      "nombre": "Terciario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289254": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289262": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por ámbito y tamaño de la unidad económica"
+      ]
+    },
+    "289263": {
+      "nombre": "Ámbito agropecuario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por ámbito y tamaño de la unidad económica"
+      ]
+    },
+    "289271": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por ámbito y tamaño de la unidad económica"
+      ]
+    },
+    "289243": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población de 15 años y más"
+      ]
+    },
+    "289289": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población desocupada"
+      ]
+    },
+    "289290": {
+      "nombre": "Con experiencia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población desocupada"
+      ]
+    },
+    "289291": {
+      "nombre": "Sin experiencia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población desocupada"
+      ]
+    },
+    "289278": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289279": {
+      "nombre": "Trabajadores subordinados remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289280": {
+      "nombre": "Empleadores",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289281": {
+      "nombre": "Trabajadores por cuenta propia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289282": {
+      "nombre": "Trabajadores no remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289283": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289284": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289285": {
+      "nombre": "Primario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289286": {
+      "nombre": "Secundario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289287": {
+      "nombre": "Terciario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289288": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289272": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289273": {
+      "nombre": "Trabajadores subordinados remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289274": {
+      "nombre": "Empleadores",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289275": {
+      "nombre": "Trabajadores por cuenta propia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289276": {
+      "nombre": "Trabajadores no remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289277": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289300": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289301": {
+      "nombre": "Primario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289302": {
+      "nombre": "Secundario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289303": {
+      "nombre": "Terciario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289304": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289293": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población de 15 años y más"
+      ]
+    },
+    "289312": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por ámbito y tamaño de la unidad económica"
+      ]
+    },
+    "289313": {
+      "nombre": "Ámbito agropecuario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por ámbito y tamaño de la unidad económica"
+      ]
+    },
+    "289321": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por ámbito y tamaño de la unidad económica"
+      ]
+    },
+    "289305": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289306": {
+      "nombre": "Ausentes temporales con vínculo laboral",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289307": {
+      "nombre": "Menos de 15 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289308": {
+      "nombre": "De 15 a 34 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289309": {
+      "nombre": "De 35 a 48 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289310": {
+      "nombre": "Más de 48 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289311": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289334": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289335": {
+      "nombre": "Primario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289336": {
+      "nombre": "Secundario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289337": {
+      "nombre": "Terciario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289338": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289322": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289323": {
+      "nombre": "Trabajadores subordinados y remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289324": {
+      "nombre": "Empleadores",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289325": {
+      "nombre": "Trabajadores por cuenta propia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289326": {
+      "nombre": "Trabajadores no remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289327": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289328": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289329": {
+      "nombre": "Trabajadores subordinados y remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289330": {
+      "nombre": "Empleadores",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289331": {
+      "nombre": "Trabajadores por cuenta propia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289332": {
+      "nombre": "Trabajadores no remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289333": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289339": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población desocupada"
+      ]
+    },
+    "289340": {
+      "nombre": "Con experiencia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población desocupada"
+      ]
+    },
+    "289341": {
+      "nombre": "Sin experiencia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población desocupada"
+      ]
+    },
+    "289343": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población de 15 años y más"
+      ]
+    },
+    "289355": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289356": {
+      "nombre": "Ausentes temporales con vínculo laboral",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289357": {
+      "nombre": "Menos de 15 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289358": {
+      "nombre": "De 15 a 34 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289359": {
+      "nombre": "De 35 a 48 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289360": {
+      "nombre": "Más de 48 horas",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289361": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por duración de la jornada de trabajo"
+      ]
+    },
+    "289362": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por ámbito y tamaño de la unidad económica"
+      ]
+    },
+    "289363": {
+      "nombre": "Ámbito agropecuario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por ámbito y tamaño de la unidad económica"
+      ]
+    },
+    "289371": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por ámbito y tamaño de la unidad económica"
+      ]
+    },
+    "289350": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289351": {
+      "nombre": "Primario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289352": {
+      "nombre": "Secundario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289353": {
+      "nombre": "Terciario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289354": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por sector de actividad económica"
+      ]
+    },
+    "289389": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población desocupada"
+      ]
+    },
+    "289390": {
+      "nombre": "Con experiencia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población desocupada"
+      ]
+    },
+    "289391": {
+      "nombre": "Sin experiencia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población desocupada"
+      ]
+    },
+    "289372": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289373": {
+      "nombre": "Trabajadores subordinados y remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289374": {
+      "nombre": "Empleadores",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289375": {
+      "nombre": "Trabajadores por cuenta propia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289376": {
+      "nombre": "Trabajadores no remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289377": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por posición en la ocupación"
+      ]
+    },
+    "289384": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289385": {
+      "nombre": "Primario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289386": {
+      "nombre": "Secundario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289387": {
+      "nombre": "Terciario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289388": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por sector de actividad económica"
+      ]
+    },
+    "289378": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289379": {
+      "nombre": "Trabajadores subordinados y remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289380": {
+      "nombre": "Empleadores",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289381": {
+      "nombre": "Trabajadores por cuenta propia",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289382": {
+      "nombre": "Trabajadores no remunerados",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "289383": {
+      "nombre": "No especificado",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población subocupada por posición en la ocupación"
+      ]
+    },
+    "448382": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Nacional",
+        "Total"
+      ]
+    },
+    "448383": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Nacional",
+        "Total"
+      ]
+    },
+    "448384": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Nacional",
+        "Total"
+      ]
+    },
+    "448391": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades",
+        "Total"
+      ]
+    },
+    "448392": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades",
+        "Total"
+      ]
+    },
+    "448393": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades",
+        "Total"
+      ]
+    },
+    "448388": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Nacional",
+        "Mujeres"
+      ]
+    },
+    "448389": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Nacional",
+        "Mujeres"
+      ]
+    },
+    "448390": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Nacional",
+        "Mujeres"
+      ]
+    },
+    "448385": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Nacional",
+        "Hombres"
+      ]
+    },
+    "448386": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Nacional",
+        "Hombres"
+      ]
+    },
+    "448387": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Nacional",
+        "Hombres"
+      ]
+    },
+    "448394": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades",
+        "Hombres"
+      ]
+    },
+    "448395": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades",
+        "Hombres"
+      ]
+    },
+    "448396": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades",
+        "Hombres"
+      ]
+    },
+    "448364": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Nacional",
+        "Total"
+      ]
+    },
+    "448365": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Nacional",
+        "Total"
+      ]
+    },
+    "448366": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Nacional",
+        "Total"
+      ]
+    },
+    "448367": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Nacional",
+        "Hombres"
+      ]
+    },
+    "448368": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Nacional",
+        "Hombres"
+      ]
+    },
+    "448369": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Nacional",
+        "Hombres"
+      ]
+    },
+    "448397": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades",
+        "Mujeres"
+      ]
+    },
+    "448398": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades",
+        "Mujeres"
+      ]
+    },
+    "448399": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de participación",
+        "Urbana, agregado de 39 ciudades",
+        "Mujeres"
+      ]
+    },
+    "448355": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)",
+        "Total"
+      ]
+    },
+    "448356": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)",
+        "Total"
+      ]
+    },
+    "448357": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)",
+        "Total"
+      ]
+    },
+    "448370": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Nacional",
+        "Mujeres"
+      ]
+    },
+    "448371": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Nacional",
+        "Mujeres"
+      ]
+    },
+    "448372": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasa de ocupación en el sector informal",
+        "Nacional",
+        "Mujeres"
+      ]
+    },
+    "448358": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)",
+        "Hombres"
+      ]
+    },
+    "448359": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)",
+        "Hombres"
+      ]
+    },
+    "448360": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)",
+        "Hombres"
+      ]
+    },
+    "448361": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)",
+        "Mujeres"
+      ]
+    },
+    "448362": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)",
+        "Mujeres"
+      ]
+    },
+    "448363": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de condiciones críticas de ocupación (TCCO)",
+        "Mujeres"
+      ]
+    },
+    "289264": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289265": {
+      "nombre": "Micronegocios",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289266": {
+      "nombre": "Pequeños establecimientos",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289267": {
+      "nombre": "Medianos establecimientos",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289268": {
+      "nombre": "Grandes establecimientos",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289269": {
+      "nombre": "Gobierno",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289270": {
+      "nombre": "Otros",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "448352": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)",
+        "Mujeres"
+      ]
+    },
+    "448353": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)",
+        "Mujeres"
+      ]
+    },
+    "448354": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)",
+        "Mujeres"
+      ]
+    },
+    "448346": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)",
+        "Total"
+      ]
+    },
+    "448347": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)",
+        "Total"
+      ]
+    },
+    "448348": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)",
+        "Total"
+      ]
+    },
+    "448349": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)",
+        "Hombres"
+      ]
+    },
+    "448350": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)",
+        "Hombres"
+      ]
+    },
+    "448351": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "ENOE trimestral",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Tasas complementarias de desocupación (nacional)",
+        "Tasa de ocupación parcial y desocupación (TOPD1)",
+        "Hombres"
+      ]
+    },
+    "289247": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población de 15 años y más",
+        "Población no económicamente activa (PNEA)"
+      ]
+    },
+    "289248": {
+      "nombre": "Disponible",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población de 15 años y más",
+        "Población no económicamente activa (PNEA)"
+      ]
+    },
+    "289249": {
+      "nombre": "No disponible",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población de 15 años y más",
+        "Población no económicamente activa (PNEA)"
+      ]
+    },
+    "289244": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población de 15 años y más",
+        "Población económicamente activa (PEA)"
+      ]
+    },
+    "289245": {
+      "nombre": "Ocupada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población de 15 años y más",
+        "Población económicamente activa (PEA)"
+      ]
+    },
+    "289246": {
+      "nombre": "Desocupada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Total",
+        "Población de 15 años y más",
+        "Población económicamente activa (PEA)"
+      ]
+    },
+    "289294": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población de 15 años y más",
+        "Población económicamente activa (PEA)"
+      ]
+    },
+    "289295": {
+      "nombre": "Ocupada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población de 15 años y más",
+        "Población económicamente activa (PEA)"
+      ]
+    },
+    "289296": {
+      "nombre": "Desocupada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población de 15 años y más",
+        "Población económicamente activa (PEA)"
+      ]
+    },
+    "289297": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población de 15 años y más",
+        "Población no económicamente activa (PNEA)"
+      ]
+    },
+    "289298": {
+      "nombre": "Disponible",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población de 15 años y más",
+        "Población no económicamente activa (PNEA)"
+      ]
+    },
+    "289299": {
+      "nombre": "No disponible",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población de 15 años y más",
+        "Población no económicamente activa (PNEA)"
+      ]
+    },
+    "289364": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289365": {
+      "nombre": "Micronegocios",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289366": {
+      "nombre": "Pequeños establecimientos",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289367": {
+      "nombre": "Medianos establecimientos",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289368": {
+      "nombre": "Grandes establecimientos",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289369": {
+      "nombre": "Gobierno",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289370": {
+      "nombre": "Otros",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289344": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población de 15 años y más",
+        "Población económicamente activa (PEA)"
+      ]
+    },
+    "289345": {
+      "nombre": "Ocupada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población de 15 años y más",
+        "Población económicamente activa (PEA)"
+      ]
+    },
+    "289346": {
+      "nombre": "Desocupada",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población de 15 años y más",
+        "Población económicamente activa (PEA)"
+      ]
+    },
+    "289347": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población de 15 años y más",
+        "Población no económicamente activa (PNEA)"
+      ]
+    },
+    "289348": {
+      "nombre": "Disponible",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población de 15 años y más",
+        "Población no económicamente activa (PNEA)"
+      ]
+    },
+    "289349": {
+      "nombre": "No disponible",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Mujeres",
+        "Población de 15 años y más",
+        "Población no económicamente activa (PNEA)"
+      ]
+    },
+    "289314": {
+      "nombre": "Total",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289315": {
+      "nombre": "Micronegocios",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289316": {
+      "nombre": "Pequeños establecimientos",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289317": {
+      "nombre": "Medianos establecimientos",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289318": {
+      "nombre": "Grandes establecimientos",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289319": {
+      "nombre": "Gobierno",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    },
+    "289320": {
+      "nombre": "Otros",
+      "ruta": [
+        "ENOE trimestral",
+        "Series originales",
+        "Valores absolutos",
+        "Hombres",
+        "Población ocupada por ámbito y tamaño de la unidad económica",
+        "Ámbito no agropecuario"
+      ]
+    }
+  }
+}

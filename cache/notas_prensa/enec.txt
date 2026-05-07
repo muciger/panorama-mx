@@ -1,0 +1,132 @@
+
+--- PÁGINA 1 ---
+BOLETÍN DE INDICADOR 231/26
+ENCUESTA NACIONAL DE EMPRESAS
+CONSTRUCTORAS (ENEC)
+INDICADORES DE EMPRESAS CONSTRUCTORAS
+24 de abril de 2026
+Página 1/6
+Próxima publicación: 21 de mayo de 2026
+Valor de Personal Horas Remuneraciones
+producción ocupado trabajadas medias reales
+febrero febrero febrero febrero
+variación variación variación variación
+mensual anual mensual anual mensual anual mensual anual
+▲ 0.3 % ▼-0.8 % ▲ 0.2 % ▼-2.9 % ▼-0.2 % ▼-3.4 % ▼-0.3 % ▲ 2.3 %
+Aumentó 0.3 % el valor de producción de las empresas constructoras
+en febrero de 2026, en términos reales y a tasa mensual
+La Encuesta Nacional de Empresas Constructoras (ENEC) proporciona los principales
+indicadores de coyuntura sobre la actividad económica de las empresas constructoras en el país.
+I. CIFRAS DESESTACIONALIZADAS
+Valor de producción
+En febrero de 2026 y con datos desestacionalizados,1 el valor de producción2 del sector
+Construcción incrementó, en términos reales, 0.3 % a tasa mensual y disminuyó
+0.8 % a tasa anual (ver gráfica 1 y cuadro 1).
+1 La mayoría de las series económicas se ve afectada por factores estacionales y de calendario. El ajuste de los datos por dichos factores
+permite obtener las cifras desestacionalizadas.
+La tendencia-ciclo es la combinación de los componentes de tendencia y ciclo. La tendencia se refiere a la evolución de largo plazo de la
+serie de tiempo, y el ciclo, a las desviaciones alrededor de la tendencia. Así, el análisis de las series ajustadas ayuda a realizar un mejor
+diagnóstico de la evolución de las variables.
+2 Valor que se deflacta con el Índice Nacional de Precios Productor (INPP) de la construcción para obtener el valor en términos reales.
+El comportamiento de esta variable puede diferir del indicador de producción de la industria de la construcción, que proviene del Sistema
+de Cuentas Nacionales de México (SCNM). Este último considera, además, la autoconstrucción que realizan las empresas de las distintas
+actividades económicas y la construcción que llevan a cabo los hogares.
+--- PÁGINA 2 ---
+BOLETÍN DE INDICADOR 231/26
+ENCUESTA NACIONAL DE EMPRESAS
+CONSTRUCTORAS (ENEC)
+INDICADORES DE EMPRESAS CONSTRUCTORAS
+24 de abril de 2026
+Página 2/6
+Gráfica 1
+Variación del valor de producción
+cifras desestacionalizadas
+febrero de 2024–febrero de 2026
+(variación porcentual real mensual)
+2.6
+1.9 1.8
+2.0
+1.0
+0.2 0.0 0.7 0.6 0.6 0.3
+0.0
+0.0 -0.2
+-0.6
+-0.9
+-2.0 -1.2 -1.2
+-1.7
+-2.1 -2.2 -2.2
+-2.5
+-4.0 -3.1
+-3.9
+-4.4
+-6.0 -5.5
+F M A M J J A S O N D E F M A M J J A S O N D E F
+2024 2025 2026
+Nota: Serie elaborada mediante métodos econométricos.
+Fuente: INEGI. Encuesta Nacional de Empresas Constructoras (ENEC), 2026.
+Personal ocupado total
+El personal ocupado total en las empresas constructoras creció 0.2 % a tasa mensual en
+febrero pasado. Por tipo de contratación, el personal dependiente de la empresa ascendió
+0.4 % (el número de las y los obreros subió 0.3 %; el de las y los empleados administrativos,
+contables y de dirección, 0.4 %; y el grupo de otros —que incluye a personas propietarias,
+familiares, así como a otras y otros trabajadores sin remuneración— aumentó 4.1 %).
+El personal no dependiente (que se contrata y proporciona por otra razón social y por
+honorarios o comisiones sin sueldo o salario fijo) cayó 4.6 por ciento.
+A tasa anual, en febrero de 2026, el personal ocupado total bajó 2.9 por ciento.
+Horas trabajadas
+En el segundo mes de 2026, las horas trabajadas en las empresas constructoras descendieron
+0.2 % en relación con el mes anterior. Según la categoría de las y los ocupados, las horas
+trabajadas por el personal no dependiente de la razón social decrecieron 3.2 %, mientras que
+las correspondientes al personal dependiente no presentaron variación.
+Respecto a febrero de 2025, las horas trabajadas disminuyeron 3.4 por ciento.
+--- PÁGINA 3 ---
+BOLETÍN DE INDICADOR 231/26
+ENCUESTA NACIONAL DE EMPRESAS
+CONSTRUCTORAS (ENEC)
+INDICADORES DE EMPRESAS CONSTRUCTORAS
+24 de abril de 2026
+Página 3/6
+Remuneraciones medias reales
+En febrero de 2026, las remuneraciones medias reales3 pagadas fueron menores en 0.3 %
+a tasa mensual. Por componente, los salarios pagados a las y los obreros cayeron 1.0 % y los
+sueldos pagados a las y los empleados administrativos, contables y de dirección
+incrementaron 0.5 por ciento.
+En su comparación anual, las remuneraciones medias reales tuvieron un alza de 2.3 %
+en febrero pasado (ver cuadro 1 y gráfica 2).
+Cuadro 1
+Variación de los indicadores de empresas constructoras por tipo de contratación
+cifras desestacionalizadas
+febrero de 2026
+(variación porcentual mensual y anual)
+Variación porcentual respecto a:
+Indicadores por tipo de contratación
+enero febrero
+de 2026 de 2025
+Valor de producción1/ 0.3 -0.8
+Personal ocupado total 0.2 -2.9
+Dependiente de la razón social 0.4 -2.7
+Obreros 0.3 -3.2
+Empleados administrativos, contables y de dirección 0.4 -1.3
+Otros2/ 4.1 1.7
+No dependiente de la razón social3/ -4.6 -12.6
+Horas trabajadas -0.2 -3.4
+Por dependientes de la razón social 0.0 -3.2
+Obreros -0.1 -3.9
+Empleados administrativos, contables y de dirección -0.1 -0.9
+Otros2/ 3.8 -0.8
+Por no dependientes de la razón social -3.2 -12.5
+Remuneraciones medias reales4/ -0.3 2.3
+Salarios pagados a obreros -1.0 4.4
+Sueldos pagados a empleados administrativos, contables y de
+0.5 -1.7
+dirección
+Nota: Cifras elaboradas mediante métodos econométricos.
+La serie desestacionalizada de los indicadores agregados se calcula de manera independiente a la de sus
+componentes.
+1/ En términos reales.
+2/ Incluye a las y los propietarios, familiares y otras y otros trabajadores no remunerados.
+3/ Personal contratado y proporcionado por otra razón social y por honorarios o comisiones sin sueldo o salario fijo.
+4/ Corresponden al personal ocupado dependiente de la razón social. No incluye al personal no dependiente.
+Resultan de dividir las remuneraciones reales totales entre el personal ocupado.
+Fuente: INEGI. Encuesta Nacional de Empresas Constructoras (ENEC), 2026.
+3 Estas se deflactan con el Índice Nacional de Precios al Consumidor (INPC), base segunda quincena de julio de 2018=100.

@@ -1,0 +1,76 @@
+{
+  "_descripcion": "Benchmarks visuales por indicador. El template indicador.html.j2 los renderiza como bandas o líneas horizontales en la gráfica principal.",
+  "_version": "1.0",
+  "indicadores": {
+    "inpc_mensual": {
+      "tipo": "banda",
+      "y_min": 2,
+      "y_max": 4,
+      "color": "rgba(30,91,79,0.10)",
+      "border": "#1E5B4F",
+      "label": "Objetivo Banxico 3% ±1pp"
+    },
+    "inpc_quincenal": {
+      "tipo": "banda",
+      "y_min": 2,
+      "y_max": 4,
+      "color": "rgba(30,91,79,0.10)",
+      "border": "#1E5B4F",
+      "label": "Objetivo Banxico 3% ±1pp"
+    },
+    "inpp": {
+      "tipo": "linea",
+      "y": 0,
+      "color": "#7A7A7A",
+      "label": "Sin variación"
+    },
+    "balanza_comercial": {
+      "tipo": "linea",
+      "y": 0,
+      "color": "#7A7A7A",
+      "label": "Equilibrio"
+    },
+    "confianza_consumidor": {
+      "tipo": "linea",
+      "y": 0,
+      "color": "#7A7A7A",
+      "label": "Sin cambio"
+    },
+    "emoe_ipm": {
+      "tipo": "linea",
+      "y": 50,
+      "color": "#7A7A7A",
+      "label": "Umbral expansión 50"
+    },
+    "emoe_ice": {
+      "tipo": "linea",
+      "y": 50,
+      "color": "#7A7A7A",
+      "label": "Umbral expansión 50"
+    },
+    "emoe_iat": {
+      "tipo": "linea",
+      "y": 50,
+      "color": "#7A7A7A",
+      "label": "Umbral expansión 50"
+    },
+    "igae": {
+      "tipo": "linea",
+      "y": 0,
+      "color": "#7A7A7A",
+      "label": "Sin crecimiento"
+    },
+    "actividad_industrial": {
+      "tipo": "linea",
+      "y": 0,
+      "color": "#7A7A7A",
+      "label": "Sin variación"
+    },
+    "ind_ciclicos": {
+      "tipo": "linea",
+      "y": 0,
+      "color": "#7A7A7A",
+      "label": "Cambio de fase"
+    }
+  }
+}

@@ -1,0 +1,2197 @@
+{
+  "_meta": {
+    "root_id": "605590",
+    "elapsed_s": 81.1,
+    "indicadores": 204,
+    "queue_restante": 0
+  },
+  "indicadores": {
+    "737407": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos",
+        "Oferta"
+      ]
+    },
+    "737408": {
+      "nombre": "Producto interno bruto ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos",
+        "Oferta"
+      ]
+    },
+    "737409": {
+      "nombre": "Importaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos",
+        "Oferta"
+      ]
+    },
+    "737410": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos",
+        "Demanda"
+      ]
+    },
+    "737411": {
+      "nombre": "Consumo privado ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos",
+        "Demanda"
+      ]
+    },
+    "737412": {
+      "nombre": "Consumo de gobierno ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos",
+        "Demanda"
+      ]
+    },
+    "737413": {
+      "nombre": "Formación bruta de capital fijo ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos",
+        "Demanda"
+      ]
+    },
+    "737414": {
+      "nombre": "Variación de existencias ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos",
+        "Demanda"
+      ]
+    },
+    "737415": {
+      "nombre": "Exportaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos",
+        "Demanda"
+      ]
+    },
+    "737416": {
+      "nombre": "Discrepancia estadística ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos",
+        "Demanda"
+      ]
+    },
+    "737506": {
+      "nombre": "Serie original ajustada por semana santa",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Variación de existencias"
+      ]
+    },
+    "737508": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Variación de existencias"
+      ]
+    },
+    "737511": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Variación de existencias"
+      ]
+    },
+    "737430": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice",
+        "Demanda"
+      ]
+    },
+    "737431": {
+      "nombre": "Consumo privado ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice",
+        "Demanda"
+      ]
+    },
+    "737432": {
+      "nombre": "Consumo de gobierno ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice",
+        "Demanda"
+      ]
+    },
+    "737433": {
+      "nombre": "Formación bruta de capital fijo ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice",
+        "Demanda"
+      ]
+    },
+    "737434": {
+      "nombre": "Exportaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice",
+        "Demanda"
+      ]
+    },
+    "737427": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice",
+        "Oferta"
+      ]
+    },
+    "737428": {
+      "nombre": "Producto interno bruto ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice",
+        "Oferta"
+      ]
+    },
+    "737429": {
+      "nombre": "Importaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice",
+        "Oferta"
+      ]
+    },
+    "737417": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos acumulados",
+        "Oferta"
+      ]
+    },
+    "737418": {
+      "nombre": "Producto interno bruto ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos acumulados",
+        "Oferta"
+      ]
+    },
+    "737419": {
+      "nombre": "Importaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos acumulados",
+        "Oferta"
+      ]
+    },
+    "737438": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice acumulado",
+        "Demanda"
+      ]
+    },
+    "737439": {
+      "nombre": "Consumo privado ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice acumulado",
+        "Demanda"
+      ]
+    },
+    "737440": {
+      "nombre": "Consumo de gobierno ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice acumulado",
+        "Demanda"
+      ]
+    },
+    "737441": {
+      "nombre": "Formación bruta de capital fijo ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice acumulado",
+        "Demanda"
+      ]
+    },
+    "737442": {
+      "nombre": "Exportaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice acumulado",
+        "Demanda"
+      ]
+    },
+    "737420": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos acumulados",
+        "Demanda"
+      ]
+    },
+    "737421": {
+      "nombre": "Consumo privado ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos acumulados",
+        "Demanda"
+      ]
+    },
+    "737422": {
+      "nombre": "Consumo de gobierno ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos acumulados",
+        "Demanda"
+      ]
+    },
+    "737423": {
+      "nombre": "Formación bruta de capital fijo ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos acumulados",
+        "Demanda"
+      ]
+    },
+    "737424": {
+      "nombre": "Variación de existencias ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos acumulados",
+        "Demanda"
+      ]
+    },
+    "737425": {
+      "nombre": "Exportaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos acumulados",
+        "Demanda"
+      ]
+    },
+    "737426": {
+      "nombre": "Discrepancia estadística ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios corrientes",
+        "Valores absolutos acumulados",
+        "Demanda"
+      ]
+    },
+    "737435": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice acumulado",
+        "Oferta"
+      ]
+    },
+    "737436": {
+      "nombre": "Producto interno bruto ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice acumulado",
+        "Oferta"
+      ]
+    },
+    "737437": {
+      "nombre": "Importaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "Índices de precios implícitos",
+        "Índice acumulado",
+        "Oferta"
+      ]
+    },
+    "737377": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Valores absolutos acumulados"
+      ]
+    },
+    "737378": {
+      "nombre": "Producto interno bruto ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Valores absolutos acumulados"
+      ]
+    },
+    "737379": {
+      "nombre": "Importaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Valores absolutos acumulados"
+      ]
+    },
+    "737374": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Variación anual"
+      ]
+    },
+    "737375": {
+      "nombre": "Producto interno bruto ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Variación anual"
+      ]
+    },
+    "737376": {
+      "nombre": "Importaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Variación anual"
+      ]
+    },
+    "737380": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Variación anual acumulada"
+      ]
+    },
+    "737381": {
+      "nombre": "Producto interno bruto ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Variación anual acumulada"
+      ]
+    },
+    "737382": {
+      "nombre": "Importaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Variación anual acumulada"
+      ]
+    },
+    "737371": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Valores absolutos"
+      ]
+    },
+    "737372": {
+      "nombre": "Producto interno bruto ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Valores absolutos"
+      ]
+    },
+    "737373": {
+      "nombre": "Importaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Oferta",
+        "Valores absolutos"
+      ]
+    },
+    "737395": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos acumulados"
+      ]
+    },
+    "737396": {
+      "nombre": "Consumo privado ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos acumulados"
+      ]
+    },
+    "737397": {
+      "nombre": "Consumo de gobierno ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos acumulados"
+      ]
+    },
+    "737398": {
+      "nombre": "Formación bruta de capital fijo ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos acumulados"
+      ]
+    },
+    "737399": {
+      "nombre": "Variación de existencias ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos acumulados"
+      ]
+    },
+    "737400": {
+      "nombre": "Exportaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos acumulados"
+      ]
+    },
+    "737401": {
+      "nombre": "Discrepancia estadística ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos acumulados"
+      ]
+    },
+    "737402": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Variación anual acumulada"
+      ]
+    },
+    "737403": {
+      "nombre": "Consumo privado ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Variación anual acumulada"
+      ]
+    },
+    "737404": {
+      "nombre": "Consumo de gobierno ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Variación anual acumulada"
+      ]
+    },
+    "737405": {
+      "nombre": "Formación bruta de capital fijo ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Variación anual acumulada"
+      ]
+    },
+    "737406": {
+      "nombre": "Exportaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Variación anual acumulada"
+      ]
+    },
+    "737383": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos"
+      ]
+    },
+    "737384": {
+      "nombre": "Consumo privado ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos"
+      ]
+    },
+    "737385": {
+      "nombre": "Consumo de gobierno ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos"
+      ]
+    },
+    "737386": {
+      "nombre": "Formación bruta de capital fijo ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos"
+      ]
+    },
+    "737387": {
+      "nombre": "Variación de existencias ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos"
+      ]
+    },
+    "737388": {
+      "nombre": "Exportaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos"
+      ]
+    },
+    "737389": {
+      "nombre": "Discrepancia estadística ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Valores absolutos"
+      ]
+    },
+    "737390": {
+      "nombre": "Total ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Variación anual"
+      ]
+    },
+    "737391": {
+      "nombre": "Consumo privado ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Variación anual"
+      ]
+    },
+    "737392": {
+      "nombre": "Consumo de gobierno ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Variación anual"
+      ]
+    },
+    "737393": {
+      "nombre": "Formación bruta de capital fijo ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Variación anual"
+      ]
+    },
+    "737394": {
+      "nombre": "Exportaciones de bienes y servicios ",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series Originales",
+        "A precios constantes",
+        "Demanda",
+        "Variación anual"
+      ]
+    },
+    "737443": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Total",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737444": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Total",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737464": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Total",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737465": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Total",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737445": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737446": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737447": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737448": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737449": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737450": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Producto interno bruto",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737451": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Producto interno bruto",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737452": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Producto interno bruto",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737453": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Producto interno bruto",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737454": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Producto interno bruto",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737469": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737470": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737466": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737467": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737468": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737473": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo privado",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737474": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo privado",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737475": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo privado",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737476": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo privado",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737477": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo privado",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737455": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Producto interno bruto",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737456": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Producto interno bruto",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737471": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo privado",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737472": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo privado",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737459": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737460": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737461": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737457": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737458": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737513": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737514": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737462": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737463": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737478": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737479": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737518": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737519": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737515": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737516": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737517": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737480": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737481": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737482": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737483": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737484": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737569": {
+      "nombre": "Serie original corregida por efectos del calendario",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Variación de existencias"
+      ]
+    },
+    "737571": {
+      "nombre": "Serie desestacionalizada",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Variación de existencias"
+      ]
+    },
+    "737574": {
+      "nombre": "Tendencia-ciclo",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Variación de existencias"
+      ]
+    },
+    "737501": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Privada",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737502": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Privada",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737503": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Privada",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737499": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Privada",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737500": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Privada",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737504": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Privada",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737505": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Privada",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737492": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Pública",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737493": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Pública",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737494": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Pública",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737495": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Pública",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737496": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Pública",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737497": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Pública",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737498": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Pública",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737485": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Total",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737486": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Total",
+        "Serie original ajustada por semana santa"
+      ]
+    },
+    "737534": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737535": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737487": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737488": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737489": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737490": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737491": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios constantes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737536": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737537": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737538": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737529": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Producto interno bruto",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737530": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Producto interno bruto",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737531": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Producto interno bruto",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737527": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Producto interno bruto",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737528": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Producto interno bruto",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737532": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Producto interno bruto",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737533": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Producto interno bruto",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737539": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737540": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Importaciones de bienes y servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737522": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737523": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737524": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737520": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737521": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737541": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737542": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737525": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737526": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Oferta",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737543": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737544": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737545": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737546": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737547": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737557": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737558": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737559": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737555": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737556": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737550": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo privado",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737551": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo privado",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737552": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo privado",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737560": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737561": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo de gobierno",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737553": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo privado",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737554": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo privado",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737548": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo privado",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737549": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Consumo privado",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737567": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737568": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737562": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737563": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737576": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737577": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "737564": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737565": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737566": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Formación bruta de capital fijo",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737578": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737579": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737580": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "737581": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "737582": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "Oferta y demanda global base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Demanda",
+        "Exportaciones de bienes y servicios",
+        "Tendencia-ciclo"
+      ]
+    }
+  }
+}

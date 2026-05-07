@@ -1,0 +1,524 @@
+{
+  "id": "inflacion_resumen",
+  "nombre": "Inflación INPC general, subyacente y no subyacente",
+  "categoria": "precios",
+  "frecuencia": "mensual",
+  "unidad": "% var. anual",
+  "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10757",
+  "sheet_origen": "Inflacion_resumen",
+  "titulo_original": "Inflación anual INPC (%)",
+  "subtitulo_original": "Serie mensual",
+  "columnas": [
+    "Periodo",
+    "INPC_anual",
+    "Subyacente_anual",
+    "No_subyacente_anual"
+  ],
+  "columnas_normalizadas": [
+    "Periodo",
+    "INPC_anual",
+    "Subyacente_anual",
+    "No_subyacente_anual"
+  ],
+  "ultima_actualizacion": "2026-05-05",
+  "proxima_actualizacion_manual": null,
+  "periodos": [
+    "abr-25",
+    "may-25",
+    "jun-25",
+    "jul-25",
+    "ago-25",
+    "sep-25",
+    "oct-25",
+    "nov-25",
+    "dic-25",
+    "ene-26",
+    "feb-26",
+    "mar-26"
+  ],
+  "series": [
+    {
+      "Periodo": "abr-25",
+      "INPC_anual": 3.93,
+      "Subyacente_anual": 3.93,
+      "No_subyacente_anual": 3.76
+    },
+    {
+      "Periodo": "may-25",
+      "INPC_anual": 4.42,
+      "Subyacente_anual": 4.06,
+      "No_subyacente_anual": 5.34
+    },
+    {
+      "Periodo": "jun-25",
+      "INPC_anual": 4.32,
+      "Subyacente_anual": 4.24,
+      "No_subyacente_anual": 4.33
+    },
+    {
+      "Periodo": "jul-25",
+      "INPC_anual": 3.51,
+      "Subyacente_anual": 4.23,
+      "No_subyacente_anual": 1.14
+    },
+    {
+      "Periodo": "ago-25",
+      "INPC_anual": 3.57,
+      "Subyacente_anual": 4.23,
+      "No_subyacente_anual": 1.38
+    },
+    {
+      "Periodo": "sep-25",
+      "INPC_anual": 3.76,
+      "Subyacente_anual": 4.28,
+      "No_subyacente_anual": 2.02
+    },
+    {
+      "Periodo": "oct-25",
+      "INPC_anual": 3.57,
+      "Subyacente_anual": 4.28,
+      "No_subyacente_anual": 1.18
+    },
+    {
+      "Periodo": "nov-25",
+      "INPC_anual": 3.8,
+      "Subyacente_anual": 4.43,
+      "No_subyacente_anual": 1.73
+    },
+    {
+      "Periodo": "dic-25",
+      "INPC_anual": 3.69,
+      "Subyacente_anual": 4.33,
+      "No_subyacente_anual": 1.61
+    },
+    {
+      "Periodo": "ene-26",
+      "INPC_anual": 3.79,
+      "Subyacente_anual": 4.52,
+      "No_subyacente_anual": 1.39
+    },
+    {
+      "Periodo": "feb-26",
+      "INPC_anual": 4.02,
+      "Subyacente_anual": 4.5,
+      "No_subyacente_anual": 2.44
+    },
+    {
+      "Periodo": "mar-26",
+      "INPC_anual": 4.59,
+      "Subyacente_anual": 4.45,
+      "No_subyacente_anual": 5.05
+    }
+  ],
+  "benchmarks": {
+    "ma12_INPC_anual": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      3.77,
+      3.76,
+      3.76,
+      3.79,
+      3.87
+    ]
+  },
+  "alertas_activas": [],
+  "fuente_ingest": "Composite derivado (inpc_mensual)",
+  "_cuadro1": {
+    "periodo": "mar-26",
+    "fuente": "Boletín INPC 212/26 · INEGI",
+    "filas": [
+      {
+        "concepto": "INPC",
+        "nivel": 0,
+        "var_mensual": 0.86,
+        "var_anual": 4.59,
+        "inc_mensual": 0.857,
+        "inc_anual": 4.587
+      },
+      {
+        "concepto": "Subyacente",
+        "nivel": 1,
+        "var_mensual": 0.38,
+        "var_anual": 4.45,
+        "inc_mensual": 0.297,
+        "inc_anual": 3.427
+      },
+      {
+        "concepto": "Mercancías",
+        "nivel": 2,
+        "var_mensual": 0.29,
+        "var_anual": 4.38,
+        "inc_mensual": 0.109,
+        "inc_anual": 1.645
+      },
+      {
+        "concepto": "Alimentos, bebidas y tabaco",
+        "nivel": 3,
+        "var_mensual": 0.26,
+        "var_anual": 5.78,
+        "inc_mensual": 0.046,
+        "inc_anual": 1.003
+      },
+      {
+        "concepto": "Mercancías no alimenticias",
+        "nivel": 3,
+        "var_mensual": 0.31,
+        "var_anual": 3.18,
+        "inc_mensual": 0.063,
+        "inc_anual": 0.642
+      },
+      {
+        "concepto": "Servicios",
+        "nivel": 2,
+        "var_mensual": 0.48,
+        "var_anual": 4.51,
+        "inc_mensual": 0.188,
+        "inc_anual": 1.782
+      },
+      {
+        "concepto": "Vivienda",
+        "nivel": 3,
+        "var_mensual": 0.36,
+        "var_anual": 3.53,
+        "inc_mensual": 0.064,
+        "inc_anual": 0.636
+      },
+      {
+        "concepto": "Educación (colegiaturas)",
+        "nivel": 3,
+        "var_mensual": 0.05,
+        "var_anual": 5.96,
+        "inc_mensual": 0.001,
+        "inc_anual": 0.155
+      },
+      {
+        "concepto": "Otros servicios",
+        "nivel": 3,
+        "var_mensual": 0.65,
+        "var_anual": 5.26,
+        "inc_mensual": 0.123,
+        "inc_anual": 0.991
+      },
+      {
+        "concepto": "No subyacente",
+        "nivel": 1,
+        "var_mensual": 2.46,
+        "var_anual": 5.05,
+        "inc_mensual": 0.56,
+        "inc_anual": 1.16
+      },
+      {
+        "concepto": "Agropecuarios",
+        "nivel": 2,
+        "var_mensual": 4.52,
+        "var_anual": 8.77,
+        "inc_mensual": 0.451,
+        "inc_anual": 0.873
+      },
+      {
+        "concepto": "Frutas y verduras",
+        "nivel": 3,
+        "var_mensual": 10.75,
+        "var_anual": 21.77,
+        "inc_mensual": 0.446,
+        "inc_anual": 0.852
+      },
+      {
+        "concepto": "Pecuarios",
+        "nivel": 3,
+        "var_mensual": 0.09,
+        "var_anual": 0.34,
+        "inc_mensual": 0.005,
+        "inc_anual": 0.021
+      },
+      {
+        "concepto": "Energéticos y tarifas autorizadas",
+        "nivel": 2,
+        "var_mensual": 0.85,
+        "var_anual": 2.21,
+        "inc_mensual": 0.109,
+        "inc_anual": 0.288
+      },
+      {
+        "concepto": "Energéticos",
+        "nivel": 3,
+        "var_mensual": 1.06,
+        "var_anual": 0.13,
+        "inc_mensual": 0.085,
+        "inc_anual": 0.011
+      },
+      {
+        "concepto": "Tarifas autorizadas por el gobierno",
+        "nivel": 3,
+        "var_mensual": 0.5,
+        "var_anual": 6.03,
+        "inc_mensual": 0.023,
+        "inc_anual": 0.277
+      }
+    ]
+  },
+  "_productos": {
+    "periodo": "mar-26",
+    "fuente": "Boletín INPC 212/26 · INEGI",
+    "alza": [
+      {
+        "producto": "Jitomate",
+        "var_mensual": 42.01,
+        "incidencia": 0.261
+      },
+      {
+        "producto": "Transporte aéreo",
+        "var_mensual": 26.28,
+        "incidencia": 0.055
+      },
+      {
+        "producto": "Loncherías, fondas, torterías y taquerías",
+        "var_mensual": 0.92,
+        "incidencia": 0.05
+      },
+      {
+        "producto": "Pollo",
+        "var_mensual": 2.82,
+        "incidencia": 0.046
+      },
+      {
+        "producto": "Vivienda propia",
+        "var_mensual": 0.33,
+        "incidencia": 0.045
+      },
+      {
+        "producto": "Papa y otros tubérculos",
+        "var_mensual": 14.92,
+        "incidencia": 0.042
+      },
+      {
+        "producto": "Electricidad",
+        "var_mensual": 2.17,
+        "incidencia": 0.035
+      },
+      {
+        "producto": "Tomate verde",
+        "var_mensual": 16.46,
+        "incidencia": 0.035
+      },
+      {
+        "producto": "Limón",
+        "var_mensual": 18.26,
+        "incidencia": 0.023
+      },
+      {
+        "producto": "Pepino",
+        "var_mensual": 42.71,
+        "incidencia": 0.023
+      }
+    ],
+    "baja": [
+      {
+        "producto": "Paquetes de internet, telefonía y TV de paga",
+        "var_mensual": -2.69,
+        "incidencia": -0.024
+      },
+      {
+        "producto": "Huevo",
+        "var_mensual": -3.59,
+        "incidencia": -0.041
+      },
+      {
+        "producto": "Carne de cerdo",
+        "var_mensual": -1.28,
+        "incidencia": -0.012
+      },
+      {
+        "producto": "Otras frutas",
+        "var_mensual": -3.77,
+        "incidencia": -0.01
+      },
+      {
+        "producto": "Nopales",
+        "var_mensual": -8.86,
+        "incidencia": -0.007
+      },
+      {
+        "producto": "Servicio de internet",
+        "var_mensual": -1.24,
+        "incidencia": -0.005
+      },
+      {
+        "producto": "Otras verduras y legumbres",
+        "var_mensual": -1.98,
+        "incidencia": -0.005
+      },
+      {
+        "producto": "Frijol",
+        "var_mensual": -1.34,
+        "incidencia": -0.004
+      },
+      {
+        "producto": "Suavizantes y limpiadores",
+        "var_mensual": -0.59,
+        "incidencia": -0.004
+      },
+      {
+        "producto": "Papaya",
+        "var_mensual": -4.4,
+        "incidencia": -0.004
+      }
+    ]
+  },
+  "_entidades_ciudades": {
+    "periodo": "mar-26",
+    "fuente": "Boletín INPC 212/26 · INEGI",
+    "promedio_nacional": 0.86,
+    "entidades_alza": [
+      {
+        "entidad": "Guerrero",
+        "var_mensual": 1.29
+      },
+      {
+        "entidad": "Puebla",
+        "var_mensual": 1.27
+      },
+      {
+        "entidad": "Tlaxcala",
+        "var_mensual": 1.21
+      },
+      {
+        "entidad": "Colima",
+        "var_mensual": 1.18
+      },
+      {
+        "entidad": "Morelos",
+        "var_mensual": 1.16
+      }
+    ],
+    "entidades_baja": [
+      {
+        "entidad": "Chihuahua",
+        "var_mensual": 0.4
+      },
+      {
+        "entidad": "Baja California Sur",
+        "var_mensual": 0.54
+      },
+      {
+        "entidad": "Yucatán",
+        "var_mensual": 0.54
+      },
+      {
+        "entidad": "Tamaulipas",
+        "var_mensual": 0.58
+      },
+      {
+        "entidad": "Nuevo León",
+        "var_mensual": 0.63
+      }
+    ],
+    "ciudades_alza": [
+      {
+        "ciudad": "Izúcar de Matamoros, Pue.",
+        "var_mensual": 1.76
+      },
+      {
+        "ciudad": "Iguala, Gro.",
+        "var_mensual": 1.55
+      },
+      {
+        "ciudad": "Tuxtla Gutiérrez, Chis.",
+        "var_mensual": 1.33
+      },
+      {
+        "ciudad": "Atlacomulco, Méx.",
+        "var_mensual": 1.31
+      },
+      {
+        "ciudad": "Tlaxcala, Tlax.",
+        "var_mensual": 1.21
+      },
+      {
+        "ciudad": "San Andrés Tuxtla, Ver.",
+        "var_mensual": 1.2
+      },
+      {
+        "ciudad": "Puebla, Pue.",
+        "var_mensual": 1.19
+      },
+      {
+        "ciudad": "Colima, Col.",
+        "var_mensual": 1.18
+      },
+      {
+        "ciudad": "Cuernavaca, Mor.",
+        "var_mensual": 1.16
+      },
+      {
+        "ciudad": "Acapulco de Juárez, Gro.",
+        "var_mensual": 1.1
+      }
+    ],
+    "ciudades_baja": [
+      {
+        "ciudad": "Cd. Juárez, Chih.",
+        "var_mensual": 0.19
+      },
+      {
+        "ciudad": "Cd. Acuña, Coah.",
+        "var_mensual": 0.45
+      },
+      {
+        "ciudad": "Coatzacoalcos, Ver.",
+        "var_mensual": 0.45
+      },
+      {
+        "ciudad": "Matamoros, Tamps.",
+        "var_mensual": 0.46
+      },
+      {
+        "ciudad": "La Paz, B.C.S.",
+        "var_mensual": 0.54
+      },
+      {
+        "ciudad": "Mérida, Yuc.",
+        "var_mensual": 0.54
+      },
+      {
+        "ciudad": "Chihuahua, Chih.",
+        "var_mensual": 0.56
+      },
+      {
+        "ciudad": "Tulancingo, Hgo.",
+        "var_mensual": 0.59
+      },
+      {
+        "ciudad": "Torreón, Coah.",
+        "var_mensual": 0.63
+      },
+      {
+        "ciudad": "Monterrey, N.L.",
+        "var_mensual": 0.63
+      }
+    ]
+  },
+  "_recuadros_inpc": {
+    "periodo": "mar-26",
+    "componentes": [
+      {
+        "nombre": "Inflación general",
+        "var_mensual": 0.86,
+        "var_anual": 4.59
+      },
+      {
+        "nombre": "Subyacente",
+        "var_mensual": 0.38,
+        "var_anual": 4.45
+      },
+      {
+        "nombre": "No subyacente",
+        "var_mensual": 2.46,
+        "var_anual": 5.05
+      }
+    ]
+  }
+}

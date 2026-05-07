@@ -1,0 +1,1176 @@
+{% extends "base.html.j2" %}
+{% block content %}
+
+<nav class="breadcrumb-nav" aria-label="Ruta">
+  <a class="breadcrumb" href="{{ asset_prefix }}index.html">Vista general</a>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-cat">{{ d.categoria }}</span>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-current">{{ d.nombre }}</span>
+</nav>
+
+<div class="detail-header">
+  <div>
+    <h1 class="detail-title">{{ d.nombre }}</h1>
+    <div class="detail-meta">
+      Categoría: <strong>{{ d.categoria }}</strong> · Unidad: <strong>{{ d.unidad }}</strong>
+      {% if not d.tabular and d.periodos %} · Último periodo: <strong>{{ d.periodos[-1] }}</strong>{% endif %}
+      {% if d.z_score and d.z_score.categoria != 'normal' %}
+      <span class="outlier-badge outlier-{{ d.z_score.categoria }}">
+        {% if d.z_score.categoria == 'extremo' %}⚠ Movimiento extremo{% else %}⚡ Movimiento atípico{% endif %}
+        · z = {{ "%+.2f"|format(d.z_score.z) }}σ
+      </span>
+      {% endif %}
+    </div>
+  </div>
+  <div class="detail-actions">
+    <a class="indic-btn" href="{{ asset_prefix }}data/{{ d.id }}.csv" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 4v12M7 11l5 5 5-5M5 20h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Descargar CSV</span>
+    </a>
+    {% if d.fuente %}
+    <a class="indic-btn" href="{{ d.fuente }}" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 4h6v6M10 14L20 4M19 13v6a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Boletín INEGI</span>
+    </a>
+    {% endif %}
+  </div>
+</div>
+
+<div class="detail-grid">
+  <div class="chart-card">
+    <div class="chart-card-head">
+      <h3>{% if d.id == "empleo_imss" %}Variación interanual — total nacional{% elif d._chart_titulo %}{{ d._chart_titulo }}{% elif d.tabular %}{% if d._chart_tipo in ("bar_horizontal", "bar_grouped_horizontal") %}{{ d._label_tabla }}{% else %}Detalle tabular{% endif %}{% elif d._chart_tipo == "bar_vertical" %}Variación real anual{% elif d._chart_tipo == "bar_grouped" %}Variación real{% else %}Serie histórica con promedio móvil{% endif %}</h3>
+      {% if not d.tabular and d._chart_tipo not in ("bar_vertical", "bar_grouped") %}
+      <div class="range-pills" id="range-pills" role="tablist" aria-label="Rango temporal del chart">
+        <button class="range-pill" data-range="12" type="button">1A</button>
+        <button class="range-pill" data-range="36" type="button">3A</button>
+        <button class="range-pill active" data-range="60" type="button">5A</button>
+        <button class="range-pill" data-range="120" type="button">10A</button>
+        <button class="range-pill" data-range="0" type="button">Todo</button>
+      </div>
+      {% endif %}
+    </div>
+    <div class="chart-container">
+      {% if d.id == "empleo_imss" %}
+      <canvas id="imss-main-chart"></canvas>
+      {% elif d.tabular and d._chart_tipo not in ("bar_horizontal", "bar_grouped_horizontal") %}
+      <div style="height:300px;display:flex;align-items:center;justify-content:center;flex-direction:column;color:var(--texto-light);font-size:13px">
+        <strong style="color:var(--texto);font-size:15px;margin-bottom:8px">Vista tabular</strong>
+        Este indicador no tiene serie temporal. Ver tabla abajo.
+      </div>
+      {% else %}
+      <canvas id="detail-chart"></canvas>
+      {% endif %}
+    </div>
+    {% if d.id == "empleo_imss" %}
+    <div class="legend">
+      <span><span class="swatch" style="background:#4B7FD4"></span>Crecimiento</span>
+      <span><span class="swatch" style="background:#B5262C"></span>Pérdida</span>
+    </div>
+    {% elif not d.tabular and d._chart_tipo not in ("bar_vertical", "bar_grouped") %}
+    <div class="legend">
+      <span><span class="swatch" style="background:#0891B2"></span>Serie principal</span>
+      <span><span class="swatch" style="background:#7C3AED"></span>Serie secundaria</span>
+      <span><span class="dashed" style="border-top-color:#18181B"></span>Promedio móvil 12M</span>
+    </div>
+    {% if d.id == "confianza_consumidor" %}
+    <div class="productos-nota" style="margin-top:8px">La serie muestra la diferencia en puntos respecto al periodo anterior (var. mensual y anual), no el nivel absoluto del ICC. El umbral neutral del índice de nivel es 50 pts.</div>
+    {% endif %}
+    {% endif %}
+  </div>
+
+  <div class="stats-col">
+    <div class="stat-card">
+      <div class="label">Último valor</div>
+      <div class="valor">{{ d.stat_valor }}</div>
+      <div class="nota">{{ d.stat_valor_nota }}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">{{ d.stat_delta_label }}</div>
+      <div class="valor">{{ d.stat_delta }}</div>
+      <div class="nota">{{ d.stat_delta_nota }}</div>
+    </div>
+    <div class="stat-card" id="proxima-pub-card" data-next-date="{{ d.proximaPub.fecha_iso if d.proximaPub.fecha_iso else '' }}">
+      <div class="label">Próxima publicación</div>
+      <div class="valor-fecha" id="proxima-pub-valor">{{ d.proximaPub.fecha }}</div>
+      <div class="nota" id="proxima-pub-nota">{{ d.proximaPub.tipo }}</div>
+    </div>
+    {% if d.id == "empleo_imss" %}
+    <div class="stat-card">
+      <div class="label">Permanentes</div>
+      <div class="valor">{{ d._perm_pct }}%</div>
+      <div class="nota">del total de puestos</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Mujeres</div>
+      <div class="valor">{{ d._muj_pct }}%</div>
+      <div class="nota">del total de puestos</div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{% if d.id == "empleo_imss" and d._sector_yoy %}
+<section class="imss-sector-section">
+  <header class="card-head">
+    <h3>Variación interanual por sector económico</h3>
+    <div class="source">Variación % vs mismo mes año anterior. Trabajadores registrados IMSS. {{ d._nac_yoy_periodos[0] if d._nac_yoy_periodos else "" }} – {{ d.periodo_referencia }}.</div>
+  </header>
+  <div class="imss-sector-grid" id="imss-sector-grid">
+    {% for sector_name, sector_data in d._sector_yoy.items() %}
+    {% set ult_val = sector_data.var_anual[-1] if sector_data.var_anual else none %}
+    <div class="imss-sector-card">
+      <div class="imss-sector-card-head">
+        <span class="imss-sector-nombre">{{ sector_name }}</span>
+        {% if ult_val is not none and ult_val < 0 %}
+        <span class="imss-badge-neg">negativo</span>
+        {% endif %}
+      </div>
+      <div class="imss-sector-val {% if ult_val is not none and ult_val >= 0 %}pos{% elif ult_val is not none %}neg{% endif %}">
+        {{ "%+.1f"|format(ult_val) if ult_val is not none else "—" }}% {{ d.periodo_referencia }}
+      </div>
+      <div class="imss-sector-chart-wrap">
+        <canvas class="imss-sector-chart"
+                data-periodos="{{ sector_data.periodos | tojson }}"
+                data-valores="{{ sector_data.var_anual | tojson }}"></canvas>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ── Recuadros resumen INPC (cabecera del comunicado) ── #}
+{% if d._recuadros_inpc %}
+<div class="inpc-recuadros">
+  <div class="inpc-recuadros-periodo">{{ d._recuadros_inpc.periodo }}</div>
+  <div class="inpc-recuadros-grid">
+    {% for c in d._recuadros_inpc.componentes %}
+    <div class="inpc-recuadro">
+      <div class="inpc-recuadro-titulo">{{ c.nombre }}</div>
+      <div class="inpc-recuadro-periodo-label">{{ d._recuadros_inpc.periodo }}</div>
+      <div class="inpc-recuadro-cols">
+        <div class="inpc-recuadro-col">
+          <div class="inpc-recuadro-sublabel">{{ d._recuadros_inpc.etiqueta_variacion or "mensual" }}</div>
+          <div class="inpc-recuadro-val {% if c.var_mensual and c.var_mensual > 0 %}pos{% elif c.var_mensual and c.var_mensual < 0 %}neg{% endif %}">
+            {% if c.var_mensual and c.var_mensual > 0 %}▲{% elif c.var_mensual and c.var_mensual < 0 %}▼{% endif %}
+            {% if c.var_mensual is not none %}{{ "%.2f"|format(c.var_mensual) }} %{% else %}—{% endif %}
+          </div>
+        </div>
+        <div class="inpc-recuadro-col">
+          <div class="inpc-recuadro-sublabel">anual</div>
+          <div class="inpc-recuadro-val {% if c.var_anual > 0 %}pos{% elif c.var_anual < 0 %}neg{% endif %}">
+            {% if c.var_anual > 0 %}▲{% elif c.var_anual < 0 %}▼{% endif %}
+            {{ "%.2f"|format(c.var_anual) }} %
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{# ── Cuadro 1: Variación e incidencia INPC y componentes ── #}
+{% if d._cuadro1 %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Variación e incidencia por componente</h3>
+    <div class="source">{{ d._cuadro1.periodo }} · {{ d._cuadro1.fuente }}</div>
+  </div>
+  <div style="overflow-x:auto">
+  {% set c1_tiene_incidencia = d._cuadro1.filas and d._cuadro1.filas[0].inc_mensual is not none %}
+  <table class="analytics-tbl inpc-cuadro1-tbl">
+    <thead>
+      <tr>
+        <th>Concepto</th>
+        <th class="num">Var. {{ d._cuadro1.etiqueta_variacion or "mensual" }}</th>
+        <th class="num">Var. anual</th>
+        {% if c1_tiene_incidencia %}
+        <th class="num">Inc. {{ d._cuadro1.etiqueta_variacion or "mensual" }}</th>
+        <th class="num">Inc. anual</th>
+        {% endif %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for fila in d._cuadro1.filas %}
+      <tr class="inpc-c1-nivel{{ fila.nivel }}">
+        <td class="{% if fila.nivel > 0 %}sector-indent{% endif %}" style="padding-left:{{ fila.nivel * 16 }}px">{{ fila.concepto }}</td>
+        <td class="num {% if fila.var_mensual is not none and fila.var_mensual > 0 %}pos{% elif fila.var_mensual is not none and fila.var_mensual < 0 %}neg{% endif %}">{% if fila.var_mensual is not none %}{{ "%+.2f"|format(fila.var_mensual) }}%{% else %}—{% endif %}</td>
+        <td class="num {% if fila.var_anual is not none and fila.var_anual > 0 %}pos{% elif fila.var_anual is not none and fila.var_anual < 0 %}neg{% endif %}">{% if fila.var_anual is not none %}{{ "%+.2f"|format(fila.var_anual) }}%{% else %}—{% endif %}</td>
+        {% if c1_tiene_incidencia %}
+        <td class="num {% if fila.inc_mensual is not none and fila.inc_mensual > 0 %}pos{% elif fila.inc_mensual is not none and fila.inc_mensual < 0 %}neg{% endif %}">{% if fila.inc_mensual is not none %}{{ "%+.3f"|format(fila.inc_mensual) }}{% else %}—{% endif %}</td>
+        <td class="num {% if fila.inc_anual is not none and fila.inc_anual > 0 %}pos{% elif fila.inc_anual is not none and fila.inc_anual < 0 %}neg{% endif %}">{% if fila.inc_anual is not none %}{{ "%+.3f"|format(fila.inc_anual) }}{% else %}—{% endif %}</td>
+        {% endif %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  {% if c1_tiene_incidencia %}
+  <div class="productos-nota">Incidencia en puntos porcentuales sobre el índice general.</div>
+  {% endif %}
+</div>
+{% endif %}
+
+<div class="interp">
+  <div class="interp-head">
+    <h3>Interpretación</h3>
+    <div class="source">{{ d.interp_source }}</div>
+  </div>
+  {% if d.interp.tipo == "auto" %}
+    {% if d.interp.mensaje %}<div class="interp-block"><p>{{ d.interp.mensaje }}</p></div>{% endif %}
+  {% elif d.interp.tipo in ("demo", "sonnet") %}
+    {% if d.interp.direccion %}<div class="interp-block"><div class="bloque-label">Dirección y magnitud</div><p>{{ d.interp.direccion }}</p></div>{% endif %}
+    {% if d.interp.comparacion %}<div class="interp-block"><div class="bloque-label">Comparación histórica</div><p>{{ d.interp.comparacion }}</p></div>{% endif %}
+    {% if d.interp.macro %}<div class="interp-block"><div class="bloque-label">Lectura macro</div><p>{{ d.interp.macro }}</p></div>{% endif %}
+    {% if d.interp.banderas %}<div class="interp-block"><div class="bloque-label">Banderas y riesgos</div><p>{{ d.interp.banderas }}</p></div>{% endif %}
+  {% else %}
+    <div class="pending-banner">
+      <div class="pending-banner-title">⏳ Interpretación pendiente</div>
+      {% if d.periodos and d.series %}
+        {% set serie_principal = d.series[d.serie_cols[0]] if d.serie_cols else [] %}
+        {% if serie_principal and serie_principal|length >= 3 %}
+        <div class="pending-tendencia">
+          Últimos 3 periodos:
+          {% for v in serie_principal[-3:] %}
+            <span class="{% if v and v > 0 %}pos{% elif v and v < 0 %}neg{% endif %}">{{ "%+.1f"|format(v) if v is not none else "—" }}{{ d.unidad }}</span>{% if not loop.last %}, {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+      {% endif %}
+      <div class="pending-next">Próxima publicación: {{ d.proximaPub.fecha }}
+        {% if d.fuente %} · <a href="{{ d.fuente }}" target="_blank" rel="noopener">Ver boletín INEGI</a>{% endif %}
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+{% if d.stats %}
+<div class="analytics-grid" id="analytics-grid">
+  <div class="analytics-card">
+    <div class="analytics-card-head">
+      <h4>Estadísticos descriptivos · últimos {{ d.stats.count }} obs</h4>
+      <button class="adv-toggle-btn" id="adv-toggle-btn" type="button" aria-expanded="false">Ver avanzados</button>
+    </div>
+    <table class="analytics-tbl">
+      <caption class="sr-only">Estadísticos descriptivos de {{ d.nombre }}, últimos {{ d.stats.count }} periodos</caption>
+      <thead><tr><th scope="col">Métrica</th><th scope="col" class="num">Valor</th><th scope="col">Métrica</th><th scope="col" class="num">Valor</th></tr></thead>
+      <tbody>
+      <tr><td>Media</td><td class="num">{{ "%.2f"|format(d.stats.mean) }}{{ d.unidad }}</td>
+          <td>Mediana</td><td class="num">{{ "%.2f"|format(d.stats.p50) }}{{ d.unidad }}</td></tr>
+      <tr><td>Mínimo</td><td class="num">{{ "%.2f"|format(d.stats.min) }}{{ d.unidad }}</td>
+          <td>Máximo</td><td class="num">{{ "%.2f"|format(d.stats.max) }}{{ d.unidad }}</td></tr>
+      <tr class="stat-adv"><td>Desv. estándar</td><td class="num">{{ "%.2f"|format(d.stats.std) }}{{ d.unidad }}</td>
+          <td>p25 / p75</td><td class="num">{{ "%.1f"|format(d.stats.p25) }} / {{ "%.1f"|format(d.stats.p75) }}{{ d.unidad }}</td></tr>
+      </tbody>
+    </table>
+  </div>
+  {% if d.lags %}
+  <div class="analytics-card">
+    <h4>Comparativos lag</h4>
+    <table class="analytics-tbl">
+      <caption class="sr-only">Comparativos históricos de {{ d.nombre }} respecto al valor actual</caption>
+      <thead><tr><th scope="col">Periodo</th><th scope="col" class="num">Hace</th><th scope="col" class="num">Δ vs hoy</th></tr></thead>
+      <tbody>
+      {% for lag in ['1m','3m','6m','12m','24m'] %}{% if d.lags[lag] %}
+        <tr><td>{{ lag }} ({{ d.lags[lag].periodo }})</td>
+            <td class="num">{{ "%.2f"|format(d.lags[lag].valor) }}{{ d.unidad }}</td>
+            <td class="num {% if d.lags[lag].delta > 0 %}pos{% elif d.lags[lag].delta < 0 %}neg{% endif %}">{{ "%+.2f"|format(d.lags[lag].delta) }}{{ d.unidad }}</td></tr>
+      {% endif %}{% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+  {% if d.extremos %}
+  <div class="analytics-card">
+    <h4>Récords históricos · {{ d.periodos[0] if d.periodos else "" }} a {{ d.periodos[-1] if d.periodos else "" }}</h4>
+    <div class="record-row">
+      <div class="record-card record-mejor">
+        <div class="record-label">{% if d.extremos.mejor.valor >= 0 %}Récord positivo{% else %}Mejor valor{% endif %}</div>
+        <div class="record-valor">{{ "%+.2f"|format(d.extremos.mejor.valor) }}{{ d.unidad }}</div>
+        <div class="record-periodo">{{ d.extremos.mejor.periodo }}</div>
+      </div>
+      <div class="record-card record-peor">
+        <div class="record-label">{% if d.extremos.peor.valor <= 0 %}Récord negativo{% else %}Peor valor{% endif %}</div>
+        <div class="record-valor">{{ "%+.2f"|format(d.extremos.peor.valor) }}{{ d.unidad }}</div>
+        <div class="record-periodo">{{ d.extremos.peor.periodo }}</div>
+      </div>
+      {% if d.percentil %}
+      <div class="record-card record-percentil stat-adv">
+        <div class="record-label">Posición actual</div>
+        <div class="record-valor">p{{ d.percentil.p }}</div>
+        <div class="record-periodo">sobre {{ d.percentil.muestra }} obs</div>
+      </div>
+      {% endif %}
+      {% if d.z_score %}
+      <div class="record-card record-zscore record-z-{{ d.z_score.categoria }} stat-adv">
+        <div class="record-label">Z-score</div>
+        <div class="record-valor">{{ "%+.2f"|format(d.z_score.z) }}σ</div>
+        <div class="record-periodo">{{ d.z_score.categoria }}</div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "balanza_comercial" %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Saldo de balanza comercial · MDD desestacionalizado</h3>
+    <div class="source">Últimos 60 meses · BIE-INEGI</div>
+  </div>
+  <div class="drilldown-saldo-cards">
+    {% for nombre, val in d.drilldown.saldos_ultimo.items() %}
+    <div class="drilldown-stat-card {% if val and val > 0 %}saldo-pos{% elif val and val < 0 %}saldo-neg{% endif %}">
+      <div class="label">Saldo {{ nombre }}</div>
+      <div class="valor">{% if val %}{{ "{:+,.0f}".format(val) }} MDD{% else %}—{% endif %}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-balanza-saldos"></canvas>
+  </div>
+</div>
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Composición de exportaciones · variación anual desestacionalizada</h3>
+    <div class="source">Último mes vs serie histórica · BIE-INEGI</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead><tr><th>Categoría</th><th class="num">Var. anual</th><th class="num">Aporte cualitativo</th></tr></thead>
+    <tbody>
+      {% for nombre, val in d.drilldown.export_ultimo.items() %}
+      <tr>
+        <td>{{ nombre }}</td>
+        <td class="num {% if val and val > 0 %}pos{% elif val and val < 0 %}neg{% endif %}">{% if val is not none %}{{ "%+.2f"|format(val) }}%{% else %}—{% endif %}</td>
+        <td>{% if val is not none %}{% if val > 20 %}Alto crecimiento{% elif val > 5 %}Crecimiento moderado{% elif val > 0 %}Crecimiento ligero{% elif val > -5 %}Caída ligera{% else %}Caída sustancial{% endif %}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-balanza-exports"></canvas>
+  </div>
+</div>
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Composición de importaciones por tipo de bien · variación anual</h3>
+    <div class="source">Lectura de demanda interna · BIE-INEGI</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead><tr><th>Tipo de bien</th><th class="num">Var. anual</th><th>Lectura</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Bienes de consumo</td>
+        <td class="num {% if d.drilldown.import_ultimo.Consumo and d.drilldown.import_ultimo.Consumo > 0 %}pos{% elif d.drilldown.import_ultimo.Consumo and d.drilldown.import_ultimo.Consumo < 0 %}neg{% endif %}">{% if d.drilldown.import_ultimo.Consumo is not none %}{{ "%+.2f"|format(d.drilldown.import_ultimo.Consumo) }}%{% else %}—{% endif %}</td>
+        <td>Termómetro consumo final hogares</td>
+      </tr>
+      <tr>
+        <td>Bienes intermedios</td>
+        <td class="num {% if d.drilldown.import_ultimo.Intermedios and d.drilldown.import_ultimo.Intermedios > 0 %}pos{% elif d.drilldown.import_ultimo.Intermedios and d.drilldown.import_ultimo.Intermedios < 0 %}neg{% endif %}">{% if d.drilldown.import_ultimo.Intermedios is not none %}{{ "%+.2f"|format(d.drilldown.import_ultimo.Intermedios) }}%{% else %}—{% endif %}</td>
+        <td>Insumos para producción manufacturera</td>
+      </tr>
+      <tr>
+        <td>Bienes de capital</td>
+        <td class="num {% if d.drilldown.import_ultimo.Capital and d.drilldown.import_ultimo.Capital > 0 %}pos{% elif d.drilldown.import_ultimo.Capital and d.drilldown.import_ultimo.Capital < 0 %}neg{% endif %}">{% if d.drilldown.import_ultimo.Capital is not none %}{{ "%+.2f"|format(d.drilldown.import_ultimo.Capital) }}%{% else %}—{% endif %}</td>
+        <td>Inversión productiva (maquinaria, equipo)</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-balanza-imports"></canvas>
+  </div>
+</div>
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "pib_trimestral" %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>PIB por gran actividad económica · variación anual desestacionalizada</h3>
+    <div class="source">Últimos 40 trimestres · BIE-INEGI</div>
+  </div>
+  <div class="drilldown-saldo-cards">
+    {% for nombre, val in d.drilldown.actividades_ultimo.items() %}
+    <div class="drilldown-stat-card">
+      <div class="label">{{ nombre }}</div>
+      <div class="valor">{% if val is not none %}{{ "%+.2f"|format(val) }}%{% else %}—{% endif %}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-pib-actividades"></canvas>
+  </div>
+</div>
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>PIB secundarias por subsector · variación anual</h3>
+    <div class="source">Minería, energía, construcción, manufacturas · último trimestre disponible</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead><tr><th>Subsector SCIAN</th><th class="num">Var. anual</th><th>Lectura</th></tr></thead>
+    <tbody>
+      {% for nombre, val in d.drilldown.secundarias_ultimo.items() %}
+      <tr>
+        <td>{{ nombre }}</td>
+        <td class="num {% if val and val > 0 %}pos{% elif val and val < 0 %}neg{% endif %}">{% if val is not none %}{{ "%+.2f"|format(val) }}%{% else %}—{% endif %}</td>
+        <td>{% if val is not none %}{% if val > 5 %}Crecimiento sólido{% elif val > 1 %}Crecimiento moderado{% elif val > -1 %}Estancamiento{% elif val > -5 %}Caída moderada{% else %}Caída fuerte{% endif %}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-pib-secundarias"></canvas>
+  </div>
+</div>
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>PIB terciarias por subsector · variación anual</h3>
+    <div class="source">Servicios y comercio · último trimestre disponible</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead><tr><th>Subsector SCIAN</th><th class="num">Var. anual</th><th>Lectura</th></tr></thead>
+    <tbody>
+      {% for nombre, val in d.drilldown.terciarias_ultimo.items() %}
+      <tr>
+        <td>{{ nombre }}</td>
+        <td class="num {% if val and val > 0 %}pos{% elif val and val < 0 %}neg{% endif %}">{% if val is not none %}{{ "%+.2f"|format(val) }}%{% else %}—{% endif %}</td>
+        <td>{% if val is not none %}{% if val > 5 %}Crecimiento sólido{% elif val > 1 %}Crecimiento moderado{% elif val > -1 %}Estancamiento{% elif val > -5 %}Caída moderada{% else %}Caída fuerte{% endif %}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-pib-terciarias"></canvas>
+  </div>
+</div>
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>PIB por componentes de la demanda agregada · variación anual</h3>
+    <div class="source">Y = C + G + I + (X − M) · BIE oferta y demanda global</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead><tr><th>Componente</th><th class="num">Var. anual</th><th>Lectura macro</th></tr></thead>
+    <tbody>
+      <tr><td>Consumo privado (C)</td>
+          <td class="num {% if d.drilldown.demanda_ultimo['Consumo privado'] and d.drilldown.demanda_ultimo['Consumo privado'] > 0 %}pos{% elif d.drilldown.demanda_ultimo['Consumo privado'] and d.drilldown.demanda_ultimo['Consumo privado'] < 0 %}neg{% endif %}">{% if d.drilldown.demanda_ultimo['Consumo privado'] is not none %}{{ "%+.2f"|format(d.drilldown.demanda_ultimo['Consumo privado']) }}%{% else %}—{% endif %}</td>
+          <td>Demanda interna de hogares</td></tr>
+      <tr><td>Consumo gobierno (G)</td>
+          <td class="num {% if d.drilldown.demanda_ultimo['Consumo gobierno'] and d.drilldown.demanda_ultimo['Consumo gobierno'] > 0 %}pos{% elif d.drilldown.demanda_ultimo['Consumo gobierno'] and d.drilldown.demanda_ultimo['Consumo gobierno'] < 0 %}neg{% endif %}">{% if d.drilldown.demanda_ultimo['Consumo gobierno'] is not none %}{{ "%+.2f"|format(d.drilldown.demanda_ultimo['Consumo gobierno']) }}%{% else %}—{% endif %}</td>
+          <td>Gasto público corriente</td></tr>
+      <tr><td>FBCF total (I)</td>
+          <td class="num {% if d.drilldown.demanda_ultimo['FBCF total'] and d.drilldown.demanda_ultimo['FBCF total'] > 0 %}pos{% elif d.drilldown.demanda_ultimo['FBCF total'] and d.drilldown.demanda_ultimo['FBCF total'] < 0 %}neg{% endif %}">{% if d.drilldown.demanda_ultimo['FBCF total'] is not none %}{{ "%+.2f"|format(d.drilldown.demanda_ultimo['FBCF total']) }}%{% else %}—{% endif %}</td>
+          <td>Inversión productiva agregada</td></tr>
+      <tr><td>FBCF privada</td>
+          <td class="num {% if d.drilldown.demanda_ultimo['FBCF privada'] and d.drilldown.demanda_ultimo['FBCF privada'] > 0 %}pos{% elif d.drilldown.demanda_ultimo['FBCF privada'] and d.drilldown.demanda_ultimo['FBCF privada'] < 0 %}neg{% endif %}">{% if d.drilldown.demanda_ultimo['FBCF privada'] is not none %}{{ "%+.2f"|format(d.drilldown.demanda_ultimo['FBCF privada']) }}%{% else %}—{% endif %}</td>
+          <td>Inversión empresarial</td></tr>
+      <tr><td>FBCF pública</td>
+          <td class="num {% if d.drilldown.demanda_ultimo['FBCF pública'] and d.drilldown.demanda_ultimo['FBCF pública'] > 0 %}pos{% elif d.drilldown.demanda_ultimo['FBCF pública'] and d.drilldown.demanda_ultimo['FBCF pública'] < 0 %}neg{% endif %}">{% if d.drilldown.demanda_ultimo['FBCF pública'] is not none %}{{ "%+.2f"|format(d.drilldown.demanda_ultimo['FBCF pública']) }}%{% else %}—{% endif %}</td>
+          <td>Inversión gobierno (Tren Maya, Pemex, infra)</td></tr>
+      <tr><td>Exportaciones B+S (X)</td>
+          <td class="num {% if d.drilldown.demanda_ultimo['Exportaciones B+S'] and d.drilldown.demanda_ultimo['Exportaciones B+S'] > 0 %}pos{% elif d.drilldown.demanda_ultimo['Exportaciones B+S'] and d.drilldown.demanda_ultimo['Exportaciones B+S'] < 0 %}neg{% endif %}">{% if d.drilldown.demanda_ultimo['Exportaciones B+S'] is not none %}{{ "%+.2f"|format(d.drilldown.demanda_ultimo['Exportaciones B+S']) }}%{% else %}—{% endif %}</td>
+          <td>Demanda externa por bienes y servicios mexicanos</td></tr>
+      <tr><td>Importaciones B+S (M)</td>
+          <td class="num {% if d.drilldown.demanda_ultimo['Importaciones B+S'] and d.drilldown.demanda_ultimo['Importaciones B+S'] > 0 %}pos{% elif d.drilldown.demanda_ultimo['Importaciones B+S'] and d.drilldown.demanda_ultimo['Importaciones B+S'] < 0 %}neg{% endif %}">{% if d.drilldown.demanda_ultimo['Importaciones B+S'] is not none %}{{ "%+.2f"|format(d.drilldown.demanda_ultimo['Importaciones B+S']) }}%{% else %}—{% endif %}</td>
+          <td>Demanda doméstica por bienes y servicios extranjeros</td></tr>
+    </tbody>
+  </table>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-pib-demanda"></canvas>
+  </div>
+</div>
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "inpc_mensual" %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Descomposición de inflación · variación anual</h3>
+    <div class="source">General vs subyacente vs no subyacente · BIE-INEGI</div>
+  </div>
+  <div class="drilldown-saldo-cards">
+    {% for nombre, val in d.drilldown.ultimo.items() %}
+    <div class="drilldown-stat-card">
+      <div class="label">{{ nombre }}</div>
+      <div class="valor">{% if val is not none %}{{ "%.2f"|format(val) }}%{% else %}—{% endif %}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-inpc-general"></canvas>
+  </div>
+</div>
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Subyacente: mercancías y servicios</h3>
+    <div class="source">Componente de tendencia inflacionaria estructural</div>
+  </div>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-inpc-subyacente"></canvas>
+  </div>
+</div>
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>No subyacente: agropecuarios y energéticos</h3>
+    <div class="source">Componentes volátiles sujetos a shocks de oferta</div>
+  </div>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-inpc-no-subyacente"></canvas>
+  </div>
+</div>
+
+{% if d.drilldown.heatmap %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Mapa de calor de inflación anual · 2000–hoy</h3>
+    <div class="source">INPC anual (%) por mes y año · BIE-INEGI</div>
+  </div>
+  <div id="chart-inpc-heatmap" style="width:100%;overflow-x:auto;padding:4px 0"></div>
+</div>
+{% endif %}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "inpc_quincenal" and d.drilldown.heatmap %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Mapa de calor · inflación anual quincenal · 2000–hoy</h3>
+    <div class="source">INPC anual (%) por quincena y año · BIE-INEGI</div>
+  </div>
+  <div id="chart-inpc-quincenal-heatmap" style="width:100%;overflow-x:auto;padding:4px 0"></div>
+</div>
+{% endif %}
+
+{% macro panel_chart(titulo, source, canvas_id, ultimo_dict=None, unit="%") %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>{{ titulo }}</h3>
+    <div class="source">{{ source }}</div>
+  </div>
+  {% if ultimo_dict %}
+  <div class="drilldown-saldo-cards">
+    {% for nombre, val in ultimo_dict.items() %}
+    <div class="drilldown-stat-card{% if val is not none and val > 0 %} saldo-pos{% elif val is not none and val < 0 %} saldo-neg{% endif %}">
+      <div class="label">{{ nombre }}</div>
+      <div class="valor">{% if val is not none %}{{ "%+.2f"|format(val) }}{{ unit }}{% else %}—{% endif %}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+  <div class="drilldown-chart-wrap">
+    <canvas id="{{ canvas_id }}"></canvas>
+  </div>
+</div>
+{% endmacro %}
+
+{% if d.drilldown and d.drilldown.tipo == "igae" %}
+{{ panel_chart("IGAE por gran actividad económica · variación anual desest", "Total + 3 grandes actividades · 60 meses", "chart-igae-actividades", d.drilldown.ultimo) }}
+{{ panel_chart("Secundarias por subsector SCIAN", "Minería, energía, construcción, manufacturas", "chart-igae-secundarias", d.drilldown.secundarias_ultimo) }}
+{{ panel_chart("Terciarias por subsector SCIAN", "Comercio y servicios", "chart-igae-terciarias", d.drilldown.terciarias_ultimo) }}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "actividad_industrial" %}
+{{ panel_chart("Actividad industrial por sector", "Total + 4 sectores · 60 meses", "chart-actind-sectores") }}
+{{ panel_chart("Manufacturas por subsector SCIAN · variación anual desest", "14 ramas manufactureras · último mes disponible", "chart-actind-manuf", d.drilldown.subsectores_ultimo) }}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "consumo_privado" %}
+{% if d.drilldown.cuadro %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Variación del consumo privado · cifras desestacionalizadas</h3>
+    <div class="source">{{ d.drilldown.periodo }} · variación porcentual real · IMCP-INEGI</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead>
+      <tr>
+        <th>Componente</th>
+        <th class="num">Δ mensual</th>
+        <th class="num">Δ anual</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for fila in d.drilldown.cuadro %}
+      <tr>
+        <td>{{ fila.label }}</td>
+        <td class="num {% if fila.mensual is not none and fila.mensual > 0 %}pos{% elif fila.mensual is not none and fila.mensual < 0 %}neg{% endif %}">
+          {% if fila.mensual is not none %}{{ "%+.1f"|format(fila.mensual) }}%{% else %}—{% endif %}
+        </td>
+        <td class="num {% if fila.anual is not none and fila.anual > 0 %}pos{% elif fila.anual is not none and fila.anual < 0 %}neg{% endif %}">
+          {% if fila.anual is not none %}{{ "%+.1f"|format(fila.anual) }}%{% else %}—{% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+{{ panel_chart("Consumo privado por origen · variación anual", "Total + nacional + importado · 60 meses", "chart-consumo-origen", d.drilldown.ultimo) }}
+{{ panel_chart("Consumo nacional por tipo de bien", "Duraderos, semi-duraderos, no duraderos, servicios", "chart-consumo-tipo-nacional") }}
+{{ panel_chart("Consumo importado por tipo de bien", "Duraderos, semi-duraderos, no duraderos importados", "chart-consumo-tipo-importado") }}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "confianza_consumidor" %}
+{{ panel_chart("ICC y sus 5 componentes · diferencia anual desest", "Hogar, país, posibilidades de compra · 60 meses", "chart-icc-componentes", d.drilldown.ultimo, unit=" pts") }}
+{% if d.drilldown.radar %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Perfil de componentes · {{ d.drilldown.radar.periodo_actual }} vs {{ d.drilldown.radar.periodo_prev }}</h3>
+    <div class="source">Diferencia anual por componente · radar actual (sólido) vs hace 12 meses (punteado)</div>
+  </div>
+  <div class="drilldown-chart-wrap" style="height:320px">
+    <canvas id="chart-icc-radar"></canvas>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "emoe_ipm" %}
+{{ panel_chart("IPM y sus 5 componentes · diferencia anual desest", "Pedidos, producción, personal, insumos, inventarios · 60 meses", "chart-ipm-componentes", d.drilldown.ultimo, unit=" pts") }}
+{% if d.drilldown.radar %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Perfil de componentes · {{ d.drilldown.radar.periodo_actual }} vs {{ d.drilldown.radar.periodo_prev }}</h3>
+    <div class="source">Diferencia anual por componente · radar actual (sólido) vs hace 12 meses (punteado)</div>
+  </div>
+  <div class="drilldown-chart-wrap" style="height:320px">
+    <canvas id="chart-ipm-radar"></canvas>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "emoe_ice" %}
+{{ panel_chart("ICE por sector económico · diferencia anual desest", "Manufacturas, construcción, comercio, servicios · 60 meses", "chart-ice-sectores", d.drilldown.ultimo, unit=" pts") }}
+{% if d.drilldown.radar %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Perfil sectorial · {{ d.drilldown.radar.periodo_actual }} vs {{ d.drilldown.radar.periodo_prev }}</h3>
+    <div class="source">Diferencia anual por sector · radar actual (sólido) vs hace 12 meses (punteado)</div>
+  </div>
+  <div class="drilldown-chart-wrap" style="height:320px">
+    <canvas id="chart-ice-radar"></canvas>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "emoe_iat" %}
+{{ panel_chart("IAT por sector económico · diferencia anual desest", "Construcción y comercio · 60 meses (manufacturas y servicios pendientes)", "chart-iat-sectores", d.drilldown.ultimo, unit=" pts") }}
+{% endif %}
+
+{# ── Tabla de niveles EMOE / ICC ── #}
+{% if d._componentes_emoe %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Nivel del índice por componente</h3>
+    <div class="source">{{ d._componentes_emoe.periodo }} · desestacionalizado · INEGI-BIE</div>
+  </div>
+  {% if d._meses_consec %}
+  <div class="meses-consec-badge meses-consec-{{ d._meses_consec.direccion }}">
+    {% if d._meses_consec.direccion == "sobre" %}▲{% else %}▼{% endif %}
+    {% if d._meses_consec.toda_serie %}toda la serie histórica{% else %}{{ d._meses_consec.n }} mes{% if d._meses_consec.n != 1 %}es{% endif %} consecutivo{% if d._meses_consec.n != 1 %}s{% endif %}{% endif %}
+    {{ d._meses_consec.direccion }} {{ d._meses_consec.umbral }} pts
+    <span class="meses-consec-nivel">({{ d._meses_consec.nivel_actual }} pts)</span>
+  </div>
+  {% endif %}
+  <table class="analytics-tbl componentes-emoe-tbl">
+    <thead>
+      <tr>
+        <th>Componente</th>
+        <th class="num">Nivel (pts)</th>
+        <th class="num">Δ mensual (pts)</th>
+        <th class="num">Δ anual (pts)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for fila in d._componentes_emoe.filas %}
+      <tr class="{{ 'sobre-umbral' if fila.sobre_umbral else 'bajo-umbral' }}">
+        <td>{{ fila.componente }}</td>
+        <td class="num"><strong>{{ fila.nivel }}</strong></td>
+        <td class="num {{ 'pos' if fila.mensual and fila.mensual > 0 else ('neg' if fila.mensual and fila.mensual < 0 else '') }}">
+          {% if fila.mensual is not none %}{{ '+' if fila.mensual > 0 else '' }}{{ fila.mensual }}{% else %}—{% endif %}
+        </td>
+        <td class="num {{ 'pos' if fila.anual and fila.anual > 0 else ('neg' if fila.anual and fila.anual < 0 else '') }}">
+          {% if fila.anual is not none %}{{ '+' if fila.anual > 0 else '' }}{{ fila.anual }}{% else %}—{% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <div class="productos-nota">Índice de difusión: >50 indica expansión, &lt;50 contracción. Series desestacionalizadas con X-13ARIMA-SEATS. Base 2018.</div>
+</div>
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "fbcf" %}
+{% if d.drilldown.cuadro %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Variación de la FBCF · cifras desestacionalizadas</h3>
+    <div class="source">{{ d.drilldown.periodo }} · variación porcentual real · IMFBCF-INEGI</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead>
+      <tr>
+        <th>Inversión por tipo de bien</th>
+        <th class="num">Δ mensual</th>
+        <th class="num">Δ anual</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for fila in d.drilldown.cuadro %}
+      <tr>
+        <td>{{ fila.label }}</td>
+        <td class="num {% if fila.mensual is not none and fila.mensual > 0 %}pos{% elif fila.mensual is not none and fila.mensual < 0 %}neg{% endif %}">
+          {% if fila.mensual is not none %}{{ "%+.1f"|format(fila.mensual) }}%{% else %}—{% endif %}
+        </td>
+        <td class="num {% if fila.anual is not none and fila.anual > 0 %}pos{% elif fila.anual is not none and fila.anual < 0 %}neg{% endif %}">
+          {% if fila.anual is not none %}{{ "%+.1f"|format(fila.anual) }}%{% else %}—{% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+{{ panel_chart("FBCF total + maquinaria + construcción", "60 meses · variación anual desest", "chart-fbcf-totales", d.drilldown.ultimo) }}
+{{ panel_chart("Construcción residencial vs no residencial", "Vivienda vs infraestructura empresarial", "chart-fbcf-construccion") }}
+{{ panel_chart("Maquinaria nacional vs importada", "Distinguir contenido nacional", "chart-fbcf-maquinaria") }}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "enoe_mensual" %}
+{{ panel_chart("Tasa de desocupación · total y por género", "60 meses · series desest nacional + urbana", "chart-enoe-desocupacion", d.drilldown.ultimo) }}
+{{ panel_chart("Tasa de participación · total y por género", "Hombres, mujeres, urbana", "chart-enoe-participacion") }}
+{{ panel_chart("Informalidad y subocupación · nacional vs urbana", "Indicadores de calidad del empleo", "chart-enoe-informalidad") }}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "emim" %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Indicadores del sector manufacturero · variación mensual desestacionalizada</h3>
+    <div class="source">{{ d.drilldown.periodo }} · cifras desestacionalizadas · EMIM-INEGI</div>
+  </div>
+  <div class="drilldown-saldo-cards">
+    {% for nombre, val in d.drilldown.ultimo.items() %}
+    <div class="drilldown-stat-card {% if val is not none and val > 0 %}saldo-pos{% elif val is not none and val < 0 %}saldo-neg{% endif %}">
+      <div class="label">{{ nombre }}</div>
+      <div class="valor">{% if val is not none %}{{ "%+.1f"|format(val) }}%{% else %}—{% endif %}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="productos-nota">Variación porcentual mensual con ajuste estacional (X-13ARIMA-SEATS). Base 2018=100. La serie de cada agregado se calcula de manera independiente a la de sus componentes.</div>
+</div>
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "ind_ciclicos" %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Coincidente y Adelantado · diferencia mensual en puntos</h3>
+    <div class="source">Componentes cíclicos referenciados a su tendencia de largo plazo · BIE-INEGI</div>
+  </div>
+  <div class="drilldown-saldo-cards">
+    <div class="drilldown-stat-card {% if d.drilldown.coincidente.valor is not none and d.drilldown.coincidente.valor > 0 %}saldo-pos{% elif d.drilldown.coincidente.valor is not none and d.drilldown.coincidente.valor < 0 %}saldo-neg{% endif %}">
+      <div class="label">Coincidente · {{ d.drilldown.coincidente.periodo }}</div>
+      <div class="valor">{% if d.drilldown.coincidente.valor is not none %}{{ "%+.2f"|format(d.drilldown.coincidente.valor) }} pts{% else %}—{% endif %}</div>
+    </div>
+    <div class="drilldown-stat-card {% if d.drilldown.adelantado.valor is not none and d.drilldown.adelantado.valor > 0 %}saldo-pos{% elif d.drilldown.adelantado.valor is not none and d.drilldown.adelantado.valor < 0 %}saldo-neg{% endif %}">
+      <div class="label">Adelantado · {{ d.drilldown.adelantado.periodo }}</div>
+      <div class="valor">{% if d.drilldown.adelantado.valor is not none %}{{ "%+.2f"|format(d.drilldown.adelantado.valor) }} pts{% else %}—{% endif %}</div>
+    </div>
+  </div>
+  <div class="productos-nota">El Coincidente se publica con 2 meses de rezago; el Adelantado con 1. La tendencia de largo plazo se representa en 100 puntos. Diferencias negativas indican desaceleración respecto al mes anterior.</div>
+</div>
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "pib_anual" %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>PIB por actividad económica · variación trimestral y anual</h3>
+    <div class="source">{{ d.drilldown.periodo }} · cifras desestacionalizadas · BIE-INEGI</div>
+  </div>
+  <div style="overflow-x:auto">
+  <table class="analytics-tbl">
+    <thead>
+      <tr>
+        <th>Actividad</th>
+        <th class="num">Var. trimestral</th>
+        <th class="num">Var. anual</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for fila in d.drilldown.filas %}
+      <tr class="{% if not fila.indent %}sector-total{% endif %}">
+        <td {% if fila.indent %}class="sector-indent" style="padding-left:20px"{% endif %}>{{ fila.actividad.strip() }}</td>
+        <td class="num {% if fila.var_trimestral is not none and fila.var_trimestral > 0 %}pos{% elif fila.var_trimestral is not none and fila.var_trimestral < 0 %}neg{% endif %}">
+          {% if fila.var_trimestral is not none %}{{ "%+.2f"|format(fila.var_trimestral) }}%{% else %}—{% endif %}
+        </td>
+        <td class="num {% if fila.var_anual is not none and fila.var_anual > 0 %}pos{% elif fila.var_anual is not none and fila.var_anual < 0 %}neg{% endif %}">
+          {% if fila.var_anual is not none %}{{ "%+.2f"|format(fila.var_anual) }}%{% else %}—{% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  <div class="productos-nota">Cifras elaboradas mediante métodos econométricos. Fuente: INEGI · Sistema de Cuentas Nacionales de México.</div>
+</div>
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo in ("autos_ligeros", "autos_pesados") %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Variación anual por tipo · últimos 24 meses</h3>
+    <div class="source">Variación % anual · {{ d.drilldown.periodos[0] if d.drilldown.periodos else "" }} a {{ d.drilldown.periodos[-1] if d.drilldown.periodos else "" }} · INEGI-AMIA</div>
+  </div>
+  <div class="drilldown-saldo-cards">
+    {% for nombre, val in d.drilldown.ultimo.items() %}
+    <div class="drilldown-stat-card {% if val is not none and val > 0 %}saldo-pos{% elif val is not none and val < 0 %}saldo-neg{% endif %}">
+      <div class="label">{{ nombre.replace("_", " ") }}</div>
+      <div class="valor">{% if val is not none %}{{ "%+.1f"|format(val) }}%{% else %}—{% endif %}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-autos-series"></canvas>
+  </div>
+</div>
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "enec" %}
+{{ panel_chart("ENEC valor producción por tipo de obra · variación anual desest", "Edificación, agua, electricidad, transporte, petróleo, otras · 60 meses", "chart-enec-obras", d.drilldown.ultimo) }}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "comercio_mayoreo" %}
+{{ panel_chart("Comercio al por mayor por rama · variación anual desest", "Productos farma/perf y servicios de intermediación", "chart-mayoreo-ramas", d.drilldown.ultimo) }}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "comercio_menudeo" %}
+{{ panel_chart("Comercio al por menor por sector · variación anual desest", "Vehículos, textiles, papelería, ferretería, e-commerce", "chart-menudeo-sectores", d.drilldown.ultimo) }}
+{% endif %}
+
+{% if d.drilldown and d.drilldown.tipo == "servicios" %}
+{{ panel_chart("EMS por subsector · variación anual desest", "10 subsectores de servicios privados no financieros", "chart-servicios-subsectores", d.drilldown.ultimo) }}
+{% endif %}
+
+{% if d._tile_map_svg %}
+<section class="tile-map-card">
+  <header class="card-head">
+    <h3>{% if d.id == "empleo_imss" %}Empleo formal por entidad federativa{% else %}Mapa por entidad federativa{% endif %}</h3>
+    <div class="source">{{ d._periodo_tabular }} · {% if d.id == "empleo_imss" %}IMSS datos abiertos{% else %}BIE-INEGI{% endif %}</div>
+  </header>
+  <div class="tile-map-wrap">
+    {{ d._tile_map_svg | safe }}
+  </div>
+  {% if d.id == "empleo_imss" and d._entidad_filas %}
+  <div style="margin-top:18px;overflow-x:auto">
+    <table class="componentes-emoe-tbl" style="font-size:12.5px">
+      <thead>
+        <tr>
+          {% for col in d._entidad_cols_display %}
+          <th class="{% if not loop.first %}num{% endif %}">{{ col }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for fila in d._entidad_filas %}
+        <tr>
+          <td>{{ fila.Entidad }}</td>
+          <td class="num">{{ "{:,.0f}".format(fila.Total) if fila.Total is not none else "—" }}</td>
+          <td class="num">{{ "%.1f"|format(fila.Participacion) if fila.Participacion is not none else "—" }}%</td>
+          <td class="num {% if fila.Var_anual is not none and fila.Var_anual >= 0 %}pos{% elif fila.Var_anual is not none %}neg{% endif %}">
+            {{ "%+.1f"|format(fila.Var_anual) if fila.Var_anual is not none else "—" }}%
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
+{% if d._productos %}
+<div class="productos-card">
+  <div class="productos-head">
+    <h3>Productos con mayor incidencia · {{ d._productos.periodo }}</h3>
+    <div class="source">{{ d._productos.fuente }}</div>
+  </div>
+  {% if d._productos.alza or d._productos.baja %}
+  <div class="productos-grid">
+    <div class="productos-col">
+      <div class="productos-col-head productos-alza">Al alza</div>
+      <table class="productos-tbl">
+        <thead>
+          <tr><th>Producto</th><th class="num">Var. mensual</th><th class="num">Incidencia</th></tr>
+        </thead>
+        <tbody>
+          {% for p in d._productos.alza %}
+          <tr>
+            <td>{{ p.producto }}</td>
+            <td class="num pos">{{ "%+.2f"|format(p.var_mensual) }}%</td>
+            <td class="num pos">{{ "%+.3f"|format(p.incidencia) }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="productos-col">
+      <div class="productos-col-head productos-baja">A la baja</div>
+      <table class="productos-tbl">
+        <thead>
+          <tr><th>Producto</th><th class="num">Var. mensual</th><th class="num">Incidencia</th></tr>
+        </thead>
+        <tbody>
+          {% for p in d._productos.baja %}
+          <tr>
+            <td>{{ p.producto }}</td>
+            <td class="num neg">{{ "%+.2f"|format(p.var_mensual) }}%</td>
+            <td class="num neg">{{ "%+.3f"|format(p.incidencia) }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="productos-nota">Incidencia en puntos porcentuales sobre la inflación general.</div>
+  {% else %}
+  <div class="pending-banner">⏳ {{ d._productos._placeholder or "Desglose por productos pendiente para este periodo." }}</div>
+  {% endif %}
+</div>
+{% endif %}
+
+{% if d._entidades_ciudades and (d._entidades_ciudades.entidades_alza or d._entidades_ciudades.ciudades_alza) %}
+<div class="productos-card">
+  <div class="productos-head">
+    <h3>Variaciones por entidad y ciudad · {{ d._entidades_ciudades.periodo }}</h3>
+    <div class="source">{{ d._entidades_ciudades.fuente }}</div>
+  </div>
+  <div class="productos-grid">
+    <div class="productos-col">
+      <div class="productos-col-head productos-alza">Entidades por arriba del promedio</div>
+      <table class="productos-tbl">
+        <thead><tr><th>Entidad</th><th class="num">Var. mensual</th></tr></thead>
+        <tbody>
+          {% for e in d._entidades_ciudades.entidades_alza %}
+          <tr><td>{{ e.entidad }}</td><td class="num pos">{{ "%+.2f"|format(e.var_mensual) }}%</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="productos-col">
+      <div class="productos-col-head productos-baja">Entidades por debajo del promedio</div>
+      <table class="productos-tbl">
+        <thead><tr><th>Entidad</th><th class="num">Var. mensual</th></tr></thead>
+        <tbody>
+          {% for e in d._entidades_ciudades.entidades_baja %}
+          <tr><td>{{ e.entidad }}</td><td class="num">{{ "%+.2f"|format(e.var_mensual) }}%</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="productos-grid" style="margin-top:14px">
+    <div class="productos-col">
+      <div class="productos-col-head productos-alza">Ciudades por arriba del promedio</div>
+      <table class="productos-tbl">
+        <thead><tr><th>Ciudad</th><th class="num">Var. mensual</th></tr></thead>
+        <tbody>
+          {% for c in d._entidades_ciudades.ciudades_alza %}
+          <tr><td>{{ c.ciudad }}</td><td class="num pos">{{ "%+.2f"|format(c.var_mensual) }}%</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="productos-col">
+      <div class="productos-col-head productos-baja">Ciudades por debajo del promedio</div>
+      <table class="productos-tbl">
+        <thead><tr><th>Ciudad</th><th class="num">Var. mensual</th></tr></thead>
+        <tbody>
+          {% for c in d._entidades_ciudades.ciudades_baja %}
+          <tr><td>{{ c.ciudad }}</td><td class="num">{{ "%+.2f"|format(c.var_mensual) }}%</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{# ── Desglose sectorial IGAE ── #}
+{% if d._desglose_sectorial %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Variación anual por sector de actividad</h3>
+    <div class="source">{{ d._desglose_sectorial.periodo }} · BIE-INEGI</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead>
+      <tr><th>Sector</th><th class="num">Var. anual (%)</th><th class="num">Lectura</th></tr>
+    </thead>
+    <tbody>
+      {% for fila in d._desglose_sectorial.filas %}
+      {% set v = fila.var_anual %}
+      <tr class="{% if fila.sector.startswith('  ') %}{% else %}sector-total{% endif %}">
+        <td class="{% if fila.sector.startswith('  ') %}sector-indent{% endif %}">{{ fila.sector.strip() }}</td>
+        <td class="num {% if v > 0 %}pos{% elif v < 0 %}neg{% endif %}">{{ "%+.2f"|format(v) }}%</td>
+        <td>{% if v > 3 %}Crecimiento sólido{% elif v > 0.5 %}Crecimiento moderado{% elif v > -0.5 %}Estancamiento{% elif v > -3 %}Caída moderada{% else %}Caída fuerte{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+{# ── PEA flow ENOE trimestral ── #}
+{% if d._pea_flow %}
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Distribución de la población</h3>
+    <div class="source">{{ d._pea_flow.periodo }} · ENOE-INEGI</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead>
+      <tr>
+        <th>Concepto</th>
+        <th class="num">Personas</th>
+        <th class="num">Período anterior</th>
+        <th class="num">Var. pp</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% set conceptos_nivel2 = ["Ocupada", "Desocupada", "Disponible", "No disponible"] %}
+      {% for fila in d._pea_flow.filas %}
+      {% set es_indentado = fila.concepto in conceptos_nivel2 %}
+      <tr class="{% if es_indentado %}pea-flow-indent{% else %}pea-flow-row{% endif %}">
+        <td>{{ fila.concepto }}</td>
+        <td class="num">{% if fila.abs_act is not none %}{{ "{:,.0f}".format(fila.abs_act) }}{% else %}—{% endif %}</td>
+        <td class="num pea-abs">{% if fila.abs_prev is not none %}{{ "{:,.0f}".format(fila.abs_prev) }}{% else %}—{% endif %}</td>
+        {% if fila.concepto == "Total" %}
+          <td class="num" style="color:var(--texto-light)">—</td>
+        {% elif fila.pct_act is not none and fila.pct_prev is not none %}
+          {% set delta_pp = fila.pct_act - fila.pct_prev %}
+          <td class="num {% if delta_pp > 0 %}pos{% elif delta_pp < 0 %}neg{% endif %}">{{ "%+.2f"|format(delta_pp) }}</td>
+        {% else %}
+          <td class="num">—</td>
+        {% endif %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+<div class="chart-card">
+  <h3>{{ "Serie completa" if not d.tabular else "Tabla de datos" }}</h3>
+  <div class="table-wrap" style="box-shadow:none;border:none">
+    <table>
+      <caption class="sr-only">{{ "Tabla de datos de " if d.tabular else "Serie histórica completa de " }}{{ d.nombre }}</caption>
+      {% if d.tabular %}
+      <thead>
+        <tr>
+          {% for c in d.columnas %}<th scope="col" class="{% if d.filas[0] and d.filas[0][c] is number %}num{% endif %}">{{ d.columnas_display[loop.index0] if d.columnas_display else c }}</th>{% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in d.filas %}
+        <tr>
+          {% for c in d.columnas %}
+            {% set v = r[c] %}
+            {% if v is none %}<td>—</td>
+            {% elif v is number %}
+              {% if c in d.coloreable_cols %}
+                <td class="num {% if v > 0 %}pos{% elif v < 0 %}neg{% endif %}">{{ "%+.1f"|format(v) if v != 0 else "0.0" }}</td>
+              {% else %}
+                <td class="num">{{ "{:,.1f}".format(v) }}</td>
+              {% endif %}
+            {% else %}<td>{{ v }}</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+      {% else %}
+      <thead>
+        <tr>
+          <th scope="col">Periodo</th>
+          {% for c in d.serie_cols %}<th scope="col" class="num">{{ c }}</th>{% endfor %}
+          <th scope="col" class="num">MA12</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for p in d.periodos %}
+        {% set i = loop.index0 %}
+        <tr>
+          <td>{{ p }}</td>
+          {% for c in d.serie_cols %}
+            {% set v = d.series[c][i] %}
+            {% if v is none %}<td class="num">—</td>
+            {% else %}<td class="num {% if v > 0 %}pos{% elif v < 0 %}neg{% endif %}">{{ "%.1f"|format(v) }}</td>
+            {% endif %}
+          {% endfor %}
+          {% set m = d.ma12[i] %}
+          <td class="num" style="color:var(--texto-light)">{% if m is none %}—{% else %}{{ "%.1f"|format(m) }}{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+      {% endif %}
+    </table>
+  </div>
+  {% if d.tabular and d.id == "imai_estatal" %}
+  <div class="productos-nota">Índice de volumen físico de la actividad industrial por entidad federativa, base 2018=100. Las columnas muestran el índice acumulado, no la variación porcentual.</div>
+  {% endif %}
+  <div class="detail-meta" style="margin-top:12px">
+    Fuente: <a href="{{ d.fuente }}" target="_blank" rel="noopener">Boletín INEGI · saladeprensa →</a>
+  </div>
+</div>
+
+{# ── Metodología acordeón ── #}
+{% if d._metodologia %}
+<details class="metodologia-details">
+  <summary class="metodologia-summary">Nota metodológica · {{ d._metodologia.titulo }}</summary>
+  <div class="metodologia-body">
+    {% if d._metodologia.antecedentes %}
+    <h4>Antecedentes y cobertura</h4>
+    <p>{{ d._metodologia.antecedentes }}</p>
+    {% endif %}
+    {% if d._metodologia.periodicidad %}
+    <h4>Periodicidad y publicación</h4>
+    <p>{{ d._metodologia.periodicidad }}</p>
+    {% endif %}
+    {% if d._metodologia.cobertura %}
+    <h4>Cobertura geográfica</h4>
+    <p>{{ d._metodologia.cobertura }}</p>
+    {% endif %}
+    {% if d._metodologia.fuentes %}
+    <h4>Fuentes de información</h4>
+    <p>{{ d._metodologia.fuentes }}</p>
+    {% endif %}
+    {% if d._metodologia.muestreo %}
+    <h4>Diseño muestral</h4>
+    <p>{{ d._metodologia.muestreo }}</p>
+    {% endif %}
+    {% if d._metodologia.ajuste %}
+    <h4>Ajuste estacional</h4>
+    <p>{{ d._metodologia.ajuste }}</p>
+    {% endif %}
+    {% if d._metodologia.links %}
+    <div class="metodologia-links">
+      {% for link in d._metodologia.links %}
+      <a class="metodologia-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} →</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</details>
+{% endif %}
+
+<script id="page-data" type="application/json">{{ page_data_json | safe }}</script>
+{% endblock %}

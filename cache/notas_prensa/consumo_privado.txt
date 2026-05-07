@@ -1,0 +1,105 @@
+
+--- PÁGINA 1 ---
+BOLETÍN DE INDICADOR 220/26
+INDICADOR OPORTUNO
+DEL CONSUMO PRIVADO (IOCP)
+15 de abril de 2026
+Página 1/4
+Próxima publicación: 15 de mayo de 2026
+IOCP IOCP
+febrero marzo
+variación variación
+anual mensual anual mensual
+▲ 2.1 % ▲ 0.2 % ▲ 2.1 % 0.0 %
+El IOCP anticipa un incremento anual de 2.1 %
+del consumo privado para febrero y marzo de 2026
+El Indicador Oportuno del Consumo Privado (IOCP) presenta una estimación adelantada del
+Indicador Mensual del Consumo Privado (IMCP). Mientras que el IMCP se publica
+nueve semanas después del mes de referencia, el IOCP presenta una primera estimación en
+dos semanas y una segunda, más precisa, en seis semanas.
+Para febrero de 2026, el IOCP anticipa un aumento anual de 2.1 % en el IMCP; para marzo se
+prevé la misma variación. En términos mensuales, se adelanta un alza de 0.2 % para febrero
+y sin cambio para marzo. El IOCP (base 2018=100) señala que el IMCP tendrá un nivel de
+112.4 puntos en febrero y marzo de este año. Las estimaciones presentan sus respectivos
+intervalos de confianza a 95.0 % y corresponden a cifras desestacionalizadas (ver cuadro 1).
+Cuadro 1
+Estimaciones del Indicador Oportuno del Consumo Privado
+cifras desestacionalizadas
+febrero y marzo de 2026
+(variación porcentual anual, mensual e índice)
+Intervalo de confianza a 95.0 %
+Concepto Mes Nowcast1/
+inferior superior
+febrero 2.1 0.7 3.4
+Variación anual (%)
+marzo 2.1 0.7 3.6
+febrero 0.2 -1.1 1.5
+Variación mensual (%)
+marzo 0.0 -1.4 1.5
+febrero 112.4 110.9 113.8
+Índice (2018=100)
+marzo 112.4 110.8 114.0
+Nota: Cifras elaboradas mediante métodos econométricos. Las variaciones se obtienen de los respectivos
+índices considerando todos sus decimales.
+1/ Estimación oportuna que aprovecha la asociación estadística entre la variable que se desea estimar
+—en este caso, el Indicador Mensual del Consumo Privado (IMCP)— y otras variables más oportunas.
+Fuente: INEGI. Indicador Oportuno del Consumo Privado (IOCP), 2026.
+--- PÁGINA 2 ---
+BOLETÍN DE INDICADOR 220/26
+INDICADOR OPORTUNO
+DEL CONSUMO PRIVADO (IOCP)
+15 de abril de 2026
+Página 2/4
+Las siguientes gráficas muestran los resultados de las variaciones anuales y mensuales, así
+como los niveles del índice. En cada caso, la línea turquesa representa la serie de interés, la
+línea azul se refiere al ajuste de las estimaciones y la línea violeta muestra los nowcasts de
+febrero y marzo de 2026. Las líneas de color naranja punteadas representan los intervalos de
+confianza a 95.0 por ciento.
+Gráfica 1
+Serie desestacionalizada del Indicador Oportuno del Consumo Privado:
+Nowcast del Indicador Mensual del Consumo Privado (IMCP)
+enero de 2021–marzo de 2026
+(variación porcentual real respecto al mismo mes del año anterior: febrero y marzo de 2026)
+30.0
+20.0
+10.0
+0.0
+-10.0
+2021 2022 2023 2024 2025 2026
+IMCP Ajuste Nowcasts Inferior Superior
+Nota: Series elaboradas mediante métodos econométricos.
+Fuente: INEGI. Indicador Oportuno del Consumo Privado (IOCP), 2026.
+Gráfica 2
+Serie desestacionalizada del Indicador Oportuno del Consumo Privado:
+Nowcast del Indicador Mensual del Consumo Privado (IMCP)
+enero de 2021–marzo de 2026
+(variación porcentual real respecto al mes anterior: febrero y marzo de 2026)
+2.0
+1.0
+0.0
+-1.0
+-2.0
+2021 2022 2023 2024 2025 2026
+IMCP Ajuste Nowcasts Inferior Superior
+Nota: Series elaboradas mediante métodos econométricos.
+Fuente: INEGI. Indicador Oportuno del Consumo Privado (IOCP), 2026.
+--- PÁGINA 3 ---
+BOLETÍN DE INDICADOR 220/26
+INDICADOR OPORTUNO
+DEL CONSUMO PRIVADO (IOCP)
+15 de abril de 2026
+Página 3/4
+Gráfica 3
+Serie desestacionalizada del Indicador Oportuno del Consumo Privado:
+Nowcast del Indicador Mensual del Consumo Privado (IMCP)
+enero de 2021–marzo de 2026
+(índice base 2018=100: febrero y marzo de 2026)
+115.0
+110.0
+105.0
+100.0
+95.0
+2021 2022 2023 2024 2025 2026
+IMCP Ajuste Nowcasts Inferior Superior
+Nota: Series elaboradas mediante métodos econométricos.
+Fuente: INEGI. Indicador Oportuno del Consumo Privado (IOCP), 2026.

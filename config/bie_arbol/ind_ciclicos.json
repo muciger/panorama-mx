@@ -1,0 +1,268 @@
+{
+  "_meta": {
+    "root_id": "630",
+    "root_name": "Indicadores ciclicos",
+    "elapsed_s": 18.6,
+    "calls": 20,
+    "queue_restante": 0,
+    "indicadores": 32
+  },
+  "indicadores": {
+    "214309": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Tendencia del empleo en las manufacturas"
+      ]
+    },
+    "214310": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Tendencia del empleo en las manufacturas"
+      ]
+    },
+    "214313": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Índice de precios y cotizaciones de la Bolsa Mexicana de Valores en términos reales"
+      ]
+    },
+    "214314": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Índice de precios y cotizaciones de la Bolsa Mexicana de Valores en términos reales"
+      ]
+    },
+    "214311": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Indicador de confianza empresarial: Momento adecuado para invertir"
+      ]
+    },
+    "214312": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Indicador de confianza empresarial: Momento adecuado para invertir"
+      ]
+    },
+    "214307": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Indicador adelantado"
+      ]
+    },
+    "214308": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Indicador adelantado"
+      ]
+    },
+    "214319": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Índice Standard & Poor´s 500 (índice bursátil de Estados Unidos)"
+      ]
+    },
+    "214320": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Índice Standard & Poor´s 500 (índice bursátil de Estados Unidos)"
+      ]
+    },
+    "214317": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Tasa de interés interbancaria de equilibrio (TIIE)"
+      ]
+    },
+    "214318": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Tasa de interés interbancaria de equilibrio (TIIE)"
+      ]
+    },
+    "214315": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Tipo de cambio real bilateral México - EUA"
+      ]
+    },
+    "214316": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador adelantado y sus componentes",
+        "Tipo de cambio real bilateral México - EUA"
+      ]
+    },
+    "214321": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Otros indicadores",
+        "Indicador de confianza empresarial"
+      ]
+    },
+    "214322": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Otros indicadores",
+        "Indicador de confianza empresarial"
+      ]
+    },
+    "214293": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Indicador coincidente"
+      ]
+    },
+    "214294": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Indicador coincidente"
+      ]
+    },
+    "214297": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Indicador de la actividad industrial"
+      ]
+    },
+    "214298": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Indicador de la actividad industrial"
+      ]
+    },
+    "214323": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Otros indicadores",
+        "Indicador de confianza del consumidor"
+      ]
+    },
+    "214324": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Otros indicadores",
+        "Indicador de confianza del consumidor"
+      ]
+    },
+    "214295": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Indicador global de la actividad económica"
+      ]
+    },
+    "214296": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Indicador global de la actividad económica"
+      ]
+    },
+    "214303": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Tasa de desocupación urbana"
+      ]
+    },
+    "214304": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Tasa de desocupación urbana"
+      ]
+    },
+    "214299": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Índice de ingresos por suministro de bienes y servicios al por menor "
+      ]
+    },
+    "214300": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Índice de ingresos por suministro de bienes y servicios al por menor "
+      ]
+    },
+    "214301": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Asegurados trabajadores permanentes en el IMSS"
+      ]
+    },
+    "214302": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Asegurados trabajadores permanentes en el IMSS"
+      ]
+    },
+    "214305": {
+      "nombre": "Componente cíclico",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Importaciones totales"
+      ]
+    },
+    "214306": {
+      "nombre": "Diferencia en puntos respecto al mes anterior",
+      "ruta": [
+        "Indicadores ciclicos",
+        "Indicador coincidente y sus componentes",
+        "Importaciones totales"
+      ]
+    }
+  }
+}

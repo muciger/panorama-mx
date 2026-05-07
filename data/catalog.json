@@ -1,0 +1,250 @@
+{
+  "_generado": "2026-04-17",
+  "_fuente": "Indicadores_INEGI_abril_2026.xlsx (PPT abril 2026)",
+  "total_indicadores": 29,
+  "indicadores": [
+    {
+      "id": "pib_anual",
+      "nombre": "PIB anual, variación real",
+      "categoria": "macro",
+      "frecuencia": "anual",
+      "unidad": "variación % anual",
+      "data_path": "data/pib_anual.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10626"
+    },
+    {
+      "id": "pib_trimestral",
+      "nombre": "PIB Total, variación trimestral y anual",
+      "categoria": "macro",
+      "frecuencia": "trimestral",
+      "unidad": "variación % real",
+      "data_path": "data/pib_trimestral.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10626"
+    },
+    {
+      "id": "pib_por_actividad",
+      "nombre": "PIB por actividad",
+      "categoria": "macro",
+      "frecuencia": "trimestral",
+      "unidad": "variación % real",
+      "data_path": "data/pib_por_actividad.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10626"
+    },
+    {
+      "id": "inflacion_resumen",
+      "nombre": "Inflación anual INPC (resumen)",
+      "categoria": "precios",
+      "frecuencia": "mensual",
+      "unidad": "variación % anual",
+      "data_path": "data/inflacion_resumen.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10757"
+    },
+    {
+      "id": "igae_ioae_resumen",
+      "nombre": "IGAE e IOAE resumen",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % real anual",
+      "data_path": "data/igae_ioae_resumen.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10741"
+    },
+    {
+      "id": "igae",
+      "nombre": "Indicador Global de la Actividad Económica",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "data_path": "data/igae.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10741"
+    },
+    {
+      "id": "actividad_industrial",
+      "nombre": "Indicador Mensual de la Actividad Industrial",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "data_path": "data/actividad_industrial.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10761"
+    },
+    {
+      "id": "consumo_privado",
+      "nombre": "Indicador Mensual del Consumo Privado",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "data_path": "data/consumo_privado.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10750"
+    },
+    {
+      "id": "fbcf",
+      "nombre": "Formación Bruta de Capital Fijo",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "data_path": "data/fbcf.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10752"
+    },
+    {
+      "id": "balanza_comercial",
+      "nombre": "Balanza Comercial de Mercancías",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "variación % y saldo",
+      "data_path": "data/balanza_comercial.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10744"
+    },
+    {
+      "id": "ind_ciclicos",
+      "nombre": "Sistema de Indicadores Cíclicos",
+      "categoria": "actividad",
+      "frecuencia": "mensual",
+      "unidad": "puntos, diferencia mensual",
+      "data_path": "data/ind_ciclicos.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10751"
+    },
+    {
+      "id": "emim",
+      "nombre": "Encuesta Mensual de la Industria Manufacturera",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "data_path": "data/emim.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10728"
+    },
+    {
+      "id": "enec",
+      "nombre": "Encuesta Nacional de Empresas Constructoras",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "data_path": "data/enec.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10740"
+    },
+    {
+      "id": "comercio_mayoreo",
+      "nombre": "Empresas Comerciales, comercio al por mayor",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "data_path": "data/comercio_mayoreo.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10736"
+    },
+    {
+      "id": "comercio_menudeo",
+      "nombre": "Empresas Comerciales, comercio al por menor",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "data_path": "data/comercio_menudeo.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10736"
+    },
+    {
+      "id": "servicios",
+      "nombre": "Encuesta Mensual de Servicios",
+      "categoria": "encuestas_sectoriales",
+      "frecuencia": "mensual",
+      "unidad": "variación % real",
+      "data_path": "data/servicios.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10735"
+    },
+    {
+      "id": "autos_ligeros",
+      "nombre": "Industria Automotriz, vehículos ligeros",
+      "categoria": "automotriz",
+      "frecuencia": "mensual",
+      "unidad": "variación % anual",
+      "data_path": "data/autos_ligeros.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10758"
+    },
+    {
+      "id": "autos_pesados",
+      "nombre": "Industria Automotriz, vehículos pesados",
+      "categoria": "automotriz",
+      "frecuencia": "mensual",
+      "unidad": "variación % anual",
+      "data_path": "data/autos_pesados.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10723"
+    },
+    {
+      "id": "inpc_quincenal",
+      "nombre": "INPC quincenal",
+      "categoria": "precios",
+      "frecuencia": "quincenal",
+      "unidad": "variación % quincenal y anual",
+      "data_path": "data/inpc_quincenal.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10739"
+    },
+    {
+      "id": "inpc_mensual",
+      "nombre": "Índice Nacional de Precios al Consumidor",
+      "categoria": "precios",
+      "frecuencia": "mensual",
+      "unidad": "variación % mensual y anual",
+      "data_path": "data/inpc_mensual.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10757"
+    },
+    {
+      "id": "inpp",
+      "nombre": "Índice Nacional de Precios Productor",
+      "categoria": "precios",
+      "frecuencia": "mensual",
+      "unidad": "variación % mensual y anual",
+      "data_path": "data/inpp.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10756"
+    },
+    {
+      "id": "enoe_trimestral",
+      "nombre": "Encuesta Nacional de Ocupación y Empleo (trimestral)",
+      "categoria": "empleo",
+      "frecuencia": "trimestral",
+      "unidad": "personas y % de PET",
+      "data_path": "data/enoe_trimestral.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10629"
+    },
+    {
+      "id": "export_entidad",
+      "nombre": "Exportaciones por Entidad Federativa",
+      "categoria": "regional",
+      "frecuencia": "trimestral",
+      "unidad": "MDD y variación %",
+      "data_path": "data/export_entidad.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10746"
+    },
+    {
+      "id": "confianza_consumidor",
+      "nombre": "Indicador de Confianza del Consumidor",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "unidad": "puntos, diferencia mensual y anual",
+      "data_path": "data/confianza_consumidor.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10754"
+    },
+    {
+      "id": "emoe_ipm",
+      "nombre": "EMOE Indicador de Pedidos Manufactureros",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "unidad": "puntos, diferencia mensual y anual",
+      "data_path": "data/emoe_ipm.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10749"
+    },
+    {
+      "id": "emoe_iat",
+      "nombre": "EMOE Indicadores Agregados de Tendencia",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "unidad": "puntos, diferencia mensual y anual",
+      "data_path": "data/emoe_iat.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10747"
+    },
+    {
+      "id": "emoe_ice",
+      "nombre": "EMOE Indicador Global de Confianza Empresarial",
+      "categoria": "sentimiento",
+      "frecuencia": "mensual",
+      "unidad": "puntos, diferencia mensual y anual",
+      "data_path": "data/emoe_ice.json",
+      "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10748"
+    }
+  ]
+}

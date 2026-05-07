@@ -1,0 +1,2866 @@
+{
+  "_meta": {
+    "root_id": "564077",
+    "root_name": "EMS base 2018",
+    "elapsed_s": 89.0,
+    "calls": 119,
+    "queue_restante": 0,
+    "indicadores": 300
+  },
+  "indicadores": {
+    "715755": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715756": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715757": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715758": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715759": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715760": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715761": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715762": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715763": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715764": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715765": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715744": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715745": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715746": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715747": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715748": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715749": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715750": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715751": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715752": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715753": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715754": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado total según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715788": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715789": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715790": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715791": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715792": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715793": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715794": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715795": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715796": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715797": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715798": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Índice"
+      ]
+    },
+    "715799": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715800": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715801": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715802": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715803": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715804": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715805": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715806": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715807": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715808": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715809": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        " Personal no dependiente de la razón social",
+        "Variación anual"
+      ]
+    },
+    "715733": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715734": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715735": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715736": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715737": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715738": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715739": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715740": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715741": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715742": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715743": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715722": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715723": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715724": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715725": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715726": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715727": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715728": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715729": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715730": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715731": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715732": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Ingresos totales por suministro de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715777": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715778": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715779": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715780": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715781": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715782": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715783": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715784": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715785": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715786": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715787": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715821": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715822": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715823": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715824": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715825": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715826": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715827": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715828": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715829": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715830": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715831": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715810": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715811": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715812": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715813": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715814": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715815": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715816": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715817": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715818": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715819": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715820": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Gastos totales por el consumo de bienes y servicios según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715766": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715767": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715768": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715769": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715770": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715771": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715772": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715773": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715774": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715775": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715776": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Personal ocupado dependiente de la razón social según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715832": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715833": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715834": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715835": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715836": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715837": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715838": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715839": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715840": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715841": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715842": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Índice"
+      ]
+    },
+    "715843": {
+      "nombre": "Servicios privados no financieros",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715844": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715845": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715846": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715847": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715848": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715849": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715850": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715851": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715852": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "715853": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "EMS base 2018",
+        "Series Originales",
+        "Remuneraciones totales según sector y dominio",
+        "Variación anual"
+      ]
+    },
+    "716001": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones totales",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "716002": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones totales",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715994": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Gastos totales por el consumo de bienes y servicios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715995": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Gastos totales por el consumo de bienes y servicios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715996": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Gastos totales por el consumo de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715997": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Gastos totales por el consumo de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715998": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Gastos totales por el consumo de bienes y servicios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715999": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Gastos totales por el consumo de bienes y servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "716000": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Gastos totales por el consumo de bienes y servicios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "716003": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones totales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "716004": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones totales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "716005": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones totales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715933": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Transporte, correos y almacenamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715934": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Transporte, correos y almacenamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715935": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Transporte, correos y almacenamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "716006": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones totales",
+        "Tendencia-ciclo"
+      ]
+    },
+    "716007": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Remuneraciones totales",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715931": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Transporte, correos y almacenamiento",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715932": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Transporte, correos y almacenamiento",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715938": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Información en medios masivos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715939": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Información en medios masivos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715943": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Información en medios masivos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715944": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Información en medios masivos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715936": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Transporte, correos y almacenamiento",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715937": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Transporte, correos y almacenamiento",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715940": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Información en medios masivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715941": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Información en medios masivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715942": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Información en medios masivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715950": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715951": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715924": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Índice ponderado del personal ocupado total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715925": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Índice ponderado del personal ocupado total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715945": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715946": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715947": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715948": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715949": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715959": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715960": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715926": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Índice ponderado del personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715927": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Índice ponderado del personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715928": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Índice ponderado del personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715929": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Índice ponderado del personal ocupado total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715930": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Índice ponderado del personal ocupado total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715961": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715962": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715963": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715964": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715965": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715957": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715958": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715954": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715955": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715956": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715952": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715953": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715971": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios educativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715972": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios educativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715966": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios educativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715967": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios educativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715973": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de salud y de asistencia social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715974": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de salud y de asistencia social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715968": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios educativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715969": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios educativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715970": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios educativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720281": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720282": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720283": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715975": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de salud y de asistencia social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715976": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de salud y de asistencia social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715977": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de salud y de asistencia social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720279": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720280": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715978": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de salud y de asistencia social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715979": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de salud y de asistencia social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715980": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715981": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720284": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720285": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715982": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715983": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715984": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715985": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715986": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715989": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715990": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715991": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715992": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715993": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715987": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715988": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Personal ocupado total por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715854": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Índice ponderado de ingresos totales",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715855": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Índice ponderado de ingresos totales",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715859": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Índice ponderado de ingresos totales",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715860": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Índice ponderado de ingresos totales",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715868": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Información en medios masivos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715869": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Información en medios masivos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715870": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Información en medios masivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715871": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Información en medios masivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715872": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Información en medios masivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715856": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Índice ponderado de ingresos totales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715857": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Índice ponderado de ingresos totales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715858": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Índice ponderado de ingresos totales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715866": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Transporte, correos y almacenamiento",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715867": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Transporte, correos y almacenamiento",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715861": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Transporte, correos y almacenamiento",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715862": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Transporte, correos y almacenamiento",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715873": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Información en medios masivos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715874": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Información en medios masivos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715863": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Transporte, correos y almacenamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715864": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Transporte, correos y almacenamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715865": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Transporte, correos y almacenamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715875": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715876": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715880": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715881": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715877": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715878": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715879": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715896": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios educativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715897": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios educativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715898": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios educativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715899": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios educativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715900": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios educativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715884": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715885": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715886": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715882": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715883": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715901": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios educativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715902": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios educativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715887": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715888": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios profesionales, científicos y técnicos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715889": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715890": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715894": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715895": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715891": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715892": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715893": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715903": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de salud y de asistencia social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715904": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de salud y de asistencia social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720274": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720275": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720276": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Serie desestacionalizada"
+      ]
+    },
+    "720277": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720278": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Tendencia-ciclo"
+      ]
+    },
+    "720272": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "720273": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Otros servicios excepto actividades del gobierno",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715908": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de salud y de asistencia social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715909": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de salud y de asistencia social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715912": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715913": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715914": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715905": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de salud y de asistencia social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715906": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de salud y de asistencia social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715907": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de salud y de asistencia social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715910": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715911": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715917": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715918": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "715922": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715923": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715915": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715916": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "715919": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715920": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "715921": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMS base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Ingresos totales por suministro de bienes y servicios por sector",
+        "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie desestacionalizada"
+      ]
+    }
+  }
+}

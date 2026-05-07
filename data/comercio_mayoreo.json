@@ -1,0 +1,2224 @@
+{
+  "id": "comercio_mayoreo",
+  "nombre": "Empresas Comerciales, comercio al por mayor",
+  "categoria": "encuestas_sectoriales",
+  "frecuencia": "mensual",
+  "unidad": "variación % real",
+  "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10736",
+  "sheet_origen": "Comercio_mayoreo",
+  "titulo_original": "Empresas Comerciales, comercio al por mayor",
+  "subtitulo_original": "Variación mensual real (%), serie desestacionalizada",
+  "columnas": [
+    "Periodo",
+    "Personal_ocupado",
+    "Remuneración_media",
+    "Ingresos_totales",
+    "Mercancías_compradas",
+    "Productos_farma_perf_Anual",
+    "Intermediacion_Anual"
+  ],
+  "columnas_normalizadas": [
+    "Periodo",
+    "Personal_ocupado",
+    "Remuneración_media",
+    "Ingresos_totales",
+    "Mercancías_compradas",
+    "Productos_farma_perf_Anual",
+    "Intermediacion_Anual"
+  ],
+  "ultima_actualizacion": "2026-05-02",
+  "proxima_actualizacion_manual": "23 de abril de 2026",
+  "periodos": [
+    "feb-08",
+    "mar-08",
+    "abr-08",
+    "may-08",
+    "jun-08",
+    "jul-08",
+    "ago-08",
+    "sep-08",
+    "oct-08",
+    "nov-08",
+    "dic-08",
+    "ene-09",
+    "feb-09",
+    "mar-09",
+    "abr-09",
+    "may-09",
+    "jun-09",
+    "jul-09",
+    "ago-09",
+    "sep-09",
+    "oct-09",
+    "nov-09",
+    "dic-09",
+    "ene-10",
+    "feb-10",
+    "mar-10",
+    "abr-10",
+    "may-10",
+    "jun-10",
+    "jul-10",
+    "ago-10",
+    "sep-10",
+    "oct-10",
+    "nov-10",
+    "dic-10",
+    "ene-11",
+    "feb-11",
+    "mar-11",
+    "abr-11",
+    "may-11",
+    "jun-11",
+    "jul-11",
+    "ago-11",
+    "sep-11",
+    "oct-11",
+    "nov-11",
+    "dic-11",
+    "ene-12",
+    "feb-12",
+    "mar-12",
+    "abr-12",
+    "may-12",
+    "jun-12",
+    "jul-12",
+    "ago-12",
+    "sep-12",
+    "oct-12",
+    "nov-12",
+    "dic-12",
+    "ene-13",
+    "feb-13",
+    "mar-13",
+    "abr-13",
+    "may-13",
+    "jun-13",
+    "jul-13",
+    "ago-13",
+    "sep-13",
+    "oct-13",
+    "nov-13",
+    "dic-13",
+    "ene-14",
+    "feb-14",
+    "mar-14",
+    "abr-14",
+    "may-14",
+    "jun-14",
+    "jul-14",
+    "ago-14",
+    "sep-14",
+    "oct-14",
+    "nov-14",
+    "dic-14",
+    "ene-15",
+    "feb-15",
+    "mar-15",
+    "abr-15",
+    "may-15",
+    "jun-15",
+    "jul-15",
+    "ago-15",
+    "sep-15",
+    "oct-15",
+    "nov-15",
+    "dic-15",
+    "ene-16",
+    "feb-16",
+    "mar-16",
+    "abr-16",
+    "may-16",
+    "jun-16",
+    "jul-16",
+    "ago-16",
+    "sep-16",
+    "oct-16",
+    "nov-16",
+    "dic-16",
+    "ene-17",
+    "feb-17",
+    "mar-17",
+    "abr-17",
+    "may-17",
+    "jun-17",
+    "jul-17",
+    "ago-17",
+    "sep-17",
+    "oct-17",
+    "nov-17",
+    "dic-17",
+    "ene-18",
+    "feb-18",
+    "mar-18",
+    "abr-18",
+    "may-18",
+    "jun-18",
+    "jul-18",
+    "ago-18",
+    "sep-18",
+    "oct-18",
+    "nov-18",
+    "dic-18",
+    "ene-19",
+    "feb-19",
+    "mar-19",
+    "abr-19",
+    "may-19",
+    "jun-19",
+    "jul-19",
+    "ago-19",
+    "sep-19",
+    "oct-19",
+    "nov-19",
+    "dic-19",
+    "ene-20",
+    "feb-20",
+    "mar-20",
+    "abr-20",
+    "may-20",
+    "jun-20",
+    "jul-20",
+    "ago-20",
+    "sep-20",
+    "oct-20",
+    "nov-20",
+    "dic-20",
+    "ene-21",
+    "feb-21",
+    "mar-21",
+    "abr-21",
+    "may-21",
+    "jun-21",
+    "jul-21",
+    "ago-21",
+    "sep-21",
+    "oct-21",
+    "nov-21",
+    "dic-21",
+    "ene-22",
+    "feb-22",
+    "mar-22",
+    "abr-22",
+    "may-22",
+    "jun-22",
+    "jul-22",
+    "ago-22",
+    "sep-22",
+    "oct-22",
+    "nov-22",
+    "dic-22",
+    "ene-23",
+    "feb-23",
+    "mar-23",
+    "abr-23",
+    "may-23",
+    "jun-23",
+    "jul-23",
+    "ago-23",
+    "sep-23",
+    "oct-23",
+    "nov-23",
+    "dic-23",
+    "ene-24",
+    "feb-24",
+    "mar-24",
+    "abr-24",
+    "may-24",
+    "jun-24",
+    "jul-24",
+    "ago-24",
+    "sep-24",
+    "oct-24",
+    "nov-24",
+    "dic-24",
+    "ene-25",
+    "feb-25",
+    "mar-25",
+    "abr-25",
+    "may-25",
+    "jun-25",
+    "jul-25",
+    "ago-25",
+    "sep-25",
+    "oct-25",
+    "nov-25",
+    "dic-25",
+    "ene-26",
+    "feb-26"
+  ],
+  "series": [
+    {
+      "Periodo": "feb-08",
+      "Personal_ocupado": 0.21,
+      "Remuneración_media": 0.07,
+      "Ingresos_totales": 0.88,
+      "Mercancías_compradas": -0.84,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "mar-08",
+      "Personal_ocupado": 0.32,
+      "Remuneración_media": -1.3,
+      "Ingresos_totales": -1.36,
+      "Mercancías_compradas": -1.62,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "abr-08",
+      "Personal_ocupado": 0.3,
+      "Remuneración_media": 1.5,
+      "Ingresos_totales": 6.57,
+      "Mercancías_compradas": 4.79,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "may-08",
+      "Personal_ocupado": 0.95,
+      "Remuneración_media": -0.78,
+      "Ingresos_totales": -0.47,
+      "Mercancías_compradas": 2.3,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "jun-08",
+      "Personal_ocupado": -0.03,
+      "Remuneración_media": -3.01,
+      "Ingresos_totales": 0.17,
+      "Mercancías_compradas": -0.09,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "jul-08",
+      "Personal_ocupado": 0.23,
+      "Remuneración_media": 0.91,
+      "Ingresos_totales": -0.4,
+      "Mercancías_compradas": -3.04,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "ago-08",
+      "Personal_ocupado": -0.02,
+      "Remuneración_media": 0.91,
+      "Ingresos_totales": -3.4,
+      "Mercancías_compradas": -2.54,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "sep-08",
+      "Personal_ocupado": -0.14,
+      "Remuneración_media": -0.09,
+      "Ingresos_totales": 0.64,
+      "Mercancías_compradas": -0.1,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "oct-08",
+      "Personal_ocupado": 0.39,
+      "Remuneración_media": 2.37,
+      "Ingresos_totales": 1.05,
+      "Mercancías_compradas": -1.65,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "nov-08",
+      "Personal_ocupado": -0.55,
+      "Remuneración_media": 0.11,
+      "Ingresos_totales": -5.19,
+      "Mercancías_compradas": -2.7,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "dic-08",
+      "Personal_ocupado": -0.18,
+      "Remuneración_media": -1.8,
+      "Ingresos_totales": -2.82,
+      "Mercancías_compradas": -6.47,
+      "Productos_farma_perf_Anual": null,
+      "Intermediacion_Anual": null
+    },
+    {
+      "Periodo": "ene-09",
+      "Personal_ocupado": 0.06,
+      "Remuneración_media": 0.34,
+      "Ingresos_totales": -0.19,
+      "Mercancías_compradas": 2.24,
+      "Productos_farma_perf_Anual": -11.36,
+      "Intermediacion_Anual": -12.35
+    },
+    {
+      "Periodo": "feb-09",
+      "Personal_ocupado": -0.28,
+      "Remuneración_media": 1.08,
+      "Ingresos_totales": 0.48,
+      "Mercancías_compradas": -0.54,
+      "Productos_farma_perf_Anual": -7.38,
+      "Intermediacion_Anual": -14.07
+    },
+    {
+      "Periodo": "mar-09",
+      "Personal_ocupado": 0.09,
+      "Remuneración_media": -0.63,
+      "Ingresos_totales": -2.03,
+      "Mercancías_compradas": -1.77,
+      "Productos_farma_perf_Anual": -11.87,
+      "Intermediacion_Anual": -9.15
+    },
+    {
+      "Periodo": "abr-09",
+      "Personal_ocupado": -0.21,
+      "Remuneración_media": -0.28,
+      "Ingresos_totales": -1.14,
+      "Mercancías_compradas": -0.69,
+      "Productos_farma_perf_Anual": -3.96,
+      "Intermediacion_Anual": -16.72
+    },
+    {
+      "Periodo": "may-09",
+      "Personal_ocupado": -0.28,
+      "Remuneración_media": -3.22,
+      "Ingresos_totales": -2.37,
+      "Mercancías_compradas": -0.84,
+      "Productos_farma_perf_Anual": -3.85,
+      "Intermediacion_Anual": -16.14
+    },
+    {
+      "Periodo": "jun-09",
+      "Personal_ocupado": -0.08,
+      "Remuneración_media": 3.92,
+      "Ingresos_totales": 2.22,
+      "Mercancías_compradas": 0.19,
+      "Productos_farma_perf_Anual": -2.4,
+      "Intermediacion_Anual": -15.12
+    },
+    {
+      "Periodo": "jul-09",
+      "Personal_ocupado": 0.04,
+      "Remuneración_media": 0.44,
+      "Ingresos_totales": 0.25,
+      "Mercancías_compradas": 0.48,
+      "Productos_farma_perf_Anual": -10.04,
+      "Intermediacion_Anual": -18.72
+    },
+    {
+      "Periodo": "ago-09",
+      "Personal_ocupado": 0.38,
+      "Remuneración_media": -1.72,
+      "Ingresos_totales": -0.37,
+      "Mercancías_compradas": -0.36,
+      "Productos_farma_perf_Anual": -4.56,
+      "Intermediacion_Anual": -13.72
+    },
+    {
+      "Periodo": "sep-09",
+      "Personal_ocupado": -0.16,
+      "Remuneración_media": -0.26,
+      "Ingresos_totales": -0.85,
+      "Mercancías_compradas": -0.96,
+      "Productos_farma_perf_Anual": -4.93,
+      "Intermediacion_Anual": -15.23
+    },
+    {
+      "Periodo": "oct-09",
+      "Personal_ocupado": 0.03,
+      "Remuneración_media": -0.05,
+      "Ingresos_totales": 0.78,
+      "Mercancías_compradas": 0.25,
+      "Productos_farma_perf_Anual": -7.91,
+      "Intermediacion_Anual": -11.01
+    },
+    {
+      "Periodo": "nov-09",
+      "Personal_ocupado": 0.06,
+      "Remuneración_media": -0.43,
+      "Ingresos_totales": 1.26,
+      "Mercancías_compradas": 0.05,
+      "Productos_farma_perf_Anual": -5.14,
+      "Intermediacion_Anual": -15.84
+    },
+    {
+      "Periodo": "dic-09",
+      "Personal_ocupado": 0.05,
+      "Remuneración_media": 1.34,
+      "Ingresos_totales": -0.08,
+      "Mercancías_compradas": 2.24,
+      "Productos_farma_perf_Anual": -6.41,
+      "Intermediacion_Anual": -3.44
+    },
+    {
+      "Periodo": "ene-10",
+      "Personal_ocupado": 1.36,
+      "Remuneración_media": 0.25,
+      "Ingresos_totales": 1.16,
+      "Mercancías_compradas": 2.68,
+      "Productos_farma_perf_Anual": 3.64,
+      "Intermediacion_Anual": 8.29
+    },
+    {
+      "Periodo": "feb-10",
+      "Personal_ocupado": 0.19,
+      "Remuneración_media": -1.44,
+      "Ingresos_totales": 1.01,
+      "Mercancías_compradas": 2.28,
+      "Productos_farma_perf_Anual": 2.12,
+      "Intermediacion_Anual": 17.2
+    },
+    {
+      "Periodo": "mar-10",
+      "Personal_ocupado": 0.28,
+      "Remuneración_media": 1.54,
+      "Ingresos_totales": 1.23,
+      "Mercancías_compradas": 1.38,
+      "Productos_farma_perf_Anual": 6.99,
+      "Intermediacion_Anual": 32.51
+    },
+    {
+      "Periodo": "abr-10",
+      "Personal_ocupado": 0.37,
+      "Remuneración_media": -3.5,
+      "Ingresos_totales": 3.74,
+      "Mercancías_compradas": 1.01,
+      "Productos_farma_perf_Anual": 0.14,
+      "Intermediacion_Anual": 39.35
+    },
+    {
+      "Periodo": "may-10",
+      "Personal_ocupado": 0.31,
+      "Remuneración_media": 2.89,
+      "Ingresos_totales": -1.39,
+      "Mercancías_compradas": -0.78,
+      "Productos_farma_perf_Anual": -0.41,
+      "Intermediacion_Anual": 46.85
+    },
+    {
+      "Periodo": "jun-10",
+      "Personal_ocupado": 0.29,
+      "Remuneración_media": -0.57,
+      "Ingresos_totales": -1.79,
+      "Mercancías_compradas": -2.85,
+      "Productos_farma_perf_Anual": -0.45,
+      "Intermediacion_Anual": 30.3
+    },
+    {
+      "Periodo": "jul-10",
+      "Personal_ocupado": 0.32,
+      "Remuneración_media": 0.93,
+      "Ingresos_totales": 1.2,
+      "Mercancías_compradas": 2.56,
+      "Productos_farma_perf_Anual": -2.38,
+      "Intermediacion_Anual": 25.41
+    },
+    {
+      "Periodo": "ago-10",
+      "Personal_ocupado": 0.26,
+      "Remuneración_media": -0.5,
+      "Ingresos_totales": 0.19,
+      "Mercancías_compradas": 0.53,
+      "Productos_farma_perf_Anual": -1.84,
+      "Intermediacion_Anual": 27.87
+    },
+    {
+      "Periodo": "sep-10",
+      "Personal_ocupado": 0.17,
+      "Remuneración_media": 0.3,
+      "Ingresos_totales": -0.13,
+      "Mercancías_compradas": -0.59,
+      "Productos_farma_perf_Anual": 0.98,
+      "Intermediacion_Anual": 21.79
+    },
+    {
+      "Periodo": "oct-10",
+      "Personal_ocupado": 0.14,
+      "Remuneración_media": -1.54,
+      "Ingresos_totales": 0.73,
+      "Mercancías_compradas": 1.41,
+      "Productos_farma_perf_Anual": 3.79,
+      "Intermediacion_Anual": 19.98
+    },
+    {
+      "Periodo": "nov-10",
+      "Personal_ocupado": 0.34,
+      "Remuneración_media": -0.31,
+      "Ingresos_totales": -0.43,
+      "Mercancías_compradas": 1.4,
+      "Productos_farma_perf_Anual": 5.66,
+      "Intermediacion_Anual": 18.24
+    },
+    {
+      "Periodo": "dic-10",
+      "Personal_ocupado": 0.37,
+      "Remuneración_media": 1.49,
+      "Ingresos_totales": -0.53,
+      "Mercancías_compradas": -1.29,
+      "Productos_farma_perf_Anual": -3.58,
+      "Intermediacion_Anual": 8.06
+    },
+    {
+      "Periodo": "ene-11",
+      "Personal_ocupado": 0.12,
+      "Remuneración_media": 0.36,
+      "Ingresos_totales": 0.43,
+      "Mercancías_compradas": -1.6,
+      "Productos_farma_perf_Anual": 0.59,
+      "Intermediacion_Anual": -1.23
+    },
+    {
+      "Periodo": "feb-11",
+      "Personal_ocupado": 0.41,
+      "Remuneración_media": -1.18,
+      "Ingresos_totales": -0.85,
+      "Mercancías_compradas": -0.86,
+      "Productos_farma_perf_Anual": 3.18,
+      "Intermediacion_Anual": 3.97
+    },
+    {
+      "Periodo": "mar-11",
+      "Personal_ocupado": 0.35,
+      "Remuneración_media": 1.26,
+      "Ingresos_totales": 0.54,
+      "Mercancías_compradas": -0.41,
+      "Productos_farma_perf_Anual": -1.77,
+      "Intermediacion_Anual": 17.06
+    },
+    {
+      "Periodo": "abr-11",
+      "Personal_ocupado": 0.41,
+      "Remuneración_media": -3.42,
+      "Ingresos_totales": -2.57,
+      "Mercancías_compradas": 1.06,
+      "Productos_farma_perf_Anual": -0.54,
+      "Intermediacion_Anual": 4.23
+    },
+    {
+      "Periodo": "may-11",
+      "Personal_ocupado": 0.39,
+      "Remuneración_media": 4.99,
+      "Ingresos_totales": 2.37,
+      "Mercancías_compradas": 2.77,
+      "Productos_farma_perf_Anual": 1.92,
+      "Intermediacion_Anual": 4.57
+    },
+    {
+      "Periodo": "jun-11",
+      "Personal_ocupado": 0.85,
+      "Remuneración_media": 0.6,
+      "Ingresos_totales": 0.66,
+      "Mercancías_compradas": 1.55,
+      "Productos_farma_perf_Anual": 1.62,
+      "Intermediacion_Anual": 28.43
+    },
+    {
+      "Periodo": "jul-11",
+      "Personal_ocupado": -0.05,
+      "Remuneración_media": -0.09,
+      "Ingresos_totales": -1.34,
+      "Mercancías_compradas": 0.71,
+      "Productos_farma_perf_Anual": 3.48,
+      "Intermediacion_Anual": 29.58
+    },
+    {
+      "Periodo": "ago-11",
+      "Personal_ocupado": 0.72,
+      "Remuneración_media": 1.0,
+      "Ingresos_totales": 4.23,
+      "Mercancías_compradas": 2.08,
+      "Productos_farma_perf_Anual": 3.17,
+      "Intermediacion_Anual": 22.21
+    },
+    {
+      "Periodo": "sep-11",
+      "Personal_ocupado": 0.76,
+      "Remuneración_media": 3.12,
+      "Ingresos_totales": 4.0,
+      "Mercancías_compradas": 2.5,
+      "Productos_farma_perf_Anual": 2.97,
+      "Intermediacion_Anual": 28.77
+    },
+    {
+      "Periodo": "oct-11",
+      "Personal_ocupado": 1.3,
+      "Remuneración_media": -3.13,
+      "Ingresos_totales": -2.46,
+      "Mercancías_compradas": 0.22,
+      "Productos_farma_perf_Anual": 2.99,
+      "Intermediacion_Anual": 31.07
+    },
+    {
+      "Periodo": "nov-11",
+      "Personal_ocupado": 0.18,
+      "Remuneración_media": 0.51,
+      "Ingresos_totales": 1.44,
+      "Mercancías_compradas": 0.61,
+      "Productos_farma_perf_Anual": 2.21,
+      "Intermediacion_Anual": 28.84
+    },
+    {
+      "Periodo": "dic-11",
+      "Personal_ocupado": 0.28,
+      "Remuneración_media": -1.75,
+      "Ingresos_totales": 3.19,
+      "Mercancías_compradas": 0.5,
+      "Productos_farma_perf_Anual": 13.04,
+      "Intermediacion_Anual": 27.3
+    },
+    {
+      "Periodo": "ene-12",
+      "Personal_ocupado": 0.16,
+      "Remuneración_media": 1.44,
+      "Ingresos_totales": 0.3,
+      "Mercancías_compradas": 1.41,
+      "Productos_farma_perf_Anual": 4.19,
+      "Intermediacion_Anual": 39.41
+    },
+    {
+      "Periodo": "feb-12",
+      "Personal_ocupado": 0.08,
+      "Remuneración_media": 2.85,
+      "Ingresos_totales": -1.61,
+      "Mercancías_compradas": -0.86,
+      "Productos_farma_perf_Anual": -3.23,
+      "Intermediacion_Anual": 10.69
+    },
+    {
+      "Periodo": "mar-12",
+      "Personal_ocupado": 0.17,
+      "Remuneración_media": 0.2,
+      "Ingresos_totales": -1.04,
+      "Mercancías_compradas": -0.31,
+      "Productos_farma_perf_Anual": 2.8,
+      "Intermediacion_Anual": -16.8
+    },
+    {
+      "Periodo": "abr-12",
+      "Personal_ocupado": -0.17,
+      "Remuneración_media": -0.91,
+      "Ingresos_totales": -1.67,
+      "Mercancías_compradas": -0.72,
+      "Productos_farma_perf_Anual": 0.04,
+      "Intermediacion_Anual": -2.13
+    },
+    {
+      "Periodo": "may-12",
+      "Personal_ocupado": 0.65,
+      "Remuneración_media": -0.9,
+      "Ingresos_totales": 3.21,
+      "Mercancías_compradas": -1.54,
+      "Productos_farma_perf_Anual": 1.39,
+      "Intermediacion_Anual": -9.18
+    },
+    {
+      "Periodo": "jun-12",
+      "Personal_ocupado": 0.2,
+      "Remuneración_media": 0.79,
+      "Ingresos_totales": 1.59,
+      "Mercancías_compradas": 1.34,
+      "Productos_farma_perf_Anual": 6.44,
+      "Intermediacion_Anual": -14.97
+    },
+    {
+      "Periodo": "jul-12",
+      "Personal_ocupado": 0.2,
+      "Remuneración_media": -0.9,
+      "Ingresos_totales": -1.87,
+      "Mercancías_compradas": 0.27,
+      "Productos_farma_perf_Anual": 3.16,
+      "Intermediacion_Anual": -1.2
+    },
+    {
+      "Periodo": "ago-12",
+      "Personal_ocupado": 0.18,
+      "Remuneración_media": 0.71,
+      "Ingresos_totales": 0.26,
+      "Mercancías_compradas": 0.68,
+      "Productos_farma_perf_Anual": 2.78,
+      "Intermediacion_Anual": 13.04
+    },
+    {
+      "Periodo": "sep-12",
+      "Personal_ocupado": 0.06,
+      "Remuneración_media": 0.35,
+      "Ingresos_totales": 2.68,
+      "Mercancías_compradas": 1.86,
+      "Productos_farma_perf_Anual": 4.51,
+      "Intermediacion_Anual": 1.99
+    },
+    {
+      "Periodo": "oct-12",
+      "Personal_ocupado": -0.13,
+      "Remuneración_media": 1.43,
+      "Ingresos_totales": -3.23,
+      "Mercancías_compradas": -3.19,
+      "Productos_farma_perf_Anual": 0.96,
+      "Intermediacion_Anual": 5.87
+    },
+    {
+      "Periodo": "nov-12",
+      "Personal_ocupado": 0.23,
+      "Remuneración_media": -0.35,
+      "Ingresos_totales": -1.9,
+      "Mercancías_compradas": -0.41,
+      "Productos_farma_perf_Anual": 2.53,
+      "Intermediacion_Anual": 12.44
+    },
+    {
+      "Periodo": "dic-12",
+      "Personal_ocupado": 0.16,
+      "Remuneración_media": 3.81,
+      "Ingresos_totales": 0.34,
+      "Mercancías_compradas": -0.81,
+      "Productos_farma_perf_Anual": 5.11,
+      "Intermediacion_Anual": 2.43
+    },
+    {
+      "Periodo": "ene-13",
+      "Personal_ocupado": 2.17,
+      "Remuneración_media": -4.09,
+      "Ingresos_totales": -0.72,
+      "Mercancías_compradas": -0.06,
+      "Productos_farma_perf_Anual": -0.7,
+      "Intermediacion_Anual": 9.07
+    },
+    {
+      "Periodo": "feb-13",
+      "Personal_ocupado": 0.18,
+      "Remuneración_media": -1.33,
+      "Ingresos_totales": 0.31,
+      "Mercancías_compradas": 0.8,
+      "Productos_farma_perf_Anual": 3.77,
+      "Intermediacion_Anual": 30.38
+    },
+    {
+      "Periodo": "mar-13",
+      "Personal_ocupado": 0.11,
+      "Remuneración_media": -1.53,
+      "Ingresos_totales": 2.04,
+      "Mercancías_compradas": 0.96,
+      "Productos_farma_perf_Anual": -1.47,
+      "Intermediacion_Anual": 43.5
+    },
+    {
+      "Periodo": "abr-13",
+      "Personal_ocupado": 0.4,
+      "Remuneración_media": 1.65,
+      "Ingresos_totales": -2.98,
+      "Mercancías_compradas": -3.47,
+      "Productos_farma_perf_Anual": 1.31,
+      "Intermediacion_Anual": 38.99
+    },
+    {
+      "Periodo": "may-13",
+      "Personal_ocupado": 0.32,
+      "Remuneración_media": -3.45,
+      "Ingresos_totales": -0.52,
+      "Mercancías_compradas": -0.64,
+      "Productos_farma_perf_Anual": -3.19,
+      "Intermediacion_Anual": 64.94
+    },
+    {
+      "Periodo": "jun-13",
+      "Personal_ocupado": 0.26,
+      "Remuneración_media": 2.83,
+      "Ingresos_totales": -0.01,
+      "Mercancías_compradas": -0.06,
+      "Productos_farma_perf_Anual": -8.04,
+      "Intermediacion_Anual": 50.43
+    },
+    {
+      "Periodo": "jul-13",
+      "Personal_ocupado": 0.07,
+      "Remuneración_media": 0.08,
+      "Ingresos_totales": 0.58,
+      "Mercancías_compradas": -0.67,
+      "Productos_farma_perf_Anual": -2.29,
+      "Intermediacion_Anual": 28.96
+    },
+    {
+      "Periodo": "ago-13",
+      "Personal_ocupado": -0.04,
+      "Remuneración_media": 0.7,
+      "Ingresos_totales": -0.49,
+      "Mercancías_compradas": -0.29,
+      "Productos_farma_perf_Anual": 0.14,
+      "Intermediacion_Anual": 16.75
+    },
+    {
+      "Periodo": "sep-13",
+      "Personal_ocupado": 0.31,
+      "Remuneración_media": 0.28,
+      "Ingresos_totales": 1.08,
+      "Mercancías_compradas": 0.84,
+      "Productos_farma_perf_Anual": -2.03,
+      "Intermediacion_Anual": 36.0
+    },
+    {
+      "Periodo": "oct-13",
+      "Personal_ocupado": 0.05,
+      "Remuneración_media": -0.5,
+      "Ingresos_totales": 0.57,
+      "Mercancías_compradas": 0.23,
+      "Productos_farma_perf_Anual": 0.85,
+      "Intermediacion_Anual": 28.69
+    },
+    {
+      "Periodo": "nov-13",
+      "Personal_ocupado": 0.18,
+      "Remuneración_media": 0.99,
+      "Ingresos_totales": 0.8,
+      "Mercancías_compradas": 0.78,
+      "Productos_farma_perf_Anual": -3.36,
+      "Intermediacion_Anual": 34.51
+    },
+    {
+      "Periodo": "dic-13",
+      "Personal_ocupado": 0.12,
+      "Remuneración_media": 0.46,
+      "Ingresos_totales": 0.52,
+      "Mercancías_compradas": 1.73,
+      "Productos_farma_perf_Anual": -4.9,
+      "Intermediacion_Anual": 53.87
+    },
+    {
+      "Periodo": "ene-14",
+      "Personal_ocupado": 0.1,
+      "Remuneración_media": -3.29,
+      "Ingresos_totales": 1.21,
+      "Mercancías_compradas": 0.68,
+      "Productos_farma_perf_Anual": 3.94,
+      "Intermediacion_Anual": 32.28
+    },
+    {
+      "Periodo": "feb-14",
+      "Personal_ocupado": 0.26,
+      "Remuneración_media": 1.18,
+      "Ingresos_totales": 0.17,
+      "Mercancías_compradas": 0.29,
+      "Productos_farma_perf_Anual": 3.49,
+      "Intermediacion_Anual": 18.15
+    },
+    {
+      "Periodo": "mar-14",
+      "Personal_ocupado": 0.24,
+      "Remuneración_media": -0.46,
+      "Ingresos_totales": -0.21,
+      "Mercancías_compradas": 0.18,
+      "Productos_farma_perf_Anual": 6.62,
+      "Intermediacion_Anual": 17.45
+    },
+    {
+      "Periodo": "abr-14",
+      "Personal_ocupado": 0.42,
+      "Remuneración_media": 0.6,
+      "Ingresos_totales": 0.83,
+      "Mercancías_compradas": 1.26,
+      "Productos_farma_perf_Anual": 8.65,
+      "Intermediacion_Anual": 34.67
+    },
+    {
+      "Periodo": "may-14",
+      "Personal_ocupado": 0.22,
+      "Remuneración_media": -1.46,
+      "Ingresos_totales": -0.42,
+      "Mercancías_compradas": 0.07,
+      "Productos_farma_perf_Anual": 12.22,
+      "Intermediacion_Anual": 18.1
+    },
+    {
+      "Periodo": "jun-14",
+      "Personal_ocupado": -0.33,
+      "Remuneración_media": 1.11,
+      "Ingresos_totales": -0.74,
+      "Mercancías_compradas": -1.02,
+      "Productos_farma_perf_Anual": 5.29,
+      "Intermediacion_Anual": 30.65
+    },
+    {
+      "Periodo": "jul-14",
+      "Personal_ocupado": 0.18,
+      "Remuneración_media": 0.33,
+      "Ingresos_totales": 0.8,
+      "Mercancías_compradas": -0.34,
+      "Productos_farma_perf_Anual": 8.86,
+      "Intermediacion_Anual": 33.71
+    },
+    {
+      "Periodo": "ago-14",
+      "Personal_ocupado": 0.22,
+      "Remuneración_media": -0.93,
+      "Ingresos_totales": 0.43,
+      "Mercancías_compradas": -1.59,
+      "Productos_farma_perf_Anual": 2.76,
+      "Intermediacion_Anual": 26.61
+    },
+    {
+      "Periodo": "sep-14",
+      "Personal_ocupado": 0.09,
+      "Remuneración_media": 0.31,
+      "Ingresos_totales": 0.18,
+      "Mercancías_compradas": 1.87,
+      "Productos_farma_perf_Anual": 1.83,
+      "Intermediacion_Anual": 20.54
+    },
+    {
+      "Periodo": "oct-14",
+      "Personal_ocupado": 0.6,
+      "Remuneración_media": 0.1,
+      "Ingresos_totales": 0.55,
+      "Mercancías_compradas": -0.09,
+      "Productos_farma_perf_Anual": 4.46,
+      "Intermediacion_Anual": 8.64
+    },
+    {
+      "Periodo": "nov-14",
+      "Personal_ocupado": 0.08,
+      "Remuneración_media": -0.07,
+      "Ingresos_totales": 1.34,
+      "Mercancías_compradas": 0.87,
+      "Productos_farma_perf_Anual": 7.67,
+      "Intermediacion_Anual": 6.33
+    },
+    {
+      "Periodo": "dic-14",
+      "Personal_ocupado": 0.31,
+      "Remuneración_media": -0.33,
+      "Ingresos_totales": -0.54,
+      "Mercancías_compradas": 0.94,
+      "Productos_farma_perf_Anual": 3.69,
+      "Intermediacion_Anual": 5.94
+    },
+    {
+      "Periodo": "ene-15",
+      "Personal_ocupado": 0.17,
+      "Remuneración_media": 0.78,
+      "Ingresos_totales": -0.78,
+      "Mercancías_compradas": -1.32,
+      "Productos_farma_perf_Anual": 4.34,
+      "Intermediacion_Anual": 5.51
+    },
+    {
+      "Periodo": "feb-15",
+      "Personal_ocupado": 0.42,
+      "Remuneración_media": 0.44,
+      "Ingresos_totales": 0.5,
+      "Mercancías_compradas": -0.55,
+      "Productos_farma_perf_Anual": 7.27,
+      "Intermediacion_Anual": 22.87
+    },
+    {
+      "Periodo": "mar-15",
+      "Personal_ocupado": 0.06,
+      "Remuneración_media": -0.49,
+      "Ingresos_totales": 0.25,
+      "Mercancías_compradas": 2.09,
+      "Productos_farma_perf_Anual": 8.61,
+      "Intermediacion_Anual": 29.79
+    },
+    {
+      "Periodo": "abr-15",
+      "Personal_ocupado": 0.13,
+      "Remuneración_media": -1.24,
+      "Ingresos_totales": -0.25,
+      "Mercancías_compradas": 0.19,
+      "Productos_farma_perf_Anual": 3.88,
+      "Intermediacion_Anual": 9.54
+    },
+    {
+      "Periodo": "may-15",
+      "Personal_ocupado": 0.15,
+      "Remuneración_media": 2.74,
+      "Ingresos_totales": -0.19,
+      "Mercancías_compradas": -0.49,
+      "Productos_farma_perf_Anual": 3.36,
+      "Intermediacion_Anual": 8.47
+    },
+    {
+      "Periodo": "jun-15",
+      "Personal_ocupado": 0.18,
+      "Remuneración_media": -0.81,
+      "Ingresos_totales": 0.95,
+      "Mercancías_compradas": 0.09,
+      "Productos_farma_perf_Anual": 8.72,
+      "Intermediacion_Anual": 2.19
+    },
+    {
+      "Periodo": "jul-15",
+      "Personal_ocupado": -0.4,
+      "Remuneración_media": 0.54,
+      "Ingresos_totales": 1.84,
+      "Mercancías_compradas": 1.2,
+      "Productos_farma_perf_Anual": 0.68,
+      "Intermediacion_Anual": 7.35
+    },
+    {
+      "Periodo": "ago-15",
+      "Personal_ocupado": -0.74,
+      "Remuneración_media": -0.04,
+      "Ingresos_totales": -2.53,
+      "Mercancías_compradas": -0.87,
+      "Productos_farma_perf_Anual": 5.02,
+      "Intermediacion_Anual": 11.75
+    },
+    {
+      "Periodo": "sep-15",
+      "Personal_ocupado": 0.53,
+      "Remuneración_media": 0.85,
+      "Ingresos_totales": -1.51,
+      "Mercancías_compradas": -0.43,
+      "Productos_farma_perf_Anual": 5.32,
+      "Intermediacion_Anual": 9.64
+    },
+    {
+      "Periodo": "oct-15",
+      "Personal_ocupado": 0.2,
+      "Remuneración_media": -0.01,
+      "Ingresos_totales": 0.44,
+      "Mercancías_compradas": 1.25,
+      "Productos_farma_perf_Anual": 2.52,
+      "Intermediacion_Anual": 23.23
+    },
+    {
+      "Periodo": "nov-15",
+      "Personal_ocupado": 0.11,
+      "Remuneración_media": -0.04,
+      "Ingresos_totales": -0.5,
+      "Mercancías_compradas": -0.45,
+      "Productos_farma_perf_Anual": 2.02,
+      "Intermediacion_Anual": 13.16
+    },
+    {
+      "Periodo": "dic-15",
+      "Personal_ocupado": 0.33,
+      "Remuneración_media": -1.97,
+      "Ingresos_totales": -2.44,
+      "Mercancías_compradas": -3.52,
+      "Productos_farma_perf_Anual": 4.26,
+      "Intermediacion_Anual": 11.04
+    },
+    {
+      "Periodo": "ene-16",
+      "Personal_ocupado": 0.29,
+      "Remuneración_media": 3.72,
+      "Ingresos_totales": 1.66,
+      "Mercancías_compradas": 1.14,
+      "Productos_farma_perf_Anual": 2.57,
+      "Intermediacion_Anual": 20.62
+    },
+    {
+      "Periodo": "feb-16",
+      "Personal_ocupado": 0.34,
+      "Remuneración_media": 1.1,
+      "Ingresos_totales": 0.28,
+      "Mercancías_compradas": 3.88,
+      "Productos_farma_perf_Anual": 0.49,
+      "Intermediacion_Anual": 8.66
+    },
+    {
+      "Periodo": "mar-16",
+      "Personal_ocupado": 0.4,
+      "Remuneración_media": 0.92,
+      "Ingresos_totales": -0.18,
+      "Mercancías_compradas": -1.31,
+      "Productos_farma_perf_Anual": -2.86,
+      "Intermediacion_Anual": -5.32
+    },
+    {
+      "Periodo": "abr-16",
+      "Personal_ocupado": 0.26,
+      "Remuneración_media": -2.67,
+      "Ingresos_totales": 0.8,
+      "Mercancías_compradas": -0.14,
+      "Productos_farma_perf_Anual": -0.88,
+      "Intermediacion_Anual": -1.32
+    },
+    {
+      "Periodo": "may-16",
+      "Personal_ocupado": 0.31,
+      "Remuneración_media": 3.91,
+      "Ingresos_totales": 0.79,
+      "Mercancías_compradas": 1.54,
+      "Productos_farma_perf_Anual": -0.53,
+      "Intermediacion_Anual": -17.69
+    },
+    {
+      "Periodo": "jun-16",
+      "Personal_ocupado": 0.4,
+      "Remuneración_media": -1.46,
+      "Ingresos_totales": -0.38,
+      "Mercancías_compradas": 0.49,
+      "Productos_farma_perf_Anual": -2.58,
+      "Intermediacion_Anual": -9.49
+    },
+    {
+      "Periodo": "jul-16",
+      "Personal_ocupado": 0.03,
+      "Remuneración_media": 1.4,
+      "Ingresos_totales": 0.12,
+      "Mercancías_compradas": -0.49,
+      "Productos_farma_perf_Anual": 1.36,
+      "Intermediacion_Anual": -19.79
+    },
+    {
+      "Periodo": "ago-16",
+      "Personal_ocupado": 0.4,
+      "Remuneración_media": -0.68,
+      "Ingresos_totales": 0.33,
+      "Mercancías_compradas": 2.5,
+      "Productos_farma_perf_Anual": -0.85,
+      "Intermediacion_Anual": -15.89
+    },
+    {
+      "Periodo": "sep-16",
+      "Personal_ocupado": 0.48,
+      "Remuneración_media": -0.87,
+      "Ingresos_totales": 1.08,
+      "Mercancías_compradas": -1.49,
+      "Productos_farma_perf_Anual": -0.79,
+      "Intermediacion_Anual": -18.52
+    },
+    {
+      "Periodo": "oct-16",
+      "Personal_ocupado": 0.18,
+      "Remuneración_media": 0.32,
+      "Ingresos_totales": -0.25,
+      "Mercancías_compradas": -0.02,
+      "Productos_farma_perf_Anual": -1.12,
+      "Intermediacion_Anual": -20.54
+    },
+    {
+      "Periodo": "nov-16",
+      "Personal_ocupado": 0.46,
+      "Remuneración_media": -1.65,
+      "Ingresos_totales": -0.99,
+      "Mercancías_compradas": -1.89,
+      "Productos_farma_perf_Anual": -3.01,
+      "Intermediacion_Anual": -4.88
+    },
+    {
+      "Periodo": "dic-16",
+      "Personal_ocupado": 0.01,
+      "Remuneración_media": 1.35,
+      "Ingresos_totales": 3.46,
+      "Mercancías_compradas": 3.12,
+      "Productos_farma_perf_Anual": -1.27,
+      "Intermediacion_Anual": 3.77
+    },
+    {
+      "Periodo": "ene-17",
+      "Personal_ocupado": 0.68,
+      "Remuneración_media": 0.87,
+      "Ingresos_totales": 1.58,
+      "Mercancías_compradas": 1.28,
+      "Productos_farma_perf_Anual": -3.46,
+      "Intermediacion_Anual": -7.89
+    },
+    {
+      "Periodo": "feb-17",
+      "Personal_ocupado": -0.97,
+      "Remuneración_media": -0.62,
+      "Ingresos_totales": -2.35,
+      "Mercancías_compradas": 3.72,
+      "Productos_farma_perf_Anual": -6.28,
+      "Intermediacion_Anual": -1.89
+    },
+    {
+      "Periodo": "mar-17",
+      "Personal_ocupado": 0.07,
+      "Remuneración_media": -0.04,
+      "Ingresos_totales": 0.07,
+      "Mercancías_compradas": -4.69,
+      "Productos_farma_perf_Anual": 0.07,
+      "Intermediacion_Anual": 4.91
+    },
+    {
+      "Periodo": "abr-17",
+      "Personal_ocupado": -0.28,
+      "Remuneración_media": 1.19,
+      "Ingresos_totales": -1.61,
+      "Mercancías_compradas": -1.5,
+      "Productos_farma_perf_Anual": 1.21,
+      "Intermediacion_Anual": 0.78
+    },
+    {
+      "Periodo": "may-17",
+      "Personal_ocupado": 0.45,
+      "Remuneración_media": 1.67,
+      "Ingresos_totales": -1.36,
+      "Mercancías_compradas": -0.47,
+      "Productos_farma_perf_Anual": -1.12,
+      "Intermediacion_Anual": 33.17
+    },
+    {
+      "Periodo": "jun-17",
+      "Personal_ocupado": 0.43,
+      "Remuneración_media": -3.14,
+      "Ingresos_totales": 1.19,
+      "Mercancías_compradas": -0.03,
+      "Productos_farma_perf_Anual": 5.02,
+      "Intermediacion_Anual": 21.56
+    },
+    {
+      "Periodo": "jul-17",
+      "Personal_ocupado": 1.52,
+      "Remuneración_media": -0.25,
+      "Ingresos_totales": 0.76,
+      "Mercancías_compradas": 3.64,
+      "Productos_farma_perf_Anual": -0.47,
+      "Intermediacion_Anual": 33.36
+    },
+    {
+      "Periodo": "ago-17",
+      "Personal_ocupado": 0.07,
+      "Remuneración_media": -1.87,
+      "Ingresos_totales": 1.1,
+      "Mercancías_compradas": -0.45,
+      "Productos_farma_perf_Anual": 3.3,
+      "Intermediacion_Anual": 23.13
+    },
+    {
+      "Periodo": "sep-17",
+      "Personal_ocupado": 0.27,
+      "Remuneración_media": 2.34,
+      "Ingresos_totales": -1.01,
+      "Mercancías_compradas": 0.01,
+      "Productos_farma_perf_Anual": 4.03,
+      "Intermediacion_Anual": 35.81
+    },
+    {
+      "Periodo": "oct-17",
+      "Personal_ocupado": 0.17,
+      "Remuneración_media": -0.75,
+      "Ingresos_totales": 1.15,
+      "Mercancías_compradas": -0.12,
+      "Productos_farma_perf_Anual": 2.68,
+      "Intermediacion_Anual": 32.89
+    },
+    {
+      "Periodo": "nov-17",
+      "Personal_ocupado": 0.17,
+      "Remuneración_media": 2.09,
+      "Ingresos_totales": 1.03,
+      "Mercancías_compradas": 0.58,
+      "Productos_farma_perf_Anual": 5.32,
+      "Intermediacion_Anual": 9.27
+    },
+    {
+      "Periodo": "dic-17",
+      "Personal_ocupado": 0.27,
+      "Remuneración_media": -2.14,
+      "Ingresos_totales": 0.81,
+      "Mercancías_compradas": 1.11,
+      "Productos_farma_perf_Anual": 0.29,
+      "Intermediacion_Anual": -3.68
+    },
+    {
+      "Periodo": "ene-18",
+      "Personal_ocupado": 0.36,
+      "Remuneración_media": -0.16,
+      "Ingresos_totales": 0.25,
+      "Mercancías_compradas": 6.53,
+      "Productos_farma_perf_Anual": -2.68,
+      "Intermediacion_Anual": -0.41
+    },
+    {
+      "Periodo": "feb-18",
+      "Personal_ocupado": 0.33,
+      "Remuneración_media": 0.0,
+      "Ingresos_totales": 0.52,
+      "Mercancías_compradas": -5.84,
+      "Productos_farma_perf_Anual": -3.42,
+      "Intermediacion_Anual": -9.66
+    },
+    {
+      "Periodo": "mar-18",
+      "Personal_ocupado": -0.29,
+      "Remuneración_media": 1.28,
+      "Ingresos_totales": -0.63,
+      "Mercancías_compradas": 0.85,
+      "Productos_farma_perf_Anual": -3.25,
+      "Intermediacion_Anual": -10.07
+    },
+    {
+      "Periodo": "abr-18",
+      "Personal_ocupado": 0.98,
+      "Remuneración_media": 0.44,
+      "Ingresos_totales": 1.72,
+      "Mercancías_compradas": 1.48,
+      "Productos_farma_perf_Anual": -4.18,
+      "Intermediacion_Anual": -18.99
+    },
+    {
+      "Periodo": "may-18",
+      "Personal_ocupado": 0.52,
+      "Remuneración_media": 0.05,
+      "Ingresos_totales": 1.57,
+      "Mercancías_compradas": 0.14,
+      "Productos_farma_perf_Anual": -4.4,
+      "Intermediacion_Anual": -16.49
+    },
+    {
+      "Periodo": "jun-18",
+      "Personal_ocupado": -0.26,
+      "Remuneración_media": 2.77,
+      "Ingresos_totales": -0.45,
+      "Mercancías_compradas": 1.33,
+      "Productos_farma_perf_Anual": -4.65,
+      "Intermediacion_Anual": -11.45
+    },
+    {
+      "Periodo": "jul-18",
+      "Personal_ocupado": 0.25,
+      "Remuneración_media": -1.77,
+      "Ingresos_totales": -0.86,
+      "Mercancías_compradas": -2.0,
+      "Productos_farma_perf_Anual": -3.01,
+      "Intermediacion_Anual": -8.03
+    },
+    {
+      "Periodo": "ago-18",
+      "Personal_ocupado": 0.08,
+      "Remuneración_media": 0.45,
+      "Ingresos_totales": 0.31,
+      "Mercancías_compradas": -1.34,
+      "Productos_farma_perf_Anual": -5.4,
+      "Intermediacion_Anual": -11.92
+    },
+    {
+      "Periodo": "sep-18",
+      "Personal_ocupado": -0.12,
+      "Remuneración_media": -0.53,
+      "Ingresos_totales": 0.96,
+      "Mercancías_compradas": 3.24,
+      "Productos_farma_perf_Anual": -4.5,
+      "Intermediacion_Anual": -19.73
+    },
+    {
+      "Periodo": "oct-18",
+      "Personal_ocupado": 0.3,
+      "Remuneración_media": 0.57,
+      "Ingresos_totales": 1.27,
+      "Mercancías_compradas": 2.2,
+      "Productos_farma_perf_Anual": -4.06,
+      "Intermediacion_Anual": -17.71
+    },
+    {
+      "Periodo": "nov-18",
+      "Personal_ocupado": -0.04,
+      "Remuneración_media": 1.01,
+      "Ingresos_totales": -1.43,
+      "Mercancías_compradas": -2.84,
+      "Productos_farma_perf_Anual": -7.57,
+      "Intermediacion_Anual": -15.34
+    },
+    {
+      "Periodo": "dic-18",
+      "Personal_ocupado": 0.18,
+      "Remuneración_media": -0.54,
+      "Ingresos_totales": -4.84,
+      "Mercancías_compradas": -4.13,
+      "Productos_farma_perf_Anual": -6.51,
+      "Intermediacion_Anual": -11.92
+    },
+    {
+      "Periodo": "ene-19",
+      "Personal_ocupado": -0.94,
+      "Remuneración_media": -0.53,
+      "Ingresos_totales": -3.53,
+      "Mercancías_compradas": -0.36,
+      "Productos_farma_perf_Anual": 0.55,
+      "Intermediacion_Anual": -10.53
+    },
+    {
+      "Periodo": "feb-19",
+      "Personal_ocupado": 0.31,
+      "Remuneración_media": -0.24,
+      "Ingresos_totales": 1.6,
+      "Mercancías_compradas": -5.09,
+      "Productos_farma_perf_Anual": 3.43,
+      "Intermediacion_Anual": -9.46
+    },
+    {
+      "Periodo": "mar-19",
+      "Personal_ocupado": 0.02,
+      "Remuneración_media": -0.73,
+      "Ingresos_totales": 1.06,
+      "Mercancías_compradas": 3.84,
+      "Productos_farma_perf_Anual": -1.3,
+      "Intermediacion_Anual": -9.83
+    },
+    {
+      "Periodo": "abr-19",
+      "Personal_ocupado": 0.22,
+      "Remuneración_media": 0.06,
+      "Ingresos_totales": -0.54,
+      "Mercancías_compradas": -0.07,
+      "Productos_farma_perf_Anual": -0.72,
+      "Intermediacion_Anual": 3.88
+    },
+    {
+      "Periodo": "may-19",
+      "Personal_ocupado": -0.05,
+      "Remuneración_media": 0.38,
+      "Ingresos_totales": -0.17,
+      "Mercancías_compradas": -0.57,
+      "Productos_farma_perf_Anual": 0.74,
+      "Intermediacion_Anual": 7.58
+    },
+    {
+      "Periodo": "jun-19",
+      "Personal_ocupado": 0.28,
+      "Remuneración_media": 0.69,
+      "Ingresos_totales": -1.42,
+      "Mercancías_compradas": -1.48,
+      "Productos_farma_perf_Anual": -1.02,
+      "Intermediacion_Anual": -15.88
+    },
+    {
+      "Periodo": "jul-19",
+      "Personal_ocupado": 0.24,
+      "Remuneración_media": -0.99,
+      "Ingresos_totales": -1.07,
+      "Mercancías_compradas": -0.69,
+      "Productos_farma_perf_Anual": -0.7,
+      "Intermediacion_Anual": -2.14
+    },
+    {
+      "Periodo": "ago-19",
+      "Personal_ocupado": 0.01,
+      "Remuneración_media": 1.01,
+      "Ingresos_totales": -0.7,
+      "Mercancías_compradas": -1.81,
+      "Productos_farma_perf_Anual": -0.1,
+      "Intermediacion_Anual": -1.98
+    },
+    {
+      "Periodo": "sep-19",
+      "Personal_ocupado": -0.27,
+      "Remuneración_media": -2.44,
+      "Ingresos_totales": -1.05,
+      "Mercancías_compradas": -1.96,
+      "Productos_farma_perf_Anual": 0.51,
+      "Intermediacion_Anual": -9.09
+    },
+    {
+      "Periodo": "oct-19",
+      "Personal_ocupado": 0.04,
+      "Remuneración_media": 3.58,
+      "Ingresos_totales": -0.44,
+      "Mercancías_compradas": 0.01,
+      "Productos_farma_perf_Anual": 0.39,
+      "Intermediacion_Anual": -0.54
+    },
+    {
+      "Periodo": "nov-19",
+      "Personal_ocupado": 0.22,
+      "Remuneración_media": -2.34,
+      "Ingresos_totales": 0.04,
+      "Mercancías_compradas": -1.28,
+      "Productos_farma_perf_Anual": 1.75,
+      "Intermediacion_Anual": -1.04
+    },
+    {
+      "Periodo": "dic-19",
+      "Personal_ocupado": 0.07,
+      "Remuneración_media": 0.21,
+      "Ingresos_totales": 0.48,
+      "Mercancías_compradas": 2.65,
+      "Productos_farma_perf_Anual": 4.79,
+      "Intermediacion_Anual": -2.13
+    },
+    {
+      "Periodo": "ene-20",
+      "Personal_ocupado": 0.19,
+      "Remuneración_media": -1.35,
+      "Ingresos_totales": 1.33,
+      "Mercancías_compradas": -1.1,
+      "Productos_farma_perf_Anual": -0.3,
+      "Intermediacion_Anual": -0.24
+    },
+    {
+      "Periodo": "feb-20",
+      "Personal_ocupado": -0.02,
+      "Remuneración_media": -0.04,
+      "Ingresos_totales": -1.95,
+      "Mercancías_compradas": -1.41,
+      "Productos_farma_perf_Anual": 0.16,
+      "Intermediacion_Anual": 1.16
+    },
+    {
+      "Periodo": "mar-20",
+      "Personal_ocupado": -0.02,
+      "Remuneración_media": 0.51,
+      "Ingresos_totales": -6.8,
+      "Mercancías_compradas": -7.82,
+      "Productos_farma_perf_Anual": 3.01,
+      "Intermediacion_Anual": 5.31
+    },
+    {
+      "Periodo": "abr-20",
+      "Personal_ocupado": -0.96,
+      "Remuneración_media": 1.99,
+      "Ingresos_totales": -26.29,
+      "Mercancías_compradas": -22.44,
+      "Productos_farma_perf_Anual": -25.32,
+      "Intermediacion_Anual": -16.15
+    },
+    {
+      "Periodo": "may-20",
+      "Personal_ocupado": -0.54,
+      "Remuneración_media": -4.11,
+      "Ingresos_totales": 1.3,
+      "Mercancías_compradas": -0.63,
+      "Productos_farma_perf_Anual": -27.38,
+      "Intermediacion_Anual": -33.64
+    },
+    {
+      "Periodo": "jun-20",
+      "Personal_ocupado": -0.26,
+      "Remuneración_media": 0.73,
+      "Ingresos_totales": 7.92,
+      "Mercancías_compradas": 4.86,
+      "Productos_farma_perf_Anual": -13.79,
+      "Intermediacion_Anual": -18.83
+    },
+    {
+      "Periodo": "jul-20",
+      "Personal_ocupado": 0.19,
+      "Remuneración_media": -0.31,
+      "Ingresos_totales": 11.28,
+      "Mercancías_compradas": 8.54,
+      "Productos_farma_perf_Anual": -2.98,
+      "Intermediacion_Anual": -21.33
+    },
+    {
+      "Periodo": "ago-20",
+      "Personal_ocupado": -0.05,
+      "Remuneración_media": 0.9,
+      "Ingresos_totales": 1.8,
+      "Mercancías_compradas": 2.26,
+      "Productos_farma_perf_Anual": -3.59,
+      "Intermediacion_Anual": -18.15
+    },
+    {
+      "Periodo": "sep-20",
+      "Personal_ocupado": 0.15,
+      "Remuneración_media": 1.71,
+      "Ingresos_totales": 2.26,
+      "Mercancías_compradas": 3.55,
+      "Productos_farma_perf_Anual": -5.2,
+      "Intermediacion_Anual": -8.46
+    },
+    {
+      "Periodo": "oct-20",
+      "Personal_ocupado": -0.11,
+      "Remuneración_media": -0.14,
+      "Ingresos_totales": 1.42,
+      "Mercancías_compradas": 2.58,
+      "Productos_farma_perf_Anual": -2.71,
+      "Intermediacion_Anual": -11.34
+    },
+    {
+      "Periodo": "nov-20",
+      "Personal_ocupado": -0.19,
+      "Remuneración_media": 2.11,
+      "Ingresos_totales": 3.19,
+      "Mercancías_compradas": 2.56,
+      "Productos_farma_perf_Anual": 1.47,
+      "Intermediacion_Anual": -14.76
+    },
+    {
+      "Periodo": "dic-20",
+      "Personal_ocupado": 0.49,
+      "Remuneración_media": 0.21,
+      "Ingresos_totales": 3.25,
+      "Mercancías_compradas": 2.87,
+      "Productos_farma_perf_Anual": 0.19,
+      "Intermediacion_Anual": -11.27
+    },
+    {
+      "Periodo": "ene-21",
+      "Personal_ocupado": 0.71,
+      "Remuneración_media": -1.22,
+      "Ingresos_totales": 2.88,
+      "Mercancías_compradas": 4.91,
+      "Productos_farma_perf_Anual": 7.84,
+      "Intermediacion_Anual": -11.07
+    },
+    {
+      "Periodo": "feb-21",
+      "Personal_ocupado": 0.13,
+      "Remuneración_media": -2.0,
+      "Ingresos_totales": 3.93,
+      "Mercancías_compradas": 3.1,
+      "Productos_farma_perf_Anual": 2.08,
+      "Intermediacion_Anual": -5.03
+    },
+    {
+      "Periodo": "mar-21",
+      "Personal_ocupado": 0.44,
+      "Remuneración_media": 3.12,
+      "Ingresos_totales": 1.5,
+      "Mercancías_compradas": -0.08,
+      "Productos_farma_perf_Anual": -2.17,
+      "Intermediacion_Anual": -5.71
+    },
+    {
+      "Periodo": "abr-21",
+      "Personal_ocupado": 0.19,
+      "Remuneración_media": 0.86,
+      "Ingresos_totales": -1.22,
+      "Mercancías_compradas": 1.24,
+      "Productos_farma_perf_Anual": 35.87,
+      "Intermediacion_Anual": 23.07
+    },
+    {
+      "Periodo": "may-21",
+      "Personal_ocupado": 0.29,
+      "Remuneración_media": -0.15,
+      "Ingresos_totales": 3.58,
+      "Mercancías_compradas": 2.79,
+      "Productos_farma_perf_Anual": 39.43,
+      "Intermediacion_Anual": 19.71
+    },
+    {
+      "Periodo": "jun-21",
+      "Personal_ocupado": 0.17,
+      "Remuneración_media": 0.58,
+      "Ingresos_totales": 0.64,
+      "Mercancías_compradas": 1.93,
+      "Productos_farma_perf_Anual": 16.35,
+      "Intermediacion_Anual": 33.06
+    },
+    {
+      "Periodo": "jul-21",
+      "Personal_ocupado": 2.55,
+      "Remuneración_media": -0.05,
+      "Ingresos_totales": 1.69,
+      "Mercancías_compradas": 0.41,
+      "Productos_farma_perf_Anual": 9.26,
+      "Intermediacion_Anual": 3.49
+    },
+    {
+      "Periodo": "ago-21",
+      "Personal_ocupado": 2.59,
+      "Remuneración_media": -0.25,
+      "Ingresos_totales": -0.72,
+      "Mercancías_compradas": -1.96,
+      "Productos_farma_perf_Anual": 12.65,
+      "Intermediacion_Anual": -3.81
+    },
+    {
+      "Periodo": "sep-21",
+      "Personal_ocupado": 0.88,
+      "Remuneración_media": -0.96,
+      "Ingresos_totales": -0.35,
+      "Mercancías_compradas": 1.41,
+      "Productos_farma_perf_Anual": 11.35,
+      "Intermediacion_Anual": -1.12
+    },
+    {
+      "Periodo": "oct-21",
+      "Personal_ocupado": 0.18,
+      "Remuneración_media": 0.18,
+      "Ingresos_totales": 3.22,
+      "Mercancías_compradas": 1.22,
+      "Productos_farma_perf_Anual": 8.81,
+      "Intermediacion_Anual": -16.27
+    },
+    {
+      "Periodo": "nov-21",
+      "Personal_ocupado": 0.51,
+      "Remuneración_media": -1.89,
+      "Ingresos_totales": 2.54,
+      "Mercancías_compradas": 2.62,
+      "Productos_farma_perf_Anual": 4.94,
+      "Intermediacion_Anual": 1.42
+    },
+    {
+      "Periodo": "dic-21",
+      "Personal_ocupado": 0.38,
+      "Remuneración_media": 6.85,
+      "Ingresos_totales": -3.07,
+      "Mercancías_compradas": -1.4,
+      "Productos_farma_perf_Anual": 1.93,
+      "Intermediacion_Anual": -6.53
+    },
+    {
+      "Periodo": "ene-22",
+      "Personal_ocupado": 0.25,
+      "Remuneración_media": 0.82,
+      "Ingresos_totales": -0.75,
+      "Mercancías_compradas": -2.16,
+      "Productos_farma_perf_Anual": 7.73,
+      "Intermediacion_Anual": -4.79
+    },
+    {
+      "Periodo": "feb-22",
+      "Personal_ocupado": 1.06,
+      "Remuneración_media": -0.19,
+      "Ingresos_totales": 2.11,
+      "Mercancías_compradas": 3.72,
+      "Productos_farma_perf_Anual": 16.65,
+      "Intermediacion_Anual": -0.75
+    },
+    {
+      "Periodo": "mar-22",
+      "Personal_ocupado": 0.39,
+      "Remuneración_media": -1.79,
+      "Ingresos_totales": 4.14,
+      "Mercancías_compradas": 6.95,
+      "Productos_farma_perf_Anual": 13.64,
+      "Intermediacion_Anual": 1.11
+    },
+    {
+      "Periodo": "abr-22",
+      "Personal_ocupado": -0.03,
+      "Remuneración_media": 1.36,
+      "Ingresos_totales": 1.82,
+      "Mercancías_compradas": -1.81,
+      "Productos_farma_perf_Anual": 10.68,
+      "Intermediacion_Anual": 2.79
+    },
+    {
+      "Periodo": "may-22",
+      "Personal_ocupado": -0.41,
+      "Remuneración_media": 2.42,
+      "Ingresos_totales": -0.19,
+      "Mercancías_compradas": 1.0,
+      "Productos_farma_perf_Anual": 9.76,
+      "Intermediacion_Anual": 3.91
+    },
+    {
+      "Periodo": "jun-22",
+      "Personal_ocupado": 0.22,
+      "Remuneración_media": -4.37,
+      "Ingresos_totales": 1.75,
+      "Mercancías_compradas": 2.78,
+      "Productos_farma_perf_Anual": 15.79,
+      "Intermediacion_Anual": -2.45
+    },
+    {
+      "Periodo": "jul-22",
+      "Personal_ocupado": -0.54,
+      "Remuneración_media": 5.03,
+      "Ingresos_totales": -0.77,
+      "Mercancías_compradas": -2.65,
+      "Productos_farma_perf_Anual": 10.04,
+      "Intermediacion_Anual": 2.03
+    },
+    {
+      "Periodo": "ago-22",
+      "Personal_ocupado": 0.28,
+      "Remuneración_media": -1.84,
+      "Ingresos_totales": -2.3,
+      "Mercancías_compradas": -4.31,
+      "Productos_farma_perf_Anual": 4.38,
+      "Intermediacion_Anual": 26.0
+    },
+    {
+      "Periodo": "sep-22",
+      "Personal_ocupado": 0.29,
+      "Remuneración_media": -0.27,
+      "Ingresos_totales": -2.56,
+      "Mercancías_compradas": 1.36,
+      "Productos_farma_perf_Anual": 4.79,
+      "Intermediacion_Anual": 13.33
+    },
+    {
+      "Periodo": "oct-22",
+      "Personal_ocupado": 0.16,
+      "Remuneración_media": 0.85,
+      "Ingresos_totales": 2.1,
+      "Mercancías_compradas": -1.17,
+      "Productos_farma_perf_Anual": 10.41,
+      "Intermediacion_Anual": 26.51
+    },
+    {
+      "Periodo": "nov-22",
+      "Personal_ocupado": -0.06,
+      "Remuneración_media": 1.13,
+      "Ingresos_totales": -3.54,
+      "Mercancías_compradas": -1.85,
+      "Productos_farma_perf_Anual": 13.89,
+      "Intermediacion_Anual": 9.92
+    },
+    {
+      "Periodo": "dic-22",
+      "Personal_ocupado": -0.07,
+      "Remuneración_media": 1.07,
+      "Ingresos_totales": 2.27,
+      "Mercancías_compradas": 0.83,
+      "Productos_farma_perf_Anual": 17.61,
+      "Intermediacion_Anual": 19.3
+    },
+    {
+      "Periodo": "ene-23",
+      "Personal_ocupado": -0.55,
+      "Remuneración_media": 2.84,
+      "Ingresos_totales": 2.81,
+      "Mercancías_compradas": -0.61,
+      "Productos_farma_perf_Anual": 5.33,
+      "Intermediacion_Anual": 21.39
+    },
+    {
+      "Periodo": "feb-23",
+      "Personal_ocupado": 1.12,
+      "Remuneración_media": -0.0,
+      "Ingresos_totales": -3.17,
+      "Mercancías_compradas": -0.79,
+      "Productos_farma_perf_Anual": 3.98,
+      "Intermediacion_Anual": 10.8
+    },
+    {
+      "Periodo": "mar-23",
+      "Personal_ocupado": -0.73,
+      "Remuneración_media": 0.01,
+      "Ingresos_totales": -2.25,
+      "Mercancías_compradas": -1.03,
+      "Productos_farma_perf_Anual": 6.63,
+      "Intermediacion_Anual": -2.5
+    },
+    {
+      "Periodo": "abr-23",
+      "Personal_ocupado": -0.46,
+      "Remuneración_media": 0.46,
+      "Ingresos_totales": 2.92,
+      "Mercancías_compradas": 1.62,
+      "Productos_farma_perf_Anual": 6.24,
+      "Intermediacion_Anual": -4.81
+    },
+    {
+      "Periodo": "may-23",
+      "Personal_ocupado": -0.09,
+      "Remuneración_media": 0.78,
+      "Ingresos_totales": -0.13,
+      "Mercancías_compradas": -1.08,
+      "Productos_farma_perf_Anual": 13.73,
+      "Intermediacion_Anual": 7.99
+    },
+    {
+      "Periodo": "jun-23",
+      "Personal_ocupado": 1.81,
+      "Remuneración_media": 0.18,
+      "Ingresos_totales": 1.22,
+      "Mercancías_compradas": 0.46,
+      "Productos_farma_perf_Anual": 19.38,
+      "Intermediacion_Anual": 27.02
+    },
+    {
+      "Periodo": "jul-23",
+      "Personal_ocupado": 0.9,
+      "Remuneración_media": 1.47,
+      "Ingresos_totales": -0.17,
+      "Mercancías_compradas": 1.43,
+      "Productos_farma_perf_Anual": 9.21,
+      "Intermediacion_Anual": 34.49
+    },
+    {
+      "Periodo": "ago-23",
+      "Personal_ocupado": 0.68,
+      "Remuneración_media": -1.5,
+      "Ingresos_totales": 2.21,
+      "Mercancías_compradas": 3.76,
+      "Productos_farma_perf_Anual": 12.88,
+      "Intermediacion_Anual": 4.19
+    },
+    {
+      "Periodo": "sep-23",
+      "Personal_ocupado": -0.45,
+      "Remuneración_media": 3.14,
+      "Ingresos_totales": 3.51,
+      "Mercancías_compradas": 3.47,
+      "Productos_farma_perf_Anual": 13.01,
+      "Intermediacion_Anual": 44.46
+    },
+    {
+      "Periodo": "oct-23",
+      "Personal_ocupado": 0.16,
+      "Remuneración_media": -0.12,
+      "Ingresos_totales": -4.11,
+      "Mercancías_compradas": -4.69,
+      "Productos_farma_perf_Anual": 5.21,
+      "Intermediacion_Anual": 32.43
+    },
+    {
+      "Periodo": "nov-23",
+      "Personal_ocupado": -0.0,
+      "Remuneración_media": -0.58,
+      "Ingresos_totales": -2.38,
+      "Mercancías_compradas": -3.29,
+      "Productos_farma_perf_Anual": 3.85,
+      "Intermediacion_Anual": 46.16
+    },
+    {
+      "Periodo": "dic-23",
+      "Personal_ocupado": -0.09,
+      "Remuneración_media": 0.83,
+      "Ingresos_totales": -0.41,
+      "Mercancías_compradas": 0.11,
+      "Productos_farma_perf_Anual": 2.16,
+      "Intermediacion_Anual": 60.19
+    },
+    {
+      "Periodo": "ene-24",
+      "Personal_ocupado": -1.63,
+      "Remuneración_media": -0.1,
+      "Ingresos_totales": -0.59,
+      "Mercancías_compradas": -2.47,
+      "Productos_farma_perf_Anual": -4.93,
+      "Intermediacion_Anual": 29.71
+    },
+    {
+      "Periodo": "feb-24",
+      "Personal_ocupado": -0.31,
+      "Remuneración_media": 0.57,
+      "Ingresos_totales": 0.91,
+      "Mercancías_compradas": -0.27,
+      "Productos_farma_perf_Anual": -6.5,
+      "Intermediacion_Anual": 8.01
+    },
+    {
+      "Periodo": "mar-24",
+      "Personal_ocupado": -0.2,
+      "Remuneración_media": 1.67,
+      "Ingresos_totales": -1.71,
+      "Mercancías_compradas": -0.87,
+      "Productos_farma_perf_Anual": -6.9,
+      "Intermediacion_Anual": 1.78
+    },
+    {
+      "Periodo": "abr-24",
+      "Personal_ocupado": 0.62,
+      "Remuneración_media": -0.02,
+      "Ingresos_totales": -4.89,
+      "Mercancías_compradas": -1.05,
+      "Productos_farma_perf_Anual": -2.48,
+      "Intermediacion_Anual": -2.68
+    },
+    {
+      "Periodo": "may-24",
+      "Personal_ocupado": 0.32,
+      "Remuneración_media": 1.27,
+      "Ingresos_totales": 4.29,
+      "Mercancías_compradas": 0.73,
+      "Productos_farma_perf_Anual": -4.96,
+      "Intermediacion_Anual": 18.84
+    },
+    {
+      "Periodo": "jun-24",
+      "Personal_ocupado": 0.25,
+      "Remuneración_media": 0.56,
+      "Ingresos_totales": -2.27,
+      "Mercancías_compradas": -0.39,
+      "Productos_farma_perf_Anual": -18.16,
+      "Intermediacion_Anual": -13.73
+    },
+    {
+      "Periodo": "jul-24",
+      "Personal_ocupado": -0.03,
+      "Remuneración_media": 0.11,
+      "Ingresos_totales": 0.05,
+      "Mercancías_compradas": -0.45,
+      "Productos_farma_perf_Anual": -10.35,
+      "Intermediacion_Anual": -11.63
+    },
+    {
+      "Periodo": "ago-24",
+      "Personal_ocupado": 0.13,
+      "Remuneración_media": 0.35,
+      "Ingresos_totales": -0.97,
+      "Mercancías_compradas": -1.35,
+      "Productos_farma_perf_Anual": -13.95,
+      "Intermediacion_Anual": 2.33
+    },
+    {
+      "Periodo": "sep-24",
+      "Personal_ocupado": -0.73,
+      "Remuneración_media": 0.6,
+      "Ingresos_totales": -1.92,
+      "Mercancías_compradas": -0.73,
+      "Productos_farma_perf_Anual": -12.46,
+      "Intermediacion_Anual": -35.19
+    },
+    {
+      "Periodo": "oct-24",
+      "Personal_ocupado": 1.06,
+      "Remuneración_media": -0.25,
+      "Ingresos_totales": -0.58,
+      "Mercancías_compradas": -0.48,
+      "Productos_farma_perf_Anual": -13.47,
+      "Intermediacion_Anual": -15.23
+    },
+    {
+      "Periodo": "nov-24",
+      "Personal_ocupado": 0.37,
+      "Remuneración_media": 1.79,
+      "Ingresos_totales": 2.44,
+      "Mercancías_compradas": 1.94,
+      "Productos_farma_perf_Anual": -14.68,
+      "Intermediacion_Anual": -15.03
+    },
+    {
+      "Periodo": "dic-24",
+      "Personal_ocupado": 0.41,
+      "Remuneración_media": -1.81,
+      "Ingresos_totales": -1.19,
+      "Mercancías_compradas": -2.23,
+      "Productos_farma_perf_Anual": -8.97,
+      "Intermediacion_Anual": -36.14
+    },
+    {
+      "Periodo": "ene-25",
+      "Personal_ocupado": 1.32,
+      "Remuneración_media": -0.79,
+      "Ingresos_totales": -2.83,
+      "Mercancías_compradas": 0.91,
+      "Productos_farma_perf_Anual": -5.29,
+      "Intermediacion_Anual": -29.52
+    },
+    {
+      "Periodo": "feb-25",
+      "Personal_ocupado": -1.29,
+      "Remuneración_media": 1.73,
+      "Ingresos_totales": 0.16,
+      "Mercancías_compradas": -0.46,
+      "Productos_farma_perf_Anual": -1.33,
+      "Intermediacion_Anual": -5.58
+    },
+    {
+      "Periodo": "mar-25",
+      "Personal_ocupado": 0.07,
+      "Remuneración_media": 0.32,
+      "Ingresos_totales": 0.02,
+      "Mercancías_compradas": -0.39,
+      "Productos_farma_perf_Anual": 1.5,
+      "Intermediacion_Anual": 11.56
+    },
+    {
+      "Periodo": "abr-25",
+      "Personal_ocupado": 0.18,
+      "Remuneración_media": -1.05,
+      "Ingresos_totales": -1.1,
+      "Mercancías_compradas": -2.16,
+      "Productos_farma_perf_Anual": -1.38,
+      "Intermediacion_Anual": 3.62
+    },
+    {
+      "Periodo": "may-25",
+      "Personal_ocupado": -0.29,
+      "Remuneración_media": 0.02,
+      "Ingresos_totales": -1.44,
+      "Mercancías_compradas": -4.5,
+      "Productos_farma_perf_Anual": -9.3,
+      "Intermediacion_Anual": -15.39
+    },
+    {
+      "Periodo": "jun-25",
+      "Personal_ocupado": -0.38,
+      "Remuneración_media": -0.76,
+      "Ingresos_totales": -1.38,
+      "Mercancías_compradas": -0.13,
+      "Productos_farma_perf_Anual": -1.49,
+      "Intermediacion_Anual": -8.1
+    },
+    {
+      "Periodo": "jul-25",
+      "Personal_ocupado": -0.15,
+      "Remuneración_media": -0.19,
+      "Ingresos_totales": 2.78,
+      "Mercancías_compradas": 2.65,
+      "Productos_farma_perf_Anual": -1.09,
+      "Intermediacion_Anual": -8.51
+    },
+    {
+      "Periodo": "ago-25",
+      "Personal_ocupado": 0.13,
+      "Remuneración_media": 1.72,
+      "Ingresos_totales": 1.1,
+      "Mercancías_compradas": 1.74,
+      "Productos_farma_perf_Anual": 14.25,
+      "Intermediacion_Anual": -11.36
+    },
+    {
+      "Periodo": "sep-25",
+      "Personal_ocupado": -0.26,
+      "Remuneración_media": -1.18,
+      "Ingresos_totales": 1.78,
+      "Mercancías_compradas": 0.57,
+      "Productos_farma_perf_Anual": 7.83,
+      "Intermediacion_Anual": 6.02
+    },
+    {
+      "Periodo": "oct-25",
+      "Personal_ocupado": 0.27,
+      "Remuneración_media": 1.66,
+      "Ingresos_totales": -1.04,
+      "Mercancías_compradas": -0.21,
+      "Productos_farma_perf_Anual": 14.54,
+      "Intermediacion_Anual": -7.67
+    },
+    {
+      "Periodo": "nov-25",
+      "Personal_ocupado": -0.05,
+      "Remuneración_media": -0.73,
+      "Ingresos_totales": 1.15,
+      "Mercancías_compradas": 0.45,
+      "Productos_farma_perf_Anual": 12.68,
+      "Intermediacion_Anual": -20.52
+    },
+    {
+      "Periodo": "dic-25",
+      "Personal_ocupado": 0.69,
+      "Remuneración_media": -0.08,
+      "Ingresos_totales": -0.84,
+      "Mercancías_compradas": 0.13,
+      "Productos_farma_perf_Anual": 3.73,
+      "Intermediacion_Anual": -7.82
+    },
+    {
+      "Periodo": "ene-26",
+      "Personal_ocupado": -0.67,
+      "Remuneración_media": 0.91,
+      "Ingresos_totales": 0.68,
+      "Mercancías_compradas": -4.91,
+      "Productos_farma_perf_Anual": 7.87,
+      "Intermediacion_Anual": -0.16
+    },
+    {
+      "Periodo": "feb-26",
+      "Personal_ocupado": 0.53,
+      "Remuneración_media": 0.09,
+      "Ingresos_totales": -1.51,
+      "Mercancías_compradas": 3.8,
+      "Productos_farma_perf_Anual": 1.51,
+      "Intermediacion_Anual": -7.77
+    }
+  ],
+  "benchmarks": {
+    "ma12_Ingresos_totales": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      -1.15,
+      -0.59,
+      -0.38,
+      -0.13,
+      -0.22,
+      -0.09,
+      -0.14,
+      0.16
+    ]
+  },
+  "alertas_activas": [],
+  "fuente_ingest": "BIE-INEGI"
+}

@@ -1,0 +1,121 @@
+{
+  "_descripcion": "Lotes de series BIE agrupadas por frecuencia para consulta batch a la API de INEGI. El token se lee de la variable de entorno INEGI_BIE_TOKEN (nunca commit del token).",
+  "_version": "0.1",
+  "_generado": "2026-04-21",
+  "_frecuencias": {
+    "M": "mensual",
+    "T": "trimestral",
+    "A": "anual",
+    "Q": "quincenal"
+  },
+  "lotes": {
+    "igae_mensual": {
+      "frecuencia": "M",
+      "ids": ["737220", "737221", "737227", "737228", "737234", "737235", "737269", "737270"]
+    },
+    "pib_total_y_enoe_trimestral": {
+      "frecuencia": "T",
+      "ids": ["620706", "620703", "603248", "602859", "602868", "602861"]
+    },
+    "pib_anual": {
+      "frecuencia": "A",
+      "ids": ["620659"]
+    },
+    "pib_sectores_var_real": {
+      "frecuencia": "T",
+      "ids": ["620708", "620712", "620713", "620714", "620715", "620716", "620717", "620718", "620719", "620720", "620721", "620722", "620723", "620724", "620725", "620726", "620727", "620728", "620729", "620730", "620732"]
+    },
+    "consumo_y_fbcf_mensual": {
+      "frecuencia": "M",
+      "ids": ["626955", "626956", "626959", "626966", "626967", "626968", "626970", "626971"]
+    },
+    "inflacion_y_precios_completos": {
+      "frecuencia": "M",
+      "ids": ["628194", "628193", "628204", "628216", "628221", "628222", "628224", "628225"]
+    },
+    "inpc_quincenal": {
+      "frecuencia": "Q",
+      "ids": ["628211", "628212", "628213", "628215", "628214"]
+    },
+    "expectativas_y_confianza": {
+      "frecuencia": "M",
+      "ids": ["417124", "417125", "417126", "417127", "417128", "417129", "289236", "289237", "289238", "289241", "289242", "289243", "289244", "289245", "289246"]
+    },
+    "actividad_industrial_y_externo": {
+      "frecuencia": "M",
+      "ids": ["626938", "626939", "626940", "626941", "626942", "33223", "33224", "33225", "33227", "33230", "33231", "33232", "33233"]
+    },
+    "indicadores_ciclicos": {
+      "frecuencia": "M",
+      "ids": ["163884", "163889"]
+    },
+    "automotriz_mensual": {
+      "frecuencia": "M",
+      "ids": ["635031", "635032", "635070", "635071"]
+    },
+    "encuestas_sectoriales_mensual": {
+      "frecuencia": "M",
+      "ids": ["635111", "635201", "635418", "635445", "635338"]
+    },
+    "emoe_ipm_completo": {
+      "frecuencia": "M",
+      "_nota": "IPM: nivel+mensual+anual para índice global y 5 componentes desest. Verificado 2026-05-05.",
+      "ids": [
+        "701780", "701781", "701782",
+        "701787", "701788", "701789",
+        "701794", "701795", "701796",
+        "701801", "701802", "701803",
+        "701808", "701809", "701810",
+        "701815", "701816", "701817"
+      ]
+    },
+    "emoe_iat_completo": {
+      "frecuencia": "M",
+      "_nota": "IAT: nivel+mensual+anual para global y 2 sectores desest. Verificado 2026-05-05.",
+      "ids": [
+        "910454", "910455", "910456",
+        "701415", "701416", "701417",
+        "701858", "701859", "701860"
+      ]
+    },
+    "emoe_ice_completo": {
+      "frecuencia": "M",
+      "_nota": "ICE: nivel+mensual+anual para global y 4 sectores desest. Verificado 2026-05-05.",
+      "ids": [
+        "910461", "910462", "910463",
+        "701738", "701739", "701740",
+        "701450", "701451", "701452",
+        "701900", "701901", "701902",
+        "702054", "702055", "702056"
+      ]
+    },
+    "icc_completo": {
+      "frecuencia": "M",
+      "_nota": "ICC: nivel+mensual+anual para índice global y 5 componentes desest. Verificado 2026-05-05.",
+      "ids": [
+        "454186", "454187", "454188",
+        "454193", "454194", "454195",
+        "454200", "454201", "454202",
+        "454207", "454208", "454209",
+        "454214", "454215", "454216",
+        "454221", "454222", "454223"
+      ]
+    }
+  },
+  "exportaciones_entidad": {
+    "_descripcion": "Manejo especial: mismo ID BIE iterando sobre 32 geo codes (0701-0732).",
+    "frecuencia": "T",
+    "id_base": "573356_PENDIENTE_VALIDAR",
+    "entidades": {
+      "0701": "Aguascalientes", "0702": "Baja California", "0703": "Baja California Sur",
+      "0704": "Campeche", "0705": "Coahuila", "0706": "Colima", "0707": "Chiapas",
+      "0708": "Chihuahua", "0709": "Ciudad de México", "0710": "Durango",
+      "0711": "Guanajuato", "0712": "Guerrero", "0713": "Hidalgo", "0714": "Jalisco",
+      "0715": "México", "0716": "Michoacán", "0717": "Morelos", "0718": "Nayarit",
+      "0719": "Nuevo León", "0720": "Oaxaca", "0721": "Puebla", "0722": "Querétaro",
+      "0723": "Quintana Roo", "0724": "San Luis Potosí", "0725": "Sinaloa",
+      "0726": "Sonora", "0727": "Tabasco", "0728": "Tamaulipas", "0729": "Tlaxcala",
+      "0730": "Veracruz", "0731": "Yucatán", "0732": "Zacatecas"
+    }
+  }
+}

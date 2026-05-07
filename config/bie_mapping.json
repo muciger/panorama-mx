@@ -1,0 +1,528 @@
+{
+  "_descripcion": "Mapeo ID BIE -> (indicador_local, columna_local). El pipeline ingest_bie.py lee esto, jala las series de BIE, y pivotea al formato (periodo x columna) que consume normalize.py. Completa las series_map de cada indicador conforme vas validando IDs contra el BIE.",
+  "_version": "0.1",
+  "_generado": "2026-04-21",
+  "_convencion": {
+    "nombres_columna": "Deben coincidir EXACTAMENTE con los de columnas_normalizadas del JSON local del indicador. Revisa data/<indicador>.json antes de nombrar.",
+    "periodos": "El pipeline convierte TIME_PERIOD BIE al formato local (mmm-yy para mensual, T-YY para trimestral, etc.) según el indicador."
+  },
+  "indicadores": {
+    "igae": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "737220": "Total_Mensual",
+        "737221": "Total_Anual",
+        "737227": "Primarias_Mensual",
+        "737228": "Primarias_Anual",
+        "737234": "Secundarias_Mensual",
+        "737235": "Secundarias_Anual",
+        "737269": "Terciarias_Mensual",
+        "737270": "Terciarias_Anual",
+        "737242": "Mineria_Anual",
+        "737249": "Energia_agua_gas_Anual",
+        "737256": "Construccion_Anual",
+        "737263": "Manufacturas_Anual",
+        "737277": "Comercio_mayoreo_Anual",
+        "737284": "Comercio_menudeo_Anual",
+        "737291": "Transportes_Anual",
+        "737305": "Servicios_financieros_Anual",
+        "737312": "Servicios_inmobiliarios_Anual",
+        "737319": "Servicios_profesionales_Anual",
+        "737368": "Actividades_gubernamentales_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 603587. Series desestacionalizadas, base 2018. Subsectores SCIAN agregados."
+    },
+    "pib_trimestral": {
+      "frecuencia_bie": "T",
+      "frecuencia_local": "trimestral",
+      "periodo_format": "T-YY",
+      "series_map": {
+        "736182": "Trimestral",
+        "736183": "Anual",
+        "736196": "Primarias_Trimestral",
+        "736197": "Primarias_Anual",
+        "736203": "Secundarias_Trimestral",
+        "736204": "Secundarias_Anual",
+        "736238": "Terciarias_Trimestral",
+        "736239": "Terciarias_Anual",
+        "736211": "Mineria_Anual",
+        "736218": "Energia_agua_gas_Anual",
+        "736225": "Construccion_Anual",
+        "736232": "Manufacturas_Anual",
+        "736246": "Comercio_mayoreo_Anual",
+        "736253": "Comercio_menudeo_Anual",
+        "736260": "Transportes_Anual",
+        "736274": "Servicios_financieros_Anual",
+        "736281": "Servicios_inmobiliarios_Anual",
+        "736288": "Servicios_profesionales_Anual",
+        "736344": "Actividades_gubernamentales_Anual",
+        "737475": "Demanda_consumo_privado_Anual",
+        "737482": "Demanda_consumo_gobierno_Anual",
+        "737489": "Demanda_FBCF_total_Anual",
+        "737503": "Demanda_FBCF_privada_Anual",
+        "737496": "Demanda_FBCF_publica_Anual",
+        "737517": "Demanda_export_byserv_Anual",
+        "737461": "Demanda_import_byserv_Anual",
+        "737474": "Demanda_consumo_privado_Trimestral",
+        "737481": "Demanda_consumo_gobierno_Trimestral",
+        "737488": "Demanda_FBCF_total_Trimestral",
+        "737516": "Demanda_export_byserv_Trimestral",
+        "737460": "Demanda_import_byserv_Trimestral"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 600253 (sectores) y 605590 (oferta y demanda global). Series desest base 2018."
+    },
+    "pib_anual": {
+      "frecuencia_bie": "A",
+      "frecuencia_local": "anual",
+      "periodo_format": "YYYY",
+      "series_map": {
+        "620659": "Total_Anual_Real"
+      }
+    },
+    "enoe_trimestral": {
+      "frecuencia_bie": "T",
+      "frecuencia_local": "trimestral",
+      "periodo_format": "T-YY",
+      "series_map": {
+        "289242": "Pob_total_Total",
+        "289244": "PEA_Total",
+        "289245": "PEA_ocupada_Total",
+        "289246": "PEA_desocupada_Total",
+        "289247": "PNEA_Total",
+        "289248": "PNEA_disponible_Total",
+        "289249": "PNEA_no_disponible_Total",
+        "289292": "Pob_total_Hombres",
+        "289294": "PEA_Hombres",
+        "289295": "PEA_ocupada_Hombres",
+        "289296": "PEA_desocupada_Hombres",
+        "289297": "PNEA_Hombres",
+        "289298": "PNEA_disponible_Hombres",
+        "289299": "PNEA_no_disponible_Hombres",
+        "289342": "Pob_total_Mujeres",
+        "289344": "PEA_Mujeres",
+        "289345": "PEA_ocupada_Mujeres",
+        "289346": "PEA_desocupada_Mujeres",
+        "289347": "PNEA_Mujeres",
+        "289348": "PNEA_disponible_Mujeres",
+        "289349": "PNEA_no_disponible_Mujeres"
+      },
+      "_verificado": "2026-05-04 contra arbol BIE 123. ENOE trimestral 21 series valores absolutos personas."
+    },
+    "inpc_mensual": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "910399": "INPC_Mensual",
+        "910406": "INPC_Anual",
+        "910400": "Subyacente_Mensual",
+        "910407": "Subyacente_Anual",
+        "910403": "No_subyacente_Mensual",
+        "910410": "No_subyacente_Anual",
+        "910401": "Subyacente_mercancias_Mensual",
+        "910408": "Subyacente_mercancias_Anual",
+        "910402": "Subyacente_servicios_Mensual",
+        "910409": "Subyacente_servicios_Anual",
+        "910404": "No_subyacente_agropecuarios_Mensual",
+        "910411": "No_subyacente_agropecuarios_Anual",
+        "910405": "No_subyacente_energeticos_Mensual",
+        "910412": "No_subyacente_energeticos_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 3623. Inflacion m/m e interanual general + subyacente partido (mercancias, servicios) + no subyacente partido (agropecuarios, energeticos)."
+    },
+    "inpc_quincenal": {
+      "frecuencia_bie": "Q",
+      "frecuencia_local": "quincenal",
+      "periodo_format": "QNN-yy",
+      "series_map": {
+        "910427": "INPC_Quincenal",
+        "910438": "INPC_Anual",
+        "910428": "Subyacente_Quincenal",
+        "910439": "Subyacente_Anual",
+        "910431": "No_subyacente_Quincenal",
+        "910442": "No_subyacente_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 3623. Quincenal interanual (no YTD)."
+    },
+    "inpp": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "1800001": "Sin_petróleo_c_serv_Mensual",
+        "1801001": "Sin_petróleo_c_serv_Anual",
+        "1800002": "Con_petróleo_c_serv_Mensual",
+        "1801002": "Con_petróleo_c_serv_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 3623. INPP general. Bienes intermedios pendientes (rama no scrapeada)."
+    },
+    "ind_ciclicos": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "214294": "Coincidente",
+        "214308": "Adelantado"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 630. Diferencia en puntos respecto al mes anterior."
+    },
+    "balanza_comercial": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "451979": "Exportaciones_totales_Mensual",
+        "451980": "Exportaciones_totales_Anual",
+        "452019": "Importaciones_totales_Mensual",
+        "452020": "Importaciones_totales_Anual",
+        "87537": "Saldo_total_MDD",
+        "206780": "Saldo_petrolero_MDD",
+        "206782": "Saldo_no_petrolero_MDD",
+        "451983": "Export_petroleras_Mensual",
+        "451984": "Export_petroleras_Anual",
+        "451995": "Export_no_petroleras_Mensual",
+        "451996": "Export_no_petroleras_Anual",
+        "452000": "Export_agropecuarias_Anual",
+        "452004": "Export_extractivas_Anual",
+        "452008": "Export_manufacturas_Anual",
+        "452011": "Export_automotriz_Mensual",
+        "452012": "Export_automotriz_Anual",
+        "452016": "Export_resto_manuf_Anual",
+        "452031": "Import_consumo_Mensual",
+        "452032": "Import_consumo_Anual",
+        "452043": "Import_intermedios_Mensual",
+        "452044": "Import_intermedios_Anual",
+        "452055": "Import_capital_Mensual",
+        "452056": "Import_capital_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 3655. Variaciones FOB Serie desestacionalizada + saldos en MDD desest + composición exportaciones e importaciones."
+    },
+    "actividad_industrial": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "736886": "Total",
+        "736893": "Minería",
+        "736921": "Energía_agua_gas",
+        "736942": "Construcción",
+        "736970": "Manufactureras",
+        "736978": "Alimentos_Anual",
+        "736985": "Bebidas_Anual",
+        "737006": "Textil_Anual",
+        "737013": "Cuero_Anual",
+        "737020": "Madera_Anual",
+        "737027": "Papel_Anual",
+        "737048": "Quimica_Anual",
+        "737055": "Plastico_Anual",
+        "737069": "Metales_Anual",
+        "737076": "Metalicos_Anual",
+        "737083": "Maquinaria_Anual",
+        "737090": "Computacion_Anual",
+        "737097": "Electrico_Anual",
+        "737104": "Transporte_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 606034. IMAI desest var. mensual + 14 subsectores manufactureros var. anual desest."
+    },
+    "consumo_privado": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "740988": "Total_Mensual",
+        "740989": "Total_Anual",
+        "740995": "Origen_nacional_Mensual",
+        "740996": "Origen_nacional_Anual",
+        "741016": "Origen_importado_Mensual",
+        "741017": "Origen_importado_Anual",
+        "740949": "Duraderos_nacional_Anual",
+        "740950": "Semi_duraderos_nacional_Anual",
+        "740951": "No_duraderos_nacional_Anual",
+        "740952": "Servicios_nacional_Anual",
+        "740955": "Duraderos_importado_Anual",
+        "740956": "Semi_duraderos_importado_Anual",
+        "740957": "No_duraderos_importado_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 605903. Total y origen desest + tipo de bien (originales)."
+    },
+    "fbcf": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "741103": "Total_Mensual",
+        "741104": "Total_Anual",
+        "741110": "Maquinaria_y_equipo_Mensual",
+        "741111": "Maquinaria_y_equipo_Anual",
+        "741159": "Construcción_Mensual",
+        "741160": "Construcción_Anual",
+        "741167": "Construccion_residencial_Anual",
+        "741174": "Construccion_no_residencial_Anual",
+        "741118": "Maquinaria_nacional_Anual",
+        "741139": "Maquinaria_importada_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 606972. FBCF total + maquinaria/construcción + subdesgloses por origen y tipo."
+    },
+    "autos_ligeros": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "635031": "Produccion_Unidades",
+        "635032": "Exportacion_Unidades"
+      }
+    },
+    "autos_pesados": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "635070": "Produccion_Unidades",
+        "635071": "Exportacion_Unidades"
+      }
+    },
+    "emim": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "910469": "Volumen_producción",
+        "702336": "Personal_ocupado",
+        "702504": "Horas_trabajadas",
+        "702672": "Remuneraciones_medias_reales"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 542904. Variaciones mensuales desest."
+    },
+    "enec": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "720349": "Valor_producción",
+        "720398": "Personal_ocupado",
+        "720440": "Remuneraciones_por_persona",
+        "720461": "Horas_trabajadas",
+        "720357": "Edificacion_Anual",
+        "720364": "Agua_saneamiento_Anual",
+        "720371": "Electricidad_telecom_Anual",
+        "720378": "Transporte_urbanizacion_Anual",
+        "720385": "Petroleo_petroquimica_Anual",
+        "720392": "Otras_construcciones_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 568505. ENEC totales + 6 tipos de obra var. anual desest."
+    },
+    "comercio_mayoreo": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "718523": "Personal_ocupado",
+        "718530": "Remuneración_media",
+        "718537": "Ingresos_totales",
+        "718922": "Mercancías_compradas",
+        "718797": "Productos_farma_perf_Anual",
+        "718909": "Intermediacion_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 562654. EMEC mayoreo: totales + 2 ramas con desagregación var. anual desest."
+    },
+    "comercio_menudeo": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "718929": "Personal_ocupado",
+        "718936": "Remuneración_media",
+        "719370": "Mercancías_compradas",
+        "719329": "Vehiculos_combustibles_Anual",
+        "719217": "Textiles_calzado_Anual",
+        "719252": "Papeleria_esparcimiento_Anual",
+        "719322": "Ferreteria_Anual",
+        "719364": "Internet_catalogos_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 562654. EMEC menudeo: 5 sectores var. anual desest."
+    },
+    "servicios": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "715927": "Personal_ocupado",
+        "716004": "Remuneraciones_totales",
+        "715857": "Ingresos_totales",
+        "715997": "Gastos_consumo_b_y_s",
+        "715865": "Transporte_correos_Anual",
+        "715872": "Info_medios_masivos_Anual",
+        "715879": "Inmobiliarios_alquiler_Anual",
+        "715886": "Profesionales_cientificos_Anual",
+        "715893": "Apoyo_negocios_residuos_Anual",
+        "715900": "Educativos_Anual",
+        "715907": "Salud_asistencia_Anual",
+        "715914": "Esparcimiento_culturales_Anual",
+        "715921": "Alojamiento_alimentos_Anual",
+        "720276": "Otros_servicios_Anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 564077. EMS: 10 subsectores var. anual desest."
+    },
+    "confianza_consumidor": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "454186": "ICC_Nivel",
+        "454187": "Mensual",
+        "454188": "Anual",
+        "454193": "Hogar_actual_Nivel",
+        "454194": "Hogar_actual_Mensual",
+        "454195": "Hogar_actual_Anual",
+        "454200": "Hogar_futura_Nivel",
+        "454201": "Hogar_futura_Mensual",
+        "454202": "Hogar_futura_Anual",
+        "454207": "Pais_actual_Nivel",
+        "454208": "Pais_actual_Mensual",
+        "454209": "Pais_actual_Anual",
+        "454214": "Pais_futura_Nivel",
+        "454215": "Pais_futura_Mensual",
+        "454216": "Pais_futura_Anual",
+        "454221": "Compra_durables_Nivel",
+        "454222": "Compra_durables_Mensual",
+        "454223": "Compra_durables_Anual"
+      },
+      "_verificado": "2026-05-05 contra arbol BIE 3552. ICC nivel + Δ mensual + Δ anual para índice global y 5 componentes desest."
+    },
+    "emoe_ipm": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "701780": "IPM_Nivel",
+        "701781": "Mensual",
+        "701782": "Anual",
+        "701787": "Pedidos_esperados_Nivel",
+        "701788": "Pedidos_esperados_Mensual",
+        "701789": "Pedidos_esperados_Anual",
+        "701794": "Produccion_esperada_Nivel",
+        "701795": "Produccion_esperada_Mensual",
+        "701796": "Produccion_esperada_Anual",
+        "701801": "Personal_ocupado_Nivel",
+        "701802": "Personal_ocupado_Mensual",
+        "701803": "Personal_ocupado_Anual",
+        "701808": "Entrega_insumos_Nivel",
+        "701809": "Entrega_insumos_Mensual",
+        "701810": "Entrega_insumos_Anual",
+        "701815": "Inventarios_Nivel",
+        "701816": "Inventarios_Mensual",
+        "701817": "Inventarios_Anual"
+      },
+      "_verificado": "2026-05-05 contra arbol BIE 138032. IPM nivel + Δ mensual + Δ anual para índice global y 5 componentes desest."
+    },
+    "emoe_iat": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "910454": "IAT_Nivel",
+        "910455": "Mensual",
+        "910456": "Anual",
+        "701415": "IAT_construccion_Nivel",
+        "701416": "IAT_construccion_Mensual",
+        "701417": "IAT_construccion_Anual",
+        "701858": "IAT_comercio_Nivel",
+        "701859": "IAT_comercio_Mensual",
+        "701860": "IAT_comercio_Anual"
+      },
+      "_verificado": "2026-05-05 contra arbol BIE 138032. IAT nivel + Δ mensual + Δ anual para global y 2 sectores desest. Manufacturas/servicios sin desest disponible."
+    },
+    "emoe_ice": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "910461": "ICE_Nivel",
+        "910462": "Mensual",
+        "910463": "Anual",
+        "701738": "ICE_manufacturas_Nivel",
+        "701739": "ICE_manufacturas_Mensual",
+        "701740": "ICE_manufacturas_Anual",
+        "701450": "ICE_construccion_Nivel",
+        "701451": "ICE_construccion_Mensual",
+        "701452": "ICE_construccion_Anual",
+        "701900": "ICE_comercio_Nivel",
+        "701901": "ICE_comercio_Mensual",
+        "701902": "ICE_comercio_Anual",
+        "702054": "ICE_servicios_Nivel",
+        "702055": "ICE_servicios_Mensual",
+        "702056": "ICE_servicios_Anual"
+      },
+      "_verificado": "2026-05-05 contra arbol BIE 138032. ICE nivel + Δ mensual + Δ anual para global y 4 sectores desest."
+    },
+    "pib_estatal": {
+      "frecuencia_bie": "A",
+      "frecuencia_local": "anual",
+      "periodo_format": "YYYY",
+      "regional_modo": true,
+      "series_map": {
+        "747549": "Participacion",
+        "749001": "IVF_2018",
+        "746097": "Constante_2018"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 8061. PIB estatal anual: participación, IVF, valor constante. geo='00' o '01'-'32'."
+    },
+    "itaee_estatal": {
+      "frecuencia_bie": "T",
+      "frecuencia_local": "trimestral",
+      "periodo_format": "T-YY",
+      "regional_modo": true,
+      "series_map": {
+        "741927": "Indice_desest",
+        "741929": "Var_anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 603944. ITAEE total desest por estado. State-only (geo='01'-'32')."
+    },
+    "imai_estatal": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "regional_modo": true,
+      "series_map": {
+        "738182": "Indice_secundarias",
+        "739277": "Indice_manufacturas"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 607220. IMAI por estado: índice actividades secundarias y manufacturas."
+    },
+    "export_entidad": {
+      "frecuencia_bie": "T",
+      "frecuencia_local": "trimestral",
+      "periodo_format": "T-YY",
+      "regional_modo": true,
+      "series_map": {
+        "629659": "MDD_trimestral",
+        "630459": "MDD_anual"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 36694. Exportaciones por entidad federativa, trimestral y anual. State-only."
+    },
+    "enoe_mensual": {
+      "frecuencia_bie": "M",
+      "frecuencia_local": "mensual",
+      "periodo_format": "mmm-yy",
+      "series_map": {
+        "444875": "Tasa_participacion_Total",
+        "444878": "Tasa_participacion_Hombres",
+        "444881": "Tasa_participacion_Mujeres",
+        "444899": "Tasa_subocupacion",
+        "444884": "Tasa_desocupacion_Total",
+        "444887": "Tasa_desocupacion_Hombres",
+        "444890": "Tasa_desocupacion_Mujeres",
+        "444893": "Tasa_informalidad",
+        "454853": "Tasa_ocupacion_Total",
+        "444604": "Tasa_ocupacion_parcial_Total",
+        "444902": "Tasa_participacion_urbana",
+        "444911": "Tasa_desocupacion_urbana",
+        "668897": "Tasa_subocupacion_urbana",
+        "444920": "Tasa_informalidad_urbana"
+      },
+      "_verificado": "2026-04-22 contra arbol BIE 2. Tasas nacionales + urbanas (32 ciudades) desestacionalizadas."
+    }
+  }
+}

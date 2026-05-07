@@ -1,0 +1,132 @@
+
+--- PÁGINA 1 ---
+BOLETÍN DE INDICADOR 217/26
+INDICADOR MENSUAL DE LA
+ACTIVIDAD INDUSTRIAL (IMAI)
+10 de abril de 2026
+Página 1/5
+Próxima publicación: 12 de mayo de 2026
+Actividad
+Variación Variación
+industrial
+mensual anual
+índice 2018=100
+febrero febrero febrero
+100.7 ▲ 0.4 % ▼ -1.3 %
+Aumentó 0.4 % la actividad industrial
+en febrero de 2026, a tasa mensual
+El Indicador Mensual de la Actividad Industrial (IMAI) permite conocer y dar seguimiento a la
+evolución de la actividad industrial en México.
+I. CIFRAS DESESTACIONALIZADAS
+En febrero de 2026, con cifras desestacionalizadas,1 la actividad industrial creció 0.4 %
+respecto al mes previo, en términos reales (ver gráfica 1). A tasa anual cayó 1.3 por ciento.
+Gráfica 1
+Variación de la actividad industrial
+cifras desestacionalizadas
+febrero de 2024–febrero de 2026
+(variación porcentual real mensual)
+2.0 1.7
+0.8
+1.0 0.5 0.1 0.2 0.7 0.6 0.1 0.3 0.6 0.6 0.1 0.4
+0.0
+-0.1 -0.4 -0.3-0.2
+-1.0 -0.6 -0.5 -0.7
+-1.0 -1.1
+-1.3
+-2.0 -1.5
+-1.8
+-3.0
+F M A M J J A S O N D E F M A M J J A S O N D E F
+2024 2025 2026
+Nota: Serie elaborada mediante métodos econométricos.
+Fuente: INEGI. Sistema de Cuentas Nacionales de México (SCNM). Indicador Mensual de la Actividad Industrial (IMAI), 2026.
+1 La mayoría de las series económicas se ve afectada por factores estacionales y de calendario. El ajuste de los datos por dichos factores
+permite obtener las cifras desestacionalizadas.
+La tendencia-ciclo es la combinación de los componentes de tendencia y ciclo. La tendencia se refiere a la evolución de largo plazo de la
+serie de tiempo, y el ciclo, a las desviaciones alrededor de la tendencia. Así, el análisis de las series ajustadas ayuda a realizar un mejor
+diagnóstico de la evolución de las variables.
+--- PÁGINA 2 ---
+BOLETÍN DE INDICADOR 217/26
+INDICADOR MENSUAL DE LA
+ACTIVIDAD INDUSTRIAL (IMAI)
+10 de abril de 2026
+Página 2/5
+Por componente, la variación mensual de la producción industrial fue la siguiente: Industrias
+manufactureras avanzó 0.7 %; Minería, 0.6 %; y Construcción, 0.3 por ciento. Generación,
+transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas
+natural por ductos al consumidor final disminuyó 1.4 por ciento.
+En su comparación anual, en febrero de 2026, el sector Industrias manufactureras cayó 2.3 %
+y Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de
+agua y de gas natural por ductos al consumidor final, 1.4 por ciento. Minería incrementó 0.9 %
+y Construcción, 1.2 % (ver cuadro 1 y las gráficas 2 y 3).
+Cuadro 1
+Variación del Indicador Mensual de la Actividad Industrial
+cifras desestacionalizadas
+febrero de 2026
+(variación porcentual mensual y anual)
+Variación porcentual real respecto a:
+Actividad industrial y sectores de actividad enero febrero
+de 2026 de 2025
+Actividad industrial 0.4 -1.3
+Minería 0.6 0.9
+Generación, transmisión, distribución y
+comercialización de energía eléctrica, suministro de -1.4 -1.4
+agua y de gas natural por ductos al consumidor final
+Construcción 0.3 1.2
+Industrias manufactureras 0.7 -2.3
+Nota: Cifras elaboradas mediante métodos econométricos.
+Las series desestacionalizadas del IMAI se calculan de manera independiente a la de sus componentes.
+Fuente: INEGI. Sistema de Cuentas Nacionales de México (SCNM). Indicador Mensual de la Actividad Industrial
+(IMAI), 2026.
+Gráfica 2
+Serie desestacionalizada y de tendencia-ciclo de la actividad industrial
+enero de 2022–febrero de 2026
+(índice 2018=100)
+104.0
+102.0
+100.0
+98.0
+96.0
+2022 2023 2024 2025 2026
+Serie desestacionalizada Serie tendencia-ciclo
+Nota: Series elaboradas mediante métodos econométricos.
+Fuente: INEGI. Sistema de Cuentas Nacionales de México (SCNM). Indicador Mensual de la Actividad Industrial (IMAI), 2026.
+--- PÁGINA 3 ---
+BOLETÍN DE INDICADOR 217/26
+INDICADOR MENSUAL DE LA
+ACTIVIDAD INDUSTRIAL (IMAI)
+10 de abril de 2026
+Página 3/5
+Gráfica 3
+Serie desestacionalizada y de tendencia-ciclo
+de los componentes de la actividad industrial
+enero de 2022–febrero de 2026
+(índice 2018=100)
+Generación, transmisión, distribución y comercialización
+Minería de energía eléctrica, suministro de agua y de gas
+natural por ductos al consumidor final
+105.0
+72.0
+100.0
+70.0
+95.0
+68.0
+90.0
+66.0
+85.0 64.0
+2022 2023 2024 2025 2026 2022 2023 2024 2025 2026
+Construcción Industrias manufactureras
+110.0
+108.0
+105.0
+106.0
+100.0
+104.0
+95.0
+102.0
+90.0
+85.0 100.0
+2022 2023 2024 2025 2026 2022 2023 2024 2025 2026
+Serie desestacionalizada Serie tendencia-ciclo
+Nota: Series elaboradas mediante métodos econométricos.
+Fuente: INEGI. Sistema de Cuentas Nacionales de México (SCNM). Indicador Mensual de la Actividad Industrial (IMAI), 2026.

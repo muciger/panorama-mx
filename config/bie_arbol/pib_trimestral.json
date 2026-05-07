@@ -1,0 +1,4783 @@
+{
+  "_meta": {
+    "root_id": "600253",
+    "root_name": "PIB trimestral base 2018",
+    "elapsed_s": 132.1,
+    "calls": 167,
+    "queue_restante": 0,
+    "indicadores": 496
+  },
+  "indicadores": {
+    "735879": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018"
+      ]
+    },
+    "735880": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018"
+      ]
+    },
+    "735881": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018"
+      ]
+    },
+    "735929": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018"
+      ]
+    },
+    "735930": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018"
+      ]
+    },
+    "735931": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018"
+      ]
+    },
+    "735904": {
+      "nombre": "Producto Interno Bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018"
+      ]
+    },
+    "735905": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018"
+      ]
+    },
+    "735906": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018"
+      ]
+    },
+    "735954": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018"
+      ]
+    },
+    "735955": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018"
+      ]
+    },
+    "735956": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018"
+      ]
+    },
+    "736054": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes"
+      ]
+    },
+    "736055": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes"
+      ]
+    },
+    "736056": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes"
+      ]
+    },
+    "736004": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes"
+      ]
+    },
+    "736005": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes"
+      ]
+    },
+    "736006": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes"
+      ]
+    },
+    "736029": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes"
+      ]
+    },
+    "736030": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes"
+      ]
+    },
+    "736031": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes"
+      ]
+    },
+    "735979": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes"
+      ]
+    },
+    "735980": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes"
+      ]
+    },
+    "735981": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes"
+      ]
+    },
+    "736154": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos"
+      ]
+    },
+    "736155": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos"
+      ]
+    },
+    "736156": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos"
+      ]
+    },
+    "736079": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100"
+      ]
+    },
+    "736080": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100"
+      ]
+    },
+    "736081": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100"
+      ]
+    },
+    "736129": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100"
+      ]
+    },
+    "736130": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100"
+      ]
+    },
+    "736131": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100"
+      ]
+    },
+    "736104": {
+      "nombre": "Producto Interno Bruto ",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos"
+      ]
+    },
+    "736105": {
+      "nombre": "Impuestos sobre los productos, netos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos"
+      ]
+    },
+    "736106": {
+      "nombre": "Valor agregado bruto",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos"
+      ]
+    },
+    "735882": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades primarias"
+      ]
+    },
+    "735883": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735884": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735885": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735886": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735887": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735933": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735934": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735935": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735936": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735937": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735938": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735939": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735940": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735941": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735942": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735943": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735944": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735945": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735946": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735947": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735948": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735949": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735950": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735951": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735952": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735953": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735932": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios de 2018",
+        "Actividades primarias"
+      ]
+    },
+    "735888": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735889": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735890": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735891": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735892": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735893": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735894": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735895": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735896": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735897": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735898": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735899": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735900": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735901": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735902": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735903": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735907": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades primarias"
+      ]
+    },
+    "735908": {
+      "nombre": "Total actividades secundarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735909": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735910": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735911": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735912": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735913": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735914": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735915": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735916": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735917": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735918": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735919": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735920": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735921": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735922": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735923": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735924": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735925": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735926": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735927": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735928": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735957": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades primarias"
+      ]
+    },
+    "735958": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735959": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735960": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735961": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "735962": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades secundarias"
+      ]
+    },
+    "736058": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736059": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736060": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736061": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736062": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "735963": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735964": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735965": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735966": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735967": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735968": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735969": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735970": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735971": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735972": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735973": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735974": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735975": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735976": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735977": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "735978": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores acumulados a precios de 2018",
+        "Actividades terciarias"
+      ]
+    },
+    "736057": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades primarias"
+      ]
+    },
+    "736063": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736064": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736065": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736066": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736067": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736068": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736069": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736070": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736071": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736072": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736073": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736074": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736075": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736076": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736077": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736078": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736007": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades primarias"
+      ]
+    },
+    "736008": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736009": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736010": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736011": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736012": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736013": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736014": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736015": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736016": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736017": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736018": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736019": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736020": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736021": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736022": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736023": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736024": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736025": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736026": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736027": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736028": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual de los valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736032": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades primarias"
+      ]
+    },
+    "736033": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736034": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736035": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736036": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736037": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736038": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736039": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736040": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736041": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736042": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736043": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736044": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736045": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736046": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736047": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736048": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736049": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736050": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736051": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736052": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736053": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores acumulados a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735982": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades primarias"
+      ]
+    },
+    "735988": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735989": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735990": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735991": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735992": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735993": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735994": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735995": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735996": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735997": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735998": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "735999": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736000": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736001": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736002": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736003": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades terciarias"
+      ]
+    },
+    "736157": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades primarias"
+      ]
+    },
+    "735983": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "735984": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "735985": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "735986": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "735987": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Valores a precios corrientes",
+        "Actividades secundarias"
+      ]
+    },
+    "736158": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades secundarias"
+      ]
+    },
+    "736159": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades secundarias"
+      ]
+    },
+    "736160": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades secundarias"
+      ]
+    },
+    "736161": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades secundarias"
+      ]
+    },
+    "736162": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades secundarias"
+      ]
+    },
+    "736082": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades primarias"
+      ]
+    },
+    "736088": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736089": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736090": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736091": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736092": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736093": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736094": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736095": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736096": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736097": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736098": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736099": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736100": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736101": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736102": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736103": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736083": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades secundarias"
+      ]
+    },
+    "736084": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades secundarias"
+      ]
+    },
+    "736085": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades secundarias"
+      ]
+    },
+    "736086": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades secundarias"
+      ]
+    },
+    "736087": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice de precios implícitos, 2018=100",
+        "Actividades secundarias"
+      ]
+    },
+    "736163": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736164": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736165": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736166": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736167": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736168": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736169": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736170": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736171": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736172": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736173": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736174": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736175": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736176": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736177": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736178": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual acumulada del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736132": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades primarias"
+      ]
+    },
+    "736138": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736139": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736140": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736141": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736142": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736143": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736144": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736145": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736146": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736147": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736148": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736149": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736150": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736151": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736152": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736153": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades terciarias"
+      ]
+    },
+    "736107": {
+      "nombre": "11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades primarias"
+      ]
+    },
+    "736133": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades secundarias"
+      ]
+    },
+    "736134": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades secundarias"
+      ]
+    },
+    "736135": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades secundarias"
+      ]
+    },
+    "736136": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades secundarias"
+      ]
+    },
+    "736137": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Índice acumulado de precios implícitos, 2018=100",
+        "Actividades secundarias"
+      ]
+    },
+    "736113": {
+      "nombre": "Total actividades terciarias",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736114": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736115": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736116": {
+      "nombre": "48-49 Transportes, correos y almacenamiento",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736117": {
+      "nombre": "51 Información en medios masivos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736118": {
+      "nombre": "52 Servicios financieros y de seguros",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736119": {
+      "nombre": "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736120": {
+      "nombre": "54 Servicios profesionales, científicos y técnicos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736121": {
+      "nombre": "55 Corporativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736122": {
+      "nombre": "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736123": {
+      "nombre": "61 Servicios educativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736124": {
+      "nombre": "62 Servicios de salud y de asistencia social",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736125": {
+      "nombre": "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736126": {
+      "nombre": "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736127": {
+      "nombre": "81 Otros servicios excepto actividades gubernamentales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736128": {
+      "nombre": "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades terciarias"
+      ]
+    },
+    "736108": {
+      "nombre": "Total actividades secundaria",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades secundarias"
+      ]
+    },
+    "736109": {
+      "nombre": "21 Minería",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades secundarias"
+      ]
+    },
+    "736110": {
+      "nombre": "22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades secundarias"
+      ]
+    },
+    "736111": {
+      "nombre": "23 Construcción",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades secundarias"
+      ]
+    },
+    "736112": {
+      "nombre": "31-33 Industrias manufactureras",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series Originales",
+        "Variación anual del índice de precios implícitos",
+        "Actividades secundarias"
+      ]
+    },
+    "736186": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Impuestos a los productos netos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736187": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Impuestos a los productos netos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736191": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Impuestos a los productos netos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736192": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Impuestos a los productos netos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736181": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736182": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736183": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736188": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Impuestos a los productos netos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736189": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Impuestos a los productos netos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736190": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Impuestos a los productos netos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736179": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736180": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736184": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736185": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736349": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736350": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736351": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736352": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736353": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736347": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736348": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736198": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades primarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736199": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades primarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736193": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades primarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736194": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades primarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736195": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades primarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736196": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades primarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736197": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades primarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736363": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades secundarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736364": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades secundarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736365": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades secundarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736354": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades primarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736355": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades primarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736366": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades secundarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736367": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades secundarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736361": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades secundarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736362": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades secundarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736370": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades terciarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736371": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades terciarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736372": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades terciarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736368": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades terciarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736369": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades terciarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736359": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades primarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736360": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades primarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736356": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades primarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736357": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades primarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736358": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades primarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736226": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736227": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736221": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736222": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736373": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades terciarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736374": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios corrientes",
+        "Actividades terciarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736223": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736224": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736225": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "23 Construcción",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736214": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736215": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736219": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736220": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736207": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "21 Minería",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736208": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "21 Minería",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736216": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736217": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736218": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736212": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "21 Minería",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736213": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "21 Minería",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736200": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "Total actividades secundarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736201": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "Total actividades secundarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736202": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "Total actividades secundarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736203": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "Total actividades secundarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736204": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "Total actividades secundarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736209": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "21 Minería",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736210": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "21 Minería",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736211": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "21 Minería",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736205": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "Total actividades secundarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736206": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "Total actividades secundarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736233": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736234": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736230": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736231": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736232": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736228": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736229": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades secundarias",
+        "31-33 Industrias manufactureras",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736258": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "48-49  Transportes, correos y almacenamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736259": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "48-49  Transportes, correos y almacenamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736260": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "48-49  Transportes, correos y almacenamiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736256": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "48-49  Transportes, correos y almacenamiento",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736257": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "48-49  Transportes, correos y almacenamiento",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736261": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "48-49  Transportes, correos y almacenamiento",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736262": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "48-49  Transportes, correos y almacenamiento",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736249": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "46 Comercio al por menor",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736250": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "46 Comercio al por menor",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736244": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "43 Comercio al por mayor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736245": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "43 Comercio al por mayor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736246": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "43 Comercio al por mayor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736242": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "43 Comercio al por mayor",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736243": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "43 Comercio al por mayor",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736254": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "46 Comercio al por menor",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736255": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "46 Comercio al por menor",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736251": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "46 Comercio al por menor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736252": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "46 Comercio al por menor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736253": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "46 Comercio al por menor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736240": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "Total actividades terciarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736241": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "Total actividades terciarias",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736237": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "Total actividades terciarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736238": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "Total actividades terciarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736239": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "Total actividades terciarias",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736247": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "43 Comercio al por mayor",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736248": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "43 Comercio al por mayor",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736235": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "Total actividades terciarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736236": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "Total actividades terciarias",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736272": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "52 Servicios financieros y de seguros",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736273": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "52 Servicios financieros y de seguros",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736274": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "52 Servicios financieros y de seguros",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736263": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "51 Información en medios masivos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736264": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "51 Información en medios masivos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736275": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "52 Servicios financieros y de seguros",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736276": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "52 Servicios financieros y de seguros",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736270": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "52 Servicios financieros y de seguros",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736271": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "52 Servicios financieros y de seguros",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736284": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "54 Servicios profesionales, científicos y técnicos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736285": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "54 Servicios profesionales, científicos y técnicos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736265": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "51 Información en medios masivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736266": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "51 Información en medios masivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736267": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "51 Información en medios masivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736286": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "54 Servicios profesionales, científicos y técnicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736287": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "54 Servicios profesionales, científicos y técnicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736288": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "54 Servicios profesionales, científicos y técnicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736268": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "51 Información en medios masivos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736269": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "51 Información en medios masivos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736289": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "54 Servicios profesionales, científicos y técnicos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736290": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "54 Servicios profesionales, científicos y técnicos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736279": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736280": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736281": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736277": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736278": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736282": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736283": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736298": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736299": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736300": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736301": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736302": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736305": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "61 Servicios educativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736306": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "61 Servicios educativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736303": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736304": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "56 Servicios de apoyo a los negocios y manejo de desechos y servicios de remediación",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736307": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "61 Servicios educativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736308": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "61 Servicios educativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736309": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "61 Servicios educativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736293": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "55 Corporativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736294": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "55 Corporativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736295": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "55 Corporativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736291": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "55 Corporativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736292": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "55 Corporativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736310": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "61 Servicios educativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736311": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "61 Servicios educativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736312": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "62 Servicios de salud y de asistencia social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736313": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "62 Servicios de salud y de asistencia social",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736296": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "55 Corporativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736297": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "55 Corporativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736314": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "62 Servicios de salud y de asistencia social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736315": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "62 Servicios de salud y de asistencia social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736316": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "62 Servicios de salud y de asistencia social",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736317": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "62 Servicios de salud y de asistencia social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736318": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "62 Servicios de salud y de asistencia social",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736345": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736346": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736319": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736320": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736342": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736343": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736344": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736340": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736341": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736335": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "81 Otros servicios excepto actividades gubernamentales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736336": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "81 Otros servicios excepto actividades gubernamentales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736337": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "81 Otros servicios excepto actividades gubernamentales",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736324": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736325": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736333": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "81 Otros servicios excepto actividades gubernamentales",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736334": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "81 Otros servicios excepto actividades gubernamentales",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736321": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736322": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736323": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736328": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736329": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736330": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "736338": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "81 Otros servicios excepto actividades gubernamentales",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736339": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "81 Otros servicios excepto actividades gubernamentales",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736326": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736327": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "736331": {
+      "nombre": "Valores absolutos",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Tendencia-ciclo"
+      ]
+    },
+    "736332": {
+      "nombre": "Variación trimestral",
+      "ruta": [
+        "PIB trimestral base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "A precios de 2018",
+        "Actividades terciarias",
+        "72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+        "Tendencia-ciclo"
+      ]
+    }
+  }
+}

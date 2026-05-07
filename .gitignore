@@ -1,0 +1,35 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.env
+.venv/
+venv/
+
+# Cache: mantener .gitkeep, excluir binarios y descargas
+cache/*.xlsx
+cache/*.ics
+cache/*.png
+cache/*.jpg
+cache/*.svg
+cache/downloads/
+cache/bie/
+!cache/.gitkeep
+
+# Fuentes originales pesadas (PPT, XLSX embebido, PDFs)
+sources/*.xlsx
+sources/*.xls
+sources/*.pptx
+sources/*.pdf
+!sources/.gitkeep
+
+# Parquets IMSS (87 archivos mensuales, ingest manual)
+sources/imss/parquet/
+sources/imss/*.parquet
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# Output site (se regenera cada build)
+site/

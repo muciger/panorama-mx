@@ -1,0 +1,81 @@
+{
+  "_descripcion": "Mapping indicador local -> fuentes del Reporte mensual. ppt_table extrae bloque reciente de la slide (meses/trimestres con mensual + anual). embedded_xlsx extrae serie larga del XLSX de datos embebidos. Ambos son opcionales, el script mergea lo disponible. schema temporal es el default; cross_sectional aplica a indicadores con ranking por entidad (no tienen serie de tiempo propia).",
+  "_fuente_default": "Reporte mensual de indicadores económicos. Presidencia del INEGI.",
+  "indicadores": {
+    "inpc_mensual": {
+      "ppt_table": {
+        "slide_index": 22,
+        "title_contains": "Índice Nacional de Precios al",
+        "title_not_contains": "quincena",
+        "table_index": 0,
+        "header_rows": 2,
+        "column_map": [
+          "Periodo",
+          "INPC_Mensual",
+          "INPC_Anual",
+          "Subyacente_Mensual",
+          "Subyacente_Anual",
+          "No_subyacente_Mensual",
+          "No_subyacente_Anual"
+        ]
+      },
+      "embedded_xlsx": {
+        "sheet": "23_INPC_marzo",
+        "header_row": 2,
+        "date_col": 0,
+        "column_map": {
+          "INPC": "INPC_Anual",
+          "Subyacente": "Subyacente_Anual",
+          "No subyacente": "No_subyacente_Anual"
+        }
+      },
+      "principal_field": "INPC_Anual"
+    },
+    "enoe_mensual": {
+      "_seed_script": "seed_new_indicators.py",
+      "_nota": "Ingesta mensual por seed_new_indicators.py hasta que ingest_pptx.py soporte multi-sheet. 4 hojas del XLSX se mergean en serie única.",
+      "embedded_xlsx": {
+        "sheets": [
+          "25_ENOE_empleo_g1",
+          "25_ENOE_empleo_g2",
+          "25_ENOE_empleo_g3",
+          "25_ENOE_empleo_g4"
+        ]
+      },
+      "principal_field": "Tasa_desocupacion_Total"
+    },
+    "pib_estatal": {
+      "_seed_script": "seed_new_indicators.py",
+      "_nota": "Schema cross-sectional. Ingesta por seed_new_indicators.py hasta que ingest_pptx.py soporte cross-sectional.",
+      "schema": "cross_sectional",
+      "embedded_xlsx": {
+        "sheet": "28_PIB_estatal"
+      },
+      "principal_field": "Var_anual"
+    },
+    "itaee_estatal": {
+      "_seed_script": "seed_new_indicators.py",
+      "_nota": "Schema cross-sectional, merge g1 (anual) + g2 (trimestral) por entidad.",
+      "schema": "cross_sectional",
+      "embedded_xlsx": {
+        "sheets": [
+          "29_ITAEE_estatal_g1",
+          "29_ITAEE_estatal_g2"
+        ]
+      },
+      "principal_field": "Var_anual"
+    },
+    "imai_estatal": {
+      "_seed_script": "seed_new_indicators.py",
+      "_nota": "Schema cross-sectional, merge g1 (anual) + g2 (mensual) por entidad.",
+      "schema": "cross_sectional",
+      "embedded_xlsx": {
+        "sheets": [
+          "31_IMAI_estatal_g1",
+          "31_IMAI_estatal_g2"
+        ]
+      },
+      "principal_field": "Var_anual"
+    }
+  }
+}

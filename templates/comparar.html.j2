@@ -1,0 +1,32 @@
+{% extends "base.html.j2" %}
+{% block content %}
+
+<section class="hero-section">
+  <header class="hero-head">
+    <div>
+      <h1 class="hero-title">Análisis comparativos</h1>
+      <p class="hero-sub">Ocho paneles cruzan indicadores con misma unidad y frecuencia. Lectura inmediata sin combinar series incompatibles.</p>
+    </div>
+  </header>
+</section>
+
+<div class="cmp-grid-curated" id="cmp-grid">
+  {% for c in comparativas %}
+  <article class="cmp-card" data-cmp-id="{{ c.id }}">
+    <header class="cmp-card-head">
+      <span class="cmp-card-categoria">{{ c.categoria }}</span>
+      <h2 class="cmp-card-titulo">{{ c.titulo }}</h2>
+      <p class="cmp-card-desc">{{ c.descripcion }}</p>
+    </header>
+    <div class="cmp-card-chart-wrap">
+      <canvas id="cmp-chart-{{ c.id }}"></canvas>
+    </div>
+    <footer class="cmp-card-foot">
+      <span class="cmp-card-meta">{{ c.series | length }} indicadores · últimos {{ c.lookback_meses }} meses · BIE-INEGI</span>
+    </footer>
+  </article>
+  {% endfor %}
+</div>
+
+<script id="cmp-data" type="application/json">{{ cmp_data_json | safe }}</script>
+{% endblock %}

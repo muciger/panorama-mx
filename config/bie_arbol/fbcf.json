@@ -1,0 +1,1714 @@
+{
+  "_meta": {
+    "root_id": "606972",
+    "root_name": "FBCF",
+    "elapsed_s": 69.8,
+    "calls": 92,
+    "queue_restante": 0,
+    "indicadores": 157
+  },
+  "indicadores": {
+    "741020": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen"
+      ]
+    },
+    "741040": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen"
+      ]
+    },
+    "741080": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen"
+      ]
+    },
+    "741060": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen"
+      ]
+    },
+    "741024": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741021": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741022": {
+      "nombre": "Residencial ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741023": {
+      "nombre": "No residencial ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741051": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741052": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741053": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741054": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741055": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741056": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741057": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741058": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741059": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741041": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741042": {
+      "nombre": "Residencial ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741043": {
+      "nombre": "No residencial ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741071": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741072": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741073": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741044": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741081": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741082": {
+      "nombre": "Residencial ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741083": {
+      "nombre": "No residencial ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741074": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741075": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741076": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741077": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741078": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741079": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741084": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741061": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741062": {
+      "nombre": "Residencial ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741063": {
+      "nombre": "No residencial ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen",
+        "Construcción"
+      ]
+    },
+    "741034": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741035": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741036": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741037": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741038": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741039": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741031": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741032": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741033": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741064": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741091": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741092": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741093": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y de comprador",
+        "Total"
+      ]
+    },
+    "741094": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741095": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741096": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y de comprador",
+        "Construcción"
+      ]
+    },
+    "741097": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741098": {
+      "nombre": "Privada ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741099": {
+      "nombre": "Pública ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y de comprador",
+        "Maquinaria y equipo"
+      ]
+    },
+    "741100": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741101": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741102": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741103": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741104": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741105": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741106": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741045": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741046": {
+      "nombre": "Equipo de transporte ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741047": {
+      "nombre": "Maquinaria, equipo y otros bienes ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741025": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741026": {
+      "nombre": "Equipo de transporte ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741027": {
+      "nombre": "Maquinaria, equipo y otros bienes ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741028": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741029": {
+      "nombre": "Equipo de transporte ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741030": {
+      "nombre": "Maquinaria, equipo y otros bienes ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741088": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741089": {
+      "nombre": "Equipo de transporte ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741090": {
+      "nombre": "Maquinaria, equipo y otros bienes ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741048": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741049": {
+      "nombre": "Equipo de transporte ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741050": {
+      "nombre": "Maquinaria, equipo y otros bienes ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741085": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741086": {
+      "nombre": "Equipo de transporte ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741087": {
+      "nombre": "Maquinaria, equipo y otros bienes ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Variación anual acumulada",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741065": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741066": {
+      "nombre": "Equipo de transporte ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741067": {
+      "nombre": "Maquinaria, equipo y otros bienes ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional"
+      ]
+    },
+    "741107": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741108": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741112": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741113": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741068": {
+      "nombre": "Total ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741069": {
+      "nombre": "Equipo de transporte ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741070": {
+      "nombre": "Maquinaria, equipo y otros bienes ",
+      "ruta": [
+        "FBCF",
+        "Series Originales",
+        "Índice de volumen físico acumulado",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado"
+      ]
+    },
+    "741109": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741110": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741111": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741161": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741162": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741158": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741159": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741160": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741156": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741157": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741170": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "No residencial",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741171": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "No residencial",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741172": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "No residencial",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741173": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "No residencial",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741174": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "No residencial",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741175": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "No residencial",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741176": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "No residencial",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741163": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Residencial",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741164": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Residencial",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741114": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741115": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741165": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Residencial",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741166": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Residencial",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741167": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Residencial",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741168": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Residencial",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741169": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Construcción",
+        "Residencial",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741116": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741117": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741118": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741128": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Maquinaria, equipo y otros bienes",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741129": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Maquinaria, equipo y otros bienes",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741130": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Maquinaria, equipo y otros bienes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741131": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Maquinaria, equipo y otros bienes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741132": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Maquinaria, equipo y otros bienes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741119": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741120": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741121": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Equipo de transporte",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741122": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Equipo de transporte",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741133": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Maquinaria, equipo y otros bienes",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741134": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Maquinaria, equipo y otros bienes",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741123": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Equipo de transporte",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741124": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Equipo de transporte",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741125": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Equipo de transporte",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741126": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Equipo de transporte",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741127": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Nacional",
+        "Equipo de transporte",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741135": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741136": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741144": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Equipo de transporte",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741145": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Equipo de transporte",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741146": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Equipo de transporte",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741147": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Equipo de transporte",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741148": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Equipo de transporte",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741142": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Equipo de transporte",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741143": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Equipo de transporte",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741149": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Maquinaria, equipo y otros bienes",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741150": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Maquinaria, equipo y otros bienes",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "741137": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741138": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741139": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741151": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Maquinaria, equipo y otros bienes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741152": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Maquinaria, equipo y otros bienes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741153": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Maquinaria, equipo y otros bienes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "741140": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741141": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741154": {
+      "nombre": "Índice",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Maquinaria, equipo y otros bienes",
+        "Tendencia-ciclo"
+      ]
+    },
+    "741155": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "FBCF",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Por tipo de bien y origen",
+        "Maquinaria y equipo",
+        "Importado",
+        "Maquinaria, equipo y otros bienes",
+        "Tendencia-ciclo"
+      ]
+    }
+  }
+}

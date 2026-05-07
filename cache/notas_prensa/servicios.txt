@@ -1,0 +1,151 @@
+
+--- PÁGINA 1 ---
+BOLETÍN DE INDICADOR 228/26
+ENCUESTA MENSUAL DE SERVICIOS (EMS)
+INDICADORES DEL SECTOR SERVICIOS
+23 de abril de 2026
+Página 1/6
+Próxima publicación: 21 de mayo de 2026
+Ingresos Personal Gastos Remuneraciones
+totales ocupado totales totales
+febrero febrero febrero febrero
+variación variación variación variación
+mensual anual mensual anual mensual anual mensual anual
+▼ -1.8 % ▼ -2.9 % ▼ -0.3 % ▼ -1.5 % ▼ -2.0 % ▼ -2.2 % ▼ -0.6 % ▲ 1.7 %
+Disminuyeron 1.8 % los ingresos por suministro de bienes y servicios
+de los servicios privados no financieros en febrero de 2026, a tasa mensual
+La Encuesta Mensual de Servicios (EMS) genera información de los servicios privados no
+financieros —incluyen el sector de transportes, correos y almacenamiento—. Los datos
+muestran el comportamiento económico de coyuntura de las principales actividades a nivel
+nacional y de las entidades federativas.
+I. CIFRAS DESESTACIONALIZADAS
+En febrero de 2026, con cifras desestacionalizadas,1 los ingresos totales reales por suministro
+de bienes y servicios de los servicios privados no financieros bajaron 1.8 % respecto al mes
+previo (ver gráfica 1).
+Gráfica 1
+Variación de los ingresos totales reales por suministro de bienes y servicios
+cifras desestacionalizadas
+febrero de 2024–febrero de 2026
+(variación porcentual mensual)
+1.9
+2.0
+1.0 1.1
+1.0 0.6 0.6 0.6 0.7
+0.4
+0.2 0.2 0.2 0.2 0.0 0.1 0.0 0.2 0.2
+0.0
+-0.3 -0.3 -0.4
+-1.0 -0.6
+-0.9 -0.9
+-1.2
+-2.0 -1.8
+F M A M J J A S O N D E F M A M J J A S O N D E F
+2024 2025 2026
+Nota: Serie elaborada mediante métodos econométricos.
+Fuente: INEGI. Encuesta Mensual de Servicios (EMS), 2026.
+1 La mayoría de las series económicas se ve afectada por factores estacionales y de calendario. El ajuste de los datos por dichos factores
+permite obtener las cifras desestacionalizadas.
+La tendencia-ciclo es la combinación de los componentes de tendencia y ciclo. La tendencia se refiere a la evolución de largo plazo de la
+serie de tiempo, y el ciclo, a las desviaciones alrededor de la tendencia. Así, el análisis de las series ajustadas ayuda a realizar un mejor
+diagnóstico de la evolución de las variables.
+--- PÁGINA 2 ---
+BOLETÍN DE INDICADOR 228/26
+ENCUESTA MENSUAL DE SERVICIOS (EMS)
+INDICADORES DEL SECTOR SERVICIOS
+23 de abril de 2026
+Página 2/6
+En febrero de 2026, el personal ocupado total descendió 0.3 %; los gastos totales por consumo
+de bienes y servicios, 2.0 %; y las remuneraciones totales, 0.6 %, a tasa mensual.
+La siguiente gráfica presenta las series desestacionalizadas y de tendencia-ciclo de los
+indicadores de los servicios privados no financieros.
+Gráfica 2
+Serie desestacionalizada y de tendencia-ciclo
+de los indicadores de los servicios privados no financieros
+enero de 2022–febrero de 2026
+(índice 2018=100)
+Ingresos totales por suministro de bienes y servicios1/ Personal ocupado total
+105.0 82.0
+100.0 81.0
+95.0 80.0
+90.0 79.0
+85.0 78.0
+2022 2023 2024 2025 2026 2022 2023 2024 2025 2026
+Gastos totales por consumo de bienes y servicios1/ Remuneraciones totales1/
+100.0
+100.0
+95.0
+95.0
+90.0
+90.0
+85.0
+85.0
+80.0
+80.0 75.0
+2022 2023 2024 2025 2026 2022 2023 2024 2025 2026
+Serie desestacionalizada Serie tendencia-ciclo
+Nota: Series elaboradas mediante métodos econométricos.
+1/ En términos reales.
+Fuente: INEGI. Encuesta Mensual de Servicios (EMS), 2026.
+En febrero de 2026, a tasa anual y con cifras ajustadas por estacionalidad, el índice agregado
+de ingresos totales reales por suministro de bienes y servicios disminuyó 2.9 %; el de personal
+ocupado total, 1.5 %; y el de gastos totales por consumo de bienes y servicios, 2.2 por ciento.
+El de remuneraciones totales aumentó 1.7 por ciento.
+--- PÁGINA 3 ---
+BOLETÍN DE INDICADOR 228/26
+ENCUESTA MENSUAL DE SERVICIOS (EMS)
+INDICADORES DEL SECTOR SERVICIOS
+23 de abril de 2026
+Página 3/6
+Cuadro 1
+Variación de los ingresos y personal ocupado
+de los servicios privados no financieros por sector
+cifras desestacionalizadas
+febrero de 2026
+(variación porcentual mensual y anual)
+Ingresos totales1/ Personal ocupado total
+variación porcentual respecto a:
+Sectores
+enero febrero enero febrero
+de 2026 de 2025 de 2026 de 2025
+48-49 Transportes, correos y almacenamiento -0.4 -5.2 -0.5 -2.2
+51 Información en medios masivos -1.3 2.1 0.1 -2.2
+Servicios inmobiliarios y de alquiler de bienes muebles
+53 0.0 2.2 -1.1 -0.7
+e intangibles
+54 Servicios profesionales, científicos y técnicos 0.6 -7.8 0.1 -3.0
+Servicios de apoyo a los negocios y manejo de
+56 -3.3 -2.1 -0.4 -4.8
+residuos, y servicios de remediación
+61 Servicios educativos -1.6 0.8 -0.2 1.6
+62 Servicios de salud y de asistencia social 1.1 4.6 0.2 0.3
+Servicios de esparcimiento culturales y deportivos, y
+71 -9.3 -18.7 -0.4 1.4
+otros servicios recreativos
+Servicios de alojamiento temporal y de preparación de
+72 -0.8 -7.6 -0.3 -2.5
+alimentos y bebidas
+81 Otros servicios excepto actividades gubernamentales2/ -19.1 -2.0 -1.0 0.8
+Nota: Cifras elaboradas mediante métodos econométricos.
+1/ En términos reales.
+2/ Con la información disponible a la fecha, la variable personal ocupado para este sector no presenta un patrón estacional, por lo
+que se utiliza la serie original.
+Fuente: INEGI. Encuesta Mensual de Servicios (EMS), 2026.
+II. CIFRAS ORIGINALES
+Cuadro 2
+Variación de los indicadores de los servicios privados no financieros
+a febrero de 20261/
+(variación porcentual anual)
+Variación porcentual anual respecto a:
+Indicadores
+febrero ene.–feb.
+de 2025 de 2025
+Ingresos totales por suministro de bienes y servicios2/ -2.8 -1.6
+Personal ocupado total -1.5 -1.3
+Dependiente de la razón social -1.4 -1.1
+No dependiente3/ -4.5 -5.7
+Gastos totales por consumo de bienes y servicios2/ -2.1 -1.1
+Remuneraciones totales2/ 1.5 2.0
+1/ Cifras preliminares.
+2/ En términos reales.
+3/ Personal contratado y proporcionado por otra razón social y por honorarios o comisiones sin sueldo o salario fijo.
+Fuente: INEGI. Encuesta Mensual de Servicios (EMS), 2026.

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }} · Panorama económico de México</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="{{ asset_prefix }}assets/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
+<script src="{{ asset_prefix }}assets/app.js" defer></script>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand-block">
+      <a class="brand-gob" href="{{ asset_prefix }}index.html" aria-label="Inicio">
+        <div class="brand-gob-text">
+          <div class="brand-gob-line">Panorama MX</div>
+          <div class="brand-gob-line strong">INEGI · BIE</div>
+        </div>
+      </a>
+    </div>
+    <nav class="nav-list">
+      <a class="nav-item{% if active_section == 'inicio' %} active{% endif %}" href="{{ asset_prefix }}index.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12l9-9 9 9M5 10v10h14V10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Inicio</span>
+      </a>
+      <a class="nav-item{% if active_section == 'reporte' %} active{% endif %}" href="{{ asset_prefix }}reporte_semanal.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="nav-label">Reporte semanal</span>
+      </a>
+      <a class="nav-item{% if active_section == 'comparar' %} active{% endif %}" href="{{ asset_prefix }}comparar.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Comparar</span>
+      </a>
+      <details class="nav-group-details"{% if active_section == 'indicadores' %} open{% endif %} id="nav-indicadores-details">
+        <summary class="nav-item nav-summary{% if active_section == 'indicadores' %} active{% endif %}" aria-haspopup="listbox">
+          <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18M7 14l4-4 4 4 5-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="nav-label nav-label-always">Indicadores</span>
+          <svg class="nav-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg>
+        </summary>
+        <div class="nav-sub">
+          {% for grupo in nav_groups %}{% if grupo.label != 'Inicio' %}
+          <div class="nav-sub-label">{{ grupo.label }}</div>
+          {% for item in grupo['items'] %}{% if item.id != '__home__' %}
+          <a class="nav-sub-item{% if item.id == active_id %} active{% endif %}"{% if item.id == active_id %} aria-current="page"{% endif %} href="{{ asset_prefix }}{{ item.href }}">{{ item.label }}</a>
+          {% endif %}{% endfor %}
+          {% endif %}{% endfor %}
+        </div>
+      </details>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="updated-row">
+        <span class="status-dot status-ok"></span>
+        <div>
+          <div class="updated-label">Última actualización</div>
+          <div class="updated-value">{{ build_fecha }}</div>
+        </div>
+      </div>
+      <a href="mailto:german.mucino@gmail.com?subject=Tablero%20INEGI%20-%20Reporte%20de%20problema" class="feedback-link">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12c0 4.4-4 8-9 8-1.7 0-3.3-.4-4.7-1.1L3 20l1.4-3.7C3.5 15.1 3 13.6 3 12c0-4.4 4-8 9-8s9 3.6 9 8z" stroke-width="2"/></svg>
+        <span>Reportar problema</span>
+      </a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="topbar-status">
+        <span class="status-dot status-ok"></span>
+        <span>Sistema actualizado</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="16" rx="2" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke-width="2"/></svg>
+        <span>{{ topbar_fecha }}</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9" stroke-width="2"/><path d="M12 7v5l3 3" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>{{ topbar_hora|default('08:30 h (Centro)') }}</span>
+      </div>
+      <div class="topbar-spacer"></div>
+      <div class="topbar-search" id="topbar-search">
+        <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
+        <kbd class="topbar-search-kbd">/</kbd>
+        <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
+      </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer class="site-footer">
+      Datos oficiales del Banco de Información Económica (BIE-INEGI) vía API. Interpretaciones generadas con IA (DeepSeek) · no son posición oficial de la Secretaría de Economía.
+      <br>Build {{ build_fecha }}.
+    </footer>
+  </main>
+</div>
+</body>
+</html>

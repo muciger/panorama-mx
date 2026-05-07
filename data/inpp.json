@@ -1,0 +1,2386 @@
+{
+  "id": "inpp",
+  "nombre": "Índice Nacional de Precios Productor",
+  "categoria": "precios",
+  "frecuencia": "mensual",
+  "unidad": "variación % mensual y anual",
+  "fuente_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10756",
+  "sheet_origen": "INPP",
+  "titulo_original": "Índice Nacional de Precios Productor",
+  "subtitulo_original": "Variación mensual y anual (%)",
+  "columnas": [
+    "Periodo",
+    "Sin_petróleo_c_serv_Mensual",
+    "Sin_petróleo_c_serv_Anual",
+    "Con_petróleo_c_serv_Mensual",
+    "Con_petróleo_c_serv_Anual"
+  ],
+  "columnas_normalizadas": [
+    "Periodo",
+    "Sin_petróleo_c_serv_Mensual",
+    "Sin_petróleo_c_serv_Anual",
+    "Con_petróleo_c_serv_Mensual",
+    "Con_petróleo_c_serv_Anual"
+  ],
+  "ultima_actualizacion": "2026-05-02",
+  "proxima_actualizacion_manual": "7 de mayo de 2026",
+  "periodos": [
+    "ene-04",
+    "feb-04",
+    "mar-04",
+    "abr-04",
+    "may-04",
+    "jun-04",
+    "jul-04",
+    "ago-04",
+    "sep-04",
+    "oct-04",
+    "nov-04",
+    "dic-04",
+    "ene-05",
+    "feb-05",
+    "mar-05",
+    "abr-05",
+    "may-05",
+    "jun-05",
+    "jul-05",
+    "ago-05",
+    "sep-05",
+    "oct-05",
+    "nov-05",
+    "dic-05",
+    "ene-06",
+    "feb-06",
+    "mar-06",
+    "abr-06",
+    "may-06",
+    "jun-06",
+    "jul-06",
+    "ago-06",
+    "sep-06",
+    "oct-06",
+    "nov-06",
+    "dic-06",
+    "ene-07",
+    "feb-07",
+    "mar-07",
+    "abr-07",
+    "may-07",
+    "jun-07",
+    "jul-07",
+    "ago-07",
+    "sep-07",
+    "oct-07",
+    "nov-07",
+    "dic-07",
+    "ene-08",
+    "feb-08",
+    "mar-08",
+    "abr-08",
+    "may-08",
+    "jun-08",
+    "jul-08",
+    "ago-08",
+    "sep-08",
+    "oct-08",
+    "nov-08",
+    "dic-08",
+    "ene-09",
+    "feb-09",
+    "mar-09",
+    "abr-09",
+    "may-09",
+    "jun-09",
+    "jul-09",
+    "ago-09",
+    "sep-09",
+    "oct-09",
+    "nov-09",
+    "dic-09",
+    "ene-10",
+    "feb-10",
+    "mar-10",
+    "abr-10",
+    "may-10",
+    "jun-10",
+    "jul-10",
+    "ago-10",
+    "sep-10",
+    "oct-10",
+    "nov-10",
+    "dic-10",
+    "ene-11",
+    "feb-11",
+    "mar-11",
+    "abr-11",
+    "may-11",
+    "jun-11",
+    "jul-11",
+    "ago-11",
+    "sep-11",
+    "oct-11",
+    "nov-11",
+    "dic-11",
+    "ene-12",
+    "feb-12",
+    "mar-12",
+    "abr-12",
+    "may-12",
+    "jun-12",
+    "jul-12",
+    "ago-12",
+    "sep-12",
+    "oct-12",
+    "nov-12",
+    "dic-12",
+    "ene-13",
+    "feb-13",
+    "mar-13",
+    "abr-13",
+    "may-13",
+    "jun-13",
+    "jul-13",
+    "ago-13",
+    "sep-13",
+    "oct-13",
+    "nov-13",
+    "dic-13",
+    "ene-14",
+    "feb-14",
+    "mar-14",
+    "abr-14",
+    "may-14",
+    "jun-14",
+    "jul-14",
+    "ago-14",
+    "sep-14",
+    "oct-14",
+    "nov-14",
+    "dic-14",
+    "ene-15",
+    "feb-15",
+    "mar-15",
+    "abr-15",
+    "may-15",
+    "jun-15",
+    "jul-15",
+    "ago-15",
+    "sep-15",
+    "oct-15",
+    "nov-15",
+    "dic-15",
+    "ene-16",
+    "feb-16",
+    "mar-16",
+    "abr-16",
+    "may-16",
+    "jun-16",
+    "jul-16",
+    "ago-16",
+    "sep-16",
+    "oct-16",
+    "nov-16",
+    "dic-16",
+    "ene-17",
+    "feb-17",
+    "mar-17",
+    "abr-17",
+    "may-17",
+    "jun-17",
+    "jul-17",
+    "ago-17",
+    "sep-17",
+    "oct-17",
+    "nov-17",
+    "dic-17",
+    "ene-18",
+    "feb-18",
+    "mar-18",
+    "abr-18",
+    "may-18",
+    "jun-18",
+    "jul-18",
+    "ago-18",
+    "sep-18",
+    "oct-18",
+    "nov-18",
+    "dic-18",
+    "ene-19",
+    "feb-19",
+    "mar-19",
+    "abr-19",
+    "may-19",
+    "jun-19",
+    "jul-19",
+    "ago-19",
+    "sep-19",
+    "oct-19",
+    "nov-19",
+    "dic-19",
+    "ene-20",
+    "feb-20",
+    "mar-20",
+    "abr-20",
+    "may-20",
+    "jun-20",
+    "jul-20",
+    "ago-20",
+    "sep-20",
+    "oct-20",
+    "nov-20",
+    "dic-20",
+    "ene-21",
+    "feb-21",
+    "mar-21",
+    "abr-21",
+    "may-21",
+    "jun-21",
+    "jul-21",
+    "ago-21",
+    "sep-21",
+    "oct-21",
+    "nov-21",
+    "dic-21",
+    "ene-22",
+    "feb-22",
+    "mar-22",
+    "abr-22",
+    "may-22",
+    "jun-22",
+    "jul-22",
+    "ago-22",
+    "sep-22",
+    "oct-22",
+    "nov-22",
+    "dic-22",
+    "ene-23",
+    "feb-23",
+    "mar-23",
+    "abr-23",
+    "may-23",
+    "jun-23",
+    "jul-23",
+    "ago-23",
+    "sep-23",
+    "oct-23",
+    "nov-23",
+    "dic-23",
+    "ene-24",
+    "feb-24",
+    "mar-24",
+    "abr-24",
+    "may-24",
+    "jun-24",
+    "jul-24",
+    "ago-24",
+    "sep-24",
+    "oct-24",
+    "nov-24",
+    "dic-24",
+    "ene-25",
+    "feb-25",
+    "mar-25",
+    "abr-25",
+    "may-25",
+    "jun-25",
+    "jul-25",
+    "ago-25",
+    "sep-25",
+    "oct-25",
+    "nov-25",
+    "dic-25",
+    "ene-26",
+    "feb-26",
+    "mar-26"
+  ],
+  "series": [
+    {
+      "Periodo": "ene-04",
+      "Sin_petróleo_c_serv_Mensual": 0.65,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-04",
+      "Sin_petróleo_c_serv_Mensual": 1.21,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-04",
+      "Sin_petróleo_c_serv_Mensual": 1.09,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-04",
+      "Sin_petróleo_c_serv_Mensual": 0.96,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-04",
+      "Sin_petróleo_c_serv_Mensual": 0.5,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-04",
+      "Sin_petróleo_c_serv_Mensual": 0.7,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-04",
+      "Sin_petróleo_c_serv_Mensual": 0.52,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-04",
+      "Sin_petróleo_c_serv_Mensual": 0.57,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-04",
+      "Sin_petróleo_c_serv_Mensual": 0.29,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-04",
+      "Sin_petróleo_c_serv_Mensual": 0.41,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-04",
+      "Sin_petróleo_c_serv_Mensual": 0.73,
+      "Sin_petróleo_c_serv_Anual": null,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-04",
+      "Sin_petróleo_c_serv_Mensual": 0.2,
+      "Sin_petróleo_c_serv_Anual": 8.11,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-05",
+      "Sin_petróleo_c_serv_Mensual": 0.31,
+      "Sin_petróleo_c_serv_Anual": 7.74,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-05",
+      "Sin_petróleo_c_serv_Mensual": 0.37,
+      "Sin_petróleo_c_serv_Anual": 6.85,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-05",
+      "Sin_petróleo_c_serv_Mensual": 0.38,
+      "Sin_petróleo_c_serv_Anual": 6.1,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-05",
+      "Sin_petróleo_c_serv_Mensual": 0.22,
+      "Sin_petróleo_c_serv_Anual": 5.33,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-05",
+      "Sin_petróleo_c_serv_Mensual": 0.03,
+      "Sin_petróleo_c_serv_Anual": 4.83,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-05",
+      "Sin_petróleo_c_serv_Mensual": -0.02,
+      "Sin_petróleo_c_serv_Anual": 4.08,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-05",
+      "Sin_petróleo_c_serv_Mensual": 0.7,
+      "Sin_petróleo_c_serv_Anual": 4.26,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-05",
+      "Sin_petróleo_c_serv_Mensual": -0.01,
+      "Sin_petróleo_c_serv_Anual": 3.67,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-05",
+      "Sin_petróleo_c_serv_Mensual": 0.21,
+      "Sin_petróleo_c_serv_Anual": 3.58,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-05",
+      "Sin_petróleo_c_serv_Mensual": 0.49,
+      "Sin_petróleo_c_serv_Anual": 3.66,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-05",
+      "Sin_petróleo_c_serv_Mensual": 0.38,
+      "Sin_petróleo_c_serv_Anual": 3.3,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-05",
+      "Sin_petróleo_c_serv_Mensual": 0.41,
+      "Sin_petróleo_c_serv_Anual": 3.51,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-06",
+      "Sin_petróleo_c_serv_Mensual": 0.71,
+      "Sin_petróleo_c_serv_Anual": 3.93,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-06",
+      "Sin_petróleo_c_serv_Mensual": 0.38,
+      "Sin_petróleo_c_serv_Anual": 3.94,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-06",
+      "Sin_petróleo_c_serv_Mensual": 0.42,
+      "Sin_petróleo_c_serv_Anual": 3.98,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-06",
+      "Sin_petróleo_c_serv_Mensual": 0.84,
+      "Sin_petróleo_c_serv_Anual": 4.62,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-06",
+      "Sin_petróleo_c_serv_Mensual": 1.13,
+      "Sin_petróleo_c_serv_Anual": 5.77,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-06",
+      "Sin_petróleo_c_serv_Mensual": 0.64,
+      "Sin_petróleo_c_serv_Anual": 6.47,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-06",
+      "Sin_petróleo_c_serv_Mensual": 0.55,
+      "Sin_petróleo_c_serv_Anual": 6.32,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-06",
+      "Sin_petróleo_c_serv_Mensual": 0.41,
+      "Sin_petróleo_c_serv_Anual": 6.76,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-06",
+      "Sin_petróleo_c_serv_Mensual": 0.3,
+      "Sin_petróleo_c_serv_Anual": 6.86,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-06",
+      "Sin_petróleo_c_serv_Mensual": -0.17,
+      "Sin_petróleo_c_serv_Anual": 6.16,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-06",
+      "Sin_petróleo_c_serv_Mensual": 0.29,
+      "Sin_petróleo_c_serv_Anual": 6.06,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-06",
+      "Sin_petróleo_c_serv_Mensual": 0.35,
+      "Sin_petróleo_c_serv_Anual": 6.0,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-07",
+      "Sin_petróleo_c_serv_Mensual": 0.24,
+      "Sin_petróleo_c_serv_Anual": 5.5,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-07",
+      "Sin_petróleo_c_serv_Mensual": 0.48,
+      "Sin_petróleo_c_serv_Anual": 5.61,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-07",
+      "Sin_petróleo_c_serv_Mensual": 0.42,
+      "Sin_petróleo_c_serv_Anual": 5.61,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-07",
+      "Sin_petróleo_c_serv_Mensual": 0.35,
+      "Sin_petróleo_c_serv_Anual": 5.09,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-07",
+      "Sin_petróleo_c_serv_Mensual": 0.13,
+      "Sin_petróleo_c_serv_Anual": 4.05,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-07",
+      "Sin_petróleo_c_serv_Mensual": 0.45,
+      "Sin_petróleo_c_serv_Anual": 3.85,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-07",
+      "Sin_petróleo_c_serv_Mensual": 0.41,
+      "Sin_petróleo_c_serv_Anual": 3.71,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-07",
+      "Sin_petróleo_c_serv_Mensual": 0.34,
+      "Sin_petróleo_c_serv_Anual": 3.64,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-07",
+      "Sin_petróleo_c_serv_Mensual": 0.29,
+      "Sin_petróleo_c_serv_Anual": 3.64,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-07",
+      "Sin_petróleo_c_serv_Mensual": 0.24,
+      "Sin_petróleo_c_serv_Anual": 4.05,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-07",
+      "Sin_petróleo_c_serv_Mensual": 0.49,
+      "Sin_petróleo_c_serv_Anual": 4.27,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-07",
+      "Sin_petróleo_c_serv_Mensual": 0.25,
+      "Sin_petróleo_c_serv_Anual": 4.16,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-08",
+      "Sin_petróleo_c_serv_Mensual": 0.68,
+      "Sin_petróleo_c_serv_Anual": 4.63,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-08",
+      "Sin_petróleo_c_serv_Mensual": 1.0,
+      "Sin_petróleo_c_serv_Anual": 5.18,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-08",
+      "Sin_petróleo_c_serv_Mensual": 1.09,
+      "Sin_petróleo_c_serv_Anual": 5.88,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-08",
+      "Sin_petróleo_c_serv_Mensual": 0.75,
+      "Sin_petróleo_c_serv_Anual": 6.3,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-08",
+      "Sin_petróleo_c_serv_Mensual": 0.77,
+      "Sin_petróleo_c_serv_Anual": 6.99,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-08",
+      "Sin_petróleo_c_serv_Mensual": 0.76,
+      "Sin_petróleo_c_serv_Anual": 7.32,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-08",
+      "Sin_petróleo_c_serv_Mensual": 0.86,
+      "Sin_petróleo_c_serv_Anual": 7.8,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-08",
+      "Sin_petróleo_c_serv_Mensual": -0.07,
+      "Sin_petróleo_c_serv_Anual": 7.35,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-08",
+      "Sin_petróleo_c_serv_Mensual": 0.46,
+      "Sin_petróleo_c_serv_Anual": 7.52,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-08",
+      "Sin_petróleo_c_serv_Mensual": 1.47,
+      "Sin_petróleo_c_serv_Anual": 8.84,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-08",
+      "Sin_petróleo_c_serv_Mensual": 0.38,
+      "Sin_petróleo_c_serv_Anual": 8.73,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-08",
+      "Sin_petróleo_c_serv_Mensual": 0.14,
+      "Sin_petróleo_c_serv_Anual": 8.6,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-09",
+      "Sin_petróleo_c_serv_Mensual": 0.02,
+      "Sin_petróleo_c_serv_Anual": 7.88,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-09",
+      "Sin_petróleo_c_serv_Mensual": 0.54,
+      "Sin_petróleo_c_serv_Anual": 7.39,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-09",
+      "Sin_petróleo_c_serv_Mensual": 0.56,
+      "Sin_petróleo_c_serv_Anual": 6.82,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-09",
+      "Sin_petróleo_c_serv_Mensual": -0.49,
+      "Sin_petróleo_c_serv_Anual": 5.51,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-09",
+      "Sin_petróleo_c_serv_Mensual": -0.47,
+      "Sin_petróleo_c_serv_Anual": 4.22,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-09",
+      "Sin_petróleo_c_serv_Mensual": 0.27,
+      "Sin_petróleo_c_serv_Anual": 3.71,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-09",
+      "Sin_petróleo_c_serv_Mensual": 0.33,
+      "Sin_petróleo_c_serv_Anual": 3.17,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-09",
+      "Sin_petróleo_c_serv_Mensual": 0.28,
+      "Sin_petróleo_c_serv_Anual": 3.54,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-09",
+      "Sin_petróleo_c_serv_Mensual": 0.74,
+      "Sin_petróleo_c_serv_Anual": 3.83,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-09",
+      "Sin_petróleo_c_serv_Mensual": 0.12,
+      "Sin_petróleo_c_serv_Anual": 2.45,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-09",
+      "Sin_petróleo_c_serv_Mensual": 0.53,
+      "Sin_petróleo_c_serv_Anual": 2.6,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-09",
+      "Sin_petróleo_c_serv_Mensual": 0.45,
+      "Sin_petróleo_c_serv_Anual": 2.92,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-10",
+      "Sin_petróleo_c_serv_Mensual": 0.73,
+      "Sin_petróleo_c_serv_Anual": 3.65,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-10",
+      "Sin_petróleo_c_serv_Mensual": 0.54,
+      "Sin_petróleo_c_serv_Anual": 3.65,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-10",
+      "Sin_petróleo_c_serv_Mensual": 0.63,
+      "Sin_petróleo_c_serv_Anual": 3.73,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-10",
+      "Sin_petróleo_c_serv_Mensual": -0.26,
+      "Sin_petróleo_c_serv_Anual": 3.97,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-10",
+      "Sin_petróleo_c_serv_Mensual": 0.39,
+      "Sin_petróleo_c_serv_Anual": 4.86,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-10",
+      "Sin_petróleo_c_serv_Mensual": 0.14,
+      "Sin_petróleo_c_serv_Anual": 4.73,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-10",
+      "Sin_petróleo_c_serv_Mensual": 0.52,
+      "Sin_petróleo_c_serv_Anual": 4.93,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-10",
+      "Sin_petróleo_c_serv_Mensual": 0.07,
+      "Sin_petróleo_c_serv_Anual": 4.7,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-10",
+      "Sin_petróleo_c_serv_Mensual": 0.18,
+      "Sin_petróleo_c_serv_Anual": 4.12,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-10",
+      "Sin_petróleo_c_serv_Mensual": 0.07,
+      "Sin_petróleo_c_serv_Anual": 4.07,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-10",
+      "Sin_petróleo_c_serv_Mensual": 0.38,
+      "Sin_petróleo_c_serv_Anual": 3.91,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-10",
+      "Sin_petróleo_c_serv_Mensual": 0.75,
+      "Sin_petróleo_c_serv_Anual": 4.23,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-11",
+      "Sin_petróleo_c_serv_Mensual": 0.53,
+      "Sin_petróleo_c_serv_Anual": 4.02,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-11",
+      "Sin_petróleo_c_serv_Mensual": 0.67,
+      "Sin_petróleo_c_serv_Anual": 4.15,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-11",
+      "Sin_petróleo_c_serv_Mensual": 0.64,
+      "Sin_petróleo_c_serv_Anual": 4.17,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-11",
+      "Sin_petróleo_c_serv_Mensual": 0.46,
+      "Sin_petróleo_c_serv_Anual": 4.92,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-11",
+      "Sin_petróleo_c_serv_Mensual": 0.01,
+      "Sin_petróleo_c_serv_Anual": 4.52,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-11",
+      "Sin_petróleo_c_serv_Mensual": 0.41,
+      "Sin_petróleo_c_serv_Anual": 4.8,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-11",
+      "Sin_petróleo_c_serv_Mensual": 0.68,
+      "Sin_petróleo_c_serv_Anual": 4.97,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-11",
+      "Sin_petróleo_c_serv_Mensual": 0.32,
+      "Sin_petróleo_c_serv_Anual": 5.23,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-11",
+      "Sin_petróleo_c_serv_Mensual": 0.62,
+      "Sin_petróleo_c_serv_Anual": 5.69,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-11",
+      "Sin_petróleo_c_serv_Mensual": 0.73,
+      "Sin_petróleo_c_serv_Anual": 6.39,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-11",
+      "Sin_petróleo_c_serv_Mensual": 0.75,
+      "Sin_petróleo_c_serv_Anual": 6.78,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-11",
+      "Sin_petróleo_c_serv_Mensual": 0.88,
+      "Sin_petróleo_c_serv_Anual": 6.91,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-12",
+      "Sin_petróleo_c_serv_Mensual": 0.34,
+      "Sin_petróleo_c_serv_Anual": 6.71,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-12",
+      "Sin_petróleo_c_serv_Mensual": -0.05,
+      "Sin_petróleo_c_serv_Anual": 5.95,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-12",
+      "Sin_petróleo_c_serv_Mensual": 0.28,
+      "Sin_petróleo_c_serv_Anual": 5.57,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-12",
+      "Sin_petróleo_c_serv_Mensual": 0.07,
+      "Sin_petróleo_c_serv_Anual": 5.16,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-12",
+      "Sin_petróleo_c_serv_Mensual": 0.38,
+      "Sin_petróleo_c_serv_Anual": 5.55,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-12",
+      "Sin_petróleo_c_serv_Mensual": 0.52,
+      "Sin_petróleo_c_serv_Anual": 5.66,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-12",
+      "Sin_petróleo_c_serv_Mensual": -0.2,
+      "Sin_petróleo_c_serv_Anual": 4.73,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-12",
+      "Sin_petróleo_c_serv_Mensual": -0.02,
+      "Sin_petróleo_c_serv_Anual": 4.38,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-12",
+      "Sin_petróleo_c_serv_Mensual": 0.37,
+      "Sin_petróleo_c_serv_Anual": 4.13,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-12",
+      "Sin_petróleo_c_serv_Mensual": -0.02,
+      "Sin_petróleo_c_serv_Anual": 3.35,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-12",
+      "Sin_petróleo_c_serv_Mensual": 0.25,
+      "Sin_petróleo_c_serv_Anual": 2.84,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-12",
+      "Sin_petróleo_c_serv_Mensual": -0.11,
+      "Sin_petróleo_c_serv_Anual": 1.84,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-13",
+      "Sin_petróleo_c_serv_Mensual": 0.13,
+      "Sin_petróleo_c_serv_Anual": 1.63,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-13",
+      "Sin_petróleo_c_serv_Mensual": 0.38,
+      "Sin_petróleo_c_serv_Anual": 2.06,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-13",
+      "Sin_petróleo_c_serv_Mensual": 0.24,
+      "Sin_petróleo_c_serv_Anual": 2.02,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-13",
+      "Sin_petróleo_c_serv_Mensual": -0.25,
+      "Sin_petróleo_c_serv_Anual": 1.7,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-13",
+      "Sin_petróleo_c_serv_Mensual": -0.06,
+      "Sin_petróleo_c_serv_Anual": 1.24,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-13",
+      "Sin_petróleo_c_serv_Mensual": 0.39,
+      "Sin_petróleo_c_serv_Anual": 1.12,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-13",
+      "Sin_petróleo_c_serv_Mensual": -0.35,
+      "Sin_petróleo_c_serv_Anual": 0.97,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-13",
+      "Sin_petróleo_c_serv_Mensual": -0.07,
+      "Sin_petróleo_c_serv_Anual": 0.92,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-13",
+      "Sin_petróleo_c_serv_Mensual": 0.45,
+      "Sin_petróleo_c_serv_Anual": 1.0,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-13",
+      "Sin_petróleo_c_serv_Mensual": 0.02,
+      "Sin_petróleo_c_serv_Anual": 1.04,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-13",
+      "Sin_petróleo_c_serv_Mensual": 0.31,
+      "Sin_petróleo_c_serv_Anual": 1.09,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-13",
+      "Sin_petróleo_c_serv_Mensual": 0.43,
+      "Sin_petróleo_c_serv_Anual": 1.63,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-14",
+      "Sin_petróleo_c_serv_Mensual": 0.54,
+      "Sin_petróleo_c_serv_Anual": 2.04,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-14",
+      "Sin_petróleo_c_serv_Mensual": 0.7,
+      "Sin_petróleo_c_serv_Anual": 2.37,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-14",
+      "Sin_petróleo_c_serv_Mensual": 0.08,
+      "Sin_petróleo_c_serv_Anual": 2.2,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-14",
+      "Sin_petróleo_c_serv_Mensual": 0.05,
+      "Sin_petróleo_c_serv_Anual": 2.5,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-14",
+      "Sin_petróleo_c_serv_Mensual": 0.27,
+      "Sin_petróleo_c_serv_Anual": 2.84,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-14",
+      "Sin_petróleo_c_serv_Mensual": -0.4,
+      "Sin_petróleo_c_serv_Anual": 2.03,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-14",
+      "Sin_petróleo_c_serv_Mensual": 0.43,
+      "Sin_petróleo_c_serv_Anual": 2.82,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-14",
+      "Sin_petróleo_c_serv_Mensual": 0.39,
+      "Sin_petróleo_c_serv_Anual": 3.3,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-14",
+      "Sin_petróleo_c_serv_Mensual": 0.15,
+      "Sin_petróleo_c_serv_Anual": 2.99,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-14",
+      "Sin_petróleo_c_serv_Mensual": -0.08,
+      "Sin_petróleo_c_serv_Anual": 2.89,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-14",
+      "Sin_petróleo_c_serv_Mensual": 0.14,
+      "Sin_petróleo_c_serv_Anual": 2.71,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-14",
+      "Sin_petróleo_c_serv_Mensual": 1.04,
+      "Sin_petróleo_c_serv_Anual": 3.34,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-15",
+      "Sin_petróleo_c_serv_Mensual": -0.22,
+      "Sin_petróleo_c_serv_Anual": 2.56,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-15",
+      "Sin_petróleo_c_serv_Mensual": 0.08,
+      "Sin_petróleo_c_serv_Anual": 1.93,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-15",
+      "Sin_petróleo_c_serv_Mensual": 0.77,
+      "Sin_petróleo_c_serv_Anual": 2.64,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-15",
+      "Sin_petróleo_c_serv_Mensual": 0.17,
+      "Sin_petróleo_c_serv_Anual": 2.76,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-15",
+      "Sin_petróleo_c_serv_Mensual": -0.14,
+      "Sin_petróleo_c_serv_Anual": 2.34,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-15",
+      "Sin_petróleo_c_serv_Mensual": 0.4,
+      "Sin_petróleo_c_serv_Anual": 3.17,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-15",
+      "Sin_petróleo_c_serv_Mensual": 0.57,
+      "Sin_petróleo_c_serv_Anual": 3.31,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-15",
+      "Sin_petróleo_c_serv_Mensual": 0.32,
+      "Sin_petróleo_c_serv_Anual": 3.25,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-15",
+      "Sin_petróleo_c_serv_Mensual": 0.37,
+      "Sin_petróleo_c_serv_Anual": 3.47,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-15",
+      "Sin_petróleo_c_serv_Mensual": -0.08,
+      "Sin_petróleo_c_serv_Anual": 3.47,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-15",
+      "Sin_petróleo_c_serv_Mensual": 0.13,
+      "Sin_petróleo_c_serv_Anual": 3.46,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-15",
+      "Sin_petróleo_c_serv_Mensual": 0.38,
+      "Sin_petróleo_c_serv_Anual": 2.78,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-16",
+      "Sin_petróleo_c_serv_Mensual": 0.87,
+      "Sin_petróleo_c_serv_Anual": 3.91,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-16",
+      "Sin_petróleo_c_serv_Mensual": 0.9,
+      "Sin_petróleo_c_serv_Anual": 4.76,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-16",
+      "Sin_petróleo_c_serv_Mensual": 0.07,
+      "Sin_petróleo_c_serv_Anual": 4.03,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-16",
+      "Sin_petróleo_c_serv_Mensual": 0.26,
+      "Sin_petróleo_c_serv_Anual": 4.12,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-16",
+      "Sin_petróleo_c_serv_Mensual": 0.73,
+      "Sin_petróleo_c_serv_Anual": 5.02,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-16",
+      "Sin_petróleo_c_serv_Mensual": 0.95,
+      "Sin_petróleo_c_serv_Anual": 5.6,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-16",
+      "Sin_petróleo_c_serv_Mensual": 0.47,
+      "Sin_petróleo_c_serv_Anual": 5.5,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-16",
+      "Sin_petróleo_c_serv_Mensual": 0.33,
+      "Sin_petróleo_c_serv_Anual": 5.5,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-16",
+      "Sin_petróleo_c_serv_Mensual": 1.22,
+      "Sin_petróleo_c_serv_Anual": 6.4,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-16",
+      "Sin_petróleo_c_serv_Mensual": 0.2,
+      "Sin_petróleo_c_serv_Anual": 6.7,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-16",
+      "Sin_petróleo_c_serv_Mensual": 1.22,
+      "Sin_petróleo_c_serv_Anual": 7.87,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-16",
+      "Sin_petróleo_c_serv_Mensual": 0.98,
+      "Sin_petróleo_c_serv_Anual": 8.52,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-17",
+      "Sin_petróleo_c_serv_Mensual": 2.08,
+      "Sin_petróleo_c_serv_Anual": 9.81,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-17",
+      "Sin_petróleo_c_serv_Mensual": 0.58,
+      "Sin_petróleo_c_serv_Anual": 9.46,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-17",
+      "Sin_petróleo_c_serv_Mensual": 0.06,
+      "Sin_petróleo_c_serv_Anual": 9.45,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-17",
+      "Sin_petróleo_c_serv_Mensual": -0.39,
+      "Sin_petróleo_c_serv_Anual": 8.75,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-17",
+      "Sin_petróleo_c_serv_Mensual": 0.13,
+      "Sin_petróleo_c_serv_Anual": 8.1,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-17",
+      "Sin_petróleo_c_serv_Mensual": -0.36,
+      "Sin_petróleo_c_serv_Anual": 6.69,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-17",
+      "Sin_petróleo_c_serv_Mensual": -0.25,
+      "Sin_petróleo_c_serv_Anual": 5.92,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-17",
+      "Sin_petróleo_c_serv_Mensual": 0.06,
+      "Sin_petróleo_c_serv_Anual": 5.64,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-17",
+      "Sin_petróleo_c_serv_Mensual": 0.14,
+      "Sin_petróleo_c_serv_Anual": 4.5,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-17",
+      "Sin_petróleo_c_serv_Mensual": 0.94,
+      "Sin_petróleo_c_serv_Anual": 5.27,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-17",
+      "Sin_petróleo_c_serv_Mensual": 1.15,
+      "Sin_petróleo_c_serv_Anual": 5.19,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-17",
+      "Sin_petróleo_c_serv_Mensual": 0.46,
+      "Sin_petróleo_c_serv_Anual": 4.65,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-18",
+      "Sin_petróleo_c_serv_Mensual": 0.84,
+      "Sin_petróleo_c_serv_Anual": 3.38,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-18",
+      "Sin_petróleo_c_serv_Mensual": 0.45,
+      "Sin_petróleo_c_serv_Anual": 3.24,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-18",
+      "Sin_petróleo_c_serv_Mensual": 0.44,
+      "Sin_petróleo_c_serv_Anual": 3.64,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-18",
+      "Sin_petróleo_c_serv_Mensual": -0.04,
+      "Sin_petróleo_c_serv_Anual": 4.0,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-18",
+      "Sin_petróleo_c_serv_Mensual": 1.48,
+      "Sin_petróleo_c_serv_Anual": 5.41,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-18",
+      "Sin_petróleo_c_serv_Mensual": 1.09,
+      "Sin_petróleo_c_serv_Anual": 6.95,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-18",
+      "Sin_petróleo_c_serv_Mensual": -0.66,
+      "Sin_petróleo_c_serv_Anual": 6.51,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-18",
+      "Sin_petróleo_c_serv_Mensual": -0.07,
+      "Sin_petróleo_c_serv_Anual": 6.38,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-18",
+      "Sin_petróleo_c_serv_Mensual": 0.59,
+      "Sin_petróleo_c_serv_Anual": 6.86,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "oct-18",
+      "Sin_petróleo_c_serv_Mensual": 0.37,
+      "Sin_petróleo_c_serv_Anual": 6.26,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "nov-18",
+      "Sin_petróleo_c_serv_Mensual": 1.38,
+      "Sin_petróleo_c_serv_Anual": 6.51,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "dic-18",
+      "Sin_petróleo_c_serv_Mensual": 0.37,
+      "Sin_petróleo_c_serv_Anual": 6.42,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ene-19",
+      "Sin_petróleo_c_serv_Mensual": -0.53,
+      "Sin_petróleo_c_serv_Anual": 4.97,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "feb-19",
+      "Sin_petróleo_c_serv_Mensual": 0.02,
+      "Sin_petróleo_c_serv_Anual": 4.52,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "mar-19",
+      "Sin_petróleo_c_serv_Mensual": 0.18,
+      "Sin_petróleo_c_serv_Anual": 4.25,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "abr-19",
+      "Sin_petróleo_c_serv_Mensual": 0.32,
+      "Sin_petróleo_c_serv_Anual": 4.63,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "may-19",
+      "Sin_petróleo_c_serv_Mensual": 0.08,
+      "Sin_petróleo_c_serv_Anual": 3.18,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jun-19",
+      "Sin_petróleo_c_serv_Mensual": 0.41,
+      "Sin_petróleo_c_serv_Anual": 2.48,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "jul-19",
+      "Sin_petróleo_c_serv_Mensual": 0.21,
+      "Sin_petróleo_c_serv_Anual": 3.38,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "ago-19",
+      "Sin_petróleo_c_serv_Mensual": -24.5,
+      "Sin_petróleo_c_serv_Anual": -21.9,
+      "Con_petróleo_c_serv_Mensual": null,
+      "Con_petróleo_c_serv_Anual": null
+    },
+    {
+      "Periodo": "sep-19",
+      "Sin_petróleo_c_serv_Mensual": 0.52,
+      "Sin_petróleo_c_serv_Anual": 2.81,
+      "Con_petróleo_c_serv_Mensual": 0.76,
+      "Con_petróleo_c_serv_Anual": 1.79
+    },
+    {
+      "Periodo": "oct-19",
+      "Sin_petróleo_c_serv_Mensual": -0.26,
+      "Sin_petróleo_c_serv_Anual": 2.16,
+      "Con_petróleo_c_serv_Mensual": -0.5,
+      "Con_petróleo_c_serv_Anual": 0.7
+    },
+    {
+      "Periodo": "nov-19",
+      "Sin_petróleo_c_serv_Mensual": 0.18,
+      "Sin_petróleo_c_serv_Anual": 0.94,
+      "Con_petróleo_c_serv_Mensual": 0.15,
+      "Con_petróleo_c_serv_Anual": 0.15
+    },
+    {
+      "Periodo": "dic-19",
+      "Sin_petróleo_c_serv_Mensual": 0.28,
+      "Sin_petróleo_c_serv_Anual": 0.84,
+      "Con_petróleo_c_serv_Mensual": 0.45,
+      "Con_petróleo_c_serv_Anual": 1.0
+    },
+    {
+      "Periodo": "ene-20",
+      "Sin_petróleo_c_serv_Mensual": -0.28,
+      "Sin_petróleo_c_serv_Anual": 1.1,
+      "Con_petróleo_c_serv_Mensual": -0.45,
+      "Con_petróleo_c_serv_Anual": 1.05
+    },
+    {
+      "Periodo": "feb-20",
+      "Sin_petróleo_c_serv_Mensual": 0.46,
+      "Sin_petróleo_c_serv_Anual": 1.54,
+      "Con_petróleo_c_serv_Mensual": -0.07,
+      "Con_petróleo_c_serv_Anual": 0.7
+    },
+    {
+      "Periodo": "mar-20",
+      "Sin_petróleo_c_serv_Mensual": 2.32,
+      "Sin_petróleo_c_serv_Anual": 3.72,
+      "Con_petróleo_c_serv_Mensual": 1.95,
+      "Con_petróleo_c_serv_Anual": 2.29
+    },
+    {
+      "Periodo": "abr-20",
+      "Sin_petróleo_c_serv_Mensual": 1.96,
+      "Sin_petróleo_c_serv_Anual": 5.41,
+      "Con_petróleo_c_serv_Mensual": 1.45,
+      "Con_petróleo_c_serv_Anual": 3.28
+    },
+    {
+      "Periodo": "may-20",
+      "Sin_petróleo_c_serv_Mensual": -0.5,
+      "Sin_petróleo_c_serv_Anual": 4.79,
+      "Con_petróleo_c_serv_Mensual": -0.21,
+      "Con_petróleo_c_serv_Anual": 3.07
+    },
+    {
+      "Periodo": "jun-20",
+      "Sin_petróleo_c_serv_Mensual": -0.62,
+      "Sin_petróleo_c_serv_Anual": 3.72,
+      "Con_petróleo_c_serv_Mensual": -0.13,
+      "Con_petróleo_c_serv_Anual": 2.68
+    },
+    {
+      "Periodo": "jul-20",
+      "Sin_petróleo_c_serv_Mensual": 0.95,
+      "Sin_petróleo_c_serv_Anual": 4.48,
+      "Con_petróleo_c_serv_Mensual": 1.11,
+      "Con_petróleo_c_serv_Anual": 3.72
+    },
+    {
+      "Periodo": "ago-20",
+      "Sin_petróleo_c_serv_Mensual": 0.36,
+      "Sin_petróleo_c_serv_Anual": 5.44,
+      "Con_petróleo_c_serv_Mensual": 0.45,
+      "Con_petróleo_c_serv_Anual": 5.06
+    },
+    {
+      "Periodo": "sep-20",
+      "Sin_petróleo_c_serv_Mensual": -0.35,
+      "Sin_petróleo_c_serv_Anual": 4.52,
+      "Con_petróleo_c_serv_Mensual": -0.44,
+      "Con_petróleo_c_serv_Anual": 3.8
+    },
+    {
+      "Periodo": "oct-20",
+      "Sin_petróleo_c_serv_Mensual": 0.06,
+      "Sin_petróleo_c_serv_Anual": 4.86,
+      "Con_petróleo_c_serv_Mensual": 0.07,
+      "Con_petróleo_c_serv_Anual": 4.4
+    },
+    {
+      "Periodo": "nov-20",
+      "Sin_petróleo_c_serv_Mensual": -0.25,
+      "Sin_petróleo_c_serv_Anual": 4.42,
+      "Con_petróleo_c_serv_Mensual": -0.3,
+      "Con_petróleo_c_serv_Anual": 3.93
+    },
+    {
+      "Periodo": "dic-20",
+      "Sin_petróleo_c_serv_Mensual": 0.01,
+      "Sin_petróleo_c_serv_Anual": 4.14,
+      "Con_petróleo_c_serv_Mensual": 0.21,
+      "Con_petróleo_c_serv_Anual": 3.68
+    },
+    {
+      "Periodo": "ene-21",
+      "Sin_petróleo_c_serv_Mensual": 0.79,
+      "Sin_petróleo_c_serv_Anual": 5.25,
+      "Con_petróleo_c_serv_Mensual": 1.11,
+      "Con_petróleo_c_serv_Anual": 5.29
+    },
+    {
+      "Periodo": "feb-21",
+      "Sin_petróleo_c_serv_Mensual": 1.06,
+      "Sin_petróleo_c_serv_Anual": 5.88,
+      "Con_petróleo_c_serv_Mensual": 1.3,
+      "Con_petróleo_c_serv_Anual": 6.74
+    },
+    {
+      "Periodo": "mar-21",
+      "Sin_petróleo_c_serv_Mensual": 1.31,
+      "Sin_petróleo_c_serv_Anual": 4.83,
+      "Con_petróleo_c_serv_Mensual": 1.47,
+      "Con_petróleo_c_serv_Anual": 6.23
+    },
+    {
+      "Periodo": "abr-21",
+      "Sin_petróleo_c_serv_Mensual": 0.33,
+      "Sin_petróleo_c_serv_Anual": 3.16,
+      "Con_petróleo_c_serv_Mensual": 0.3,
+      "Con_petróleo_c_serv_Anual": 5.02
+    },
+    {
+      "Periodo": "may-21",
+      "Sin_petróleo_c_serv_Mensual": 0.73,
+      "Sin_petróleo_c_serv_Anual": 4.43,
+      "Con_petróleo_c_serv_Mensual": 0.81,
+      "Con_petróleo_c_serv_Anual": 6.1
+    },
+    {
+      "Periodo": "jun-21",
+      "Sin_petróleo_c_serv_Mensual": 0.71,
+      "Sin_petróleo_c_serv_Anual": 5.83,
+      "Con_petróleo_c_serv_Mensual": 0.82,
+      "Con_petróleo_c_serv_Anual": 7.1
+    },
+    {
+      "Periodo": "jul-21",
+      "Sin_petróleo_c_serv_Mensual": 0.44,
+      "Sin_petróleo_c_serv_Anual": 5.3,
+      "Con_petróleo_c_serv_Mensual": 0.48,
+      "Con_petróleo_c_serv_Anual": 6.43
+    },
+    {
+      "Periodo": "ago-21",
+      "Sin_petróleo_c_serv_Mensual": 0.35,
+      "Sin_petróleo_c_serv_Anual": 5.29,
+      "Con_petróleo_c_serv_Mensual": 0.32,
+      "Con_petróleo_c_serv_Anual": 6.3
+    },
+    {
+      "Periodo": "sep-21",
+      "Sin_petróleo_c_serv_Mensual": 0.33,
+      "Sin_petróleo_c_serv_Anual": 6.02,
+      "Con_petróleo_c_serv_Mensual": 0.37,
+      "Con_petróleo_c_serv_Anual": 7.16
+    },
+    {
+      "Periodo": "oct-21",
+      "Sin_petróleo_c_serv_Mensual": 1.05,
+      "Sin_petróleo_c_serv_Anual": 7.06,
+      "Con_petróleo_c_serv_Mensual": 1.22,
+      "Con_petróleo_c_serv_Anual": 8.39
+    },
+    {
+      "Periodo": "nov-21",
+      "Sin_petróleo_c_serv_Mensual": 0.95,
+      "Sin_petróleo_c_serv_Anual": 8.35,
+      "Con_petróleo_c_serv_Mensual": 1.06,
+      "Con_petróleo_c_serv_Anual": 9.87
+    },
+    {
+      "Periodo": "dic-21",
+      "Sin_petróleo_c_serv_Mensual": 0.89,
+      "Sin_petróleo_c_serv_Anual": 9.3,
+      "Con_petróleo_c_serv_Mensual": 0.62,
+      "Con_petróleo_c_serv_Anual": 10.32
+    },
+    {
+      "Periodo": "ene-22",
+      "Sin_petróleo_c_serv_Mensual": 0.28,
+      "Sin_petróleo_c_serv_Anual": 8.75,
+      "Con_petróleo_c_serv_Mensual": 0.65,
+      "Con_petróleo_c_serv_Anual": 9.82
+    },
+    {
+      "Periodo": "feb-22",
+      "Sin_petróleo_c_serv_Mensual": 1.0,
+      "Sin_petróleo_c_serv_Anual": 8.7,
+      "Con_petróleo_c_serv_Mensual": 1.37,
+      "Con_petróleo_c_serv_Anual": 9.89
+    },
+    {
+      "Periodo": "mar-22",
+      "Sin_petróleo_c_serv_Mensual": 1.21,
+      "Sin_petróleo_c_serv_Anual": 8.59,
+      "Con_petróleo_c_serv_Mensual": 1.72,
+      "Con_petróleo_c_serv_Anual": 10.17
+    },
+    {
+      "Periodo": "abr-22",
+      "Sin_petróleo_c_serv_Mensual": 0.68,
+      "Sin_petróleo_c_serv_Anual": 8.96,
+      "Con_petróleo_c_serv_Mensual": 0.6,
+      "Con_petróleo_c_serv_Anual": 10.5
+    },
+    {
+      "Periodo": "may-22",
+      "Sin_petróleo_c_serv_Mensual": 0.71,
+      "Sin_petróleo_c_serv_Anual": 8.95,
+      "Con_petróleo_c_serv_Mensual": 0.79,
+      "Con_petróleo_c_serv_Anual": 10.47
+    },
+    {
+      "Periodo": "jun-22",
+      "Sin_petróleo_c_serv_Mensual": 0.7,
+      "Sin_petróleo_c_serv_Anual": 8.93,
+      "Con_petróleo_c_serv_Mensual": 0.7,
+      "Con_petróleo_c_serv_Anual": 10.35
+    },
+    {
+      "Periodo": "jul-22",
+      "Sin_petróleo_c_serv_Mensual": 0.57,
+      "Sin_petróleo_c_serv_Anual": 9.06,
+      "Con_petróleo_c_serv_Mensual": 0.17,
+      "Con_petróleo_c_serv_Anual": 10.01
+    },
+    {
+      "Periodo": "ago-22",
+      "Sin_petróleo_c_serv_Mensual": 0.11,
+      "Sin_petróleo_c_serv_Anual": 8.8,
+      "Con_petróleo_c_serv_Mensual": -0.27,
+      "Con_petróleo_c_serv_Anual": 9.36
+    },
+    {
+      "Periodo": "sep-22",
+      "Sin_petróleo_c_serv_Mensual": -0.06,
+      "Sin_petróleo_c_serv_Anual": 8.37,
+      "Con_petróleo_c_serv_Mensual": -0.26,
+      "Con_petróleo_c_serv_Anual": 8.68
+    },
+    {
+      "Periodo": "oct-22",
+      "Sin_petróleo_c_serv_Mensual": -0.15,
+      "Sin_petróleo_c_serv_Anual": 7.1,
+      "Con_petróleo_c_serv_Mensual": -0.27,
+      "Con_petróleo_c_serv_Anual": 7.07
+    },
+    {
+      "Periodo": "nov-22",
+      "Sin_petróleo_c_serv_Mensual": -0.17,
+      "Sin_petróleo_c_serv_Anual": 5.91,
+      "Con_petróleo_c_serv_Mensual": -0.24,
+      "Con_petróleo_c_serv_Anual": 5.69
+    },
+    {
+      "Periodo": "dic-22",
+      "Sin_petróleo_c_serv_Mensual": 0.33,
+      "Sin_petróleo_c_serv_Anual": 5.32,
+      "Con_petróleo_c_serv_Mensual": 0.0,
+      "Con_petróleo_c_serv_Anual": 5.05
+    },
+    {
+      "Periodo": "ene-23",
+      "Sin_petróleo_c_serv_Mensual": 0.59,
+      "Sin_petróleo_c_serv_Anual": 5.65,
+      "Con_petróleo_c_serv_Mensual": 0.42,
+      "Con_petróleo_c_serv_Anual": 4.81
+    },
+    {
+      "Periodo": "feb-23",
+      "Sin_petróleo_c_serv_Mensual": 0.04,
+      "Sin_petróleo_c_serv_Anual": 4.64,
+      "Con_petróleo_c_serv_Mensual": -0.04,
+      "Con_petróleo_c_serv_Anual": 3.35
+    },
+    {
+      "Periodo": "mar-23",
+      "Sin_petróleo_c_serv_Mensual": 0.37,
+      "Sin_petróleo_c_serv_Anual": 3.77,
+      "Con_petróleo_c_serv_Mensual": 0.21,
+      "Con_petróleo_c_serv_Anual": 1.81
+    },
+    {
+      "Periodo": "abr-23",
+      "Sin_petróleo_c_serv_Mensual": -0.01,
+      "Sin_petróleo_c_serv_Anual": 3.05,
+      "Con_petróleo_c_serv_Mensual": 0.07,
+      "Con_petróleo_c_serv_Anual": 1.28
+    },
+    {
+      "Periodo": "may-23",
+      "Sin_petróleo_c_serv_Mensual": -0.24,
+      "Sin_petróleo_c_serv_Anual": 2.09,
+      "Con_petróleo_c_serv_Mensual": -0.34,
+      "Con_petróleo_c_serv_Anual": 0.15
+    },
+    {
+      "Periodo": "jun-23",
+      "Sin_petróleo_c_serv_Mensual": -0.25,
+      "Sin_petróleo_c_serv_Anual": 1.13,
+      "Con_petróleo_c_serv_Mensual": -0.29,
+      "Con_petróleo_c_serv_Anual": -0.84
+    },
+    {
+      "Periodo": "jul-23",
+      "Sin_petróleo_c_serv_Mensual": 0.15,
+      "Sin_petróleo_c_serv_Anual": 0.71,
+      "Con_petróleo_c_serv_Mensual": 0.32,
+      "Con_petróleo_c_serv_Anual": -0.69
+    },
+    {
+      "Periodo": "ago-23",
+      "Sin_petróleo_c_serv_Mensual": 0.29,
+      "Sin_petróleo_c_serv_Anual": 0.9,
+      "Con_petróleo_c_serv_Mensual": 0.44,
+      "Con_petróleo_c_serv_Anual": 0.01
+    },
+    {
+      "Periodo": "sep-23",
+      "Sin_petróleo_c_serv_Mensual": 0.12,
+      "Sin_petróleo_c_serv_Anual": 1.08,
+      "Con_petróleo_c_serv_Mensual": 0.31,
+      "Con_petróleo_c_serv_Anual": 0.58
+    },
+    {
+      "Periodo": "oct-23",
+      "Sin_petróleo_c_serv_Mensual": 0.36,
+      "Sin_petróleo_c_serv_Anual": 1.59,
+      "Con_petróleo_c_serv_Mensual": 0.45,
+      "Con_petróleo_c_serv_Anual": 1.31
+    },
+    {
+      "Periodo": "nov-23",
+      "Sin_petróleo_c_serv_Mensual": -0.02,
+      "Sin_petróleo_c_serv_Anual": 1.74,
+      "Con_petróleo_c_serv_Mensual": -0.29,
+      "Con_petróleo_c_serv_Anual": 1.26
+    },
+    {
+      "Periodo": "dic-23",
+      "Sin_petróleo_c_serv_Mensual": -0.03,
+      "Sin_petróleo_c_serv_Anual": 1.38,
+      "Con_petróleo_c_serv_Mensual": -0.27,
+      "Con_petróleo_c_serv_Anual": 0.98
+    },
+    {
+      "Periodo": "ene-24",
+      "Sin_petróleo_c_serv_Mensual": 0.42,
+      "Sin_petróleo_c_serv_Anual": 1.2,
+      "Con_petróleo_c_serv_Mensual": 0.45,
+      "Con_petróleo_c_serv_Anual": 1.02
+    },
+    {
+      "Periodo": "feb-24",
+      "Sin_petróleo_c_serv_Mensual": 0.32,
+      "Sin_petróleo_c_serv_Anual": 1.49,
+      "Con_petróleo_c_serv_Mensual": 0.41,
+      "Con_petróleo_c_serv_Anual": 1.47
+    },
+    {
+      "Periodo": "mar-24",
+      "Sin_petróleo_c_serv_Mensual": 0.77,
+      "Sin_petróleo_c_serv_Anual": 1.9,
+      "Con_petróleo_c_serv_Mensual": 0.73,
+      "Con_petróleo_c_serv_Anual": 2.0
+    },
+    {
+      "Periodo": "abr-24",
+      "Sin_petróleo_c_serv_Mensual": 0.52,
+      "Sin_petróleo_c_serv_Anual": 2.45,
+      "Con_petróleo_c_serv_Mensual": 0.56,
+      "Con_petróleo_c_serv_Anual": 2.5
+    },
+    {
+      "Periodo": "may-24",
+      "Sin_petróleo_c_serv_Mensual": 0.52,
+      "Sin_petróleo_c_serv_Anual": 3.22,
+      "Con_petróleo_c_serv_Mensual": 0.47,
+      "Con_petróleo_c_serv_Anual": 3.34
+    },
+    {
+      "Periodo": "jun-24",
+      "Sin_petróleo_c_serv_Mensual": 1.29,
+      "Sin_petróleo_c_serv_Anual": 4.81,
+      "Con_petróleo_c_serv_Mensual": 1.35,
+      "Con_petróleo_c_serv_Anual": 5.03
+    },
+    {
+      "Periodo": "jul-24",
+      "Sin_petróleo_c_serv_Mensual": 0.64,
+      "Sin_petróleo_c_serv_Anual": 5.33,
+      "Con_petróleo_c_serv_Mensual": 0.6,
+      "Con_petróleo_c_serv_Anual": 5.32
+    },
+    {
+      "Periodo": "ago-24",
+      "Sin_petróleo_c_serv_Mensual": -0.03,
+      "Sin_petróleo_c_serv_Anual": 4.99,
+      "Con_petróleo_c_serv_Mensual": 0.07,
+      "Con_petróleo_c_serv_Anual": 4.93
+    },
+    {
+      "Periodo": "sep-24",
+      "Sin_petróleo_c_serv_Mensual": 0.61,
+      "Sin_petróleo_c_serv_Anual": 5.5,
+      "Con_petróleo_c_serv_Mensual": 0.5,
+      "Con_petróleo_c_serv_Anual": 5.13
+    },
+    {
+      "Periodo": "oct-24",
+      "Sin_petróleo_c_serv_Mensual": 0.38,
+      "Sin_petróleo_c_serv_Anual": 5.52,
+      "Con_petróleo_c_serv_Mensual": 0.37,
+      "Con_petróleo_c_serv_Anual": 5.04
+    },
+    {
+      "Periodo": "nov-24",
+      "Sin_petróleo_c_serv_Mensual": 0.94,
+      "Sin_petróleo_c_serv_Anual": 6.53,
+      "Con_petróleo_c_serv_Mensual": 0.94,
+      "Con_petróleo_c_serv_Anual": 6.34
+    },
+    {
+      "Periodo": "dic-24",
+      "Sin_petróleo_c_serv_Mensual": 0.8,
+      "Sin_petróleo_c_serv_Anual": 7.42,
+      "Con_petróleo_c_serv_Mensual": 0.77,
+      "Con_petróleo_c_serv_Anual": 7.45
+    },
+    {
+      "Periodo": "ene-25",
+      "Sin_petróleo_c_serv_Mensual": 0.61,
+      "Sin_petróleo_c_serv_Anual": 7.62,
+      "Con_petróleo_c_serv_Mensual": 0.71,
+      "Con_petróleo_c_serv_Anual": 7.73
+    },
+    {
+      "Periodo": "feb-25",
+      "Sin_petróleo_c_serv_Mensual": 0.61,
+      "Sin_petróleo_c_serv_Anual": 7.92,
+      "Con_petróleo_c_serv_Mensual": 0.57,
+      "Con_petróleo_c_serv_Anual": 7.9
+    },
+    {
+      "Periodo": "mar-25",
+      "Sin_petróleo_c_serv_Mensual": 0.23,
+      "Sin_petróleo_c_serv_Anual": 7.34,
+      "Con_petróleo_c_serv_Mensual": 0.08,
+      "Con_petróleo_c_serv_Anual": 7.22
+    },
+    {
+      "Periodo": "abr-25",
+      "Sin_petróleo_c_serv_Mensual": 0.34,
+      "Sin_petróleo_c_serv_Anual": 7.15,
+      "Con_petróleo_c_serv_Mensual": 0.24,
+      "Con_petróleo_c_serv_Anual": 6.87
+    },
+    {
+      "Periodo": "may-25",
+      "Sin_petróleo_c_serv_Mensual": 0.2,
+      "Sin_petróleo_c_serv_Anual": 6.81,
+      "Con_petróleo_c_serv_Mensual": 0.01,
+      "Con_petróleo_c_serv_Anual": 6.38
+    },
+    {
+      "Periodo": "jun-25",
+      "Sin_petróleo_c_serv_Mensual": -0.24,
+      "Sin_petróleo_c_serv_Anual": 5.19,
+      "Con_petróleo_c_serv_Mensual": -0.07,
+      "Con_petróleo_c_serv_Anual": 4.89
+    },
+    {
+      "Periodo": "jul-25",
+      "Sin_petróleo_c_serv_Mensual": -0.45,
+      "Sin_petróleo_c_serv_Anual": 4.05,
+      "Con_petróleo_c_serv_Mensual": -0.48,
+      "Con_petróleo_c_serv_Anual": 3.77
+    },
+    {
+      "Periodo": "ago-25",
+      "Sin_petróleo_c_serv_Mensual": -0.32,
+      "Sin_petróleo_c_serv_Anual": 3.74,
+      "Con_petróleo_c_serv_Mensual": -0.35,
+      "Con_petróleo_c_serv_Anual": 3.33
+    },
+    {
+      "Periodo": "sep-25",
+      "Sin_petróleo_c_serv_Mensual": 0.25,
+      "Sin_petróleo_c_serv_Anual": 3.37,
+      "Con_petróleo_c_serv_Mensual": 0.23,
+      "Con_petróleo_c_serv_Anual": 3.06
+    },
+    {
+      "Periodo": "oct-25",
+      "Sin_petróleo_c_serv_Mensual": 0.41,
+      "Sin_petróleo_c_serv_Anual": 3.41,
+      "Con_petróleo_c_serv_Mensual": 0.27,
+      "Con_petróleo_c_serv_Anual": 2.96
+    },
+    {
+      "Periodo": "nov-25",
+      "Sin_petróleo_c_serv_Mensual": 0.38,
+      "Sin_petróleo_c_serv_Anual": 2.84,
+      "Con_petróleo_c_serv_Mensual": 0.36,
+      "Con_petróleo_c_serv_Anual": 2.36
+    },
+    {
+      "Periodo": "dic-25",
+      "Sin_petróleo_c_serv_Mensual": 0.55,
+      "Sin_petróleo_c_serv_Anual": 2.59,
+      "Con_petróleo_c_serv_Mensual": 0.49,
+      "Con_petróleo_c_serv_Anual": 2.09
+    },
+    {
+      "Periodo": "ene-26",
+      "Sin_petróleo_c_serv_Mensual": 0.14,
+      "Sin_petróleo_c_serv_Anual": 2.12,
+      "Con_petróleo_c_serv_Mensual": 0.12,
+      "Con_petróleo_c_serv_Anual": 1.49
+    },
+    {
+      "Periodo": "feb-26",
+      "Sin_petróleo_c_serv_Mensual": 0.16,
+      "Sin_petróleo_c_serv_Anual": 1.66,
+      "Con_petróleo_c_serv_Mensual": 0.19,
+      "Con_petróleo_c_serv_Anual": 1.11
+    },
+    {
+      "Periodo": "mar-26",
+      "Sin_petróleo_c_serv_Mensual": 1.02,
+      "Sin_petróleo_c_serv_Anual": 2.46,
+      "Con_petróleo_c_serv_Mensual": 1.72,
+      "Con_petróleo_c_serv_Anual": 2.77
+    }
+  ],
+  "benchmarks": {
+    "ma12_Sin_petróleo_c_serv_Anual": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      5.7,
+      5.37,
+      5.12,
+      4.87,
+      4.64,
+      4.41,
+      4.18,
+      3.78
+    ]
+  },
+  "alertas_activas": [],
+  "fuente_ingest": "BIE-INEGI",
+  "_recuadros_inpc": {
+    "periodo": "mar-26",
+    "etiqueta_variacion": "mensual",
+    "componentes": [
+      {
+        "nombre": "INPP total",
+        "var_mensual": 1.72,
+        "var_anual": 2.77
+      },
+      {
+        "nombre": "Uso intermedio",
+        "var_mensual": 1.72,
+        "var_anual": 2.46
+      },
+      {
+        "nombre": "Bienes y serv. finales",
+        "var_mensual": 1.73,
+        "var_anual": 2.89
+      }
+    ]
+  },
+  "_cuadro1": {
+    "periodo": "mar-26",
+    "etiqueta_variacion": "mensual",
+    "fuente": "Boletín INPP 213/26 · INEGI",
+    "filas": [
+      {
+        "concepto": "INPP total",
+        "nivel": 0,
+        "var_mensual": 1.72,
+        "var_anual": 2.77,
+        "inc_mensual": null,
+        "inc_anual": null
+      },
+      {
+        "concepto": "Actividades primarias",
+        "nivel": 1,
+        "var_mensual": 4.68,
+        "var_anual": -1.05,
+        "inc_mensual": null,
+        "inc_anual": null
+      },
+      {
+        "concepto": "Actividades secundarias",
+        "nivel": 1,
+        "var_mensual": 1.93,
+        "var_anual": 2.22,
+        "inc_mensual": null,
+        "inc_anual": null
+      },
+      {
+        "concepto": "Minería",
+        "nivel": 2,
+        "var_mensual": 11.91,
+        "var_anual": 19.7,
+        "inc_mensual": null,
+        "inc_anual": null
+      },
+      {
+        "concepto": "Energía / agua / gas",
+        "nivel": 2,
+        "var_mensual": 0.57,
+        "var_anual": -1.24,
+        "inc_mensual": null,
+        "inc_anual": null
+      },
+      {
+        "concepto": "Construcción",
+        "nivel": 2,
+        "var_mensual": 0.41,
+        "var_anual": 4.0,
+        "inc_mensual": null,
+        "inc_anual": null
+      },
+      {
+        "concepto": "Industrias manufactureras",
+        "nivel": 2,
+        "var_mensual": 1.29,
+        "var_anual": 0.48,
+        "inc_mensual": null,
+        "inc_anual": null
+      },
+      {
+        "concepto": "Actividades terciarias",
+        "nivel": 1,
+        "var_mensual": 0.99,
+        "var_anual": 4.15,
+        "inc_mensual": null,
+        "inc_anual": null
+      }
+    ]
+  },
+  "_productos": {
+    "periodo": "mar-26",
+    "fuente": "Boletín INPP 213/26 · INEGI",
+    "alza": [
+      {
+        "producto": "Petróleo crudo",
+        "var_mensual": 50.75,
+        "incidencia": 0.718
+      },
+      {
+        "producto": "Transporte aéreo de pasajeros",
+        "var_mensual": 28.98,
+        "incidencia": 0.174
+      },
+      {
+        "producto": "Aves",
+        "var_mensual": 28.25,
+        "incidencia": 0.103
+      },
+      {
+        "producto": "Combustóleo",
+        "var_mensual": 42.39,
+        "incidencia": 0.101
+      },
+      {
+        "producto": "Gasolina",
+        "var_mensual": 4.22,
+        "incidencia": 0.073
+      },
+      {
+        "producto": "Jitomate (incl. invernadero)",
+        "var_mensual": 31.41,
+        "incidencia": 0.058
+      },
+      {
+        "producto": "Diésel",
+        "var_mensual": 21.01,
+        "incidencia": 0.055
+      },
+      {
+        "producto": "Carne de ave en canal",
+        "var_mensual": 7.71,
+        "incidencia": 0.055
+      },
+      {
+        "producto": "Computadoras y accesorios",
+        "var_mensual": 2.24,
+        "incidencia": 0.039
+      },
+      {
+        "producto": "Turbosina",
+        "var_mensual": 45.38,
+        "incidencia": 0.032
+      }
+    ],
+    "baja": [
+      {
+        "producto": "Gas natural",
+        "var_mensual": -25.33,
+        "incidencia": -0.315
+      },
+      {
+        "producto": "Plata afinada",
+        "var_mensual": -2.06,
+        "incidencia": -0.025
+      },
+      {
+        "producto": "Motores a diésel",
+        "var_mensual": -3.79,
+        "incidencia": -0.016
+      },
+      {
+        "producto": "Ganado porcino",
+        "var_mensual": -7.46,
+        "incidencia": -0.015
+      },
+      {
+        "producto": "Agave tequilero",
+        "var_mensual": -12.03,
+        "incidencia": -0.008
+      },
+      {
+        "producto": "Lingote y plancha de acero",
+        "var_mensual": -7.25,
+        "incidencia": -0.008
+      },
+      {
+        "producto": "Maíz",
+        "var_mensual": -1.63,
+        "incidencia": -0.006
+      },
+      {
+        "producto": "Plantas y flores",
+        "var_mensual": -21.51,
+        "incidencia": -0.005
+      },
+      {
+        "producto": "Espárrago",
+        "var_mensual": -11.83,
+        "incidencia": -0.005
+      },
+      {
+        "producto": "Carne de porcino en canal",
+        "var_mensual": -1.36,
+        "incidencia": -0.004
+      }
+    ]
+  }
+}

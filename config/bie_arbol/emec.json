@@ -1,0 +1,3171 @@
+{
+  "_meta": {
+    "root_id": "562654",
+    "root_name": "EMEC base 2018",
+    "elapsed_s": 226.2,
+    "calls": 193,
+    "queue_restante": 0,
+    "indicadores": 269
+  },
+  "indicadores": {
+    "718488": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal no dependiente de la razón social ",
+        "Comercio al por mayor"
+      ]
+    },
+    "718489": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal no dependiente de la razón social ",
+        "Comercio al por mayor"
+      ]
+    },
+    "718494": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de remuneraciones totales",
+        "Comercio al por menor"
+      ]
+    },
+    "718495": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de remuneraciones totales",
+        "Comercio al por menor"
+      ]
+    },
+    "718490": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal no dependiente de la razón social ",
+        "Comercio al por menor"
+      ]
+    },
+    "718491": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal no dependiente de la razón social ",
+        "Comercio al por menor"
+      ]
+    },
+    "718492": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de remuneraciones totales",
+        "Comercio al por mayor"
+      ]
+    },
+    "718493": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de remuneraciones totales",
+        "Comercio al por mayor"
+      ]
+    },
+    "718484": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal ocupado dependiente de la razón social",
+        "Comercio al por mayor"
+      ]
+    },
+    "718485": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal ocupado dependiente de la razón social",
+        "Comercio al por mayor"
+      ]
+    },
+    "718482": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal ocupado total",
+        "Comercio al por menor"
+      ]
+    },
+    "718483": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal ocupado total",
+        "Comercio al por menor"
+      ]
+    },
+    "718480": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal ocupado total",
+        "Comercio al por mayor"
+      ]
+    },
+    "718481": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal ocupado total",
+        "Comercio al por mayor"
+      ]
+    },
+    "718486": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal ocupado dependiente de la razón social",
+        "Comercio al por menor"
+      ]
+    },
+    "718487": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de personal ocupado dependiente de la razón social",
+        "Comercio al por menor"
+      ]
+    },
+    "718496": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de remuneracion media",
+        "Comercio al por mayor"
+      ]
+    },
+    "718497": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de remuneracion media",
+        "Comercio al por mayor"
+      ]
+    },
+    "718500": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de sueldos pagados al personal remunerado",
+        "Comercio al por mayor"
+      ]
+    },
+    "718501": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de sueldos pagados al personal remunerado",
+        "Comercio al por mayor"
+      ]
+    },
+    "718502": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de sueldos pagados al personal remunerado",
+        "Comercio al por menor"
+      ]
+    },
+    "718503": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de sueldos pagados al personal remunerado",
+        "Comercio al por menor"
+      ]
+    },
+    "718498": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de remuneracion media",
+        "Comercio al por menor"
+      ]
+    },
+    "718499": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de remuneracion media",
+        "Comercio al por menor"
+      ]
+    },
+    "718508": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de ingresos por la compra-venta de mercancías sin transformación",
+        "Comercio al por mayor"
+      ]
+    },
+    "718509": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de ingresos por la compra-venta de mercancías sin transformación",
+        "Comercio al por mayor"
+      ]
+    },
+    "718506": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de ingresos totales por suministro de bienes y servicios",
+        "Comercio al por menor"
+      ]
+    },
+    "718507": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de ingresos totales por suministro de bienes y servicios",
+        "Comercio al por menor"
+      ]
+    },
+    "718510": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de ingresos por la compra-venta de mercancías sin transformación",
+        "Comercio al por menor"
+      ]
+    },
+    "718511": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de ingresos por la compra-venta de mercancías sin transformación",
+        "Comercio al por menor"
+      ]
+    },
+    "718504": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de ingresos totales por suministro de bienes y servicios",
+        "Comercio al por mayor"
+      ]
+    },
+    "718505": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de ingresos totales por suministro de bienes y servicios",
+        "Comercio al por mayor"
+      ]
+    },
+    "718516": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Mercancías compradas para su reventa sin transformación",
+        "Comercio al por mayor"
+      ]
+    },
+    "718517": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Mercancías compradas para su reventa sin transformación",
+        "Comercio al por mayor"
+      ]
+    },
+    "718518": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Mercancías compradas para su reventa sin transformación",
+        "Comercio al por menor"
+      ]
+    },
+    "718519": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Mercancías compradas para su reventa sin transformación",
+        "Comercio al por menor"
+      ]
+    },
+    "718512": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de gastos totales por consumo de bienes y servicios",
+        "Comercio al por mayor"
+      ]
+    },
+    "718513": {
+      "nombre": "43 Comercio al por mayor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de gastos totales por consumo de bienes y servicios",
+        "Comercio al por mayor"
+      ]
+    },
+    "718514": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de gastos totales por consumo de bienes y servicios",
+        "Comercio al por menor"
+      ]
+    },
+    "718515": {
+      "nombre": "46 Comercio al por menor",
+      "ruta": [
+        "EMEC base 2018",
+        "Series Originales",
+        "Índice de gastos totales por consumo de bienes y servicios",
+        "Comercio al por menor"
+      ]
+    },
+    "718935": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Remuneración media",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718936": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Remuneración media",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718937": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Remuneración media",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718926": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Personal ocupado total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718927": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Personal ocupado total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718933": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Remuneración media",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718934": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Remuneración media",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718938": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Remuneración media",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718939": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Remuneración media",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718928": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718929": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718930": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718931": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Personal ocupado total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718932": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Personal ocupado total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718527": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Remuneración media",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718528": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Remuneración media",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718532": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Remuneración media",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718533": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Remuneración media",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718529": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Remuneración media",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718530": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Remuneración media",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718531": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Remuneración media",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719369": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Mercancías compradas para su reventa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719370": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Mercancías compradas para su reventa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719371": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Mercancías compradas para su reventa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718520": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Personal ocupado total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718521": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Personal ocupado total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719372": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Mercancías compradas para su reventa",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719373": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Mercancías compradas para su reventa",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719367": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Mercancías compradas para su reventa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719368": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Mercancías compradas para su reventa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718525": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Personal ocupado total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718526": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Personal ocupado total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718522": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718523": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718524": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Personal ocupado total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718924": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Mercancías compradas para su venta",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718925": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Mercancías compradas para su venta",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718921": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Mercancías compradas para su venta",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718922": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Mercancías compradas para su venta",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718923": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Mercancías compradas para su venta",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718919": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Mercancías compradas para su venta",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718920": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Mercancías compradas para su venta",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718940": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Índice general",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718941": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Índice general",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718949": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718950": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718951": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718952": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718953": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718947": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718948": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718534": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Índice general",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718535": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Índice general",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718541": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718542": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718543": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718544": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718545": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "por entidad federativa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718536": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Índice general",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718537": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Índice general",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718538": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Índice general",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719318": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de ferretería, tlapalería y vidrios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719319": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de ferretería, tlapalería y vidrios",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719320": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de ferretería, tlapalería y vidrios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719321": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de ferretería, tlapalería y vidrios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719322": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de ferretería, tlapalería y vidrios",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719323": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de ferretería, tlapalería y vidrios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719324": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de ferretería, tlapalería y vidrios",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719362": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Exclusivamente a través de Internet, y catálogos impresos, televisión y similares",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719363": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Exclusivamente a través de Internet, y catálogos impresos, televisión y similares",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719364": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Exclusivamente a través de Internet, y catálogos impresos, televisión y similares",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719360": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Exclusivamente a través de Internet, y catálogos impresos, televisión y similares",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719361": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Exclusivamente a través de Internet, y catálogos impresos, televisión y similares",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719365": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Exclusivamente a través de Internet, y catálogos impresos, televisión y similares",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719366": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Exclusivamente a través de Internet, y catálogos impresos, televisión y similares",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719213": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719214": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719218": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719219": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719227": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Ropa, bisutería y accesorios de vestir",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719228": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Ropa, bisutería y accesorios de vestir",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719215": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719216": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719217": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719232": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Ropa, bisutería y accesorios de vestir",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719233": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Ropa, bisutería y accesorios de vestir",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719311": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Enseres domésticos, computadoras, artículos para la decoración de interiores y artículos usados",
+        "Artículos usados",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719312": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Enseres domésticos, computadoras, artículos para la decoración de interiores y artículos usados",
+        "Artículos usados",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719229": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Ropa, bisutería y accesorios de vestir",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719230": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Ropa, bisutería y accesorios de vestir",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719231": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Ropa, bisutería y accesorios de vestir",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719313": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Enseres domésticos, computadoras, artículos para la decoración de interiores y artículos usados",
+        "Artículos usados",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719314": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Enseres domésticos, computadoras, artículos para la decoración de interiores y artículos usados",
+        "Artículos usados",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719315": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Enseres domésticos, computadoras, artículos para la decoración de interiores y artículos usados",
+        "Artículos usados",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719316": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Enseres domésticos, computadoras, artículos para la decoración de interiores y artículos usados",
+        "Artículos usados",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719317": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Enseres domésticos, computadoras, artículos para la decoración de interiores y artículos usados",
+        "Artículos usados",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719225": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Productos textiles, excepto ropa",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719226": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Productos textiles, excepto ropa",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719222": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Productos textiles, excepto ropa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719223": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Productos textiles, excepto ropa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719224": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Productos textiles, excepto ropa",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719220": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Productos textiles, excepto ropa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719221": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Productos textiles, excepto ropa",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719234": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Calzado",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719235": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Calzado",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719260": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de perfumería y joyería",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719261": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de perfumería y joyería",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719257": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de perfumería y joyería",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719258": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de perfumería y joyería",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719259": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de perfumería y joyería",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719255": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de perfumería y joyería",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719256": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de perfumería y joyería",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719236": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Calzado",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719237": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Calzado",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719238": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Calzado",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719250": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719251": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719252": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719239": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Calzado",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719240": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos textiles, bisutería, accesorios de vestir y calzado",
+        "Calzado",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719248": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719249": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719262": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos para el esparcimiento",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719263": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos para el esparcimiento",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719267": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos para el esparcimiento",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719268": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos para el esparcimiento",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719253": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719254": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719264": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos para el esparcimiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719265": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos para el esparcimiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719266": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos para el esparcimiento",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719327": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719328": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719329": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719325": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719326": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719330": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719331": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719276": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Mascotas, regalos, artículos religiosos, desechables, artesanías y otros artículos de uso personal",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719277": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Mascotas, regalos, artículos religiosos, desechables, artesanías y otros artículos de uso personal",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719271": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719272": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719273": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719281": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Mascotas, regalos, artículos religiosos, desechables, artesanías y otros artículos de uso personal",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719282": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Mascotas, regalos, artículos religiosos, desechables, artesanías y otros artículos de uso personal",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719269": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719270": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719278": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Mascotas, regalos, artículos religiosos, desechables, artesanías y otros artículos de uso personal",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719279": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Mascotas, regalos, artículos religiosos, desechables, artesanías y otros artículos de uso personal",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719280": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Mascotas, regalos, artículos religiosos, desechables, artesanías y otros artículos de uso personal",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719332": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Automóviles y camionetas",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719333": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Automóviles y camionetas",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719274": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719275": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719334": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Automóviles y camionetas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719335": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Automóviles y camionetas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719336": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Automóviles y camionetas",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719337": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Automóviles y camionetas",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719338": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Automóviles y camionetas",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719341": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Partes y refacciones para automóviles, camionetas y camiones",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719342": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Partes y refacciones para automóviles, camionetas y camiones",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719343": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Partes y refacciones para automóviles, camionetas y camiones",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719344": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Partes y refacciones para automóviles, camionetas y camiones",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719345": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Partes y refacciones para automóviles, camionetas y camiones",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719353": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Combustibles, aceites y grasas lubricantes",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719354": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Combustibles, aceites y grasas lubricantes",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719339": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Partes y refacciones para automóviles, camionetas y camiones",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719340": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Partes y refacciones para automóviles, camionetas y camiones",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719355": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Combustibles, aceites y grasas lubricantes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719356": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Combustibles, aceites y grasas lubricantes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719357": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Combustibles, aceites y grasas lubricantes",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719348": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Motocicletas y otros vehículos de motor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719349": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Motocicletas y otros vehículos de motor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719350": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Motocicletas y otros vehículos de motor",
+        "Serie desestacionalizada"
+      ]
+    },
+    "719346": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Motocicletas y otros vehículos de motor",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719347": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Motocicletas y otros vehículos de motor",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "719358": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Combustibles, aceites y grasas lubricantes",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719359": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Combustibles, aceites y grasas lubricantes",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719351": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Motocicletas y otros vehículos de motor",
+        "Tendencia-ciclo"
+      ]
+    },
+    "719352": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por menor",
+        "Ingresos por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Vehículos de motor, refacciones, combustibles y lubricantes",
+        "Motocicletas y otros vehículos de motor",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718807": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de perfumería, cosméticos y joyería",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718808": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de perfumería, cosméticos y joyería",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718809": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de perfumería, cosméticos y joyería",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718810": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de perfumería, cosméticos y joyería",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718811": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de perfumería, cosméticos y joyería",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718812": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de perfumería, cosméticos y joyería",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718813": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de perfumería, cosméticos y joyería",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718805": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Productos farmacéuticos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718806": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Productos farmacéuticos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718793": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718794": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718800": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Productos farmacéuticos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718801": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Productos farmacéuticos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718802": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Productos farmacéuticos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718803": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Productos farmacéuticos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718804": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Productos farmacéuticos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718795": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718796": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718797": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718830": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Electrodomésticos menores y aparatos de línea blanca",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718831": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Electrodomésticos menores y aparatos de línea blanca",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718832": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Electrodomésticos menores y aparatos de línea blanca",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718828": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Electrodomésticos menores y aparatos de línea blanca",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718829": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Electrodomésticos menores y aparatos de línea blanca",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718798": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718799": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718821": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718822": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718823": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718824": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718825": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718833": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Electrodomésticos menores y aparatos de línea blanca",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718834": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Electrodomésticos menores y aparatos de línea blanca",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718826": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718827": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Artículos de papelería, libros, revistas y periódicos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718819": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Discos, juguetes y artículos deportivos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718820": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Discos, juguetes y artículos deportivos",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718905": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Intermediación de comercio al por mayor",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718906": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Intermediación de comercio al por mayor",
+        "total",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718816": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Discos, juguetes y artículos deportivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718817": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Discos, juguetes y artículos deportivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718818": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Discos, juguetes y artículos deportivos",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718814": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Discos, juguetes y artículos deportivos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718815": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+        "Discos, juguetes y artículos deportivos",
+        "Serie original corregida por efectos del calendario"
+      ]
+    },
+    "718910": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Intermediación de comercio al por mayor",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718911": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Intermediación de comercio al por mayor",
+        "total",
+        "Tendencia-ciclo"
+      ]
+    },
+    "718907": {
+      "nombre": "Índice",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Intermediación de comercio al por mayor",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718908": {
+      "nombre": "Variación mensual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Intermediación de comercio al por mayor",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    },
+    "718909": {
+      "nombre": "Variación anual",
+      "ruta": [
+        "EMEC base 2018",
+        "Series desestacionalizadas y tendencia-ciclo",
+        "Comercio al por mayor",
+        "Ingresos totales por suministros de bienes y servicios",
+        "Por rama de actividad económica",
+        "Intermediación de comercio al por mayor",
+        "total",
+        "Serie desestacionalizada"
+      ]
+    }
+  }
+}
