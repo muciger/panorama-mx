@@ -96,7 +96,7 @@ def capa1_datos_crudos(issues: IssueList) -> None:
     catalog = json.loads(catalog_path.read_text(encoding="utf-8"))["indicadores"]
     ids_catalog = {m["id"] for m in catalog}
 
-    existing = {f.stem for f in DATA_DIR.glob("*.json")} - {"catalog", "interpretations"}
+    existing = {f.stem for f in DATA_DIR.glob("*.json")} - {"catalog", "interpretations", "home_synthesis"}
     faltantes = ids_catalog - existing
     huerfanos = existing - ids_catalog
 
@@ -245,7 +245,12 @@ def capa4_cross_page(indicadores: dict, issues: IssueList) -> None:
             valores_idx[iid] = tds[3].get_text(strip=True)
 
     # Compara con detail stat_valor
+    # empleo_imss tiene página propia (imss_explorador.html como sección del sidebar)
+    # y no se genera un detail individual.
+    EXCLUDE_DETAIL = {"empleo_imss"}
     for iid in indicadores:
+        if iid in EXCLUDE_DETAIL:
+            continue
         det = SITE_DIR / "indicador" / f"{iid}.html"
         if not det.exists():
             issues.add(iid, 4, "error", f"site/indicador/{iid}.html no existe")
@@ -345,22 +350,25 @@ def capa6_interpretaciones(indicadores: dict, issues: IssueList) -> None:
         block = interps.get(iid, {})
         tipo = block.get("tipo", "")
         if tipo == "pendiente" or not tipo:
-            issues.add(iid, 6, "info", "Interpretación pendiente (sin tipo=auto)")
-        elif tipo == "auto":
-            modelo = block.get("modelo", "?")
+            issues.add(iid, 6, "info", "Interpretación pendiente (sin tipo=auto/auto_v2)")
+        elif tipo in ("auto", "auto_v2"):
+            modelo = block.get("modelo") or block.get("writer_provider") or "?"
             generado = block.get("generado_en", "?")
             basado_en = block.get("basado_en", "?")
-            if not block.get("mensaje"):
-                issues.add(iid, 6, "warning", "tipo=auto pero mensaje vacío")
+            has_content = block.get("mensaje") or block.get("headline") or block.get("diagnostico")
+            if not has_content:
+                issues.add(iid, 6, "warning", f"tipo={tipo} pero contenido vacío")
             else:
                 issues.add(iid, 6, "info",
-                           f"OK · {modelo} · generado {generado} · basado en {basado_en}")
+                           f"OK · {tipo} · {modelo} · generado {generado} · basado en {basado_en}")
 
     auto_count = sum(1 for v in interps.values()
-                     if isinstance(v, dict) and v.get("tipo") == "auto" and v.get("mensaje"))
+                     if isinstance(v, dict)
+                     and v.get("tipo") in ("auto", "auto_v2")
+                     and (v.get("mensaje") or v.get("headline") or v.get("diagnostico")))
     total = len(ids_esperados)
     issues.add("interpretations", 6, "info",
-               f"Cobertura: {auto_count}/{total} indicadores con interpretación auto")
+               f"Cobertura: {auto_count}/{total} indicadores con interpretación auto/auto_v2")
 
 
 # ---------- Main ----------

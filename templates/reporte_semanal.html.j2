@@ -6,153 +6,490 @@
 <title>Reporte semanal · Panorama MX</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-*,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;font-family:'Inter','Helvetica Neue',Arial,sans-serif;background:#F4F4F5;color:#18181B;line-height:1.5;-webkit-font-smoothing:antialiased;font-size:14px}
-a{color:inherit;text-decoration:none}
+/* ═══════════════════════════════════════════════════
+   WARM EDITORIAL — design tokens
+   ═══════════════════════════════════════════════════ */
+:root {
+  --paper:       #FAF7F2;
+  --ink:         #1C1A17;
+  --accent:      #C0512F;
+  --forest:      #2F5B4F;
+  --muted:       #8A817A;
+  --surface:     #FFFFFF;
+  --rule:        rgba(28,26,23,0.12);
+  --rule-strong: rgba(28,26,23,0.55);
+  --pos:         #2A6B43;
+  --neg:         #B83025;
+  --warn:        #8B5E20;
+  --serif: 'Playfair Display','Times New Roman',Georgia,serif;
+  --sans:  'Inter',-apple-system,system-ui,sans-serif;
+  --mono:  'JetBrains Mono',ui-monospace,monospace;
+}
 
-.page{max-width:880px;margin:0 auto;padding:32px 28px 56px}
+*,*::before,*::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--sans);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.skip-link { position: absolute; top: -40px; left: 0; z-index: 1000; background: var(--accent); color: #fff; padding: 10px 16px; font-weight: 600; font-size: 13px; border-radius: 0 0 6px 0; }
+.skip-link:focus { top: 0; }
+*:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-/* Nav */
-.rpt-nav{display:flex;gap:10px;margin-bottom:32px;align-items:center}
-.rpt-nav-back{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:#7C3AED;font-weight:500}
-.rpt-nav-back:hover{text-decoration:underline}
-.rpt-nav-print{margin-left:auto;display:inline-flex;align-items:center;gap:6px;padding:7px 16px;background:#18181B;color:#fff;border-radius:7px;font-size:12px;font-weight:600;cursor:pointer;border:none;font-family:inherit;letter-spacing:0.01em}
-.rpt-nav-print:hover{background:#27272A}
+.page { max-width: 860px; margin: 0 auto; padding: 32px 32px 64px; }
+
+/* Nav editorial: regreso al tablero + secciones del sitio */
+.rpt-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 22px;
+  flex-wrap: wrap;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+.rpt-nav-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--rule);
+  padding: 7px 13px;
+  border-radius: 6px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: all 0.12s;
+}
+.rpt-nav-back:hover { background: var(--ink); color: var(--paper); text-decoration: none; border-color: var(--ink); }
+.rpt-nav-back svg { width: 13px; height: 13px; flex-shrink: 0; }
+.rpt-nav-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11.5px;
+  font-family: var(--mono);
+  color: var(--muted);
+  padding: 6px 11px;
+  border-radius: 5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.12s;
+}
+.rpt-nav-section:hover { color: var(--accent); text-decoration: none; background: rgba(192,81,47,0.06); }
+.rpt-nav-section.current {
+  color: var(--ink);
+  font-weight: 600;
+  background: rgba(28,26,23,0.05);
+}
+.rpt-nav-section svg { width: 12px; height: 12px; flex-shrink: 0; opacity: 0.7; }
+.rpt-nav-print {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 6px;
+  font-size: 11.5px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  font-family: var(--sans);
+  letter-spacing: 0.02em;
+  transition: background 0.12s;
+}
+.rpt-nav-print:hover { background: #2E2B27; text-decoration: none; }
+.rpt-nav-print svg { flex-shrink: 0; }
+.rpt-nav-sep { color: var(--rule-strong); margin: 0 2px; font-size: 11px; }
 
 /* Header */
-.rpt-header{display:flex;justify-content:space-between;align-items:flex-start;padding-bottom:20px;border-bottom:2px solid #18181B;margin-bottom:28px}
-.rpt-brand-block{display:flex;align-items:center;gap:14px}
-.pmx-mark{width:40px;height:40px;background:#18181B;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.pmx-mark-text{font-size:13px;font-weight:700;color:#fff;letter-spacing:-0.02em;line-height:1}
-.pmx-mark-text span{color:#7C3AED}
-.rpt-brand-name{font-size:14px;font-weight:700;color:#18181B;letter-spacing:-0.01em}
-.rpt-brand-sub{font-size:10px;color:#71717A;text-transform:uppercase;letter-spacing:0.08em;margin-top:2px}
-.rpt-meta{text-align:right}
-.rpt-title{font-size:22px;font-weight:700;color:#18181B;letter-spacing:-0.02em;line-height:1.2}
-.rpt-semana{font-size:11px;color:#71717A;margin-top:4px;text-transform:uppercase;letter-spacing:0.05em}
+.rpt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 18px;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 20px;
+}
+.rpt-brand-block { display: flex; align-items: center; gap: 14px; }
+.pmx-mark {
+  width: 42px; height: 42px;
+  background: var(--ink);
+  border-radius: 7px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.pmx-mark-text {
+  font-family: var(--serif);
+  font-size: 14px; font-weight: 700;
+  color: var(--paper);
+  letter-spacing: -0.02em;
+  font-style: italic;
+  line-height: 1;
+}
+.pmx-mark-text span { color: var(--accent); font-style: normal; }
+.rpt-brand-name { font-size: 14.5px; font-weight: 600; color: var(--ink); letter-spacing: -0.01em; }
+.rpt-brand-sub {
+  font-size: 10px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.1em;
+  margin-top: 2px; font-family: var(--mono);
+}
+.rpt-meta { text-align: right; }
+.rpt-title {
+  font-family: var(--serif);
+  font-size: 24px; font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.02em; line-height: 1.2;
+  font-style: italic;
+}
+.rpt-semana {
+  font-size: 10.5px; color: var(--muted);
+  margin-top: 4px;
+  text-transform: uppercase; letter-spacing: 0.1em;
+  font-family: var(--mono);
+}
+
+/* Sub-nav anclas */
+.rpt-anchors {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0;
+}
+.rpt-anchors a {
+  font-size: 11px;
+  font-family: var(--mono);
+  color: var(--muted);
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 6px 12px 8px;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color 0.1s, border-color 0.1s;
+}
+.rpt-anchors a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
 /* Estado agregado */
-.estado-block{display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:10px;margin-bottom:24px;border:1px solid}
-.estado-rojo{background:#FEF2F2;border-color:#FECACA}
-.estado-amarillo{background:#FFFBEB;border-color:#FDE68A}
-.estado-verde{background:#F0FDF4;border-color:#BBF7D0}
-.estado-neutro{background:#F9FAFB;border-color:#E4E4E7}
-.estado-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
-.estado-rojo .estado-dot{background:#DC2626}
-.estado-amarillo .estado-dot{background:#D97706}
-.estado-verde .estado-dot{background:#16A34A}
-.estado-neutro .estado-dot{background:#A1A1AA}
-.estado-texto{font-size:13px;font-weight:700;color:#18181B}
-.estado-sep{color:#D1D5DB;margin:0 4px}
-.estado-detalle{font-size:12px;color:#71717A}
+.estado-block {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 20px;
+  border-radius: 8px; margin-bottom: 24px;
+  border-left: 4px solid;
+}
+.estado-rojo     { background: #FDF2EE; border-color: var(--neg); }
+.estado-amarillo { background: #FBF5EA; border-color: var(--warn); }
+.estado-verde    { background: #EFF6F1; border-color: var(--pos); }
+.estado-neutro   { background: #F5F3F0; border-color: var(--muted); }
+.estado-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.estado-rojo     .estado-dot { background: var(--neg); }
+.estado-amarillo .estado-dot { background: var(--warn); }
+.estado-verde    .estado-dot { background: var(--pos); }
+.estado-neutro   .estado-dot { background: var(--muted); }
+.estado-texto { font-size: 13.5px; font-weight: 600; color: var(--ink); font-family: var(--serif); }
+.estado-sep { color: var(--rule-strong); margin: 0 6px; }
+.estado-detalle { font-size: 12.5px; color: var(--muted); }
 
 /* Section labels */
-.section-label{font-size:10px;font-weight:700;color:#71717A;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:16px}
+.section-label {
+  font-size: 10px; font-weight: 500;
+  font-family: var(--mono); color: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.12em;
+  margin-bottom: 16px;
+  display: flex; align-items: center; gap: 10px;
+}
+.section-label::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
 
-/* Síntesis ejecutiva */
-.resumen-box{background:#18181B;border-radius:12px;padding:22px 24px;margin-bottom:32px}
-.resumen-header{font-size:10px;font-weight:700;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:16px}
-.resumen-grid{display:flex;flex-direction:column;gap:12px}
-.resumen-section{display:flex;gap:14px;align-items:flex-start}
-.resumen-section-left{display:flex;align-items:center;gap:8px;min-width:140px;flex-shrink:0}
-.resumen-tema-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:1px}
-.resumen-tema-name{font-size:12px;font-weight:600;color:rgba(255,255,255,0.9);white-space:nowrap}
-.resumen-dir{font-size:14px;margin-left:2px}
-.resumen-dir-up{color:#4ADE80}
-.resumen-dir-down{color:#F87171}
-.resumen-dir-flat{color:rgba(255,255,255,0.4)}
-.resumen-bullets{display:flex;flex-direction:column;gap:3px}
-.resumen-bullet-item{font-size:11.5px;color:rgba(255,255,255,0.65);line-height:1.4}
-.resumen-divider{height:1px;background:rgba(255,255,255,0.08);margin:4px 0}
+/* Síntesis ejecutiva — fondo claro, headlines en prosa */
+.resumen-box { background: var(--surface); border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 8px; padding: 22px 26px; margin-bottom: 28px; }
+.resumen-header { display: flex; flex-direction: column; gap: 4px; margin-bottom: 18px; }
+.resumen-header > span:first-child {
+  font-size: 11px; font-weight: 700; font-family: var(--mono);
+  color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em;
+}
+.resumen-sub { font-size: 12px; color: var(--muted); font-style: italic; }
+.resumen-grid { display: flex; flex-direction: column; gap: 18px; }
+.resumen-section { display: flex; flex-direction: column; gap: 8px; padding-bottom: 14px; border-bottom: 1px dashed var(--rule); }
+.resumen-section:last-child { border-bottom: none; padding-bottom: 0; }
+.resumen-section-head { display: flex; align-items: center; gap: 10px; }
+.resumen-tema-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.resumen-tema-name {
+  font-size: 11px; font-weight: 700;
+  color: var(--ink);
+  font-family: var(--mono);
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+.resumen-tema-count { font-size: 10.5px; color: var(--muted); font-family: var(--mono); letter-spacing: 0.02em; }
+.resumen-dir { font-size: 13px; margin-left: auto; line-height: 1; font-weight: 700; }
+.resumen-dir-up { color: var(--pos); }
+.resumen-dir-down { color: var(--neg); }
+.resumen-dir-flat { color: var(--muted); }
+.resumen-headlines { display: flex; flex-direction: column; gap: 12px; padding-left: 18px; }
+.resumen-headline-item { display: flex; flex-direction: column; gap: 3px; }
+.resumen-headline-item p { margin: 0; font-size: 13.5px; line-height: 1.55; color: var(--ink); font-weight: 500; }
+.resumen-headline-link { font-size: 11px; color: var(--accent); font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.04em; align-self: flex-start; }
+.resumen-headline-link:hover { text-decoration: underline; }
+.resumen-bullets { display: flex; flex-direction: column; gap: 4px; padding-left: 18px; }
+.resumen-bullet-item { font-size: 12.5px; color: var(--text-soft, #3C3830); line-height: 1.5; }
 
 /* Leyenda semáforo */
-.legend-row{display:flex;gap:16px;margin-bottom:24px;flex-wrap:wrap}
-.legend-item{display:flex;align-items:center;gap:6px;font-size:11px;color:#52525B}
-.legend-dot{width:8px;height:8px;border-radius:50%}
+.legend-row { display: flex; gap: 18px; margin-bottom: 18px; flex-wrap: wrap; }
+.legend-item {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 11px; color: var(--muted);
+  font-family: var(--mono); letter-spacing: 0.03em;
+}
+.legend-dot { width: 8px; height: 8px; }
 
-/* Cards de indicadores */
-.indic-list{display:flex;flex-direction:column;gap:10px;margin-bottom:36px}
-.indic-row{background:#fff;border:1px solid #E4E4E7;border-radius:10px;padding:20px 22px;display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:flex-start;min-height:110px}
-.indic-row.indic-priority{border-top:3px solid #18181B}
-.indic-row.indic-priority.alerta-rojo{border-top-color:#DC2626}
-.indic-row.indic-priority.alerta-amarillo{border-top-color:#D97706}
-.indic-row.indic-priority.alerta-verde{border-top-color:#16A34A}
-.semaforo{width:10px;height:10px;flex-shrink:0;margin-top:5px}
-/* Forma distinta por estado para daltonismo */
-.sem-verde{background:#16A34A;border-radius:50%}
-.sem-amarillo{background:#D97706;border-radius:2px;transform:rotate(45deg)}
-.sem-rojo{background:#DC2626;clip-path:polygon(50% 0%,0% 100%,100% 100%)}
-.sem-neutro{background:#A1A1AA;border-radius:2px}
-.indic-body{min-width:0}
-.indic-nombre{font-size:13.5px;font-weight:600;color:#18181B;margin-bottom:4px}
-.indic-meta{font-size:10px;color:#A1A1AA;display:flex;gap:10px;flex-wrap:wrap;margin-bottom:6px}
-.indic-meta-pub{color:#71717A}
-.indic-context{font-size:12.5px;color:#3F3F46;line-height:1.55}
-.indic-vals{text-align:right;flex-shrink:0;min-width:140px}
-.indic-valor{font-size:26px;font-weight:700;letter-spacing:-0.03em;color:#18181B;line-height:0.95}
-.indic-delta{font-size:11px;font-weight:600;margin-top:6px}
-.delta-pos{color:#16A34A}
-.delta-neg{color:#DC2626}
-.delta-neu{color:#71717A}
-.indic-unidad{font-size:10px;color:#71717A;font-weight:400;margin-top:3px}
-.indic-spark{margin-top:10px;line-height:0}
-.indic-spark svg{opacity:0.88}
+/* Encabezado de grupo de tema */
+.indic-tema-header {
+  display: flex; align-items: center; gap: 10px;
+  margin: 20px 0 8px;
+}
+.indic-tema-header:first-child { margin-top: 0; }
+.indic-tema-label {
+  font-size: 10px; font-weight: 500;
+  font-family: var(--mono); color: var(--forest);
+  text-transform: uppercase; letter-spacing: 0.12em;
+  white-space: nowrap;
+}
+.indic-tema-rule { flex: 1; height: 1px; background: var(--rule); }
+.indic-tema-count {
+  font-size: 10px; font-family: var(--mono);
+  color: var(--muted); letter-spacing: 0.03em;
+}
+
+/* Cards de indicadores (filas clickables al detalle) */
+.indic-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
+.indic-row {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 18px 22px;
+  display: grid;
+  grid-template-columns: 10px 1fr 150px;
+  grid-template-rows: auto auto;
+  column-gap: 16px;
+  row-gap: 0;
+  align-items: start;
+}
+.indic-row-link { text-decoration: none; color: inherit; transition: border-color .12s, box-shadow .12s, transform .12s; }
+.indic-row-link:hover { border-color: var(--accent); box-shadow: 0 1px 6px rgba(192,81,47,0.08); text-decoration: none; }
+.indic-row-link:hover .indic-nombre { color: var(--accent); }
+.indic-row-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.indic-row.indic-priority { border-top: 3px solid var(--ink); }
+.indic-row.indic-priority.alerta-rojo    { border-top-color: var(--neg); }
+.indic-row.indic-priority.alerta-amarillo { border-top-color: var(--warn); }
+.indic-row.indic-priority.alerta-verde   { border-top-color: var(--pos); }
+
+.semaforo { width: 10px; height: 10px; flex-shrink: 0; margin-top: 5px; grid-row: 1; }
+.sem-verde    { background: var(--pos);  border-radius: 50%; }
+.sem-amarillo { background: var(--warn); border-radius: 2px; transform: rotate(45deg); }
+.sem-rojo     { background: var(--neg);  clip-path: polygon(50% 0%,0% 100%,100% 100%); }
+.sem-neutro   { background: var(--muted); border-radius: 2px; }
+
+.indic-body { min-width: 0; grid-column: 2; grid-row: 1; }
+.indic-nombre { font-size: 13.5px; font-weight: 600; color: var(--ink); margin-bottom: 3px; letter-spacing: -0.01em; }
+.indic-meta {
+  font-size: 10px; font-family: var(--mono);
+  color: var(--muted);
+  display: flex; gap: 10px; flex-wrap: wrap;
+  margin-bottom: 6px;
+  letter-spacing: 0.03em; text-transform: uppercase;
+}
+.indic-meta-pub { color: var(--accent); }
+.indic-context { font-size: 12.5px; color: #3C3830; line-height: 1.6; }
+
+.indic-vals { text-align: right; grid-column: 3; grid-row: 1; }
+.indic-valor {
+  font-family: var(--serif);
+  font-size: 30px; font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  line-height: 1;
+  font-feature-settings: 'tnum';
+}
+.indic-unidad {
+  font-size: 10px; font-family: var(--mono);
+  color: var(--muted);
+  letter-spacing: 0.06em; text-transform: uppercase;
+  margin-top: 4px;
+}
+.indic-delta {
+  font-size: 11px; font-family: var(--mono);
+  font-weight: 500; margin-top: 5px;
+  letter-spacing: 0.03em;
+}
+.delta-pos { color: var(--pos); }
+.delta-neg { color: var(--neg); }
+.delta-neu { color: var(--muted); }
+
+/* Sparkline full-width bajo el contenido */
+.indic-spark {
+  grid-column: 2 / 4;
+  grid-row: 2;
+  padding-top: 12px;
+  margin-top: 10px;
+  border-top: 1px solid var(--rule);
+  line-height: 0;
+}
+.indic-spark svg {
+  width: 100% !important;
+  height: 38px !important;
+  display: block;
+}
 
 /* Sin publicaciones */
-.empty-state{background:#FAFAFA;border:1px solid #E4E4E7;border-radius:10px;padding:24px;text-align:center;color:#71717A;font-size:13px;margin-bottom:32px}
+.empty-state {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 24px; text-align: center;
+  color: var(--muted); font-size: 13px;
+  font-family: var(--mono); letter-spacing: 0.03em;
+  margin-bottom: 32px;
+}
 
-/* Próximas publicaciones */
-.proximas-grupos{display:flex;flex-direction:column;gap:20px;margin-bottom:36px}
-.prox-grupo-label{font-size:10px;font-weight:700;color:#7C3AED;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px}
-.proximas-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
-.prox-card{background:#fff;border:1px solid #E4E4E7;border-radius:8px;padding:12px 14px}
-.prox-fecha{font-size:10px;color:#7C3AED;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px}
-.prox-nombre{font-size:12px;font-weight:600;color:#18181B;line-height:1.35}
-.prox-freq{font-size:10px;color:#71717A;margin-top:2px}
+/* Timeline de próximas publicaciones */
+.proximas-grupos { display: flex; flex-direction: column; gap: 24px; margin-bottom: 40px; }
+.prox-grupo-label {
+  font-size: 10px; font-weight: 500;
+  font-family: var(--mono); color: var(--forest);
+  text-transform: uppercase; letter-spacing: 0.1em;
+  margin-bottom: 10px;
+}
+.prox-timeline {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.prox-tl-col {
+  min-width: 148px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.prox-tl-date {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 7px 7px 0 0;
+  border-bottom: 2px solid var(--accent);
+  padding: 8px 12px 7px;
+}
+.prox-tl-dia {
+  display: block;
+  font-size: 9px; font-family: var(--mono);
+  color: var(--accent);
+  text-transform: uppercase; letter-spacing: 0.12em;
+  margin-bottom: 1px;
+}
+.prox-tl-num {
+  display: block;
+  font-family: var(--serif);
+  font-size: 18px; font-weight: 600;
+  color: var(--ink); line-height: 1.1;
+}
+.prox-tl-item {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-top: none;
+  padding: 9px 12px;
+}
+.prox-tl-col > .prox-tl-item:last-child {
+  border-radius: 0 0 7px 7px;
+}
+.prox-tl-nombre { font-size: 11.5px; font-weight: 500; color: var(--ink); line-height: 1.35; }
+.prox-tl-freq {
+  font-size: 10px; font-family: var(--mono);
+  color: var(--muted); margin-top: 2px;
+  letter-spacing: 0.03em;
+}
 
 /* Footer */
-.rpt-footer{border-top:1px solid #E4E4E7;margin-top:40px;padding-top:20px;font-size:10px;color:#71717A;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.rpt-footer {
+  border-top: 1px solid var(--rule);
+  margin-top: 48px; padding-top: 18px;
+  font-size: 10px; font-family: var(--mono);
+  color: var(--muted);
+  display: flex; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap;
+  letter-spacing: 0.03em;
+}
 
 /* Mobile */
-@media(max-width:640px){
-  .page{padding:20px 16px 40px}
-  .indic-row{grid-template-columns:auto 1fr;gap:12px}
-  .indic-vals{grid-column:2;text-align:left;margin-top:8px}
-  .indic-valor{font-size:22px}
-  .rpt-header{flex-direction:column;gap:12px}
-  .rpt-meta{text-align:left}
-  .resumen-section{flex-direction:column;gap:4px}
-  .resumen-section-left{min-width:unset}
+@media (max-width: 640px) {
+  .page { padding: 20px 18px 40px; }
+  .indic-row { grid-template-columns: 10px 1fr; column-gap: 12px; }
+  .indic-vals { grid-column: 2; text-align: left; margin-top: 8px; }
+  .indic-spark { grid-column: 2 / 3; }
+  .indic-valor { font-size: 26px; }
+  .rpt-header { flex-direction: column; gap: 14px; }
+  .rpt-meta { text-align: left; }
+  .resumen-section { flex-direction: column; gap: 5px; }
+  .resumen-section-left { min-width: unset; }
+  .prox-timeline { flex-direction: column; }
+  .prox-tl-col { min-width: unset; }
 }
 
 /* Print */
-@media print{
-  body{background:#fff;font-size:12px}
-  .page{padding:16px 20px;max-width:none}
-  .rpt-nav{display:none}
-  .indic-row{break-inside:avoid;border-radius:0;margin-bottom:6px}
-  .prox-card{break-inside:avoid}
-  .resumen-box{background:#18181B !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-  .estado-block{break-inside:avoid}
-  a[href]::after{content:none}
+@media print {
+  body { background: var(--surface); font-size: 12px; }
+  .page { padding: 16px 20px; max-width: none; }
+  .rpt-nav, .rpt-anchors { display: none; }
+  .indic-row { break-inside: avoid; border-radius: 0; margin-bottom: 6px; }
+  .prox-tl-col { break-inside: avoid; }
+  .resumen-box { background: var(--ink) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .estado-block { break-inside: avoid; }
+  .indic-spark svg { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  a[href]::after { content: none; }
 }
 </style>
 </head>
 <body>
+<a href="#rpt-main" class="skip-link">Saltar al contenido</a>
 <div class="page">
 
-  <nav class="rpt-nav">
-    <a class="rpt-nav-back" href="{{ asset_prefix }}index.html">← Volver al tablero</a>
-    <button class="rpt-nav-print" onclick="window.print()">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v8H6z"/></svg>
-      Imprimir / PDF
-    </button>
+  <nav class="rpt-nav" aria-label="Navegación principal">
+    <a class="rpt-nav-back" href="{{ asset_prefix }}index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12l9-9 9 9M5 10v10h14V10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Inicio
+    </a>
+    <span class="rpt-nav-sep">·</span>
+    <a class="rpt-nav-section current" href="{{ asset_prefix }}reporte_semanal.html" aria-current="page">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z M14 2v6h6M16 13H8M16 17H8" stroke-linecap="round"/></svg>
+      Reporte semanal
+    </a>
+    <a class="rpt-nav-section" href="{{ asset_prefix }}comparar.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Comparar
+    </a>
+    <a class="rpt-nav-section" href="{{ asset_prefix }}imss_explorador.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Empleo IMSS
+    </a>
+    <a class="rpt-nav-print" href="{{ asset_prefix }}reporte_semanal_completo.html?print=1">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></svg>
+      Descargar PDF
+    </a>
   </nav>
 
-  <header class="rpt-header">
+  <header class="rpt-header" id="rpt-main" tabindex="-1">
     <div class="rpt-brand-block">
       <div class="pmx-mark"><div class="pmx-mark-text">P<span>MX</span></div></div>
       <div>
@@ -166,39 +503,62 @@ a{color:inherit;text-decoration:none}
     </div>
   </header>
 
+  {# Sub-nav con anclas #}
+  <nav class="rpt-anchors" aria-label="Secciones del reporte">
+    <a href="#estado">Estado</a>
+    <a href="#sintesis">Síntesis</a>
+    <a href="#publicaciones">Publicaciones</a>
+    {% if proximas_grupos %}<a href="#proximas">Próximas</a>{% endif %}
+  </nav>
+
   {# Estado agregado #}
-  <div class="estado-block estado-{{ estado_agregado.alerta }}">
+  <div id="estado" class="estado-block estado-{{ estado_agregado.alerta }}">
     <div class="estado-dot"></div>
     <span class="estado-texto">{{ estado_agregado.texto }}</span>
     <span class="estado-sep">·</span>
     <span class="estado-detalle">{{ estado_agregado.detalle }}</span>
   </div>
 
-  {# Síntesis ejecutiva #}
+  {# Síntesis ejecutiva — lecturas en lenguaje plano usando headlines del writer+verifier #}
   {% if resumen_sections %}
-  <div class="resumen-box">
-    <div class="resumen-header">Síntesis ejecutiva</div>
+  <div id="sintesis" class="resumen-box">
+    <div class="resumen-header">
+      <span>Síntesis ejecutiva de la semana</span>
+      <span class="resumen-sub">Lectura por tema. Ordenado por severidad.</span>
+    </div>
     <div class="resumen-grid">
       {% for sec in resumen_sections %}
-      {% if not loop.first %}<div class="resumen-divider"></div>{% endif %}
       <div class="resumen-section">
-        <div class="resumen-section-left">
-          <div class="resumen-tema-dot sem-{{ sec.alerta }}"></div>
+        <div class="resumen-section-head">
+          <span class="resumen-tema-dot sem-{{ sec.alerta }}"></span>
           <span class="resumen-tema-name">{{ sec.tema }}</span>
-          <span class="resumen-dir {% if sec.dir == '↑' %}resumen-dir-up{% elif sec.dir == '↓' %}resumen-dir-down{% else %}resumen-dir-flat{% endif %}">{{ sec.dir }}</span>
+          <span class="resumen-tema-count">{{ sec.n_indicadores }} indicador{{ 'es' if sec.n_indicadores != 1 else '' }}</span>
+          <span class="resumen-dir {% if sec.dir == '↑' %}resumen-dir-up{% elif sec.dir == '↓' %}resumen-dir-down{% else %}resumen-dir-flat{% endif %}" aria-hidden="true">{{ sec.dir }}</span>
         </div>
+        {% if sec.headlines %}
+        <div class="resumen-headlines">
+          {% for h in sec.headlines %}
+          <div class="resumen-headline-item">
+            <p>{{ h.texto }}</p>
+            <a class="resumen-headline-link" href="{{ asset_prefix }}{{ 'imss_explorador.html' if h.id == 'empleo_imss' else 'indicador/' ~ h.id ~ '.html' }}">{{ h.indicador }} →</a>
+          </div>
+          {% endfor %}
+        </div>
+        {% elif sec.bullets %}
         <div class="resumen-bullets">
           {% for b in sec.bullets %}
           <div class="resumen-bullet-item">{{ b.texto }}</div>
           {% endfor %}
         </div>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
   </div>
   {% endif %}
 
-  <div class="section-label">Publicaciones recientes · {{ n_publicados }} indicador{{ 'es' if n_publicados != 1 else '' }}</div>
+  {# Publicaciones recientes agrupadas por tema #}
+  <div id="publicaciones" class="section-label">Publicaciones recientes · {{ n_publicados }} indicador{{ 'es' if n_publicados != 1 else '' }}</div>
 
   {% if not publicados %}
   <div class="empty-state">No se identificaron publicaciones de INEGI en los últimos 14 días.</div>
@@ -209,15 +569,22 @@ a{color:inherit;text-decoration:none}
     <div class="legend-item"><div class="legend-dot sem-rojo" role="img" aria-label="triángulo rojo"></div>Fuera de banda</div>
     <div class="legend-item"><div class="legend-dot sem-neutro" role="img" aria-label="cuadrado gris"></div>Sin umbral</div>
   </div>
+
+  {% for grp in publicados_by_tema %}
+  <div class="indic-tema-header">
+    <span class="indic-tema-label">{{ grp.tema }}</span>
+    <span class="indic-tema-rule"></span>
+    <span class="indic-tema-count">{{ grp.inds | length }}</span>
+  </div>
   <div class="indic-list">
-    {% for ind in publicados %}
-    <div class="indic-row{% if ind.is_priority %} indic-priority alerta-{{ ind.alerta }}{% endif %}">
+    {% for ind in grp.inds %}
+    <a class="indic-row indic-row-link{% if ind.is_priority %} indic-priority alerta-{{ ind.alerta }}{% endif %}" href="{{ asset_prefix }}{{ 'imss_explorador.html' if ind.id == 'empleo_imss' else 'indicador/' ~ ind.id ~ '.html' }}">
       <div class="semaforo sem-{{ ind.alerta }}" role="img" aria-label="Estado: {{ {'verde':'En parámetro','amarillo':'Vigilancia','rojo':'Fuera de banda','neutro':'Sin umbral'}[ind.alerta] if ind.alerta in ['verde','amarillo','rojo','neutro'] else ind.alerta }}"></div>
       <div class="indic-body">
         <div class="indic-nombre">{{ ind.nombre }}</div>
         <div class="indic-meta">
-          <span>{{ ind.categoria | capitalize }}{% if ind.frecuencia %} · {{ ind.frecuencia | capitalize }}{% endif %}{% if ind.periodo_ref %} · {{ ind.periodo_ref }}{% endif %}</span>
-          {% if ind.fecha_pub %}<span class="indic-meta-pub">Publicado {{ ind.fecha_pub }}</span>{% endif %}
+          <span>{% if ind.frecuencia %}{{ ind.frecuencia | capitalize }}{% endif %}{% if ind.periodo_ref %} · {{ ind.periodo_ref }}{% endif %}</span>
+          {% if ind.fecha_pub %}<span class="indic-meta-pub">{{ ind.fecha_pub }}</span>{% endif %}
         </div>
         {% if ind.contexto %}
         <div class="indic-context">{{ ind.contexto }}</div>
@@ -231,30 +598,38 @@ a{color:inherit;text-decoration:none}
         <div class="indic-delta {{ 'delta-pos' if ind.delta_sign == '+' else 'delta-neg' if ind.delta_sign == '-' else 'delta-neu' }}">{{ ind.stat_delta }}</div>
         {% endif %}
         {% else %}
-        <div class="indic-valor" style="font-size:14px;color:#71717A;font-weight:500">Vista<br>tabular</div>
-        {% endif %}
-        {% if ind.sparkline_svg %}
-        <div class="indic-spark">{{ ind.sparkline_svg | safe }}</div>
+        <div class="indic-valor" style="font-size:13px;color:var(--muted);font-weight:500">Vista<br>tabular</div>
         {% endif %}
       </div>
-    </div>
+      {% if ind.sparkline_svg %}
+      <div class="indic-spark">{{ ind.sparkline_svg | safe }}</div>
+      {% endif %}
+    </a>
     {% endfor %}
   </div>
+  {% endfor %}
   {% endif %}
 
-  {# Próximas publicaciones con agrupación temporal #}
+  {# Timeline de próximas publicaciones #}
   {% if proximas_grupos %}
-  <div class="section-label" style="margin-top:4px">Próximas publicaciones · {{ proximas | length }} en los próximos 14 días</div>
+  <div id="proximas" class="section-label" style="margin-top:28px">Próximas publicaciones · {{ proximas | length }} en los próximos 14 días</div>
   <div class="proximas-grupos">
     {% for grupo in proximas_grupos %}
     <div>
       <div class="prox-grupo-label">{{ grupo.label }}</div>
-      <div class="proximas-grid">
-        {% for p in grupo.publicaciones %}
-        <div class="prox-card">
-          <div class="prox-fecha">{{ p.fecha_display }}</div>
-          <div class="prox-nombre">{{ p.nombre }}</div>
-          <div class="prox-freq">{{ p.frecuencia | capitalize }}</div>
+      <div class="prox-timeline">
+        {% for fecha_iso, fecha_items in grupo.publicaciones | groupby('fecha_iso') %}
+        <div class="prox-tl-col">
+          <div class="prox-tl-date">
+            <span class="prox-tl-dia">{{ fecha_items | first | attr('dia_semana') }}</span>
+            <span class="prox-tl-num">{{ fecha_items | first | attr('fecha_display') }}</span>
+          </div>
+          {% for p in fecha_items %}
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">{{ p.nombre }}</div>
+            {% if p.frecuencia %}<div class="prox-tl-freq">{{ p.frecuencia | capitalize }}</div>{% endif %}
+          </div>
+          {% endfor %}
         </div>
         {% endfor %}
       </div>

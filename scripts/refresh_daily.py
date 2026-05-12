@@ -39,6 +39,35 @@ logging.basicConfig(
 log = logging.getLogger("refresh")
 
 
+def _verificar_calendar_fresco(max_dias: int = 2) -> None:
+    """Verifica que config/calendar.json esté generado en los últimos max_dias.
+    Solo loguea warning si está desactualizado. No aborta."""
+    import json
+    from datetime import date
+    cal_path = ROOT / "config" / "calendar.json"
+    if not cal_path.exists():
+        log.warning("calendar.json NO existe después del sync")
+        return
+    try:
+        cal = json.loads(cal_path.read_text(encoding="utf-8"))
+        gen = cal.get("_generado")
+        if not gen:
+            log.warning("calendar.json sin campo _generado")
+            return
+        gen_d = date.fromisoformat(gen)
+        dias = (date.today() - gen_d).days
+        if dias > max_dias:
+            log.warning(
+                "calendar.json tiene %d días de antigüedad (>%d). "
+                "Verifica que calendar_sync se haya ejecutado correctamente.",
+                dias, max_dias
+            )
+        else:
+            log.info("    calendar.json fresco · generado %s (%d días)", gen, dias)
+    except Exception as exc:
+        log.warning("No pude verificar frescura del calendar: %s", exc)
+
+
 def run_step(label: str, cmd: list[str], optional: bool = False) -> bool:
     """Corre un subcomando y reporta tiempo. Devuelve True si OK, False si falla."""
     log.info("→ %s", label)
@@ -81,11 +110,15 @@ def main(argv: list[str] | None = None) -> int:
     pass_count = 0
     fail_count = 0
 
-    # 1. Calendar sync
+    # 1. Calendar sync (CRÍTICO: si falla, el reporte semanal queda desactualizado).
+    # calendar_sync.py maneja internamente fallas de red usando cache existente,
+    # solo retorna error si no hay cache disponible.
     if not args.skip_calendar:
-        ok = run_step("calendar_sync (ICS oficial)", [sys.executable, str(SCRIPTS / "calendar_sync.py")], optional=True)
+        ok = run_step("calendar_sync (ICS oficial)", [sys.executable, str(SCRIPTS / "calendar_sync.py")])
         pass_count += int(ok)
         fail_count += int(not ok)
+        if ok:
+            _verificar_calendar_fresco()
 
     # 2. Ingest BIE
     if not args.skip_bie:

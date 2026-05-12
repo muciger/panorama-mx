@@ -1,0 +1,164 @@
+{
+  "_meta": {
+    "fuente": "Destilado del documento Seguimiento_coyuntura_080526_V3_1.docx",
+    "uso": "Inyectado en la prompt de generate_interpretations.py. El modelo usa la columna 'plano' al escribir, pero puede mencionar el término técnico si va seguido de su versión plana.",
+    "audiencia": "Subsecretaría de Economía, no académica."
+  },
+  "acronimos": {
+    "IGAE": {
+      "expansion": "Indicador Global de Actividad Económica",
+      "que_mide": "qué tan rápido está creciendo la actividad económica del país mes a mes, considerando los tres grandes sectores: primario, industrial y servicios"
+    },
+    "FBCF": {
+      "expansion": "Formación Bruta de Capital Fijo",
+      "que_mide": "la inversión que realizan empresas y gobierno en maquinaria, equipo, plantas y construcción"
+    },
+    "INPC": {
+      "expansion": "Índice Nacional de Precios al Consumidor",
+      "que_mide": "cuánto cambian en promedio los precios de los bienes y servicios que consumen los hogares"
+    },
+    "INPP": {
+      "expansion": "Índice Nacional de Precios al Productor",
+      "que_mide": "cómo cambian los precios que enfrentan los productores nacionales por sus insumos y por lo que venden"
+    },
+    "IMCP": {
+      "expansion": "Indicador Mensual del Consumo Privado",
+      "que_mide": "el gasto que realizan los hogares en bienes y servicios"
+    },
+    "ENOE": {
+      "expansion": "Encuesta Nacional de Ocupación y Empleo",
+      "que_mide": "cuántas personas trabajan, cuántas buscan trabajo y bajo qué condiciones laborales"
+    },
+    "ENCO": {
+      "expansion": "Encuesta Nacional sobre Confianza del Consumidor",
+      "que_mide": "la percepción de los hogares sobre su situación económica actual y futura, y sobre la del país"
+    },
+    "EMIM": {
+      "expansion": "Encuesta Mensual de la Industria Manufacturera",
+      "que_mide": "la producción, ventas y empleo de las empresas manufactureras del país"
+    },
+    "ENEC": {
+      "expansion": "Encuesta Nacional de Empresas Constructoras",
+      "que_mide": "el valor de la producción de las empresas dedicadas a la construcción"
+    },
+    "EMOE": {
+      "expansion": "Encuesta Mensual de Opinión Empresarial",
+      "que_mide": "la percepción de empresarios manufactureros sobre la situación actual y esperada de sus negocios"
+    },
+    "IPM": {
+      "expansion": "Indicador de Pedidos Manufactureros",
+      "que_mide": "si los pedidos a las empresas manufactureras están creciendo o cayendo. Un valor superior a 50 puntos indica expansión"
+    },
+    "IAT": {
+      "expansion": "Indicador Agregado de Tendencia",
+      "que_mide": "una visión combinada de pedidos, producción, personal e inventarios en la industria manufacturera"
+    },
+    "ICE": {
+      "expansion": "Indicador de Confianza Empresarial",
+      "que_mide": "qué tan optimistas o pesimistas están los empresarios sobre la situación económica. Por encima de 50 puntos refleja optimismo"
+    },
+    "IOAE": {
+      "expansion": "Indicador Oportuno de la Actividad Económica",
+      "que_mide": "una estimación anticipada del IGAE antes de la publicación oficial"
+    },
+    "PIB": {
+      "expansion": "Producto Interno Bruto",
+      "que_mide": "el valor total de los bienes y servicios producidos en el país en un periodo"
+    },
+    "ICC": {
+      "expansion": "Índice de Confianza del Consumidor",
+      "que_mide": "la percepción que tienen los hogares sobre su situación económica actual y futura"
+    }
+  },
+  "terminos_macro": {
+    "variacion_anual": {
+      "tecnico": "variación interanual",
+      "plano": "cambio respecto al mismo periodo del año pasado"
+    },
+    "variacion_mensual": {
+      "tecnico": "variación mensual",
+      "plano": "cambio respecto al mes anterior"
+    },
+    "variacion_real": {
+      "tecnico": "variación real",
+      "plano": "cambio descontando inflación"
+    },
+    "tipo_cambio_apreciado": {
+      "tecnico": "apreciación del tipo de cambio nominal",
+      "plano": "peso relativamente apreciado frente al dólar"
+    },
+    "tipo_cambio_depreciado": {
+      "tecnico": "depreciación del tipo de cambio",
+      "plano": "peso debilitado frente al dólar"
+    },
+    "holgura_economica": {
+      "tecnico": "brecha del producto positiva, output gap",
+      "plano": "holgura en la economía, es decir, menor utilización de capacidad productiva"
+    },
+    "demanda_agregada": {
+      "tecnico": "demanda agregada",
+      "plano": "demanda total de bienes y servicios en la economía"
+    },
+    "inflacion_subyacente": {
+      "tecnico": "inflación subyacente",
+      "plano": "inflación sin considerar los productos cuyos precios son más volátiles (energía y algunos agropecuarios)"
+    },
+    "tasa_referencia": {
+      "tecnico": "tasa objetivo, tasa de referencia",
+      "plano": "tasa que cobra Banco de México, define qué tan caro está el crédito en la economía"
+    },
+    "punto_porcentual": {
+      "tecnico": "p.p., pp",
+      "plano": "puntos porcentuales"
+    },
+    "movimiento_extremo": {
+      "tecnico": "z = +2.5σ, outlier",
+      "plano": "movimiento inusualmente fuerte, raras veces visto"
+    },
+    "terreno_expansivo": {
+      "tecnico": "índice de difusión > 50",
+      "plano": "terreno expansivo, por encima del nivel que normalmente separa expansión de contracción"
+    },
+    "terreno_contractivo": {
+      "tecnico": "índice de difusión < 50",
+      "plano": "terreno de contracción, por debajo del umbral que separa expansión y caída"
+    },
+    "balanza_comercial": {
+      "tecnico": "saldo de la balanza comercial",
+      "plano": "diferencia entre lo que México vende al extranjero y lo que compra"
+    },
+    "exportaciones_no_petroleras": {
+      "tecnico": "exportaciones no petroleras",
+      "plano": "ventas al exterior que no incluyen petróleo crudo ni derivados"
+    },
+    "permanente_imss": {
+      "tecnico": "trabajadores asegurados permanentes",
+      "plano": "trabajadores con contrato estable registrados ante el IMSS"
+    }
+  },
+  "conectores_recomendados": [
+    "Los datos más recientes muestran",
+    "En términos prácticos, esto implica",
+    "Esto es importante porque",
+    "Esto sugiere que",
+    "Lo que muestran los datos recientes es que",
+    "Esto confirma que",
+    "Sin embargo, este dinamismo no se ha traducido en",
+    "Estos resultados son consistentes con",
+    "Particularmente importante es",
+    "Al mismo tiempo",
+    "La persistencia de estos factores resulta relevante porque",
+    "La divergencia entre ambos sugiere"
+  ],
+  "frases_a_evitar": [
+    "en conclusión",
+    "para cerrar",
+    "en resumen",
+    "cabe destacar",
+    "es importante mencionar",
+    "no solo... sino también",
+    "asimismo",
+    "ad hoc",
+    "stricto sensu"
+  ]
+}

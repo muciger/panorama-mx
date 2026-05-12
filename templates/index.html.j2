@@ -1,135 +1,268 @@
 {% extends "base.html.j2" %}
 {% block content %}
 
-<section class="hero-section">
-  <header class="hero-head">
-    <div>
-      <h1 class="hero-title">Panorama económico de México</h1>
-      <p class="hero-sub">Indicadores económicos del INEGI con datos vivos del BIE. Refresh diario, desagregaciones sectoriales y por entidad.</p>
-    </div>
-    <a href="comparar.html" class="hero-personalize">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span>Análisis comparativos</span>
-    </a>
-  </header>
+{# ─── HERO INSTITUCIONAL ───────────────────────────────────────────────── #}
+<header class="h2-page-header">
+  <div class="h2-page-eyebrow">Secretaría de Economía · {{ topbar_fecha }}</div>
+  <h1 class="h2-page-title">Panorama MX, indicadores económicos clave</h1>
+  <p class="h2-page-sub">32 series oficiales BIE-INEGI, consulta permanente. Actividad, precios, empleo, automotriz, sector externo, regional y sentimiento.</p>
+</header>
 
-  <div class="kpi-grid">
-    {% for k in kpis %}
-    <a class="kpi-card" href="{{ asset_prefix }}indicador/{{ k.id }}.html" aria-label="Ver detalle de {{ k.etiqueta }}">
-      <div class="kpi-icon-wrap" style="background:{{ k.icon_color }}1A;color:{{ k.icon_color }}">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">{{ k.icon_svg | safe }}</svg>
-      </div>
-      <div class="kpi-meta">
-        <div class="kpi-label">{{ k.etiqueta }}</div>
-        <div class="kpi-periodo">{{ k.periodo_label }}</div>
-      </div>
-      <div class="kpi-valor-row">
-        <span class="kpi-valor" style="color:{{ k.color_valor }}">{{ k.valor_fmt }}</span>
-        <span class="kpi-unidad">{{ k.unidad }}</span>
-      </div>
-      <div class="kpi-unidad-label">{{ k.etiqueta_unidad }}</div>
-      {% if k.hom_pct is defined %}
-      <div class="kpi-genero">
-        <span class="kpi-genero-hom">♂ {{ k.hom_pct }}%</span>
-        <span class="kpi-genero-sep">·</span>
-        <span class="kpi-genero-muj">♀ {{ k.muj_pct }}%</span>
-      </div>
-      {% else %}
-      <div class="kpi-delta">
-        <span class="kpi-delta-arrow kpi-arrow-{{ k.delta_dir }}">{{ k.delta_arrow }}</span>
-        <span class="kpi-delta-text">{{ k.delta_texto }}</span>
-        <span class="kpi-delta-vs">vs. {{ k.delta_periodo_label }}</span>
-      </div>
-      {% endif %}
+{# ─── PUBLICACIONES DE HOY ─────────────────────────────────────────────── #}
+<div class="h2-pub-strip">
+  <div class="h2-pub-head">
+    <span class="h2-pub-title">
+      Publicaciones de hoy
+      <span class="h2-pub-count">{{ publicaciones | length }}</span>
+    </span>
+    <a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener" class="h2-pub-link">
+      Ver calendario →
+    </a>
+  </div>
+  <div class="h2-pub-chips">
+    {% if not publicaciones %}
+    <div class="h2-pub-empty">
+      Sin publicaciones programadas hoy.
+      <a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener">Ver calendario INEGI →</a>
+    </div>
+    {% endif %}
+    {% for p in publicaciones %}
+    <a class="h2-pub-chip" href="{{ asset_prefix }}{{ 'imss_explorador.html' if p.iid == 'empleo_imss' else 'indicador/' ~ p.iid ~ '.html' }}">
+      <span class="h2-chip-hora">{{ p.hora }}</span>
+      <span class="h2-chip-name">{{ p.nombre }}</span>
+      <span class="h2-chip-badge {% if p.es_hoy %}badge-pub{% else %}badge-prog{% endif %}">
+        {% if p.es_hoy %}● Publicado{% else %}○ Programado{% endif %}
+      </span>
     </a>
     {% endfor %}
   </div>
-</section>
+</div>
 
-<div class="content-grid">
-  <section class="pub-card">
-    <header class="card-head">
-      <h2 class="card-title">Publicaciones de hoy <span class="card-counter">{{ publicaciones | length }}</span></h2>
-      <a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener" class="card-action">Ver calendario INEGI</a>
-    </header>
-    <div class="pub-list">
-      {% if not publicaciones %}
-      <div style="padding:20px 12px;text-align:center;color:#71717A;font-size:12.5px;background:#FAFAFA;border:1px solid #F4F4F5;border-radius:8px">
-        Sin publicaciones programadas para hoy.
-        <br><a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener" style="color:#7C3AED;font-weight:500;margin-top:4px;display:inline-block">Ver calendario INEGI →</a>
+{# ─── HERO CHART ────────────────────────────────────────────────────────── #}
+{% if hero %}
+<div class="h2-hero">
+  <div class="h2-hero-left">
+    <div>
+      <div class="h2-hero-eyebrow">Actividad económica global · IGAE</div>
+      <div class="h2-hero-number {% if hero.delta_dir == 'up' %}pos{% elif hero.delta_dir == 'down' %}neg{% endif %}">
+        {{ hero.valor_fmt }}<span class="h2-hero-unit">%</span>
       </div>
-      {% endif %}
-      {% for p in publicaciones %}
-      <a class="pub-item" href="{{ asset_prefix }}indicador/{{ p.iid }}.html">
-        <div class="pub-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9zM14 3v6h6M9 13h6M9 17h6" stroke-width="2"/></svg>
-        </div>
-        <div class="pub-content">
-          <div class="pub-hora">{{ p.hora }}</div>
-          <div class="pub-nombre">{{ p.nombre }}</div>
-          <div class="pub-periodo">{{ p.fecha_label }}</div>
-        </div>
-        <div class="pub-actions">
-          <span class="pub-badge {% if p.es_hoy %}pub-publicado{% else %}pub-programado{% endif %}">{% if p.es_hoy %}Publicado{% else %}Programado{% endif %}</span>
-          <svg class="pub-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg>
-        </div>
-      </a>
-      {% endfor %}
+      <div class="h2-hero-name">Variación anual</div>
+      <div class="h2-hero-period">{{ hero.periodo_label }}</div>
     </div>
-    <a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener" class="card-foot-link">Ver calendario completo en INEGI <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 4h6v6M10 14L20 4M19 13v6a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-  </section>
+    <div class="h2-hero-delta {% if hero.delta_dir == 'up' %}pos{% elif hero.delta_dir == 'down' %}neg{% endif %}">
+      {% if hero.delta_dir == 'up' %}↑{% elif hero.delta_dir == 'down' %}↓{% else %}→{% endif %}
+      {{ hero.delta_fmt }} respecto al periodo anterior
+    </div>
+  </div>
+  <div class="h2-hero-right">
+    <div class="h2-chart-label">IGAE — 24 MESES · VAR. %</div>
+    <svg viewBox="0 0 580 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-svg-title">
+      <title id="hero-svg-title">{{ hero.aria_label }}</title>
+      <defs>
+        <linearGradient id="hero-grad-pos" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#16A34A" stop-opacity="0.15"/>
+          <stop offset="100%" stop-color="#16A34A" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="hero-grad-neg" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#DC2626" stop-opacity="0"/>
+          <stop offset="100%" stop-color="#DC2626" stop-opacity="0.12"/>
+        </linearGradient>
+      </defs>
+      <line x1="20" y1="10" x2="560" y2="10" stroke="#E4E4E7" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <line x1="20" y1="37" x2="560" y2="37" stroke="#E4E4E7" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <line x1="20" y1="64" x2="560" y2="64" stroke="#E4E4E7" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <line x1="20" y1="100" x2="560" y2="100" stroke="#E4E4E7" stroke-width="1"/>
+      {% if hero.y_zero is not none %}
+      <line x1="20" y1="{{ hero.y_zero }}" x2="560" y2="{{ hero.y_zero }}"
+            stroke="#52525B" stroke-width="1" stroke-dasharray="5,3"/>
+      <text x="14" y="{{ hero.y_zero|float + 3 }}"
+            font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9" fill="#52525B" text-anchor="end">{{ hero.y_zero_label }}</text>
+      {% endif %}
+      <text x="14" y="13" font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9" fill="#71717A" text-anchor="end">{{ hero.ymax_fmt }}</text>
+      <text x="14" y="100" font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9" fill="#71717A" text-anchor="end">{{ hero.ymin_fmt }}</text>
+      {% if hero.pts %}
+      <path d="M {{ hero.pts }} L560,100 L20,100 Z"
+            fill="url(#hero-grad-{% if hero.delta_dir == 'up' %}pos{% else %}neg{% endif %})" />
+      <polyline points="{{ hero.pts }}"
+        fill="none"
+        stroke="{% if hero.delta_dir == 'up' %}#16A34A{% elif hero.delta_dir == 'down' %}#DC2626{% else %}#71717A{% endif %}"
+        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="{{ hero.last_x }}" cy="{{ hero.last_y }}" r="4"
+        fill="{% if hero.delta_dir == 'up' %}#16A34A{% elif hero.delta_dir == 'down' %}#DC2626{% else %}#71717A{% endif %}"/>
+      <circle cx="{{ hero.last_x }}" cy="{{ hero.last_y }}" r="7"
+        fill="none"
+        stroke="{% if hero.delta_dir == 'up' %}#16A34A{% elif hero.delta_dir == 'down' %}#DC2626{% else %}#71717A{% endif %}"
+        stroke-width="1" opacity="0.3"/>
+      {% endif %}
+      {% for lbl in hero.x_labels %}
+      <text x="{{ lbl.x }}" y="122"
+            font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9"
+            fill="{% if lbl.is_last %}#7C3AED{% else %}#71717A{% endif %}"
+            text-anchor="middle"
+            {% if lbl.is_last %}font-weight="500"{% endif %}>{{ lbl.label }}</text>
+      {% endfor %}
+    </svg>
+  </div>
+</div>
+{% endif %}
 
-  <section class="indic-card">
-    <header class="card-head">
-      <h2 class="card-title">Indicadores económicos</h2>
-    </header>
-    <div class="indic-toolbar">
-      <div class="indic-search">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
-        <input id="tbl-search-v3" type="search" placeholder="Buscar indicador" aria-label="Buscar indicador">
+{# ─── KPI STRIP ─────────────────────────────────────────────────────────── #}
+<div class="h2-kpi-strip">
+  {% for k in kpis %}
+  <a class="h2-kpi-tile" href="{{ asset_prefix }}{{ 'imss_explorador.html' if k.id == 'empleo_imss' else 'indicador/' ~ k.id ~ '.html' }}"
+     aria-label="Ver detalle de {{ k.etiqueta }}">
+    <div class="h2-kpi-k">{{ k.etiqueta }}</div>
+    <div class="h2-kpi-v {% if k.delta_dir == 'up' %}pos{% elif k.delta_dir == 'down' %}neg{% endif %}">
+      {{ k.valor_fmt }}<span class="h2-kpi-u">{% if k.unidad != "%" %}{{ k.unidad }}{% endif %}</span>
+    </div>
+    {% if k.hom_pct is defined %}
+    <div class="h2-kpi-genero">
+      <span class="h2-kpi-hom">♂ {{ k.hom_pct }}%</span>
+      <span>·</span>
+      <span class="h2-kpi-muj">♀ {{ k.muj_pct }}%</span>
+    </div>
+    {% else %}
+    <div class="h2-kpi-d {% if k.delta_dir == 'up' %}pos{% elif k.delta_dir == 'down' %}neg{% endif %}">
+      {{ k.delta_arrow }} {{ k.delta_texto }}
+    </div>
+    {% endif %}
+    <div class="h2-kpi-period">{{ k.periodo_label }}</div>
+    {% if k.spark_svg %}
+    <div class="h2-kpi-spark">{{ k.spark_svg | safe }}</div>
+    {% endif %}
+  </a>
+  {% endfor %}
+</div>
+
+{# ─── CATEGORY GROUPS ───────────────────────────────────────────────────── #}
+<div class="h2-section-row">
+  <span class="h2-section-title">Indicadores por categoría</span>
+  <span class="h2-section-sub">32 series · BIE-INEGI</span>
+</div>
+<div class="h2-cat-grid">
+  {% for grp in cat_groups %}
+  <div class="h2-cat-card">
+    <div class="h2-cat-head">
+      <span class="h2-cat-name">{{ grp.nombre }}</span>
+      <span class="h2-cat-n">{{ grp.rows | length }}</span>
+    </div>
+    {% for r in grp.rows %}
+    <a class="h2-cat-row" href="{{ asset_prefix }}{{ r.href if r.href else 'indicador/' ~ r.iid ~ '.html' }}"
+       aria-label="{{ r.nombre }}">
+      <span class="h2-cat-row-name">{{ r.nombre }}</span>
+      <span class="h2-cat-row-val {% if r.delta_dir == 'up' %}pos{% elif r.delta_dir == 'down' %}neg{% endif %}">
+        {{ r.valor_fmt }}
+      </span>
+      <span class="h2-cat-row-d {% if r.delta_dir == 'up' %}pos{% elif r.delta_dir == 'down' %}neg{% endif %}">
+        {{ r.delta_fmt }}
+      </span>
+      <div class="h2-cat-row-spark">{{ r.spark_svg | safe }}</div>
+    </a>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
+
+{# ─── TABLA COMPLETA + LATERAL ──────────────────────────────────────────── #}
+<div class="h2-section-row">
+  <span class="h2-section-title">Todos los indicadores</span>
+  <a href="comparar.html" class="h2-section-link">Ver análisis comparativos →</a>
+</div>
+<div class="h2-bottom-layout">
+
+  <div class="h2-tbl-card">
+    <div class="h2-tbl-head">
+      <span class="h2-tbl-title">Indicadores económicos</span>
+      <div class="h2-tbl-actions">
+        <div class="indic-search" style="min-width:160px">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" stroke-width="2"/>
+            <path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input id="tbl-search-v3" type="search" placeholder="Buscar" aria-label="Buscar indicador">
+        </div>
+        <select id="tbl-cat-filter" class="indic-btn" aria-label="Filtrar por categoría"
+                style="appearance:auto;padding-right:10px">
+          <option value="">Todas</option>
+          {% set cats_seen = [] %}
+          {% for r in tabla_rows %}
+            {% if r.categoria and r.categoria not in cats_seen %}
+              {% set _ = cats_seen.append(r.categoria) %}
+              <option value="{{ r.categoria }}">{{ r.categoria | capitalize }}</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+        <a href="{{ asset_prefix }}data/tabla_resumen.csv" download class="indic-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <path d="M12 4v12M7 11l5 5 5-5M5 20h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          CSV
+        </a>
       </div>
-      <select id="tbl-cat-filter" class="indic-btn" aria-label="Filtrar por categoría" style="appearance:auto;padding-right:10px">
-        <option value="">Todas las categorías</option>
-        {% set cats_seen = [] %}
-        {% for r in tabla_rows %}
-          {% if r.categoria and r.categoria not in cats_seen %}
-            {% set _ = cats_seen.append(r.categoria) %}
-            <option value="{{ r.categoria }}">{{ r.categoria | capitalize }}</option>
-          {% endif %}
-        {% endfor %}
-      </select>
-      <a href="{{ asset_prefix }}data/tabla_resumen.csv" download class="indic-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 4v12M7 11l5 5 5-5M5 20h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <span>Descargar</span>
-      </a>
     </div>
     <div class="indic-tbl-wrap">
       <table class="indic-tbl" id="indic-tbl-v3">
         <thead>
-          <tr><th>Indicador</th><th>Periodo</th><th class="num">Valor</th><th class="num">Variación</th><th>Tendencia</th></tr>
+          <tr>
+            <th>Indicador</th>
+            <th>Periodo</th>
+            <th class="num">Valor</th>
+            <th class="num">Variación</th>
+          </tr>
         </thead>
         <tbody>
           {% for r in tabla_rows %}
-          <tr data-nombre="{{ r.nombre|lower }}" data-categoria="{{ r.categoria }}" onclick="location.href='{{ asset_prefix }}indicador/{{ r.iid }}.html'">
-            <td><strong>{{ r.nombre }}</strong></td>
+          <tr class="indic-row" data-nombre="{{ r.nombre|lower }}" data-categoria="{{ r.categoria }}">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="{{ asset_prefix }}{{ r.href if r.href else 'indicador/' ~ r.iid ~ '.html' }}"
+                 aria-label="Ver detalle de {{ r.nombre }}">
+                <strong>{{ r.nombre }}</strong>
+              </a>
+            </td>
             <td class="muted">{{ r.periodo_label }}</td>
             <td class="num">{{ r.valor_fmt }}</td>
             <td class="num">
               <div class="cell-delta delta-{{ r.delta_dir }}">
-                <span class="delta-arrow">{{ r.delta_arrow }}</span>
+                <span class="delta-arrow" aria-hidden="true">{{ r.delta_arrow }}</span>
                 <span>{{ r.delta_fmt }}</span>
               </div>
               <div class="delta-sub">{{ r.var_label }}</div>
             </td>
-            <td><canvas class="tabla-spark" id="spark-tbl-{{ r.iid }}" width="120" height="32"></canvas></td>
           </tr>
           {% endfor %}
         </tbody>
       </table>
     </div>
-    <a href="comparar.html" class="card-foot-link card-foot-center">Ver análisis comparativos <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg></a>
-  </section>
+  </div>
+
+  <div class="h2-side-col">
+    <div class="h2-side-card">
+      <div class="h2-side-head">Próximas publicaciones</div>
+      {% if publicaciones %}
+        {% for p in publicaciones %}
+        <a class="h2-side-row" href="{{ asset_prefix }}{{ 'imss_explorador.html' if p.iid == 'empleo_imss' else 'indicador/' ~ p.iid ~ '.html' }}">
+          <div>
+            <div class="h2-side-name">{{ p.nombre }}</div>
+            <div class="h2-side-sub">{{ p.fecha_label }}</div>
+          </div>
+          <span class="h2-side-badge {% if p.es_hoy %}badge-pub{% else %}badge-prog{% endif %}">
+            {% if p.es_hoy %}Hoy{% else %}Próx.{% endif %}
+          </span>
+        </a>
+        {% endfor %}
+      {% else %}
+        <div class="h2-side-empty">Sin publicaciones próximas.</div>
+      {% endif %}
+      <a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener"
+         class="h2-side-foot">Ver calendario completo →</a>
+    </div>
+  </div>
+
 </div>
 
-<script id="page-data-v3" type="application/json">{{ sparks_json | safe }}</script>
 {% endblock %}

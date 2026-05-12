@@ -24,7 +24,7 @@
     "Hombres",
     "Mujeres"
   ],
-  "ultima_actualizacion": "2026-05-05",
+  "ultima_actualizacion": "2026-05-11",
   "proxima_actualizacion_manual": null,
   "periodos": [
     "ene-19",
@@ -113,7 +113,8 @@
     "dic-25",
     "ene-26",
     "feb-26",
-    "mar-26"
+    "mar-26",
+    "abr-26"
   ],
   "series": [
     {
@@ -811,71 +812,79 @@
       "Eventuales": 2986489,
       "Hombres": 13553536,
       "Mujeres": 9171065
+    },
+    {
+      "Periodo": "abr-26",
+      "Total": 22748603,
+      "Permanentes": 19763238,
+      "Eventuales": 2985365,
+      "Hombres": 13564786,
+      "Mujeres": 9183739
     }
   ],
   "series_sector": [
     {
       "Sector": "Manufactura",
       "cve_sector": 3,
-      "Total": 5915535,
+      "Total": 5928122,
       "Var_mensual": 0.21,
-      "Var_anual": -2.12
+      "Var_anual": -1.69
     },
     {
       "Sector": "Servicios para Empresas",
       "cve_sector": 8,
-      "Total": 4946593,
-      "Var_mensual": 0.7,
-      "Var_anual": 1.91
+      "Total": 4956126,
+      "Var_mensual": 0.19,
+      "Var_anual": 2.11
     },
     {
       "Sector": "Comercio",
       "cve_sector": 6,
-      "Total": 4880827,
-      "Var_mensual": -0.49,
-      "Var_anual": 3.36
+      "Total": 4877699,
+      "Var_mensual": -0.06,
+      "Var_anual": 3.06
     },
     {
       "Sector": "Servicios Sociales y Comunales",
       "cve_sector": 9,
-      "Total": 2455262,
-      "Var_mensual": 0.3,
-      "Var_anual": 0.74
+      "Total": 2457546,
+      "Var_mensual": 0.09,
+      "Var_anual": 1.08
     },
     {
       "Sector": "Transportes y Comunicaciones",
       "cve_sector": 7,
-      "Total": 1739353,
-      "Var_mensual": -0.43,
-      "Var_anual": 10.01
+      "Total": 1752047,
+      "Var_mensual": 0.73,
+      "Var_anual": 10.94
     },
     {
       "Sector": "Construcción",
       "cve_sector": 4,
-      "Total": 1734687,
-      "Var_mensual": 0.22,
-      "Var_anual": -0.67
+      "Total": 1751965,
+      "Var_mensual": 1.0,
+      "Var_anual": 0.51
     },
     {
       "Sector": "Agricultura",
       "cve_sector": 0,
-      "Total": 763396,
-      "Var_mensual": 0.53,
-      "Var_anual": -3.93
+      "Total": 735991,
+      "Var_mensual": -3.59,
+      "Var_anual": -3.39
     },
     {
       "Sector": "Electricidad y Agua",
       "cve_sector": 5,
-      "Total": 161858,
-      "Var_mensual": 0.89,
-      "Var_anual": 2.14
+      "Total": 161572,
+      "Var_mensual": -0.18,
+      "Var_anual": 1.43
     },
     {
       "Sector": "Extractivas",
       "cve_sector": 1,
-      "Total": 127169,
-      "Var_mensual": 0.89,
-      "Var_anual": -0.27
+      "Total": 127535,
+      "Var_mensual": 0.29,
+      "Var_anual": 0.84
     }
   ],
   "series_nacional_yoy": {
@@ -954,7 +963,8 @@
       "dic-25",
       "ene-26",
       "feb-26",
-      "mar-26"
+      "mar-26",
+      "abr-26"
     ],
     "var_anual": [
       1.57,
@@ -1031,7 +1041,8 @@
       1.25,
       0.88,
       1.16,
-      1.16
+      1.16,
+      1.48
     ]
   },
   "series_sector_yoy": {
@@ -1111,7 +1122,8 @@
         "dic-25",
         "ene-26",
         "feb-26",
-        "mar-26"
+        "mar-26",
+        "abr-26"
       ],
       "var_anual": [
         2.3,
@@ -1188,7 +1200,8 @@
         -3.94,
         -3.38,
         -3.59,
-        -3.93
+        -3.93,
+        -3.39
       ],
       "cve_sector": 0
     },
@@ -1268,7 +1281,8 @@
         "dic-25",
         "ene-26",
         "feb-26",
-        "mar-26"
+        "mar-26",
+        "abr-26"
       ],
       "var_anual": [
         -0.64,
@@ -1345,7 +1359,8 @@
         -4.53,
         -2.41,
         -1.32,
-        -0.27
+        -0.27,
+        0.84
       ],
       "cve_sector": 1
     },
@@ -1425,7 +1440,8 @@
         "dic-25",
         "ene-26",
         "feb-26",
-        "mar-26"
+        "mar-26",
+        "abr-26"
       ],
       "var_anual": [
         0.12,
@@ -1502,7 +1518,8 @@
         -2.13,
         -2.14,
         -2.19,
-        -2.12
+        -2.12,
+        -1.69
       ],
       "cve_sector": 3
     },
@@ -1582,7 +1599,8 @@
         "dic-25",
         "ene-26",
         "feb-26",
-        "mar-26"
+        "mar-26",
+        "abr-26"
       ],
       "var_anual": [
         -1.39,
@@ -1659,7 +1677,8 @@
         -2.28,
         -2.07,
         -1.42,
-        -0.67
+        -0.67,
+        0.51
       ],
       "cve_sector": 4
     },
@@ -1739,7 +1758,8 @@
         "dic-25",
         "ene-26",
         "feb-26",
-        "mar-26"
+        "mar-26",
+        "abr-26"
       ],
       "var_anual": [
         0.05,
@@ -1816,7 +1836,8 @@
         2.05,
         2.22,
         1.58,
-        2.14
+        2.14,
+        1.43
       ],
       "cve_sector": 5
     },
@@ -1896,7 +1917,8 @@
         "dic-25",
         "ene-26",
         "feb-26",
-        "mar-26"
+        "mar-26",
+        "abr-26"
       ],
       "var_anual": [
         2.37,
@@ -1973,7 +1995,8 @@
         3.1,
         3.64,
         3.94,
-        3.36
+        3.36,
+        3.06
       ],
       "cve_sector": 6
     },
@@ -2053,7 +2076,8 @@
         "dic-25",
         "ene-26",
         "feb-26",
-        "mar-26"
+        "mar-26",
+        "abr-26"
       ],
       "var_anual": [
         5.68,
@@ -2130,7 +2154,8 @@
         13.73,
         9.69,
         11.0,
-        10.01
+        10.01,
+        10.94
       ],
       "cve_sector": 7
     },
@@ -2210,7 +2235,8 @@
         "dic-25",
         "ene-26",
         "feb-26",
-        "mar-26"
+        "mar-26",
+        "abr-26"
       ],
       "var_anual": [
         2.13,
@@ -2287,7 +2313,8 @@
         1.55,
         0.84,
         1.29,
-        1.91
+        1.91,
+        2.11
       ],
       "cve_sector": 8
     },
@@ -2367,7 +2394,8 @@
         "dic-25",
         "ene-26",
         "feb-26",
-        "mar-26"
+        "mar-26",
+        "abr-26"
       ],
       "var_anual": [
         2.57,
@@ -2444,7 +2472,8 @@
         1.55,
         1.0,
         0.98,
-        0.74
+        0.74,
+        1.08
       ],
       "cve_sector": 9
     }
@@ -2453,264 +2482,876 @@
     {
       "Entidad": "Ciudad de México",
       "_geo": "09",
-      "Total": 3636987,
-      "Var_anual": 4.92,
-      "Participacion": 16.0,
-      "_periodo": "mar-26"
+      "Total": 3613283,
+      "Var_anual": 4.09,
+      "Participacion": 15.88,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Jalisco",
       "_geo": "14",
-      "Total": 2061532,
-      "Var_anual": 0.33,
-      "Participacion": 9.07,
-      "_periodo": "mar-26"
+      "Total": 2072796,
+      "Var_anual": 1.07,
+      "Participacion": 9.11,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "México",
       "_geo": "15",
-      "Total": 2005563,
-      "Var_anual": 5.48,
-      "Participacion": 8.83,
-      "_periodo": "mar-26"
+      "Total": 2061625,
+      "Var_anual": 8.08,
+      "Participacion": 9.06,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Nuevo León",
       "_geo": "19",
-      "Total": 1964088,
-      "Var_anual": 0.67,
-      "Participacion": 8.64,
-      "_periodo": "mar-26"
+      "Total": 1972897,
+      "Var_anual": 1.28,
+      "Participacion": 8.67,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Guanajuato",
       "_geo": "11",
-      "Total": 1127415,
-      "Var_anual": 0.19,
-      "Participacion": 4.96,
-      "_periodo": "mar-26"
+      "Total": 1132045,
+      "Var_anual": 0.56,
+      "Participacion": 4.98,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Baja California",
       "_geo": "02",
-      "Total": 1049556,
-      "Var_anual": 2.41,
-      "Participacion": 4.62,
-      "_periodo": "mar-26"
+      "Total": 1031023,
+      "Var_anual": 0.98,
+      "Participacion": 4.53,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Chihuahua",
       "_geo": "08",
-      "Total": 963465,
-      "Var_anual": -0.76,
+      "Total": 963518,
+      "Var_anual": -0.75,
       "Participacion": 4.24,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Coahuila",
       "_geo": "05",
-      "Total": 845532,
-      "Var_anual": -2.76,
-      "Participacion": 3.72,
-      "_periodo": "mar-26"
+      "Total": 857988,
+      "Var_anual": -1.04,
+      "Participacion": 3.77,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Veracruz",
       "_geo": "30",
-      "Total": 779054,
-      "Var_anual": -0.37,
-      "Participacion": 3.43,
-      "_periodo": "mar-26"
+      "Total": 776075,
+      "Var_anual": -0.61,
+      "Participacion": 3.41,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Querétaro",
       "_geo": "22",
-      "Total": 726766,
-      "Var_anual": 1.15,
-      "Participacion": 3.2,
-      "_periodo": "mar-26"
+      "Total": 724269,
+      "Var_anual": 0.97,
+      "Participacion": 3.18,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Tamaulipas",
       "_geo": "28",
-      "Total": 680475,
-      "Var_anual": -2.39,
+      "Total": 681107,
+      "Var_anual": -2.14,
       "Participacion": 2.99,
-      "_periodo": "mar-26"
-    },
-    {
-      "Entidad": "Sonora",
-      "_geo": "26",
-      "Total": 667771,
-      "Var_anual": 0.1,
-      "Participacion": 2.94,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Puebla",
       "_geo": "21",
-      "Total": 659282,
-      "Var_anual": -0.95,
-      "Participacion": 2.9,
-      "_periodo": "mar-26"
+      "Total": 662933,
+      "Var_anual": 0.31,
+      "Participacion": 2.91,
+      "_periodo": "abr-26"
+    },
+    {
+      "Entidad": "Sonora",
+      "_geo": "26",
+      "Total": 653097,
+      "Var_anual": -0.28,
+      "Participacion": 2.87,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Sinaloa",
       "_geo": "25",
-      "Total": 594944,
-      "Var_anual": -1.87,
-      "Participacion": 2.62,
-      "_periodo": "mar-26"
+      "Total": 587920,
+      "Var_anual": -2.1,
+      "Participacion": 2.58,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Quintana Roo",
       "_geo": "23",
-      "Total": 527238,
-      "Var_anual": 0.04,
-      "Participacion": 2.32,
-      "_periodo": "mar-26"
+      "Total": 524348,
+      "Var_anual": -0.77,
+      "Participacion": 2.3,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Michoacán",
       "_geo": "16",
-      "Total": 501480,
-      "Var_anual": 1.96,
-      "Participacion": 2.21,
-      "_periodo": "mar-26"
+      "Total": 494173,
+      "Var_anual": 0.02,
+      "Participacion": 2.17,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "San Luis Potosí",
       "_geo": "24",
-      "Total": 484725,
-      "Var_anual": -1.33,
-      "Participacion": 2.13,
-      "_periodo": "mar-26"
+      "Total": 486094,
+      "Var_anual": -0.21,
+      "Participacion": 2.14,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Yucatán",
       "_geo": "31",
-      "Total": 434758,
-      "Var_anual": -1.21,
+      "Total": 435170,
+      "Var_anual": -0.92,
       "Participacion": 1.91,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Aguascalientes",
       "_geo": "01",
-      "Total": 365354,
-      "Var_anual": -0.1,
+      "Total": 365965,
+      "Var_anual": 0.17,
       "Participacion": 1.61,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Hidalgo",
       "_geo": "13",
-      "Total": 290880,
-      "Var_anual": 2.76,
+      "Total": 291580,
+      "Var_anual": 2.49,
       "Participacion": 1.28,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Durango",
       "_geo": "10",
-      "Total": 263599,
-      "Var_anual": 1.33,
-      "Participacion": 1.16,
-      "_periodo": "mar-26"
+      "Total": 265740,
+      "Var_anual": 1.5,
+      "Participacion": 1.17,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Chiapas",
       "_geo": "07",
-      "Total": 261010,
-      "Var_anual": -0.37,
-      "Participacion": 1.15,
-      "_periodo": "mar-26"
+      "Total": 259668,
+      "Var_anual": -0.52,
+      "Participacion": 1.14,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Oaxaca",
       "_geo": "20",
-      "Total": 239496,
-      "Var_anual": 1.52,
-      "Participacion": 1.05,
-      "_periodo": "mar-26"
+      "Total": 242230,
+      "Var_anual": 2.97,
+      "Participacion": 1.06,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Baja California Sur",
       "_geo": "03",
-      "Total": 226276,
-      "Var_anual": 2.74,
-      "Participacion": 1.0,
-      "_periodo": "mar-26"
+      "Total": 225918,
+      "Var_anual": 2.3,
+      "Participacion": 0.99,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Morelos",
       "_geo": "17",
-      "Total": 220575,
-      "Var_anual": -0.42,
+      "Total": 221449,
+      "Var_anual": 0.36,
       "Participacion": 0.97,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Tabasco",
       "_geo": "27",
-      "Total": 204245,
-      "Var_anual": 0.67,
+      "Total": 204995,
+      "Var_anual": 0.74,
       "Participacion": 0.9,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Zacatecas",
       "_geo": "32",
-      "Total": 190369,
-      "Var_anual": -0.83,
+      "Total": 190204,
+      "Var_anual": -0.03,
       "Participacion": 0.84,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Nayarit",
       "_geo": "18",
-      "Total": 186135,
-      "Var_anual": -0.55,
-      "Participacion": 0.82,
-      "_periodo": "mar-26"
-    },
-    {
-      "Entidad": "Guerrero",
-      "_geo": "12",
-      "Total": 160980,
-      "Var_anual": -6.68,
-      "Participacion": 0.71,
-      "_periodo": "mar-26"
+      "Total": 185033,
+      "Var_anual": 0.7,
+      "Participacion": 0.81,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Colima",
       "_geo": "06",
-      "Total": 158529,
-      "Var_anual": 0.7,
+      "Total": 160247,
+      "Var_anual": 2.36,
       "Participacion": 0.7,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
+    },
+    {
+      "Entidad": "Guerrero",
+      "_geo": "12",
+      "Total": 159457,
+      "Var_anual": -0.7,
+      "Participacion": 0.7,
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Campeche",
       "_geo": "04",
-      "Total": 127951,
-      "Var_anual": -5.07,
+      "Total": 127882,
+      "Var_anual": -4.35,
       "Participacion": 0.56,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
     },
     {
       "Entidad": "Tlaxcala",
       "_geo": "29",
-      "Total": 118650,
-      "Var_anual": 0.05,
+      "Total": 117874,
+      "Var_anual": -0.42,
       "Participacion": 0.52,
-      "_periodo": "mar-26"
+      "_periodo": "abr-26"
     }
   ],
-  "periodo_referencia": "mar-26",
-  "_ultimo_total": 22724680,
-  "_delta_mensual": 0.15,
-  "_delta_anual": 0.92,
+  "genero_por_sector": [
+    {
+      "cve_sector": 3,
+      "sector": "Manufactura",
+      "hombres": 3580207,
+      "mujeres": 2347911,
+      "total": 5928118,
+      "pct_mujeres": 39.6
+    },
+    {
+      "cve_sector": 8,
+      "sector": "Servicios para Empresas",
+      "hombres": 2687430,
+      "mujeres": 2268655,
+      "total": 4956085,
+      "pct_mujeres": 45.8
+    },
+    {
+      "cve_sector": 6,
+      "sector": "Comercio",
+      "hombres": 2758617,
+      "mujeres": 2119068,
+      "total": 4877685,
+      "pct_mujeres": 43.4
+    },
+    {
+      "cve_sector": 9,
+      "sector": "Servicios Sociales y Comunales",
+      "hombres": 1001697,
+      "mujeres": 1455834,
+      "total": 2457531,
+      "pct_mujeres": 59.2
+    },
+    {
+      "cve_sector": 7,
+      "sector": "Transportes y Comunicaciones",
+      "hombres": 1348655,
+      "mujeres": 403389,
+      "total": 1752044,
+      "pct_mujeres": 23.0
+    },
+    {
+      "cve_sector": 4,
+      "sector": "Construcción",
+      "hombres": 1428681,
+      "mujeres": 323283,
+      "total": 1751964,
+      "pct_mujeres": 18.5
+    },
+    {
+      "cve_sector": 0,
+      "sector": "Agricultura",
+      "hombres": 524909,
+      "mujeres": 211082,
+      "total": 735991,
+      "pct_mujeres": 28.7
+    },
+    {
+      "cve_sector": 5,
+      "sector": "Electricidad y Agua",
+      "hombres": 123350,
+      "mujeres": 38222,
+      "total": 161572,
+      "pct_mujeres": 23.7
+    },
+    {
+      "cve_sector": 1,
+      "sector": "Extractivas",
+      "hombres": 111240,
+      "mujeres": 16295,
+      "total": 127535,
+      "pct_mujeres": 12.8
+    }
+  ],
+  "top_subsectores_alza": [
+    {
+      "sec1": 8,
+      "sec2": 83,
+      "sector": "Servicios para Empresas",
+      "subsector_id": "8-83",
+      "ta_actual": 83936,
+      "ta_anio_ant": 64751,
+      "var_anual": 29.63
+    },
+    {
+      "sec1": 6,
+      "sec2": 63,
+      "sector": "Comercio",
+      "subsector_id": "6-63",
+      "ta_actual": 243713,
+      "ta_anio_ant": 191956,
+      "var_anual": 26.96
+    },
+    {
+      "sec1": 7,
+      "sec2": 71,
+      "sector": "Transportes y Comunicaciones",
+      "subsector_id": "7-71",
+      "ta_actual": 940842,
+      "ta_anio_ant": 806805,
+      "var_anual": 16.61
+    },
+    {
+      "sec1": 6,
+      "sec2": 61,
+      "sector": "Comercio",
+      "subsector_id": "6-61",
+      "ta_actual": 1191652,
+      "ta_anio_ant": 1093345,
+      "var_anual": 8.99
+    },
+    {
+      "sec1": 7,
+      "sec2": 75,
+      "sector": "Transportes y Comunicaciones",
+      "subsector_id": "7-75",
+      "ta_actual": 555051,
+      "ta_anio_ant": 510454,
+      "var_anual": 8.74
+    },
+    {
+      "sec1": 3,
+      "sec2": 36,
+      "sector": "Manufactura",
+      "subsector_id": "3-36",
+      "ta_actual": 234191,
+      "ta_anio_ant": 217871,
+      "var_anual": 7.49
+    },
+    {
+      "sec1": 1,
+      "sec2": 13,
+      "sector": "Extractivas",
+      "subsector_id": "1-13",
+      "ta_actual": 77898,
+      "ta_anio_ant": 72880,
+      "var_anual": 6.89
+    },
+    {
+      "sec1": 7,
+      "sec2": 72,
+      "sector": "Transportes y Comunicaciones",
+      "subsector_id": "7-72",
+      "ta_actual": 56589,
+      "ta_anio_ant": 54072,
+      "var_anual": 4.65
+    },
+    {
+      "sec1": 8,
+      "sec2": 89,
+      "sector": "Servicios para Empresas",
+      "subsector_id": "8-89",
+      "ta_actual": 681084,
+      "ta_anio_ant": 660450,
+      "var_anual": 3.12
+    },
+    {
+      "sec1": 9,
+      "sec2": 94,
+      "sector": "Servicios Sociales y Comunales",
+      "subsector_id": "9-94",
+      "ta_actual": 1252442,
+      "ta_anio_ant": 1217794,
+      "var_anual": 2.85
+    }
+  ],
+  "top_subsectores_baja": [
+    {
+      "sec1": 9,
+      "sec2": 91,
+      "sector": "Servicios Sociales y Comunales",
+      "subsector_id": "9-91",
+      "ta_actual": 703797,
+      "ta_anio_ant": 700074,
+      "var_anual": 0.53
+    },
+    {
+      "sec1": 0,
+      "sec2": 2,
+      "sector": "Agricultura",
+      "subsector_id": "0-2",
+      "ta_actual": 144499,
+      "ta_anio_ant": 143491,
+      "var_anual": 0.7
+    },
+    {
+      "sec1": 4,
+      "sec2": 41,
+      "sector": "Construcción",
+      "subsector_id": "4-41",
+      "ta_actual": 1336240,
+      "ta_anio_ant": 1323621,
+      "var_anual": 0.95
+    },
+    {
+      "sec1": 5,
+      "sec2": 50,
+      "sector": "Electricidad y Agua",
+      "subsector_id": "5-50",
+      "ta_actual": 102657,
+      "ta_anio_ant": 101600,
+      "var_anual": 1.04
+    },
+    {
+      "sec1": 6,
+      "sec2": 64,
+      "sector": "Comercio",
+      "subsector_id": "6-64",
+      "ta_actual": 931542,
+      "ta_anio_ant": 921329,
+      "var_anual": 1.11
+    },
+    {
+      "sec1": 6,
+      "sec2": 69,
+      "sector": "Comercio",
+      "subsector_id": "6-69",
+      "ta_actual": 137409,
+      "ta_anio_ant": 135372,
+      "var_anual": 1.5
+    },
+    {
+      "sec1": 3,
+      "sec2": 20,
+      "sector": "Manufactura",
+      "subsector_id": "3-20",
+      "ta_actual": 914136,
+      "ta_anio_ant": 899629,
+      "var_anual": 1.61
+    },
+    {
+      "sec1": 5,
+      "sec2": 51,
+      "sector": "Electricidad y Agua",
+      "subsector_id": "5-51",
+      "ta_actual": 58915,
+      "ta_anio_ant": 57692,
+      "var_anual": 2.12
+    },
+    {
+      "sec1": 8,
+      "sec2": 84,
+      "sector": "Servicios para Empresas",
+      "subsector_id": "8-84",
+      "ta_actual": 2135539,
+      "ta_anio_ant": 2084579,
+      "var_anual": 2.44
+    },
+    {
+      "sec1": 8,
+      "sec2": 87,
+      "sector": "Servicios para Empresas",
+      "subsector_id": "8-87",
+      "ta_actual": 760944,
+      "ta_anio_ant": 741739,
+      "var_anual": 2.59
+    }
+  ],
+  "serie_outsourcing_sec88": [
+    {
+      "periodo": "2019-01",
+      "ta": 195706
+    },
+    {
+      "periodo": "2019-02",
+      "ta": 196169
+    },
+    {
+      "periodo": "2019-03",
+      "ta": 198536
+    },
+    {
+      "periodo": "2019-04",
+      "ta": 202610
+    },
+    {
+      "periodo": "2019-05",
+      "ta": 202369
+    },
+    {
+      "periodo": "2019-06",
+      "ta": 204724
+    },
+    {
+      "periodo": "2019-07",
+      "ta": 207671
+    },
+    {
+      "periodo": "2019-08",
+      "ta": 204928
+    },
+    {
+      "periodo": "2019-09",
+      "ta": 205702
+    },
+    {
+      "periodo": "2019-10",
+      "ta": 205756
+    },
+    {
+      "periodo": "2019-11",
+      "ta": 207329
+    },
+    {
+      "periodo": "2019-12",
+      "ta": 206212
+    },
+    {
+      "periodo": "2020-01",
+      "ta": 203728
+    },
+    {
+      "periodo": "2020-02",
+      "ta": 203741
+    },
+    {
+      "periodo": "2020-03",
+      "ta": 199590
+    },
+    {
+      "periodo": "2020-04",
+      "ta": 190840
+    },
+    {
+      "periodo": "2020-05",
+      "ta": 182813
+    },
+    {
+      "periodo": "2020-06",
+      "ta": 172564
+    },
+    {
+      "periodo": "2020-07",
+      "ta": 168890
+    },
+    {
+      "periodo": "2020-08",
+      "ta": 164718
+    },
+    {
+      "periodo": "2020-09",
+      "ta": 162498
+    },
+    {
+      "periodo": "2020-10",
+      "ta": 160474
+    },
+    {
+      "periodo": "2020-11",
+      "ta": 160346
+    },
+    {
+      "periodo": "2020-12",
+      "ta": 158084
+    },
+    {
+      "periodo": "2021-01",
+      "ta": 155428
+    },
+    {
+      "periodo": "2021-02",
+      "ta": 155640
+    },
+    {
+      "periodo": "2021-03",
+      "ta": 158684
+    },
+    {
+      "periodo": "2021-04",
+      "ta": 158830
+    },
+    {
+      "periodo": "2021-05",
+      "ta": 160347
+    },
+    {
+      "periodo": "2021-06",
+      "ta": 165626
+    },
+    {
+      "periodo": "2021-07",
+      "ta": 169123
+    },
+    {
+      "periodo": "2021-08",
+      "ta": 173892
+    },
+    {
+      "periodo": "2021-09",
+      "ta": 175931
+    },
+    {
+      "periodo": "2021-10",
+      "ta": 178185
+    },
+    {
+      "periodo": "2021-11",
+      "ta": 179013
+    },
+    {
+      "periodo": "2021-12",
+      "ta": 182284
+    },
+    {
+      "periodo": "2022-01",
+      "ta": 178988
+    },
+    {
+      "periodo": "2022-02",
+      "ta": 180763
+    },
+    {
+      "periodo": "2022-03",
+      "ta": 183968
+    },
+    {
+      "periodo": "2022-04",
+      "ta": 188294
+    },
+    {
+      "periodo": "2022-05",
+      "ta": 191838
+    },
+    {
+      "periodo": "2022-06",
+      "ta": 195229
+    },
+    {
+      "periodo": "2022-07",
+      "ta": 196498
+    },
+    {
+      "periodo": "2022-08",
+      "ta": 193427
+    },
+    {
+      "periodo": "2022-09",
+      "ta": 194032
+    },
+    {
+      "periodo": "2022-10",
+      "ta": 196539
+    },
+    {
+      "periodo": "2022-11",
+      "ta": 198987
+    },
+    {
+      "periodo": "2022-12",
+      "ta": 198631
+    },
+    {
+      "periodo": "2023-01",
+      "ta": 196845
+    },
+    {
+      "periodo": "2023-02",
+      "ta": 197815
+    },
+    {
+      "periodo": "2023-03",
+      "ta": 201569
+    },
+    {
+      "periodo": "2023-04",
+      "ta": 204955
+    },
+    {
+      "periodo": "2023-05",
+      "ta": 207292
+    },
+    {
+      "periodo": "2023-06",
+      "ta": 206829
+    },
+    {
+      "periodo": "2023-07",
+      "ta": 209029
+    },
+    {
+      "periodo": "2023-08",
+      "ta": 205150
+    },
+    {
+      "periodo": "2023-09",
+      "ta": 205700
+    },
+    {
+      "periodo": "2023-10",
+      "ta": 206909
+    },
+    {
+      "periodo": "2023-11",
+      "ta": 208579
+    },
+    {
+      "periodo": "2023-12",
+      "ta": 206799
+    },
+    {
+      "periodo": "2024-01",
+      "ta": 206106
+    },
+    {
+      "periodo": "2024-02",
+      "ta": 206317
+    },
+    {
+      "periodo": "2024-03",
+      "ta": 209605
+    },
+    {
+      "periodo": "2024-04",
+      "ta": 209631
+    },
+    {
+      "periodo": "2024-05",
+      "ta": 210027
+    },
+    {
+      "periodo": "2024-06",
+      "ta": 215492
+    },
+    {
+      "periodo": "2024-07",
+      "ta": 216812
+    },
+    {
+      "periodo": "2024-08",
+      "ta": 214647
+    },
+    {
+      "periodo": "2024-09",
+      "ta": 214619
+    },
+    {
+      "periodo": "2024-10",
+      "ta": 217404
+    },
+    {
+      "periodo": "2024-11",
+      "ta": 217160
+    },
+    {
+      "periodo": "2024-12",
+      "ta": 213526
+    },
+    {
+      "periodo": "2025-01",
+      "ta": 212025
+    },
+    {
+      "periodo": "2025-02",
+      "ta": 212788
+    },
+    {
+      "periodo": "2025-03",
+      "ta": 214249
+    },
+    {
+      "periodo": "2025-04",
+      "ta": 215036
+    },
+    {
+      "periodo": "2025-05",
+      "ta": 218842
+    },
+    {
+      "periodo": "2025-06",
+      "ta": 219351
+    },
+    {
+      "periodo": "2025-07",
+      "ta": 220250
+    },
+    {
+      "periodo": "2025-08",
+      "ta": 214397
+    },
+    {
+      "periodo": "2025-09",
+      "ta": 214674
+    },
+    {
+      "periodo": "2025-10",
+      "ta": 216330
+    },
+    {
+      "periodo": "2025-11",
+      "ta": 217549
+    },
+    {
+      "periodo": "2025-12",
+      "ta": 214812
+    },
+    {
+      "periodo": "2026-01",
+      "ta": 214369
+    },
+    {
+      "periodo": "2026-02",
+      "ta": 216496
+    },
+    {
+      "periodo": "2026-03",
+      "ta": 219878
+    },
+    {
+      "periodo": "2026-04",
+      "ta": 215367
+    }
+  ],
+  "periodo_referencia": "abr-26",
+  "_ultimo_total": 22748603,
+  "_delta_mensual": 0.11,
+  "_delta_anual": 1.03,
   "_permanentes_pct": 86.9,
   "_eventuales_pct": 13.1,
   "_mujeres_pct": 40.4,

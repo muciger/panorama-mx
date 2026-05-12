@@ -1,0 +1,63 @@
+name: Recordatorio mensual IMSS
+
+# Abre un issue en el repo cada día 12 a las 10:00 hora del centro
+# para recordar correr ingest_imss.py localmente en la Mac y commitear
+# data/empleo_imss.json actualizado.
+#
+# Por qué día 12: IMSS publica datos del mes anterior alrededor del día 10-12.
+# Por qué un issue: GitHub manda notificación email automática.
+
+on:
+  schedule:
+    # 16:00 UTC día 12 de cada mes = 10:00 CST
+    - cron: '0 16 12 * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Crear issue recordatorio
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date();
+            const month = today.toLocaleDateString('es-MX', { month: 'long', year: 'numeric' });
+            const title = `Refresh IMSS local — ${month}`;
+            const body = [
+              '## Recordatorio: actualizar datos IMSS',
+              '',
+              `IMSS publicó los datos del mes anterior. Toca correr en tu Mac:`,
+              '',
+              '```bash',
+              'cd ~/Desktop/"Descargas firefox/INEGI interactivo/Interactivo indicadores INEGI/indicadores_inegi"',
+              '# 1. Descargar el parquet del mes nuevo (manual, IMSS no tiene API)',
+              '#    Datos abiertos: https://datos.imss.gob.mx/',
+              '#    Guardar en: ~/Desktop/Descargas firefox/Datos empleo IMSS/Datos empleo imss/datos/imss_parquet/',
+              '',
+              '# 2. Regenerar data/empleo_imss.json y el explorador HTML',
+              'python3 scripts/ingest_imss.py',
+              '',
+              '# 3. Commit y push',
+              'git add data/empleo_imss.json docs/referencias/imss_referencia_rediseño.html',
+              'git commit -m "imss: refresh mensual"',
+              'git push',
+              '```',
+              '',
+              'El workflow `deploy.yml` regenerará el sitio en el siguiente push o en su corrida diaria.',
+              '',
+              '---',
+              `Generado automáticamente · run #${{ github.run_number }}`,
+            ].join('\n');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['imss', 'manual'],
+            });
+            console.log(`Issue creado: ${title}`);

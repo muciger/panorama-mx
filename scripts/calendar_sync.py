@@ -25,13 +25,6 @@ import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
-try:
-    from icalendar import Calendar
-except ImportError:
-    sys.stderr.write("Falta icalendar. Instala con: pip install icalendar\n")
-    sys.exit(1)
-
-
 ROOT = Path(__file__).resolve().parent.parent
 CACHE_ICS = ROOT / "cache" / "inegi.ics"
 CONFIG_INDICATORS = ROOT / "config" / "indicators.json"
@@ -57,23 +50,42 @@ def download_ics(url: str, dest: Path, timeout: int = 30) -> None:
 
 
 def parse_ics(path: Path) -> list[dict]:
-    """Devuelve lista de dicts con fecha (date) y summary (str) de cada VEVENT."""
-    raw = path.read_bytes()
-    cal = Calendar.from_ical(raw)
-    out = []
-    for comp in cal.walk():
-        if comp.name != "VEVENT":
-            continue
-        dtstart = comp.get("dtstart")
-        summary = comp.get("summary")
-        if dtstart is None or summary is None:
-            continue
-        d = dtstart.dt
-        if isinstance(d, datetime):
-            d = d.date()
-        elif not isinstance(d, date):
-            continue
-        out.append({"fecha": d, "summary": str(summary).strip()})
+    """Parser ICS con stdlib (sin dependencia icalendar). Devuelve lista de eventos
+    con fecha (date) y summary (str). Maneja line folding RFC 5545."""
+    raw = path.read_text(encoding="utf-8", errors="replace")
+    # Unfold: líneas que empiezan con espacio o tab continúan la anterior.
+    lines: list[str] = []
+    for line in raw.splitlines():
+        if (line.startswith(" ") or line.startswith("\t")) and lines:
+            lines[-1] += line[1:]
+        else:
+            lines.append(line)
+
+    out: list[dict] = []
+    cur: dict = {}
+    in_event = False
+    for line in lines:
+        if line.startswith("BEGIN:VEVENT"):
+            in_event = True
+            cur = {}
+        elif line.startswith("END:VEVENT"):
+            if in_event and cur.get("fecha") and cur.get("summary"):
+                out.append(cur)
+            in_event = False
+        elif in_event:
+            if line.startswith("DTSTART"):
+                m = re.search(r":(\d{8})", line)
+                if m:
+                    s = m.group(1)
+                    try:
+                        cur["fecha"] = date(int(s[0:4]), int(s[4:6]), int(s[6:8]))
+                    except ValueError:
+                        pass
+            elif line.startswith("SUMMARY"):
+                # Unescape \, y \;
+                summary = line.split(":", 1)[1].strip() if ":" in line else ""
+                summary = summary.replace("\\,", ",").replace("\\;", ";").replace("\\n", " ")
+                cur["summary"] = summary
     out.sort(key=lambda x: x["fecha"])
     return out
 
@@ -89,7 +101,19 @@ def build_entry(
     hoy: date,
     max_proximas: int,
 ) -> dict:
-    matches = match_indicator(eventos, ind["patron_ics"])
+    patron = ind.get("patron_ics")
+    if not patron:
+        return {
+            "nombre": ind["nombre"],
+            "categoria": ind["categoria"],
+            "frecuencia": ind["frecuencia"],
+            "patron_ics": None,
+            "vinculado_con": ind.get("vinculado_con"),
+            "ultima_publicacion_ics": None,
+            "proximas_publicaciones": [],
+            "matches_total": 0,
+        }
+    matches = match_indicator(eventos, patron)
     pasadas = [e for e in matches if e["fecha"] < hoy]
     futuras_y_hoy = [e for e in matches if e["fecha"] >= hoy]
     ultima = pasadas[-1] if pasadas else None
@@ -98,7 +122,7 @@ def build_entry(
         "nombre": ind["nombre"],
         "categoria": ind["categoria"],
         "frecuencia": ind["frecuencia"],
-        "patron_ics": ind["patron_ics"],
+        "patron_ics": patron,
         "vinculado_con": ind.get("vinculado_con"),
         "ultima_publicacion_ics": {
             "fecha": ultima["fecha"].isoformat(),

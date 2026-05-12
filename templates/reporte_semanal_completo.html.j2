@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reporte semanal completo · Panorama MX</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --paper:#FAF7F2; --ink:#1C1A17; --accent:#C0512F; --forest:#2F5B4F;
+  --muted:#8A817A; --surface:#FFFFFF; --rule:rgba(28,26,23,0.12);
+  --pos:#2A6B43; --neg:#B83025; --warn:#8B5E20;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.55;font-size:14px;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+.page{max-width:860px;margin:0 auto;padding:32px 32px 64px}
+
+/* Nav superior (oculta en print) */
+.rpt-nav{display:flex;align-items:center;gap:10px;margin-bottom:24px}
+.rpt-nav-back{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid var(--rule);padding:7px 14px;border-radius:6px;color:var(--ink);font-size:13px;font-weight:500}
+.rpt-nav-print{display:inline-flex;align-items:center;gap:6px;background:var(--ink);color:#fff;padding:7px 14px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;border:none}
+.rpt-nav-print:hover{background:#2E2B27}
+
+/* Header (igual que reporte corto) */
+.rpt-header{display:flex;justify-content:space-between;align-items:flex-end;padding-bottom:12px;border-bottom:2px solid var(--ink);margin-bottom:14px}
+.rpt-brand-block{display:flex;align-items:center;gap:14px}
+.pmx-mark{width:44px;height:44px;background:var(--ink);border-radius:7px;display:flex;align-items:center;justify-content:center;color:var(--paper);font-family:var(--mono);font-size:14px;font-weight:700;letter-spacing:-0.02em}
+.pmx-mark-text{line-height:1}
+.pmx-mark-text span{color:var(--accent)}
+.rpt-brand-name{font-size:15px;font-weight:600;color:var(--ink)}
+.rpt-brand-sub{font-size:11px;color:var(--muted);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.06em;margin-top:2px}
+.rpt-meta{text-align:right}
+.rpt-title{font-family:var(--serif);font-size:24px;font-weight:600;color:var(--ink);letter-spacing:-0.01em}
+.rpt-semana{font-size:12px;color:var(--muted);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.08em;margin-top:4px}
+
+/* Estado agregado */
+.estado-block{display:flex;align-items:center;gap:9px;padding:9px 14px;border-radius:6px;margin-bottom:12px;font-size:12px;background:#fff;border:1px solid var(--rule)}
+.estado-block.estado-rojo{border-left:3px solid var(--neg)}
+.estado-block.estado-amarillo{border-left:3px solid var(--warn)}
+.estado-block.estado-verde{border-left:3px solid var(--pos)}
+.estado-block.estado-neutro{border-left:3px solid var(--muted)}
+.estado-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.estado-rojo .estado-dot{background:var(--neg)}
+.estado-amarillo .estado-dot{background:var(--warn)}
+.estado-verde .estado-dot{background:var(--pos)}
+.estado-neutro .estado-dot{background:var(--muted)}
+.estado-texto{font-weight:600}
+.estado-sep{color:var(--rule);margin:0 4px}
+.estado-detalle{color:var(--muted);font-size:12.5px}
+
+/* Síntesis ejecutiva (compacta para PDF) */
+.resumen-box{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:7px;padding:14px 18px;margin-bottom:14px;page-break-inside:avoid;break-inside:avoid}
+.resumen-header{display:flex;flex-direction:column;gap:3px;margin-bottom:10px}
+.resumen-header > span:first-child{font-size:10.5px;font-weight:700;font-family:var(--mono);color:var(--accent);text-transform:uppercase;letter-spacing:0.08em}
+.resumen-sub{font-size:11px;color:var(--muted);font-style:italic}
+.resumen-grid{display:flex;flex-direction:column;gap:10px}
+.resumen-section{display:flex;flex-direction:column;gap:5px;padding-bottom:8px;border-bottom:1px dashed var(--rule)}
+.resumen-section:last-child{border-bottom:none;padding-bottom:0}
+.resumen-section-head{display:flex;align-items:center;gap:9px}
+.resumen-tema-dot{width:7px;height:7px;border-radius:50%}
+.resumen-tema-dot.sem-verde{background:var(--pos)}
+.resumen-tema-dot.sem-amarillo{background:var(--warn)}
+.resumen-tema-dot.sem-rojo{background:var(--neg)}
+.resumen-tema-dot.sem-neutro{background:var(--muted)}
+.resumen-tema-name{font-size:10.5px;font-weight:700;color:var(--ink);font-family:var(--mono);letter-spacing:0.06em;text-transform:uppercase}
+.resumen-tema-count{font-size:10px;color:var(--muted);font-family:var(--mono)}
+.resumen-dir{font-size:12px;margin-left:auto;line-height:1;font-weight:700}
+.resumen-dir-up{color:var(--pos)}
+.resumen-dir-down{color:var(--neg)}
+.resumen-dir-flat{color:var(--muted)}
+.resumen-headlines{display:flex;flex-direction:column;gap:5px;padding-left:16px}
+.resumen-headline-item p{margin:0;font-size:11.5px;line-height:1.45;color:var(--ink);font-weight:500}
+.resumen-headline-link{font-size:11px;color:var(--accent);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.04em}
+
+/* Indicador compacto: layout 2 columnas (texto + chart) que cabe 4 por página A4 */
+.indic-pagina{background:#fff;border:1px solid var(--rule);border-radius:7px;padding:9px 13px;margin-bottom:7px;page-break-inside:avoid;break-inside:avoid}
+.indic-pagina-head{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--rule);padding-bottom:5px;margin-bottom:7px;gap:12px}
+.indic-pagina-titulo{font-family:var(--serif);font-size:13.5px;font-weight:600;line-height:1.2;color:var(--ink);margin:0;letter-spacing:-0.01em;flex:1}
+.indic-pagina-meta{font-size:9.5px;color:var(--muted);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.04em;white-space:nowrap}
+.indic-pagina-tema{display:none}
+
+/* Cuerpo en 2 columnas: izq = texto, der = chart + tiles inline */
+.indic-pagina-body{display:grid;grid-template-columns:1fr 270px;gap:12px;align-items:start}
+.indic-pagina-text{font-size:11px;line-height:1.45;color:#27272A}
+.indic-pagina-headline{font-size:11.5px;font-weight:600;color:var(--ink);margin:0 0 5px;line-height:1.35}
+.indic-pagina-parrafo{margin:0 0 4px;color:#3C3830}
+.indic-pagina-parrafo:last-child{margin-bottom:0}
+
+/* Tiles inline (1 línea compacta arriba del chart) */
+.inegi-tiles-inline{display:flex;gap:5px;margin-bottom:5px;flex-wrap:wrap}
+.inegi-tile-inline{flex:1;min-width:80px;background:#FAFAFA;border:1px solid var(--rule);border-radius:4px;padding:4px 6px;text-align:center}
+.inegi-tile-inline-head{font-size:8.5px;color:var(--muted);text-transform:uppercase;letter-spacing:0.04em;font-family:var(--mono);margin-bottom:1px}
+.inegi-tile-inline-value{font-size:12.5px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;display:flex;align-items:center;justify-content:center;gap:3px}
+.inegi-up{color:var(--pos)}
+.inegi-down{color:var(--neg)}
+.inegi-flat{color:var(--ink)}
+
+/* Chart container compacto */
+.indic-chart{height:105px;position:relative;margin-top:3px}
+.indic-chart canvas{width:100%!important;height:100%!important}
+
+/* Layout vacío (sin chart) */
+.indic-pagina-body.no-chart{grid-template-columns:1fr}
+
+/* Próximas (compacta) */
+.proximas-section{margin-top:14px;padding-top:10px;border-top:1.5px solid var(--rule);page-break-before:auto;page-break-inside:avoid;break-inside:avoid}
+.proximas-head{font-family:var(--mono);font-size:10.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:7px}
+.proximas-tabla{width:100%;border-collapse:collapse;font-size:10.5px}
+.proximas-tabla th{text-align:left;padding:3px 8px;font-size:9.5px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.04em;border-bottom:1px solid var(--rule)}
+.proximas-tabla td{padding:3px 8px;border-bottom:1px solid var(--rule);line-height:1.35}
+.proximas-tabla tr:last-child td{border-bottom:none}
+
+/* Footer */
+.rpt-footer{margin-top:12px;padding-top:8px;border-top:1px solid var(--rule);font-size:9.5px;color:var(--muted);font-style:italic;text-align:center;line-height:1.5;page-break-inside:avoid;break-inside:avoid}
+
+/* PRINT */
+@media print {
+  html, body { background: #fff; }
+  .page { padding: 0; max-width: 100%; }
+  .rpt-nav { display: none; }
+  .indic-pagina { box-shadow: none; border-color: #ccc; }
+  a { color: inherit; text-decoration: none; }
+  a[href]::after { content: none; }
+  @page { size: A4; margin: 14mm 14mm 16mm; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <nav class="rpt-nav">
+    <a class="rpt-nav-back" href="{{ asset_prefix }}reporte_semanal.html">← Reporte corto</a>
+    <button class="rpt-nav-print" onclick="window.print()" type="button">Descargar / Imprimir PDF</button>
+  </nav>
+
+  <header class="rpt-header">
+    <div class="rpt-brand-block">
+      <div class="pmx-mark"><div class="pmx-mark-text">P<span>MX</span></div></div>
+      <div>
+        <div class="rpt-brand-name">Panorama MX</div>
+        <div class="rpt-brand-sub">INEGI · BIE · Datos oficiales</div>
+      </div>
+    </div>
+    <div class="rpt-meta">
+      <div class="rpt-title">Reporte semanal</div>
+      <div class="rpt-semana">{{ ventana_label or semana_label }}</div>
+    </div>
+  </header>
+
+  <div class="estado-block estado-{{ estado_agregado.alerta }}">
+    <div class="estado-dot"></div>
+    <span class="estado-texto">{{ estado_agregado.texto }}</span>
+    <span class="estado-sep">·</span>
+    <span class="estado-detalle">{{ estado_agregado.detalle }}</span>
+  </div>
+
+  {# ─── Detalle COMPACTO de cada indicador publicado (2 por A4) ─── #}
+  {% for ind in publicados %}
+  <article class="indic-pagina" id="ind-{{ ind.id }}">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">{{ ind.nombre }}</h2>
+      <div class="indic-pagina-meta">
+        {{ ind.tema }} · {% if ind.periodo_ref %}{{ ind.periodo_ref }} · {% endif %}{% if ind.fecha_pub %}publicado {{ ind.fecha_pub }}{% endif %}
+      </div>
+    </header>
+
+    <div class="indic-pagina-body{% if not ind.chart_payload %} no-chart{% endif %}">
+      <div class="indic-pagina-text">
+        {% if ind.headline %}
+        <p class="indic-pagina-headline">{{ ind.headline }}</p>
+        {% endif %}
+        {% if ind.diagnostico %}
+        <p class="indic-pagina-parrafo">{{ ind.diagnostico }}</p>
+        {% elif ind.parrafos %}
+        <p class="indic-pagina-parrafo">{{ ind.parrafos[0] }}</p>
+        {% endif %}
+      </div>
+
+      {% if ind.chart_payload %}
+      <div class="indic-pagina-right">
+        {% if ind.inegi_strip and ind.inegi_strip.tiles %}
+        <div class="inegi-tiles-inline">
+          {% for t in ind.inegi_strip.tiles %}
+          <div class="inegi-tile-inline">
+            <div class="inegi-tile-inline-head">{{ t.head }}</div>
+            <div class="inegi-tile-inline-value inegi-{{ t.dir }}">
+              {% if t.arrow %}<span aria-hidden="true">{{ t.arrow }}</span>{% endif %}
+              <span>{{ t.value_fmt }}</span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <div class="indic-chart">
+          <canvas id="chart-{{ ind.id }}"></canvas>
+        </div>
+        <script type="application/json" id="payload-{{ ind.id }}">{{ ind.chart_payload | tojson }}</script>
+      </div>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+
+</div>
+
+<script>
+(function(){
+  // Renderizar charts para cada indicador con payload.
+  function renderChart(iid, payload){
+    const canvas = document.getElementById('chart-' + iid);
+    if (!canvas || !window.Chart) return;
+    const ctx = canvas.getContext('2d');
+    const datasets = [{
+      label: payload.serie_label || 'Serie',
+      data: payload.serie_vals,
+      borderColor: '#C0512F',
+      backgroundColor: 'rgba(192,81,47,0.10)',
+      tension: 0.25, borderWidth: 2.2, pointRadius: 0, fill: true, spanGaps: true
+    }];
+    if (payload.ma12 && payload.ma12.length === payload.serie_vals.length) {
+      datasets.push({
+        label: 'MA12', data: payload.ma12,
+        borderColor: '#2F5B4F', borderDash: [5,4], borderWidth: 1.4,
+        pointRadius: 0, fill: false, spanGaps: true
+      });
+    }
+    new Chart(ctx, {
+      type: 'line',
+      data: { labels: payload.periodos, datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false, animation: false,
+        plugins: {
+          legend: { position: 'bottom', labels: { boxWidth: 12, boxHeight: 3, font: { size: 10.5 }, color: '#1C1A17' }},
+          tooltip: { enabled: false }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 10 }, color: '#8A817A', maxRotation: 0, autoSkipPadding: 12 }},
+          y: { grid: { color: 'rgba(28,26,23,0.08)' }, ticks: { font: { size: 10 }, color: '#8A817A', callback: v => v + (payload.unidad === '%' ? '%' : '') }}
+        }
+      }
+    });
+  }
+
+  function tryRender(){
+    if (!window.Chart) { setTimeout(tryRender, 60); return; }
+    document.querySelectorAll('script[type="application/json"][id^="payload-"]').forEach(function(s){
+      try {
+        const iid = s.id.replace('payload-', '');
+        renderChart(iid, JSON.parse(s.textContent));
+      } catch (e) { console.warn('chart fail', s.id, e); }
+    });
+
+    // Si llegamos con ?print=1, disparar print después de que charts rendericen.
+    if (/[?&]print=1\b/.test(location.search)) {
+      setTimeout(() => window.print(), 1200);
+    }
+  }
+  if (document.readyState === 'complete') tryRender();
+  else window.addEventListener('load', tryRender);
+})();
+</script>
+</body>
+</html>

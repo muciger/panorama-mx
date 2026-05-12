@@ -47,6 +47,7 @@ TOPBAR_TITLE = "Indicadores económicos México"
 
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 DIAS = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]
+DIAS_ES_ABR = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
 
 ALERTA_LABEL = {"verde": "OK", "amarillo": "Vigilar", "rojo": "Atención", "neutro": "Sin umbral"}
 
@@ -84,7 +85,7 @@ NAV_STRUCTURE = [
     ("Empleo", [
         ("enoe_trimestral", "ENOE trimestral", "indicador/enoe_trimestral.html"),
         ("enoe_mensual", "ENOE mensual", "indicador/enoe_mensual.html"),
-        ("empleo_imss", "Empleo formal IMSS", "indicador/empleo_imss.html"),
+        # empleo_imss vive como sección dedicada del sidebar (imss_explorador.html)
     ]),
     ("Automotriz", [
         ("autos_ligeros", "Vehículos ligeros", "indicador/autos_ligeros.html"),
@@ -267,6 +268,250 @@ def build_resumen_row(d: dict) -> dict:
     }
 
 
+def _fmt_inegi_delta(v: float | None, unidad: str) -> dict:
+    """Formato compacto para tile delta estilo INEGI: ▲ 0.1 pp / ▼ -1.0 pp."""
+    if v is None:
+        return {"valor": None, "fmt": "—", "arrow": "", "dir": "flat"}
+    if v > 0.05:
+        arrow, direccion = "▲", "up"
+        signo = "+"
+    elif v < -0.05:
+        arrow, direccion = "▼", "down"
+        signo = ""
+    else:
+        arrow, direccion = "—", "flat"
+        signo = ""
+    unidad_delta = "pp" if unidad == "%" else (unidad or "")
+    return {
+        "valor": v,
+        "fmt": f"{signo}{v:.1f} {unidad_delta}".strip(),
+        "arrow": arrow,
+        "dir": direccion,
+    }
+
+
+def _detect_inegi_row_values(last: dict, campo_default: str | None = None) -> dict:
+    """Lee el último row y extrae valor principal, delta mensual/trimestral y delta anual.
+    Maneja varios layouts de indicadores INEGI."""
+
+    # Usar campoDefault solo si NO termina en sufijos estándar (que tienen layouts dedicados).
+    if campo_default and isinstance(last.get(campo_default), (int, float)):
+        sufijos_std = ("_Anual", "_Mensual", "_anual", "_mensual", "_Trimestral", "_Nivel")
+        if not any(campo_default.endswith(s) for s in sufijos_std) and campo_default not in ("Total", "Anual", "Mensual", "Trimestral"):
+            # Indicador con varios campos sin sufijo estándar (autos: Ventas/Producción/Exportación).
+            return {"nivel": None, "nivel_key": None,
+                    "mensual": None, "anual": last[campo_default], "trimestral": None}
+
+    # Layout A: <X>_Nivel + Mensual + Anual (Confianza Consumidor)
+    for k, v in last.items():
+        if k.endswith("_Nivel") and isinstance(v, (int, float)):
+            return {"nivel": v, "nivel_key": k,
+                    "mensual": last.get("Mensual") if isinstance(last.get("Mensual"), (int, float)) else None,
+                    "anual": last.get("Anual") if isinstance(last.get("Anual"), (int, float)) else None,
+                    "trimestral": None}
+
+    # Layout B: Total simple (IMSS, donde Total es nivel grande)
+    if isinstance(last.get("Total"), (int, float)) and not isinstance(last.get("Total_Anual"), (int, float)):
+        return {"nivel": last["Total"], "nivel_key": "Total",
+                "mensual": None, "anual": None, "trimestral": None}
+
+    # Layout C: Total_Anual + Total_Mensual (IGAE, actividad industrial)
+    if isinstance(last.get("Total_Anual"), (int, float)):
+        return {"nivel": None, "nivel_key": None,
+                "mensual": last.get("Total_Mensual") if isinstance(last.get("Total_Mensual"), (int, float)) else None,
+                "anual": last["Total_Anual"], "trimestral": None}
+
+    # Layout D: Trimestral + Anual sin Total_* (PIB)
+    if isinstance(last.get("Anual"), (int, float)) or isinstance(last.get("Trimestral"), (int, float)):
+        return {"nivel": None, "nivel_key": None,
+                "mensual": None,
+                "trimestral": last.get("Trimestral") if isinstance(last.get("Trimestral"), (int, float)) else None,
+                "anual": last.get("Anual") if isinstance(last.get("Anual"), (int, float)) else None}
+
+    # Layout E: campo terminado en _anual/_Anual (Inflación: INPC_anual)
+    for k, v in last.items():
+        if k.lower().endswith("_anual") and isinstance(v, (int, float)):
+            mensual_key = k.replace("_anual", "_mensual").replace("_Anual", "_Mensual")
+            return {"nivel": None, "nivel_key": None,
+                    "mensual": last.get(mensual_key) if isinstance(last.get(mensual_key), (int, float)) else None,
+                    "anual": v, "trimestral": None}
+
+    # Layout F: campo único numérico (último recurso)
+    for k, v in last.items():
+        if k in ("Periodo", "Mes"):
+            continue
+        if isinstance(v, (int, float)):
+            return {"nivel": None, "nivel_key": None,
+                    "mensual": None, "anual": v, "trimestral": None}
+
+    return {"nivel": None, "nivel_key": None, "mensual": None, "anual": None, "trimestral": None}
+
+
+def _build_inegi_strip_imss(d: dict, raw: dict) -> dict | None:
+    """Strip especial para empleo_imss: total puestos + ∆ mensual + ∆ anual."""
+    rows = raw.get("series", []) or []
+    if len(rows) < 13:
+        return None
+    last = rows[-1]
+    total = last.get("Total")
+    if not isinstance(total, (int, float)):
+        return None
+    periodo = last.get("Periodo") or last.get("Mes") or "—"
+    # Calcular delta mensual y anual con datos previos
+    prev_mes = rows[-2].get("Total") if len(rows) >= 2 else None
+    prev_anio = rows[-13].get("Total") if len(rows) >= 13 else None
+    delta_mes = (total - prev_mes) / 1000 if isinstance(prev_mes, (int, float)) else None  # en miles
+    delta_anio = (total - prev_anio) / 1000 if isinstance(prev_anio, (int, float)) else None
+
+    tiles = [{
+        "head": "Empleo formal IMSS",
+        "period": periodo,
+        "value_fmt": f"{total/1_000_000:.2f} M puestos",
+        "dir": "flat", "arrow": "",
+    }]
+    if delta_mes is not None:
+        dirm = "up" if delta_mes > 0.5 else ("down" if delta_mes < -0.5 else "flat")
+        arrow = "▲" if dirm == "up" else ("▼" if dirm == "down" else "—")
+        tiles.append({
+            "head": "Variación mensual",
+            "period": periodo,
+            "value_fmt": f"{'+' if delta_mes > 0 else ''}{delta_mes:,.0f} mil",
+            "dir": dirm, "arrow": arrow,
+        })
+    if delta_anio is not None:
+        dira = "up" if delta_anio > 0.5 else ("down" if delta_anio < -0.5 else "flat")
+        arrow = "▲" if dira == "up" else ("▼" if dira == "down" else "—")
+        tiles.append({
+            "head": "Variación anual",
+            "period": periodo,
+            "value_fmt": f"{'+' if delta_anio > 0 else ''}{delta_anio:,.0f} mil",
+            "dir": dira, "arrow": arrow,
+        })
+    return {"tiles": tiles, "indicador_corto": "Empleo IMSS"}
+
+
+def build_inegi_strip(d: dict, iid: str) -> dict | None:
+    """Datos para el bloque INEGI-style (tiles + headline).
+    Detecta layout del indicador (nivel puro, variación pura, nivel+variaciones).
+    Devuelve None si tabular sin layout especial o sin datos."""
+    data_path = ROOT / "data" / f"{iid}.json"
+    if not data_path.exists():
+        return None
+    try:
+        raw = json.loads(data_path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+    # Strips especiales para indicadores que normalize marca tabular pero sí merecen header INEGI.
+    if iid == "empleo_imss":
+        return _build_inegi_strip_imss(d, raw)
+
+    if d.get("tabular"):
+        return None
+    unidad = (d.get("unidad") or "").strip()
+    periodos = d.get("periodos") or []
+    ultimo_per = periodos[-1] if periodos else "—"
+    campo_default = d.get("campoDefault")
+
+    rows = raw.get("series", []) or []
+    if not rows or not isinstance(rows[-1], dict):
+        return None
+    last = rows[-1]
+    if isinstance(last.get("Periodo"), str):
+        ultimo_per = last["Periodo"]
+    elif isinstance(last.get("Mes"), str):
+        ultimo_per = last["Mes"]
+
+    vals = _detect_inegi_row_values(last, campo_default)
+    short = d.get("nombre_corto") or _siglas_indicador(iid, d.get("nombre", ""))
+
+    # Unidad para el primer tile (cuando hay nivel).
+    nivel_fmt = None
+    if vals["nivel"] is not None:
+        if vals["nivel_key"] == "Total" and "puestos" in unidad.lower():
+            unidad_nivel = " puestos"
+        elif "_nivel" in (vals["nivel_key"] or "").lower() or "puntos" in unidad.lower():
+            unidad_nivel = " pts"
+        elif "MDD" in unidad:
+            unidad_nivel = " MDD"
+        else:
+            unidad_nivel = ""
+        nivel_fmt = (
+            f"{vals['nivel']:,.0f}{unidad_nivel}" if abs(vals["nivel"]) >= 1000 else f"{vals['nivel']:.1f}{unidad_nivel}"
+        )
+
+    tiles = []
+    es_porcentaje = ("%" in unidad) or "variación" in unidad.lower()
+
+    if vals["nivel"] is not None:
+        tiles.append({
+            "head": short, "period": ultimo_per, "value_fmt": nivel_fmt, "dir": "flat", "arrow": "",
+        })
+        if vals["mensual"] is not None:
+            m = _fmt_inegi_delta(vals["mensual"], "puntos" if "pts" in (nivel_fmt or "") else unidad)
+            tiles.append({
+                "head": "Variación mensual", "period": ultimo_per,
+                "value_fmt": m["fmt"], "dir": m["dir"], "arrow": m["arrow"],
+            })
+        if vals["anual"] is not None:
+            a = _fmt_inegi_delta(vals["anual"], "puntos" if "pts" in (nivel_fmt or "") else unidad)
+            tiles.append({
+                "head": "Variación anual", "period": ultimo_per,
+                "value_fmt": a["fmt"], "dir": a["dir"], "arrow": a["arrow"],
+            })
+    else:
+        # Variaciones puras: anual + (mensual o trimestral)
+        if vals["anual"] is not None:
+            v = vals["anual"]
+            dirA = "up" if v > 0.05 else ("down" if v < -0.05 else "flat")
+            tiles.append({
+                "head": "Variación anual", "period": ultimo_per,
+                "value_fmt": f"{'+' if v > 0 else ''}{v:.1f}%",
+                "dir": dirA,
+                "arrow": "▲" if dirA == "up" else ("▼" if dirA == "down" else "—"),
+            })
+        if vals["trimestral"] is not None:
+            m = _fmt_inegi_delta(vals["trimestral"], "%")
+            tiles.append({
+                "head": "Variación trimestral", "period": ultimo_per,
+                "value_fmt": m["fmt"], "dir": m["dir"], "arrow": m["arrow"],
+            })
+        elif vals["mensual"] is not None:
+            m = _fmt_inegi_delta(vals["mensual"], "%")
+            tiles.append({
+                "head": "Variación mensual", "period": ultimo_per,
+                "value_fmt": m["fmt"], "dir": m["dir"], "arrow": m["arrow"],
+            })
+
+    if not tiles:
+        return None
+
+    return {"tiles": tiles, "indicador_corto": short}
+
+
+def _siglas_indicador(iid: str, nombre: str) -> str:
+    """Devuelve un identificador corto para usar en el tile principal."""
+    mapeo = {
+        "igae": "IGAE",
+        "inpc_mensual": "INPC",
+        "inpc_quincenal": "INPC quincenal",
+        "inpp": "INPP",
+        "fbcf": "FBCF",
+        "pib_trimestral": "PIB trimestral",
+        "pib_anual": "PIB anual",
+        "pib_por_actividad": "PIB por actividad",
+        "balanza_comercial": "Balanza comercial",
+        "empleo_imss": "Empleo IMSS",
+        "enoe_mensual": "ENOE mensual",
+        "enoe_trimestral": "ENOE trimestral",
+        "actividad_industrial": "Actividad industrial",
+        "consumo_privado": "Consumo privado",
+        "confianza_consumidor": "ICC",
+        "inflacion_resumen": "Inflación",
+    }
+    return mapeo.get(iid, nombre[:24])
+
+
 def build_threshold_info(iid: str, thresholds: dict, unidad: str) -> dict | None:
     """Traduce thresholds.json para un indicador a un dict legible para el template.
     Devuelve None si no hay calibración (indicador neutro por default).
@@ -342,7 +587,14 @@ def build_indicador_ctx(d: dict, iid: str = "", thresholds: dict | None = None) 
             interp = dict(interp)
             interp["mensaje"] = f"Interpretación se generará tras el próximo boletín INEGI del {prox_fecha}."
     _tipo = interp.get("tipo")
-    if _tipo in ("sonnet", "demo"):
+    if _tipo == "auto_v2":
+        writer = interp.get("writer_provider") or interp.get("provider") or "?"
+        verifier = (interp.get("verificacion") or {}).get("verifier_provider")
+        if verifier and verifier != writer:
+            source = f"{writer} + {verifier}"
+        else:
+            source = writer
+    elif _tipo in ("sonnet", "demo"):
         source = "Claude Sonnet 4.6"
     elif _tipo == "auto":
         source = "DeepSeek"
@@ -353,6 +605,8 @@ def build_indicador_ctx(d: dict, iid: str = "", thresholds: dict | None = None) 
 
     # Enriquecimiento por indicador (balanza_comercial e inpc_mensual con drilldown)
     drilldown = build_drilldown(iid)
+
+    inegi_strip = build_inegi_strip(d, iid) if iid else None
 
     ctx = dict(d)
     ctx.update({
@@ -367,6 +621,7 @@ def build_indicador_ctx(d: dict, iid: str = "", thresholds: dict | None = None) 
         "serie_cols": list((d.get("series") or {}).keys()) if not tabular else [],
         "threshold_info": threshold_info,
         "drilldown": drilldown,
+        "inegi_strip": inegi_strip,
     })
     return ctx
 
@@ -1325,12 +1580,17 @@ def build_reporte_semanal(
         except Exception:
             fecha_pub_display = fecha_pub
 
-        # Contexto: interpretación o reglas básicas (se recorta en CSS a 2 líneas)
+        # Contexto: prefiere headline ejecutivo del writer+verifier (auto_v2);
+        # fallback al mensaje legacy o a una construcción simple basada en MA12.
         interp = d.get("interp") or {}
-        mensaje = interp.get("mensaje", "")
         tipo_interp = interp.get("tipo", "pendiente")
-        if mensaje and tipo_interp not in ("pendiente",) and len(mensaje) > 10:
-            contexto = mensaje
+        headline_ejec = interp.get("headline") if tipo_interp == "auto_v2" else None
+        diagnostico_ejec = interp.get("diagnostico") if tipo_interp == "auto_v2" else None
+        mensaje_legacy = interp.get("mensaje", "")
+        if headline_ejec:
+            contexto = headline_ejec
+        elif mensaje_legacy and tipo_interp not in ("pendiente",) and len(mensaje_legacy) > 10:
+            contexto = mensaje_legacy
         elif not tabular and ultimo_val is not None:
             ma12 = d.get("ma12_ult")
             if ma12 is not None:
@@ -1362,6 +1622,35 @@ def build_reporte_semanal(
         else:
             dir_arrow = "→"
 
+        # Datos comprimidos para chart inline en reporte completo.
+        chart_payload = None
+        if not tabular:
+            series_dict = d.get("series") or {}
+            periodos_serie = (d.get("periodos") or [])[-60:]  # últimos 60 periodos
+            campo_raw = d.get("campoDefault")
+            campo_label = _slabel(campo_raw) if campo_raw else None
+            if campo_label and campo_label in series_dict:
+                serie_principal = series_dict[campo_label][-60:]
+                serie_label = campo_label
+            elif series_dict:
+                serie_label = list(series_dict.keys())[0]
+                serie_principal = list(series_dict.values())[0][-60:]
+            else:
+                serie_principal = []
+                serie_label = ""
+            ma12_serie = (d.get("ma12") or [])[-60:] if d.get("ma12") else None
+            if serie_principal:
+                chart_payload = {
+                    "periodos": periodos_serie,
+                    "serie_label": serie_label,
+                    "serie_vals": serie_principal,
+                    "ma12": ma12_serie,
+                    "unidad": unidad,
+                }
+
+        # Parrafos del writer+verifier (para reporte completo)
+        interp_parrafos = interp.get("parrafos", []) if tipo_interp == "auto_v2" else []
+
         publicados.append({
             "id": iid,
             "nombre": d.get("nombre", iid),
@@ -1370,6 +1659,7 @@ def build_reporte_semanal(
             "frecuencia": frecuencia_map.get(iid, ""),
             "periodo_ref": periodo_ref,
             "fecha_pub": fecha_pub_display,
+            "fecha_pub_iso": fecha_pub,
             "alerta": alerta_actual,
             "is_priority": iid in PRIORITY_IDS,
             "stat_valor": ctx.get("stat_valor", "—"),
@@ -1379,7 +1669,12 @@ def build_reporte_semanal(
             "delta_sign": delta_sign,
             "dir_arrow": dir_arrow,
             "contexto": contexto,
+            "headline": headline_ejec or "",
+            "parrafos": interp_parrafos,
+            "diagnostico": diagnostico_ejec or "",
             "sparkline_svg": sparkline_svg,
+            "chart_payload": chart_payload,
+            "inegi_strip": ctx.get("inegi_strip"),
         })
 
     # Ordenar: prioridad y severidad
@@ -1405,6 +1700,7 @@ def build_reporte_semanal(
                 proximas.append({
                     "fecha_iso": p["fecha"],
                     "fecha_display": f"{pub_dt.day} {MESES[pub_dt.month - 1]}",
+                    "dia_semana": DIAS_ES_ABR[pub_dt.weekday()],
                     "nombre": indicadores.get(iid, {}).get("nombre") or p.get("evento_ics", iid)[:60],
                     "frecuencia": frecuencia_map.get(iid, ""),
                     "grupo": grupo,
@@ -1445,20 +1741,40 @@ def build_reporte_semanal(
             dir_grupo = "↑"
         else:
             dir_grupo = "→"
-        # Bullet por indicador
-        bullets = []
-        for ind in inds_tema:
-            val_txt = f"{ind['stat_valor_num']}{ind['unidad_corta']}" if ind["stat_valor_num"] != "—" else ""
-            delta_txt = f" ({ind['stat_delta']})" if ind["stat_delta"] != "—" else ""
-            bullets.append({
+
+        # Headlines prioritarios del tema: priorizar indicadores con interpretación auto_v2.
+        # Tomar máximo 2 headlines por tema, ordenados por severidad y prioridad.
+        inds_con_headline = sorted(
+            [i for i in inds_tema if i.get("headline")],
+            key=lambda x: (_alerta_order.get(x["alerta"], 9), not x["is_priority"]),
+        )
+        headlines_tema = []
+        for ind in inds_con_headline[:2]:
+            headlines_tema.append({
                 "alerta": ind["alerta"],
-                "texto": f"{ind['nombre']}: {val_txt}{delta_txt}".strip(": "),
+                "indicador": ind["nombre"],
+                "id": ind["id"],
+                "texto": ind["headline"],
             })
+
+        # Fallback: si no hay headlines (writer pendiente), mantener bullets de cifras.
+        bullets = []
+        if not headlines_tema:
+            for ind in inds_tema:
+                val_txt = f"{ind['stat_valor_num']}{ind['unidad_corta']}" if ind["stat_valor_num"] != "—" else ""
+                delta_txt = f" ({ind['stat_delta']})" if ind["stat_delta"] != "—" else ""
+                bullets.append({
+                    "alerta": ind["alerta"],
+                    "texto": f"{ind['nombre']}: {val_txt}{delta_txt}".strip(": "),
+                })
+
         resumen_sections.append({
             "tema": tema,
             "dir": dir_grupo,
             "alerta": alerta_grupo,
+            "headlines": headlines_tema,
             "bullets": bullets,
+            "n_indicadores": len(inds_tema),
         })
 
     # --- Estado agregado semanal ---
@@ -1519,10 +1835,22 @@ def build_reporte_semanal(
         if _g not in _orden_grupos:
             proximas_grupos.append({"label": _g, "publicaciones": _items})
 
-    tmpl = env.get_template("reporte_semanal.html.j2")
-    out = tmpl.render(
+    # Agrupar publicados por tema en TEMA_ORDEN para la vista de categorías
+    _tema_dict: dict[str, list] = {}
+    for _ind in publicados:
+        _tema_dict.setdefault(_ind["tema"], []).append(_ind)
+    publicados_by_tema: list[dict] = []
+    for _tema in TEMA_ORDEN:
+        if _tema in _tema_dict:
+            publicados_by_tema.append({"tema": _tema, "inds": _tema_dict[_tema]})
+    for _tema, _items in _tema_dict.items():
+        if _tema not in TEMA_ORDEN:
+            publicados_by_tema.append({"tema": _tema, "inds": _items})
+
+    ctx_reporte = dict(
         semana_label=semana_label,
         publicados=publicados,
+        publicados_by_tema=publicados_by_tema,
         proximas=_prox_slice,
         proximas_grupos=proximas_grupos,
         resumen_sections=resumen_sections,
@@ -1531,8 +1859,112 @@ def build_reporte_semanal(
         build_fecha=build_fecha,
         asset_prefix="",
     )
+
+    tmpl = env.get_template("reporte_semanal.html.j2")
+    out = tmpl.render(**ctx_reporte)
     (SITE_DIR / "reporte_semanal.html").write_text(out, encoding="utf-8")
     log.info("Reporte semanal OK · %d publicados · output: %s", len(publicados), SITE_DIR / "reporte_semanal.html")
+
+    # Versión completa para PDF: ventana "rolling lunes a hoy".
+    # Si hoy es lunes o martes, retrocede al lunes anterior (cubre la semana pasada completa).
+    # Si hoy es miércoles a domingo, usa el lunes de la semana en curso.
+    try:
+        weekday = hoy.weekday()  # 0=lunes ... 6=domingo
+        if weekday <= 1:
+            lunes_relevante = hoy - timedelta(days=weekday + 7)
+        else:
+            lunes_relevante = hoy - timedelta(days=weekday)
+
+        publicados_pdf = []
+        for ind in publicados:
+            fp_iso = ind.get("fecha_pub_iso")
+            try:
+                fp_dt = date.fromisoformat(fp_iso) if fp_iso else None
+            except Exception:
+                fp_dt = None
+            if fp_dt is None or fp_dt >= lunes_relevante:
+                publicados_pdf.append(ind)
+
+        # Filtrar duplicados: si el indicador pleno y su versión resumen aparecen
+        # en la misma ventana, conservar solo el pleno. Lee catálogo crudo
+        # para acceder al campo "vinculado_con".
+        ids_en_ventana = {p["id"] for p in publicados_pdf}
+        duplicados_a_suprimir: set[str] = set()
+        try:
+            _catalog_raw = json.loads(
+                (ROOT / "config" / "indicators.json").read_text(encoding="utf-8")
+            ).get("indicadores", [])
+            for _ind_cfg in _catalog_raw:
+                _vinc = _ind_cfg.get("vinculado_con")
+                _iid = _ind_cfg.get("id")
+                if _vinc and _iid in ids_en_ventana and _vinc in ids_en_ventana:
+                    duplicados_a_suprimir.add(_iid)
+        except Exception as _e:
+            log.warning("PDF: no pude leer catálogo crudo para deduplicar: %s", _e)
+        if duplicados_a_suprimir:
+            publicados_pdf = [p for p in publicados_pdf if p["id"] not in duplicados_a_suprimir]
+            log.info("PDF: suprimidos %d duplicados vinculados: %s",
+                     len(duplicados_a_suprimir), sorted(duplicados_a_suprimir))
+
+        # Reconstruir síntesis ejecutiva basada únicamente en los publicados de la ventana PDF.
+        _temas_pdf: dict[str, list] = {}
+        for _ind in publicados_pdf:
+            _temas_pdf.setdefault(_ind["tema"], []).append(_ind)
+        resumen_sections_pdf: list[dict] = []
+        for _tema in TEMA_ORDEN:
+            if _tema not in _temas_pdf:
+                continue
+            _inds_tema = _temas_pdf[_tema]
+            _alerta_grupo = min(
+                (i["alerta"] for i in _inds_tema),
+                key=lambda a: _alerta_order.get(a, 9),
+            )
+            _arrows = [i["dir_arrow"] for i in _inds_tema]
+            if _arrows.count("↓") > _arrows.count("↑"):
+                _dir_grupo = "↓"
+            elif _arrows.count("↑") > _arrows.count("↓"):
+                _dir_grupo = "↑"
+            else:
+                _dir_grupo = "→"
+            _inds_hl = sorted(
+                [i for i in _inds_tema if i.get("headline")],
+                key=lambda x: (_alerta_order.get(x["alerta"], 9), not x["is_priority"]),
+            )
+            _headlines_tema = []
+            for _ind in _inds_hl[:2]:
+                _headlines_tema.append({
+                    "alerta": _ind["alerta"],
+                    "indicador": _ind["nombre"],
+                    "id": _ind["id"],
+                    "texto": _ind["headline"],
+                })
+            resumen_sections_pdf.append({
+                "tema": _tema,
+                "dir": _dir_grupo,
+                "alerta": _alerta_grupo,
+                "headlines": _headlines_tema,
+                "bullets": [],
+                "n_indicadores": len(_inds_tema),
+            })
+
+        ctx_pdf = dict(ctx_reporte)
+        ctx_pdf["publicados"] = publicados_pdf
+        ctx_pdf["n_publicados"] = len(publicados_pdf)
+        ctx_pdf["resumen_sections"] = resumen_sections_pdf
+        # Etiqueta de ventana para el header del reporte completo
+        ctx_pdf["ventana_label"] = (
+            f"Publicaciones del {lunes_relevante.day} {MESES[lunes_relevante.month - 1]} "
+            f"al {hoy.day} {MESES[hoy.month - 1]} {hoy.year}"
+        )
+
+        tmpl_full = env.get_template("reporte_semanal_completo.html.j2")
+        out_full = tmpl_full.render(**ctx_pdf)
+        (SITE_DIR / "reporte_semanal_completo.html").write_text(out_full, encoding="utf-8")
+        log.info("Reporte semanal completo OK · %d publicados (lunes %s a hoy) · output: %s",
+                 len(publicados_pdf), lunes_relevante.isoformat(),
+                 SITE_DIR / "reporte_semanal_completo.html")
+    except Exception as e:
+        log.warning("Reporte semanal completo no se generó: %s", e)
 
 
 # ------------- copia de assets + build -------------
@@ -1544,6 +1976,22 @@ def copy_assets() -> None:
         src = ASSETS_DIR / name
         if src.exists():
             shutil.copy2(src, dst / name)
+    # Explorador IMSS (HTML autocontenido externo, se sirve como página estática)
+    explorador_src = ROOT / "docs" / "referencias" / "imss_referencia_rediseño.html"
+    explorador_dst = SITE_DIR / "imss_explorador.html"
+    if explorador_src.exists():
+        if explorador_dst.exists():
+            try:
+                explorador_dst.chmod(0o644)
+                explorador_dst.unlink()
+            except Exception as exc:
+                log.warning("No pude borrar %s: %s", explorador_dst, exc)
+        try:
+            shutil.copy(explorador_src, explorador_dst)
+            explorador_dst.chmod(0o644)
+            log.info("Copiado explorador IMSS: %s", explorador_dst.relative_to(ROOT))
+        except Exception as exc:
+            log.warning("No pude copiar explorador IMSS: %s", exc)
 
 
 def export_csvs() -> None:
@@ -1862,9 +2310,11 @@ def _v3_build_tabla(indicadores: dict) -> list[dict]:
             var_label = "Anual" if (d.get("campoDefault") or "").endswith("Anual") else "Mensual"
         delta_dir = "up" if (delta or 0) > 0 else ("down" if (delta or 0) < 0 else "flat")
         delta_arrow = "↑" if delta_dir == "up" else ("↓" if delta_dir == "down" else "→")
+        href = "imss_explorador.html" if iid == "empleo_imss" else f"indicador/{iid}.html"
         rows.append({
             "iid": iid,
             "nombre": nombre,
+            "href": href,
             "periodo_label": _v3_periodo_paren(periodo).replace("(", "").replace(")", "") if periodo else "—",
             "valor_fmt": valor_fmt,
             "delta_dir": delta_dir,
@@ -1898,6 +2348,270 @@ def _v3_build_sparks(indicadores: dict, top_ids: list[str]) -> dict:
         dir_ = "up" if delta > 0 else ("down" if delta < 0 else "flat")
         sparks[iid] = {"serie36": serie, "dir": dir_}
     return sparks
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Home v2 helpers: sparklines SVG inline, hero chart, category groups
+# ─────────────────────────────────────────────────────────────────────────────
+
+_MESES_ES = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"]
+_CAT_ORDER = [
+    ("macro",               "Macro"),
+    ("precios",             "Precios"),
+    ("actividad",           "Actividad"),
+    ("encuestas_sectoriales", "Encuestas sectoriales"),
+    ("automotriz",          "Automotriz"),
+    ("empleo",              "Empleo"),
+    ("regional",            "Regional"),
+    ("sentimiento",         "Sentimiento"),
+]
+_COLOR_POS = "#16A34A"
+_COLOR_NEG = "#DC2626"
+_COLOR_FLAT = "#71717A"
+
+
+def _v3_sparkline_svg(serie: list, dir_: str, w: int = 90, h: int = 26) -> str:
+    """Retorna SVG <polyline> con baseline (cero o min) y dot final.
+    Si la serie cruza cero, dibuja línea horizontal en y=0.
+    Si no, dibuja una línea tenue en el mínimo de la serie como ancla visual."""
+    vals = [v for v in serie if v is not None]
+    if len(vals) < 2:
+        return ""
+    lo, hi = min(vals), max(vals)
+    rang = hi - lo if hi != lo else 1.0
+    n = len(vals)
+    pts = []
+    for i, v in enumerate(vals):
+        x = round(i / (n - 1) * w, 1)
+        y = round((h - 2) - ((v - lo) / rang) * (h - 4) + 1, 1)
+        pts.append(f"{x},{y}")
+    # Baseline: zero si la serie cruza, sino min
+    crosses_zero = lo < 0 < hi
+    if crosses_zero:
+        y_base = round((h - 2) - ((0 - lo) / rang) * (h - 4) + 1, 1)
+        base_stroke = "#9CA3AF"
+        base_dash = "2,2"
+    else:
+        y_base = h - 2 + 1
+        base_stroke = "#E4E4E7"
+        base_dash = ""
+    color = _COLOR_POS if dir_ == "up" else (_COLOR_NEG if dir_ == "down" else _COLOR_FLAT)
+    last_x, last_y = pts[-1].split(",")
+    dash_attr = f' stroke-dasharray="{base_dash}"' if base_dash else ""
+    return (
+        f'<svg viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">'
+        f'<line x1="0" y1="{y_base}" x2="{w}" y2="{y_base}" stroke="{base_stroke}" stroke-width="0.6"{dash_attr}/>'
+        f'<polyline points="{" ".join(pts)}" fill="none" stroke="{color}" '
+        f'stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>'
+        f'<circle cx="{last_x}" cy="{last_y}" r="1.6" fill="{color}"/>'
+        f'</svg>'
+    )
+
+
+def _v3_fmt_periodo_label(p: str) -> str:
+    """'M01-25' → 'ENE 2025', 'T1-25' → 'T1 2025'."""
+    if not p or "-" not in p:
+        return p or ""
+    head, tail = p.split("-", 1)
+    try:
+        yy = int(tail)
+        yyyy = 2000 + yy if yy <= 30 else 1900 + yy
+    except ValueError:
+        return p
+    head_clean = head.lstrip("M").lstrip("T")
+    try:
+        mm = int(head_clean[:2]) if len(head_clean) >= 2 else int(head_clean)
+        if 1 <= mm <= 12:
+            return f"{_MESES_ES[mm - 1]} {yyyy}"
+    except ValueError:
+        pass
+    return f"{head} {yyyy}"
+
+
+def _v3_build_hero(indicadores: dict) -> dict:
+    """Extrae 24 meses del IGAE para el hero chart de la home."""
+    d = indicadores.get("igae", {})
+    campo = d.get("campoDefault")
+    if not campo or d.get("tabular"):
+        return {}
+    data_file = ROOT / "data" / "igae.json"
+    if not data_file.exists():
+        return {}
+    raw = json.loads(data_file.read_text(encoding="utf-8"))
+    all_rows = raw.get("series", []) or []
+    all_per = raw.get("periodos", []) or []
+    if not all_rows or not isinstance(all_rows[0], dict):
+        return {}
+    N = 24
+    serie = [r.get(campo) for r in all_rows][-N:]
+    per_labels = all_per[-N:]
+    vals = [v for v in serie if v is not None]
+    if len(vals) < 2:
+        return {}
+    lo, hi = min(vals), max(vals)
+    rang = hi - lo if hi != lo else 1.0
+    # SVG canvas: viewBox "0 0 580 110", usable x∈[20,560] y∈[10,100]
+    X0, XN, Y0, YN = 20, 560, 10, 100
+    W_SVG, H_SVG = XN - X0, YN - Y0
+    n = len(serie)
+    pts = []
+    for i, v in enumerate(serie):
+        if v is None:
+            continue
+        x = round(X0 + i / max(n - 1, 1) * W_SVG, 1)
+        y = round(YN - ((v - lo) / rang) * H_SVG, 1)
+        y = max(Y0, min(YN, y))
+        pts.append(f"{x},{y}")
+    last_x, last_y = (pts[-1].split(",") if pts else ["560", "55"])
+    # Baseline: cero si la serie lo cruza, sino min como ancla visual.
+    if lo < 0 < hi:
+        y_zero = round(YN - ((0 - lo) / rang) * H_SVG, 1)
+        zero_label = "0%"
+    else:
+        y_zero = YN  # min de la serie
+        zero_label = f"{lo:+.1f}%"
+    y_zero = max(Y0, min(YN, y_zero))
+    # X axis labels: 5 evenly spaced
+    x_labels = []
+    idxs = sorted({0, n // 4, n // 2, 3 * n // 4, n - 1})
+    for idx in idxs:
+        if idx < len(per_labels):
+            x = round(X0 + idx / max(n - 1, 1) * W_SVG, 1)
+            x_labels.append({
+                "x": x,
+                "label": _v3_fmt_periodo_label(per_labels[idx]),
+                "is_last": idx == n - 1,
+            })
+    ultimo = d.get("ultimo")
+    delta = d.get("delta")
+    delta_dir = "up" if (delta or 0) > 0 else ("down" if (delta or 0) < 0 else "flat")
+    periodo = (d.get("periodos") or [""])[-1]
+    # Texto accesible para screen readers.
+    primer_label = _v3_fmt_periodo_label(per_labels[0]) if per_labels else ""
+    ultimo_label = _v3_fmt_periodo_label(per_labels[-1]) if per_labels else ""
+    dir_txt = "al alza" if delta_dir == "up" else ("a la baja" if delta_dir == "down" else "sin cambio relevante")
+    aria_label = (
+        f"IGAE, variación anual. Serie de {primer_label} a {ultimo_label}. "
+        f"Tendencia {dir_txt}. Valor actual {ultimo:+.1f}% en {ultimo_label}." if ultimo is not None else
+        f"IGAE, serie sin datos suficientes."
+    )
+    return {
+        "pts": " ".join(pts),
+        "last_x": last_x,
+        "last_y": last_y,
+        "y_zero": y_zero,
+        "y_zero_label": zero_label,
+        "x_labels": x_labels,
+        "valor_fmt": f"{ultimo:+.1f}" if ultimo is not None else "—",
+        "delta_dir": delta_dir,
+        "delta_fmt": f"{delta:+.2f} pp" if delta is not None else "—",
+        "periodo_label": _v3_periodo_paren(periodo).replace("(", "").replace(")", ""),
+        "aria_label": aria_label,
+        "ymin_fmt": f"{lo:+.1f}%",
+        "ymax_fmt": f"{hi:+.1f}%",
+    }
+
+
+def _v3_row_fmt(iid: str, d: dict) -> dict:
+    """Formatea una fila de indicador para cat_groups o tabla full."""
+    ultimo = d.get("ultimo")
+    delta = d.get("delta")
+    unidad = d.get("unidad", "")
+    nombre = d.get("nombre", iid)
+    if iid == "empleo_imss":
+        valor_fmt = f"{ultimo:.1f} M" if ultimo is not None else "—"
+        delta_unidad = "%"
+    elif unidad == "%":
+        valor_fmt = f"{ultimo:.2f}%" if ultimo is not None else "—"
+        delta_unidad = "pp"
+    elif unidad == "MDD":
+        valor_fmt = f"{ultimo:,.0f} MDD" if ultimo is not None else "—"
+        delta_unidad = "MDD"
+    elif unidad:
+        valor_fmt = f"{ultimo:.2f} {unidad}" if ultimo is not None else "—"
+        delta_unidad = unidad
+    else:
+        valor_fmt = f"{ultimo:.2f}" if ultimo is not None else "—"
+        delta_unidad = ""
+    delta_dir = "up" if (delta or 0) > 0 else ("down" if (delta or 0) < 0 else "flat")
+    delta_arrow = "↑" if delta_dir == "up" else ("↓" if delta_dir == "down" else "→")
+    if delta is not None:
+        delta_fmt = f"{delta_arrow} {abs(delta):.2f} {delta_unidad}".strip()
+    else:
+        delta_fmt = "—"
+    periodos = d.get("periodos") or []
+    periodo_label = (
+        _v3_periodo_paren(periodos[-1]).replace("(", "").replace(")", "")
+        if periodos else "—"
+    )
+    href = "imss_explorador.html" if iid == "empleo_imss" else f"indicador/{iid}.html"
+    return {
+        "iid": iid,
+        "nombre": nombre,
+        "href": href,
+        "valor_fmt": valor_fmt,
+        "delta_dir": delta_dir,
+        "delta_arrow": delta_arrow,
+        "delta_fmt": delta_fmt,
+        "periodo_label": periodo_label,
+        "tabular": bool(d.get("tabular")),
+    }
+
+
+def _v3_build_cat_groups(indicadores: dict) -> list:
+    """Agrupa los 32 indicadores por categoría con sparklines SVG inline."""
+    groups = []
+    for cat_id, cat_name in _CAT_ORDER:
+        rows = []
+        for iid, d in indicadores.items():
+            if (d.get("categoria") or "").lower() != cat_id:
+                continue
+            row = _v3_row_fmt(iid, d)
+            # Sparkline: solo para no-tabulares con campoDefault
+            spark_svg = ""
+            if not d.get("tabular"):
+                campo = d.get("campoDefault")
+                if campo:
+                    data_file = ROOT / "data" / f"{iid}.json"
+                    if data_file.exists():
+                        try:
+                            raw_data = json.loads(data_file.read_text(encoding="utf-8"))
+                            r_rows = raw_data.get("series", []) or []
+                            if r_rows and isinstance(r_rows[0], dict):
+                                serie = [r.get(campo) for r in r_rows][-24:]
+                                delta = d.get("delta") or 0
+                                dir_ = "up" if delta > 0 else ("down" if delta < 0 else "flat")
+                                spark_svg = _v3_sparkline_svg(serie, dir_)
+                        except Exception:
+                            pass
+            row["spark_svg"] = spark_svg
+            rows.append(row)
+        if rows:
+            groups.append({"id": cat_id, "nombre": cat_name, "rows": rows})
+    return groups
+
+
+def _v3_build_kpis_v2() -> list:
+    """Igual que _v3_build_kpis pero añade spark_svg a cada KPI."""
+    kpis = _v3_build_kpis()
+    for kpi in kpis:
+        iid = kpi["id"]
+        campo = kpi.get("campo_principal")
+        spark_svg = ""
+        if campo and campo not in ("_total_abs", "_nac_yoy"):
+            data_file = ROOT / "data" / f"{iid}.json"
+            if data_file.exists():
+                try:
+                    raw_data = json.loads(data_file.read_text(encoding="utf-8"))
+                    r_rows = raw_data.get("series", []) or []
+                    if r_rows and isinstance(r_rows[0], dict):
+                        serie = [r.get(campo) for r in r_rows][-24:]
+                        dir_ = kpi.get("delta_dir", "flat")
+                        spark_svg = _v3_sparkline_svg(serie, dir_)
+                except Exception:
+                    pass
+        kpi["spark_svg"] = spark_svg
+    return kpis
 
 
 def build_comparar(env: Environment, indicadores: dict, hoy: date) -> None:
@@ -1979,11 +2693,11 @@ def build_v3(env: Environment, indicadores: dict, calendar: dict, hoy: date) -> 
         {"id": iid, "label": lbl2, "href": href} for iid, lbl2, href in items
     ]} for lbl, items in NAV_STRUCTURE]
 
-    kpis = _v3_build_kpis()
+    kpis = _v3_build_kpis_v2()
     publicaciones = _v3_build_publicaciones(calendar, hoy_iso)
     tabla_rows = _v3_build_tabla(indicadores)
-    top_ids = [r["iid"] for r in tabla_rows]
-    sparks = _v3_build_sparks(indicadores, top_ids)
+    hero = _v3_build_hero(indicadores)
+    cat_groups = _v3_build_cat_groups(indicadores)
 
     ctx = {
         "page_title": "Panorama económico de México",
@@ -1996,7 +2710,8 @@ def build_v3(env: Environment, indicadores: dict, calendar: dict, hoy: date) -> 
         "kpis": kpis,
         "publicaciones": publicaciones,
         "tabla_rows": tabla_rows,
-        "sparks_json": json.dumps(sparks, ensure_ascii=False),
+        "hero": hero,
+        "cat_groups": cat_groups,
     }
     (SITE_DIR / "index.html").write_text(tmpl.render(**ctx), encoding="utf-8")
 
@@ -2040,6 +2755,10 @@ def main() -> None:
     eventos_cfg = json.loads(eventos_path.read_text(encoding="utf-8"))["eventos"] if eventos_path.exists() else []
 
     for iid, d in indicadores.items():
+        # empleo_imss vive como sección dedicada del sidebar (imss_explorador.html).
+        # Skip la generación del detalle estándar.
+        if iid == "empleo_imss":
+            continue
         d_ctx = build_indicador_ctx(d, iid=iid, thresholds=thresholds)
         # Cargar serie COMPLETA del raw para permitir selector de rango
         raw_file = ROOT / "data" / f"{iid}.json"

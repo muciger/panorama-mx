@@ -1161,6 +1161,11 @@ def build_tabular(meta: dict, cfg: dict, data_dir: Path, calendar: dict, thresho
         nac_yoy         = data.get("series_nacional_yoy", {})
         sector_yoy      = data.get("series_sector_yoy", {})
         periodo_ref     = data.get("periodo_referencia", "")
+        # Nuevos campos del ingest_imss ampliado (C):
+        genero_sector   = data.get("genero_por_sector", []) or []
+        top_alza        = data.get("top_subsectores_alza", []) or []
+        top_baja        = data.get("top_subsectores_baja", []) or []
+        outsourcing     = data.get("serie_outsourcing_sec88", []) or []
 
         # ── Time series (Total, Permanentes, Eventuales) ─────────────────────
         N = min(60, len(series))
@@ -1248,6 +1253,11 @@ def build_tabular(meta: dict, cfg: dict, data_dir: Path, calendar: dict, thresho
             "_nac_yoy_ult":      round(nac_yoy_ult, 2) if nac_yoy_ult is not None else None,
             # YoY histórico por sector
             "_sector_yoy": sector_yoy_ordered,
+            # Nuevos bloques C (sólo presentes si ingest_imss.py ampliado los generó)
+            "_genero_sector": genero_sector,
+            "_top_subsectores_alza": top_alza,
+            "_top_subsectores_baja": top_baja,
+            "_outsourcing_serie": outsourcing,
             # Entidad
             "_entidad_filas":   entidad_filas,
             "_entidad_cols":    ["Entidad", "Total", "Participacion", "Var_anual"],

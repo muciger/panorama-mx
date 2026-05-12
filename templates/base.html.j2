@@ -13,6 +13,7 @@
 <script src="{{ asset_prefix }}assets/app.js" defer></script>
 </head>
 <body>
+<a href="#main-content" class="skip-link">Saltar al contenido</a>
 <div class="layout">
   <aside class="sidebar">
     <div class="brand-block">
@@ -35,6 +36,10 @@
       <a class="nav-item{% if active_section == 'comparar' %} active{% endif %}" href="{{ asset_prefix }}comparar.html">
         <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         <span class="nav-label">Comparar</span>
+      </a>
+      <a class="nav-item{% if active_section == 'empleo_imss' %} active{% endif %}" href="{{ asset_prefix }}imss_explorador.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Empleo IMSS</span>
       </a>
       <details class="nav-group-details"{% if active_section == 'indicadores' %} open{% endif %} id="nav-indicadores-details">
         <summary class="nav-item nav-summary{% if active_section == 'indicadores' %} active{% endif %}" aria-haspopup="listbox">
@@ -67,7 +72,7 @@
     </div>
   </aside>
 
-  <main class="main">
+  <main class="main" id="main-content" tabindex="-1">
     <header class="topbar">
       <div class="topbar-status">
         <span class="status-dot status-ok"></span>

@@ -18,7 +18,7 @@
     "Var_mensual_feb-26",
     "Var_anual_feb-26"
   ],
-  "ultima_actualizacion": "2026-05-05",
+  "ultima_actualizacion": "2026-05-11",
   "proxima_actualizacion_manual": null,
   "periodos": [
     "feb-26",
@@ -29,23 +29,23 @@
   "series": [
     {
       "Concepto": "Total",
-      "Var_mensual_feb-26": 0.11,
-      "Var_anual_feb-26": -0.27
+      "Var_mensual_feb-26": 0.105482370793664,
+      "Var_anual_feb-26": -0.271836166907716
     },
     {
       "Concepto": "Actividades primarias",
-      "Var_mensual_feb-26": -0.26,
-      "Var_anual_feb-26": 2.28
+      "Var_mensual_feb-26": -0.255210183095977,
+      "Var_anual_feb-26": 2.28079870291208
     },
     {
       "Concepto": "Actividades secundarias",
-      "Var_mensual_feb-26": 0.4,
-      "Var_anual_feb-26": -1.33
+      "Var_mensual_feb-26": 0.396962480341423,
+      "Var_anual_feb-26": -1.3342861180503
     },
     {
       "Concepto": "Actividades terciarias",
-      "Var_mensual_feb-26": -0.05,
-      "Var_anual_feb-26": 0.18
+      "Var_mensual_feb-26": -0.0540583735398004,
+      "Var_anual_feb-26": 0.181273335703779
     }
   ],
   "benchmarks": {

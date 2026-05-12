@@ -27,11 +27,22 @@ import duckdb
 import pandas as pd
 
 # ── Rutas ────────────────────────────────────────────────────────────────────
+# IMSS_PARQUET_DIR puede sobreescribirse vía env var. Si no existe la default,
+# busca en rutas alternativas conocidas antes de fallar.
+import os as _os
 
 ROOT    = Path(__file__).parent.parent
-PAR_DIR = ROOT / "sources" / "imss" / "parquet"
 CAT_XL  = ROOT / "sources" / "imss" / "catalogos.xlsx"
 OUT     = ROOT / "data" / "empleo_imss.json"
+
+_DEFAULT_PARDIRS = [
+    Path(_os.environ["IMSS_PARQUET_DIR"]) if _os.environ.get("IMSS_PARQUET_DIR") else None,
+    ROOT / "sources" / "imss" / "parquet",
+    Path.home() / "Desktop" / "Descargas firefox" / "Datos empleo IMSS" / "Datos empleo imss" / "datos" / "imss_parquet",
+    Path.home() / "Desktop" / "Descargas firefox" / "Datos empleo IMSS",
+    Path.home() / "Documents" / "GitHub" / "imss-empleo" / "datos" / "imss_parquet",
+]
+PAR_DIR = next((p for p in _DEFAULT_PARDIRS if p and p.exists() and any(p.glob("*.parquet"))), _DEFAULT_PARDIRS[1])
 PARQUET = str(PAR_DIR / "*.parquet")
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
@@ -188,6 +199,67 @@ def query_sector(con, fecha_actual: str) -> pd.DataFrame:
     """).df()
 
 
+def query_genero_por_sector(con, fecha_actual: str) -> pd.DataFrame:
+    """Brecha de género por sector en el último mes disponible.
+    Devuelve hombres, mujeres y % mujeres por cve_sector."""
+    return con.execute(f"""
+        SELECT
+            sector_economico_1 AS cve_sector,
+            SUM(CASE WHEN sexo = 1 THEN ta ELSE 0 END) AS hombres,
+            SUM(CASE WHEN sexo = 2 THEN ta ELSE 0 END) AS mujeres,
+            SUM(ta) AS total,
+            ROUND(SUM(CASE WHEN sexo = 2 THEN ta ELSE 0 END) * 100.0 / NULLIF(SUM(ta), 0), 1) AS pct_mujeres
+        FROM read_parquet('{PARQUET}')
+        WHERE fecha = '{fecha_actual}'
+          AND sector_economico_1 IS NOT NULL
+          AND sexo IN (1, 2)
+        GROUP BY 1
+        ORDER BY total DESC
+    """).df()
+
+
+def query_top_subsectores_yoy(con, fecha_actual: str, top_n: int = 10, min_total: int = 50000) -> pd.DataFrame:
+    """Top N subsectores (sec1, sec2) con mayor variación anual.
+    min_total filtra sectores con menos de N puestos para evitar ruido."""
+    return con.execute(f"""
+        WITH s AS (
+            SELECT strftime(fecha, '%Y-%m') AS mes,
+                   sector_economico_1 AS sec1,
+                   sector_economico_2 AS sec2,
+                   SUM(ta) AS ta
+            FROM read_parquet('{PARQUET}')
+            WHERE sector_economico_2 IS NOT NULL
+              AND sector_economico_1 IS NOT NULL
+            GROUP BY 1, 2, 3
+        )
+        SELECT
+            a.sec1, a.sec2,
+            a.ta AS ta_actual,
+            b.ta AS ta_anio_ant,
+            ROUND(100.0 * (a.ta::DOUBLE / NULLIF(b.ta, 0) - 1), 2) AS var_anual
+        FROM s a
+        JOIN s b ON a.sec1 = b.sec1 AND a.sec2 = b.sec2
+        WHERE a.mes = strftime('{fecha_actual}'::DATE, '%Y-%m')
+          AND b.mes = strftime(('{fecha_actual}'::DATE - INTERVAL 1 YEAR), '%Y-%m')
+          AND a.ta > {min_total}
+        ORDER BY var_anual DESC
+        LIMIT {top_n * 2}
+    """).df()
+
+
+def query_hito_outsourcing(con) -> pd.DataFrame:
+    """Serie del sec2=88 (servicios empresariales/outsourcing) para marcar hito de abril 2021."""
+    return con.execute(f"""
+        SELECT
+            strftime(fecha, '%Y-%m') AS mes,
+            SUM(ta) AS ta_outsourcing
+        FROM read_parquet('{PARQUET}')
+        WHERE sector_economico_2 = 88
+        GROUP BY 1
+        ORDER BY 1
+    """).df()
+
+
 def query_entidad(con, fecha_actual: str) -> pd.DataFrame:
     """Desglose por entidad federativa en el último mes disponible,
     con variación anual y participación en el total."""
@@ -333,7 +405,68 @@ def main():
         })
     log.info("  %d entidades", len(series_entidad))
 
-    # ── 6. Ensamblar JSON ────────────────────────────────────────────────────
+    # ── 6. Brecha de género por sector ──────────────────────────────────────
+    log.info("Aggregando género por sector (%s)...", periodo_ref)
+    df_gen = query_genero_por_sector(con, fecha_actual)
+    genero_por_sector = []
+    for _, row in df_gen.iterrows():
+        cve = int(row["cve_sector"]) if pd.notna(row["cve_sector"]) else None
+        if cve is None:
+            continue
+        genero_por_sector.append({
+            "cve_sector": cve,
+            "sector":     SECTOR_SHORT.get(cve, f"Sector {cve}"),
+            "hombres":    int(row["hombres"]),
+            "mujeres":    int(row["mujeres"]),
+            "total":      int(row["total"]),
+            "pct_mujeres": float(row["pct_mujeres"]) if pd.notna(row["pct_mujeres"]) else None,
+        })
+    log.info("  %d sectores con datos de género", len(genero_por_sector))
+
+    # ── 7. Top subsectores con mayor crecimiento anual ──────────────────────
+    log.info("Aggregando top subsectores YoY (%s)...", periodo_ref)
+    try:
+        df_top = query_top_subsectores_yoy(con, fecha_actual)
+        top_subsectores_yoy = []
+        for _, row in df_top.iterrows():
+            sec1 = int(row["sec1"]) if pd.notna(row["sec1"]) else None
+            sec2 = int(row["sec2"]) if pd.notna(row["sec2"]) else None
+            if sec1 is None or sec2 is None:
+                continue
+            top_subsectores_yoy.append({
+                "sec1": sec1,
+                "sec2": sec2,
+                "sector": SECTOR_SHORT.get(sec1, f"Sector {sec1}"),
+                "subsector_id": f"{sec1}-{sec2}",
+                "ta_actual":    int(row["ta_actual"]),
+                "ta_anio_ant":  int(row["ta_anio_ant"]),
+                "var_anual":    float(row["var_anual"]) if pd.notna(row["var_anual"]) else None,
+            })
+        # Top alza y top baja
+        top_subsectores_yoy.sort(key=lambda x: -(x["var_anual"] or 0))
+        top_alza = top_subsectores_yoy[:10]
+        top_baja = sorted(top_subsectores_yoy, key=lambda x: (x["var_anual"] or 0))[:10]
+        log.info("  %d subsectores con variación anual", len(top_subsectores_yoy))
+    except Exception as exc:
+        log.warning("Top subsectores YoY falló: %s", exc)
+        top_alza = []
+        top_baja = []
+
+    # ── 8. Hito outsourcing (sec2=88) ───────────────────────────────────────
+    log.info("Aggregando serie sec2=88 para hito outsourcing...")
+    try:
+        df_outs = query_hito_outsourcing(con)
+        outsourcing = [
+            {"periodo": r["mes"], "ta": int(r["ta_outsourcing"])}
+            for _, r in df_outs.iterrows()
+            if pd.notna(r["ta_outsourcing"])
+        ]
+        log.info("  %d periodos de outsourcing (sec2=88)", len(outsourcing))
+    except Exception as exc:
+        log.warning("Serie outsourcing falló: %s", exc)
+        outsourcing = []
+
+    # ── 9. Ensamblar JSON ────────────────────────────────────────────────────
     ultimo_total = series[-1]["Total"]
     total_ant    = series[-2]["Total"] if len(series) >= 2 else None
     delta_m      = round((ultimo_total - total_ant) / total_ant * 100, 2) if total_ant else None
@@ -363,6 +496,10 @@ def main():
         "series_nacional_yoy": series_nacional_yoy,
         "series_sector_yoy":  series_sector_yoy,
         "series_entidad":     series_entidad,
+        "genero_por_sector":  genero_por_sector,
+        "top_subsectores_alza": top_alza,
+        "top_subsectores_baja": top_baja,
+        "serie_outsourcing_sec88": outsourcing,
         "periodo_referencia": periodo_ref,
         "_ultimo_total":   ultimo_total,
         "_delta_mensual":  delta_m,

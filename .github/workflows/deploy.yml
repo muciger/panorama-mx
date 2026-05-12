@@ -2,17 +2,32 @@ name: Panorama MX — Build & Deploy
 
 on:
   schedule:
-    # 8:30 AM hora Ciudad de México (CDT = UTC-5, CST = UTC-6)
-    # 13:30 UTC cubre CDT; en invierno corre a las 7:30 AM CST (aceptable)
-    - cron: '30 13 * * *'
+    # 7:00 AM hora del centro de México (CST = UTC-6).
+    # INEGI publica boletines a las 6:00 AM, dejamos 1h de margen.
+    # México no observa horario de verano desde 2022 (excepto franja norte).
+    # 13:00 UTC = 7:00 CST.
+    - cron: '0 13 * * *'
   workflow_dispatch:  # permite disparar manualmente desde GitHub Actions
+  push:
+    branches: [main]
+    paths:
+      - 'templates/**'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'config/**'
+      - '.github/workflows/deploy.yml'
 
 permissions:
   contents: write   # necesario para push a gh-pages
 
+concurrency:
+  group: deploy-pages
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
 
     steps:
       - name: Checkout código fuente
@@ -32,14 +47,19 @@ jobs:
             poppler-utils
 
       - name: Instalar dependencias Python
-        run: pip install -r requirements.txt --break-system-packages || pip install -r requirements.txt
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Correr pipeline completo
+      - name: Correr pipeline completo (sin IMSS local)
         env:
           INEGI_BIE_TOKEN: ${{ secrets.INEGI_BIE_TOKEN }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python3 scripts/refresh_daily.py
+        run: |
+          python3 scripts/refresh_daily.py
+        # Nota: ingest_imss.py NO corre en cloud (parquets locales 2.3 GB).
+        # Los datos IMSS se actualizan mensualmente desde Mac local.
 
       - name: Verificar que site/ fue generado
         run: |
@@ -47,7 +67,24 @@ jobs:
             echo "ERROR: site/index.html no existe. El build falló."
             exit 1
           fi
-          echo "OK — $(find site -name '*.html' | wc -l) páginas HTML generadas"
+          n_html=$(find site -name '*.html' | wc -l)
+          echo "OK — $n_html páginas HTML generadas"
+          if [ "$n_html" -lt 30 ]; then
+            echo "ERROR: Esperaba al menos 30 páginas HTML, encontré $n_html"
+            exit 1
+          fi
+
+      - name: Commit data/ y calendar actualizados
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data/ config/calendar.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Sin cambios en data/ ni calendar.json"
+          else
+            git commit -m "data: refresh diario ${{ github.run_number }}"
+            git push origin HEAD:main || echo "Push falló, continúa con deploy"
+          fi
 
       - name: Deploy a GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -55,5 +92,17 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           publish_branch: gh-pages
-          commit_message: "deploy: ${{ github.run_number }} — ${{ github.event_name }}"
-          force_orphan: true   # rama gh-pages liviana, solo el último build
+          commit_message: "deploy: ${{ github.run_number }} · ${{ github.event_name }}"
+          force_orphan: true
+
+      - name: Resumen del run
+        if: always()
+        run: |
+          echo "## Resumen del refresh diario" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- Trigger: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Run number: ${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Status: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          if [ -f site/index.html ]; then
+            echo "- Páginas HTML: $(find site -name '*.html' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          fi

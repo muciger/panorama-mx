@@ -15,6 +15,23 @@ function v3SparkColor(dir) {
   return COLORS_V3.navy;
 }
 
+/* Texto descriptivo para el eje Y a partir de d.eje_y_titulo o unidad. */
+function v3YAxisTitle(d, fallbackUnit) {
+  if (!d) return "";
+  if (d.eje_y_titulo) return d.eje_y_titulo;
+  const u = (fallbackUnit !== undefined ? fallbackUnit : d.unidad) || "";
+  if (u === "%") return "Variación / nivel (%)";
+  if (u === "MDD" || u === " MDD") return "Millones de dólares (MDD)";
+  if (u === "M") return "Millones de personas";
+  if (u === "pp") return "Puntos porcentuales (pp)";
+  if (u) return "Valor (" + u.trim() + ")";
+  return "";
+}
+
+function v3AxisTitleObj(text) {
+  return text ? { display: true, text, color: "#52525B", font: { size: 11, weight: "500" }, padding: { top: 0, bottom: 6 } } : { display: false };
+}
+
 function v3RenderTblSpark(canvasId, serie, color) {
   const canvas = document.getElementById(canvasId);
   if (!canvas || !window.Chart || !serie) return;
@@ -60,20 +77,23 @@ function v3WireTblFilter() {
   if (catSelect) catSelect.addEventListener("change", applyFilters);
 }
 
-/* Accesibilidad de teclado: tabindex + Enter/Space en filas de tabla clickeables */
+/* Filas de tabla: el primer td contiene el anchor real (Ctrl/middle-click, bookmark OK).
+   Las otras celdas delegan al click del enlace, preservando modificadores. */
 function v3WireTblKeyboard() {
   const tbl = document.getElementById("indic-tbl-v3");
   if (!tbl) return;
-  const rows = tbl.querySelectorAll("tbody tr[onclick]");
+  const rows = tbl.querySelectorAll("tbody tr.indic-row");
   rows.forEach(tr => {
-    tr.setAttribute("tabindex", "0");
-    tr.setAttribute("role", "row");
-    tr.addEventListener("keydown", e => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        // Extraer href del onclick attr: location.href='...'
-        const match = (tr.getAttribute("onclick") || "").match(/location\.href=['"]([^'"]+)['"]/);
-        if (match) window.location.href = match[1];
+    const link = tr.querySelector("a.indic-row-link");
+    if (!link) return;
+    tr.addEventListener("click", e => {
+      // Si el click vino del anchor (o un descendiente), no interceptar.
+      if (e.target.closest("a")) return;
+      // Replicar modificadores (Ctrl/Cmd/middle abren nueva pestaña).
+      if (e.metaKey || e.ctrlKey || e.button === 1) {
+        window.open(link.href, "_blank", "noopener");
+      } else {
+        window.location.href = link.href;
       }
     });
   });
@@ -165,7 +185,7 @@ function v3RenderDetailChart(canvas, d) {
       },
       scales: {
         x: { grid: { display: false }, ticks: { font: { size: 11 }, color: COLORS_V3.navy }},
-        y: { grid: { color: "rgba(0,48,87,0.08)" }, ticks: { font: { size: 11 }, color: COLORS_V3.navy, callback: v => v + (d.unidad || "") }}
+        y: { title: v3AxisTitleObj(v3YAxisTitle(d)), grid: { color: "rgba(0,48,87,0.08)" }, ticks: { font: { size: 11 }, color: COLORS_V3.navy, callback: v => v + (d.unidad || "") }}
       }
     }
   });
@@ -200,7 +220,7 @@ function v3RenderBarHorizontal(canvas, d) {
         ...extras
       },
       scales: {
-        x: { grid: { color: "rgba(0,48,87,0.08)" }, ticks: { font: { size: 11 }, color: COLORS_V3.navy, callback: fmt }},
+        x: { title: v3AxisTitleObj(v3YAxisTitle(d, unit)), grid: { color: "rgba(0,48,87,0.08)" }, ticks: { font: { size: 11 }, color: COLORS_V3.navy, callback: fmt }},
         y: { grid: { display: false }, ticks: { font: { size: 11 }, color: COLORS_V3.navy, autoSkip: false }}
       }
     }
@@ -239,7 +259,7 @@ function v3RenderMultiSeries(canvas, periodos, seriesObj, opts) {
       },
       scales: {
         x: { grid: { display: false }, ticks: { font: { size: 10 }, color: COLORS_V3.navy, maxRotation: 0, autoSkipPadding: 8 }},
-        y: { grid: { color: "rgba(0,48,87,0.08)" }, ticks: { font: { size: 10 }, color: COLORS_V3.navy, callback: v => v + (cfg.unidad || "") }}
+        y: { title: v3AxisTitleObj(cfg.eje_y_titulo || v3YAxisTitle({ unidad: cfg.unidad })), grid: { color: "rgba(0,48,87,0.08)" }, ticks: { font: { size: 10 }, color: COLORS_V3.navy, callback: v => v + (cfg.unidad || "") }}
       }
     }
   });
@@ -273,7 +293,7 @@ function v3RenderBarVertical(canvas, d) {
       },
       scales: {
         x: { grid: { display: false }, ticks: { font: { size: 11 }, color: COLORS_V3.navy } },
-        y: { grid: { color: "rgba(0,48,87,0.08)" }, ticks: { font: { size: 11 }, color: COLORS_V3.navy, callback: v => v + unit } }
+        y: { title: v3AxisTitleObj(v3YAxisTitle(d, unit)), grid: { color: "rgba(0,48,87,0.08)" }, ticks: { font: { size: 11 }, color: COLORS_V3.navy, callback: v => v + unit } }
       }
     }
   });
@@ -309,7 +329,7 @@ function v3RenderBarGrouped(canvas, d) {
       },
       scales: {
         x: { grid: { display: false }, ticks: { font: { size: 11 }, color: COLORS_V3.navy } },
-        y: { grid: { color: "rgba(0,48,87,0.08)" }, ticks: { font: { size: 11 }, color: COLORS_V3.navy, callback: v => v + unit } }
+        y: { title: v3AxisTitleObj(v3YAxisTitle(d, unit)), grid: { color: "rgba(0,48,87,0.08)" }, ticks: { font: { size: 11 }, color: COLORS_V3.navy, callback: v => v + unit } }
       }
     }
   });
@@ -554,11 +574,29 @@ async function v3InitGlossary() {
   } catch (e) { return; }
   if (!Object.keys(gloss).length) return;
 
-  // Selectores donde buscar términos (texto plano que tiene acrónimos visibles)
+  // Selectores donde buscar términos (texto visible con acrónimos)
   const selectors = [
+    // Tablas e índice
     ".kpi-label", ".kpi-unidad-label", ".pub-nombre", ".indic-tbl td",
-    ".detail-meta", ".analytics-card h4", ".drilldown-head h3",
-    ".stat-card .nota", ".stat-card .label", ".kpi-delta-text"
+    ".kpi-delta-text",
+    // Detalle de indicador
+    ".detail-meta", ".detail-title",
+    ".breadcrumb-cat", ".breadcrumb-current",
+    ".analytics-card h4", ".drilldown-head h3",
+    ".stat-card .nota", ".stat-card .label",
+    // Strip INEGI + headline corto
+    ".inegi-tile-head", ".inegi-tile-period", ".inegi-headline p",
+    // Interpretaciones (writer+verifier)
+    ".interp-diag-block p", ".interp-prosa-block p", ".interp-block p",
+    // Reporte semanal corto y completo
+    ".resumen-headline-item p", ".indic-pagina-headline", ".indic-pagina-parrafo",
+    ".indic-pagina-meta", ".inegi-tile-inline-head",
+    // Cards y secciones IMSS/INPC
+    ".imss-sector-nombre", ".inpc-recuadro-titulo", ".inpc-recuadro-sublabel",
+    // Drilldowns y notas
+    ".productos-nota", ".source", ".card-head .source", ".chart-card-head h3",
+    // Pages comparar y categorías
+    ".cat-row-name", ".cat-h2-title"
   ];
   // Patrón: palabra completa que coincide exactamente con clave del glossary (case-insensitive)
   const terms = Object.keys(gloss);
@@ -573,6 +611,10 @@ async function v3InitGlossary() {
       const toReplace = [];
       let node;
       while ((node = walker.nextNode())) {
+        // Skip nodos dentro de elementos que ya están wrapped o son botones/scripts
+        const parentTag = node.parentNode && node.parentNode.tagName;
+        if (parentTag === "SCRIPT" || parentTag === "STYLE" || parentTag === "BUTTON") continue;
+        if (node.parentNode.classList && node.parentNode.classList.contains("gloss-term")) continue;
         if (node.nodeValue && pattern.test(node.nodeValue)) {
           pattern.lastIndex = 0;
           toReplace.push(node);
@@ -588,7 +630,11 @@ async function v3InitGlossary() {
           span.textContent = match;
           // Match case-insensitive: buscar definición
           const key = terms.find(t => t.toLowerCase() === match.toLowerCase());
-          if (key) span.title = gloss[key];
+          if (key) {
+            span.title = gloss[key];
+            span.setAttribute("data-glo", gloss[key]);
+            span.tabIndex = 0;
+          }
           frag.appendChild(span);
           last = offset + match.length;
         });
@@ -597,6 +643,45 @@ async function v3InitGlossary() {
       });
     });
   });
+}
+
+/* Toggle "Datos avanzados" (persistente en localStorage). */
+function v3InitAdvancedToggle() {
+  const KEY = "panorama-show-advanced";
+  // Estado inicial (default oculto)
+  const saved = localStorage.getItem(KEY);
+  const enabled = saved === "1";
+  if (enabled) document.body.classList.add("show-advanced");
+
+  // Crear botón en topbar si existe
+  const topbar = document.querySelector(".topbar");
+  if (!topbar) return;
+  // Evitar duplicado si ya existe
+  if (document.getElementById("adv-toggle")) return;
+
+  const btn = document.createElement("button");
+  btn.id = "adv-toggle";
+  btn.className = "adv-toggle-top";
+  btn.type = "button";
+  btn.setAttribute("aria-pressed", enabled ? "true" : "false");
+  btn.title = "Muestra z-score, MA12, percentiles e intervalos. Útil para análisis técnico.";
+  btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M3 3v18h18M7 14l3-3 4 4 5-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Datos avanzados</span><span class="adv-toggle-state">' + (enabled ? "ON" : "OFF") + "</span>";
+  btn.addEventListener("click", () => {
+    const now = !document.body.classList.contains("show-advanced");
+    document.body.classList.toggle("show-advanced", now);
+    localStorage.setItem(KEY, now ? "1" : "0");
+    btn.setAttribute("aria-pressed", now ? "true" : "false");
+    const state = btn.querySelector(".adv-toggle-state");
+    if (state) state.textContent = now ? "ON" : "OFF";
+  });
+
+  // Insertar antes del search box
+  const spacer = topbar.querySelector(".topbar-spacer");
+  if (spacer) {
+    topbar.insertBefore(btn, spacer.nextSibling);
+  } else {
+    topbar.appendChild(btn);
+  }
 }
 
 /* Selector de rango temporal en chart principal de detalle */
@@ -826,6 +911,7 @@ function v3WireNavDropdown() {
 
 document.addEventListener("DOMContentLoaded", () => {
   v3InitSearch();
+  v3InitAdvancedToggle();
   v3InitGlossary();
   v3InitComparar();
   v3WireNavDropdown();
@@ -944,16 +1030,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Toggle estadísticos avanzados
-  const advBtn = document.getElementById("adv-toggle-btn");
-  const analyticsGrid = document.getElementById("analytics-grid");
-  if (advBtn && analyticsGrid) {
-    advBtn.addEventListener("click", () => {
-      const visible = analyticsGrid.classList.toggle("adv-visible");
-      advBtn.textContent = visible ? "Ocultar avanzados" : "Ver avanzados";
-      advBtn.setAttribute("aria-expanded", visible ? "true" : "false");
-    });
-  }
+  // (Toggle estadísticos avanzados ahora es global vía v3InitAdvancedToggle en topbar)
 
   // Validador de fecha de próxima publicación
   const pubCard = document.getElementById("proxima-pub-card");

@@ -10,7 +10,7 @@
       "frecuencia": "anual",
       "unidad": "variación % anual",
       "sheet": "PIB_anual",
-      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)",
+      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)|Estimación Oportuna del PIB Trimestral \\(EOPIBT\\)",
       "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10626",
       "vinculado_con": "pib_trimestral"
     },
@@ -21,7 +21,7 @@
       "frecuencia": "trimestral",
       "unidad": "variación % real",
       "sheet": "PIB_trimestral",
-      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)",
+      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)|Estimación Oportuna del PIB Trimestral \\(EOPIBT\\)",
       "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10626"
     },
     {
@@ -31,7 +31,7 @@
       "frecuencia": "trimestral",
       "unidad": "variación % real",
       "sheet": "PIB_por_actividad",
-      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)",
+      "patron_ics": "Producto Interno Bruto Trimestral \\(PIBT\\)|Estimación Oportuna del PIB Trimestral \\(EOPIBT\\)",
       "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10626",
       "vinculado_con": "pib_trimestral"
     },

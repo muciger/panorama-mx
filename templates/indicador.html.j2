@@ -16,7 +16,7 @@
       Categoría: <strong>{{ d.categoria }}</strong> · Unidad: <strong>{{ d.unidad }}</strong>
       {% if not d.tabular and d.periodos %} · Último periodo: <strong>{{ d.periodos[-1] }}</strong>{% endif %}
       {% if d.z_score and d.z_score.categoria != 'normal' %}
-      <span class="outlier-badge outlier-{{ d.z_score.categoria }}">
+      <span class="outlier-badge outlier-{{ d.z_score.categoria }} advanced">
         {% if d.z_score.categoria == 'extremo' %}⚠ Movimiento extremo{% else %}⚡ Movimiento atípico{% endif %}
         · z = {{ "%+.2f"|format(d.z_score.z) }}σ
       </span>
@@ -34,8 +34,44 @@
       <span>Boletín INEGI</span>
     </a>
     {% endif %}
+    {% if d.id == "empleo_imss" %}
+    <a class="indic-btn indic-btn-emphasis" href="{{ asset_prefix }}imss_explorador.html" target="_blank" rel="noopener" title="Tablero interactivo con queries DuckDB: subsector, fracción, heatmap entidad×sector, distribución salarial, brecha de género">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12h6m6 0h6M3 6h18M3 18h18" stroke-width="2" stroke-linecap="round"/></svg>
+      <span>Explorador IMSS completo</span>
+    </a>
+    {% endif %}
   </div>
 </div>
+
+{# ─── INEGI STRIP (tiles adaptativos + headline corto) ─────────────── #}
+{% if d.inegi_strip and d.inegi_strip.tiles %}
+{% set s = d.inegi_strip %}
+<div class="inegi-strip">
+  {% if d.proximaPub and d.proximaPub.fecha and d.proximaPub.fecha != "—" %}
+  <div class="inegi-strip-prox">Próxima publicación: {{ d.proximaPub.fecha }}</div>
+  {% endif %}
+  <div class="inegi-tiles inegi-tiles-{{ s.tiles|length }}">
+    {% for t in s.tiles %}
+    <div class="inegi-tile">
+      <div class="inegi-tile-head">{{ t.head }}</div>
+      <div class="inegi-tile-period">{{ t.period }}</div>
+      <div class="inegi-tile-value inegi-{{ t.dir }}">
+        {% if t.arrow %}<span class="inegi-arrow" aria-hidden="true">{{ t.arrow }}</span>{% endif %}
+        <span>{{ t.value_fmt }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% if d.interp.tipo == "auto_v2" and d.interp.headline %}
+  <div class="inegi-headline">
+    <p>{{ d.interp.headline }}</p>
+    {% if d.interp.verificacion and d.interp.revision_humana %}
+    <span class="verif-badge verif-warn" title="El validador automático detectó issues que no pudo corregir. Requiere revisión manual.">⛔ revisión pendiente</span>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
+{% endif %}
 
 <div class="detail-grid">
   <div class="chart-card">
@@ -110,6 +146,58 @@
     {% endif %}
   </div>
 </div>
+
+{# ─── LECTURA DEL INDICADOR (debajo del chart) ─────────────────────── #}
+{% if d.interp and d.interp.tipo in ("auto_v2", "auto", "demo", "sonnet") %}
+<section class="interp-section">
+  <header class="interp-section-head">
+    <h3>Lectura del indicador</h3>
+    <span class="interp-section-source">Análisis IA · {{ d.interp_source }}</span>
+  </header>
+
+  {% if d.interp.tipo == "auto_v2" %}
+    {% if d.interp.diagnostico %}
+    <div class="interp-diag-block">
+      <p>{{ d.interp.diagnostico }}</p>
+    </div>
+    {% endif %}
+    {% if d.interp.parrafos %}
+    <details class="interp-details">
+      <summary><span class="interp-summary-label">Ver lectura completa</span><span class="interp-summary-meta">{{ d.interp.parrafos|length }} párrafos</span></summary>
+      <div class="interp-prosa-block">
+        {% for parrafo in d.interp.parrafos %}<p>{{ parrafo }}</p>{% endfor %}
+      </div>
+    </details>
+    {% endif %}
+  {% elif d.interp.tipo == "auto" and d.interp.mensaje %}
+    <div class="interp-prosa-block"><p>{{ d.interp.mensaje }}</p></div>
+  {% elif d.interp.tipo in ("demo", "sonnet") %}
+    {% if d.interp.direccion %}<div class="interp-block"><div class="bloque-label">Dirección y magnitud</div><p>{{ d.interp.direccion }}</p></div>{% endif %}
+    {% if d.interp.comparacion %}<div class="interp-block"><div class="bloque-label">Comparación histórica</div><p>{{ d.interp.comparacion }}</p></div>{% endif %}
+    {% if d.interp.macro %}<div class="interp-block"><div class="bloque-label">Lectura macro</div><p>{{ d.interp.macro }}</p></div>{% endif %}
+    {% if d.interp.banderas %}<div class="interp-block"><div class="bloque-label">Banderas y riesgos</div><p>{{ d.interp.banderas }}</p></div>{% endif %}
+  {% endif %}
+
+  <footer class="interp-section-foot">
+    Análisis asistido por IA. Verifica con el boletín INEGI antes de tomar decisiones de política.
+    {% if d.interp.verificacion and d.interp.verificacion.correccion_aplicada %}
+    · <span title="El validador automático ({{ d.interp.verificacion.verifier_provider }}) detectó {{ d.interp.verificacion.issues_encontrados|length }} issues en el draft inicial y aplicó correcciones antes de publicar.">Versión revisada por validador automático.</span>
+    {% endif %}
+  </footer>
+</section>
+{% elif d.interp and d.interp.tipo == "pendiente" %}
+<section class="interp-section">
+  <header class="interp-section-head">
+    <h3>Lectura del indicador</h3>
+  </header>
+  <div class="pending-banner">
+    <div class="pending-banner-title">⏳ Interpretación pendiente</div>
+    <div class="pending-next">Próxima publicación: {{ d.proximaPub.fecha }}
+      {% if d.fuente %} · <a href="{{ d.fuente }}" target="_blank" rel="noopener">Ver boletín INEGI</a>{% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
 
 {% if d.id == "empleo_imss" and d._sector_yoy %}
 <section class="imss-sector-section">
@@ -214,45 +302,12 @@
 </div>
 {% endif %}
 
-<div class="interp">
-  <div class="interp-head">
-    <h3>Interpretación</h3>
-    <div class="source">{{ d.interp_source }}</div>
-  </div>
-  {% if d.interp.tipo == "auto" %}
-    {% if d.interp.mensaje %}<div class="interp-block"><p>{{ d.interp.mensaje }}</p></div>{% endif %}
-  {% elif d.interp.tipo in ("demo", "sonnet") %}
-    {% if d.interp.direccion %}<div class="interp-block"><div class="bloque-label">Dirección y magnitud</div><p>{{ d.interp.direccion }}</p></div>{% endif %}
-    {% if d.interp.comparacion %}<div class="interp-block"><div class="bloque-label">Comparación histórica</div><p>{{ d.interp.comparacion }}</p></div>{% endif %}
-    {% if d.interp.macro %}<div class="interp-block"><div class="bloque-label">Lectura macro</div><p>{{ d.interp.macro }}</p></div>{% endif %}
-    {% if d.interp.banderas %}<div class="interp-block"><div class="bloque-label">Banderas y riesgos</div><p>{{ d.interp.banderas }}</p></div>{% endif %}
-  {% else %}
-    <div class="pending-banner">
-      <div class="pending-banner-title">⏳ Interpretación pendiente</div>
-      {% if d.periodos and d.series %}
-        {% set serie_principal = d.series[d.serie_cols[0]] if d.serie_cols else [] %}
-        {% if serie_principal and serie_principal|length >= 3 %}
-        <div class="pending-tendencia">
-          Últimos 3 periodos:
-          {% for v in serie_principal[-3:] %}
-            <span class="{% if v and v > 0 %}pos{% elif v and v < 0 %}neg{% endif %}">{{ "%+.1f"|format(v) if v is not none else "—" }}{{ d.unidad }}</span>{% if not loop.last %}, {% endif %}
-          {% endfor %}
-        </div>
-        {% endif %}
-      {% endif %}
-      <div class="pending-next">Próxima publicación: {{ d.proximaPub.fecha }}
-        {% if d.fuente %} · <a href="{{ d.fuente }}" target="_blank" rel="noopener">Ver boletín INEGI</a>{% endif %}
-      </div>
-    </div>
-  {% endif %}
-</div>
 
 {% if d.stats %}
 <div class="analytics-grid" id="analytics-grid">
   <div class="analytics-card">
     <div class="analytics-card-head">
-      <h4>Estadísticos descriptivos · últimos {{ d.stats.count }} obs</h4>
-      <button class="adv-toggle-btn" id="adv-toggle-btn" type="button" aria-expanded="false">Ver avanzados</button>
+      <h4>Estadísticos descriptivos · últimos {{ d.stats.count }} obs<span class="advanced-hint-off">desviación estándar y percentiles ocultos · activa "Datos avanzados" arriba</span></h4>
     </div>
     <table class="analytics-tbl">
       <caption class="sr-only">Estadísticos descriptivos de {{ d.nombre }}, últimos {{ d.stats.count }} periodos</caption>
@@ -262,7 +317,7 @@
           <td>Mediana</td><td class="num">{{ "%.2f"|format(d.stats.p50) }}{{ d.unidad }}</td></tr>
       <tr><td>Mínimo</td><td class="num">{{ "%.2f"|format(d.stats.min) }}{{ d.unidad }}</td>
           <td>Máximo</td><td class="num">{{ "%.2f"|format(d.stats.max) }}{{ d.unidad }}</td></tr>
-      <tr class="stat-adv"><td>Desv. estándar</td><td class="num">{{ "%.2f"|format(d.stats.std) }}{{ d.unidad }}</td>
+      <tr class="advanced"><td>Desv. estándar</td><td class="num">{{ "%.2f"|format(d.stats.std) }}{{ d.unidad }}</td>
           <td>p25 / p75</td><td class="num">{{ "%.1f"|format(d.stats.p25) }} / {{ "%.1f"|format(d.stats.p75) }}{{ d.unidad }}</td></tr>
       </tbody>
     </table>
@@ -298,14 +353,14 @@
         <div class="record-periodo">{{ d.extremos.peor.periodo }}</div>
       </div>
       {% if d.percentil %}
-      <div class="record-card record-percentil stat-adv">
+      <div class="record-card record-percentil advanced">
         <div class="record-label">Posición actual</div>
         <div class="record-valor">p{{ d.percentil.p }}</div>
         <div class="record-periodo">sobre {{ d.percentil.muestra }} obs</div>
       </div>
       {% endif %}
       {% if d.z_score %}
-      <div class="record-card record-zscore record-z-{{ d.z_score.categoria }} stat-adv">
+      <div class="record-card record-zscore record-z-{{ d.z_score.categoria }} advanced">
         <div class="record-label">Z-score</div>
         <div class="record-valor">{{ "%+.2f"|format(d.z_score.z) }}σ</div>
         <div class="record-periodo">{{ d.z_score.categoria }}</div>
@@ -866,34 +921,165 @@
     <h3>{% if d.id == "empleo_imss" %}Empleo formal por entidad federativa{% else %}Mapa por entidad federativa{% endif %}</h3>
     <div class="source">{{ d._periodo_tabular }} · {% if d.id == "empleo_imss" %}IMSS datos abiertos{% else %}BIE-INEGI{% endif %}</div>
   </header>
+
   <div class="tile-map-wrap">
     {{ d._tile_map_svg | safe }}
   </div>
-  {% if d.id == "empleo_imss" and d._entidad_filas %}
-  <div style="margin-top:18px;overflow-x:auto">
-    <table class="componentes-emoe-tbl" style="font-size:12.5px">
-      <thead>
-        <tr>
-          {% for col in d._entidad_cols_display %}
-          <th class="{% if not loop.first %}num{% endif %}">{{ col }}</th>
-          {% endfor %}
-        </tr>
-      </thead>
-      <tbody>
-        {% for fila in d._entidad_filas %}
-        <tr>
-          <td>{{ fila.Entidad }}</td>
-          <td class="num">{{ "{:,.0f}".format(fila.Total) if fila.Total is not none else "—" }}</td>
-          <td class="num">{{ "%.1f"|format(fila.Participacion) if fila.Participacion is not none else "—" }}%</td>
-          <td class="num {% if fila.Var_anual is not none and fila.Var_anual >= 0 %}pos{% elif fila.Var_anual is not none %}neg{% endif %}">
-            {{ "%+.1f"|format(fila.Var_anual) if fila.Var_anual is not none else "—" }}%
-          </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+
+  {# Leyenda de escala de color (externa al SVG) #}
+  {% set tile_min = d._entidad_filas | selectattr("Var_anual","ne",none) | map(attribute="Var_anual") | min if d._entidad_filas else None %}
+  {% set tile_max = d._entidad_filas | selectattr("Var_anual","ne",none) | map(attribute="Var_anual") | max if d._entidad_filas else None %}
+  <div class="tile-map-legend" aria-label="Escala de variación anual">
+    <span class="tile-legend-label">Variación anual</span>
+    <div class="tile-legend-bar">
+      <span style="background:#B83025"></span>
+      <span style="background:#E27968"></span>
+      <span style="background:#F0DCC8"></span>
+      <span style="background:#9CC6B5"></span>
+      <span style="background:#2A6B43"></span>
+    </div>
+    <div class="tile-legend-ticks">
+      <span>{% if tile_min is not none %}{{ "%+.1f"|format(tile_min) }}%{% else %}caída{% endif %}</span>
+      <span>0%</span>
+      <span>{% if tile_max is not none %}{{ "%+.1f"|format(tile_max) }}%{% else %}alza{% endif %}</span>
+    </div>
   </div>
+
+  {% if d.id == "empleo_imss" and d._entidad_filas %}
+  {% set entidades_sorted = d._entidad_filas | selectattr("Var_anual", "ne", none) | sort(attribute="Var_anual") | list %}
+  {% set top_alza = entidades_sorted[-5:] | reverse | list %}
+  {% set top_baja = entidades_sorted[:5] %}
+
+  <div class="entidad-ranking">
+    <div class="entidad-col">
+      <div class="entidad-col-head entidad-alza">Mayor crecimiento anual</div>
+      <table class="entidad-tbl">
+        <thead><tr><th>Entidad</th><th class="num">Puestos</th><th class="num">Δ anual</th></tr></thead>
+        <tbody>
+          {% for e in top_alza %}
+          <tr>
+            <td>{{ e.Entidad }}</td>
+            <td class="num">{{ "{:,.0f}".format(e.Total) if e.Total is not none else "—" }}</td>
+            <td class="num pos">{{ "%+.1f"|format(e.Var_anual) }}%</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="entidad-col">
+      <div class="entidad-col-head entidad-baja">Menor crecimiento o caída</div>
+      <table class="entidad-tbl">
+        <thead><tr><th>Entidad</th><th class="num">Puestos</th><th class="num">Δ anual</th></tr></thead>
+        <tbody>
+          {% for e in top_baja %}
+          <tr>
+            <td>{{ e.Entidad }}</td>
+            <td class="num">{{ "{:,.0f}".format(e.Total) if e.Total is not none else "—" }}</td>
+            <td class="num {% if e.Var_anual >= 0 %}pos{% else %}neg{% endif %}">{{ "%+.1f"|format(e.Var_anual) }}%</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <details class="entidad-full-details">
+    <summary><span>Ver las 32 entidades</span><span class="entidad-meta">tabla completa</span></summary>
+    <div class="entidad-tbl-wrap">
+      <table class="entidad-tbl entidad-tbl-full">
+        <thead>
+          <tr>
+            <th>Entidad</th><th class="num">Puestos</th><th class="num">Partic. %</th><th class="num">Δ anual</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for fila in d._entidad_filas %}
+          <tr>
+            <td>{{ fila.Entidad }}</td>
+            <td class="num">{{ "{:,.0f}".format(fila.Total) if fila.Total is not none else "—" }}</td>
+            <td class="num">{{ "%.1f"|format(fila.Participacion) if fila.Participacion is not none else "—" }}%</td>
+            <td class="num {% if fila.Var_anual is not none and fila.Var_anual >= 0 %}pos{% elif fila.Var_anual is not none %}neg{% endif %}">
+              {{ "%+.1f"|format(fila.Var_anual) if fila.Var_anual is not none else "—" }}%
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </details>
   {% endif %}
+</section>
+{% endif %}
+
+{# ─── Top subsectores con mayor variación anual (sólo empleo_imss con C) ─── #}
+{% if d.id == "empleo_imss" and (d._top_subsectores_alza or d._top_subsectores_baja) %}
+<section class="productos-card">
+  <div class="productos-head">
+    <h3>Subsectores con mayor crecimiento y caída · {{ d.periodo_referencia }}</h3>
+    <div class="source">Variación anual del empleo formal IMSS por subsector económico (codificación sec2). Subsectores con más de 50,000 puestos.</div>
+  </div>
+  <div class="productos-grid">
+    <div class="productos-col">
+      <div class="productos-col-head productos-alza">Mayor crecimiento</div>
+      <table class="productos-tbl">
+        <thead><tr><th>Subsector</th><th class="num">Puestos</th><th class="num">Δ anual</th></tr></thead>
+        <tbody>
+          {% for s in d._top_subsectores_alza[:8] %}
+          <tr>
+            <td>{{ s.sector }} · sec2 {{ s.sec2 }}</td>
+            <td class="num">{{ "{:,.0f}".format(s.ta_actual) }}</td>
+            <td class="num pos">{{ "%+.1f"|format(s.var_anual) }}%</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="productos-col">
+      <div class="productos-col-head productos-baja">Mayor caída</div>
+      <table class="productos-tbl">
+        <thead><tr><th>Subsector</th><th class="num">Puestos</th><th class="num">Δ anual</th></tr></thead>
+        <tbody>
+          {% for s in d._top_subsectores_baja[:8] %}
+          <tr>
+            <td>{{ s.sector }} · sec2 {{ s.sec2 }}</td>
+            <td class="num">{{ "{:,.0f}".format(s.ta_actual) }}</td>
+            <td class="num {% if s.var_anual >= 0 %}pos{% else %}neg{% endif %}">{{ "%+.1f"|format(s.var_anual) }}%</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="productos-nota">Hito relevante: la reforma de outsourcing (abril 2021) hizo migrar masivamente el empleo del sec2=88 (servicios empresariales) a los sectores donde ya operaba el personal subcontratado. Variaciones extremas en sec2=88 reflejan ese reacomodo, no creación o destrucción real de empleo.</div>
+</section>
+{% endif %}
+
+{# ─── Brecha de género por sector (sólo empleo_imss con C) ─── #}
+{% if d.id == "empleo_imss" and d._genero_sector %}
+<section class="tile-map-card">
+  <header class="card-head">
+    <h3>Composición por género y sector · {{ d.periodo_referencia }}</h3>
+    <div class="source">Distribución hombres-mujeres en cada sector económico (sec1). Total de puestos asegurados.</div>
+  </header>
+  <div class="genero-grid">
+    {% for g in d._genero_sector %}
+    <div class="genero-row">
+      <div class="genero-row-label">
+        <span class="genero-row-sector">{{ g.sector }}</span>
+        <span class="genero-row-total">{{ "{:,.0f}".format(g.total) }} puestos</span>
+      </div>
+      <div class="genero-row-bar">
+        <div class="genero-bar-hombres" style="width: {{ (100 - g.pct_mujeres) if g.pct_mujeres is not none else 50 }}%" title="Hombres: {{ '{:,.0f}'.format(g.hombres) }}"></div>
+        <div class="genero-bar-mujeres" style="width: {{ g.pct_mujeres if g.pct_mujeres is not none else 50 }}%" title="Mujeres: {{ '{:,.0f}'.format(g.mujeres) }}"></div>
+      </div>
+      <div class="genero-row-pct">{{ "%.1f"|format(g.pct_mujeres) if g.pct_mujeres is not none else "—" }}% mujeres</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="genero-leyenda">
+    <span><span class="genero-swatch genero-swatch-hombres"></span> Hombres</span>
+    <span><span class="genero-swatch genero-swatch-mujeres"></span> Mujeres</span>
+  </div>
 </section>
 {% endif %}
 
@@ -1102,7 +1288,7 @@
         <tr>
           <th scope="col">Periodo</th>
           {% for c in d.serie_cols %}<th scope="col" class="num">{{ c }}</th>{% endfor %}
-          <th scope="col" class="num">MA12</th>
+          <th scope="col" class="num advanced">MA12</th>
         </tr>
       </thead>
       <tbody>
@@ -1117,7 +1303,7 @@
             {% endif %}
           {% endfor %}
           {% set m = d.ma12[i] %}
-          <td class="num" style="color:var(--texto-light)">{% if m is none %}—{% else %}{{ "%.1f"|format(m) }}{% endif %}</td>
+          <td class="num advanced" style="color:var(--texto-light)">{% if m is none %}—{% else %}{{ "%.1f"|format(m) }}{% endif %}</td>
         </tr>
         {% endfor %}
       </tbody>

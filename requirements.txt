@@ -19,5 +19,6 @@ pymupdf4llm>=0.0.17
 jinja2>=3.1
 
 # APIs de interpretación
-openai>=1.14       # cliente DeepSeek usa base_url de OpenAI
-anthropic>=0.25    # generate_synthesis.py (--with-claude)
+anthropic>=0.25    # verifier (Claude Sonnet 4.6) en generate_interpretations.py
+openai>=1.10       # cliente compatible con DeepSeek API (writer)
+python-dotenv>=1.0 # carga .env en desarrollo local
