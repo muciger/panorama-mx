@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Industria Automotriz, vehículos ligeros · Panorama económico de México</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../assets/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
+<script src="../assets/app.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Saltar al contenido</a>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand-block">
+      <a class="brand-gob" href="../index.html" aria-label="Inicio">
+        <div class="brand-gob-text">
+          <div class="brand-gob-line">Panorama MX</div>
+          <div class="brand-gob-line strong">INEGI · BIE</div>
+        </div>
+      </a>
+    </div>
+    <nav class="nav-list">
+      <a class="nav-item" href="../index.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12l9-9 9 9M5 10v10h14V10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Inicio</span>
+      </a>
+      <a class="nav-item" href="../reporte_semanal.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="nav-label">Reporte semanal</span>
+      </a>
+      <a class="nav-item" href="../comparar.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Comparar</span>
+      </a>
+      <a class="nav-item" href="../imss_explorador.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Empleo IMSS</span>
+      </a>
+      <details class="nav-group-details" open id="nav-indicadores-details">
+        <summary class="nav-item nav-summary active" aria-haspopup="listbox">
+          <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18M7 14l4-4 4 4 5-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="nav-label nav-label-always">Indicadores</span>
+          <svg class="nav-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg>
+        </summary>
+        <div class="nav-sub">
+          
+          <div class="nav-sub-label">Resúmenes</div>
+          
+          <a class="nav-sub-item" href="../indicador/pib_anual.html">PIB anual (resumen)</a>
+          
+          <a class="nav-sub-item" href="../indicador/inflacion_resumen.html">Inflación (resumen)</a>
+          
+          <a class="nav-sub-item" href="../indicador/igae_ioae_resumen.html">IGAE/IOAE por sector</a>
+          
+          
+          <div class="nav-sub-label">Macro</div>
+          
+          <a class="nav-sub-item" href="../indicador/pib_trimestral.html">PIB trimestral</a>
+          
+          <a class="nav-sub-item" href="../indicador/pib_por_actividad.html">PIB por actividad</a>
+          
+          
+          <div class="nav-sub-label">Actividad</div>
+          
+          <a class="nav-sub-item" href="../indicador/igae.html">IGAE</a>
+          
+          <a class="nav-sub-item" href="../indicador/actividad_industrial.html">Actividad industrial</a>
+          
+          <a class="nav-sub-item" href="../indicador/consumo_privado.html">Consumo privado</a>
+          
+          <a class="nav-sub-item" href="../indicador/fbcf.html">FBCF</a>
+          
+          <a class="nav-sub-item" href="../indicador/balanza_comercial.html">Balanza comercial</a>
+          
+          <a class="nav-sub-item" href="../indicador/ind_ciclicos.html">Indicadores cíclicos</a>
+          
+          
+          <div class="nav-sub-label">Encuestas sectoriales</div>
+          
+          <a class="nav-sub-item" href="../indicador/emim.html">EMIM manufactura</a>
+          
+          <a class="nav-sub-item" href="../indicador/enec.html">ENEC construcción</a>
+          
+          <a class="nav-sub-item" href="../indicador/comercio_mayoreo.html">Comercio mayoreo</a>
+          
+          <a class="nav-sub-item" href="../indicador/comercio_menudeo.html">Comercio menudeo</a>
+          
+          <a class="nav-sub-item" href="../indicador/servicios.html">Servicios</a>
+          
+          
+          <div class="nav-sub-label">Precios</div>
+          
+          <a class="nav-sub-item" href="../indicador/inpc_mensual.html">INPC mensual</a>
+          
+          <a class="nav-sub-item" href="../indicador/inpc_quincenal.html">INPC quincenal</a>
+          
+          <a class="nav-sub-item" href="../indicador/inpp.html">INPP</a>
+          
+          
+          <div class="nav-sub-label">Empleo</div>
+          
+          <a class="nav-sub-item" href="../indicador/enoe_trimestral.html">ENOE trimestral</a>
+          
+          <a class="nav-sub-item" href="../indicador/enoe_mensual.html">ENOE mensual</a>
+          
+          
+          <div class="nav-sub-label">Automotriz</div>
+          
+          <a class="nav-sub-item active" aria-current="page" href="../indicador/autos_ligeros.html">Vehículos ligeros</a>
+          
+          <a class="nav-sub-item" href="../indicador/autos_pesados.html">Vehículos pesados</a>
+          
+          
+          <div class="nav-sub-label">Regional</div>
+          
+          <a class="nav-sub-item" href="../indicador/export_entidad.html">Exportaciones entidad</a>
+          
+          
+          <div class="nav-sub-label">Sentimiento</div>
+          
+          <a class="nav-sub-item" href="../indicador/confianza_consumidor.html">Confianza consumidor</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_ipm.html">EMOE IPM</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_iat.html">EMOE IAT</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_ice.html">EMOE ICE</a>
+          
+          
+        </div>
+      </details>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="updated-row">
+        <span class="status-dot status-ok"></span>
+        <div>
+          <div class="updated-label">Última actualización</div>
+          <div class="updated-value">12 de mayo de 2026</div>
+        </div>
+      </div>
+      <a href="mailto:german.mucino@gmail.com?subject=Tablero%20INEGI%20-%20Reporte%20de%20problema" class="feedback-link">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12c0 4.4-4 8-9 8-1.7 0-3.3-.4-4.7-1.1L3 20l1.4-3.7C3.5 15.1 3 13.6 3 12c0-4.4 4-8 9-8s9 3.6 9 8z" stroke-width="2"/></svg>
+        <span>Reportar problema</span>
+      </a>
+    </div>
+  </aside>
+
+  <main class="main" id="main-content" tabindex="-1">
+    <header class="topbar">
+      <div class="topbar-status">
+        <span class="status-dot status-ok"></span>
+        <span>Sistema actualizado</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="16" rx="2" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke-width="2"/></svg>
+        <span>12 de mayo de 2026</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9" stroke-width="2"/><path d="M12 7v5l3 3" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>08:30 h (Centro)</span>
+      </div>
+      <div class="topbar-spacer"></div>
+      <div class="topbar-search" id="topbar-search">
+        <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
+        <kbd class="topbar-search-kbd">/</kbd>
+        <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
+      </div>
+    </header>
+
+    
+
+<nav class="breadcrumb-nav" aria-label="Ruta">
+  <a class="breadcrumb" href="../index.html">Vista general</a>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-cat">Automotriz</span>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-current">Industria Automotriz, vehículos ligeros</span>
+</nav>
+
+<div class="detail-header">
+  <div>
+    <h1 class="detail-title">Industria Automotriz, vehículos ligeros</h1>
+    <div class="detail-meta">
+      Categoría: <strong>Automotriz</strong> · Unidad: <strong>%</strong>
+       · Último periodo: <strong>mar-26</strong>
+      
+    </div>
+  </div>
+  <div class="detail-actions">
+    <a class="indic-btn" href="../data/autos_ligeros.csv" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 4v12M7 11l5 5 5-5M5 20h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Descargar CSV</span>
+    </a>
+    
+    <a class="indic-btn" href="https://www.inegi.org.mx/programas/raiavl/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 4h6v6M10 14L20 4M19 13v6a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Boletín INEGI</span>
+    </a>
+    
+    
+  </div>
+</div>
+
+
+
+
+<div class="inegi-strip">
+  
+  <div class="inegi-strip-prox">Próxima publicación: 11 may 2026</div>
+  
+  <div class="inegi-tiles inegi-tiles-1">
+    
+    <div class="inegi-tile">
+      <div class="inegi-tile-head">Variación anual</div>
+      <div class="inegi-tile-period">mar-26</div>
+      <div class="inegi-tile-value inegi-up">
+        <span class="inegi-arrow" aria-hidden="true">▲</span>
+        <span>+2.4%</span>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="inegi-headline">
+    <p>Las ventas de vehículos ligeros crecieron 2.4% anual en marzo, retomando un ritmo positivo tras la caída de febrero, mientras producción y exportación también repuntaron.</p>
+    
+  </div>
+  
+</div>
+
+
+<div class="detail-grid">
+  <div class="chart-card">
+    <div class="chart-card-head">
+      <h3>Autos ligeros · var. % anual</h3>
+      
+    </div>
+    <div class="chart-container">
+      
+      <canvas id="detail-chart"></canvas>
+      
+    </div>
+    
+  </div>
+
+  <div class="stats-col">
+    <div class="stat-card">
+      <div class="label">Último valor</div>
+      <div class="valor">2.4%</div>
+      <div class="nota">Ventas · mar-26</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Δ vs MA12</div>
+      <div class="valor">+1.1pp</div>
+      <div class="nota">MA12: 1.3%</div>
+    </div>
+    <div class="stat-card" id="proxima-pub-card" data-next-date="2026-05-11">
+      <div class="label">Próxima publicación</div>
+      <div class="valor-fecha" id="proxima-pub-valor">11 may 2026</div>
+      <div class="nota" id="proxima-pub-nota">Registro administrativo de la industria automotriz de vehículos ligeros</div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<section class="interp-section">
+  <header class="interp-section-head">
+    <h3>Lectura del indicador</h3>
+    <span class="interp-section-source">Análisis IA · deepseek + claude</span>
+  </header>
+
+  
+    
+    <div class="interp-diag-block">
+      <p>El sector automotriz muestra signos de estabilización en marzo, con los tres componentes en terreno positivo por primera vez desde enero de 2026, dentro del rango de datos disponibles. La volatilidad reciente y la ausencia de un repunte sostenido en producción y exportación indican que el sector aún no consolida una tendencia de crecimiento sólida.</p>
+    </div>
+    
+    
+    <details class="interp-details">
+      <summary><span class="interp-summary-label">Ver lectura completa</span><span class="interp-summary-meta">3 párrafos</span></summary>
+      <div class="interp-prosa-block">
+        <p>Las ventas de vehículos ligeros, que miden la demanda interna de autos nuevos, registraron un crecimiento anual de 2.4% en marzo de 2026. Este dato revierte la caída de 0.3% observada en febrero y se ubica en un nivel moderado, similar al 1.8% de marzo de 2025. En términos prácticos, el mercado interno muestra una recuperación parcial, aunque sin alcanzar los niveles de expansión más elevados observados en meses recientes como enero (9.0%) u octubre de 2025 (7.7%).</p><p>La producción de vehículos ligeros creció 2.5% anual en marzo, mientras que las exportaciones aumentaron 4.2%. Ambos componentes mejoran respecto a febrero, cuando cayeron 1.8% y 4.4%, respectivamente. Esta sincronía entre mercado interno y externo impulsa la actividad del sector, aunque la producción aún no recupera los niveles de expansión observados en diciembre de 2025 (8.5%).</p><p>El comportamiento de las exportaciones muestra una trayectoria con altibajos dentro del periodo analizado, con caídas en cuatro de los últimos seis meses. El dato positivo de marzo contrasta con esa volatilidad reciente, lo que indica que la demanda externa sigue siendo un factor de incertidumbre para el sector.</p>
+      </div>
+    </details>
+    
+  
+
+  <footer class="interp-section-foot">
+    Análisis asistido por IA. Verifica con el boletín INEGI antes de tomar decisiones de política.
+    
+    · <span title="El validador automático (claude) detectó 3 issues en el draft inicial y aplicó correcciones antes de publicar.">Versión revisada por validador automático.</span>
+    
+  </footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="analytics-grid" id="analytics-grid">
+  <div class="analytics-card">
+    <div class="analytics-card-head">
+      <h4>Estadísticos descriptivos · últimos 13 obs<span class="advanced-hint-off">desviación estándar y percentiles ocultos · activa "Datos avanzados" arriba</span></h4>
+    </div>
+    <table class="analytics-tbl">
+      <caption class="sr-only">Estadísticos descriptivos de Industria Automotriz, vehículos ligeros, últimos 13 periodos</caption>
+      <thead><tr><th scope="col">Métrica</th><th scope="col" class="num">Valor</th><th scope="col">Métrica</th><th scope="col" class="num">Valor</th></tr></thead>
+      <tbody>
+      <tr><td>Media</td><td class="num">1.35%</td>
+          <td>Mediana</td><td class="num">0.60%</td></tr>
+      <tr><td>Mínimo</td><td class="num">-4.90%</td>
+          <td>Máximo</td><td class="num">9.00%</td></tr>
+      <tr class="advanced"><td>Desv. estándar</td><td class="num">3.90%</td>
+          <td>p25 / p75</td><td class="num">-0.3 / 2.4%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="analytics-card">
+    <h4>Comparativos lag</h4>
+    <table class="analytics-tbl">
+      <caption class="sr-only">Comparativos históricos de Industria Automotriz, vehículos ligeros respecto al valor actual</caption>
+      <thead><tr><th scope="col">Periodo</th><th scope="col" class="num">Hace</th><th scope="col" class="num">Δ vs hoy</th></tr></thead>
+      <tbody>
+      
+        <tr><td>1m (feb-26)</td>
+            <td class="num">-0.30%</td>
+            <td class="num pos">+2.70%</td></tr>
+      
+        <tr><td>3m (dic-25)</td>
+            <td class="num">5.00%</td>
+            <td class="num neg">-2.60%</td></tr>
+      
+        <tr><td>6m (sep-25)</td>
+            <td class="num">2.10%</td>
+            <td class="num pos">+0.30%</td></tr>
+      
+        <tr><td>12m (mar-25)</td>
+            <td class="num">1.80%</td>
+            <td class="num pos">+0.60%</td></tr>
+      
+      </tbody>
+    </table>
+  </div>
+  
+  
+  <div class="analytics-card">
+    <h4>Récords históricos · mar-25 a mar-26</h4>
+    <div class="record-row">
+      <div class="record-card record-mejor">
+        <div class="record-label">Récord positivo</div>
+        <div class="record-valor">+9.00%</div>
+        <div class="record-periodo">ene-26</div>
+      </div>
+      <div class="record-card record-peor">
+        <div class="record-label">Récord negativo</div>
+        <div class="record-valor">-4.90%</div>
+        <div class="record-periodo">jun-25</div>
+      </div>
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Variación anual por tipo · últimos 24 meses</h3>
+    <div class="source">Variación % anual · mar-25 a mar-26 · INEGI-AMIA</div>
+  </div>
+  <div class="drilldown-saldo-cards">
+    
+    <div class="drilldown-stat-card saldo-pos">
+      <div class="label">Ventas</div>
+      <div class="valor">+2.4%</div>
+    </div>
+    
+    <div class="drilldown-stat-card saldo-pos">
+      <div class="label">Producción</div>
+      <div class="valor">+2.5%</div>
+    </div>
+    
+    <div class="drilldown-stat-card saldo-pos">
+      <div class="label">Exportación</div>
+      <div class="valor">+4.2%</div>
+    </div>
+    
+  </div>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-autos-series"></canvas>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="chart-card">
+  <h3>Serie completa</h3>
+  <div class="table-wrap" style="box-shadow:none;border:none">
+    <table>
+      <caption class="sr-only">Serie histórica completa de Industria Automotriz, vehículos ligeros</caption>
+      
+      <thead>
+        <tr>
+          <th scope="col">Periodo</th>
+          <th scope="col" class="num">Ventas</th>
+          <th scope="col" class="num advanced">MA12</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        
+        <tr>
+          <td>mar-25</td>
+          
+            
+            <td class="num pos">1.8</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">—</td>
+        </tr>
+        
+        
+        <tr>
+          <td>abr-25</td>
+          
+            
+            <td class="num neg">-4.0</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">—</td>
+        </tr>
+        
+        
+        <tr>
+          <td>may-25</td>
+          
+            
+            <td class="num pos">0.1</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.7</td>
+        </tr>
+        
+        
+        <tr>
+          <td>jun-25</td>
+          
+            
+            <td class="num neg">-4.9</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-1.8</td>
+        </tr>
+        
+        
+        <tr>
+          <td>jul-25</td>
+          
+            
+            <td class="num pos">0.6</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-1.3</td>
+        </tr>
+        
+        
+        <tr>
+          <td>ago-25</td>
+          
+            
+            <td class="num neg">-1.6</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-1.3</td>
+        </tr>
+        
+        
+        <tr>
+          <td>sep-25</td>
+          
+            
+            <td class="num pos">2.1</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.8</td>
+        </tr>
+        
+        
+        <tr>
+          <td>oct-25</td>
+          
+            
+            <td class="num pos">7.7</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">0.2</td>
+        </tr>
+        
+        
+        <tr>
+          <td>nov-25</td>
+          
+            
+            <td class="num neg">-0.3</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">0.2</td>
+        </tr>
+        
+        
+        <tr>
+          <td>dic-25</td>
+          
+            
+            <td class="num pos">5.0</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">0.7</td>
+        </tr>
+        
+        
+        <tr>
+          <td>ene-26</td>
+          
+            
+            <td class="num pos">9.0</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">1.4</td>
+        </tr>
+        
+        
+        <tr>
+          <td>feb-26</td>
+          
+            
+            <td class="num neg">-0.3</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">1.3</td>
+        </tr>
+        
+        
+        <tr>
+          <td>mar-26</td>
+          
+            
+            <td class="num pos">2.4</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">1.3</td>
+        </tr>
+        
+      </tbody>
+      
+    </table>
+  </div>
+  
+  <div class="detail-meta" style="margin-top:12px">
+    Fuente: <a href="https://www.inegi.org.mx/programas/raiavl/" target="_blank" rel="noopener">Boletín INEGI · saladeprensa →</a>
+  </div>
+</div>
+
+
+
+<details class="metodologia-details">
+  <summary class="metodologia-summary">Nota metodológica · Registro Administrativo de la Industria Automotriz de Vehículos Ligeros (RAIAVL)</summary>
+  <div class="metodologia-body">
+    
+    <h4>Antecedentes y cobertura</h4>
+    <p>Registro de ventas, producción y exportaciones de vehículos ligeros en México. Cubre autos, camionetas, pickups y SUVs. Incluye vehículos híbridos y eléctricos con desglose específico.</p>
+    
+    
+    <h4>Periodicidad y publicación</h4>
+    <p>Mensual. Se publica 2 veces al mes: cifras preliminares a principios del mes y definitivas a mediados.</p>
+    
+    
+    <h4>Cobertura geográfica</h4>
+    <p>Nacional.</p>
+    
+    
+    <h4>Fuentes de información</h4>
+    <p>Empresas fabricantes y distribuidoras afiliadas a la industria automotriz.</p>
+    
+    
+    
+    <h4>Ajuste estacional</h4>
+    <p>Serie original. Se presentan variaciones anuales.</p>
+    
+    
+    <div class="metodologia-links">
+      
+      <a class="metodologia-link" href="https://www.inegi.org.mx/programas/raiavl/" target="_blank" rel="noopener">Programa RAIAVL →</a>
+      
+    </div>
+    
+  </div>
+</details>
+
+
+<script id="page-data" type="application/json">{"view": "detail", "indicador": {"id": "autos_ligeros", "tabular": false, "series": {"Ventas": [1.8, -4.0, 0.1, -4.9, 0.6, -1.6, 2.1, 7.7, -0.3, 5.0, 9.0, -0.3, 2.4]}, "ma12": [null, null, -0.7, -1.75, -1.28, -1.33, -0.84, 0.22, 0.17, 0.65, 1.41, 1.27, 1.32], "periodos": ["mar-25", "abr-25", "may-25", "jun-25", "jul-25", "ago-25", "sep-25", "oct-25", "nov-25", "dic-25", "ene-26", "feb-26", "mar-26"], "unidad": "%", "chart_tipo": "bar_grouped", "chart_titulo": "Autos ligeros · var. % anual", "grouped_series": {"Ventas": [1.8, -4.0, 0.1, -4.9, 0.6, -1.6, 2.1, 7.7, -0.3, 5.0, 9.0, -0.3, 2.4], "Producción": [11.0, -9.9, -2.6, 4.9, 2.4, -0.8, -6.1, -3.7, -8.4, 8.5, 0.7, -1.8, 2.5], "Exportación": [4.1, -10.9, -2.9, 14.0, 7.9, 1.4, -0.3, -5.5, -4.2, -14.5, 8.2, -4.4, 4.2]}, "drilldown": {"tipo": "autos_ligeros", "periodos": ["mar-25", "abr-25", "may-25", "jun-25", "jul-25", "ago-25", "sep-25", "oct-25", "nov-25", "dic-25", "ene-26", "feb-26", "mar-26"], "series": {"Ventas": [1.8, -4, 0.1, -4.9, 0.6, -1.6, 2.1, 7.7, -0.3, 5, 9, -0.3, 2.4], "Producción": [11, -9.9, -2.6, 4.9, 2.4, -0.8, -6.1, -3.7, -8.4, 8.5, 0.7, -1.8, 2.5], "Exportación": [4.1, -10.9, -2.9, 14, 7.9, 1.4, -0.3, -5.5, -4.2, -14.5, 8.2, -4.4, 4.2]}, "ultimo": {"Ventas": 2.4, "Producción": 2.5, "Exportación": 4.2}}}}</script>
+
+
+    <footer class="site-footer">
+      Datos oficiales del Banco de Información Económica (BIE-INEGI) vía API. Interpretaciones generadas con IA (DeepSeek) · no son posición oficial de la Secretaría de Economía.
+      <br>Build 12 de mayo de 2026.
+    </footer>
+  </main>
+</div>
+</body>
+</html>

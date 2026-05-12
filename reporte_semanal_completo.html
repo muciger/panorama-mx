@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reporte semanal completo · Panorama MX</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --paper:#FAF7F2; --ink:#1C1A17; --accent:#C0512F; --forest:#2F5B4F;
+  --muted:#8A817A; --surface:#FFFFFF; --rule:rgba(28,26,23,0.12);
+  --pos:#2A6B43; --neg:#B83025; --warn:#8B5E20;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.55;font-size:14px;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+.page{max-width:860px;margin:0 auto;padding:32px 32px 64px}
+
+/* Nav superior (oculta en print) */
+.rpt-nav{display:flex;align-items:center;gap:10px;margin-bottom:24px}
+.rpt-nav-back{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid var(--rule);padding:7px 14px;border-radius:6px;color:var(--ink);font-size:13px;font-weight:500}
+.rpt-nav-print{display:inline-flex;align-items:center;gap:6px;background:var(--ink);color:#fff;padding:7px 14px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;border:none}
+.rpt-nav-print:hover{background:#2E2B27}
+
+/* Header (igual que reporte corto) */
+.rpt-header{display:flex;justify-content:space-between;align-items:flex-end;padding-bottom:12px;border-bottom:2px solid var(--ink);margin-bottom:14px}
+.rpt-brand-block{display:flex;align-items:center;gap:14px}
+.pmx-mark{width:44px;height:44px;background:var(--ink);border-radius:7px;display:flex;align-items:center;justify-content:center;color:var(--paper);font-family:var(--mono);font-size:14px;font-weight:700;letter-spacing:-0.02em}
+.pmx-mark-text{line-height:1}
+.pmx-mark-text span{color:var(--accent)}
+.rpt-brand-name{font-size:15px;font-weight:600;color:var(--ink)}
+.rpt-brand-sub{font-size:11px;color:var(--muted);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.06em;margin-top:2px}
+.rpt-meta{text-align:right}
+.rpt-title{font-family:var(--serif);font-size:24px;font-weight:600;color:var(--ink);letter-spacing:-0.01em}
+.rpt-semana{font-size:12px;color:var(--muted);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.08em;margin-top:4px}
+
+/* Estado agregado */
+.estado-block{display:flex;align-items:center;gap:9px;padding:9px 14px;border-radius:6px;margin-bottom:12px;font-size:12px;background:#fff;border:1px solid var(--rule)}
+.estado-block.estado-rojo{border-left:3px solid var(--neg)}
+.estado-block.estado-amarillo{border-left:3px solid var(--warn)}
+.estado-block.estado-verde{border-left:3px solid var(--pos)}
+.estado-block.estado-neutro{border-left:3px solid var(--muted)}
+.estado-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.estado-rojo .estado-dot{background:var(--neg)}
+.estado-amarillo .estado-dot{background:var(--warn)}
+.estado-verde .estado-dot{background:var(--pos)}
+.estado-neutro .estado-dot{background:var(--muted)}
+.estado-texto{font-weight:600}
+.estado-sep{color:var(--rule);margin:0 4px}
+.estado-detalle{color:var(--muted);font-size:12.5px}
+
+/* Síntesis ejecutiva (compacta para PDF) */
+.resumen-box{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:7px;padding:14px 18px;margin-bottom:14px;page-break-inside:avoid;break-inside:avoid}
+.resumen-header{display:flex;flex-direction:column;gap:3px;margin-bottom:10px}
+.resumen-header > span:first-child{font-size:10.5px;font-weight:700;font-family:var(--mono);color:var(--accent);text-transform:uppercase;letter-spacing:0.08em}
+.resumen-sub{font-size:11px;color:var(--muted);font-style:italic}
+.resumen-grid{display:flex;flex-direction:column;gap:10px}
+.resumen-section{display:flex;flex-direction:column;gap:5px;padding-bottom:8px;border-bottom:1px dashed var(--rule)}
+.resumen-section:last-child{border-bottom:none;padding-bottom:0}
+.resumen-section-head{display:flex;align-items:center;gap:9px}
+.resumen-tema-dot{width:7px;height:7px;border-radius:50%}
+.resumen-tema-dot.sem-verde{background:var(--pos)}
+.resumen-tema-dot.sem-amarillo{background:var(--warn)}
+.resumen-tema-dot.sem-rojo{background:var(--neg)}
+.resumen-tema-dot.sem-neutro{background:var(--muted)}
+.resumen-tema-name{font-size:10.5px;font-weight:700;color:var(--ink);font-family:var(--mono);letter-spacing:0.06em;text-transform:uppercase}
+.resumen-tema-count{font-size:10px;color:var(--muted);font-family:var(--mono)}
+.resumen-dir{font-size:12px;margin-left:auto;line-height:1;font-weight:700}
+.resumen-dir-up{color:var(--pos)}
+.resumen-dir-down{color:var(--neg)}
+.resumen-dir-flat{color:var(--muted)}
+.resumen-headlines{display:flex;flex-direction:column;gap:5px;padding-left:16px}
+.resumen-headline-item p{margin:0;font-size:11.5px;line-height:1.45;color:var(--ink);font-weight:500}
+.resumen-headline-link{font-size:11px;color:var(--accent);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.04em}
+
+/* Indicador compacto: layout 2 columnas (texto + chart) que cabe 4 por página A4 */
+.indic-pagina{background:#fff;border:1px solid var(--rule);border-radius:7px;padding:9px 13px;margin-bottom:7px;page-break-inside:avoid;break-inside:avoid}
+.indic-pagina-head{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--rule);padding-bottom:5px;margin-bottom:7px;gap:12px}
+.indic-pagina-titulo{font-family:var(--serif);font-size:13.5px;font-weight:600;line-height:1.2;color:var(--ink);margin:0;letter-spacing:-0.01em;flex:1}
+.indic-pagina-meta{font-size:9.5px;color:var(--muted);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.04em;white-space:nowrap}
+.indic-pagina-tema{display:none}
+
+/* Cuerpo en 2 columnas: izq = texto, der = chart + tiles inline */
+.indic-pagina-body{display:grid;grid-template-columns:1fr 270px;gap:12px;align-items:start}
+.indic-pagina-text{font-size:11px;line-height:1.45;color:#27272A}
+.indic-pagina-headline{font-size:11.5px;font-weight:600;color:var(--ink);margin:0 0 5px;line-height:1.35}
+.indic-pagina-parrafo{margin:0 0 4px;color:#3C3830}
+.indic-pagina-parrafo:last-child{margin-bottom:0}
+
+/* Tiles inline (1 línea compacta arriba del chart) */
+.inegi-tiles-inline{display:flex;gap:5px;margin-bottom:5px;flex-wrap:wrap}
+.inegi-tile-inline{flex:1;min-width:80px;background:#FAFAFA;border:1px solid var(--rule);border-radius:4px;padding:4px 6px;text-align:center}
+.inegi-tile-inline-head{font-size:8.5px;color:var(--muted);text-transform:uppercase;letter-spacing:0.04em;font-family:var(--mono);margin-bottom:1px}
+.inegi-tile-inline-value{font-size:12.5px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;display:flex;align-items:center;justify-content:center;gap:3px}
+.inegi-up{color:var(--pos)}
+.inegi-down{color:var(--neg)}
+.inegi-flat{color:var(--ink)}
+
+/* Chart container compacto */
+.indic-chart{height:105px;position:relative;margin-top:3px}
+.indic-chart canvas{width:100%!important;height:100%!important}
+
+/* Layout vacío (sin chart) */
+.indic-pagina-body.no-chart{grid-template-columns:1fr}
+
+/* Próximas (compacta) */
+.proximas-section{margin-top:14px;padding-top:10px;border-top:1.5px solid var(--rule);page-break-before:auto;page-break-inside:avoid;break-inside:avoid}
+.proximas-head{font-family:var(--mono);font-size:10.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:7px}
+.proximas-tabla{width:100%;border-collapse:collapse;font-size:10.5px}
+.proximas-tabla th{text-align:left;padding:3px 8px;font-size:9.5px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.04em;border-bottom:1px solid var(--rule)}
+.proximas-tabla td{padding:3px 8px;border-bottom:1px solid var(--rule);line-height:1.35}
+.proximas-tabla tr:last-child td{border-bottom:none}
+
+/* Footer */
+.rpt-footer{margin-top:12px;padding-top:8px;border-top:1px solid var(--rule);font-size:9.5px;color:var(--muted);font-style:italic;text-align:center;line-height:1.5;page-break-inside:avoid;break-inside:avoid}
+
+/* PRINT */
+@media print {
+  html, body { background: #fff; }
+  .page { padding: 0; max-width: 100%; }
+  .rpt-nav { display: none; }
+  .indic-pagina { box-shadow: none; border-color: #ccc; }
+  a { color: inherit; text-decoration: none; }
+  a[href]::after { content: none; }
+  @page { size: A4; margin: 14mm 14mm 16mm; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <nav class="rpt-nav">
+    <a class="rpt-nav-back" href="reporte_semanal.html">← Reporte corto</a>
+    <button class="rpt-nav-print" onclick="window.print()" type="button">Descargar / Imprimir PDF</button>
+  </nav>
+
+  <header class="rpt-header">
+    <div class="rpt-brand-block">
+      <div class="pmx-mark"><div class="pmx-mark-text">P<span>MX</span></div></div>
+      <div>
+        <div class="rpt-brand-name">Panorama MX</div>
+        <div class="rpt-brand-sub">INEGI · BIE · Datos oficiales</div>
+      </div>
+    </div>
+    <div class="rpt-meta">
+      <div class="rpt-title">Reporte semanal</div>
+      <div class="rpt-semana">Publicaciones del 4 may al 12 may 2026</div>
+    </div>
+  </header>
+
+  <div class="estado-block estado-neutro">
+    <div class="estado-dot"></div>
+    <span class="estado-texto">Sin señales de alerta</span>
+    <span class="estado-sep">·</span>
+    <span class="estado-detalle">17 publicaciones revisadas</span>
+  </div>
+
+  
+  
+  <article class="indic-pagina" id="ind-balanza_comercial">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">Balanza Comercial de Mercancías</h2>
+      <div class="indic-pagina-meta">
+        Sector externo · publicado 11 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">Las exportaciones totales crecieron 23.86% anual en marzo de 2026, el mayor avance en el periodo disponible (abril de 2024 a marzo de 2026), impulsadas por manufacturas no automotrices. El saldo comercial fue superavitario en 2,499 millones de dólares, el nivel más alto registrado en dicho periodo.</p>
+        
+        
+        <p class="indic-pagina-parrafo">En marzo de 2026, la balanza comercial de mercancías registró el superávit más elevado del periodo disponible, de 2,499 millones de dólares, resultado de un crecimiento exportador de 23.86% anual liderado por las manufacturas no automotrices (38.1% anual). El componente no petrolero aportó un superávit de 4,981 millones de dólares, compensando el déficit petrolero de 2,482 millones. Las importaciones crecieron 19.93% anual, con bienes intermedios como el componente de mayor expansión (22.86%), lo que refleja la continuidad de encadenamientos productivos con el exterior. Las exportaciones petroleras acumulan una contracción de 22.02% anual en el mes.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-inpc_mensual">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">Índice Nacional de Precios al Consumidor</h2>
+      <div class="indic-pagina-meta">
+        Inflación · publicado 7 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">La inflación general anual subió a 4.59% en marzo de 2026, impulsada por un fuerte repunte en los precios agropecuarios, mientras la inflación subyacente se mantiene estable cerca de 4.5%.</p>
+        
+        
+        <p class="indic-pagina-parrafo">La inflación general se aleja del objetivo del Banco de México por un choque en precios agropecuarios, mientras la subyacente se mantiene estable. El repunte inflacionario tiene un carácter puntual y no refleja un sobrecalentamiento de la demanda; la trayectoria de las expectativas y de otros precios constituirá un elemento central para valorar la persistencia del fenómeno en los próximos periodos.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-consumo_privado">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">Indicador Mensual del Consumo Privado</h2>
+      <div class="indic-pagina-meta">
+        Actividad · publicado 6 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">El consumo privado creció 2.66% anual en enero de 2026, pero cayó 1.55% mensual, con un fuerte retroceso del gasto en bienes importados y una moderación en el consumo de bienes nacionales.</p>
+        
+        
+        <p class="indic-pagina-parrafo">El IMCP, que había mostrado una recuperación notable hacia finales de 2025, inicia 2026 con la contracción mensual más pronunciada del rango de datos disponibles y una desaceleración en su variación anual. La caída en el gasto en bienes duraderos y semiduraderos nacionales, así como el retroceso mensual del componente importado, confirman una moderación del gasto de los hogares que reduce el impulso de uno de los principales componentes de la demanda interna.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-fbcf">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">Formación Bruta de Capital Fijo</h2>
+      <div class="indic-pagina-meta">
+        Actividad · publicado 6 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">La inversión total cayó 2.2% anual en enero de 2026, arrastrada por una fuerte contracción en maquinaria y equipo, mientras la construcción mostró un repunte moderado.</p>
+        
+        
+        <p class="indic-pagina-parrafo">El dato de inversión de enero de 2026 muestra que la FBCF acumula varios meses consecutivos de variaciones anuales negativas, con la debilidad concentrada en maquinaria y equipo. La construcción residencial ofrece un contrapeso parcial, mientras que la construcción no residencial se estabilizó en 0.0% anual tras registrar contracciones pronunciadas en meses previos. El resultado consolida un panorama de inversión fija deprimida en el componente de mayor impacto sobre capacidad productiva.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-ind_ciclicos">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">Sistema de Indicadores Cíclicos</h2>
+      <div class="indic-pagina-meta">
+        Actividad · publicado 6 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">El Indicador Adelantado del Sistema de Indicadores Cíclicos subió 0.09 puntos en febrero de 2026, manteniéndose por arriba de su tendencia de largo plazo y sugiriendo que la economía podría seguir expandiéndose en los próximos meses.</p>
+        
+        
+        <p class="indic-pagina-parrafo">El Indicador Adelantado se mantiene en terreno positivo por undécimo mes consecutivo, lo que refuerza la lectura de que la economía mexicana podría continuar expandiéndose en el corto plazo. La ligera moderación registrada en los últimos meses apunta a que el ritmo de mejora podría estabilizarse, sin que ello implique un cambio de tendencia.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-autos_ligeros">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">Industria Automotriz, vehículos ligeros</h2>
+      <div class="indic-pagina-meta">
+        Automotriz · mar-26 · publicado 11 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">Las ventas de vehículos ligeros crecieron 2.4% anual en marzo, retomando un ritmo positivo tras la caída de febrero, mientras producción y exportación también repuntaron.</p>
+        
+        
+        <p class="indic-pagina-parrafo">El sector automotriz muestra signos de estabilización en marzo, con los tres componentes en terreno positivo por primera vez desde enero de 2026, dentro del rango de datos disponibles. La volatilidad reciente y la ausencia de un repunte sostenido en producción y exportación indican que el sector aún no consolida una tendencia de crecimiento sólida.</p>
+        
+      </div>
+
+      
+      <div class="indic-pagina-right">
+        
+        <div class="inegi-tiles-inline">
+          
+          <div class="inegi-tile-inline">
+            <div class="inegi-tile-inline-head">Variación anual</div>
+            <div class="inegi-tile-inline-value inegi-up">
+              <span aria-hidden="true">▲</span>
+              <span>+2.4%</span>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="indic-chart">
+          <canvas id="chart-autos_ligeros"></canvas>
+        </div>
+        <script type="application/json" id="payload-autos_ligeros">{"ma12": [null, null, -0.7, -1.75, -1.28, -1.33, -0.84, 0.22, 0.17, 0.65, 1.41, 1.27, 1.32], "periodos": ["mar-25", "abr-25", "may-25", "jun-25", "jul-25", "ago-25", "sep-25", "oct-25", "nov-25", "dic-25", "ene-26", "feb-26", "mar-26"], "serie_label": "Ventas", "serie_vals": [1.8, -4.0, 0.1, -4.9, 0.6, -1.6, 2.1, 7.7, -0.3, 5.0, 9.0, -0.3, 2.4], "unidad": "%"}</script>
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-inpc_quincenal">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">INPC quincenal</h2>
+      <div class="indic-pagina-meta">
+        Inflación · publicado 7 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">La inflación general anual se mantiene en 4.53%, sin cambios significativos respecto a la quincena anterior, mientras la subyacente desciende ligeramente a 4.27%.</p>
+        
+        
+        <p class="indic-pagina-parrafo">La inflación general se ha estabilizado alrededor de 4.5%, sin señales de aceleración en la quincena más reciente, pero sin mostrar tampoco una convergencia pronunciada hacia niveles inferiores. La moderación de la subyacente respecto a la quincena previa constituye una señal de menor presión en los componentes más estructurales del índice, aunque su nivel se mantiene por encima de 4%. La no subyacente, pese a registrar una variación quincenal negativa, sostiene una tasa anual de 5.41%, lo que refleja la persistencia de presiones en los precios más volátiles dentro del rango analizado.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-inpp">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">Índice Nacional de Precios Productor</h2>
+      <div class="indic-pagina-meta">
+        Inflación · publicado 7 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">La inflación al productor repuntó en marzo, pero la tendencia anual sigue a la baja: el índice sin petróleo subió 1.02% mensual y 2.46% anual, muy por debajo del pico de 7.92% registrado en febrero de 2025.</p>
+        
+        
+        <p class="indic-pagina-parrafo">El repunte mensual de los precios al productor en marzo rompe la tendencia de desaceleración gradual, pero no altera el diagnóstico de que la inflación productiva se ha moderado sustancialmente respecto a los niveles de 2025. La persistencia de presiones en algunos componentes, especialmente los vinculados a petróleo, constituye un elemento de atención en el seguimiento del panorama de costos de producción, que en términos generales refleja menor presión que la observada a principios del año previo.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-confianza_consumidor">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">Indicador de Confianza del Consumidor</h2>
+      <div class="indic-pagina-meta">
+        Sentimiento · publicado 8 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">La confianza del consumidor retrocedió en marzo de 2026 y se ubicó en 44.1 puntos, nivel que se mantiene entre los más bajos del rango de datos disponible. La percepción sobre la situación económica del país y la disposición a comprar bienes durables se deterioraron.</p>
+        
+        
+        <p class="indic-pagina-parrafo">El indicador confirma que los hogares mantienen una visión pesimista sobre la economía, especialmente en lo que respecta a la situación presente del país. Esta cautela persistente sugiere que el consumo privado, motor clave de la demanda interna, podría enfrentar presiones adicionales en los próximos meses, reforzando un escenario de bajo dinamismo económico.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-emoe_ipm">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">EMOE Indicador de Pedidos Manufactureros</h2>
+      <div class="indic-pagina-meta">
+        Sentimiento · publicado 4 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">El Indicador de Pedidos Manufactureros se mantuvo en terreno expansivo en abril de 2026, aunque con una leve contracción anual que refleja un crecimiento moderado del sector sin señales de aceleración.</p>
+        
+        
+        <p class="indic-pagina-parrafo">El indicador refleja un sector manufacturero que se mantiene en expansión, pero con un ritmo débil y sin señales de aceleración. La divergencia entre el nivel de pedidos esperados, que permanece claramente por encima del umbral expansivo, y el de producción esperada, que se sitúa en contracción, describe un entorno de bajo dinamismo en el que la demanda anticipada no se traduce plenamente en expectativas de mayor actividad productiva.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-emoe_iat">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">EMOE Indicadores Agregados de Tendencia</h2>
+      <div class="indic-pagina-meta">
+        Sentimiento · publicado 4 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">El Indicador Agregado de Tendencia manufacturero cayó en abril, pero se mantiene en terreno expansivo. La construcción sigue en contracción, mientras el comercio se debilita.</p>
+        
+        
+        <p class="indic-pagina-parrafo">El indicador muestra una economía que crece, pero a un ritmo cada vez más lento. La manufactura se mantiene en expansión, aunque frágil, mientras que la construcción sigue en contracción y el comercio se acerca a ella. El conjunto de señales confirma un panorama de bajo dinamismo en la percepción empresarial durante abril de 2026.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+  <article class="indic-pagina" id="ind-emoe_ice">
+    <header class="indic-pagina-head">
+      <h2 class="indic-pagina-titulo">EMOE Indicador Global de Confianza Empresarial</h2>
+      <div class="indic-pagina-meta">
+        Sentimiento · publicado 4 may 2026
+      </div>
+    </header>
+
+    <div class="indic-pagina-body no-chart">
+      <div class="indic-pagina-text">
+        
+        <p class="indic-pagina-headline">La confianza empresarial permanece en terreno de contracción, aunque la caída anual se reduce a menos de medio punto, la menor del periodo analizado.</p>
+        
+        
+        <p class="indic-pagina-parrafo">La confianza empresarial sigue en terreno contractivo, pero la desaceleración de las caídas anuales sugiere que el pesimismo se está moderando. Este comportamiento es compatible con un escenario de bajo crecimiento en el que los empresarios aún no identifican condiciones para incrementar la inversión, pero tampoco anticipan un deterioro adicional significativo.</p>
+        
+      </div>
+
+      
+    </div>
+  </article>
+  
+
+</div>
+
+<script>
+(function(){
+  // Renderizar charts para cada indicador con payload.
+  function renderChart(iid, payload){
+    const canvas = document.getElementById('chart-' + iid);
+    if (!canvas || !window.Chart) return;
+    const ctx = canvas.getContext('2d');
+    const datasets = [{
+      label: payload.serie_label || 'Serie',
+      data: payload.serie_vals,
+      borderColor: '#C0512F',
+      backgroundColor: 'rgba(192,81,47,0.10)',
+      tension: 0.25, borderWidth: 2.2, pointRadius: 0, fill: true, spanGaps: true
+    }];
+    if (payload.ma12 && payload.ma12.length === payload.serie_vals.length) {
+      datasets.push({
+        label: 'MA12', data: payload.ma12,
+        borderColor: '#2F5B4F', borderDash: [5,4], borderWidth: 1.4,
+        pointRadius: 0, fill: false, spanGaps: true
+      });
+    }
+    new Chart(ctx, {
+      type: 'line',
+      data: { labels: payload.periodos, datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false, animation: false,
+        plugins: {
+          legend: { position: 'bottom', labels: { boxWidth: 12, boxHeight: 3, font: { size: 10.5 }, color: '#1C1A17' }},
+          tooltip: { enabled: false }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 10 }, color: '#8A817A', maxRotation: 0, autoSkipPadding: 12 }},
+          y: { grid: { color: 'rgba(28,26,23,0.08)' }, ticks: { font: { size: 10 }, color: '#8A817A', callback: v => v + (payload.unidad === '%' ? '%' : '') }}
+        }
+      }
+    });
+  }
+
+  function tryRender(){
+    if (!window.Chart) { setTimeout(tryRender, 60); return; }
+    document.querySelectorAll('script[type="application/json"][id^="payload-"]').forEach(function(s){
+      try {
+        const iid = s.id.replace('payload-', '');
+        renderChart(iid, JSON.parse(s.textContent));
+      } catch (e) { console.warn('chart fail', s.id, e); }
+    });
+
+    // Si llegamos con ?print=1, disparar print después de que charts rendericen.
+    if (/[?&]print=1\b/.test(location.search)) {
+      setTimeout(() => window.print(), 1200);
+    }
+  }
+  if (document.readyState === 'complete') tryRender();
+  else window.addEventListener('load', tryRender);
+})();
+</script>
+</body>
+</html>

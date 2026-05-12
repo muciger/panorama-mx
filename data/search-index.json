@@ -1,0 +1,386 @@
+[
+  {
+    "id": "pib_anual",
+    "nombre": "PIB anual (resumen)",
+    "categoria": "Macro",
+    "unidad": "%",
+    "keywords": [
+      "macro",
+      "PIB anual"
+    ],
+    "url": "indicador/pib_anual.html"
+  },
+  {
+    "id": "pib_trimestral",
+    "nombre": "PIB anual",
+    "categoria": "Macro",
+    "unidad": "%",
+    "keywords": [
+      "macro",
+      "PIB"
+    ],
+    "url": "indicador/pib_trimestral.html"
+  },
+  {
+    "id": "pib_por_actividad",
+    "nombre": "PIB por actividad",
+    "categoria": "Macro",
+    "unidad": "%",
+    "keywords": [
+      "macro"
+    ],
+    "url": "indicador/pib_por_actividad.html"
+  },
+  {
+    "id": "inflacion_resumen",
+    "nombre": "Inflación anual (resumen)",
+    "categoria": "Precios",
+    "unidad": "%",
+    "keywords": [
+      "precios"
+    ],
+    "url": "indicador/inflacion_resumen.html"
+  },
+  {
+    "id": "igae_ioae_resumen",
+    "nombre": "IGAE / IOAE por sector",
+    "categoria": "Actividad",
+    "unidad": "%",
+    "keywords": [
+      "actividad"
+    ],
+    "url": "indicador/igae_ioae_resumen.html"
+  },
+  {
+    "id": "igae",
+    "nombre": "IGAE anual",
+    "categoria": "Actividad",
+    "unidad": "%",
+    "keywords": [
+      "actividad",
+      "actividad",
+      "actividad económica",
+      "indicador global"
+    ],
+    "url": "indicador/igae.html"
+  },
+  {
+    "id": "actividad_industrial",
+    "nombre": "IMAI total",
+    "categoria": "Actividad",
+    "unidad": "%",
+    "keywords": [
+      "actividad",
+      "IMAI",
+      "industrial",
+      "manufactura"
+    ],
+    "url": "indicador/actividad_industrial.html"
+  },
+  {
+    "id": "consumo_privado",
+    "nombre": "Consumo privado",
+    "categoria": "Actividad",
+    "unidad": "%",
+    "keywords": [
+      "actividad",
+      "consumo",
+      "gasto hogares"
+    ],
+    "url": "indicador/consumo_privado.html"
+  },
+  {
+    "id": "fbcf",
+    "nombre": "FBCF anual",
+    "categoria": "Actividad",
+    "unidad": "%",
+    "keywords": [
+      "actividad",
+      "inversión",
+      "formación bruta capital fijo"
+    ],
+    "url": "indicador/fbcf.html"
+  },
+  {
+    "id": "balanza_comercial",
+    "nombre": "Exportaciones",
+    "categoria": "Actividad",
+    "unidad": "%",
+    "keywords": [
+      "actividad",
+      "exportaciones",
+      "importaciones",
+      "saldo comercial",
+      "FOB"
+    ],
+    "url": "indicador/balanza_comercial.html"
+  },
+  {
+    "id": "ind_ciclicos",
+    "nombre": "Cíclico adelantado",
+    "categoria": "Actividad",
+    "unidad": "pts",
+    "keywords": [
+      "actividad",
+      "coincidente",
+      "adelantado",
+      "ciclos"
+    ],
+    "url": "indicador/ind_ciclicos.html"
+  },
+  {
+    "id": "emim",
+    "nombre": "EMIM producción",
+    "categoria": "Encuestas",
+    "unidad": "%",
+    "keywords": [
+      "encuestas",
+      "EMIM",
+      "manufactura"
+    ],
+    "url": "indicador/emim.html"
+  },
+  {
+    "id": "enec",
+    "nombre": "ENEC valor",
+    "categoria": "Encuestas",
+    "unidad": "%",
+    "keywords": [
+      "encuestas",
+      "construcción",
+      "ENEC"
+    ],
+    "url": "indicador/enec.html"
+  },
+  {
+    "id": "comercio_mayoreo",
+    "nombre": "Mayoreo ingresos",
+    "categoria": "Encuestas",
+    "unidad": "%",
+    "keywords": [
+      "encuestas",
+      "mayoreo",
+      "EMEC mayoreo"
+    ],
+    "url": "indicador/comercio_mayoreo.html"
+  },
+  {
+    "id": "comercio_menudeo",
+    "nombre": "Menudeo personal",
+    "categoria": "Encuestas",
+    "unidad": "%",
+    "keywords": [
+      "encuestas",
+      "menudeo",
+      "EMEC menudeo"
+    ],
+    "url": "indicador/comercio_menudeo.html"
+  },
+  {
+    "id": "servicios",
+    "nombre": "Servicios ingresos",
+    "categoria": "Encuestas",
+    "unidad": "%",
+    "keywords": [
+      "encuestas",
+      "EMS",
+      "servicios"
+    ],
+    "url": "indicador/servicios.html"
+  },
+  {
+    "id": "autos_ligeros",
+    "nombre": "Autos ligeros",
+    "categoria": "Automotriz",
+    "unidad": "%",
+    "keywords": [
+      "automotriz",
+      "automotriz ligeros",
+      "vehículos ligeros"
+    ],
+    "url": "indicador/autos_ligeros.html"
+  },
+  {
+    "id": "autos_pesados",
+    "nombre": "Autos pesados",
+    "categoria": "Automotriz",
+    "unidad": "%",
+    "keywords": [
+      "automotriz",
+      "automotriz pesados",
+      "vehículos pesados"
+    ],
+    "url": "indicador/autos_pesados.html"
+  },
+  {
+    "id": "inpc_quincenal",
+    "nombre": "INPC 1Q mar",
+    "categoria": "Precios",
+    "unidad": "%",
+    "keywords": [
+      "precios",
+      "inflación quincenal",
+      "INPC 1Q",
+      "INPC 2Q"
+    ],
+    "url": "indicador/inpc_quincenal.html"
+  },
+  {
+    "id": "inpc_mensual",
+    "nombre": "INPC anual",
+    "categoria": "Precios",
+    "unidad": "%",
+    "keywords": [
+      "precios",
+      "inflación",
+      "precios al consumidor",
+      "INPC"
+    ],
+    "url": "indicador/inpc_mensual.html"
+  },
+  {
+    "id": "inpp",
+    "nombre": "INPP sin petróleo",
+    "categoria": "Precios",
+    "unidad": "%",
+    "keywords": [
+      "precios",
+      "productor",
+      "precios al productor"
+    ],
+    "url": "indicador/inpp.html"
+  },
+  {
+    "id": "enoe_trimestral",
+    "nombre": "Tasa desocupación",
+    "categoria": "Empleo",
+    "unidad": "%",
+    "keywords": [
+      "empleo",
+      "empleo trimestral",
+      "PEA"
+    ],
+    "url": "indicador/enoe_trimestral.html"
+  },
+  {
+    "id": "export_entidad",
+    "nombre": "Participación de entidad líder",
+    "categoria": "Regional",
+    "unidad": "%",
+    "keywords": [
+      "regional",
+      "exportaciones por estado",
+      "exportaciones entidad"
+    ],
+    "url": "indicador/export_entidad.html"
+  },
+  {
+    "id": "confianza_consumidor",
+    "nombre": "Conf. consumidor",
+    "categoria": "Sentimiento",
+    "unidad": "pts",
+    "keywords": [
+      "sentimiento",
+      "ICC",
+      "confianza"
+    ],
+    "url": "indicador/confianza_consumidor.html"
+  },
+  {
+    "id": "emoe_ipm",
+    "nombre": "EMOE IPM",
+    "categoria": "Sentimiento",
+    "unidad": "pts",
+    "keywords": [
+      "sentimiento",
+      "IPM",
+      "pedidos manufactureros"
+    ],
+    "url": "indicador/emoe_ipm.html"
+  },
+  {
+    "id": "emoe_iat",
+    "nombre": "EMOE IAT",
+    "categoria": "Sentimiento",
+    "unidad": "pts",
+    "keywords": [
+      "sentimiento",
+      "IAT",
+      "tendencia"
+    ],
+    "url": "indicador/emoe_iat.html"
+  },
+  {
+    "id": "emoe_ice",
+    "nombre": "EMOE ICE",
+    "categoria": "Sentimiento",
+    "unidad": "pts",
+    "keywords": [
+      "sentimiento",
+      "ICE",
+      "confianza empresarial"
+    ],
+    "url": "indicador/emoe_ice.html"
+  },
+  {
+    "id": "enoe_mensual",
+    "nombre": "Desocupación (ENOE mensual)",
+    "categoria": "Empleo",
+    "unidad": "%",
+    "keywords": [
+      "empleo",
+      "desocupación",
+      "desempleo",
+      "tasa de desocupación",
+      "ocupación"
+    ],
+    "url": "indicador/enoe_mensual.html"
+  },
+  {
+    "id": "pib_estatal",
+    "nombre": "Entidad líder por participación PIB",
+    "categoria": "Regional",
+    "unidad": "%",
+    "keywords": [
+      "regional",
+      "PIB estatal",
+      "entidades",
+      "estados"
+    ],
+    "url": "indicador/pib_estatal.html"
+  },
+  {
+    "id": "itaee_estatal",
+    "nombre": "ITAEE líder trimestral",
+    "categoria": "Regional",
+    "unidad": "%",
+    "keywords": [
+      "regional",
+      "ITAEE",
+      "trimestral estatal"
+    ],
+    "url": "indicador/itaee_estatal.html"
+  },
+  {
+    "id": "imai_estatal",
+    "nombre": "IMAI estatal líder",
+    "categoria": "Regional",
+    "unidad": "%",
+    "keywords": [
+      "regional",
+      "IMAI estatal",
+      "industrial por estado"
+    ],
+    "url": "indicador/imai_estatal.html"
+  },
+  {
+    "id": "empleo_imss",
+    "nombre": "Desglose por sector económico",
+    "categoria": "Empleo",
+    "unidad": " M",
+    "keywords": [
+      "empleo"
+    ],
+    "url": "indicador/empleo_imss.html"
+  }
+]

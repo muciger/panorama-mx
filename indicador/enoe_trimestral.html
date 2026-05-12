@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Encuesta Nacional de Ocupación y Empleo (trimestral) · Panorama económico de México</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../assets/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
+<script src="../assets/app.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Saltar al contenido</a>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand-block">
+      <a class="brand-gob" href="../index.html" aria-label="Inicio">
+        <div class="brand-gob-text">
+          <div class="brand-gob-line">Panorama MX</div>
+          <div class="brand-gob-line strong">INEGI · BIE</div>
+        </div>
+      </a>
+    </div>
+    <nav class="nav-list">
+      <a class="nav-item" href="../index.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12l9-9 9 9M5 10v10h14V10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Inicio</span>
+      </a>
+      <a class="nav-item" href="../reporte_semanal.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="nav-label">Reporte semanal</span>
+      </a>
+      <a class="nav-item" href="../comparar.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Comparar</span>
+      </a>
+      <a class="nav-item" href="../imss_explorador.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Empleo IMSS</span>
+      </a>
+      <details class="nav-group-details" open id="nav-indicadores-details">
+        <summary class="nav-item nav-summary active" aria-haspopup="listbox">
+          <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18M7 14l4-4 4 4 5-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="nav-label nav-label-always">Indicadores</span>
+          <svg class="nav-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg>
+        </summary>
+        <div class="nav-sub">
+          
+          <div class="nav-sub-label">Resúmenes</div>
+          
+          <a class="nav-sub-item" href="../indicador/pib_anual.html">PIB anual (resumen)</a>
+          
+          <a class="nav-sub-item" href="../indicador/inflacion_resumen.html">Inflación (resumen)</a>
+          
+          <a class="nav-sub-item" href="../indicador/igae_ioae_resumen.html">IGAE/IOAE por sector</a>
+          
+          
+          <div class="nav-sub-label">Macro</div>
+          
+          <a class="nav-sub-item" href="../indicador/pib_trimestral.html">PIB trimestral</a>
+          
+          <a class="nav-sub-item" href="../indicador/pib_por_actividad.html">PIB por actividad</a>
+          
+          
+          <div class="nav-sub-label">Actividad</div>
+          
+          <a class="nav-sub-item" href="../indicador/igae.html">IGAE</a>
+          
+          <a class="nav-sub-item" href="../indicador/actividad_industrial.html">Actividad industrial</a>
+          
+          <a class="nav-sub-item" href="../indicador/consumo_privado.html">Consumo privado</a>
+          
+          <a class="nav-sub-item" href="../indicador/fbcf.html">FBCF</a>
+          
+          <a class="nav-sub-item" href="../indicador/balanza_comercial.html">Balanza comercial</a>
+          
+          <a class="nav-sub-item" href="../indicador/ind_ciclicos.html">Indicadores cíclicos</a>
+          
+          
+          <div class="nav-sub-label">Encuestas sectoriales</div>
+          
+          <a class="nav-sub-item" href="../indicador/emim.html">EMIM manufactura</a>
+          
+          <a class="nav-sub-item" href="../indicador/enec.html">ENEC construcción</a>
+          
+          <a class="nav-sub-item" href="../indicador/comercio_mayoreo.html">Comercio mayoreo</a>
+          
+          <a class="nav-sub-item" href="../indicador/comercio_menudeo.html">Comercio menudeo</a>
+          
+          <a class="nav-sub-item" href="../indicador/servicios.html">Servicios</a>
+          
+          
+          <div class="nav-sub-label">Precios</div>
+          
+          <a class="nav-sub-item" href="../indicador/inpc_mensual.html">INPC mensual</a>
+          
+          <a class="nav-sub-item" href="../indicador/inpc_quincenal.html">INPC quincenal</a>
+          
+          <a class="nav-sub-item" href="../indicador/inpp.html">INPP</a>
+          
+          
+          <div class="nav-sub-label">Empleo</div>
+          
+          <a class="nav-sub-item active" aria-current="page" href="../indicador/enoe_trimestral.html">ENOE trimestral</a>
+          
+          <a class="nav-sub-item" href="../indicador/enoe_mensual.html">ENOE mensual</a>
+          
+          
+          <div class="nav-sub-label">Automotriz</div>
+          
+          <a class="nav-sub-item" href="../indicador/autos_ligeros.html">Vehículos ligeros</a>
+          
+          <a class="nav-sub-item" href="../indicador/autos_pesados.html">Vehículos pesados</a>
+          
+          
+          <div class="nav-sub-label">Regional</div>
+          
+          <a class="nav-sub-item" href="../indicador/export_entidad.html">Exportaciones entidad</a>
+          
+          
+          <div class="nav-sub-label">Sentimiento</div>
+          
+          <a class="nav-sub-item" href="../indicador/confianza_consumidor.html">Confianza consumidor</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_ipm.html">EMOE IPM</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_iat.html">EMOE IAT</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_ice.html">EMOE ICE</a>
+          
+          
+        </div>
+      </details>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="updated-row">
+        <span class="status-dot status-ok"></span>
+        <div>
+          <div class="updated-label">Última actualización</div>
+          <div class="updated-value">12 de mayo de 2026</div>
+        </div>
+      </div>
+      <a href="mailto:german.mucino@gmail.com?subject=Tablero%20INEGI%20-%20Reporte%20de%20problema" class="feedback-link">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12c0 4.4-4 8-9 8-1.7 0-3.3-.4-4.7-1.1L3 20l1.4-3.7C3.5 15.1 3 13.6 3 12c0-4.4 4-8 9-8s9 3.6 9 8z" stroke-width="2"/></svg>
+        <span>Reportar problema</span>
+      </a>
+    </div>
+  </aside>
+
+  <main class="main" id="main-content" tabindex="-1">
+    <header class="topbar">
+      <div class="topbar-status">
+        <span class="status-dot status-ok"></span>
+        <span>Sistema actualizado</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="16" rx="2" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke-width="2"/></svg>
+        <span>12 de mayo de 2026</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9" stroke-width="2"/><path d="M12 7v5l3 3" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>08:30 h (Centro)</span>
+      </div>
+      <div class="topbar-spacer"></div>
+      <div class="topbar-search" id="topbar-search">
+        <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
+        <kbd class="topbar-search-kbd">/</kbd>
+        <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
+      </div>
+    </header>
+
+    
+
+<nav class="breadcrumb-nav" aria-label="Ruta">
+  <a class="breadcrumb" href="../index.html">Vista general</a>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-cat">Empleo</span>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-current">Encuesta Nacional de Ocupación y Empleo (trimestral)</span>
+</nav>
+
+<div class="detail-header">
+  <div>
+    <h1 class="detail-title">Encuesta Nacional de Ocupación y Empleo (trimestral)</h1>
+    <div class="detail-meta">
+      Categoría: <strong>Empleo</strong> · Unidad: <strong>%</strong>
+      
+      
+    </div>
+  </div>
+  <div class="detail-actions">
+    <a class="indic-btn" href="../data/enoe_trimestral.csv" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 4v12M7 11l5 5 5-5M5 20h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Descargar CSV</span>
+    </a>
+    
+    <a class="indic-btn" href="https://www.inegi.org.mx/app/saladeprensa/noticia/10629" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 4h6v6M10 14L20 4M19 13v6a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Boletín INEGI</span>
+    </a>
+    
+    
+  </div>
+</div>
+
+
+
+
+<div class="detail-grid">
+  <div class="chart-card">
+    <div class="chart-card-head">
+      <h3>Tasa desocupación</h3>
+      
+    </div>
+    <div class="chart-container">
+      
+      <canvas id="detail-chart"></canvas>
+      
+    </div>
+    
+  </div>
+
+  <div class="stats-col">
+    <div class="stat-card">
+      <div class="label">Último valor</div>
+      <div class="valor">Vista tabular</div>
+      <div class="nota">Tasa desocupación</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Δ vs previo</div>
+      <div class="valor">—</div>
+      <div class="nota">Sin comparación directa</div>
+    </div>
+    <div class="stat-card" id="proxima-pub-card" data-next-date="2026-05-26">
+      <div class="label">Próxima publicación</div>
+      <div class="valor-fecha" id="proxima-pub-valor">26 may 2026</div>
+      <div class="nota" id="proxima-pub-nota">Encuesta Nacional de Ocupación y Empleo (ENOE), población de 15 años y más de ed</div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<section class="interp-section">
+  <header class="interp-section-head">
+    <h3>Lectura del indicador</h3>
+    <span class="interp-section-source">Análisis IA · deepseek + claude</span>
+  </header>
+
+  
+    
+    <div class="interp-diag-block">
+      <p>El mercado laboral registra baja desocupación y crecimiento del empleo total, al tiempo que la población fuera de la fuerza laboral —en particular la PNEA no disponible femenina— muestra un incremento notable. Esta dinámica indica que parte del ajuste del mercado se produce por la salida de personas de la población económicamente activa, especialmente mujeres, hacia actividades no remuneradas o inactivas, lo que constituye un elemento a considerar en el análisis de la participación laboral.</p>
+    </div>
+    
+    
+    <details class="interp-details">
+      <summary><span class="interp-summary-label">Ver lectura completa</span><span class="interp-summary-meta">3 párrafos</span></summary>
+      <div class="interp-prosa-block">
+        <p>La Encuesta Nacional de Ocupación y Empleo, que mide cuántas personas trabajan, buscan trabajo y en qué condiciones lo hacen, muestra que en el cuarto trimestre de 2025 la población ocupada alcanzó 59.8 millones de personas, un incremento de 298 mil respecto al mismo periodo de 2024. La tasa de desocupación se redujo de 2.6% a 2.5%, lo que refleja una baja proporción de personas buscando activamente empleo sin encontrarlo. En paralelo, el crecimiento de la Población No Económicamente Activa —personas fuera de la fuerza laboral— matiza la lectura del mercado laboral en su conjunto.</p><p>Un dato relevante es el aumento de la Población No Económicamente Activa (PNEA), que creció en 1.25 millones de personas respecto al año anterior, alcanzando 42.1 millones. Dentro de este grupo, la PNEA no disponible —personas que no buscan empleo por razones como estudio, jubilación o labores del hogar— creció en 1.42 millones, mientras que la PNEA disponible —quienes estarían dispuestos a trabajar pero no buscan activamente— se redujo en 168 mil. La expansión de la PNEA se concentra, por tanto, en personas que no están disponibles para trabajar, lo que modera la presión sobre el mercado laboral.</p><p>Por sexo, los hombres ocupados aumentaron en 369 mil, mientras que las mujeres ocupadas disminuyeron en 70 mil. La tasa de desocupación femenina subió de 2.5% a 2.6%, en tanto que la masculina bajó de 2.6% a 2.5%. La PNEA femenina no disponible creció en 870 mil personas, lo que refleja un desplazamiento de mujeres hacia actividades fuera del mercado laboral formal.</p>
+      </div>
+    </details>
+    
+  
+
+  <footer class="interp-section-foot">
+    Análisis asistido por IA. Verifica con el boletín INEGI antes de tomar decisiones de política.
+    
+    · <span title="El validador automático (claude) detectó 5 issues en el draft inicial y aplicó correcciones antes de publicar.">Versión revisada por validador automático.</span>
+    
+  </footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="chart-card">
+  <h3>Tabla de datos</h3>
+  <div class="table-wrap" style="box-shadow:none;border:none">
+    <table>
+      <caption class="sr-only">Tabla de datos de Encuesta Nacional de Ocupación y Empleo (trimestral)</caption>
+      
+      <thead>
+        <tr>
+          
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+      
+    </table>
+  </div>
+  
+  <div class="detail-meta" style="margin-top:12px">
+    Fuente: <a href="https://www.inegi.org.mx/app/saladeprensa/noticia/10629" target="_blank" rel="noopener">Boletín INEGI · saladeprensa →</a>
+  </div>
+</div>
+
+
+
+<details class="metodologia-details">
+  <summary class="metodologia-summary">Nota metodológica · Encuesta Nacional de Ocupación y Empleo (ENOE) — Resultados trimestrales</summary>
+  <div class="metodologia-body">
+    
+    <h4>Antecedentes y cobertura</h4>
+    <p>Principal fuente de información sobre el mercado laboral mexicano. Inició levantamiento en enero de 2005. Ofrece datos de fuerza de trabajo, ocupación, informalidad laboral, subocupación y desocupación.</p>
+    
+    
+    <h4>Periodicidad y publicación</h4>
+    <p>Trimestral. Publica en días establecidos en el Calendario de Difusión del INEGI.</p>
+    
+    
+    <h4>Cobertura geográfica</h4>
+    <p>Nacional, cuatro tamaños de localidad, 32 entidades federativas y 39 ciudades autorrepresentadas.</p>
+    
+    
+    
+    <h4>Diseño muestral</h4>
+    <p>Probabilístico, bietápico, estratificado y por conglomerados. Panel rotatorio de 5 paneles; cada uno permanece 5 trimestres. Tamaño de muestra: ~150 mil viviendas por trimestre.</p>
+    
+    
+    <h4>Ajuste estacional</h4>
+    <p>Series originales ajustadas estacionalmente con X-13ARIMA-SEATS.</p>
+    
+    
+    <div class="metodologia-links">
+      
+      <a class="metodologia-link" href="https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=702825099060" target="_blank" rel="noopener">Ficha metodológica (BIE) →</a>
+      
+      <a class="metodologia-link" href="https://www.inegi.org.mx/programas/enoe/15ymas/" target="_blank" rel="noopener">Programa ENOE 15 años y más →</a>
+      
+      <a class="metodologia-link" href="https://www.inegi.org.mx/programas/enoe/15ymas/#Tabulados" target="_blank" rel="noopener">Tabulados ENOE →</a>
+      
+      <a class="metodologia-link" href="https://www.gob.mx/stps" target="_blank" rel="noopener">STPS — Centro de información →</a>
+      
+    </div>
+    
+  </div>
+</details>
+
+
+<script id="page-data" type="application/json">{"view": "detail", "indicador": {"id": "enoe_trimestral", "tabular": true, "series": {}, "ma12": [], "periodos": [], "unidad": "%", "chart_tipo": "bar_grouped_horizontal", "chart_titulo": null, "bar_labels": [], "bar_datasets": [{"label": "T4-24", "values": []}, {"label": "T4-25", "values": []}], "bar_unit": "millones"}}</script>
+
+
+    <footer class="site-footer">
+      Datos oficiales del Banco de Información Económica (BIE-INEGI) vía API. Interpretaciones generadas con IA (DeepSeek) · no son posición oficial de la Secretaría de Economía.
+      <br>Build 12 de mayo de 2026.
+    </footer>
+  </main>
+</div>
+</body>
+</html>

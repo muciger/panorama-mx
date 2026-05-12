@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inflación anual INPC (resumen) · Panorama económico de México</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../assets/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
+<script src="../assets/app.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Saltar al contenido</a>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand-block">
+      <a class="brand-gob" href="../index.html" aria-label="Inicio">
+        <div class="brand-gob-text">
+          <div class="brand-gob-line">Panorama MX</div>
+          <div class="brand-gob-line strong">INEGI · BIE</div>
+        </div>
+      </a>
+    </div>
+    <nav class="nav-list">
+      <a class="nav-item" href="../index.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12l9-9 9 9M5 10v10h14V10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Inicio</span>
+      </a>
+      <a class="nav-item" href="../reporte_semanal.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="nav-label">Reporte semanal</span>
+      </a>
+      <a class="nav-item" href="../comparar.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Comparar</span>
+      </a>
+      <a class="nav-item" href="../imss_explorador.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Empleo IMSS</span>
+      </a>
+      <details class="nav-group-details" open id="nav-indicadores-details">
+        <summary class="nav-item nav-summary active" aria-haspopup="listbox">
+          <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18M7 14l4-4 4 4 5-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="nav-label nav-label-always">Indicadores</span>
+          <svg class="nav-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg>
+        </summary>
+        <div class="nav-sub">
+          
+          <div class="nav-sub-label">Resúmenes</div>
+          
+          <a class="nav-sub-item" href="../indicador/pib_anual.html">PIB anual (resumen)</a>
+          
+          <a class="nav-sub-item active" aria-current="page" href="../indicador/inflacion_resumen.html">Inflación (resumen)</a>
+          
+          <a class="nav-sub-item" href="../indicador/igae_ioae_resumen.html">IGAE/IOAE por sector</a>
+          
+          
+          <div class="nav-sub-label">Macro</div>
+          
+          <a class="nav-sub-item" href="../indicador/pib_trimestral.html">PIB trimestral</a>
+          
+          <a class="nav-sub-item" href="../indicador/pib_por_actividad.html">PIB por actividad</a>
+          
+          
+          <div class="nav-sub-label">Actividad</div>
+          
+          <a class="nav-sub-item" href="../indicador/igae.html">IGAE</a>
+          
+          <a class="nav-sub-item" href="../indicador/actividad_industrial.html">Actividad industrial</a>
+          
+          <a class="nav-sub-item" href="../indicador/consumo_privado.html">Consumo privado</a>
+          
+          <a class="nav-sub-item" href="../indicador/fbcf.html">FBCF</a>
+          
+          <a class="nav-sub-item" href="../indicador/balanza_comercial.html">Balanza comercial</a>
+          
+          <a class="nav-sub-item" href="../indicador/ind_ciclicos.html">Indicadores cíclicos</a>
+          
+          
+          <div class="nav-sub-label">Encuestas sectoriales</div>
+          
+          <a class="nav-sub-item" href="../indicador/emim.html">EMIM manufactura</a>
+          
+          <a class="nav-sub-item" href="../indicador/enec.html">ENEC construcción</a>
+          
+          <a class="nav-sub-item" href="../indicador/comercio_mayoreo.html">Comercio mayoreo</a>
+          
+          <a class="nav-sub-item" href="../indicador/comercio_menudeo.html">Comercio menudeo</a>
+          
+          <a class="nav-sub-item" href="../indicador/servicios.html">Servicios</a>
+          
+          
+          <div class="nav-sub-label">Precios</div>
+          
+          <a class="nav-sub-item" href="../indicador/inpc_mensual.html">INPC mensual</a>
+          
+          <a class="nav-sub-item" href="../indicador/inpc_quincenal.html">INPC quincenal</a>
+          
+          <a class="nav-sub-item" href="../indicador/inpp.html">INPP</a>
+          
+          
+          <div class="nav-sub-label">Empleo</div>
+          
+          <a class="nav-sub-item" href="../indicador/enoe_trimestral.html">ENOE trimestral</a>
+          
+          <a class="nav-sub-item" href="../indicador/enoe_mensual.html">ENOE mensual</a>
+          
+          
+          <div class="nav-sub-label">Automotriz</div>
+          
+          <a class="nav-sub-item" href="../indicador/autos_ligeros.html">Vehículos ligeros</a>
+          
+          <a class="nav-sub-item" href="../indicador/autos_pesados.html">Vehículos pesados</a>
+          
+          
+          <div class="nav-sub-label">Regional</div>
+          
+          <a class="nav-sub-item" href="../indicador/export_entidad.html">Exportaciones entidad</a>
+          
+          
+          <div class="nav-sub-label">Sentimiento</div>
+          
+          <a class="nav-sub-item" href="../indicador/confianza_consumidor.html">Confianza consumidor</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_ipm.html">EMOE IPM</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_iat.html">EMOE IAT</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_ice.html">EMOE ICE</a>
+          
+          
+        </div>
+      </details>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="updated-row">
+        <span class="status-dot status-ok"></span>
+        <div>
+          <div class="updated-label">Última actualización</div>
+          <div class="updated-value">12 de mayo de 2026</div>
+        </div>
+      </div>
+      <a href="mailto:german.mucino@gmail.com?subject=Tablero%20INEGI%20-%20Reporte%20de%20problema" class="feedback-link">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12c0 4.4-4 8-9 8-1.7 0-3.3-.4-4.7-1.1L3 20l1.4-3.7C3.5 15.1 3 13.6 3 12c0-4.4 4-8 9-8s9 3.6 9 8z" stroke-width="2"/></svg>
+        <span>Reportar problema</span>
+      </a>
+    </div>
+  </aside>
+
+  <main class="main" id="main-content" tabindex="-1">
+    <header class="topbar">
+      <div class="topbar-status">
+        <span class="status-dot status-ok"></span>
+        <span>Sistema actualizado</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="16" rx="2" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke-width="2"/></svg>
+        <span>12 de mayo de 2026</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9" stroke-width="2"/><path d="M12 7v5l3 3" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>08:30 h (Centro)</span>
+      </div>
+      <div class="topbar-spacer"></div>
+      <div class="topbar-search" id="topbar-search">
+        <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
+        <kbd class="topbar-search-kbd">/</kbd>
+        <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
+      </div>
+    </header>
+
+    
+
+<nav class="breadcrumb-nav" aria-label="Ruta">
+  <a class="breadcrumb" href="../index.html">Vista general</a>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-cat">Precios</span>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-current">Inflación anual INPC (resumen)</span>
+</nav>
+
+<div class="detail-header">
+  <div>
+    <h1 class="detail-title">Inflación anual INPC (resumen)</h1>
+    <div class="detail-meta">
+      Categoría: <strong>Precios</strong> · Unidad: <strong>%</strong>
+       · Último periodo: <strong>mar-26</strong>
+      
+    </div>
+  </div>
+  <div class="detail-actions">
+    <a class="indic-btn" href="../data/inflacion_resumen.csv" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 4v12M7 11l5 5 5-5M5 20h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Descargar CSV</span>
+    </a>
+    
+    <a class="indic-btn" href="https://www.inegi.org.mx/app/saladeprensa/noticia/10757" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 4h6v6M10 14L20 4M19 13v6a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Boletín INEGI</span>
+    </a>
+    
+    
+  </div>
+</div>
+
+
+
+
+<div class="inegi-strip">
+  
+  <div class="inegi-strip-prox">Próxima publicación: 22 may 2026</div>
+  
+  <div class="inegi-tiles inegi-tiles-1">
+    
+    <div class="inegi-tile">
+      <div class="inegi-tile-head">Variación anual</div>
+      <div class="inegi-tile-period">mar-26</div>
+      <div class="inegi-tile-value inegi-up">
+        <span class="inegi-arrow" aria-hidden="true">▲</span>
+        <span>+4.6%</span>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="inegi-headline">
+    <p>La inflación general subió a 4.59% en marzo, su nivel más alto en el periodo disponible, impulsada por un repunte en el componente no subyacente, mientras la subyacente se mantiene estable por encima del 4%.</p>
+    
+  </div>
+  
+</div>
+
+
+<div class="detail-grid">
+  <div class="chart-card">
+    <div class="chart-card-head">
+      <h3>Inflación por componente · variación anual</h3>
+      
+    </div>
+    <div class="chart-container">
+      
+      <canvas id="detail-chart"></canvas>
+      
+    </div>
+    
+  </div>
+
+  <div class="stats-col">
+    <div class="stat-card">
+      <div class="label">Último valor</div>
+      <div class="valor">4.6%</div>
+      <div class="nota">INPC anual · mar-26</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Δ vs MA12</div>
+      <div class="valor">+0.7pp</div>
+      <div class="nota">MA12: 3.9%</div>
+    </div>
+    <div class="stat-card" id="proxima-pub-card" data-next-date="2026-05-22">
+      <div class="label">Próxima publicación</div>
+      <div class="valor-fecha" id="proxima-pub-valor">22 may 2026</div>
+      <div class="nota" id="proxima-pub-nota">Índice Nacional de Precios al Consumidor (INPC)</div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<section class="interp-section">
+  <header class="interp-section-head">
+    <h3>Lectura del indicador</h3>
+    <span class="interp-section-source">Análisis IA · deepseek + claude</span>
+  </header>
+
+  
+    
+    <div class="interp-diag-block">
+      <p>La inflación general muestra un repunte puntual por choques en precios volátiles, mientras la subyacente se mantiene sin cambios significativos. Esto sugiere que las presiones inflacionarias de fondo no se están acelerando, aunque el nivel de ambos componentes se mantiene por encima del 4% anual, con la no subyacente registrando su valor más alto desde mayo de 2025.</p>
+    </div>
+    
+    
+    <details class="interp-details">
+      <summary><span class="interp-summary-label">Ver lectura completa</span><span class="interp-summary-meta">2 párrafos</span></summary>
+      <div class="interp-prosa-block">
+        <p>El Índice Nacional de Precios al Consumidor (INPC), que mide cuánto cambian en promedio los precios de los bienes y servicios que consumen los hogares, registró una variación anual de 4.59% en marzo de 2026. Este dato representa un incremento frente al 4.02% de febrero y es la lectura más alta dentro del rango de información disponible, que abarca de abril de 2025 a marzo de 2026. El alza estuvo liderada por el componente no subyacente, que agrupa productos de precios volátiles como energéticos y agropecuarios, el cual pasó de 2.44% en febrero a 5.05% en marzo.</p><p>La inflación subyacente, que excluye los precios más volátiles y refleja tendencias de mediano plazo, se ubicó en 4.45% anual, ligeramente por debajo del 4.50% de febrero. Este componente se ha mantenido relativamente estable entre 4.2% y 4.5% desde abril de 2025, lo que sugiere que las presiones de demanda interna no se han intensificado. La divergencia entre una subyacente estable y una no subyacente volátil indica que el repunte de la inflación general responde a factores transitorios más que a un deterioro generalizado de precios.</p>
+      </div>
+    </details>
+    
+  
+
+  <footer class="interp-section-foot">
+    Análisis asistido por IA. Verifica con el boletín INEGI antes de tomar decisiones de política.
+    
+    · <span title="El validador automático (claude) detectó 4 issues en el draft inicial y aplicó correcciones antes de publicar.">Versión revisada por validador automático.</span>
+    
+  </footer>
+</section>
+
+
+
+
+
+
+<div class="inpc-recuadros">
+  <div class="inpc-recuadros-periodo">mar-26</div>
+  <div class="inpc-recuadros-grid">
+    
+    <div class="inpc-recuadro">
+      <div class="inpc-recuadro-titulo">Inflación general</div>
+      <div class="inpc-recuadro-periodo-label">mar-26</div>
+      <div class="inpc-recuadro-cols">
+        <div class="inpc-recuadro-col">
+          <div class="inpc-recuadro-sublabel">mensual</div>
+          <div class="inpc-recuadro-val pos">
+            ▲
+            0.86 %
+          </div>
+        </div>
+        <div class="inpc-recuadro-col">
+          <div class="inpc-recuadro-sublabel">anual</div>
+          <div class="inpc-recuadro-val pos">
+            ▲
+            4.59 %
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="inpc-recuadro">
+      <div class="inpc-recuadro-titulo">Subyacente</div>
+      <div class="inpc-recuadro-periodo-label">mar-26</div>
+      <div class="inpc-recuadro-cols">
+        <div class="inpc-recuadro-col">
+          <div class="inpc-recuadro-sublabel">mensual</div>
+          <div class="inpc-recuadro-val pos">
+            ▲
+            0.38 %
+          </div>
+        </div>
+        <div class="inpc-recuadro-col">
+          <div class="inpc-recuadro-sublabel">anual</div>
+          <div class="inpc-recuadro-val pos">
+            ▲
+            4.45 %
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="inpc-recuadro">
+      <div class="inpc-recuadro-titulo">No subyacente</div>
+      <div class="inpc-recuadro-periodo-label">mar-26</div>
+      <div class="inpc-recuadro-cols">
+        <div class="inpc-recuadro-col">
+          <div class="inpc-recuadro-sublabel">mensual</div>
+          <div class="inpc-recuadro-val pos">
+            ▲
+            2.46 %
+          </div>
+        </div>
+        <div class="inpc-recuadro-col">
+          <div class="inpc-recuadro-sublabel">anual</div>
+          <div class="inpc-recuadro-val pos">
+            ▲
+            5.05 %
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Variación e incidencia por componente</h3>
+    <div class="source">mar-26 · Boletín INPC 212/26 · INEGI</div>
+  </div>
+  <div style="overflow-x:auto">
+  
+  <table class="analytics-tbl inpc-cuadro1-tbl">
+    <thead>
+      <tr>
+        <th>Concepto</th>
+        <th class="num">Var. mensual</th>
+        <th class="num">Var. anual</th>
+        
+        <th class="num">Inc. mensual</th>
+        <th class="num">Inc. anual</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr class="inpc-c1-nivel0">
+        <td class="" style="padding-left:0px">INPC</td>
+        <td class="num pos">+0.86%</td>
+        <td class="num pos">+4.59%</td>
+        
+        <td class="num pos">+0.857</td>
+        <td class="num pos">+4.587</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel1">
+        <td class="sector-indent" style="padding-left:16px">Subyacente</td>
+        <td class="num pos">+0.38%</td>
+        <td class="num pos">+4.45%</td>
+        
+        <td class="num pos">+0.297</td>
+        <td class="num pos">+3.427</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel2">
+        <td class="sector-indent" style="padding-left:32px">Mercancías</td>
+        <td class="num pos">+0.29%</td>
+        <td class="num pos">+4.38%</td>
+        
+        <td class="num pos">+0.109</td>
+        <td class="num pos">+1.645</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel3">
+        <td class="sector-indent" style="padding-left:48px">Alimentos, bebidas y tabaco</td>
+        <td class="num pos">+0.26%</td>
+        <td class="num pos">+5.78%</td>
+        
+        <td class="num pos">+0.046</td>
+        <td class="num pos">+1.003</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel3">
+        <td class="sector-indent" style="padding-left:48px">Mercancías no alimenticias</td>
+        <td class="num pos">+0.31%</td>
+        <td class="num pos">+3.18%</td>
+        
+        <td class="num pos">+0.063</td>
+        <td class="num pos">+0.642</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel2">
+        <td class="sector-indent" style="padding-left:32px">Servicios</td>
+        <td class="num pos">+0.48%</td>
+        <td class="num pos">+4.51%</td>
+        
+        <td class="num pos">+0.188</td>
+        <td class="num pos">+1.782</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel3">
+        <td class="sector-indent" style="padding-left:48px">Vivienda</td>
+        <td class="num pos">+0.36%</td>
+        <td class="num pos">+3.53%</td>
+        
+        <td class="num pos">+0.064</td>
+        <td class="num pos">+0.636</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel3">
+        <td class="sector-indent" style="padding-left:48px">Educación (colegiaturas)</td>
+        <td class="num pos">+0.05%</td>
+        <td class="num pos">+5.96%</td>
+        
+        <td class="num pos">+0.001</td>
+        <td class="num pos">+0.155</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel3">
+        <td class="sector-indent" style="padding-left:48px">Otros servicios</td>
+        <td class="num pos">+0.65%</td>
+        <td class="num pos">+5.26%</td>
+        
+        <td class="num pos">+0.123</td>
+        <td class="num pos">+0.991</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel1">
+        <td class="sector-indent" style="padding-left:16px">No subyacente</td>
+        <td class="num pos">+2.46%</td>
+        <td class="num pos">+5.05%</td>
+        
+        <td class="num pos">+0.560</td>
+        <td class="num pos">+1.160</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel2">
+        <td class="sector-indent" style="padding-left:32px">Agropecuarios</td>
+        <td class="num pos">+4.52%</td>
+        <td class="num pos">+8.77%</td>
+        
+        <td class="num pos">+0.451</td>
+        <td class="num pos">+0.873</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel3">
+        <td class="sector-indent" style="padding-left:48px">Frutas y verduras</td>
+        <td class="num pos">+10.75%</td>
+        <td class="num pos">+21.77%</td>
+        
+        <td class="num pos">+0.446</td>
+        <td class="num pos">+0.852</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel3">
+        <td class="sector-indent" style="padding-left:48px">Pecuarios</td>
+        <td class="num pos">+0.09%</td>
+        <td class="num pos">+0.34%</td>
+        
+        <td class="num pos">+0.005</td>
+        <td class="num pos">+0.021</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel2">
+        <td class="sector-indent" style="padding-left:32px">Energéticos y tarifas autorizadas</td>
+        <td class="num pos">+0.85%</td>
+        <td class="num pos">+2.21%</td>
+        
+        <td class="num pos">+0.109</td>
+        <td class="num pos">+0.288</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel3">
+        <td class="sector-indent" style="padding-left:48px">Energéticos</td>
+        <td class="num pos">+1.06%</td>
+        <td class="num pos">+0.13%</td>
+        
+        <td class="num pos">+0.085</td>
+        <td class="num pos">+0.011</td>
+        
+      </tr>
+      
+      <tr class="inpc-c1-nivel3">
+        <td class="sector-indent" style="padding-left:48px">Tarifas autorizadas por el gobierno</td>
+        <td class="num pos">+0.50%</td>
+        <td class="num pos">+6.03%</td>
+        
+        <td class="num pos">+0.023</td>
+        <td class="num pos">+0.277</td>
+        
+      </tr>
+      
+    </tbody>
+  </table>
+  </div>
+  
+  <div class="productos-nota">Incidencia en puntos porcentuales sobre el índice general.</div>
+  
+</div>
+
+
+
+
+<div class="analytics-grid" id="analytics-grid">
+  <div class="analytics-card">
+    <div class="analytics-card-head">
+      <h4>Estadísticos descriptivos · últimos 12 obs<span class="advanced-hint-off">desviación estándar y percentiles ocultos · activa "Datos avanzados" arriba</span></h4>
+    </div>
+    <table class="analytics-tbl">
+      <caption class="sr-only">Estadísticos descriptivos de Inflación anual INPC (resumen), últimos 12 periodos</caption>
+      <thead><tr><th scope="col">Métrica</th><th scope="col" class="num">Valor</th><th scope="col">Métrica</th><th scope="col" class="num">Valor</th></tr></thead>
+      <tbody>
+      <tr><td>Media</td><td class="num">3.91%</td>
+          <td>Mediana</td><td class="num">3.79%</td></tr>
+      <tr><td>Mínimo</td><td class="num">3.51%</td>
+          <td>Máximo</td><td class="num">4.59%</td></tr>
+      <tr class="advanced"><td>Desv. estándar</td><td class="num">0.34%</td>
+          <td>p25 / p75</td><td class="num">3.6 / 4.0%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="analytics-card">
+    <h4>Comparativos lag</h4>
+    <table class="analytics-tbl">
+      <caption class="sr-only">Comparativos históricos de Inflación anual INPC (resumen) respecto al valor actual</caption>
+      <thead><tr><th scope="col">Periodo</th><th scope="col" class="num">Hace</th><th scope="col" class="num">Δ vs hoy</th></tr></thead>
+      <tbody>
+      
+        <tr><td>1m (feb-26)</td>
+            <td class="num">4.02%</td>
+            <td class="num pos">+0.57%</td></tr>
+      
+        <tr><td>3m (dic-25)</td>
+            <td class="num">3.69%</td>
+            <td class="num pos">+0.90%</td></tr>
+      
+        <tr><td>6m (sep-25)</td>
+            <td class="num">3.76%</td>
+            <td class="num pos">+0.83%</td></tr>
+      
+      </tbody>
+    </table>
+  </div>
+  
+  
+  <div class="analytics-card">
+    <h4>Récords históricos · abr-25 a mar-26</h4>
+    <div class="record-row">
+      <div class="record-card record-mejor">
+        <div class="record-label">Récord positivo</div>
+        <div class="record-valor">+4.59%</div>
+        <div class="record-periodo">mar-26</div>
+      </div>
+      <div class="record-card record-peor">
+        <div class="record-label">Peor valor</div>
+        <div class="record-valor">+3.51%</div>
+        <div class="record-periodo">jul-25</div>
+      </div>
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="productos-card">
+  <div class="productos-head">
+    <h3>Productos con mayor incidencia · mar-26</h3>
+    <div class="source">Boletín INPC 212/26 · INEGI</div>
+  </div>
+  
+  <div class="productos-grid">
+    <div class="productos-col">
+      <div class="productos-col-head productos-alza">Al alza</div>
+      <table class="productos-tbl">
+        <thead>
+          <tr><th>Producto</th><th class="num">Var. mensual</th><th class="num">Incidencia</th></tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td>Jitomate</td>
+            <td class="num pos">+42.01%</td>
+            <td class="num pos">+0.261</td>
+          </tr>
+          
+          <tr>
+            <td>Transporte aéreo</td>
+            <td class="num pos">+26.28%</td>
+            <td class="num pos">+0.055</td>
+          </tr>
+          
+          <tr>
+            <td>Loncherías, fondas, torterías y taquerías</td>
+            <td class="num pos">+0.92%</td>
+            <td class="num pos">+0.050</td>
+          </tr>
+          
+          <tr>
+            <td>Pollo</td>
+            <td class="num pos">+2.82%</td>
+            <td class="num pos">+0.046</td>
+          </tr>
+          
+          <tr>
+            <td>Vivienda propia</td>
+            <td class="num pos">+0.33%</td>
+            <td class="num pos">+0.045</td>
+          </tr>
+          
+          <tr>
+            <td>Papa y otros tubérculos</td>
+            <td class="num pos">+14.92%</td>
+            <td class="num pos">+0.042</td>
+          </tr>
+          
+          <tr>
+            <td>Electricidad</td>
+            <td class="num pos">+2.17%</td>
+            <td class="num pos">+0.035</td>
+          </tr>
+          
+          <tr>
+            <td>Tomate verde</td>
+            <td class="num pos">+16.46%</td>
+            <td class="num pos">+0.035</td>
+          </tr>
+          
+          <tr>
+            <td>Limón</td>
+            <td class="num pos">+18.26%</td>
+            <td class="num pos">+0.023</td>
+          </tr>
+          
+          <tr>
+            <td>Pepino</td>
+            <td class="num pos">+42.71%</td>
+            <td class="num pos">+0.023</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    <div class="productos-col">
+      <div class="productos-col-head productos-baja">A la baja</div>
+      <table class="productos-tbl">
+        <thead>
+          <tr><th>Producto</th><th class="num">Var. mensual</th><th class="num">Incidencia</th></tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td>Paquetes de internet, telefonía y TV de paga</td>
+            <td class="num neg">-2.69%</td>
+            <td class="num neg">-0.024</td>
+          </tr>
+          
+          <tr>
+            <td>Huevo</td>
+            <td class="num neg">-3.59%</td>
+            <td class="num neg">-0.041</td>
+          </tr>
+          
+          <tr>
+            <td>Carne de cerdo</td>
+            <td class="num neg">-1.28%</td>
+            <td class="num neg">-0.012</td>
+          </tr>
+          
+          <tr>
+            <td>Otras frutas</td>
+            <td class="num neg">-3.77%</td>
+            <td class="num neg">-0.010</td>
+          </tr>
+          
+          <tr>
+            <td>Nopales</td>
+            <td class="num neg">-8.86%</td>
+            <td class="num neg">-0.007</td>
+          </tr>
+          
+          <tr>
+            <td>Servicio de internet</td>
+            <td class="num neg">-1.24%</td>
+            <td class="num neg">-0.005</td>
+          </tr>
+          
+          <tr>
+            <td>Otras verduras y legumbres</td>
+            <td class="num neg">-1.98%</td>
+            <td class="num neg">-0.005</td>
+          </tr>
+          
+          <tr>
+            <td>Frijol</td>
+            <td class="num neg">-1.34%</td>
+            <td class="num neg">-0.004</td>
+          </tr>
+          
+          <tr>
+            <td>Suavizantes y limpiadores</td>
+            <td class="num neg">-0.59%</td>
+            <td class="num neg">-0.004</td>
+          </tr>
+          
+          <tr>
+            <td>Papaya</td>
+            <td class="num neg">-4.40%</td>
+            <td class="num neg">-0.004</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="productos-nota">Incidencia en puntos porcentuales sobre la inflación general.</div>
+  
+</div>
+
+
+
+<div class="productos-card">
+  <div class="productos-head">
+    <h3>Variaciones por entidad y ciudad · mar-26</h3>
+    <div class="source">Boletín INPC 212/26 · INEGI</div>
+  </div>
+  <div class="productos-grid">
+    <div class="productos-col">
+      <div class="productos-col-head productos-alza">Entidades por arriba del promedio</div>
+      <table class="productos-tbl">
+        <thead><tr><th>Entidad</th><th class="num">Var. mensual</th></tr></thead>
+        <tbody>
+          
+          <tr><td>Guerrero</td><td class="num pos">+1.29%</td></tr>
+          
+          <tr><td>Puebla</td><td class="num pos">+1.27%</td></tr>
+          
+          <tr><td>Tlaxcala</td><td class="num pos">+1.21%</td></tr>
+          
+          <tr><td>Colima</td><td class="num pos">+1.18%</td></tr>
+          
+          <tr><td>Morelos</td><td class="num pos">+1.16%</td></tr>
+          
+        </tbody>
+      </table>
+    </div>
+    <div class="productos-col">
+      <div class="productos-col-head productos-baja">Entidades por debajo del promedio</div>
+      <table class="productos-tbl">
+        <thead><tr><th>Entidad</th><th class="num">Var. mensual</th></tr></thead>
+        <tbody>
+          
+          <tr><td>Chihuahua</td><td class="num">+0.40%</td></tr>
+          
+          <tr><td>Baja California Sur</td><td class="num">+0.54%</td></tr>
+          
+          <tr><td>Yucatán</td><td class="num">+0.54%</td></tr>
+          
+          <tr><td>Tamaulipas</td><td class="num">+0.58%</td></tr>
+          
+          <tr><td>Nuevo León</td><td class="num">+0.63%</td></tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="productos-grid" style="margin-top:14px">
+    <div class="productos-col">
+      <div class="productos-col-head productos-alza">Ciudades por arriba del promedio</div>
+      <table class="productos-tbl">
+        <thead><tr><th>Ciudad</th><th class="num">Var. mensual</th></tr></thead>
+        <tbody>
+          
+          <tr><td>Izúcar de Matamoros, Pue.</td><td class="num pos">+1.76%</td></tr>
+          
+          <tr><td>Iguala, Gro.</td><td class="num pos">+1.55%</td></tr>
+          
+          <tr><td>Tuxtla Gutiérrez, Chis.</td><td class="num pos">+1.33%</td></tr>
+          
+          <tr><td>Atlacomulco, Méx.</td><td class="num pos">+1.31%</td></tr>
+          
+          <tr><td>Tlaxcala, Tlax.</td><td class="num pos">+1.21%</td></tr>
+          
+          <tr><td>San Andrés Tuxtla, Ver.</td><td class="num pos">+1.20%</td></tr>
+          
+          <tr><td>Puebla, Pue.</td><td class="num pos">+1.19%</td></tr>
+          
+          <tr><td>Colima, Col.</td><td class="num pos">+1.18%</td></tr>
+          
+          <tr><td>Cuernavaca, Mor.</td><td class="num pos">+1.16%</td></tr>
+          
+          <tr><td>Acapulco de Juárez, Gro.</td><td class="num pos">+1.10%</td></tr>
+          
+        </tbody>
+      </table>
+    </div>
+    <div class="productos-col">
+      <div class="productos-col-head productos-baja">Ciudades por debajo del promedio</div>
+      <table class="productos-tbl">
+        <thead><tr><th>Ciudad</th><th class="num">Var. mensual</th></tr></thead>
+        <tbody>
+          
+          <tr><td>Cd. Juárez, Chih.</td><td class="num">+0.19%</td></tr>
+          
+          <tr><td>Cd. Acuña, Coah.</td><td class="num">+0.45%</td></tr>
+          
+          <tr><td>Coatzacoalcos, Ver.</td><td class="num">+0.45%</td></tr>
+          
+          <tr><td>Matamoros, Tamps.</td><td class="num">+0.46%</td></tr>
+          
+          <tr><td>La Paz, B.C.S.</td><td class="num">+0.54%</td></tr>
+          
+          <tr><td>Mérida, Yuc.</td><td class="num">+0.54%</td></tr>
+          
+          <tr><td>Chihuahua, Chih.</td><td class="num">+0.56%</td></tr>
+          
+          <tr><td>Tulancingo, Hgo.</td><td class="num">+0.59%</td></tr>
+          
+          <tr><td>Torreón, Coah.</td><td class="num">+0.63%</td></tr>
+          
+          <tr><td>Monterrey, N.L.</td><td class="num">+0.63%</td></tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="chart-card">
+  <h3>Serie completa</h3>
+  <div class="table-wrap" style="box-shadow:none;border:none">
+    <table>
+      <caption class="sr-only">Serie histórica completa de Inflación anual INPC (resumen)</caption>
+      
+      <thead>
+        <tr>
+          <th scope="col">Periodo</th>
+          <th scope="col" class="num">INPC anual</th>
+          <th scope="col" class="num advanced">MA12</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        
+        <tr>
+          <td>abr-25</td>
+          
+            
+            <td class="num pos">3.9</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">—</td>
+        </tr>
+        
+        
+        <tr>
+          <td>may-25</td>
+          
+            
+            <td class="num pos">4.4</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">—</td>
+        </tr>
+        
+        
+        <tr>
+          <td>jun-25</td>
+          
+            
+            <td class="num pos">4.3</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">4.2</td>
+        </tr>
+        
+        
+        <tr>
+          <td>jul-25</td>
+          
+            
+            <td class="num pos">3.5</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">4.0</td>
+        </tr>
+        
+        
+        <tr>
+          <td>ago-25</td>
+          
+            
+            <td class="num pos">3.6</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">4.0</td>
+        </tr>
+        
+        
+        <tr>
+          <td>sep-25</td>
+          
+            
+            <td class="num pos">3.8</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">3.9</td>
+        </tr>
+        
+        
+        <tr>
+          <td>oct-25</td>
+          
+            
+            <td class="num pos">3.6</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">3.9</td>
+        </tr>
+        
+        
+        <tr>
+          <td>nov-25</td>
+          
+            
+            <td class="num pos">3.8</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">3.9</td>
+        </tr>
+        
+        
+        <tr>
+          <td>dic-25</td>
+          
+            
+            <td class="num pos">3.7</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">3.8</td>
+        </tr>
+        
+        
+        <tr>
+          <td>ene-26</td>
+          
+            
+            <td class="num pos">3.8</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">3.8</td>
+        </tr>
+        
+        
+        <tr>
+          <td>feb-26</td>
+          
+            
+            <td class="num pos">4.0</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">3.9</td>
+        </tr>
+        
+        
+        <tr>
+          <td>mar-26</td>
+          
+            
+            <td class="num pos">4.6</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">3.9</td>
+        </tr>
+        
+      </tbody>
+      
+    </table>
+  </div>
+  
+  <div class="detail-meta" style="margin-top:12px">
+    Fuente: <a href="https://www.inegi.org.mx/app/saladeprensa/noticia/10757" target="_blank" rel="noopener">Boletín INEGI · saladeprensa →</a>
+  </div>
+</div>
+
+
+
+<details class="metodologia-details">
+  <summary class="metodologia-summary">Nota metodológica · Índice Nacional de Precios al Consumidor (INPC) — Resumen inflación</summary>
+  <div class="metodologia-body">
+    
+    <h4>Antecedentes y cobertura</h4>
+    <p>Mide la variación de los precios de una canasta de bienes y servicios representativa del consumo de los hogares mexicanos. Base 2Q julio 2018=100. Disponible desde enero de 1969.</p>
+    
+    
+    <h4>Periodicidad y publicación</h4>
+    <p>Quincenal y mensual. Se publica los días 10 y 25 de cada mes en el DOF, o el día hábil anterior.</p>
+    
+    
+    <h4>Cobertura geográfica</h4>
+    <p>Nacional y por ciudades.</p>
+    
+    
+    <h4>Fuentes de información</h4>
+    <p>Encuestadores de campo en establecimientos y mercados de 55 ciudades del país.</p>
+    
+    
+    
+    <h4>Ajuste estacional</h4>
+    <p>No aplica ajuste estacional al índice de precios.</p>
+    
+    
+    <div class="metodologia-links">
+      
+      <a class="metodologia-link" href="https://www.inegi.org.mx/programas/inpc/2018/" target="_blank" rel="noopener">Programa INPC 2018 →</a>
+      
+      <a class="metodologia-link" href="https://www.inegi.org.mx/sistemas/bie/" target="_blank" rel="noopener">BIE — Precios e inflación →</a>
+      
+    </div>
+    
+  </div>
+</details>
+
+
+<script id="page-data" type="application/json">{"view": "detail", "indicador": {"id": "inflacion_resumen", "tabular": false, "series": {"INPC anual": [3.93, 4.42, 4.32, 3.51, 3.57, 3.76, 3.57, 3.8, 3.69, 3.79, 4.02, 4.59]}, "ma12": [null, null, 4.22, 4.04, 3.95, 3.92, 3.87, 3.86, 3.84, 3.84, 3.85, 3.91], "periodos": ["abr-25", "may-25", "jun-25", "jul-25", "ago-25", "sep-25", "oct-25", "nov-25", "dic-25", "ene-26", "feb-26", "mar-26"], "unidad": "%", "chart_tipo": "bar_grouped", "chart_titulo": "Inflación por componente · variación anual", "grouped_series": {"INPC anual": [3.93, 4.42, 4.32, 3.51, 3.57, 3.76, 3.57, 3.8, 3.69, 3.79, 4.02, 4.59], "Subyacente anual": [3.93, 4.06, 4.24, 4.23, 4.23, 4.28, 4.28, 4.43, 4.33, 4.52, 4.5, 4.45], "No subyacente anual": [3.76, 5.34, 4.33, 1.14, 1.38, 2.02, 1.18, 1.73, 1.61, 1.39, 2.44, 5.05]}}}</script>
+
+
+    <footer class="site-footer">
+      Datos oficiales del Banco de Información Económica (BIE-INEGI) vía API. Interpretaciones generadas con IA (DeepSeek) · no son posición oficial de la Secretaría de Economía.
+      <br>Build 12 de mayo de 2026.
+    </footer>
+  </main>
+</div>
+</body>
+</html>
