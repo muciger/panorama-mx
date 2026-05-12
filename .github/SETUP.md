@@ -60,16 +60,30 @@ https://TU_USUARIO.github.io/panorama-mx/
 
 Ahí está tu tablero.
 
-## Cómo funciona el cron
+## Cómo funciona el workflow
 
-| Workflow | Frecuencia | Hora | Acción |
-|----------|-----------|------|--------|
-| deploy.yml | Diario | 13:00 UTC = 7:00 CST | Refresca BIE, calendario, interpretaciones, build, deploy |
-| imss_reminder.yml | Mensual día 12 | 16:00 UTC = 10:00 CST | Abre un issue recordando correr ingest_imss local |
+| Workflow | Frecuencia | Acción |
+|----------|-----------|--------|
+| deploy.yml | Solo on-push o manual | Regenera HTML y deploya a Pages (NO descarga BIE) |
+| imss_reminder.yml | Mensual día 12 | Issue recordatorio para correr ingest_imss en Mac |
 
-INEGI publica boletines a las 6:00 AM hora centro. El refresh corre a las 7:00 AM para dar 1 hora de margen.
+**Arquitectura skip-bie permanente**: el workflow NO descarga datos del BIE en cloud. INEGI parece geo-bloquear IPs no mexicanas, devolviendo responses vacías sin error. Por eso bajamos BIE solo desde la Mac.
 
-Si haces cambios en `templates/`, `assets/`, `scripts/` o `config/` y haces push, el deploy también se dispara automáticamente.
+El workflow se dispara automáticamente cuando:
+- Haces push a main con cambios en `templates/`, `assets/`, `scripts/`, `config/` o `data/`
+- Lo lanzas manual desde Actions o con `gh workflow run deploy.yml`
+
+Para refrescar datos del BIE (flujo diario):
+
+```bash
+cd "/Users/germanmucino/Desktop/Descargas firefox/INEGI interactivo/Interactivo indicadores INEGI/indicadores_inegi"
+python3 scripts/refresh_daily.py    # corre todo desde tu Mac (IP mexicana)
+git add data/ config/calendar.json
+git commit -m "data: refresh $(date +%Y-%m-%d)"
+git push    # auto-deploya el sitio
+```
+
+El sanity check del workflow aborta si algún `data/*.json` perdió más del 50% de líneas vs el commit anterior. Defensa contra sobrescrituras accidentales.
 
 ## Costo
 
