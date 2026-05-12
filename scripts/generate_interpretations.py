@@ -221,8 +221,8 @@ def proxima_publicacion(iid: str, calendar: dict) -> str:
 
 
 def ultima_publicacion_calendar(iid: str, calendar: dict) -> str:
-    cal_ind = calendar.get("indicadores", {}).get(iid, {})
-    ult = cal_ind.get("ultima_publicacion_ics", {})
+    cal_ind = calendar.get("indicadores", {}).get(iid, {}) or {}
+    ult = cal_ind.get("ultima_publicacion_ics") or {}
     return ult.get("fecha", "")
 
 

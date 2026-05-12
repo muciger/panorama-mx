@@ -786,7 +786,8 @@ def build_indicator(meta: dict, data_dir: Path, calendar: dict, thresholds: dict
     # Recuadros cabecera INPC quincenal — construido desde BIE, no requiere inyección manual
     _recuadros_inpc_auto = None
     if id_ == "inpc_quincenal" and periodos:
-        last_row = data.get("series", [{}])[-1]
+        _series_inpc = data.get("series") or []
+        last_row = _series_inpc[-1] if _series_inpc else {}
         nosub_q = last_row.get("No_subyacente_Quincenal") or last_row.get("No subyacente_Quincenal")
         nosub_a = last_row.get("No_subyacente_Anual") or last_row.get("No subyacente_Anual")
         _recuadros_inpc_auto = {
@@ -800,7 +801,8 @@ def build_indicator(meta: dict, data_dir: Path, calendar: dict, thresholds: dict
         }
 
     if id_ == "igae":
-        last_row = data.get("series", [{}])[-1]
+        series_data = data.get("series") or [{}]
+        last_row = series_data[-1] if series_data else {}
         sector_map = {
             "Total": last_row.get("Total_Anual"),
             "Actividades primarias": last_row.get("Primarias_Anual"),
@@ -827,7 +829,8 @@ def build_indicator(meta: dict, data_dir: Path, calendar: dict, thresholds: dict
     _componentes_emoe = None
     _meses_consec = None
     if id_ in EMOE_ICC_COMPONENTES:
-        last_row = data.get("series", [{}])[-1]
+        _series_emoe = data.get("series") or []
+        last_row = _series_emoe[-1] if _series_emoe else {}
         comp_cfg = EMOE_ICC_COMPONENTES[id_]
         filas_comp = []
         for nombre_comp, col_niv, col_men, col_anu in comp_cfg:
