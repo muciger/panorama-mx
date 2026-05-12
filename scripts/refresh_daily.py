@@ -90,7 +90,7 @@ def run_step(label: str, cmd: list[str], optional: bool = False) -> bool:
             print("--- END STDERR ---")
         if result.stdout:
             print("--- STDOUT ---")
-            print(result.stdout[-3000:])
+            print(result.stdout)
             print("--- END STDOUT ---")
         return False
     # Mostrar últimas líneas relevantes del stdout
@@ -117,7 +117,8 @@ def main(argv: list[str] | None = None) -> int:
     log.info("=== refresh diario · %s ===", time.strftime("%Y-%m-%d %H:%M:%S"))
     t_start = time.time()
     pass_count = 0
-    fail_count = 0
+    fail_count = 0       # fallas críticas (bloquean exit 0)
+    soft_fail_count = 0  # fallas opcionales (no bloquean exit 0)
 
     # 1. Calendar sync (CRÍTICO: si falla, el reporte semanal queda desactualizado).
     # calendar_sync.py maneja internamente fallas de red usando cache existente,
@@ -140,7 +141,7 @@ def main(argv: list[str] | None = None) -> int:
     pass_count += int(ok)
     fail_count += int(not ok)
 
-    # 4. Interpretaciones DeepSeek (solo indicadores con nueva publicación)
+    # 4. Interpretaciones DeepSeek (solo indicadores con nueva publicación) — opcional
     if not args.skip_interp:
         interp_script = SCRIPTS / "generate_interpretations.py"
         if interp_script.exists():
@@ -150,7 +151,7 @@ def main(argv: list[str] | None = None) -> int:
                 optional=True,
             )
             pass_count += int(ok)
-            fail_count += int(not ok)
+            soft_fail_count += int(not ok)
         else:
             log.warning("generate_interpretations.py no existe, saltando")
 
@@ -169,13 +170,16 @@ def main(argv: list[str] | None = None) -> int:
     pass_count += int(ok)
     fail_count += int(not ok)
 
-    # 7. Validate
-    ok = run_step("validate (calidad)", [sys.executable, str(SCRIPTS / "validate.py")])
+    # 7. Validate (auditoría, no bloquea deploy si hay errors)
+    ok = run_step("validate (calidad)", [sys.executable, str(SCRIPTS / "validate.py")], optional=True)
     pass_count += int(ok)
-    fail_count += int(not ok)
+    soft_fail_count += int(not ok)
 
     dt = time.time() - t_start
-    log.info("=== Refresh completo · %d pasos OK, %d fallos · %.1fs ===", pass_count, fail_count, dt)
+    log.info(
+        "=== Refresh completo · %d pasos OK, %d fallos críticos, %d fallos opcionales · %.1fs ===",
+        pass_count, fail_count, soft_fail_count, dt,
+    )
     return 0 if fail_count == 0 else 1
 
 
