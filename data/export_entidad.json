@@ -18,202 +18,202 @@
     "MDD_trimestral",
     "MDD_anual"
   ],
-  "ultima_actualizacion": "2026-05-12",
+  "ultima_actualizacion": "2026-05-02",
   "proxima_actualizacion_manual": "30 de junio de 2026",
   "periodos": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25",
+    "T4-25"
   ],
   "series": [
     {
       "Entidad": "Aguascalientes",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 3343962.0,
+      "MDD_anual": 13639182.0
     },
     {
       "Entidad": "Baja California",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 16106858.0,
+      "MDD_anual": 56625640.0
     },
     {
       "Entidad": "Baja California Sur",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 103936.0,
+      "MDD_anual": 396712.0
     },
     {
       "Entidad": "Campeche",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 1752904.0,
+      "MDD_anual": 8406668.0
     },
     {
       "Entidad": "Coahuila",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 16219983.0,
+      "MDD_anual": 65505117.0
     },
     {
       "Entidad": "Colima",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 593104.0,
+      "MDD_anual": 1950581.0
     },
     {
       "Entidad": "Chiapas",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 262910.0,
+      "MDD_anual": 1318150.0
     },
     {
       "Entidad": "Chihuahua",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 33169181.0,
+      "MDD_anual": 109505006.0
     },
     {
       "Entidad": "Ciudad de México",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 874494.0,
+      "MDD_anual": 3323332.0
     },
     {
       "Entidad": "Durango",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 799795.0,
+      "MDD_anual": 2946893.0
     },
     {
       "Entidad": "Guanajuato",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 9468574.0,
+      "MDD_anual": 37988316.0
     },
     {
       "Entidad": "Guerrero",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 285128.0,
+      "MDD_anual": 921257.0
     },
     {
       "Entidad": "Hidalgo",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 761004.0,
+      "MDD_anual": 3063414.0
     },
     {
       "Entidad": "Jalisco",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 20181459.0,
+      "MDD_anual": 52576520.0
     },
     {
       "Entidad": "México",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 4986466.0,
+      "MDD_anual": 21487741.0
     },
     {
       "Entidad": "Michoacán",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 1558989.0,
+      "MDD_anual": 6503083.0
     },
     {
       "Entidad": "Morelos",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 735509.0,
+      "MDD_anual": 3474122.0
     },
     {
       "Entidad": "Nayarit",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 81874.0,
+      "MDD_anual": 355369.0
     },
     {
       "Entidad": "Nuevo León",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 16205859.0,
+      "MDD_anual": 59065222.0
     },
     {
       "Entidad": "Oaxaca",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 341973.0,
+      "MDD_anual": 1361209.0
     },
     {
       "Entidad": "Puebla",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 4592036.0,
+      "MDD_anual": 17026910.0
     },
     {
       "Entidad": "Querétaro",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 4854276.0,
+      "MDD_anual": 18224781.0
     },
     {
       "Entidad": "Quintana Roo",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 2563.0,
+      "MDD_anual": 19512.0
     },
     {
       "Entidad": "San Luis Potosí",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 6771387.0,
+      "MDD_anual": 26096441.0
     },
     {
       "Entidad": "Sinaloa",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 622083.0,
+      "MDD_anual": 3229434.0
     },
     {
       "Entidad": "Sonora",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 7400999.0,
+      "MDD_anual": 28611601.0
     },
     {
       "Entidad": "Tabasco",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 1364163.0,
+      "MDD_anual": 6101730.0
     },
     {
       "Entidad": "Tamaulipas",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 8932343.0,
+      "MDD_anual": 36296590.0
     },
     {
       "Entidad": "Tlaxcala",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 509144.0,
+      "MDD_anual": 2007737.0
     },
     {
       "Entidad": "Veracruz",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 1459597.0,
+      "MDD_anual": 6898892.0
     },
     {
       "Entidad": "Yucatán",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 742695.0,
+      "MDD_anual": 2561935.0
     },
     {
       "Entidad": "Zacatecas",
-      "MDD_trimestral": null,
-      "MDD_anual": null
+      "MDD_trimestral": 1347872.0,
+      "MDD_anual": 4932024.0
     }
   ],
   "benchmarks": {
@@ -258,228 +258,228 @@
     {
       "Entidad": "Aguascalientes",
       "_geo": "01",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 3343962.0,
+      "MDD_anual": 13639182.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Baja California",
       "_geo": "02",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 16106858.0,
+      "MDD_anual": 56625640.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Baja California Sur",
       "_geo": "03",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 103936.0,
+      "MDD_anual": 396712.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Campeche",
       "_geo": "04",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 1752904.0,
+      "MDD_anual": 8406668.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Coahuila",
       "_geo": "05",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 16219983.0,
+      "MDD_anual": 65505117.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Colima",
       "_geo": "06",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 593104.0,
+      "MDD_anual": 1950581.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Chiapas",
       "_geo": "07",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 262910.0,
+      "MDD_anual": 1318150.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Chihuahua",
       "_geo": "08",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 33169181.0,
+      "MDD_anual": 109505006.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Ciudad de México",
       "_geo": "09",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 874494.0,
+      "MDD_anual": 3323332.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Durango",
       "_geo": "10",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 799795.0,
+      "MDD_anual": 2946893.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Guanajuato",
       "_geo": "11",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 9468574.0,
+      "MDD_anual": 37988316.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Guerrero",
       "_geo": "12",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 285128.0,
+      "MDD_anual": 921257.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Hidalgo",
       "_geo": "13",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 761004.0,
+      "MDD_anual": 3063414.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Jalisco",
       "_geo": "14",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 20181459.0,
+      "MDD_anual": 52576520.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "México",
       "_geo": "15",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 4986466.0,
+      "MDD_anual": 21487741.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Michoacán",
       "_geo": "16",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 1558989.0,
+      "MDD_anual": 6503083.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Morelos",
       "_geo": "17",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 735509.0,
+      "MDD_anual": 3474122.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Nayarit",
       "_geo": "18",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 81874.0,
+      "MDD_anual": 355369.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Nuevo León",
       "_geo": "19",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 16205859.0,
+      "MDD_anual": 59065222.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Oaxaca",
       "_geo": "20",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 341973.0,
+      "MDD_anual": 1361209.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Puebla",
       "_geo": "21",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 4592036.0,
+      "MDD_anual": 17026910.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Querétaro",
       "_geo": "22",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 4854276.0,
+      "MDD_anual": 18224781.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Quintana Roo",
       "_geo": "23",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 2563.0,
+      "MDD_anual": 19512.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "San Luis Potosí",
       "_geo": "24",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 6771387.0,
+      "MDD_anual": 26096441.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Sinaloa",
       "_geo": "25",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 622083.0,
+      "MDD_anual": 3229434.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Sonora",
       "_geo": "26",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 7400999.0,
+      "MDD_anual": 28611601.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Tabasco",
       "_geo": "27",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 1364163.0,
+      "MDD_anual": 6101730.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Tamaulipas",
       "_geo": "28",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 8932343.0,
+      "MDD_anual": 36296590.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Tlaxcala",
       "_geo": "29",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 509144.0,
+      "MDD_anual": 2007737.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Veracruz",
       "_geo": "30",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 1459597.0,
+      "MDD_anual": 6898892.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Yucatán",
       "_geo": "31",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 742695.0,
+      "MDD_anual": 2561935.0,
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Zacatecas",
       "_geo": "32",
-      "MDD_trimestral": null,
-      "MDD_anual": null,
-      "_periodo": null
+      "MDD_trimestral": 1347872.0,
+      "MDD_anual": 4932024.0,
+      "_periodo": "T4-25"
     }
   ],
-  "periodo_referencia": null,
+  "periodo_referencia": "T4-25",
   "fuente_ingest": "BIE-INEGI (regional iter geo)"
 }
