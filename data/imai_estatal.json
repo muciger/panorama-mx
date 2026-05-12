@@ -18,202 +18,202 @@
     "Indice_secundarias",
     "Indice_manufacturas"
   ],
-  "ultima_actualizacion": "2026-05-02",
+  "ultima_actualizacion": "2026-05-12",
   "proxima_actualizacion_manual": "",
   "periodos": [
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25",
-    "dic-25"
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
   "series": [
     {
       "Entidad": "Aguascalientes",
-      "Indice_secundarias": 78.06,
-      "Indice_manufacturas": 85.24
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Baja California",
-      "Indice_secundarias": 96.64,
-      "Indice_manufacturas": 99.04
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Baja California Sur",
-      "Indice_secundarias": 66.04,
-      "Indice_manufacturas": 101.54
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Campeche",
-      "Indice_secundarias": 67.74,
-      "Indice_manufacturas": 81.18
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Coahuila",
-      "Indice_secundarias": 77.79,
-      "Indice_manufacturas": 78.9
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Colima",
-      "Indice_secundarias": 105.76,
-      "Indice_manufacturas": 122.55
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Chiapas",
-      "Indice_secundarias": 126.16,
-      "Indice_manufacturas": 114.29
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Chihuahua",
-      "Indice_secundarias": 103.0,
-      "Indice_manufacturas": 104.06
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Ciudad de México",
-      "Indice_secundarias": 113.14,
-      "Indice_manufacturas": 95.13
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Durango",
-      "Indice_secundarias": 91.42,
-      "Indice_manufacturas": 102.97
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Guanajuato",
-      "Indice_secundarias": 93.29,
-      "Indice_manufacturas": 92.43
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Guerrero",
-      "Indice_secundarias": 77.66,
-      "Indice_manufacturas": 95.19
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Hidalgo",
-      "Indice_secundarias": 138.69,
-      "Indice_manufacturas": 126.44
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Jalisco",
-      "Indice_secundarias": 107.13,
-      "Indice_manufacturas": 116.22
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "México",
-      "Indice_secundarias": 89.32,
-      "Indice_manufacturas": 87.62
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Michoacán",
-      "Indice_secundarias": 91.65,
-      "Indice_manufacturas": 118.91
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Morelos",
-      "Indice_secundarias": 79.02,
-      "Indice_manufacturas": 77.94
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Nayarit",
-      "Indice_secundarias": 92.09,
-      "Indice_manufacturas": 96.93
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Nuevo León",
-      "Indice_secundarias": 109.1,
-      "Indice_manufacturas": 104.82
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Oaxaca",
-      "Indice_secundarias": 150.29,
-      "Indice_manufacturas": 120.8
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Puebla",
-      "Indice_secundarias": 81.13,
-      "Indice_manufacturas": 83.05
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Querétaro",
-      "Indice_secundarias": 95.42,
-      "Indice_manufacturas": 87.88
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Quintana Roo",
-      "Indice_secundarias": 100.78,
-      "Indice_manufacturas": 113.63
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "San Luis Potosí",
-      "Indice_secundarias": 85.61,
-      "Indice_manufacturas": 92.31
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Sinaloa",
-      "Indice_secundarias": 84.17,
-      "Indice_manufacturas": 111.53
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Sonora",
-      "Indice_secundarias": 107.14,
-      "Indice_manufacturas": 128.74
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Tabasco",
-      "Indice_secundarias": 138.82,
-      "Indice_manufacturas": 209.33
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Tamaulipas",
-      "Indice_secundarias": 111.09,
-      "Indice_manufacturas": 107.25
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Tlaxcala",
-      "Indice_secundarias": 91.81,
-      "Indice_manufacturas": 88.79
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Veracruz",
-      "Indice_secundarias": 107.47,
-      "Indice_manufacturas": 117.31
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Yucatán",
-      "Indice_secundarias": 104.72,
-      "Indice_manufacturas": 102.8
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Zacatecas",
-      "Indice_secundarias": 108.74,
-      "Indice_manufacturas": 84.85
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null
     }
   ],
   "benchmarks": {},
@@ -222,228 +222,228 @@
     {
       "Entidad": "Aguascalientes",
       "_geo": "01",
-      "Indice_secundarias": 78.06,
-      "Indice_manufacturas": 85.24,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Baja California",
       "_geo": "02",
-      "Indice_secundarias": 96.64,
-      "Indice_manufacturas": 99.04,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Baja California Sur",
       "_geo": "03",
-      "Indice_secundarias": 66.04,
-      "Indice_manufacturas": 101.54,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Campeche",
       "_geo": "04",
-      "Indice_secundarias": 67.74,
-      "Indice_manufacturas": 81.18,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Coahuila",
       "_geo": "05",
-      "Indice_secundarias": 77.79,
-      "Indice_manufacturas": 78.9,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Colima",
       "_geo": "06",
-      "Indice_secundarias": 105.76,
-      "Indice_manufacturas": 122.55,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Chiapas",
       "_geo": "07",
-      "Indice_secundarias": 126.16,
-      "Indice_manufacturas": 114.29,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Chihuahua",
       "_geo": "08",
-      "Indice_secundarias": 103.0,
-      "Indice_manufacturas": 104.06,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Ciudad de México",
       "_geo": "09",
-      "Indice_secundarias": 113.14,
-      "Indice_manufacturas": 95.13,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Durango",
       "_geo": "10",
-      "Indice_secundarias": 91.42,
-      "Indice_manufacturas": 102.97,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Guanajuato",
       "_geo": "11",
-      "Indice_secundarias": 93.29,
-      "Indice_manufacturas": 92.43,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Guerrero",
       "_geo": "12",
-      "Indice_secundarias": 77.66,
-      "Indice_manufacturas": 95.19,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Hidalgo",
       "_geo": "13",
-      "Indice_secundarias": 138.69,
-      "Indice_manufacturas": 126.44,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Jalisco",
       "_geo": "14",
-      "Indice_secundarias": 107.13,
-      "Indice_manufacturas": 116.22,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "México",
       "_geo": "15",
-      "Indice_secundarias": 89.32,
-      "Indice_manufacturas": 87.62,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Michoacán",
       "_geo": "16",
-      "Indice_secundarias": 91.65,
-      "Indice_manufacturas": 118.91,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Morelos",
       "_geo": "17",
-      "Indice_secundarias": 79.02,
-      "Indice_manufacturas": 77.94,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Nayarit",
       "_geo": "18",
-      "Indice_secundarias": 92.09,
-      "Indice_manufacturas": 96.93,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Nuevo León",
       "_geo": "19",
-      "Indice_secundarias": 109.1,
-      "Indice_manufacturas": 104.82,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Oaxaca",
       "_geo": "20",
-      "Indice_secundarias": 150.29,
-      "Indice_manufacturas": 120.8,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Puebla",
       "_geo": "21",
-      "Indice_secundarias": 81.13,
-      "Indice_manufacturas": 83.05,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Querétaro",
       "_geo": "22",
-      "Indice_secundarias": 95.42,
-      "Indice_manufacturas": 87.88,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Quintana Roo",
       "_geo": "23",
-      "Indice_secundarias": 100.78,
-      "Indice_manufacturas": 113.63,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "San Luis Potosí",
       "_geo": "24",
-      "Indice_secundarias": 85.61,
-      "Indice_manufacturas": 92.31,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Sinaloa",
       "_geo": "25",
-      "Indice_secundarias": 84.17,
-      "Indice_manufacturas": 111.53,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Sonora",
       "_geo": "26",
-      "Indice_secundarias": 107.14,
-      "Indice_manufacturas": 128.74,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Tabasco",
       "_geo": "27",
-      "Indice_secundarias": 138.82,
-      "Indice_manufacturas": 209.33,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Tamaulipas",
       "_geo": "28",
-      "Indice_secundarias": 111.09,
-      "Indice_manufacturas": 107.25,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Tlaxcala",
       "_geo": "29",
-      "Indice_secundarias": 91.81,
-      "Indice_manufacturas": 88.79,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Veracruz",
       "_geo": "30",
-      "Indice_secundarias": 107.47,
-      "Indice_manufacturas": 117.31,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Yucatán",
       "_geo": "31",
-      "Indice_secundarias": 104.72,
-      "Indice_manufacturas": 102.8,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     },
     {
       "Entidad": "Zacatecas",
       "_geo": "32",
-      "Indice_secundarias": 108.74,
-      "Indice_manufacturas": 84.85,
-      "_periodo": "dic-25"
+      "Indice_secundarias": null,
+      "Indice_manufacturas": null,
+      "_periodo": null
     }
   ],
-  "periodo_referencia": "dic-25",
+  "periodo_referencia": null,
   "fuente_ingest": "BIE-INEGI (regional iter geo)"
 }

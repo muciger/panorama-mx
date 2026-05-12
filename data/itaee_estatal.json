@@ -18,202 +18,202 @@
     "Indice_desest",
     "Var_anual"
   ],
-  "ultima_actualizacion": "2026-05-02",
+  "ultima_actualizacion": "2026-05-12",
   "proxima_actualizacion_manual": "",
   "periodos": [
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25",
-    "T4-25"
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
   "series": [
     {
       "Entidad": "Aguascalientes",
-      "Indice_desest": 99.9,
-      "Var_anual": 0.09
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Baja California",
-      "Indice_desest": 106.03,
-      "Var_anual": -0.55
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Baja California Sur",
-      "Indice_desest": 102.84,
-      "Var_anual": 0.17
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Campeche",
-      "Indice_desest": 70.84,
-      "Var_anual": -10.59
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Coahuila",
-      "Indice_desest": 91.12,
-      "Var_anual": -4.11
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Colima",
-      "Indice_desest": 103.7,
-      "Var_anual": 1.16
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Chiapas",
-      "Indice_desest": 113.31,
-      "Var_anual": 1.78
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Chihuahua",
-      "Indice_desest": 109.09,
-      "Var_anual": 0.99
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Ciudad de México",
-      "Indice_desest": 109.97,
-      "Var_anual": 5.1
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Durango",
-      "Indice_desest": 101.93,
-      "Var_anual": -1.22
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Guanajuato",
-      "Indice_desest": 105.33,
+      "Indice_desest": null,
       "Var_anual": null
     },
     {
       "Entidad": "Guerrero",
-      "Indice_desest": 102.92,
-      "Var_anual": 2.66
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Hidalgo",
-      "Indice_desest": 117.11,
-      "Var_anual": 9.12
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Jalisco",
-      "Indice_desest": 107.81,
-      "Var_anual": 1.82
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "México",
-      "Indice_desest": 105.0,
-      "Var_anual": 1.09
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Michoacán",
-      "Indice_desest": 107.42,
-      "Var_anual": 0.5
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Morelos",
-      "Indice_desest": 98.98,
-      "Var_anual": -0.33
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Nayarit",
-      "Indice_desest": 108.53,
-      "Var_anual": 5.23
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Nuevo León",
-      "Indice_desest": 111.44,
-      "Var_anual": 2.31
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Oaxaca",
-      "Indice_desest": 125.19,
-      "Var_anual": 2.09
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Puebla",
-      "Indice_desest": 105.38,
-      "Var_anual": 2.84
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Querétaro",
-      "Indice_desest": 103.05,
-      "Var_anual": 2.76
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Quintana Roo",
-      "Indice_desest": 92.89,
-      "Var_anual": -6.09
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "San Luis Potosí",
-      "Indice_desest": 105.89,
-      "Var_anual": 2.1
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Sinaloa",
-      "Indice_desest": 103.01,
-      "Var_anual": 12.01
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Sonora",
-      "Indice_desest": 104.93,
-      "Var_anual": 1.82
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Tabasco",
-      "Indice_desest": 126.71,
-      "Var_anual": 4.22
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Tamaulipas",
-      "Indice_desest": 108.79,
-      "Var_anual": 3.21
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Tlaxcala",
-      "Indice_desest": 102.58,
-      "Var_anual": -0.07
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Veracruz",
-      "Indice_desest": 106.07,
-      "Var_anual": -0.21
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Yucatán",
-      "Indice_desest": 112.97,
-      "Var_anual": 2.0
+      "Indice_desest": null,
+      "Var_anual": null
     },
     {
       "Entidad": "Zacatecas",
-      "Indice_desest": 111.19,
-      "Var_anual": 3.05
+      "Indice_desest": null,
+      "Var_anual": null
     }
   ],
   "benchmarks": {},
@@ -222,228 +222,228 @@
     {
       "Entidad": "Aguascalientes",
       "_geo": "01",
-      "Indice_desest": 99.9,
-      "Var_anual": 0.09,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Baja California",
       "_geo": "02",
-      "Indice_desest": 106.03,
-      "Var_anual": -0.55,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Baja California Sur",
       "_geo": "03",
-      "Indice_desest": 102.84,
-      "Var_anual": 0.17,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Campeche",
       "_geo": "04",
-      "Indice_desest": 70.84,
-      "Var_anual": -10.59,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Coahuila",
       "_geo": "05",
-      "Indice_desest": 91.12,
-      "Var_anual": -4.11,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Colima",
       "_geo": "06",
-      "Indice_desest": 103.7,
-      "Var_anual": 1.16,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Chiapas",
       "_geo": "07",
-      "Indice_desest": 113.31,
-      "Var_anual": 1.78,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Chihuahua",
       "_geo": "08",
-      "Indice_desest": 109.09,
-      "Var_anual": 0.99,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Ciudad de México",
       "_geo": "09",
-      "Indice_desest": 109.97,
-      "Var_anual": 5.1,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Durango",
       "_geo": "10",
-      "Indice_desest": 101.93,
-      "Var_anual": -1.22,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Guanajuato",
       "_geo": "11",
-      "Indice_desest": 105.33,
+      "Indice_desest": null,
       "Var_anual": null,
-      "_periodo": "T4-25"
+      "_periodo": null
     },
     {
       "Entidad": "Guerrero",
       "_geo": "12",
-      "Indice_desest": 102.92,
-      "Var_anual": 2.66,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Hidalgo",
       "_geo": "13",
-      "Indice_desest": 117.11,
-      "Var_anual": 9.12,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Jalisco",
       "_geo": "14",
-      "Indice_desest": 107.81,
-      "Var_anual": 1.82,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "México",
       "_geo": "15",
-      "Indice_desest": 105.0,
-      "Var_anual": 1.09,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Michoacán",
       "_geo": "16",
-      "Indice_desest": 107.42,
-      "Var_anual": 0.5,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Morelos",
       "_geo": "17",
-      "Indice_desest": 98.98,
-      "Var_anual": -0.33,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Nayarit",
       "_geo": "18",
-      "Indice_desest": 108.53,
-      "Var_anual": 5.23,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Nuevo León",
       "_geo": "19",
-      "Indice_desest": 111.44,
-      "Var_anual": 2.31,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Oaxaca",
       "_geo": "20",
-      "Indice_desest": 125.19,
-      "Var_anual": 2.09,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Puebla",
       "_geo": "21",
-      "Indice_desest": 105.38,
-      "Var_anual": 2.84,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Querétaro",
       "_geo": "22",
-      "Indice_desest": 103.05,
-      "Var_anual": 2.76,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Quintana Roo",
       "_geo": "23",
-      "Indice_desest": 92.89,
-      "Var_anual": -6.09,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "San Luis Potosí",
       "_geo": "24",
-      "Indice_desest": 105.89,
-      "Var_anual": 2.1,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Sinaloa",
       "_geo": "25",
-      "Indice_desest": 103.01,
-      "Var_anual": 12.01,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Sonora",
       "_geo": "26",
-      "Indice_desest": 104.93,
-      "Var_anual": 1.82,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Tabasco",
       "_geo": "27",
-      "Indice_desest": 126.71,
-      "Var_anual": 4.22,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Tamaulipas",
       "_geo": "28",
-      "Indice_desest": 108.79,
-      "Var_anual": 3.21,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Tlaxcala",
       "_geo": "29",
-      "Indice_desest": 102.58,
-      "Var_anual": -0.07,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Veracruz",
       "_geo": "30",
-      "Indice_desest": 106.07,
-      "Var_anual": -0.21,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Yucatán",
       "_geo": "31",
-      "Indice_desest": 112.97,
-      "Var_anual": 2.0,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     },
     {
       "Entidad": "Zacatecas",
       "_geo": "32",
-      "Indice_desest": 111.19,
-      "Var_anual": 3.05,
-      "_periodo": "T4-25"
+      "Indice_desest": null,
+      "Var_anual": null,
+      "_periodo": null
     }
   ],
-  "periodo_referencia": "T4-25",
+  "periodo_referencia": null,
   "fuente_ingest": "BIE-INEGI (regional iter geo)"
 }

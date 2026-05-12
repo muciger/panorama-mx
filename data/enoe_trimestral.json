@@ -9,239 +9,57 @@
   "titulo_original": "ENOE cuarto trimestre 2025",
   "subtitulo_original": "Distribución de la población en edad de trabajar (15 años y más)",
   "columnas": [
-    "Concepto",
-    "T4-24_Abs",
-    "T4-25_Abs",
-    "Dif_T4-25-T4-24_Abs",
-    "T4-24",
-    "T4-25",
-    "Dif_T4-25-T4-24_pp"
+    "Periodo",
+    "Pob_total_Total",
+    "PEA_Total",
+    "PEA_ocupada_Total",
+    "PEA_desocupada_Total",
+    "PNEA_Total",
+    "PNEA_disponible_Total",
+    "PNEA_no_disponible_Total",
+    "Pob_total_Hombres",
+    "PEA_Hombres",
+    "PEA_ocupada_Hombres",
+    "PEA_desocupada_Hombres",
+    "PNEA_Hombres",
+    "PNEA_disponible_Hombres",
+    "PNEA_no_disponible_Hombres",
+    "Pob_total_Mujeres",
+    "PEA_Mujeres",
+    "PEA_ocupada_Mujeres",
+    "PEA_desocupada_Mujeres",
+    "PNEA_Mujeres",
+    "PNEA_disponible_Mujeres",
+    "PNEA_no_disponible_Mujeres"
   ],
   "columnas_normalizadas": [
-    "Concepto",
-    "T4-24_Abs",
-    "T4-25_Abs",
-    "Dif_T4-25-T4-24_Abs",
-    "T4-24",
-    "T4-25",
-    "Dif_T4-25-T4-24_pp"
+    "Periodo",
+    "Pob_total_Total",
+    "PEA_Total",
+    "PEA_ocupada_Total",
+    "PEA_desocupada_Total",
+    "PNEA_Total",
+    "PNEA_disponible_Total",
+    "PNEA_no_disponible_Total",
+    "Pob_total_Hombres",
+    "PEA_Hombres",
+    "PEA_ocupada_Hombres",
+    "PEA_desocupada_Hombres",
+    "PNEA_Hombres",
+    "PNEA_disponible_Hombres",
+    "PNEA_no_disponible_Hombres",
+    "Pob_total_Mujeres",
+    "PEA_Mujeres",
+    "PEA_ocupada_Mujeres",
+    "PEA_desocupada_Mujeres",
+    "PNEA_Mujeres",
+    "PNEA_disponible_Mujeres",
+    "PNEA_no_disponible_Mujeres"
   ],
-  "ultima_actualizacion": "2026-05-04",
+  "ultima_actualizacion": "2026-05-12",
   "proxima_actualizacion_manual": "26 de mayo de 2026",
-  "periodos": [
-    "Total",
-    "  PEA",
-    "    Ocupada",
-    "    Desocupada",
-    "  PNEA",
-    "    Disponible",
-    "    No disponible",
-    "Hombres",
-    "  PEA",
-    "    Ocupada",
-    "    Desocupada",
-    "  PNEA",
-    "    Disponible",
-    "    No disponible",
-    "Mujeres",
-    "  PEA",
-    "    Ocupada",
-    "    Desocupada",
-    "  PNEA",
-    "    Disponible",
-    "    No disponible"
-  ],
-  "series": [
-    {
-      "Concepto": "Total",
-      "T4-24_Abs": 130294079,
-      "T4-25_Abs": 131001723,
-      "Dif_T4-25-T4-24_Abs": 707644,
-      "T4-24": 100.0,
-      "T4-25": 100.0,
-      "Dif_T4-25-T4-24_pp": null
-    },
-    {
-      "Concepto": "  PEA",
-      "T4-24_Abs": 61055321,
-      "T4-25_Abs": 61348202,
-      "Dif_T4-25-T4-24_Abs": 292881,
-      "T4-24": 46.9,
-      "T4-25": 46.8,
-      "Dif_T4-25-T4-24_pp": -0.1
-    },
-    {
-      "Concepto": "    Ocupada",
-      "T4-24_Abs": 59487546,
-      "T4-25_Abs": 59785854,
-      "Dif_T4-25-T4-24_Abs": 298308,
-      "T4-24": 97.4,
-      "T4-25": 97.5,
-      "Dif_T4-25-T4-24_pp": 0.1
-    },
-    {
-      "Concepto": "    Desocupada",
-      "T4-24_Abs": 1567775,
-      "T4-25_Abs": 1562348,
-      "Dif_T4-25-T4-24_Abs": -5427,
-      "T4-24": 2.6,
-      "T4-25": 2.5,
-      "Dif_T4-25-T4-24_pp": -0.1
-    },
-    {
-      "Concepto": "  PNEA",
-      "T4-24_Abs": 40881192,
-      "T4-25_Abs": 42134747,
-      "Dif_T4-25-T4-24_Abs": 1253555,
-      "T4-24": 31.4,
-      "T4-25": 32.2,
-      "Dif_T4-25-T4-24_pp": 0.8
-    },
-    {
-      "Concepto": "    Disponible",
-      "T4-24_Abs": 5482356,
-      "T4-25_Abs": 5314316,
-      "Dif_T4-25-T4-24_Abs": -168040,
-      "T4-24": 13.4,
-      "T4-25": 12.6,
-      "Dif_T4-25-T4-24_pp": -0.8
-    },
-    {
-      "Concepto": "    No disponible",
-      "T4-24_Abs": 35398836,
-      "T4-25_Abs": 36820431,
-      "Dif_T4-25-T4-24_Abs": 1421595,
-      "T4-24": 86.6,
-      "T4-25": 87.4,
-      "Dif_T4-25-T4-24_pp": 0.8
-    },
-    {
-      "Concepto": "Hombres",
-      "T4-24_Abs": 62072760,
-      "T4-25_Abs": 62656835,
-      "Dif_T4-25-T4-24_Abs": 584075,
-      "T4-24": 47.6,
-      "T4-25": 47.8,
-      "Dif_T4-25-T4-24_pp": null
-    },
-    {
-      "Concepto": "  PEA",
-      "T4-24_Abs": 35867548,
-      "T4-25_Abs": 36198885,
-      "Dif_T4-25-T4-24_Abs": 331337,
-      "T4-24": 57.8,
-      "T4-25": 57.8,
-      "Dif_T4-25-T4-24_pp": 0.0
-    },
-    {
-      "Concepto": "    Ocupada",
-      "T4-24_Abs": 34924786,
-      "T4-25_Abs": 35293400,
-      "Dif_T4-25-T4-24_Abs": 368614,
-      "T4-24": 97.4,
-      "T4-25": 97.5,
-      "Dif_T4-25-T4-24_pp": 0.1
-    },
-    {
-      "Concepto": "    Desocupada",
-      "T4-24_Abs": 942762,
-      "T4-25_Abs": 905485,
-      "Dif_T4-25-T4-24_Abs": -37277,
-      "T4-24": 2.6,
-      "T4-25": 2.5,
-      "Dif_T4-25-T4-24_pp": -0.1
-    },
-    {
-      "Concepto": "  PNEA",
-      "T4-24_Abs": 11782364,
-      "T4-25_Abs": 12336950,
-      "Dif_T4-25-T4-24_Abs": 554586,
-      "T4-24": 19.0,
-      "T4-25": 19.7,
-      "Dif_T4-25-T4-24_pp": 0.7
-    },
-    {
-      "Concepto": "    Disponible",
-      "T4-24_Abs": 1851310,
-      "T4-25_Abs": 1854273,
-      "Dif_T4-25-T4-24_Abs": 2963,
-      "T4-24": 15.7,
-      "T4-25": 15.0,
-      "Dif_T4-25-T4-24_pp": -0.7
-    },
-    {
-      "Concepto": "    No disponible",
-      "T4-24_Abs": 9931054,
-      "T4-25_Abs": 10482677,
-      "Dif_T4-25-T4-24_Abs": 551623,
-      "T4-24": 84.3,
-      "T4-25": 85.0,
-      "Dif_T4-25-T4-24_pp": 0.7
-    },
-    {
-      "Concepto": "Mujeres",
-      "T4-24_Abs": 68221319,
-      "T4-25_Abs": 68344888,
-      "Dif_T4-25-T4-24_Abs": 123569,
-      "T4-24": 52.4,
-      "T4-25": 52.2,
-      "Dif_T4-25-T4-24_pp": null
-    },
-    {
-      "Concepto": "  PEA",
-      "T4-24_Abs": 25187773,
-      "T4-25_Abs": 25149317,
-      "Dif_T4-25-T4-24_Abs": -38456,
-      "T4-24": 36.9,
-      "T4-25": 36.8,
-      "Dif_T4-25-T4-24_pp": -0.1
-    },
-    {
-      "Concepto": "    Ocupada",
-      "T4-24_Abs": 24562760,
-      "T4-25_Abs": 24492454,
-      "Dif_T4-25-T4-24_Abs": -70306,
-      "T4-24": 97.5,
-      "T4-25": 97.4,
-      "Dif_T4-25-T4-24_pp": -0.1
-    },
-    {
-      "Concepto": "    Desocupada",
-      "T4-24_Abs": 625013,
-      "T4-25_Abs": 656863,
-      "Dif_T4-25-T4-24_Abs": 31850,
-      "T4-24": 2.5,
-      "T4-25": 2.6,
-      "Dif_T4-25-T4-24_pp": 0.1
-    },
-    {
-      "Concepto": "  PNEA",
-      "T4-24_Abs": 29098828,
-      "T4-25_Abs": 29797797,
-      "Dif_T4-25-T4-24_Abs": 698969,
-      "T4-24": 42.7,
-      "T4-25": 43.6,
-      "Dif_T4-25-T4-24_pp": 0.9
-    },
-    {
-      "Concepto": "    Disponible",
-      "T4-24_Abs": 3631046,
-      "T4-25_Abs": 3460043,
-      "Dif_T4-25-T4-24_Abs": -171003,
-      "T4-24": 12.5,
-      "T4-25": 11.6,
-      "Dif_T4-25-T4-24_pp": -0.9
-    },
-    {
-      "Concepto": "    No disponible",
-      "T4-24_Abs": 25467782,
-      "T4-25_Abs": 26337754,
-      "Dif_T4-25-T4-24_Abs": 869972,
-      "T4-24": 87.5,
-      "T4-25": 88.4,
-      "Dif_T4-25-T4-24_pp": 0.9
-    }
-  ],
+  "periodos": [],
+  "series": [],
   "benchmarks": {
     "ma12_T4_2024_Abs": [
       null,
@@ -268,7 +86,7 @@
     ]
   },
   "alertas_activas": [],
-  "fuente_ingest": "BIE-INEGI 21 series ENOE trimestral, pivote T=T4-25 vs T=T4-24",
+  "fuente_ingest": "BIE-INEGI",
   "_periodo_actual": "T4-25",
   "_periodo_prev": "T4-24"
 }

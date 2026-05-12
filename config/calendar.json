@@ -1,8 +1,8 @@
 {
   "_fuente": "https://www.inegi.org.mx/contenidos/saladeprensa/doc/inegi.ics",
-  "_generado": "2026-05-11",
+  "_generado": "2026-05-12",
   "_total_eventos_ics": 1201,
-  "_fecha_corte": "2026-05-11",
+  "_fecha_corte": "2026-05-12",
   "indicadores": {
     "pib_anual": {
       "nombre": "PIB anual, variación real",
@@ -353,14 +353,10 @@
       "patron_ics": "Balanza Comercial de Mercancías",
       "vinculado_con": null,
       "ultima_publicacion_ics": {
-        "fecha": "2026-04-27",
-        "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Información oportuna. Cifras preliminares"
+        "fecha": "2026-05-11",
+        "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Cifras revisadas"
       },
       "proximas_publicaciones": [
-        {
-          "fecha": "2026-05-11",
-          "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Cifras revisadas"
-        },
         {
           "fecha": "2026-05-25",
           "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Información oportuna. Cifras preliminares"
@@ -380,6 +376,10 @@
         {
           "fecha": "2026-07-27",
           "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Información oportuna. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-07-31",
+          "evento_ics": "Balanza Comercial de Mercancías de México (BCMM). Cifras definitivas"
         }
       ],
       "matches_total": 50
@@ -619,14 +619,10 @@
       "patron_ics": "Registro Administrativo de la Industria Automotriz de Vehículos Ligeros",
       "vinculado_con": null,
       "ultima_publicacion_ics": {
-        "fecha": "2026-05-06",
-        "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Avance referente a las ventas al público de vehículos ligeros"
+        "fecha": "2026-05-11",
+        "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Reporte del registro de la industria automotriz de vehículos ligeros"
       },
       "proximas_publicaciones": [
-        {
-          "fecha": "2026-05-11",
-          "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Reporte del registro de la industria automotriz de vehículos ligeros"
-        },
         {
           "fecha": "2026-06-03",
           "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Avance referente a las ventas al público de vehículos ligeros"
@@ -646,6 +642,10 @@
         {
           "fecha": "2026-08-04",
           "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Avance referente a las ventas al público de vehículos ligeros"
+        },
+        {
+          "fecha": "2026-08-07",
+          "evento_ics": "Registro administrativo de la industria automotriz de vehículos ligeros. Reporte del registro de la industria automotriz de vehículos ligeros"
         }
       ],
       "matches_total": 48
