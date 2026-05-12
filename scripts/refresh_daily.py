@@ -79,10 +79,19 @@ def run_step(label: str, cmd: list[str], optional: bool = False) -> bool:
         return False
     dt = time.time() - t0
     if result.returncode != 0:
+        # Imprime stderr completo a stdout para que aparezca en el log del workflow
         if optional:
-            log.warning("⚠ %s falló (opcional, continúa)\n%s", label, result.stderr.strip()[:500])
-            return False
-        log.error("✗ %s FAIL en %.1fs\n%s", label, dt, result.stderr.strip()[:500])
+            log.warning("⚠ %s falló (opcional, continúa)", label)
+        else:
+            log.error("✗ %s FAIL en %.1fs", label, dt)
+        if result.stderr:
+            print("--- STDERR ---")
+            print(result.stderr)
+            print("--- END STDERR ---")
+        if result.stdout:
+            print("--- STDOUT ---")
+            print(result.stdout[-3000:])
+            print("--- END STDOUT ---")
         return False
     # Mostrar últimas líneas relevantes del stdout
     last_lines = [l for l in result.stdout.strip().splitlines() if l.strip()][-3:]
