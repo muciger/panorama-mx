@@ -1,18 +1,39 @@
 {
-  "_descripcion": "Síntesis macro del periodo, renderizada en hero del home. Draft Claude + aprobación editor. Datos vía API BIE-INEGI.",
-  "_version": "2.0",
-  "ultima_actualizacion": "2026-05-02",
-  "ventana_cubierta": "Indicadores publicados hasta mayo 2026",
-  "titulo": "Lectura macro al 2 de mayo",
+  "_descripcion": "Síntesis macro generada automáticamente con Claude Sonnet. Revisar antes de publicar.",
+  "_version": "3.0-auto",
+  "ultima_actualizacion": "2026-05-18",
+  "ventana_cubierta": "Indicadores publicados entre abril y mayo 2026",
+  "titulo": "Lectura macro al 18 de mayo",
   "parrafos": [
-    "La inflación anual cerró marzo en 4.59% con subyacente en 4.45%. Ambos siguen arriba del objetivo Banxico de 3% ±1pp. El PIB se contrajo 0.77% trimestral en T1 2026 según la estimación oportuna y creció solo 0.20% anual. El arranque del año es débil. El IGAE de febrero subió 0.11% mensual pero cayó 0.27% anual. Secundarias retrocedieron 1.33%.",
-    "Las exportaciones crecieron 23.86% anual en marzo y las importaciones 19.93%. El mercado laboral mantiene baja holgura. La tasa de desocupación cerró marzo en 2.80% y la participación en 58.83%. La actividad industrial creció 0.40% mensual desestacionalizado en febrero, con manufacturas (+0.71%) y minería (+0.57%) liderando el avance. La confianza del consumidor cayó 1.99 puntos anuales en marzo.",
-    "La inversión fija bruta retrocedió 2.18% anual en enero. Maquinaria y equipo cayó 8.02%. El consumo privado avanzó 2.66% anual en enero pero retrocedió 1.55% mensual. El INPP general subió 2.46% anual sin petróleo en marzo."
+    "La inflación general anual cerró marzo de 2026 en 4.59%, con un alza de 57 puntos base respecto al mes previo, lo que la aleja del objetivo del Banco de México. La inflación subyacente se ubicó en 4.45% anual, con una ligera baja de 5 puntos base, señal de que las presiones de demanda se mantienen contenidas. El INPP sin petróleo escaló a 2.46% anual, con un rebote de 80 puntos base mensual, lo que anticipa posibles presiones de costos hacia el consumidor en los próximos meses. El vector de precios muestra divergencia: la inflación no subyacente jalando al alza el INPC mientras la subyacente se estabiliza.",
+    "El IGAE registró una variación mensual de 0.11% real en febrero de 2026, recuperándose 79 puntos base frente a enero, aunque en términos anuales cayó 0.27%, profundizando 76 puntos base la contracción interanual. El PIB del cuarto trimestre de 2025 creció 2.67% trimestral desestacionalizado, un rebote de 3.39 puntos, pero la estimación preliminar del PIB anual desestacionalizado para el primer trimestre de 2026 apenas alcanzó 0.05%, con una caída de 1.73 puntos respecto al trimestre anterior. La actividad industrial avanzó 0.40% mensual real en febrero, con una recuperación de 1.48 puntos, mientras que el volumen de producción manufacturero creció 3.43% anual en el mismo mes, aunque la construcción mostró señales mixtas con el valor de producción del ENEC creciendo apenas 0.33% anual. La inversión fija bruta cayó 2.18% anual en enero de 2026, acumulando presión sobre la capacidad productiva futura.",
+    "La balanza comercial registró un superávit de 2,499 millones de dólares en marzo de 2026, con una mejora de 3,479 millones frente al mes anterior, impulsada por exportaciones que crecieron 23.86% anual mientras las importaciones avanzaron 19.93% anual. En el mercado laboral, la tasa de desocupación se situó en 2.80% de la PEA en marzo, prácticamente estable, pero la tasa de participación cayó 53 puntos base a 58.83% y la informalidad subió 17 puntos base a 54.99%, lo que sugiere deterioro en la calidad del empleo. La confianza del consumidor mantiene terreno negativo con una diferencia anual de -1.99 puntos en marzo, y los indicadores de expectativas empresariales del EMOE muestran señales mixtas, con el ICE mejorando 52 puntos base en abril mientras el IPM sigue en contracción anual de -0.17 puntos."
   ],
   "kpis_destacados": [
-    {"id": "inpc_mensual", "etiqueta": "Inflación anual mar-26", "valor": "4.59%", "nota": "Subyacente 4.45%"},
-    {"id": "igae", "etiqueta": "IGAE anual feb-26", "valor": "-0.27%", "nota": "Var. mensual +0.11%"},
-    {"id": "balanza_comercial", "etiqueta": "Exportaciones anual mar-26", "valor": "+23.86%", "nota": "Importaciones +19.93%"},
-    {"id": "enoe_mensual", "etiqueta": "Desocupación mar-26", "valor": "2.80%", "nota": "Participación 58.83%"}
-  ]
+    {
+      "id": "inpc_mensual",
+      "etiqueta": "Inflación anual (INPC)",
+      "valor": "4.59%",
+      "nota": "Sube 57 pb en marzo. La no subyacente presiona al alza mientras la subyacente (4.45%) se estabiliza."
+    },
+    {
+      "id": "igae",
+      "etiqueta": "PIB anual T1-26 (est.)",
+      "valor": "0.05%",
+      "nota": "Cae 1.73 pp frente a T4-25. El IGAE anual de feb-26 en -0.27% confirma debilidad de la actividad."
+    },
+    {
+      "id": "balanza_comercial",
+      "etiqueta": "Saldo balanza comercial",
+      "valor": "USD 2,499 M",
+      "nota": "Superávit en marzo. Mejora de 3,479 MDD mensual con exportaciones creciendo 23.86% anual."
+    },
+    {
+      "id": "enoe_mensual",
+      "etiqueta": "Tasa de informalidad",
+      "valor": "54.99%",
+      "nota": "Sube 17 pb en marzo. La tasa de participación cae 53 pb, señal de deterioro en calidad del empleo."
+    }
+  ],
+  "_fuente": "Claude Sonnet 4.6 sobre datos BIE-INEGI"
 }

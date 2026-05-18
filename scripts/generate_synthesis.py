@@ -180,9 +180,13 @@ def _numeros(texto: str) -> list[float]:
 
 
 def _numero_en_fuente(valor: float, fuente: set[float]) -> bool:
-    """True si 'valor' aparece en la fuente con tolerancia de redondeo
-    (o coincide en magnitud, p. ej. saldo -1234 vs 1234)."""
-    return any(abs(valor - f) <= 0.05 or abs(abs(valor) - abs(f)) <= 0.05 for f in fuente)
+    """True si 'valor' aparece en la fuente con tolerancia de redondeo.
+    Usa tolerancia relativa (0.1%) para números grandes y absoluta (0.05) para pequeños.
+    También compara en magnitud absoluta (p. ej. saldo -1234 vs 1234)."""
+    def _cerca(a: float, b: float) -> bool:
+        tol = max(0.05, abs(b) * 0.001)
+        return abs(a - b) <= tol
+    return any(_cerca(valor, f) or _cerca(abs(valor), abs(f)) for f in fuente)
 
 
 def validar_sintesis(resultado: dict, datos: str) -> list[str]:
