@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -1292,7 +1293,11 @@ _MESES_MAP = {
 
 
 def _parse_manual_prox(texto: str, fallback: dict) -> dict:
-    """Parsea 'DD de <mes> de YYYY' y devuelve {fecha: 'D mmm YYYY', tipo: nombre original}."""
+    """Parsea 'DD de <mes> de YYYY' y devuelve {fecha: 'D mmm YYYY', tipo: nombre original}.
+
+    Si la fecha ya pasó, devuelve fallback (fecha del calendario ICS) para que el sitio
+    siempre muestre la próxima publicación real y no una fecha stale del campo manual.
+    """
     m = re.match(r"(\d{1,2})\s+de\s+([a-záéíóú]+)\s+de\s+(\d{4})", texto.strip().lower())
     if not m:
         return fallback
@@ -1300,8 +1305,14 @@ def _parse_manual_prox(texto: str, fallback: dict) -> dict:
     mes_num = _MESES_MAP.get(mes_nombre)
     if not mes_num:
         return fallback
-    fecha_friendly = f"{dia} {MESES[mes_num - 1]} {anio}"
     fecha_iso = f"{anio}-{mes_num:02d}-{dia:02d}"
+    # Si la fecha manual ya pasó, el campo está desactualizado: usar el calendario
+    try:
+        if date.fromisoformat(fecha_iso) < date.today():
+            return fallback
+    except ValueError:
+        return fallback
+    fecha_friendly = f"{dia} {MESES[mes_num - 1]} {anio}"
     return {"fecha": fecha_friendly, "fecha_iso": fecha_iso, "tipo": fallback.get("tipo") or "Próxima publicación INEGI"}
 
 
