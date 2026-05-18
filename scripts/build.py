@@ -2879,7 +2879,7 @@ def build_v3(env: Environment, indicadores: dict, calendar: dict, hoy: date) -> 
         "kpis": kpis,
         "publicaciones": publicaciones,
         "tabla_rows": tabla_rows,
-        "hero": hero,
+        "hero": None,
         "cat_groups": cat_groups,
         "synthesis": synthesis,
     }
