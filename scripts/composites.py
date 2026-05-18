@@ -285,7 +285,7 @@ def composite_pib_trimestral_bie() -> None:
 
         def bie_to_periodo(p: str) -> str:
             year, q = p.split("/")
-            return f"T{q}-{year[-2:]}"
+            return f"T{int(q)}-{year[-2:]}"  # int(q) elimina cero: "01"->1 para coincidir con ingest.py
 
         def fetch_map(sid: str) -> dict:
             resp = client.get_indicator(sid, recent_only=False)
