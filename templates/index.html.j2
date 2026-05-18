@@ -15,7 +15,7 @@
       Publicaciones de hoy
       <span class="h2-pub-count">{{ publicaciones | length }}</span>
     </span>
-    <a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener" class="h2-pub-link">
+    <a href="https://www.inegi.org.mx/app/saladeprensa/calendario/" target="_blank" rel="noopener" class="h2-pub-link">
       Ver calendario →
     </a>
   </div>
@@ -23,7 +23,7 @@
     {% if not publicaciones %}
     <div class="h2-pub-empty">
       Sin publicaciones programadas hoy.
-      <a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener">Ver calendario INEGI →</a>
+      <a href="https://www.inegi.org.mx/app/saladeprensa/calendario/" target="_blank" rel="noopener">Ver calendario INEGI →</a>
     </div>
     {% endif %}
     {% for p in publicaciones %}
@@ -258,7 +258,7 @@
       {% else %}
         <div class="h2-side-empty">Sin publicaciones próximas.</div>
       {% endif %}
-      <a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener"
+      <a href="https://www.inegi.org.mx/app/saladeprensa/calendario/" target="_blank" rel="noopener"
          class="h2-side-foot">Ver calendario completo →</a>
     </div>
   </div>
