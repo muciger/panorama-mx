@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://muciger.github.io/panorama-mx/sitemap.xml
