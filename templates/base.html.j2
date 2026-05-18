@@ -3,14 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page_title }} · Panorama económico de México</title>
+<title>{{ page_title }} · Panorama MX</title>
+{% if meta_description %}<meta name="description" content="{{ meta_description }}">{% endif %}
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'">
+{% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
+<link rel="icon" type="image/svg+xml" href="{{ asset_prefix }}assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="{{ asset_prefix }}assets/styles.css">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
-<script src="{{ asset_prefix }}assets/app.js" defer></script>
+<link rel="stylesheet" href="{{ asset_prefix }}assets/styles.css?v={{ asset_ver_css | default('1') }}">
+{% if use_charts | default(false) %}<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" integrity="sha384-9nhczxUqK87bcKHh20fSQcTGD4qq5GhayNYSYWqwBkINBhOfQLg/P5HG5lF1urn4" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" integrity="sha384-oNtu+d18330MVFpltUTve1DatxCkkctlpA2AC3GulbVFOSqhHdDat3qHse/Lbuek" crossorigin="anonymous" defer></script>{% endif %}
+<script src="{{ asset_prefix }}assets/app.js?v={{ asset_ver_js | default('1') }}" defer></script>
+{% if schema_org %}<script type="application/ld+json">{{ schema_org | safe }}</script>{% endif %}
 </head>
 <body>
 <a href="#main-content" class="skip-link">Saltar al contenido</a>
@@ -89,8 +95,9 @@
       <div class="topbar-spacer"></div>
       <div class="topbar-search" id="topbar-search">
         <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
-        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
-        <kbd class="topbar-search-kbd">/</kbd>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" aria-keyshortcuts="/" autocomplete="off">
+        <kbd class="topbar-search-kbd topbar-search-kbd-open">/</kbd>
+        <kbd class="topbar-search-kbd topbar-search-kbd-close">Esc</kbd>
         <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
       </div>
     </header>
@@ -103,5 +110,41 @@
     </footer>
   </main>
 </div>
+
+<!-- ── Bottom nav (mobile ≤768px) ──────────────────────────── -->
+<div class="bn-overlay" id="bn-overlay" aria-hidden="true"></div>
+<div class="bn-sheet" id="bn-sheet" role="dialog" aria-label="Indicadores" aria-modal="true">
+  <div class="bn-sheet-handle"></div>
+  {% for grupo in nav_groups %}{% if grupo.label != 'Inicio' %}
+  <div class="bn-sheet-label">{{ grupo.label }}</div>
+  {% for item in grupo['items'] %}{% if item.id != '__home__' %}
+  <a class="bn-sheet-item{% if item.id == active_id %} active{% endif %}" href="{{ asset_prefix }}{{ item.href }}">{{ item.label }}</a>
+  {% endif %}{% endfor %}
+  {% endif %}{% endfor %}
+</div>
+<nav class="bottom-nav" aria-label="Navegación principal">
+  <div class="bottom-nav-items">
+    <a class="bottom-nav-item{% if active_section == 'inicio' %} active{% endif %}" href="{{ asset_prefix }}index.html" aria-label="Inicio">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M3 12l9-9 9 9M5 10v10h14V10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Inicio</span>
+    </a>
+    <a class="bottom-nav-item{% if active_section == 'reporte' %} active{% endif %}" href="{{ asset_prefix }}reporte_semanal.html" aria-label="Reporte">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke-width="2" stroke-linecap="round"/></svg>
+      <span>Reporte</span>
+    </a>
+    <a class="bottom-nav-item{% if active_section == 'comparar' %} active{% endif %}" href="{{ asset_prefix }}comparar.html" aria-label="Comparar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Comparar</span>
+    </a>
+    <a class="bottom-nav-item{% if active_section == 'empleo_imss' %} active{% endif %}" href="{{ asset_prefix }}imss_explorador.html" aria-label="IMSS">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>IMSS</span>
+    </a>
+    <button class="bottom-nav-item{% if active_section == 'indicadores' %} active{% endif %}" id="bn-indic-btn" aria-label="Indicadores" aria-expanded="false" aria-controls="bn-sheet">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M3 3v18h18M7 14l4-4 4 4 5-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Indicadores</span>
+    </button>
+  </div>
+</nav>
 </body>
 </html>

@@ -1,0 +1,8 @@
+/Users/germanmucino/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/germanmucino/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  [pib_bie] ERROR: BIE request falló: 405 Client Error: Method Not Allowed for url: https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/735904/es/00/false/BIE-BISE/2.0/***?type=json
+  [pib_bie] ERROR: BIE request falló: 405 Client Error: Method Not Allowed for url: https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/735904/es/00/false/BIE-BISE/2.0/***?type=json
+  pib_anual fallback: BIE request falló: 405 Client Error: Method Not Allowed for url: https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/782389/es/00/false/BIE-BISE/2.0/***?type=json
+  pib_anual fallback: BIE request falló: 405 Client Error: Method Not Allowed for url: https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/782389/es/00/false/BIE-BISE/2.0/***?type=json

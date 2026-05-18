@@ -3,6 +3,10 @@
   "_version": "1.0",
   "terminos": {
     "MA12": "Promedio móvil de 12 meses. Suaviza la serie eliminando el ruido estacional para revelar tendencia subyacente.",
+    "pp": "Puntos porcentuales. Diferencia aritmética entre dos porcentajes (no confundir con variación porcentual). Ej: pasar de 3% a 4% = +1 pp.",
+    "pts": "Puntos. Diferencia aritmética en valores de índice.",
+    "MDD": "Miles de millones de dólares (equivalente a billones en inglés).",
+    "Delta": "Variación o cambio respecto al periodo anterior. Puede expresarse en puntos porcentuales, unidades o porcentaje según el contexto.",
     "desest": "Serie desestacionalizada. Removidos los efectos estacionales recurrentes (vacaciones, días festivos) para comparar mes a mes sin distorsión calendario.",
     "IVF": "Índice de Volumen Físico. Mide cantidad producida o vendida a precios constantes (excluye efecto inflación).",
     "var anual": "Variación porcentual respecto al mismo periodo del año anterior. Útil para neutralizar estacionalidad.",

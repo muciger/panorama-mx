@@ -45,6 +45,23 @@ BUILD_LABEL = "Tablero mensual · v1"
 BUILD_CHIP = "v1"
 TOPBAR_TITLE = "Indicadores económicos México"
 
+BASE_URL = "https://muciger.github.io/panorama-mx"
+
+
+def _canonical(path: str) -> str:
+    """Devuelve URL canónica absoluta para una ruta relativa del sitio."""
+    return f"{BASE_URL}/{path.lstrip('/')}"
+
+
+def _meta_indicador(nombre: str, categoria: str, unidad: str) -> str:
+    """Genera meta description para una página de indicador."""
+    cat_lower = categoria.lower() if categoria else "económico"
+    unid = f" ({unidad})" if unidad and unidad not in ("%",) else (" (%)" if unidad == "%" else "")
+    return (
+        f"Datos oficiales de {nombre}{unid}. Seguimiento {cat_lower} con series históricas "
+        f"del BIE-INEGI. Panorama MX — Secretaría de Economía."
+    )
+
 
 def _hoy_mx() -> date:
     """'Hoy' en horario del centro de México. El runner cloud corre en UTC; sin
@@ -1882,6 +1899,15 @@ def build_reporte_semanal(
         n_publicados=len(publicados),
         build_fecha=build_fecha,
         asset_prefix="",
+        meta_description=(
+            "Reporte de coyuntura económica semanal de México. Análisis de los indicadores "
+            "más relevantes del BIE-INEGI publicados en los últimos 7 días. Panorama MX."
+        ),
+        canonical_url=_canonical("reporte_semanal.html"),
+        page_title="Reporte semanal",
+        active_section="reporte",
+        active_id="__reporte__",
+        **_asset_vars(),
     )
 
     tmpl = env.get_template("reporte_semanal.html.j2")
@@ -2007,13 +2033,64 @@ def build_reporte_semanal(
 
 # ------------- copia de assets + build -------------
 
+def _minify_asset(src_path: "pathlib.Path", dst_path: "pathlib.Path") -> int:
+    """Minifica CSS o JS y escribe en dst_path. Retorna bytes ahorrados."""
+    try:
+        if src_path.suffix == ".css":
+            import rcssmin
+            original = src_path.read_text(encoding="utf-8")
+            minified = rcssmin.cssmin(original, keep_bang_comments=False)
+        elif src_path.suffix == ".js":
+            import rjsmin
+            original = src_path.read_text(encoding="utf-8")
+            minified = rjsmin.jsmin(original)
+        else:
+            shutil.copy2(src_path, dst_path)
+            return 0
+        dst_path.write_text(minified, encoding="utf-8")
+        saved = len(original.encode()) - len(minified.encode())
+        log.info("Minificado %s: %d KB → %d KB (-%d%%)",
+                 src_path.name,
+                 len(original.encode()) // 1024,
+                 len(minified.encode()) // 1024,
+                 int(saved / len(original.encode()) * 100) if original else 0)
+        return saved
+    except ImportError as e:
+        log.warning("Minificación no disponible (%s), copiando sin minificar", e)
+        shutil.copy2(src_path, dst_path)
+        return 0
+
+
+def _asset_hash(path: "pathlib.Path") -> str:
+    """Retorna los primeros 8 caracteres del MD5 del archivo (ya minificado en dst)."""
+    import hashlib
+    return hashlib.md5(path.read_bytes()).hexdigest()[:8]
+
+
+# Cache de hashes de assets para inyectar en templates.
+_ASSET_HASHES: dict[str, str] = {}
+
+
+def _asset_vars() -> dict:
+    """Retorna dict con versiones de assets para cache-busting en templates."""
+    return {
+        "asset_ver_css": _ASSET_HASHES.get("styles.css", "1"),
+        "asset_ver_js": _ASSET_HASHES.get("app.js", "1"),
+    }
+
+
 def copy_assets() -> None:
     dst = SITE_DIR / "assets"
     dst.mkdir(parents=True, exist_ok=True)
     for name in ("styles.css", "app.js"):
         src = ASSETS_DIR / name
         if src.exists():
-            shutil.copy2(src, dst / name)
+            _minify_asset(src, dst / name)
+            _ASSET_HASHES[name] = _asset_hash(dst / name)
+    # Favicon
+    favicon_src = ASSETS_DIR / "favicon.svg"
+    if favicon_src.exists():
+        shutil.copy2(favicon_src, dst / "favicon.svg")
     # Explorador IMSS (HTML autocontenido externo, se sirve como página estática)
     explorador_src = ROOT / "docs" / "referencias" / "imss_referencia_rediseño.html"
     explorador_dst = SITE_DIR / "imss_explorador.html"
@@ -2184,7 +2261,10 @@ MESES_FULL_V3 = ["enero", "febrero", "marzo", "abril", "mayo", "junio",
                  "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 
 
+_MESES_ES_PAREN = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"]
+
 def _v3_periodo_paren(periodo: str) -> str:
+    """'M03-26' → '(MAR 2026)', 'T1-26' → '(T1 2026)'."""
     if not periodo or "-" not in periodo:
         return ""
     parts = periodo.split("-")
@@ -2192,10 +2272,19 @@ def _v3_periodo_paren(periodo: str) -> str:
         return ""
     head, yy = parts
     try:
-        yyy = 2000 + int(yy) if int(yy) <= 30 else 1900 + int(yy)
-        return f"({head} {yyy})"
+        yyyy = 2000 + int(yy) if int(yy) <= 30 else 1900 + int(yy)
     except Exception:
         return ""
+    # Convertir código de mes (M01…M12) a abreviatura
+    head_clean = head.lstrip("M")
+    try:
+        mm = int(head_clean)
+        if 1 <= mm <= 12:
+            return f"({_MESES_ES_PAREN[mm - 1]} {yyyy})"
+    except ValueError:
+        pass
+    # Trimestres u otros: dejar el código original
+    return f"({head} {yyyy})"
 
 
 def _v3_get_kpi_data(cfg: dict) -> dict:
@@ -2636,18 +2725,26 @@ def _v3_build_kpis_v2() -> list:
         iid = kpi["id"]
         campo = kpi.get("campo_principal")
         spark_svg = ""
-        if campo and campo not in ("_total_abs", "_nac_yoy"):
-            data_file = ROOT / "data" / f"{iid}.json"
-            if data_file.exists():
-                try:
-                    raw_data = json.loads(data_file.read_text(encoding="utf-8"))
-                    r_rows = raw_data.get("series", []) or []
-                    if r_rows and isinstance(r_rows[0], dict):
-                        serie = [r.get(campo) for r in r_rows][-24:]
-                        dir_ = kpi.get("delta_dir", "flat")
-                        spark_svg = _v3_sparkline_svg(serie, dir_)
-                except Exception:
-                    pass
+        data_file = ROOT / "data" / f"{iid}.json"
+        if iid == "empleo_imss" and data_file.exists():
+            try:
+                raw_data = json.loads(data_file.read_text(encoding="utf-8"))
+                r_rows = raw_data.get("series", []) or []
+                if r_rows and isinstance(r_rows[0], dict):
+                    serie = [r.get("Total") for r in r_rows][-36:]
+                    spark_svg = _v3_sparkline_svg(serie, "pos")
+            except Exception:
+                pass
+        elif campo and campo not in ("_total_abs", "_nac_yoy") and data_file.exists():
+            try:
+                raw_data = json.loads(data_file.read_text(encoding="utf-8"))
+                r_rows = raw_data.get("series", []) or []
+                if r_rows and isinstance(r_rows[0], dict):
+                    serie = [r.get(campo) for r in r_rows][-24:]
+                    dir_ = kpi.get("delta_dir", "flat")
+                    spark_svg = _v3_sparkline_svg(serie, dir_)
+            except Exception:
+                pass
         kpi["spark_svg"] = spark_svg
     return kpis
 
@@ -2709,14 +2806,27 @@ def build_comparar(env: Environment, indicadores: dict, hoy: date) -> None:
 
     ctx = {
         "page_title": "Análisis comparativos",
+        "meta_description": (
+            "Compara la evolución histórica de indicadores económicos de México. "
+            "Series del BIE-INEGI actualizadas diariamente. Panorama MX."
+        ),
+        "canonical_url": _canonical("comparar.html"),
+        "schema_org": _schema_dataset(
+            name="Análisis comparativos — Panorama MX",
+            description="Comparación histórica de indicadores económicos oficiales BIE-INEGI de México.",
+            url=_canonical("comparar.html"),
+            date_modified=fecha_larga,
+        ),
         "asset_prefix": "",
         "active_section": "comparar",
+        **_asset_vars(),
         "active_id": "__compare__",
         "build_fecha": fecha_larga,
         "topbar_fecha": fecha_larga,
         "nav_groups": nav_groups,
         "comparativas": comparativas,
         "cmp_data_json": _json_for_script(cmp_data),
+        "use_charts": True,
     }
     (SITE_DIR / "comparar.html").write_text(tmpl.render(**ctx), encoding="utf-8")
 
@@ -2747,8 +2857,21 @@ def build_v3(env: Environment, indicadores: dict, calendar: dict, hoy: date) -> 
 
     ctx = {
         "page_title": "Panorama económico de México",
+        "meta_description": (
+            "Seguimiento de coyuntura económica de México. 33 series oficiales BIE-INEGI "
+            "actualizadas diariamente: actividad, precios, empleo, sector externo, "
+            "inversión y sentimiento empresarial."
+        ),
+        "canonical_url": _canonical("index.html"),
+        "schema_org": _schema_dataset(
+            name="Panorama MX — Indicadores Económicos de México",
+            description="33 series oficiales BIE-INEGI: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.",
+            url=_canonical("index.html"),
+            date_modified=hoy.isoformat(),
+        ),
         "asset_prefix": "",
         "active_section": "inicio",
+        **_asset_vars(),
         "active_id": "__home__",
         "build_fecha": fecha_larga,
         "topbar_fecha": fecha_larga,
@@ -2761,6 +2884,81 @@ def build_v3(env: Environment, indicadores: dict, calendar: dict, hoy: date) -> 
         "synthesis": synthesis,
     }
     (SITE_DIR / "index.html").write_text(tmpl.render(**ctx), encoding="utf-8")
+
+
+def _schema_dataset(name: str, description: str, url: str, date_modified: str) -> str:
+    """JSON-LD Dataset + GovernmentOrganization para una página de indicador o el sitio."""
+    import json as _json
+    obj = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Dataset",
+                "name": name,
+                "description": description,
+                "url": url,
+                "dateModified": date_modified,
+                "inLanguage": "es-MX",
+                "license": "https://www.inegi.org.mx/datos/terminos.html",
+                "creator": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Instituto Nacional de Estadística y Geografía (INEGI)",
+                    "url": "https://www.inegi.org.mx"
+                },
+                "publisher": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Secretaría de Economía",
+                    "url": "https://www.economia.gob.mx"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "name": "Panorama MX",
+                "url": BASE_URL,
+                "description": "Tablero de indicadores económicos de México — BIE-INEGI"
+            }
+        ]
+    }
+    return _json.dumps(obj, ensure_ascii=False)
+
+
+def build_seo_files(indicadores: dict) -> None:
+    """Genera robots.txt y sitemap.xml en SITE_DIR."""
+    from datetime import date as _date
+
+    hoy_iso = _hoy_mx().isoformat()
+
+    # robots.txt
+    robots = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        f"Sitemap: {BASE_URL}/sitemap.xml\n"
+    )
+    (SITE_DIR / "robots.txt").write_text(robots, encoding="utf-8")
+
+    # sitemap.xml — todas las URLs del sitio
+    urls: list[tuple[str, str]] = [
+        ("index.html", hoy_iso),
+        ("comparar.html", hoy_iso),
+        ("reporte_semanal.html", hoy_iso),
+        ("imss_explorador.html", hoy_iso),
+    ]
+    for iid in indicadores:
+        if iid == "empleo_imss":
+            continue
+        urls.append((f"indicador/{iid}.html", hoy_iso))
+
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for path, lastmod in urls:
+        lines.append(
+            f"  <url><loc>{BASE_URL}/{path}</loc>"
+            f"<lastmod>{lastmod}</lastmod>"
+            f"<changefreq>daily</changefreq></url>"
+        )
+    lines.append("</urlset>")
+    (SITE_DIR / "sitemap.xml").write_text("\n".join(lines), encoding="utf-8")
+    log.info("SEO: robots.txt y sitemap.xml generados (%d URLs)", len(urls))
 
 
 def main() -> None:
@@ -2780,6 +2978,7 @@ def main() -> None:
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "indicador").mkdir(parents=True, exist_ok=True)
     copy_assets()
+    build_seo_files(indicadores)
     export_csvs()
     export_tabla_resumen(indicadores)
     export_search_index(indicadores)
@@ -2954,8 +3153,7 @@ def main() -> None:
                 if fecha and "-" in fecha:
                     try:
                         y, m = fecha.split("-")
-                        meses_lab = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"]
-                        periodo_label = f"{meses_lab[int(m)-1]}-{y[-2:]}"
+                        periodo_label = f"M{int(m):02d}-{y[-2:]}"
                         if periodo_label in periodos:
                             eventos_filtrados.append({**ev, "periodo": periodo_label, "indice": periodos.index(periodo_label)})
                     except Exception:
@@ -2976,16 +3174,30 @@ def main() -> None:
         fecha_larga_v3 = f"{hoy.day} de {meses_full[hoy.month - 1]} de {hoy.year}"
         ctx = {
             "page_title": d.get("nombre", iid),
+            "meta_description": _meta_indicador(
+                d.get("nombre", iid),
+                d.get("categoria", ""),
+                d.get("unidad", ""),
+            ),
+            "canonical_url": _canonical(f"indicador/{iid}.html"),
+            "schema_org": _schema_dataset(
+                name=f"{d.get('nombre', iid)} — Panorama MX",
+                description=_meta_indicador(d.get("nombre", iid), d.get("categoria", ""), d.get("unidad", "")),
+                url=_canonical(f"indicador/{iid}.html"),
+                date_modified=fecha_larga_v3,
+            ),
             "topbar_title": d.get("nombre", iid),
             "build_label": BUILD_LABEL,
             "build_chip": BUILD_CHIP,
             "build_fecha": fecha_larga_v3,
             "topbar_fecha": fecha_larga_v3,
+            "use_charts": True,
             "ultima_pub": cal_ctx["ultima_pub"],
             "prox_pub": prox_pub_local,
             "asset_prefix": "../",
             "active_id": iid,
             "active_section": "indicadores",
+            **_asset_vars(),
             "nav_groups": [{"label": lbl, "items": [
                 {"id": iid2, "label": lbl2, "href": href} for iid2, lbl2, href in items
             ]} for lbl, items in NAV_STRUCTURE],

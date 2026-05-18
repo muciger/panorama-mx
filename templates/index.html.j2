@@ -5,7 +5,7 @@
 <header class="h2-page-header">
   <div class="h2-page-eyebrow">Secretaría de Economía · {{ topbar_fecha }}</div>
   <h1 class="h2-page-title">Panorama MX, indicadores económicos clave</h1>
-  <p class="h2-page-sub">Seguimiento de coyuntura económica de México para la Secretaría de Economía. 32 series oficiales BIE-INEGI actualizadas diariamente: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.</p>
+  <p class="h2-page-sub">Seguimiento de coyuntura económica de México para la Secretaría de Economía. 33 indicadores oficiales BIE-INEGI actualizados diariamente: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.</p>
 </header>
 
 {# ─── PUBLICACIONES DE HOY ─────────────────────────────────────────────── #}
@@ -147,7 +147,7 @@
     {% if synthesis.titulo %}
     <span class="h2-coyuntura-fecha">{{ synthesis.titulo }}</span>
     {% endif %}
-    <a href="{{ asset_prefix }}reporte.html" class="h2-coyuntura-link">Ver reporte completo →</a>
+    <a href="{{ asset_prefix }}reporte_semanal_completo.html" class="h2-coyuntura-link">Ver reporte completo →</a>
   </div>
   <div class="h2-coyuntura-body">
     {% for p in synthesis.parrafos %}
@@ -160,7 +160,7 @@
 {# ─── CATEGORY GROUPS ───────────────────────────────────────────────────── #}
 <div class="h2-section-row">
   <span class="h2-section-title">Indicadores por categoría</span>
-  <span class="h2-section-sub">32 series · BIE-INEGI</span>
+  <span class="h2-section-sub">33 indicadores · BIE-INEGI</span>
 </div>
 <div class="h2-cat-grid">
   {% for grp in cat_groups %}
@@ -224,13 +224,14 @@
       </div>
     </div>
     <div class="indic-tbl-wrap">
-      <table class="indic-tbl" id="indic-tbl-v3">
+      <table class="indic-tbl" id="indic-tbl-v3" aria-label="Indicadores económicos">
+        <caption class="sr-only">33 series oficiales BIE-INEGI. Filtra por categoría o busca por nombre.</caption>
         <thead>
           <tr>
-            <th>Indicador</th>
-            <th>Periodo</th>
-            <th class="num">Valor</th>
-            <th class="num">Variación</th>
+            <th scope="col">Indicador</th>
+            <th scope="col">Periodo</th>
+            <th scope="col" class="num">Valor</th>
+            <th scope="col" class="num">Variación</th>
           </tr>
         </thead>
         <tbody>

@@ -18,6 +18,10 @@ pymupdf4llm>=0.0.17
 # Templates
 jinja2>=3.1
 
+# Build — minificación de assets
+rcssmin>=1.1
+rjsmin>=1.2
+
 # APIs de interpretación
 anthropic>=0.25    # verifier (Claude Sonnet 4.6) en generate_interpretations.py
 openai>=1.10       # cliente compatible con DeepSeek API (writer)
