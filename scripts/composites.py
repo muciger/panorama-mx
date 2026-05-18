@@ -310,6 +310,14 @@ def composite_pib_trimestral_bie() -> None:
             "Servicios_inmobiliarios_Anual": fetch_map("735919"),
             "Servicios_profesionales_Anual": fetch_map("735920"),
             "Actividades_gubernamentales_Anual": fetch_map("735928"),
+            # Demanda agregada (oferta y demanda global, árbol 605590)
+            "Demanda_consumo_privado_Anual":  fetch_map("737475"),
+            "Demanda_consumo_gobierno_Anual": fetch_map("737482"),
+            "Demanda_FBCF_total_Anual":       fetch_map("737489"),
+            "Demanda_FBCF_privada_Anual":     fetch_map("737503"),
+            "Demanda_FBCF_publica_Anual":     fetch_map("737496"),
+            "Demanda_export_byserv_Anual":    fetch_map("737517"),
+            "Demanda_import_byserv_Anual":    fetch_map("737461"),
         }
         # Series QoQ desestacionalizadas
         qoq_map = {
@@ -317,6 +325,11 @@ def composite_pib_trimestral_bie() -> None:
             "Primarias_Trimestral":  fetch_map("736196"),
             "Secundarias_Trimestral": fetch_map("736203"),
             "Terciarias_Trimestral": fetch_map("736210"),
+            "Demanda_consumo_privado_Trimestral":  fetch_map("737474"),
+            "Demanda_consumo_gobierno_Trimestral": fetch_map("737481"),
+            "Demanda_FBCF_total_Trimestral":       fetch_map("737488"),
+            "Demanda_export_byserv_Trimestral":    fetch_map("737516"),
+            "Demanda_import_byserv_Trimestral":    fetch_map("737460"),
         }
 
         series = existing.get("series", [])
