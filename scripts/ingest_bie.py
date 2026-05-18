@@ -296,6 +296,41 @@ def _write_json_atomic(path: Path, obj: Any) -> None:
     tmp.replace(path)
 
 
+_PERIODO_KEYS = {"Periodo", "Mes", "Trimestre", "Anio", "Quincena", "Entidad"}
+
+
+def _celdas_con_valor(d: dict) -> int:
+    """Celdas con dato real (no None) en series, ignorando llaves de periodo.
+    Misma lógica que bie/ingest.py:guarda_segura para mantener consistencia."""
+    n = 0
+    for fila in (d.get("series") or []):
+        if not isinstance(fila, dict):
+            continue
+        for k, v in fila.items():
+            if v is None or k in _PERIODO_KEYS:
+                continue
+            n += 1
+    return n
+
+
+def _guarda_segura(out_path: Path, nuevo: dict) -> tuple[bool, str]:
+    """Rechaza sobrescribir si la respuesta BIE viene vacía o encoge >50% vs el
+    archivo existente. Defensa contra respuestas parciales (geo-block: HTTP 200
+    con cuerpo vacío) que ya destruyeron datos buenos en un run previo."""
+    cells_new = _celdas_con_valor(nuevo)
+    if not (nuevo.get("periodos") or nuevo.get("series")) or cells_new == 0:
+        return False, "respuesta vacía o sin valores"
+    if out_path.exists():
+        try:
+            viejo = json.loads(out_path.read_text(encoding="utf-8"))
+        except Exception:
+            viejo = {}
+        cells_old = _celdas_con_valor(viejo)
+        if cells_old >= 8 and cells_new < cells_old * 0.5:
+            return False, f"celdas con dato {cells_old} -> {cells_new} (>50% perdido)"
+    return True, ""
+
+
 def merge_con_json_local(indicador_id: str, ensamble: dict, dry_run: bool = False) -> Path | None:
     """Escribe el ensamble en data/<indicador>.json preservando metadatos existentes.
 
@@ -322,6 +357,11 @@ def merge_con_json_local(indicador_id: str, ensamble: dict, dry_run: bool = Fals
         current["columnas_normalizadas"] = ensamble["columnas"]
     current["ultima_actualizacion"] = datetime.now().strftime("%Y-%m-%d")
     current["fuente_ingesta"] = "bie_api"
+
+    ok, motivo = _guarda_segura(out_path, current)
+    if not ok:
+        log.error("%s: NO se sobrescribe (%s)", out_path.name, motivo)
+        return None
 
     if dry_run:
         log.info("DRY RUN: no escribe %s (%d periodos)", out_path.name, len(ensamble["periodos"]))
@@ -378,16 +418,24 @@ def run(lote_filter: str | None = None, dry_run: bool = False, use_cache: bool =
     # 2. Por cada indicador local, ensamblar JSON
     escritos = 0
     omitidos = 0
+    rechazos = 0
     for indicador_id, cfg in indicadores_map.items():
         ensamble = ensamblar_indicador(indicador_id, cfg, series_bie_por_id)
         if ensamble is None:
             omitidos += 1
             continue
-        merge_con_json_local(indicador_id, ensamble, dry_run=dry_run)
+        resultado = merge_con_json_local(indicador_id, ensamble, dry_run=dry_run)
+        if resultado is None and not dry_run:
+            # None en modo real solo ocurre por rechazo de _guarda_segura.
+            rechazos += 1
+            continue
         escritos += 1
 
-    log.info("Ingesta finalizada: %d indicadores escritos, %d omitidos", escritos, omitidos)
-    return 0
+    log.info(
+        "Ingesta finalizada: %d escritos, %d omitidos, %d rechazados por guarda",
+        escritos, omitidos, rechazos,
+    )
+    return 1 if rechazos else 0
 
 
 def main():
