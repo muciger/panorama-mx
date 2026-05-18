@@ -26,8 +26,13 @@ fi
 
 cd "$REPO" || exit 1
 
-# Refresh: ingest + build
-/usr/bin/python3 scripts/refresh_daily.py >> "$LOG" 2>&1
+# Cargar API key de Anthropic para síntesis macro
+if [ -f "$REPO/.env" ]; then
+  export $(grep -v '^#' "$REPO/.env" | grep ANTHROPIC_API_KEY | xargs)
+fi
+
+# Refresh: ingest + build + síntesis Claude
+/usr/bin/python3 scripts/refresh_daily.py --with-claude >> "$LOG" 2>&1
 STATUS=$?
 
 if [ $STATUS -ne 0 ]; then
