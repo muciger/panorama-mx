@@ -199,7 +199,13 @@ def main(argv: list[str] | None = None) -> int:
     logging.info("Eventos parseados: %d", len(eventos))
 
     indicators_cfg = json.loads(CONFIG_INDICATORS.read_text(encoding="utf-8"))
-    hoy = date.today()
+    # Horario del centro de México: el runner cloud corre en UTC y cerca de
+    # medianoche CST clasificaría eventos "de hoy" como pasados/futuros.
+    try:
+        from zoneinfo import ZoneInfo
+        hoy = datetime.now(ZoneInfo("America/Mexico_City")).date()
+    except Exception:
+        hoy = date.today()
 
     calendar = build_calendar_json(
         indicators_cfg, eventos, hoy, args.max_proximas, len(eventos)

@@ -669,10 +669,13 @@ UMBRAL_PMI = 50  # nivel de expansión/contracción para EMOE e ICC
 
 
 def compute_ma12(arr: list[float | None]) -> list[float | None]:
+    """Media móvil de 12 periodos. Exige ventana completa de 12 valores válidos
+    (igual que composites.py): los primeros ~11 puntos y los tramos con huecos
+    quedan None en vez de ser un promedio parcial mal etiquetado como MA12."""
     out = []
     for i in range(len(arr)):
         window = [x for x in arr[max(0, i - 11):i + 1] if isinstance(x, (int, float))]
-        out.append(round(sum(window) / len(window), 2) if len(window) >= 3 else None)
+        out.append(round(sum(window) / 12, 2) if len(window) == 12 else None)
     return out
 
 

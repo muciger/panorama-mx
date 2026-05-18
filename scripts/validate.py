@@ -14,7 +14,12 @@ Uso:
 
 Exit code:
     0 si solo hay warnings/info
-    1 si hay errors (bloquea deploy)
+    1 si hay errors
+
+NOTA: validate corre como paso OPCIONAL en refresh_daily.py (optional=True),
+así que el exit 1 NO bloquea el deploy. Es auditoría de calidad, no un gate.
+Además solo verifica presencia/estructura y rangos laxos: no garantiza que
+los números publicados coincidan con data/.
 """
 from __future__ import annotations
 

@@ -47,28 +47,17 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Sanity check de tamaños en data/
+      - name: Sanity check de data/ (defensa anti-borrado)
         run: |
-          # Aborta si algún data/*.json perdió >50% líneas vs commit anterior.
-          # Defensa contra cualquier sobrescritura accidental.
-          set -e
-          fail=0
-          for f in data/*.json; do
-            [ ! -f "$f" ] && continue
-            old_lines=$(git show HEAD~1:"$f" 2>/dev/null | wc -l || echo 0)
-            new_lines=$(wc -l < "$f")
-            if [ "$old_lines" -gt 100 ] && [ "$new_lines" -lt $((old_lines / 2)) ]; then
-              echo "ERROR: $f perdió >50% líneas ($old_lines → $new_lines)"
-              fail=1
-            fi
-          done
-          if [ "$fail" -eq 1 ]; then
-            echo ""
-            echo "Aborto: algún data/*.json se redujo drásticamente."
-            echo "Revisa el commit anterior y verifica el origen de los datos."
+          # Compara nº de registros (no líneas: el reformateo cambiaría wc -l) vs
+          # HEAD~1, y aborta si algún data/*.json desapareció o perdió >50%.
+          # Defensa en profundidad: la guarda primaria está en bie/ingest.py.
+          set -euo pipefail
+          if ! git rev-parse --verify HEAD~1 >/dev/null 2>&1; then
+            echo "ERROR: no existe HEAD~1 (fetch-depth insuficiente, debe ser >=2)."
             exit 1
           fi
-          echo "Sanity check OK · todos los data/*.json conservan tamaño esperado"
+          python3 scripts/ci_sanity_check.py HEAD~1
 
       - name: Regenerar sitio HTML (sin BIE refresh)
         env:
@@ -99,7 +88,9 @@ jobs:
           publish_dir: ./site
           publish_branch: gh-pages
           commit_message: "deploy: ${{ github.run_number }} · ${{ github.event_name }}"
-          force_orphan: true
+          # force_orphan:false conserva el historial de gh-pages para poder
+          # hacer rollback a un deploy bueno si uno malo llegara a pasar.
+          force_orphan: false
 
       - name: Resumen del run
         if: always()

@@ -127,19 +127,27 @@ def main(argv: list[str] | None = None) -> int:
         ok = run_step("calendar_sync (ICS oficial)", [sys.executable, str(SCRIPTS / "calendar_sync.py")])
         pass_count += int(ok)
         fail_count += int(not ok)
-        if ok:
-            _verificar_calendar_fresco()
+        if not ok:
+            log.error("ABORTO: calendar_sync falló (sin cache ICS). No se construye ni deploya con calendario stale.")
+            return 1
+        _verificar_calendar_fresco()
 
     # 2. Ingest BIE
     if not args.skip_bie:
         ok = run_step("bie/ingest (32 indicadores)", [sys.executable, str(SCRIPTS / "bie" / "ingest.py")])
         pass_count += int(ok)
         fail_count += int(not ok)
+        if not ok:
+            log.error("ABORTO: bie/ingest falló. No se construye ni deploya con data potencialmente incompleta.")
+            return 1
 
     # 3. Composites derivados
     ok = run_step("composites (5 derivados)", [sys.executable, str(SCRIPTS / "composites.py")])
     pass_count += int(ok)
     fail_count += int(not ok)
+    if not ok:
+        log.error("ABORTO: composites falló. No se construye ni deploya con derivados stale.")
+        return 1
 
     # 4. Interpretaciones DeepSeek (solo indicadores con nueva publicación) — opcional
     if not args.skip_interp:
@@ -169,6 +177,9 @@ def main(argv: list[str] | None = None) -> int:
     ok = run_step("build (site/)", [sys.executable, str(SCRIPTS / "build.py")])
     pass_count += int(ok)
     fail_count += int(not ok)
+    if not ok:
+        log.error("ABORTO: build falló. site/ no es confiable, no se deploya.")
+        return 1
 
     # 7. Validate (auditoría, no bloquea deploy si hay errors)
     ok = run_step("validate (calidad)", [sys.executable, str(SCRIPTS / "validate.py")], optional=True)

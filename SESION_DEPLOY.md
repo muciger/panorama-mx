@@ -78,13 +78,21 @@ panorama-mx/
 
 ## Workflow CI/CD (.github/workflows/deploy.yml)
 
-El sitio **se actualiza solo** todos los días a las **8:30 AM hora México**.
+El workflow corre **on-push a main** y por **disparo manual** (no en cron).
 
-### Qué hace:
-1. Descarga datos frescos del INEGI/IMSS via API
-2. Genera interpretaciones con IA
-3. Corre `python3 scripts/refresh_daily.py`
-4. Publica `site/` en la rama `gh-pages`
+### Qué hace (arquitectura skip-bie permanente):
+1. **NO descarga del BIE en cloud.** La API INEGI geo-bloquea IPs no
+   mexicanas devolviendo HTTP 200 con cuerpo vacío. En 2026-05-11 un run
+   cloud destruyó 112,652 líneas de datos buenos por esto.
+2. Los datos se actualizan **localmente desde la Mac** (IP mexicana) y se
+   commitean a `main`.
+3. El workflow corre `refresh_daily.py --skip-bie --skip-interp --skip-calendar`
+   (solo composites + build + validate sobre los `data/` del repo).
+4. Sanity check (`scripts/ci_sanity_check.py`) aborta el deploy si algún
+   `data/*.json` perdió >50% de registros vs el commit anterior.
+5. Publica `site/` en la rama `gh-pages` (conservando historial para rollback).
+
+> No reactivar la descarga BIE en cloud sin antes resolver el geo-block.
 
 ### Disparar manualmente:
 GitHub → Actions → *Panorama MX — Build & Deploy* → **Run workflow**
@@ -115,7 +123,7 @@ Configurar en: **Settings → Secrets and variables → Actions**
 git add .
 git commit -m "descripción"
 git push origin main
-# el workflow diario actualiza el sitio solo
+# el push a main dispara el workflow y republica el sitio
 ```
 
 ### Ver cambios de inmediato:

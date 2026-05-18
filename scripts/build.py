@@ -46,6 +46,17 @@ BUILD_CHIP = "v1"
 TOPBAR_TITLE = "Indicadores económicos México"
 
 
+def _hoy_mx() -> date:
+    """'Hoy' en horario del centro de México. El runner cloud corre en UTC; sin
+    esto, desde ~18:00 CST el build creería que ya es mañana y correría la
+    etiqueta de semana y el límite lun/mar del reporte un día."""
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("America/Mexico_City")).date()
+    except Exception:
+        return date.today()
+
+
 def _json_for_script(obj: Any) -> str:
     """Serializa a JSON seguro para incrustar en <script>. json.dumps no escapa
     '<' '>' '/', así que un valor con '</script>' cerraría el bloque e inyectaría
@@ -1895,7 +1906,10 @@ def build_reporte_semanal(
                 fp_dt = date.fromisoformat(fp_iso) if fp_iso else None
             except Exception:
                 fp_dt = None
-            if fp_dt is None or fp_dt >= lunes_relevante:
+            # Antes se incluía fp_dt None incondicionalmente: un indicador con
+            # fecha no parseable aparecía en TODOS los PDF semanales. Ahora se
+            # exige fecha válida dentro de [lunes_relevante, hoy].
+            if fp_dt is not None and lunes_relevante <= fp_dt <= hoy:
                 publicados_pdf.append(ind)
 
         # Filtrar duplicados: si el indicador pleno y su versión resumen aparecen
@@ -1907,11 +1921,22 @@ def build_reporte_semanal(
             _catalog_raw = json.loads(
                 (ROOT / "config" / "indicators.json").read_text(encoding="utf-8")
             ).get("indicadores", [])
-            for _ind_cfg in _catalog_raw:
-                _vinc = _ind_cfg.get("vinculado_con")
-                _iid = _ind_cfg.get("id")
-                if _vinc and _iid in ids_en_ventana and _vinc in ids_en_ventana:
-                    duplicados_a_suprimir.add(_iid)
+            # Resolver cadenas transitivas: p. ej. pib_estatal → pib_anual →
+            # pib_trimestral. Si algún eslabón de la cadena está en la ventana,
+            # se suprime el resumen aunque su vínculo directo no esté presente.
+            _vinc_map = {
+                _c.get("id"): _c.get("vinculado_con")
+                for _c in _catalog_raw if _c.get("id")
+            }
+            for _iid in ids_en_ventana:
+                _seen = {_iid}
+                _cur = _vinc_map.get(_iid)
+                while _cur and _cur not in _seen:
+                    if _cur in ids_en_ventana:
+                        duplicados_a_suprimir.add(_iid)
+                        break
+                    _seen.add(_cur)
+                    _cur = _vinc_map.get(_cur)
         except Exception as _e:
             log.warning("PDF: no pude leer catálogo crudo para deduplicar: %s", _e)
         if duplicados_a_suprimir:
@@ -2739,7 +2764,7 @@ def main() -> None:
     if not indicadores:
         raise RuntimeError(f"No se encontraron data/*.json normalizables en {ROOT / 'data'}")
 
-    hoy = date.today()
+    hoy = _hoy_mx()
     cal_ctx = build_calendar_context(calendar, indicadores, hoy)
     build_fecha = hoy.isoformat()
 
