@@ -15,6 +15,18 @@ function v3SparkColor(dir) {
   return COLORS_V3.navy;
 }
 
+/* Crea un Chart destruyendo cualquier instancia previa sobre el mismo canvas.
+   Evita el error "Canvas is already in use" al re-render por bfcache o
+   navegación back/forward, que dejaba el gráfico en blanco. */
+function v3mkChart(target, cfg) {
+  const cv = target && target.canvas ? target.canvas : target;
+  try {
+    const ex = window.Chart && Chart.getChart && Chart.getChart(cv);
+    if (ex) ex.destroy();
+  } catch (e) { /* sin instancia previa */ }
+  return new Chart(target, cfg);
+}
+
 /* Texto descriptivo para el eje Y a partir de d.eje_y_titulo o unidad. */
 function v3YAxisTitle(d, fallbackUnit) {
   if (!d) return "";
@@ -37,7 +49,7 @@ function v3RenderTblSpark(canvasId, serie, color) {
   if (!canvas || !window.Chart || !serie) return;
   const cleaned = serie.filter(x => x !== null && x !== undefined);
   if (cleaned.length < 2) return;
-  new Chart(canvas.getContext("2d"), {
+  v3mkChart(canvas.getContext("2d"), {
     type: "line",
     data: {
       labels: serie.map((_, i) => i),
@@ -168,7 +180,7 @@ function v3RenderDetailChart(canvas, d) {
     });
   }
 
-  return new Chart(ctx, {
+  return v3mkChart(ctx, {
     type: "line",
     data: { labels: d.periodos, datasets },
     options: {
@@ -206,7 +218,7 @@ function v3RenderBarHorizontal(canvas, d) {
   const extras = d.bar_diverging
     ? { annotation: { annotations: { zero: { type: "line", xMin: 0, xMax: 0, borderColor: COLORS_V3.navy, borderWidth: 1 } } } }
     : {};
-  return new Chart(ctx, {
+  return v3mkChart(ctx, {
     type: "bar",
     data: {
       labels,
@@ -248,7 +260,7 @@ function v3RenderMultiSeries(canvas, periodos, seriesObj, opts) {
     });
     i++;
   }
-  return new Chart(canvas.getContext("2d"), {
+  return v3mkChart(canvas.getContext("2d"), {
     type: "line",
     data: { labels: periodos, datasets },
     options: {
@@ -273,7 +285,7 @@ function v3RenderBarVertical(canvas, d) {
   if (!labels.length) return;
   const colors = values.map(v => (v !== null && v >= 0) ? COLORS_V3.teal : COLORS_V3.magenta);
   const unit = d.unidad || "";
-  return new Chart(canvas.getContext("2d"), {
+  return v3mkChart(canvas.getContext("2d"), {
     type: "bar",
     data: {
       labels,
@@ -312,7 +324,7 @@ function v3RenderBarGrouped(canvas, d) {
     backgroundColor: palette[i % palette.length],
     borderRadius: 2, borderSkipped: false
   }));
-  return new Chart(canvas.getContext("2d"), {
+  return v3mkChart(canvas.getContext("2d"), {
     type: "bar",
     data: { labels, datasets },
     options: {
@@ -346,7 +358,7 @@ function v3RenderBarGroupedHorizontal(canvas, d) {
     label: ds.label, data: ds.values,
     backgroundColor: palette[i % palette.length], borderRadius: 2
   }));
-  return new Chart(canvas.getContext("2d"), {
+  return v3mkChart(canvas.getContext("2d"), {
     type: "bar",
     data: { labels, datasets },
     options: {
@@ -368,7 +380,7 @@ function v3RenderRadar(canvas, radar) {
   if (!canvas || !window.Chart || !radar) return;
   const { labels, current, prev, periodo_actual, periodo_prev } = radar;
   if (!labels || !labels.length) return;
-  return new Chart(canvas.getContext("2d"), {
+  return v3mkChart(canvas.getContext("2d"), {
     type: "radar",
     data: {
       labels,
@@ -474,6 +486,14 @@ async function v3InitSearch() {
   const wrap = document.getElementById("topbar-search");
   if (!input || !results || !wrap) return;
 
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => (
+    { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
+  ));
+  const safeUrl = (u) => {
+    u = String(u == null ? "" : u);
+    return /^[\w./-]+$/.test(u) && !u.includes("..") ? u : "#";
+  };
+
   // Detectar prefix de assets para fetch index (relativo según ubicación)
   const isDetail = location.pathname.includes("/indicador/");
   const idxPath = (isDetail ? "../" : "") + "data/search-index.json";
@@ -502,13 +522,15 @@ async function v3InitSearch() {
       return;
     }
     results.innerHTML = matches.slice(0, 12).map((m, i) => {
-      const initial = m.nombre.charAt(0).toUpperCase();
-      const url = (isDetail ? "../" : "") + m.url;
+      const initial = esc(String(m.nombre || "?").charAt(0).toUpperCase());
+      const url = esc((isDetail ? "../" : "") + safeUrl(m.url));
+      const cat = esc(m.categoria || "");
+      const uni = m.unidad ? " · " + esc(m.unidad) : "";
       return `<a class="search-result${i === activeIdx ? " active" : ""}" href="${url}" data-idx="${i}">
         <div class="search-result-icon">${initial}</div>
         <div class="search-result-body">
-          <div class="search-result-title">${m.nombre}</div>
-          <div class="search-result-cat">${m.categoria || ""}${m.unidad ? " · " + m.unidad : ""}</div>
+          <div class="search-result-title">${esc(m.nombre)}</div>
+          <div class="search-result-cat">${cat}${uni}</div>
         </div>
       </a>`;
     }).join("");
@@ -623,8 +645,17 @@ async function v3InitGlossary() {
       toReplace.forEach(node => {
         const frag = document.createDocumentFragment();
         let last = 0;
+        const _isWord = (c) => !!c && /[\p{L}\p{N}]/u.test(c);
         node.nodeValue.replace(pattern, (match, p1, offset) => {
-          if (offset > last) frag.appendChild(document.createTextNode(node.nodeValue.slice(last, offset)));
+          const s = node.nodeValue;
+          if (offset > last) frag.appendChild(document.createTextNode(s.slice(last, offset)));
+          // \b es ASCII: una frontera acentuada (ej. "ICCí") da match parcial.
+          // Si hay letra/dígito Unicode pegado, no es término aislado: texto tal cual.
+          if (_isWord(offset > 0 ? s[offset - 1] : "") || _isWord(s[offset + match.length] || "")) {
+            frag.appendChild(document.createTextNode(match));
+            last = offset + match.length;
+            return match;
+          }
           const span = document.createElement("span");
           span.className = "gloss-term";
           span.textContent = match;
@@ -649,7 +680,8 @@ async function v3InitGlossary() {
 function v3InitAdvancedToggle() {
   const KEY = "panorama-show-advanced";
   // Estado inicial (default oculto)
-  const saved = localStorage.getItem(KEY);
+  let saved = null;
+  try { saved = localStorage.getItem(KEY); } catch (e) { saved = null; }
   const enabled = saved === "1";
   if (enabled) document.body.classList.add("show-advanced");
 
@@ -669,7 +701,7 @@ function v3InitAdvancedToggle() {
   btn.addEventListener("click", () => {
     const now = !document.body.classList.contains("show-advanced");
     document.body.classList.toggle("show-advanced", now);
-    localStorage.setItem(KEY, now ? "1" : "0");
+    try { localStorage.setItem(KEY, now ? "1" : "0"); } catch (e) { /* storage no disponible */ }
     btn.setAttribute("aria-pressed", now ? "true" : "false");
     const state = btn.querySelector(".adv-toggle-state");
     if (state) state.textContent = now ? "ON" : "OFF";
@@ -800,7 +832,7 @@ function v3InitComparar() {
       }
     }
 
-    new Chart(canvas.getContext("2d"), {
+    v3mkChart(canvas.getContext("2d"), {
       type: "line",
       data: { labels: periodos, datasets },
       options: {
@@ -828,7 +860,7 @@ function imssRenderYoyArea(canvas, periodos, valores, opts) {
   const BLUE = "#4B7FD4", RED = "#B5262C";
   const BLUE_FILL = "rgba(75,127,212,0.18)", RED_FILL = "rgba(181,38,44,0.18)";
   const mini = cfg.mini || false;
-  return new Chart(ctx, {
+  return v3mkChart(ctx, {
     type: "line",
     data: {
       labels: periodos,
@@ -910,11 +942,15 @@ function v3WireNavDropdown() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  v3InitSearch();
-  v3InitAdvancedToggle();
-  v3InitGlossary();
-  v3InitComparar();
-  v3WireNavDropdown();
+  // Cada init aislado: un fallo en uno no debe abortar el resto de features.
+  const _safe = (label, fn) => {
+    try { fn(); } catch (e) { console.error("init " + label + " falló", e); }
+  };
+  _safe("search", v3InitSearch);
+  _safe("advancedToggle", v3InitAdvancedToggle);
+  _safe("glossary", v3InitGlossary);
+  _safe("comparar", v3InitComparar);
+  _safe("navDropdown", v3WireNavDropdown);
   // Sparks tabla home v3
   const raw = document.getElementById("page-data-v3");
   if (raw) {
@@ -925,15 +961,16 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     } catch (e) { console.error("page-data-v3 inválido", e); }
   }
-  v3WireTblFilter();
-  v3WireTblKeyboard();
+  _safe("tblFilter", v3WireTblFilter);
+  _safe("tblKeyboard", v3WireTblKeyboard);
 
   // Pages detalle (reutilizan page-data inline)
   const detailRaw = document.getElementById("page-data");
   if (detailRaw) {
-    let payload;
-    try { payload = JSON.parse(detailRaw.textContent); } catch (e) { return; }
-    if (payload.view === "detail") {
+    let payload = null;
+    try { payload = JSON.parse(detailRaw.textContent); }
+    catch (e) { console.error("page-data inválido", e); }
+    if (payload && payload.view === "detail") {
       // IMSS tiene su propio sistema de charts
       if (payload.indicador && payload.indicador.id === "empleo_imss") {
         imssInitCharts(payload.indicador);

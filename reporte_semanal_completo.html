@@ -151,15 +151,15 @@ a{color:var(--accent);text-decoration:none}
     </div>
     <div class="rpt-meta">
       <div class="rpt-title">Reporte semanal</div>
-      <div class="rpt-semana">Publicaciones del 4 may al 12 may 2026</div>
+      <div class="rpt-semana">Publicaciones del 11 may al 18 may 2026</div>
     </div>
   </header>
 
-  <div class="estado-block estado-neutro">
+  <div class="estado-block estado-amarillo">
     <div class="estado-dot"></div>
-    <span class="estado-texto">Sin señales de alerta</span>
+    <span class="estado-texto">Presiones concentradas</span>
     <span class="estado-sep">·</span>
-    <span class="estado-detalle">17 publicaciones revisadas</span>
+    <span class="estado-detalle">1 en alerta · 1 en vigilancia</span>
   </div>
 
   
@@ -168,11 +168,11 @@ a{color:var(--accent);text-decoration:none}
     <header class="indic-pagina-head">
       <h2 class="indic-pagina-titulo">Balanza Comercial de Mercancías</h2>
       <div class="indic-pagina-meta">
-        Sector externo · publicado 11 may 2026
+        Sector externo · mar-26 · publicado 11 may 2026
       </div>
     </header>
 
-    <div class="indic-pagina-body no-chart">
+    <div class="indic-pagina-body">
       <div class="indic-pagina-text">
         
         <p class="indic-pagina-headline">Las exportaciones totales crecieron 23.86% anual en marzo de 2026, el mayor avance en el periodo disponible (abril de 2024 a marzo de 2026), impulsadas por manufacturas no automotrices. El saldo comercial fue superavitario en 2,499 millones de dólares, el nivel más alto registrado en dicho periodo.</p>
@@ -183,93 +183,33 @@ a{color:var(--accent);text-decoration:none}
       </div>
 
       
-    </div>
-  </article>
-  
-  <article class="indic-pagina" id="ind-inpc_mensual">
-    <header class="indic-pagina-head">
-      <h2 class="indic-pagina-titulo">Índice Nacional de Precios al Consumidor</h2>
-      <div class="indic-pagina-meta">
-        Inflación · publicado 7 may 2026
+      <div class="indic-pagina-right">
+        
+        <div class="inegi-tiles-inline">
+          
+          <div class="inegi-tile-inline">
+            <div class="inegi-tile-inline-head">Variación anual</div>
+            <div class="inegi-tile-inline-value inegi-up">
+              <span aria-hidden="true">▲</span>
+              <span>+23.9%</span>
+            </div>
+          </div>
+          
+          <div class="inegi-tile-inline">
+            <div class="inegi-tile-inline-head">Variación mensual</div>
+            <div class="inegi-tile-inline-value inegi-up">
+              <span aria-hidden="true">▲</span>
+              <span>+8.5 pp</span>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="indic-chart">
+          <canvas id="chart-balanza_comercial"></canvas>
+        </div>
+        <script type="application/json" id="payload-balanza_comercial">{"ma12": [4.08, 4.46, 4.27, 4.91, 4.61, 5.33, 6.06, 6.65, 6.95, 7.85, 8.36, 9.62, 11.07], "periodos": ["mar-25", "abr-25", "may-25", "jun-25", "jul-25", "ago-25", "sep-25", "oct-25", "nov-25", "dic-25", "ene-26", "feb-26", "mar-26"], "serie_label": "Exportaciones (var. anual)", "serie_vals": [6.47, 7.56, 2.98, 7.99, 3.02, 10.68, 9.86, 14.14, 11.41, 13.35, 12.08, 15.89, 23.86], "unidad": "%"}</script>
       </div>
-    </header>
-
-    <div class="indic-pagina-body no-chart">
-      <div class="indic-pagina-text">
-        
-        <p class="indic-pagina-headline">La inflación general anual subió a 4.59% en marzo de 2026, impulsada por un fuerte repunte en los precios agropecuarios, mientras la inflación subyacente se mantiene estable cerca de 4.5%.</p>
-        
-        
-        <p class="indic-pagina-parrafo">La inflación general se aleja del objetivo del Banco de México por un choque en precios agropecuarios, mientras la subyacente se mantiene estable. El repunte inflacionario tiene un carácter puntual y no refleja un sobrecalentamiento de la demanda; la trayectoria de las expectativas y de otros precios constituirá un elemento central para valorar la persistencia del fenómeno en los próximos periodos.</p>
-        
-      </div>
-
-      
-    </div>
-  </article>
-  
-  <article class="indic-pagina" id="ind-consumo_privado">
-    <header class="indic-pagina-head">
-      <h2 class="indic-pagina-titulo">Indicador Mensual del Consumo Privado</h2>
-      <div class="indic-pagina-meta">
-        Actividad · publicado 6 may 2026
-      </div>
-    </header>
-
-    <div class="indic-pagina-body no-chart">
-      <div class="indic-pagina-text">
-        
-        <p class="indic-pagina-headline">El consumo privado creció 2.66% anual en enero de 2026, pero cayó 1.55% mensual, con un fuerte retroceso del gasto en bienes importados y una moderación en el consumo de bienes nacionales.</p>
-        
-        
-        <p class="indic-pagina-parrafo">El IMCP, que había mostrado una recuperación notable hacia finales de 2025, inicia 2026 con la contracción mensual más pronunciada del rango de datos disponibles y una desaceleración en su variación anual. La caída en el gasto en bienes duraderos y semiduraderos nacionales, así como el retroceso mensual del componente importado, confirman una moderación del gasto de los hogares que reduce el impulso de uno de los principales componentes de la demanda interna.</p>
-        
-      </div>
-
-      
-    </div>
-  </article>
-  
-  <article class="indic-pagina" id="ind-fbcf">
-    <header class="indic-pagina-head">
-      <h2 class="indic-pagina-titulo">Formación Bruta de Capital Fijo</h2>
-      <div class="indic-pagina-meta">
-        Actividad · publicado 6 may 2026
-      </div>
-    </header>
-
-    <div class="indic-pagina-body no-chart">
-      <div class="indic-pagina-text">
-        
-        <p class="indic-pagina-headline">La inversión total cayó 2.2% anual en enero de 2026, arrastrada por una fuerte contracción en maquinaria y equipo, mientras la construcción mostró un repunte moderado.</p>
-        
-        
-        <p class="indic-pagina-parrafo">El dato de inversión de enero de 2026 muestra que la FBCF acumula varios meses consecutivos de variaciones anuales negativas, con la debilidad concentrada en maquinaria y equipo. La construcción residencial ofrece un contrapeso parcial, mientras que la construcción no residencial se estabilizó en 0.0% anual tras registrar contracciones pronunciadas en meses previos. El resultado consolida un panorama de inversión fija deprimida en el componente de mayor impacto sobre capacidad productiva.</p>
-        
-      </div>
-
-      
-    </div>
-  </article>
-  
-  <article class="indic-pagina" id="ind-ind_ciclicos">
-    <header class="indic-pagina-head">
-      <h2 class="indic-pagina-titulo">Sistema de Indicadores Cíclicos</h2>
-      <div class="indic-pagina-meta">
-        Actividad · publicado 6 may 2026
-      </div>
-    </header>
-
-    <div class="indic-pagina-body no-chart">
-      <div class="indic-pagina-text">
-        
-        <p class="indic-pagina-headline">El Indicador Adelantado del Sistema de Indicadores Cíclicos subió 0.09 puntos en febrero de 2026, manteniéndose por arriba de su tendencia de largo plazo y sugiriendo que la economía podría seguir expandiéndose en los próximos meses.</p>
-        
-        
-        <p class="indic-pagina-parrafo">El Indicador Adelantado se mantiene en terreno positivo por undécimo mes consecutivo, lo que refuerza la lectura de que la economía mexicana podría continuar expandiéndose en el corto plazo. La ligera moderación registrada en los últimos meses apunta a que el ritmo de mejora podría estabilizarse, sin que ello implique un cambio de tendencia.</p>
-        
-      </div>
-
       
     </div>
   </article>
@@ -285,10 +225,10 @@ a{color:var(--accent);text-decoration:none}
     <div class="indic-pagina-body">
       <div class="indic-pagina-text">
         
-        <p class="indic-pagina-headline">Las ventas de vehículos ligeros crecieron 2.4% anual en marzo, retomando un ritmo positivo tras la caída de febrero, mientras producción y exportación también repuntaron.</p>
+        <p class="indic-pagina-headline">Las ventas de vehículos ligeros crecieron 2.4% anual en marzo, revirtiendo la contracción de febrero. La producción y exportación también repuntaron, con los tres componentes del sector automotriz en terreno positivo.</p>
         
         
-        <p class="indic-pagina-parrafo">El sector automotriz muestra signos de estabilización en marzo, con los tres componentes en terreno positivo por primera vez desde enero de 2026, dentro del rango de datos disponibles. La volatilidad reciente y la ausencia de un repunte sostenido en producción y exportación indican que el sector aún no consolida una tendencia de crecimiento sólida.</p>
+        <p class="indic-pagina-parrafo">El sector automotriz registra en marzo de 2026 una recuperación simultánea en ventas, producción y exportación, con variaciones anuales de 2.4%, 2.5% y 4.2%, respectivamente. Los tres componentes retornan al terreno positivo tras las contracciones de febrero. La alternancia de resultados positivos y negativos a lo largo del periodo marzo de 2025 a marzo de 2026 caracteriza un sector con desempeño mensual variable, en el que el dato de marzo representa el segundo mes consecutivo de crecimiento en producción y exportación, y una reversión puntual en ventas.</p>
         
       </div>
 
@@ -310,140 +250,8 @@ a{color:var(--accent);text-decoration:none}
         <div class="indic-chart">
           <canvas id="chart-autos_ligeros"></canvas>
         </div>
-        <script type="application/json" id="payload-autos_ligeros">{"ma12": [null, null, -0.7, -1.75, -1.28, -1.33, -0.84, 0.22, 0.17, 0.65, 1.41, 1.27, 1.32], "periodos": ["mar-25", "abr-25", "may-25", "jun-25", "jul-25", "ago-25", "sep-25", "oct-25", "nov-25", "dic-25", "ene-26", "feb-26", "mar-26"], "serie_label": "Ventas", "serie_vals": [1.8, -4.0, 0.1, -4.9, 0.6, -1.6, 2.1, 7.7, -0.3, 5.0, 9.0, -0.3, 2.4], "unidad": "%"}</script>
+        <script type="application/json" id="payload-autos_ligeros">{"ma12": [null, null, null, null, null, null, null, null, null, null, null, 1.27, 1.32], "periodos": ["mar-25", "abr-25", "may-25", "jun-25", "jul-25", "ago-25", "sep-25", "oct-25", "nov-25", "dic-25", "ene-26", "feb-26", "mar-26"], "serie_label": "Ventas", "serie_vals": [1.8, -4.0, 0.1, -4.9, 0.6, -1.6, 2.1, 7.7, -0.3, 5.0, 9.0, -0.3, 2.4], "unidad": "%"}</script>
       </div>
-      
-    </div>
-  </article>
-  
-  <article class="indic-pagina" id="ind-inpc_quincenal">
-    <header class="indic-pagina-head">
-      <h2 class="indic-pagina-titulo">INPC quincenal</h2>
-      <div class="indic-pagina-meta">
-        Inflación · publicado 7 may 2026
-      </div>
-    </header>
-
-    <div class="indic-pagina-body no-chart">
-      <div class="indic-pagina-text">
-        
-        <p class="indic-pagina-headline">La inflación general anual se mantiene en 4.53%, sin cambios significativos respecto a la quincena anterior, mientras la subyacente desciende ligeramente a 4.27%.</p>
-        
-        
-        <p class="indic-pagina-parrafo">La inflación general se ha estabilizado alrededor de 4.5%, sin señales de aceleración en la quincena más reciente, pero sin mostrar tampoco una convergencia pronunciada hacia niveles inferiores. La moderación de la subyacente respecto a la quincena previa constituye una señal de menor presión en los componentes más estructurales del índice, aunque su nivel se mantiene por encima de 4%. La no subyacente, pese a registrar una variación quincenal negativa, sostiene una tasa anual de 5.41%, lo que refleja la persistencia de presiones en los precios más volátiles dentro del rango analizado.</p>
-        
-      </div>
-
-      
-    </div>
-  </article>
-  
-  <article class="indic-pagina" id="ind-inpp">
-    <header class="indic-pagina-head">
-      <h2 class="indic-pagina-titulo">Índice Nacional de Precios Productor</h2>
-      <div class="indic-pagina-meta">
-        Inflación · publicado 7 may 2026
-      </div>
-    </header>
-
-    <div class="indic-pagina-body no-chart">
-      <div class="indic-pagina-text">
-        
-        <p class="indic-pagina-headline">La inflación al productor repuntó en marzo, pero la tendencia anual sigue a la baja: el índice sin petróleo subió 1.02% mensual y 2.46% anual, muy por debajo del pico de 7.92% registrado en febrero de 2025.</p>
-        
-        
-        <p class="indic-pagina-parrafo">El repunte mensual de los precios al productor en marzo rompe la tendencia de desaceleración gradual, pero no altera el diagnóstico de que la inflación productiva se ha moderado sustancialmente respecto a los niveles de 2025. La persistencia de presiones en algunos componentes, especialmente los vinculados a petróleo, constituye un elemento de atención en el seguimiento del panorama de costos de producción, que en términos generales refleja menor presión que la observada a principios del año previo.</p>
-        
-      </div>
-
-      
-    </div>
-  </article>
-  
-  <article class="indic-pagina" id="ind-confianza_consumidor">
-    <header class="indic-pagina-head">
-      <h2 class="indic-pagina-titulo">Indicador de Confianza del Consumidor</h2>
-      <div class="indic-pagina-meta">
-        Sentimiento · publicado 8 may 2026
-      </div>
-    </header>
-
-    <div class="indic-pagina-body no-chart">
-      <div class="indic-pagina-text">
-        
-        <p class="indic-pagina-headline">La confianza del consumidor retrocedió en marzo de 2026 y se ubicó en 44.1 puntos, nivel que se mantiene entre los más bajos del rango de datos disponible. La percepción sobre la situación económica del país y la disposición a comprar bienes durables se deterioraron.</p>
-        
-        
-        <p class="indic-pagina-parrafo">El indicador confirma que los hogares mantienen una visión pesimista sobre la economía, especialmente en lo que respecta a la situación presente del país. Esta cautela persistente sugiere que el consumo privado, motor clave de la demanda interna, podría enfrentar presiones adicionales en los próximos meses, reforzando un escenario de bajo dinamismo económico.</p>
-        
-      </div>
-
-      
-    </div>
-  </article>
-  
-  <article class="indic-pagina" id="ind-emoe_ipm">
-    <header class="indic-pagina-head">
-      <h2 class="indic-pagina-titulo">EMOE Indicador de Pedidos Manufactureros</h2>
-      <div class="indic-pagina-meta">
-        Sentimiento · publicado 4 may 2026
-      </div>
-    </header>
-
-    <div class="indic-pagina-body no-chart">
-      <div class="indic-pagina-text">
-        
-        <p class="indic-pagina-headline">El Indicador de Pedidos Manufactureros se mantuvo en terreno expansivo en abril de 2026, aunque con una leve contracción anual que refleja un crecimiento moderado del sector sin señales de aceleración.</p>
-        
-        
-        <p class="indic-pagina-parrafo">El indicador refleja un sector manufacturero que se mantiene en expansión, pero con un ritmo débil y sin señales de aceleración. La divergencia entre el nivel de pedidos esperados, que permanece claramente por encima del umbral expansivo, y el de producción esperada, que se sitúa en contracción, describe un entorno de bajo dinamismo en el que la demanda anticipada no se traduce plenamente en expectativas de mayor actividad productiva.</p>
-        
-      </div>
-
-      
-    </div>
-  </article>
-  
-  <article class="indic-pagina" id="ind-emoe_iat">
-    <header class="indic-pagina-head">
-      <h2 class="indic-pagina-titulo">EMOE Indicadores Agregados de Tendencia</h2>
-      <div class="indic-pagina-meta">
-        Sentimiento · publicado 4 may 2026
-      </div>
-    </header>
-
-    <div class="indic-pagina-body no-chart">
-      <div class="indic-pagina-text">
-        
-        <p class="indic-pagina-headline">El Indicador Agregado de Tendencia manufacturero cayó en abril, pero se mantiene en terreno expansivo. La construcción sigue en contracción, mientras el comercio se debilita.</p>
-        
-        
-        <p class="indic-pagina-parrafo">El indicador muestra una economía que crece, pero a un ritmo cada vez más lento. La manufactura se mantiene en expansión, aunque frágil, mientras que la construcción sigue en contracción y el comercio se acerca a ella. El conjunto de señales confirma un panorama de bajo dinamismo en la percepción empresarial durante abril de 2026.</p>
-        
-      </div>
-
-      
-    </div>
-  </article>
-  
-  <article class="indic-pagina" id="ind-emoe_ice">
-    <header class="indic-pagina-head">
-      <h2 class="indic-pagina-titulo">EMOE Indicador Global de Confianza Empresarial</h2>
-      <div class="indic-pagina-meta">
-        Sentimiento · publicado 4 may 2026
-      </div>
-    </header>
-
-    <div class="indic-pagina-body no-chart">
-      <div class="indic-pagina-text">
-        
-        <p class="indic-pagina-headline">La confianza empresarial permanece en terreno de contracción, aunque la caída anual se reduce a menos de medio punto, la menor del periodo analizado.</p>
-        
-        
-        <p class="indic-pagina-parrafo">La confianza empresarial sigue en terreno contractivo, pero la desaceleración de las caídas anuales sugiere que el pesimismo se está moderando. Este comportamiento es compatible con un escenario de bajo crecimiento en el que los empresarios aún no identifican condiciones para incrementar la inversión, pero tampoco anticipan un deterioro adicional significativo.</p>
-        
-      </div>
-
       
     </div>
   </article>
