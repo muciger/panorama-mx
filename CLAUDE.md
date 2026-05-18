@@ -48,8 +48,9 @@ indicadores_inegi/
 │   ├── generate_synthesis.py    # síntesis macro (opcional)
 │   ├── ingest_imss.py           # solo local, lee parquets 2.3GB
 │   ├── build.py                 # render Jinja → site/
-│   ├── validate.py              # auditoría calidad
-│   └── refresh_daily.py         # orquesta todo
+│   ├── validate.py              # auditoría calidad (NO bloquea deploy)
+│   ├── ci_sanity_check.py       # defensa anti-borrado data/ (usado por deploy.yml)
+│   └── refresh_daily.py         # orquesta todo (aborta si paso crítico falla)
 ├── templates/
 │   ├── base.html.j2             # sidebar + topbar
 │   ├── index.html.j2
@@ -110,7 +111,8 @@ El workflow `deploy.yml` NO descarga BIE en cloud porque INEGI parece geo-bloque
 Workflow ahora:
 - Corre solo on-push o manual
 - Usa `python3 scripts/refresh_daily.py --skip-bie --skip-interp --skip-calendar`
-- Tiene sanity check que aborta si algún `data/*.json` perdió >50% líneas vs commit anterior
+- Sanity check vía `scripts/ci_sanity_check.py`: compara nº de registros (no líneas) vs HEAD~1, detecta archivos eliminados/nuevos-vacíos/ilegibles, exige HEAD~1. Aborta el deploy si pierde >50%
+- `force_orphan:false`: conserva historial de gh-pages para rollback
 - Solo regenera HTML y deploya a gh-pages
 
 Workflow `imss_reminder.yml` abre issue automático día 12 de cada mes a las 10:00 CST para recordar correr `ingest_imss.py` localmente.
@@ -162,6 +164,23 @@ Ventana del reporte: rolling lunes a hoy. Si hoy es lun/mar, retrocede al lunes 
 | PDF semanal v4 | validado |
 | Memoria Cowork | en `/Users/germanmucino/Library/Application Support/Claude/local-agent-mode-sessions/.../memory/` |
 
+## Auditoría de código 2026-05-18
+
+Auditoría profunda (~11k líneas Python, 2.7k templates, 1.9k JS/CSS). Fixes en rama `claude/code-audit-InHbW`, PR #2 (`https://github.com/muciger/panorama-mx/pull/2`), pendiente de merge a main.
+
+Lo corregido (4 commits):
+
+- **Pérdida de datos cerrada a nivel de código**. `guarda_segura()` en `scripts/bie/ingest.py` Y `_guarda_segura()` en `scripts/ingest_bie.py` rechazan sobrescribir `data/*.json` si la respuesta BIE viene vacía, toda-nula o encoge >50% de celdas con dato. Es guarda PRE-commit en ambos paths de ingesta, no solo en el workflow. Escrituras atómicas (tmp + rename) en todos los escritores.
+- **Verifier fail-closed**. `generate_interpretations.py` ya no publica draft sin verificar; conserva versión previa si el verifier falla o no aprueba.
+- **Antifabricación KPI hero**. `generate_synthesis.py` rechaza la síntesis si un KPI cita un número que no está en los datos fuente.
+- **XSS** cerrado en bloques `<script>` (`build.py` `_json_for_script`) y buscador (`app.js`). Token BIE redactado de logs.
+- `ci_sanity_check.py` reemplaza el `wc -l` frágil (chequeo semántico por nº de registros). `refresh_daily.py` aborta antes de build/deploy si falla un paso crítico.
+- `compute_ma12` exige ventana de 12 (consistente con composites). `hoy` en horario México. PDF descarta fechas no parseables, dedup `vinculado_con` transitivo. Comunicado scrapeado delimitado anti prompt-injection.
+
+Deferido a propósito (ver Pendientes futuros): pin de Actions a SHA, dedup de issues en `imss_reminder.yml`, convertir `validate.py` en gate bloqueante.
+
+Severidades del primer pase ajustadas tras verificación: percentil `int()` y σ poblacional son convenciones estadísticas válidas (impacto <0.5% con n=120), NO bugs críticos. El riesgo numérico real era la divergencia de MA12, ya unificada.
+
 ## Pendientes inmediatos
 
 1. Commitear y pushear los cambios al workflow (deploy.yml + SETUP.md actualizado en sesión actual).
@@ -194,6 +213,8 @@ gh run watch
 
 6. **Dominio propio opcional**: tipo `panorama.tudominio.mx` vía Cloudflare/Namecheap CNAME.
 
+7. **Deferidos de la auditoría 2026-05-18**: (a) pin de GitHub Actions a SHA completo (necesita lookup de SHAs verificados; un SHA mal rompe el deploy); (b) dedup de issues duplicados en `imss_reminder.yml`; (c) `parseInt` con radix en sort de comparar; (d) convertir `validate.py` en gate bloqueante con cross-check numérico vs `data/` (hoy es auditoría no bloqueante por elección explícita).
+
 ## Configuración local del usuario
 
 - Mac: `~/Desktop/Descargas firefox/INEGI interactivo/Interactivo indicadores INEGI/indicadores_inegi`
@@ -204,8 +225,8 @@ gh run watch
 
 ## Lecciones operativas
 
-- **Nunca dejar que cloud sobrescriba data sin sanity check**. Workflow ahora tiene check de >50% reducción de líneas.
-- **El BIE no es confiable desde cloud**. Geo-block o similar. Datos se actualizan desde Mac.
-- **Validate es auditoría, no bloqueante**. Se marcó `optional=True` en refresh_daily.py para no romper deploy.
+- **Nunca dejar que cloud sobrescriba data sin sanity check**. Defensa en dos capas desde 2026-05-18: guarda PRE-commit en `bie/ingest.py` y `ingest_bie.py` (`guarda_segura`/`_guarda_segura`, rechaza vacío/encogido >50%), más `ci_sanity_check.py` en el workflow como defensa en profundidad. La guarda primaria impide el commit malo; el check del workflow solo evita deployarlo.
+- **El BIE no es confiable desde cloud**. Geo-block o similar. Datos se actualizan desde Mac. Si BIE devuelve vacío/parcial, `guarda_segura` rechaza la escritura y el script sale con código !=0 (refresh_daily aborta antes de build/deploy).
+- **Validate es auditoría, no bloqueante**. Se marcó `optional=True` en refresh_daily.py para no romper deploy. Su docstring ya lo aclara (antes decía "bloquea deploy", era falso).
 - **GitHub auto-disabled workflows después de fallos consecutivos**. Re-habilitar con `gh workflow enable <name>`.
 - **Captura stderr completo en subprocess para debug cloud**. El truncado a 500 chars ocultó el root cause inicialmente.
