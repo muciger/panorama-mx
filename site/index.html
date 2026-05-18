@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panorama económico de México · Panorama económico de México</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Saltar al contenido</a>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand-block">
+      <a class="brand-gob" href="index.html" aria-label="Inicio">
+        <div class="brand-gob-text">
+          <div class="brand-gob-line">Panorama MX</div>
+          <div class="brand-gob-line strong">INEGI · BIE</div>
+        </div>
+      </a>
+    </div>
+    <nav class="nav-list">
+      <a class="nav-item active" href="index.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12l9-9 9 9M5 10v10h14V10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Inicio</span>
+      </a>
+      <a class="nav-item" href="reporte_semanal.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="nav-label">Reporte semanal</span>
+      </a>
+      <a class="nav-item" href="comparar.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Comparar</span>
+      </a>
+      <a class="nav-item" href="imss_explorador.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Empleo IMSS</span>
+      </a>
+      <details class="nav-group-details" id="nav-indicadores-details">
+        <summary class="nav-item nav-summary" aria-haspopup="listbox">
+          <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18M7 14l4-4 4 4 5-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="nav-label nav-label-always">Indicadores</span>
+          <svg class="nav-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg>
+        </summary>
+        <div class="nav-sub">
+          
+          <div class="nav-sub-label">Resúmenes</div>
+          
+          <a class="nav-sub-item" href="indicador/pib_anual.html">PIB anual (resumen)</a>
+          
+          <a class="nav-sub-item" href="indicador/inflacion_resumen.html">Inflación (resumen)</a>
+          
+          <a class="nav-sub-item" href="indicador/igae_ioae_resumen.html">IGAE/IOAE por sector</a>
+          
+          
+          <div class="nav-sub-label">Macro</div>
+          
+          <a class="nav-sub-item" href="indicador/pib_trimestral.html">PIB trimestral</a>
+          
+          <a class="nav-sub-item" href="indicador/pib_por_actividad.html">PIB por actividad</a>
+          
+          
+          <div class="nav-sub-label">Actividad</div>
+          
+          <a class="nav-sub-item" href="indicador/igae.html">IGAE</a>
+          
+          <a class="nav-sub-item" href="indicador/actividad_industrial.html">Actividad industrial</a>
+          
+          <a class="nav-sub-item" href="indicador/consumo_privado.html">Consumo privado</a>
+          
+          <a class="nav-sub-item" href="indicador/fbcf.html">FBCF</a>
+          
+          <a class="nav-sub-item" href="indicador/balanza_comercial.html">Balanza comercial</a>
+          
+          <a class="nav-sub-item" href="indicador/ind_ciclicos.html">Indicadores cíclicos</a>
+          
+          
+          <div class="nav-sub-label">Encuestas sectoriales</div>
+          
+          <a class="nav-sub-item" href="indicador/emim.html">EMIM manufactura</a>
+          
+          <a class="nav-sub-item" href="indicador/enec.html">ENEC construcción</a>
+          
+          <a class="nav-sub-item" href="indicador/comercio_mayoreo.html">Comercio mayoreo</a>
+          
+          <a class="nav-sub-item" href="indicador/comercio_menudeo.html">Comercio menudeo</a>
+          
+          <a class="nav-sub-item" href="indicador/servicios.html">Servicios</a>
+          
+          
+          <div class="nav-sub-label">Precios</div>
+          
+          <a class="nav-sub-item" href="indicador/inpc_mensual.html">INPC mensual</a>
+          
+          <a class="nav-sub-item" href="indicador/inpc_quincenal.html">INPC quincenal</a>
+          
+          <a class="nav-sub-item" href="indicador/inpp.html">INPP</a>
+          
+          
+          <div class="nav-sub-label">Empleo</div>
+          
+          <a class="nav-sub-item" href="indicador/enoe_trimestral.html">ENOE trimestral</a>
+          
+          <a class="nav-sub-item" href="indicador/enoe_mensual.html">ENOE mensual</a>
+          
+          
+          <div class="nav-sub-label">Automotriz</div>
+          
+          <a class="nav-sub-item" href="indicador/autos_ligeros.html">Vehículos ligeros</a>
+          
+          <a class="nav-sub-item" href="indicador/autos_pesados.html">Vehículos pesados</a>
+          
+          
+          <div class="nav-sub-label">Regional</div>
+          
+          <a class="nav-sub-item" href="indicador/export_entidad.html">Exportaciones entidad</a>
+          
+          
+          <div class="nav-sub-label">Sentimiento</div>
+          
+          <a class="nav-sub-item" href="indicador/confianza_consumidor.html">Confianza consumidor</a>
+          
+          <a class="nav-sub-item" href="indicador/emoe_ipm.html">EMOE IPM</a>
+          
+          <a class="nav-sub-item" href="indicador/emoe_iat.html">EMOE IAT</a>
+          
+          <a class="nav-sub-item" href="indicador/emoe_ice.html">EMOE ICE</a>
+          
+          
+        </div>
+      </details>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="updated-row">
+        <span class="status-dot status-ok"></span>
+        <div>
+          <div class="updated-label">Última actualización</div>
+          <div class="updated-value">18 de mayo de 2026</div>
+        </div>
+      </div>
+      <a href="mailto:german.mucino@gmail.com?subject=Tablero%20INEGI%20-%20Reporte%20de%20problema" class="feedback-link">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12c0 4.4-4 8-9 8-1.7 0-3.3-.4-4.7-1.1L3 20l1.4-3.7C3.5 15.1 3 13.6 3 12c0-4.4 4-8 9-8s9 3.6 9 8z" stroke-width="2"/></svg>
+        <span>Reportar problema</span>
+      </a>
+    </div>
+  </aside>
+
+  <main class="main" id="main-content" tabindex="-1">
+    <header class="topbar">
+      <div class="topbar-status">
+        <span class="status-dot status-ok"></span>
+        <span>Sistema actualizado</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="16" rx="2" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke-width="2"/></svg>
+        <span>18 de mayo de 2026</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9" stroke-width="2"/><path d="M12 7v5l3 3" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>08:30 h (Centro)</span>
+      </div>
+      <div class="topbar-spacer"></div>
+      <div class="topbar-search" id="topbar-search">
+        <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
+        <kbd class="topbar-search-kbd">/</kbd>
+        <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
+      </div>
+    </header>
+
+    
+
+
+<header class="h2-page-header">
+  <div class="h2-page-eyebrow">Secretaría de Economía · 18 de mayo de 2026</div>
+  <h1 class="h2-page-title">Panorama MX, indicadores económicos clave</h1>
+  <p class="h2-page-sub">Seguimiento de coyuntura económica de México para la Secretaría de Economía. 32 series oficiales BIE-INEGI actualizadas diariamente: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.</p>
+</header>
+
+
+<div class="h2-pub-strip">
+  <div class="h2-pub-head">
+    <span class="h2-pub-title">
+      Publicaciones de hoy
+      <span class="h2-pub-count">6</span>
+    </span>
+    <a href="https://www.inegi.org.mx/app/saladeprensa/calendario/" target="_blank" rel="noopener" class="h2-pub-link">
+      Ver calendario →
+    </a>
+  </div>
+  <div class="h2-pub-chips">
+    
+    
+    <a class="h2-pub-chip" href="indicador/enec.html">
+      <span class="h2-chip-hora">08:00 h</span>
+      <span class="h2-chip-name">Encuesta Nacional de Empresas Constructoras</span>
+      <span class="h2-chip-badge badge-prog">
+        ○ Programado
+      </span>
+    </a>
+    
+    <a class="h2-pub-chip" href="indicador/comercio_mayoreo.html">
+      <span class="h2-chip-hora">08:00 h</span>
+      <span class="h2-chip-name">Empresas Comerciales, comercio al por mayor</span>
+      <span class="h2-chip-badge badge-prog">
+        ○ Programado
+      </span>
+    </a>
+    
+    <a class="h2-pub-chip" href="indicador/comercio_menudeo.html">
+      <span class="h2-chip-hora">08:00 h</span>
+      <span class="h2-chip-name">Empresas Comerciales, comercio al por menor</span>
+      <span class="h2-chip-badge badge-prog">
+        ○ Programado
+      </span>
+    </a>
+    
+    <a class="h2-pub-chip" href="indicador/servicios.html">
+      <span class="h2-chip-hora">08:00 h</span>
+      <span class="h2-chip-name">Encuesta Mensual de Servicios</span>
+      <span class="h2-chip-badge badge-prog">
+        ○ Programado
+      </span>
+    </a>
+    
+    <a class="h2-pub-chip" href="indicador/pib_anual.html">
+      <span class="h2-chip-hora">08:00 h</span>
+      <span class="h2-chip-name">PIB anual, variación real</span>
+      <span class="h2-chip-badge badge-prog">
+        ○ Programado
+      </span>
+    </a>
+    
+    <a class="h2-pub-chip" href="indicador/pib_anual.html">
+      <span class="h2-chip-hora">08:00 h</span>
+      <span class="h2-chip-name">PIB anual, variación real</span>
+      <span class="h2-chip-badge badge-prog">
+        ○ Programado
+      </span>
+    </a>
+    
+  </div>
+</div>
+
+
+
+<div class="h2-hero">
+  <div class="h2-hero-left">
+    <div>
+      <div class="h2-hero-eyebrow">Actividad económica global · IGAE</div>
+      <div class="h2-hero-number neg">
+        -0.3<span class="h2-hero-unit">%</span>
+      </div>
+      <div class="h2-hero-name">Variación anual</div>
+      <div class="h2-hero-period">feb 2026</div>
+    </div>
+    <div class="h2-hero-delta neg">
+      ↓
+      -0.76 pp respecto al periodo anterior
+    </div>
+  </div>
+  <div class="h2-hero-right">
+    <div class="h2-chart-label">IGAE — 24 MESES · VAR. %</div>
+    <svg viewBox="0 0 580 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-svg-title">
+      <title id="hero-svg-title">IGAE, variación anual. Serie de mar 2024 a feb 2026. Tendencia a la baja. Valor actual -0.3% en feb 2026.</title>
+      <defs>
+        <linearGradient id="hero-grad-pos" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#16A34A" stop-opacity="0.15"/>
+          <stop offset="100%" stop-color="#16A34A" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="hero-grad-neg" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#DC2626" stop-opacity="0"/>
+          <stop offset="100%" stop-color="#DC2626" stop-opacity="0.12"/>
+        </linearGradient>
+      </defs>
+      <line x1="20" y1="10" x2="560" y2="10" stroke="#E4E4E7" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <line x1="20" y1="37" x2="560" y2="37" stroke="#E4E4E7" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <line x1="20" y1="64" x2="560" y2="64" stroke="#E4E4E7" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <line x1="20" y1="100" x2="560" y2="100" stroke="#E4E4E7" stroke-width="1"/>
+      
+      <line x1="20" y1="78.4" x2="560" y2="78.4"
+            stroke="#52525B" stroke-width="1" stroke-dasharray="5,3"/>
+      <text x="14" y="81.4"
+            font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9" fill="#52525B" text-anchor="end">0%</text>
+      
+      <text x="14" y="13" font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9" fill="#71717A" text-anchor="end">+3.1%</text>
+      <text x="14" y="100" font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9" fill="#71717A" text-anchor="end">-1.0%</text>
+      
+      <path d="M 20.0,10 43.5,61.3 67.0,44.8 90.4,53.2 113.9,30.9 137.4,57.3 160.9,69.8 184.3,92.0 207.8,67.1 231.3,100 254.8,81.0 278.3,69.5 301.7,81.2 325.2,49.4 348.7,64.2 372.2,64.7 395.7,99.0 419.1,69.2 442.6,85.3 466.1,42.9 489.6,57.4 513.0,28.4 536.5,67.6 560.0,84.4 L560,100 L20,100 Z"
+            fill="url(#hero-grad-neg)" />
+      <polyline points="20.0,10 43.5,61.3 67.0,44.8 90.4,53.2 113.9,30.9 137.4,57.3 160.9,69.8 184.3,92.0 207.8,67.1 231.3,100 254.8,81.0 278.3,69.5 301.7,81.2 325.2,49.4 348.7,64.2 372.2,64.7 395.7,99.0 419.1,69.2 442.6,85.3 466.1,42.9 489.6,57.4 513.0,28.4 536.5,67.6 560.0,84.4"
+        fill="none"
+        stroke="#DC2626"
+        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="560.0" cy="84.4" r="4"
+        fill="#DC2626"/>
+      <circle cx="560.0" cy="84.4" r="7"
+        fill="none"
+        stroke="#DC2626"
+        stroke-width="1" opacity="0.3"/>
+      
+      
+      <text x="20.0" y="122"
+            font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9"
+            fill="#71717A"
+            text-anchor="middle"
+            >mar 2024</text>
+      
+      <text x="160.9" y="122"
+            font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9"
+            fill="#71717A"
+            text-anchor="middle"
+            >sep 2024</text>
+      
+      <text x="301.7" y="122"
+            font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9"
+            fill="#71717A"
+            text-anchor="middle"
+            >mar 2025</text>
+      
+      <text x="442.6" y="122"
+            font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9"
+            fill="#71717A"
+            text-anchor="middle"
+            >sep 2025</text>
+      
+      <text x="560.0" y="122"
+            font-family="'JetBrains Mono',ui-monospace,monospace"
+            font-size="9"
+            fill="#7C3AED"
+            text-anchor="middle"
+            font-weight="500">feb 2026</text>
+      
+    </svg>
+  </div>
+</div>
+
+
+
+<div class="h2-kpi-strip">
+  
+  <a class="h2-kpi-tile" href="indicador/inpc_mensual.html"
+     aria-label="Ver detalle de Inflación general">
+    <div class="h2-kpi-k">Inflación general</div>
+    <div class="h2-kpi-v pos">
+      4.59<span class="h2-kpi-u"></span>
+    </div>
+    
+    <div class="h2-kpi-d pos">
+      ↑ Subió 0.57 pp
+    </div>
+    
+    <div class="h2-kpi-period">(mar 2026)</div>
+    
+    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,12.8 3.9,12.4 7.8,9.3 11.7,3.0 15.7,9.2 19.6,13.6 23.5,11.7 27.4,13.9 31.3,17.5 35.2,24.1 39.1,22.2 43.0,21.9 47.0,20.5 50.9,15.3 54.8,16.3 58.7,25.0 62.6,24.4 66.5,22.3 70.4,24.4 74.3,21.9 78.3,23.1 82.2,22.0 86.1,19.6 90.0,13.5" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="13.5" r="1.6" fill="#16A34A"/></svg></div>
+    
+  </a>
+  
+  <a class="h2-kpi-tile" href="indicador/igae.html"
+     aria-label="Ver detalle de Actividad económica">
+    <div class="h2-kpi-k">Actividad económica</div>
+    <div class="h2-kpi-v pos">
+      0.11<span class="h2-kpi-u"></span>
+    </div>
+    
+    <div class="h2-kpi-d pos">
+      ↑ Creció 0.79 pp
+    </div>
+    
+    <div class="h2-kpi-period">(feb 2026)</div>
+    
+    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.4" x2="90" y2="13.4" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,11.1 3.9,25.0 7.8,4.8 11.7,12.9 15.7,3.0 19.6,22.1 23.5,11.2 27.4,21.8 31.3,10.1 35.2,24.8 39.1,4.4 43.0,6.0 47.0,15.6 50.9,12.9 54.8,10.5 58.7,13.1 62.6,16.3 66.5,10.7 70.4,17.4 74.3,5.6 78.3,15.6 82.2,13.9 86.1,19.2 90.0,12.5" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="12.5" r="1.6" fill="#16A34A"/></svg></div>
+    
+  </a>
+  
+  <a class="h2-kpi-tile" href="indicador/balanza_comercial.html"
+     aria-label="Ver detalle de Saldo balanza comercial">
+    <div class="h2-kpi-k">Saldo balanza comercial</div>
+    <div class="h2-kpi-v pos">
+      2,499<span class="h2-kpi-u">MDD</span>
+    </div>
+    
+    <div class="h2-kpi-d pos">
+      ↑ Creció 3478.89 MDD
+    </div>
+    
+    <div class="h2-kpi-period">(mar 2026)</div>
+    
+    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="12.2" x2="90" y2="12.2" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,23.4 3.9,13.6 7.8,23.8 11.7,14.1 15.7,25.0 19.6,14.5 23.5,10.5 27.4,16.8 31.3,16.0 35.2,13.1 39.1,7.5 43.0,10.9 47.0,13.1 50.9,12.2 54.8,11.1 58.7,12.3 62.6,12.4 66.5,16.1 70.4,6.8 74.3,14.0 78.3,14.9 82.2,16.9 86.1,15.7 90.0,3.0" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="3.0" r="1.6" fill="#16A34A"/></svg></div>
+    
+  </a>
+  
+  <a class="h2-kpi-tile" href="indicador/confianza_consumidor.html"
+     aria-label="Ver detalle de Confianza del consumidor">
+    <div class="h2-kpi-k">Confianza del consumidor</div>
+    <div class="h2-kpi-v pos">
+      -1.99<span class="h2-kpi-u">pts</span>
+    </div>
+    
+    <div class="h2-kpi-d pos">
+      ↑ Creció 0.01 pts
+    </div>
+    
+    <div class="h2-kpi-period">(mar 2026)</div>
+    
+    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.6" x2="90" y2="13.6" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,3.0 3.9,7.3 7.8,6.3 11.7,11.6 15.7,11.4 19.6,13.3 23.5,3.1 27.4,12.0 31.3,13.0 35.2,14.7 39.1,16.1 43.0,17.8 47.0,20.5 50.9,14.3 54.8,20.7 58.7,17.4 62.6,16.0 66.5,15.5 70.4,24.3 74.3,25.0 78.3,21.3 82.2,22.4 86.1,20.1 90.0,20.1" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="20.1" r="1.6" fill="#16A34A"/></svg></div>
+    
+  </a>
+  
+  <a class="h2-kpi-tile" href="indicador/enoe_mensual.html"
+     aria-label="Ver detalle de Tasa de desocupación">
+    <div class="h2-kpi-k">Tasa de desocupación</div>
+    <div class="h2-kpi-v pos">
+      2.80<span class="h2-kpi-u"></span>
+    </div>
+    
+    <div class="h2-kpi-d pos">
+      ↑ Subió 0.08 pp
+    </div>
+    
+    <div class="h2-kpi-period">(mar 2026)</div>
+    
+    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,11.9 3.9,16.7 7.8,7.8 11.7,8.5 15.7,5.8 19.6,9.9 23.5,25.0 27.4,11.2 31.3,14.0 35.2,14.0 39.1,13.3 43.0,16.7 47.0,16.1 50.9,9.2 54.8,14.0 58.7,18.1 62.6,12.6 66.5,7.1 70.4,16.1 74.3,9.9 78.3,15.4 82.2,13.3 86.1,8.5 90.0,3.0" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="3.0" r="1.6" fill="#16A34A"/></svg></div>
+    
+  </a>
+  
+  <a class="h2-kpi-tile" href="imss_explorador.html"
+     aria-label="Ver detalle de Empleo formal IMSS">
+    <div class="h2-kpi-k">Empleo formal IMSS</div>
+    <div class="h2-kpi-v pos">
+      22.75<span class="h2-kpi-u">M</span>
+    </div>
+    
+    <div class="h2-kpi-genero">
+      <span class="h2-kpi-hom">♂ 59.6%</span>
+      <span>·</span>
+      <span class="h2-kpi-muj">♀ 40.4%</span>
+    </div>
+    
+    <div class="h2-kpi-period">(abr 2026)</div>
+    
+  </a>
+  
+</div>
+
+
+
+<div class="h2-coyuntura-card">
+  <div class="h2-coyuntura-head">
+    <span class="h2-coyuntura-title">Lectura de coyuntura</span>
+    
+    <span class="h2-coyuntura-fecha">Lectura macro al 18 de mayo</span>
+    
+    <a href="reporte.html" class="h2-coyuntura-link">Ver reporte completo →</a>
+  </div>
+  <div class="h2-coyuntura-body">
+    
+    <p class="h2-coyuntura-p">La inflación general anual cerró marzo de 2026 en 4.59%, con un alza de 57 puntos base respecto al mes previo, lo que la aleja del objetivo del Banco de México. La inflación subyacente se ubicó en 4.45% anual, con una ligera baja de 5 puntos base, señal de que las presiones de demanda se mantienen contenidas. El INPP sin petróleo escaló a 2.46% anual, con un rebote de 80 puntos base mensual, lo que anticipa posibles presiones de costos hacia el consumidor en los próximos meses. El vector de precios muestra divergencia: la inflación no subyacente jalando al alza el INPC mientras la subyacente se estabiliza.</p>
+    
+    <p class="h2-coyuntura-p">El IGAE registró una variación mensual de 0.11% real en febrero de 2026, recuperándose 79 puntos base frente a enero, aunque en términos anuales cayó 0.27%, profundizando 76 puntos base la contracción interanual. El PIB del cuarto trimestre de 2025 creció 2.67% trimestral desestacionalizado, un rebote de 3.39 puntos, pero la estimación preliminar del PIB anual desestacionalizado para el primer trimestre de 2026 apenas alcanzó 0.05%, con una caída de 1.73 puntos respecto al trimestre anterior. La actividad industrial avanzó 0.40% mensual real en febrero, con una recuperación de 1.48 puntos, mientras que el volumen de producción manufacturero creció 3.43% anual en el mismo mes, aunque la construcción mostró señales mixtas con el valor de producción del ENEC creciendo apenas 0.33% anual. La inversión fija bruta cayó 2.18% anual en enero de 2026, acumulando presión sobre la capacidad productiva futura.</p>
+    
+    <p class="h2-coyuntura-p">La balanza comercial registró un superávit de 2,499 millones de dólares en marzo de 2026, con una mejora de 3,479 millones frente al mes anterior, impulsada por exportaciones que crecieron 23.86% anual mientras las importaciones avanzaron 19.93% anual. En el mercado laboral, la tasa de desocupación se situó en 2.80% de la PEA en marzo, prácticamente estable, pero la tasa de participación cayó 53 puntos base a 58.83% y la informalidad subió 17 puntos base a 54.99%, lo que sugiere deterioro en la calidad del empleo. La confianza del consumidor mantiene terreno negativo con una diferencia anual de -1.99 puntos en marzo, y los indicadores de expectativas empresariales del EMOE muestran señales mixtas, con el ICE mejorando 52 puntos base en abril mientras el IPM sigue en contracción anual de -0.17 puntos.</p>
+    
+  </div>
+</div>
+
+
+
+<div class="h2-section-row">
+  <span class="h2-section-title">Indicadores por categoría</span>
+  <span class="h2-section-sub">32 series · BIE-INEGI</span>
+</div>
+<div class="h2-cat-grid">
+  
+  <div class="h2-cat-card">
+    <div class="h2-cat-head">
+      <span class="h2-cat-name">Macro</span>
+      <span class="h2-cat-n">3</span>
+    </div>
+    
+    <a class="h2-cat-row" href="indicador/pib_anual.html"
+       aria-label="PIB anual, variación real">
+      <span class="h2-cat-row-name">PIB anual, variación real</span>
+      <span class="h2-cat-row-val neg">
+        1.35%
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 1.76 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="12.2" x2="90" y2="12.2" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,6.8 4.5,9.0 9.0,4.9 13.5,9.1 18.0,10.8 22.5,21.9 27.0,4.6 31.5,7.0 36.0,6.8 40.5,10.9 45.0,8.4 49.5,8.1 54.0,9.5 58.5,9.4 63.0,9.2 67.5,12.8 72.0,25.0 76.5,3.0 81.0,6.6 85.5,7.5 90.0,10.2" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="10.2" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/pib_trimestral.html"
+       aria-label="PIB Total, variación trimestral y anual">
+      <span class="h2-cat-row-name">PIB Total, variación trimestral y anual</span>
+      <span class="h2-cat-row-val neg">
+        0.05%
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 1.74 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="14.6" x2="90" y2="14.6" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,25.0 3.9,18.8 7.8,16.4 11.7,15.9 15.7,3.0 19.6,12.0 23.5,13.6 27.4,13.3 31.3,13.1 35.2,12.2 39.1,12.3 43.0,12.7 47.0,12.9 50.9,12.9 54.8,13.5 58.7,13.7 62.6,13.6 66.5,13.9 70.4,14.5 74.3,14.3 78.3,14.6 82.2,14.6 86.1,13.7 90.0,14.6" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="14.6" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/pib_por_actividad.html"
+       aria-label="PIB por actividad">
+      <span class="h2-cat-row-name">PIB por actividad</span>
+      <span class="h2-cat-row-val neg">
+        0.73%
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 1.43 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,18.0 6.0,3.0 12.0,3.4 18.0,4.8 24.0,8.1 30.0,8.7 36.0,15.6 42.0,13.3 48.0,12.1 54.0,16.7 60.0,18.2 66.0,21.6 72.0,25.0 78.0,21.9 84.0,16.2 90.0,24.6" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="24.6" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+  </div>
+  
+  <div class="h2-cat-card">
+    <div class="h2-cat-head">
+      <span class="h2-cat-name">Precios</span>
+      <span class="h2-cat-n">4</span>
+    </div>
+    
+    <a class="h2-cat-row" href="indicador/inflacion_resumen.html"
+       aria-label="Inflación anual INPC (resumen)">
+      <span class="h2-cat-row-name">Inflación anual INPC (resumen)</span>
+      <span class="h2-cat-row-val pos">
+        4.59%
+      </span>
+      <span class="h2-cat-row-d pos">
+        ↑ 0.57 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,16.4 8.2,6.5 16.4,8.5 24.5,25.0 32.7,23.8 40.9,19.9 49.1,23.8 57.3,19.1 65.5,21.3 73.6,19.3 81.8,14.6 90.0,3.0" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="3.0" r="1.6" fill="#16A34A"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/inpc_quincenal.html"
+       aria-label="INPC quincenal">
+      <span class="h2-cat-row-name">INPC quincenal</span>
+      <span class="h2-cat-row-val neg">
+        4.53%
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 0.02 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,17.0 3.9,10.8 7.8,3.2 11.7,5.3 15.7,12.6 19.6,23.7 23.5,25.0 27.4,24.8 31.3,21.7 35.2,20.0 39.1,19.3 43.0,22.1 47.0,24.6 50.9,22.5 54.8,15.2 58.7,20.4 62.6,21.6 66.5,19.5 70.4,18.5 74.3,16.6 78.3,12.6 82.2,3.0 86.1,4.5 90.0,4.9" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="4.9" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/inpc_mensual.html"
+       aria-label="Índice Nacional de Precios al Consumidor">
+      <span class="h2-cat-row-name">Índice Nacional de Precios al Consumidor</span>
+      <span class="h2-cat-row-val pos">
+        4.59%
+      </span>
+      <span class="h2-cat-row-d pos">
+        ↑ 0.57 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,12.8 3.9,12.4 7.8,9.3 11.7,3.0 15.7,9.2 19.6,13.6 23.5,11.7 27.4,13.9 31.3,17.5 35.2,24.1 39.1,22.2 43.0,21.9 47.0,20.5 50.9,15.3 54.8,16.3 58.7,25.0 62.6,24.4 66.5,22.3 70.4,24.4 74.3,21.9 78.3,23.1 82.2,22.0 86.1,19.6 90.0,13.5" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="13.5" r="1.6" fill="#16A34A"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/inpp.html"
+       aria-label="Índice Nacional de Precios Productor">
+      <span class="h2-cat-row-name">Índice Nacional de Precios Productor</span>
+      <span class="h2-cat-row-val pos">
+        2.46%
+      </span>
+      <span class="h2-cat-row-d pos">
+        ↑ 0.80 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,22.2 3.9,19.5 7.8,13.9 11.7,12.1 15.7,13.3 19.6,11.5 23.5,11.4 27.4,7.9 31.3,4.8 35.2,4.1 39.1,3.0 43.0,5.0 47.0,5.7 50.9,6.9 54.8,12.6 58.7,16.6 62.6,17.7 66.5,19.0 70.4,18.8 74.3,20.9 78.3,21.7 82.2,23.4 86.1,25.0 90.0,22.2" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="22.2" r="1.6" fill="#16A34A"/></svg></div>
+    </a>
+    
+  </div>
+  
+  <div class="h2-cat-card">
+    <div class="h2-cat-head">
+      <span class="h2-cat-name">Actividad</span>
+      <span class="h2-cat-n">7</span>
+    </div>
+    
+    <a class="h2-cat-row" href="indicador/igae_ioae_resumen.html"
+       aria-label="IGAE e IOAE resumen">
+      <span class="h2-cat-row-name">IGAE e IOAE resumen</span>
+      <span class="h2-cat-row-val ">
+        —
+      </span>
+      <span class="h2-cat-row-d ">
+        —
+      </span>
+      <div class="h2-cat-row-spark"></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/igae.html"
+       aria-label="Indicador Global de la Actividad Económica">
+      <span class="h2-cat-row-name">Indicador Global de la Actividad Económica</span>
+      <span class="h2-cat-row-val neg">
+        -0.27%
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 0.76 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="19.7" x2="90" y2="19.7" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,3.0 3.9,15.5 7.8,11.5 11.7,13.6 15.7,8.1 19.6,14.6 23.5,17.6 27.4,23.1 31.3,17.0 35.2,25.0 39.1,20.3 43.0,17.6 47.0,20.4 50.9,12.6 54.8,16.3 58.7,16.4 62.6,24.8 66.5,17.5 70.4,21.4 74.3,11.0 78.3,14.6 82.2,7.5 86.1,17.1 90.0,21.2" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="21.2" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/actividad_industrial.html"
+       aria-label="Indicador Mensual de la Actividad Industrial">
+      <span class="h2-cat-row-name">Indicador Mensual de la Actividad Industrial</span>
+      <span class="h2-cat-row-val pos">
+        0.40%
+      </span>
+      <span class="h2-cat-row-d pos">
+        ↑ 1.48 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.8" x2="90" y2="13.8" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,10.8 3.9,17.2 7.8,13.2 11.7,12.4 15.7,9.6 19.6,17.1 23.5,9.9 27.4,25.0 31.3,12.9 35.2,21.9 39.1,11.9 43.0,3.0 47.0,18.1 50.9,14.6 54.8,10.2 58.7,16.1 62.6,20.2 66.5,15.3 70.4,15.1 74.3,8.6 78.3,10.2 82.2,13.0 86.1,20.5 90.0,11.2" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="11.2" r="1.6" fill="#16A34A"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/consumo_privado.html"
+       aria-label="Indicador Mensual del Consumo Privado">
+      <span class="h2-cat-row-name">Indicador Mensual del Consumo Privado</span>
+      <span class="h2-cat-row-val neg">
+        2.66%
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 2.76 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="19.6" x2="90" y2="19.6" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,3.8 3.9,3.0 7.8,8.5 11.7,10.7 15.7,13.5 19.6,11.5 23.5,14.0 27.4,17.5 31.3,21.1 35.2,20.0 39.1,25.0 43.0,22.7 47.0,22.6 50.9,23.0 54.8,17.9 58.7,19.0 62.6,17.2 66.5,18.5 70.4,15.3 74.3,13.6 78.3,8.4 82.2,12.3 86.1,5.0 90.0,12.4" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="12.4" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/fbcf.html"
+       aria-label="Formación Bruta de Capital Fijo">
+      <span class="h2-cat-row-name">Formación Bruta de Capital Fijo</span>
+      <span class="h2-cat-row-val neg">
+        -2.18%
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 0.49 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.9" x2="90" y2="13.9" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,3.0 3.9,4.3 7.8,3.1 11.7,7.6 15.7,11.7 19.6,6.6 23.5,9.9 27.4,14.7 31.3,18.4 35.2,15.0 39.1,20.5 43.0,21.6 47.0,21.5 50.9,20.2 54.8,23.4 58.7,21.4 62.6,21.9 66.5,22.7 70.4,25.0 74.3,23.7 78.3,20.7 82.2,20.5 86.1,15.9 90.0,16.4" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="16.4" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/balanza_comercial.html"
+       aria-label="Balanza Comercial de Mercancías">
+      <span class="h2-cat-row-name">Balanza Comercial de Mercancías</span>
+      <span class="h2-cat-row-val pos">
+        23.86%
+      </span>
+      <span class="h2-cat-row-d pos">
+        ↑ 7.97 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,22.5 3.9,20.4 7.8,25.0 11.7,19.2 15.7,23.3 19.6,24.4 23.5,18.7 27.4,18.0 31.3,22.9 35.2,19.8 39.1,24.6 43.0,19.3 47.0,18.2 50.9,22.5 54.8,17.8 58.7,22.5 62.6,15.3 66.5,16.1 70.4,12.1 74.3,14.6 78.3,12.8 82.2,14.0 86.1,10.5 90.0,3.0" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="3.0" r="1.6" fill="#16A34A"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/ind_ciclicos.html"
+       aria-label="Sistema de Indicadores Cíclicos">
+      <span class="h2-cat-row-name">Sistema de Indicadores Cíclicos</span>
+      <span class="h2-cat-row-val neg">
+        0.09 pts
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 0.01 pts
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="14.3" x2="90" y2="14.3" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,11.2 3.9,14.9 7.8,19.3 11.7,22.5 15.7,24.4 19.6,25.0 23.5,24.4 27.4,23.7 31.3,22.5 35.2,21.9 39.1,20.6 43.0,18.7 47.0,16.2 50.9,11.8 54.8,6.8 58.7,3.6 62.6,3.0 66.5,3.6 70.4,4.9 74.3,6.1 78.3,7.4 82.2,8.0 86.1,8.0 90.0,8.7" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="8.7" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+  </div>
+  
+  <div class="h2-cat-card">
+    <div class="h2-cat-head">
+      <span class="h2-cat-name">Automotriz</span>
+      <span class="h2-cat-n">2</span>
+    </div>
+    
+    <a class="h2-cat-row" href="indicador/autos_ligeros.html"
+       aria-label="Industria Automotriz, vehículos ligeros">
+      <span class="h2-cat-row-name">Industria Automotriz, vehículos ligeros</span>
+      <span class="h2-cat-row-val pos">
+        2.40%
+      </span>
+      <span class="h2-cat-row-d pos">
+        ↑ 2.70 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="17.2" x2="90" y2="17.2" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,14.4 7.5,23.6 15.0,17.1 22.5,25.0 30.0,16.3 37.5,19.8 45.0,13.9 52.5,5.1 60.0,17.7 67.5,9.3 75.0,3.0 82.5,17.7 90.0,13.4" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="13.4" r="1.6" fill="#16A34A"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/autos_pesados.html"
+       aria-label="Industria Automotriz, vehículos pesados">
+      <span class="h2-cat-row-name">Industria Automotriz, vehículos pesados</span>
+      <span class="h2-cat-row-val pos">
+        -18.60%
+      </span>
+      <span class="h2-cat-row-d pos">
+        ↑ 20.30 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,3.2 6.9,3.9 13.8,15.5 20.8,5.2 27.7,14.3 34.6,14.6 41.5,18.3 48.5,15.7 55.4,24.4 62.3,22.5 69.2,19.4 76.2,25.0 83.1,19.1 90.0,3.0" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="3.0" r="1.6" fill="#16A34A"/></svg></div>
+    </a>
+    
+  </div>
+  
+  <div class="h2-cat-card">
+    <div class="h2-cat-head">
+      <span class="h2-cat-name">Empleo</span>
+      <span class="h2-cat-n">3</span>
+    </div>
+    
+    <a class="h2-cat-row" href="indicador/enoe_trimestral.html"
+       aria-label="Encuesta Nacional de Ocupación y Empleo (trimestral)">
+      <span class="h2-cat-row-name">Encuesta Nacional de Ocupación y Empleo (trimestral)</span>
+      <span class="h2-cat-row-val neg">
+        2.50%
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 0.10 pp
+      </span>
+      <div class="h2-cat-row-spark"></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/enoe_mensual.html"
+       aria-label="ENOE, tasas mensuales de participación, subocupación, desocupación e informalidad">
+      <span class="h2-cat-row-name">ENOE, tasas mensuales de participación, subocupación, desocupación e informalidad</span>
+      <span class="h2-cat-row-val pos">
+        2.80%
+      </span>
+      <span class="h2-cat-row-d pos">
+        ↑ 0.08 pp
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,11.9 3.9,16.7 7.8,7.8 11.7,8.5 15.7,5.8 19.6,9.9 23.5,25.0 27.4,11.2 31.3,14.0 35.2,14.0 39.1,13.3 43.0,16.7 47.0,16.1 50.9,9.2 54.8,14.0 58.7,18.1 62.6,12.6 66.5,7.1 70.4,16.1 74.3,9.9 78.3,15.4 82.2,13.3 86.1,8.5 90.0,3.0" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="3.0" r="1.6" fill="#16A34A"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="imss_explorador.html"
+       aria-label="Empleo formal IMSS">
+      <span class="h2-cat-row-name">Empleo formal IMSS</span>
+      <span class="h2-cat-row-val pos">
+        22.7 M
+      </span>
+      <span class="h2-cat-row-d pos">
+        ↑ 0.11 %
+      </span>
+      <div class="h2-cat-row-spark"></div>
+    </a>
+    
+  </div>
+  
+  <div class="h2-cat-card">
+    <div class="h2-cat-head">
+      <span class="h2-cat-name">Regional</span>
+      <span class="h2-cat-n">4</span>
+    </div>
+    
+    <a class="h2-cat-row" href="indicador/export_entidad.html"
+       aria-label="Exportaciones por Entidad Federativa">
+      <span class="h2-cat-row-name">Exportaciones por Entidad Federativa</span>
+      <span class="h2-cat-row-val ">
+        18.18%
+      </span>
+      <span class="h2-cat-row-d ">
+        —
+      </span>
+      <div class="h2-cat-row-spark"></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/pib_estatal.html"
+       aria-label="PIB estatal, variación anual real">
+      <span class="h2-cat-row-name">PIB estatal, variación anual real</span>
+      <span class="h2-cat-row-val ">
+        15.32%
+      </span>
+      <span class="h2-cat-row-d ">
+        —
+      </span>
+      <div class="h2-cat-row-spark"></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/itaee_estatal.html"
+       aria-label="ITAEE, actividad económica por entidad (trimestral)">
+      <span class="h2-cat-row-name">ITAEE, actividad económica por entidad (trimestral)</span>
+      <span class="h2-cat-row-val ">
+        12.01%
+      </span>
+      <span class="h2-cat-row-d ">
+        —
+      </span>
+      <div class="h2-cat-row-spark"></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/imai_estatal.html"
+       aria-label="IMAI estatal, actividad industrial por entidad">
+      <span class="h2-cat-row-name">IMAI estatal, actividad industrial por entidad</span>
+      <span class="h2-cat-row-val ">
+        150.29%
+      </span>
+      <span class="h2-cat-row-d ">
+        —
+      </span>
+      <div class="h2-cat-row-spark"></div>
+    </a>
+    
+  </div>
+  
+  <div class="h2-cat-card">
+    <div class="h2-cat-head">
+      <span class="h2-cat-name">Sentimiento</span>
+      <span class="h2-cat-n">4</span>
+    </div>
+    
+    <a class="h2-cat-row" href="indicador/confianza_consumidor.html"
+       aria-label="Indicador de Confianza del Consumidor">
+      <span class="h2-cat-row-name">Indicador de Confianza del Consumidor</span>
+      <span class="h2-cat-row-val neg">
+        -0.27 pts
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 0.58 pts
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="15.5" x2="90" y2="15.5" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,14.1 3.9,20.3 7.8,10.7 11.7,19.1 15.7,14.5 19.6,18.0 23.5,3.0 27.4,23.7 31.3,18.6 35.2,16.6 39.1,17.8 43.0,17.1 47.0,18.7 50.9,9.6 54.8,21.6 58.7,13.5 62.6,12.0 66.5,17.3 70.4,17.9 74.3,25.0 78.3,12.4 82.2,18.4 86.1,13.8 90.0,17.0" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="17.0" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/emoe_ipm.html"
+       aria-label="EMOE Indicador de Pedidos Manufactureros">
+      <span class="h2-cat-row-name">EMOE Indicador de Pedidos Manufactureros</span>
+      <span class="h2-cat-row-val neg">
+        -0.60 pts
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 1.21 pts
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="15.7" x2="90" y2="15.7" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,14.9 3.9,22.7 7.8,16.1 11.7,3.0 15.7,19.9 19.6,25.0 23.5,7.5 27.4,16.0 31.3,18.7 35.2,13.7 39.1,15.0 43.0,17.3 47.0,17.2 50.9,14.0 54.8,19.4 58.7,15.9 62.6,16.6 66.5,6.5 70.4,24.9 74.3,20.6 78.3,5.1 82.2,17.4 86.1,14.0 90.0,17.4" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="17.4" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/emoe_iat.html"
+       aria-label="EMOE Indicadores Agregados de Tendencia">
+      <span class="h2-cat-row-name">EMOE Indicadores Agregados de Tendencia</span>
+      <span class="h2-cat-row-val neg">
+        -1.29 pts
+      </span>
+      <span class="h2-cat-row-d neg">
+        ↓ 3.21 pts
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="11.8" x2="90" y2="11.8" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,7.2 3.9,15.2 7.8,3.9 11.7,4.0 15.7,25.0 19.6,18.2 23.5,3.8 27.4,15.8 31.3,7.3 35.2,13.7 39.1,14.0 43.0,9.6 47.0,12.0 50.9,16.1 54.8,10.2 58.7,14.8 62.6,9.3 66.5,4.1 70.4,18.9 74.3,15.2 78.3,9.1 82.2,14.9 86.1,3.0 90.0,17.7" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="17.7" r="1.6" fill="#DC2626"/></svg></div>
+    </a>
+    
+    <a class="h2-cat-row" href="indicador/emoe_ice.html"
+       aria-label="EMOE Indicador Global de Confianza Empresarial">
+      <span class="h2-cat-row-name">EMOE Indicador Global de Confianza Empresarial</span>
+      <span class="h2-cat-row-val pos">
+        -0.17 pts
+      </span>
+      <span class="h2-cat-row-d pos">
+        ↑ 0.19 pts
+      </span>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="10.6" x2="90" y2="10.6" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,13.1 3.9,22.3 7.8,7.7 11.7,16.5 15.7,25.0 19.6,3.0 23.5,13.6 27.4,7.3 31.3,14.8 35.2,21.8 39.1,17.0 43.0,16.1 47.0,10.2 50.9,10.8 54.8,7.8 58.7,7.7 62.6,10.3 66.5,17.1 70.4,11.9 74.3,11.9 78.3,11.8 82.2,4.9 86.1,13.5 90.0,11.9" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="11.9" r="1.6" fill="#16A34A"/></svg></div>
+    </a>
+    
+  </div>
+  
+</div>
+
+
+<div class="h2-section-row">
+  <span class="h2-section-title">Todos los indicadores</span>
+  <a href="comparar.html" class="h2-section-link">Ver análisis comparativos →</a>
+</div>
+<div class="h2-bottom-layout">
+
+  <div class="h2-tbl-card">
+    <div class="h2-tbl-head">
+      <span class="h2-tbl-title">Indicadores económicos</span>
+      <div class="h2-tbl-actions">
+        <div class="indic-search" style="min-width:160px">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" stroke-width="2"/>
+            <path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input id="tbl-search-v3" type="search" placeholder="Buscar" aria-label="Buscar indicador">
+        </div>
+        <select id="tbl-cat-filter" class="indic-btn" aria-label="Filtrar por categoría"
+                style="appearance:auto;padding-right:10px">
+          <option value="">Todas</option>
+          
+          
+            
+              
+              <option value="precios">Precios</option>
+            
+          
+            
+              
+              <option value="actividad">Actividad</option>
+            
+          
+            
+          
+            
+              
+              <option value="sentimiento">Sentimiento</option>
+            
+          
+            
+              
+              <option value="empleo">Empleo</option>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+              <option value="encuestas">Encuestas</option>
+            
+          
+            
+          
+            
+          
+            
+          
+        </select>
+        <a href="data/tabla_resumen.csv" download class="indic-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <path d="M12 4v12M7 11l5 5 5-5M5 20h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          CSV
+        </a>
+      </div>
+    </div>
+    <div class="indic-tbl-wrap">
+      <table class="indic-tbl" id="indic-tbl-v3">
+        <thead>
+          <tr>
+            <th>Indicador</th>
+            <th>Periodo</th>
+            <th class="num">Valor</th>
+            <th class="num">Variación</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr class="indic-row" data-nombre="inpc anual" data-categoria="precios">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/inpc_mensual.html"
+                 aria-label="Ver detalle de INPC anual">
+                <strong>INPC anual</strong>
+              </a>
+            </td>
+            <td class="muted">mar 2026</td>
+            <td class="num">4.59 %</td>
+            <td class="num">
+              <div class="cell-delta delta-up">
+                <span class="delta-arrow" aria-hidden="true">↑</span>
+                <span>+0.57 pp</span>
+              </div>
+              <div class="delta-sub">Anual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="igae anual" data-categoria="actividad">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/igae.html"
+                 aria-label="Ver detalle de IGAE anual">
+                <strong>IGAE anual</strong>
+              </a>
+            </td>
+            <td class="muted">feb 2026</td>
+            <td class="num">-0.27 %</td>
+            <td class="num">
+              <div class="cell-delta delta-down">
+                <span class="delta-arrow" aria-hidden="true">↓</span>
+                <span>-0.76 pp</span>
+              </div>
+              <div class="delta-sub">Anual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="exportaciones" data-categoria="actividad">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/balanza_comercial.html"
+                 aria-label="Ver detalle de Exportaciones">
+                <strong>Exportaciones</strong>
+              </a>
+            </td>
+            <td class="muted">mar 2026</td>
+            <td class="num">23.86 %</td>
+            <td class="num">
+              <div class="cell-delta delta-up">
+                <span class="delta-arrow" aria-hidden="true">↑</span>
+                <span>+7.97 pp</span>
+              </div>
+              <div class="delta-sub">Anual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="conf. consumidor" data-categoria="sentimiento">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/confianza_consumidor.html"
+                 aria-label="Ver detalle de Conf. consumidor">
+                <strong>Conf. consumidor</strong>
+              </a>
+            </td>
+            <td class="muted">mar 2026</td>
+            <td class="num">-0.27 pts</td>
+            <td class="num">
+              <div class="cell-delta delta-down">
+                <span class="delta-arrow" aria-hidden="true">↓</span>
+                <span>-0.58 pts</span>
+              </div>
+              <div class="delta-sub">Mensual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="desocupación (enoe mensual)" data-categoria="empleo">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/enoe_mensual.html"
+                 aria-label="Ver detalle de Desocupación (ENOE mensual)">
+                <strong>Desocupación (ENOE mensual)</strong>
+              </a>
+            </td>
+            <td class="muted">mar 2026</td>
+            <td class="num">2.80 %</td>
+            <td class="num">
+              <div class="cell-delta delta-up">
+                <span class="delta-arrow" aria-hidden="true">↑</span>
+                <span>+0.08 pp</span>
+              </div>
+              <div class="delta-sub">Mensual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="empleo formal imss" data-categoria="empleo">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="imss_explorador.html"
+                 aria-label="Ver detalle de Empleo formal IMSS">
+                <strong>Empleo formal IMSS</strong>
+              </a>
+            </td>
+            <td class="muted">abr 2026</td>
+            <td class="num">22.7 M</td>
+            <td class="num">
+              <div class="cell-delta delta-up">
+                <span class="delta-arrow" aria-hidden="true">↑</span>
+                <span>+0.11%</span>
+              </div>
+              <div class="delta-sub">Mensual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="imai total" data-categoria="actividad">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/actividad_industrial.html"
+                 aria-label="Ver detalle de IMAI total">
+                <strong>IMAI total</strong>
+              </a>
+            </td>
+            <td class="muted">feb 2026</td>
+            <td class="num">0.40 %</td>
+            <td class="num">
+              <div class="cell-delta delta-up">
+                <span class="delta-arrow" aria-hidden="true">↑</span>
+                <span>+1.48 pp</span>
+              </div>
+              <div class="delta-sub">Mensual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="fbcf anual" data-categoria="actividad">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/fbcf.html"
+                 aria-label="Ver detalle de FBCF anual">
+                <strong>FBCF anual</strong>
+              </a>
+            </td>
+            <td class="muted">ene 2026</td>
+            <td class="num">-2.18 %</td>
+            <td class="num">
+              <div class="cell-delta delta-down">
+                <span class="delta-arrow" aria-hidden="true">↓</span>
+                <span>-0.49 pp</span>
+              </div>
+              <div class="delta-sub">Anual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="consumo privado" data-categoria="actividad">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/consumo_privado.html"
+                 aria-label="Ver detalle de Consumo privado">
+                <strong>Consumo privado</strong>
+              </a>
+            </td>
+            <td class="muted">ene 2026</td>
+            <td class="num">2.66 %</td>
+            <td class="num">
+              <div class="cell-delta delta-down">
+                <span class="delta-arrow" aria-hidden="true">↓</span>
+                <span>-2.76 pp</span>
+              </div>
+              <div class="delta-sub">Anual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="menudeo personal" data-categoria="encuestas">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/comercio_menudeo.html"
+                 aria-label="Ver detalle de Menudeo personal">
+                <strong>Menudeo personal</strong>
+              </a>
+            </td>
+            <td class="muted">feb 2026</td>
+            <td class="num">-0.01 %</td>
+            <td class="num">
+              <div class="cell-delta delta-down">
+                <span class="delta-arrow" aria-hidden="true">↓</span>
+                <span>-0.39 pp</span>
+              </div>
+              <div class="delta-sub">Mensual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="servicios ingresos" data-categoria="encuestas">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/servicios.html"
+                 aria-label="Ver detalle de Servicios ingresos">
+                <strong>Servicios ingresos</strong>
+              </a>
+            </td>
+            <td class="muted">feb 2026</td>
+            <td class="num">-1.80 %</td>
+            <td class="num">
+              <div class="cell-delta delta-down">
+                <span class="delta-arrow" aria-hidden="true">↓</span>
+                <span>-1.97 pp</span>
+              </div>
+              <div class="delta-sub">Mensual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="emim producción" data-categoria="encuestas">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/emim.html"
+                 aria-label="Ver detalle de EMIM producción">
+                <strong>EMIM producción</strong>
+              </a>
+            </td>
+            <td class="muted">feb 2026</td>
+            <td class="num">3.43 %</td>
+            <td class="num">
+              <div class="cell-delta delta-up">
+                <span class="delta-arrow" aria-hidden="true">↑</span>
+                <span>+6.20 pp</span>
+              </div>
+              <div class="delta-sub">Mensual</div>
+            </td>
+          </tr>
+          
+          <tr class="indic-row" data-nombre="enec valor" data-categoria="encuestas">
+            <td class="indic-row-name">
+              <a class="indic-row-link" href="indicador/enec.html"
+                 aria-label="Ver detalle de ENEC valor">
+                <strong>ENEC valor</strong>
+              </a>
+            </td>
+            <td class="muted">feb 2026</td>
+            <td class="num">0.33 %</td>
+            <td class="num">
+              <div class="cell-delta delta-down">
+                <span class="delta-arrow" aria-hidden="true">↓</span>
+                <span>-0.27 pp</span>
+              </div>
+              <div class="delta-sub">Mensual</div>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="h2-side-col">
+    <div class="h2-side-card">
+      <div class="h2-side-head">Próximas publicaciones</div>
+      
+        
+        <a class="h2-side-row" href="indicador/enec.html">
+          <div>
+            <div class="h2-side-name">Encuesta Nacional de Empresas Constructoras</div>
+            <div class="h2-side-sub">21 may 2026</div>
+          </div>
+          <span class="h2-side-badge badge-prog">
+            Próx.
+          </span>
+        </a>
+        
+        <a class="h2-side-row" href="indicador/comercio_mayoreo.html">
+          <div>
+            <div class="h2-side-name">Empresas Comerciales, comercio al por mayor</div>
+            <div class="h2-side-sub">21 may 2026</div>
+          </div>
+          <span class="h2-side-badge badge-prog">
+            Próx.
+          </span>
+        </a>
+        
+        <a class="h2-side-row" href="indicador/comercio_menudeo.html">
+          <div>
+            <div class="h2-side-name">Empresas Comerciales, comercio al por menor</div>
+            <div class="h2-side-sub">21 may 2026</div>
+          </div>
+          <span class="h2-side-badge badge-prog">
+            Próx.
+          </span>
+        </a>
+        
+        <a class="h2-side-row" href="indicador/servicios.html">
+          <div>
+            <div class="h2-side-name">Encuesta Mensual de Servicios</div>
+            <div class="h2-side-sub">21 may 2026</div>
+          </div>
+          <span class="h2-side-badge badge-prog">
+            Próx.
+          </span>
+        </a>
+        
+        <a class="h2-side-row" href="indicador/pib_anual.html">
+          <div>
+            <div class="h2-side-name">PIB anual, variación real</div>
+            <div class="h2-side-sub">22 may 2026</div>
+          </div>
+          <span class="h2-side-badge badge-prog">
+            Próx.
+          </span>
+        </a>
+        
+        <a class="h2-side-row" href="indicador/pib_anual.html">
+          <div>
+            <div class="h2-side-name">PIB anual, variación real</div>
+            <div class="h2-side-sub">22 may 2026</div>
+          </div>
+          <span class="h2-side-badge badge-prog">
+            Próx.
+          </span>
+        </a>
+        
+      
+      <a href="https://www.inegi.org.mx/app/saladeprensa/calendario/" target="_blank" rel="noopener"
+         class="h2-side-foot">Ver calendario completo →</a>
+    </div>
+  </div>
+
+</div>
+
+
+
+    <footer class="site-footer">
+      Datos oficiales del Banco de Información Económica (BIE-INEGI) vía API. Interpretaciones generadas con IA (DeepSeek) · no son posición oficial de la Secretaría de Economía.
+      <br>Build 18 de mayo de 2026.
+    </footer>
+  </main>
+</div>
+</body>
+</html>

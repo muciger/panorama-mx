@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indicador de Confianza del Consumidor · Panorama económico de México</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
+<script src="../assets/app.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Saltar al contenido</a>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand-block">
+      <a class="brand-gob" href="../index.html" aria-label="Inicio">
+        <div class="brand-gob-text">
+          <div class="brand-gob-line">Panorama MX</div>
+          <div class="brand-gob-line strong">INEGI · BIE</div>
+        </div>
+      </a>
+    </div>
+    <nav class="nav-list">
+      <a class="nav-item" href="../index.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12l9-9 9 9M5 10v10h14V10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Inicio</span>
+      </a>
+      <a class="nav-item" href="../reporte_semanal.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="nav-label">Reporte semanal</span>
+      </a>
+      <a class="nav-item" href="../comparar.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Comparar</span>
+      </a>
+      <a class="nav-item" href="../imss_explorador.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Empleo IMSS</span>
+      </a>
+      <details class="nav-group-details" open id="nav-indicadores-details">
+        <summary class="nav-item nav-summary active" aria-haspopup="listbox">
+          <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18M7 14l4-4 4 4 5-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="nav-label nav-label-always">Indicadores</span>
+          <svg class="nav-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg>
+        </summary>
+        <div class="nav-sub">
+          
+          <div class="nav-sub-label">Resúmenes</div>
+          
+          <a class="nav-sub-item" href="../indicador/pib_anual.html">PIB anual (resumen)</a>
+          
+          <a class="nav-sub-item" href="../indicador/inflacion_resumen.html">Inflación (resumen)</a>
+          
+          <a class="nav-sub-item" href="../indicador/igae_ioae_resumen.html">IGAE/IOAE por sector</a>
+          
+          
+          <div class="nav-sub-label">Macro</div>
+          
+          <a class="nav-sub-item" href="../indicador/pib_trimestral.html">PIB trimestral</a>
+          
+          <a class="nav-sub-item" href="../indicador/pib_por_actividad.html">PIB por actividad</a>
+          
+          
+          <div class="nav-sub-label">Actividad</div>
+          
+          <a class="nav-sub-item" href="../indicador/igae.html">IGAE</a>
+          
+          <a class="nav-sub-item" href="../indicador/actividad_industrial.html">Actividad industrial</a>
+          
+          <a class="nav-sub-item" href="../indicador/consumo_privado.html">Consumo privado</a>
+          
+          <a class="nav-sub-item" href="../indicador/fbcf.html">FBCF</a>
+          
+          <a class="nav-sub-item" href="../indicador/balanza_comercial.html">Balanza comercial</a>
+          
+          <a class="nav-sub-item" href="../indicador/ind_ciclicos.html">Indicadores cíclicos</a>
+          
+          
+          <div class="nav-sub-label">Encuestas sectoriales</div>
+          
+          <a class="nav-sub-item" href="../indicador/emim.html">EMIM manufactura</a>
+          
+          <a class="nav-sub-item" href="../indicador/enec.html">ENEC construcción</a>
+          
+          <a class="nav-sub-item" href="../indicador/comercio_mayoreo.html">Comercio mayoreo</a>
+          
+          <a class="nav-sub-item" href="../indicador/comercio_menudeo.html">Comercio menudeo</a>
+          
+          <a class="nav-sub-item" href="../indicador/servicios.html">Servicios</a>
+          
+          
+          <div class="nav-sub-label">Precios</div>
+          
+          <a class="nav-sub-item" href="../indicador/inpc_mensual.html">INPC mensual</a>
+          
+          <a class="nav-sub-item" href="../indicador/inpc_quincenal.html">INPC quincenal</a>
+          
+          <a class="nav-sub-item" href="../indicador/inpp.html">INPP</a>
+          
+          
+          <div class="nav-sub-label">Empleo</div>
+          
+          <a class="nav-sub-item" href="../indicador/enoe_trimestral.html">ENOE trimestral</a>
+          
+          <a class="nav-sub-item" href="../indicador/enoe_mensual.html">ENOE mensual</a>
+          
+          
+          <div class="nav-sub-label">Automotriz</div>
+          
+          <a class="nav-sub-item" href="../indicador/autos_ligeros.html">Vehículos ligeros</a>
+          
+          <a class="nav-sub-item" href="../indicador/autos_pesados.html">Vehículos pesados</a>
+          
+          
+          <div class="nav-sub-label">Regional</div>
+          
+          <a class="nav-sub-item" href="../indicador/export_entidad.html">Exportaciones entidad</a>
+          
+          
+          <div class="nav-sub-label">Sentimiento</div>
+          
+          <a class="nav-sub-item active" aria-current="page" href="../indicador/confianza_consumidor.html">Confianza consumidor</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_ipm.html">EMOE IPM</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_iat.html">EMOE IAT</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_ice.html">EMOE ICE</a>
+          
+          
+        </div>
+      </details>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="updated-row">
+        <span class="status-dot status-ok"></span>
+        <div>
+          <div class="updated-label">Última actualización</div>
+          <div class="updated-value">18 de mayo de 2026</div>
+        </div>
+      </div>
+      <a href="mailto:german.mucino@gmail.com?subject=Tablero%20INEGI%20-%20Reporte%20de%20problema" class="feedback-link">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12c0 4.4-4 8-9 8-1.7 0-3.3-.4-4.7-1.1L3 20l1.4-3.7C3.5 15.1 3 13.6 3 12c0-4.4 4-8 9-8s9 3.6 9 8z" stroke-width="2"/></svg>
+        <span>Reportar problema</span>
+      </a>
+    </div>
+  </aside>
+
+  <main class="main" id="main-content" tabindex="-1">
+    <header class="topbar">
+      <div class="topbar-status">
+        <span class="status-dot status-ok"></span>
+        <span>Sistema actualizado</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="16" rx="2" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke-width="2"/></svg>
+        <span>18 de mayo de 2026</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9" stroke-width="2"/><path d="M12 7v5l3 3" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>08:30 h (Centro)</span>
+      </div>
+      <div class="topbar-spacer"></div>
+      <div class="topbar-search" id="topbar-search">
+        <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
+        <kbd class="topbar-search-kbd">/</kbd>
+        <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
+      </div>
+    </header>
+
+    
+
+<nav class="breadcrumb-nav" aria-label="Ruta">
+  <a class="breadcrumb" href="../index.html">Vista general</a>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-cat">Sentimiento</span>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-current">Indicador de Confianza del Consumidor</span>
+</nav>
+
+<div class="detail-header">
+  <div>
+    <h1 class="detail-title">Indicador de Confianza del Consumidor</h1>
+    <div class="detail-meta">
+      Categoría: <strong>Sentimiento</strong> · Unidad: <strong>pts</strong>
+       · Último periodo: <strong>mar-26</strong>
+      
+    </div>
+  </div>
+  <div class="detail-actions">
+    <a class="indic-btn" href="../data/confianza_consumidor.csv" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 4v12M7 11l5 5 5-5M5 20h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Descargar CSV</span>
+    </a>
+    
+    <a class="indic-btn" href="https://www.inegi.org.mx/app/saladeprensa/noticia/10754" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 4h6v6M10 14L20 4M19 13v6a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Boletín INEGI</span>
+    </a>
+    
+    
+  </div>
+</div>
+
+
+
+
+<div class="inegi-strip">
+  
+  <div class="inegi-strip-prox">Próxima publicación: 8 may 2026</div>
+  
+  <div class="inegi-tiles inegi-tiles-3">
+    
+    <div class="inegi-tile">
+      <div class="inegi-tile-head">ICC</div>
+      <div class="inegi-tile-period">mar-26</div>
+      <div class="inegi-tile-value inegi-flat">
+        
+        <span>44.1 pts</span>
+      </div>
+    </div>
+    
+    <div class="inegi-tile">
+      <div class="inegi-tile-head">Variación mensual</div>
+      <div class="inegi-tile-period">mar-26</div>
+      <div class="inegi-tile-value inegi-down">
+        <span class="inegi-arrow" aria-hidden="true">▼</span>
+        <span>-0.3 puntos</span>
+      </div>
+    </div>
+    
+    <div class="inegi-tile">
+      <div class="inegi-tile-head">Variación anual</div>
+      <div class="inegi-tile-period">mar-26</div>
+      <div class="inegi-tile-value inegi-down">
+        <span class="inegi-arrow" aria-hidden="true">▼</span>
+        <span>-2.0 puntos</span>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="inegi-headline">
+    <p>La confianza del consumidor retrocedió en marzo de 2026 y se ubicó en 44.1 puntos, nivel que se mantiene entre los más bajos del rango de datos disponible. La percepción sobre la situación económica del país y la disposición a comprar bienes durables se deterioraron.</p>
+    
+  </div>
+  
+</div>
+
+
+<div class="detail-grid">
+  <div class="chart-card">
+    <div class="chart-card-head">
+      <h3>Serie histórica con promedio móvil</h3>
+      
+      <div class="range-pills" id="range-pills" role="tablist" aria-label="Rango temporal del chart">
+        <button class="range-pill" data-range="12" type="button">1A</button>
+        <button class="range-pill" data-range="36" type="button">3A</button>
+        <button class="range-pill active" data-range="60" type="button">5A</button>
+        <button class="range-pill" data-range="120" type="button">10A</button>
+        <button class="range-pill" data-range="0" type="button">Todo</button>
+      </div>
+      
+    </div>
+    <div class="chart-container">
+      
+      <canvas id="detail-chart"></canvas>
+      
+    </div>
+    
+    <div class="legend">
+      <span><span class="swatch" style="background:#0891B2"></span>Serie principal</span>
+      <span><span class="swatch" style="background:#7C3AED"></span>Serie secundaria</span>
+      <span><span class="dashed" style="border-top-color:#18181B"></span>Promedio móvil 12M</span>
+    </div>
+    
+    <div class="productos-nota" style="margin-top:8px">La serie muestra la diferencia en puntos respecto al periodo anterior (var. mensual y anual), no el nivel absoluto del ICC. El umbral neutral del índice de nivel es 50 pts.</div>
+    
+    
+  </div>
+
+  <div class="stats-col">
+    <div class="stat-card">
+      <div class="label">Último valor</div>
+      <div class="valor">-0.3pts</div>
+      <div class="nota">Var. mensual · mar-26</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Δ vs MA12</div>
+      <div class="valor">-0.1pp</div>
+      <div class="nota">MA12: -0.2pts</div>
+    </div>
+    <div class="stat-card" id="proxima-pub-card" data-next-date="2026-05-08">
+      <div class="label">Próxima publicación</div>
+      <div class="valor-fecha" id="proxima-pub-valor">8 may 2026</div>
+      <div class="nota" id="proxima-pub-nota">Encuesta Nacional sobre Confianza del Consumidor (ENCO)</div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<section class="interp-section">
+  <header class="interp-section-head">
+    <h3>Lectura del indicador</h3>
+    <span class="interp-section-source">Análisis IA · deepseek + claude</span>
+  </header>
+
+  
+    
+    <div class="interp-diag-block">
+      <p>El indicador confirma que los hogares mantienen una visión pesimista sobre la economía, especialmente en lo que respecta a la situación presente del país. Esta cautela persistente sugiere que el consumo privado, motor clave de la demanda interna, podría enfrentar presiones adicionales en los próximos meses, reforzando un escenario de bajo dinamismo económico.</p>
+    </div>
+    
+    
+    <details class="interp-details">
+      <summary><span class="interp-summary-label">Ver lectura completa</span><span class="interp-summary-meta">3 párrafos</span></summary>
+      <div class="interp-prosa-block">
+        <p>El Indicador de Confianza del Consumidor (ICC), que mide la percepción de los hogares sobre su situación económica actual y futura, así como la del país, se ubicó en 44.1 puntos en marzo de 2026. Esto representó una caída mensual de 0.27 puntos y una disminución anual de 1.99 puntos. En términos prácticos, la confianza se mantiene por debajo del umbral de 50 puntos, nivel que separa el optimismo del pesimismo, lo que indica que los hogares siguen siendo cautelosos respecto a la economía.</p><p>Dentro de los componentes del ICC, el más afectado en el mes fue la percepción sobre la situación económica actual del país, que bajó 1.15 puntos respecto a febrero, mientras que la disposición a comprar bienes durables cayó 1.21 puntos. En contraste, las expectativas sobre la situación futura del hogar mejoraron ligeramente, al registrar un avance de 0.46 puntos en el mes, aunque sin revertir la tendencia general de deterioro que acumula el indicador en términos anuales.</p><p>La persistente debilidad del ICC refleja un entorno en el que los hogares mantienen una visión cautelosa sobre la economía nacional. El indicador acumula una caída de 1.99 puntos en términos anuales, con los componentes vinculados a la situación del país mostrando los retrocesos más pronunciados dentro del rango de datos disponible.</p>
+      </div>
+    </details>
+    
+  
+
+  <footer class="interp-section-foot">
+    Análisis asistido por IA. Verifica con el boletín INEGI antes de tomar decisiones de política.
+    
+    · <span title="El validador automático (claude) detectó 5 issues en el draft inicial y aplicó correcciones antes de publicar.">Versión revisada por validador automático.</span>
+    
+  </footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="analytics-grid" id="analytics-grid">
+  <div class="analytics-card">
+    <div class="analytics-card-head">
+      <h4>Estadísticos descriptivos · últimos 120 obs<span class="advanced-hint-off">desviación estándar y percentiles ocultos · activa "Datos avanzados" arriba</span></h4>
+    </div>
+    <table class="analytics-tbl">
+      <caption class="sr-only">Estadísticos descriptivos de Indicador de Confianza del Consumidor, últimos 120 periodos</caption>
+      <thead><tr><th scope="col">Métrica</th><th scope="col" class="num">Valor</th><th scope="col">Métrica</th><th scope="col" class="num">Valor</th></tr></thead>
+      <tbody>
+      <tr><td>Media</td><td class="num">0.06pts</td>
+          <td>Mediana</td><td class="num">0.15pts</td></tr>
+      <tr><td>Mínimo</td><td class="num">-10.25pts</td>
+          <td>Máximo</td><td class="num">6.14pts</td></tr>
+      <tr class="advanced"><td>Desv. estándar</td><td class="num">1.61pts</td>
+          <td>p25 / p75</td><td class="num">-0.6 / 0.6pts</td></tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="analytics-card">
+    <h4>Comparativos lag</h4>
+    <table class="analytics-tbl">
+      <caption class="sr-only">Comparativos históricos de Indicador de Confianza del Consumidor respecto al valor actual</caption>
+      <thead><tr><th scope="col">Periodo</th><th scope="col" class="num">Hace</th><th scope="col" class="num">Δ vs hoy</th></tr></thead>
+      <tbody>
+      
+        <tr><td>1m (feb-26)</td>
+            <td class="num">0.31pts</td>
+            <td class="num neg">-0.58pts</td></tr>
+      
+        <tr><td>3m (dic-25)</td>
+            <td class="num">0.57pts</td>
+            <td class="num neg">-0.84pts</td></tr>
+      
+        <tr><td>6m (sep-25)</td>
+            <td class="num">-0.32pts</td>
+            <td class="num pos">+0.05pts</td></tr>
+      
+        <tr><td>12m (mar-25)</td>
+            <td class="num">-0.28pts</td>
+            <td class="num pos">+0.01pts</td></tr>
+      
+        <tr><td>24m (mar-24)</td>
+            <td class="num">0.25pts</td>
+            <td class="num neg">-0.52pts</td></tr>
+      
+      </tbody>
+    </table>
+  </div>
+  
+  
+  <div class="analytics-card">
+    <h4>Récords históricos · mar-25 a mar-26</h4>
+    <div class="record-row">
+      <div class="record-card record-mejor">
+        <div class="record-label">Récord positivo</div>
+        <div class="record-valor">+6.14pts</div>
+        <div class="record-periodo">jul-18</div>
+      </div>
+      <div class="record-card record-peor">
+        <div class="record-label">Récord negativo</div>
+        <div class="record-valor">-10.25pts</div>
+        <div class="record-periodo">abr-20</div>
+      </div>
+      
+      <div class="record-card record-percentil advanced">
+        <div class="record-label">Posición actual</div>
+        <div class="record-valor">p36</div>
+        <div class="record-periodo">sobre 120 obs</div>
+      </div>
+      
+      
+      <div class="record-card record-zscore record-z-normal advanced">
+        <div class="record-label">Z-score</div>
+        <div class="record-valor">-0.20σ</div>
+        <div class="record-periodo">normal</div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>ICC y sus 5 componentes · diferencia anual desest</h3>
+    <div class="source">Hogar, país, posibilidades de compra · 60 meses</div>
+  </div>
+  
+  <div class="drilldown-saldo-cards">
+    
+    <div class="drilldown-stat-card saldo-neg">
+      <div class="label">ICC anual</div>
+      <div class="valor">-1.99 pts</div>
+    </div>
+    
+    <div class="drilldown-stat-card saldo-neg">
+      <div class="label">Hogar actual</div>
+      <div class="valor">-0.54 pts</div>
+    </div>
+    
+    <div class="drilldown-stat-card saldo-neg">
+      <div class="label">Hogar futura</div>
+      <div class="valor">-0.54 pts</div>
+    </div>
+    
+    <div class="drilldown-stat-card saldo-neg">
+      <div class="label">País actual</div>
+      <div class="valor">-3.31 pts</div>
+    </div>
+    
+    <div class="drilldown-stat-card saldo-neg">
+      <div class="label">País futura</div>
+      <div class="valor">-3.52 pts</div>
+    </div>
+    
+    <div class="drilldown-stat-card saldo-neg">
+      <div class="label">Compra durables</div>
+      <div class="valor">-2.02 pts</div>
+    </div>
+    
+  </div>
+  
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-icc-componentes"></canvas>
+  </div>
+</div>
+
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Perfil de componentes · mar-26 vs mar-25</h3>
+    <div class="source">Diferencia anual por componente · radar actual (sólido) vs hace 12 meses (punteado)</div>
+  </div>
+  <div class="drilldown-chart-wrap" style="height:320px">
+    <canvas id="chart-icc-radar"></canvas>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>Nivel del índice por componente</h3>
+    <div class="source">mar-26 · desestacionalizado · INEGI-BIE</div>
+  </div>
+  
+  <div class="meses-consec-badge meses-consec-bajo">
+    ▼
+    toda la serie histórica
+    bajo 50 pts
+    <span class="meses-consec-nivel">(44.13 pts)</span>
+  </div>
+  
+  <table class="analytics-tbl componentes-emoe-tbl">
+    <thead>
+      <tr>
+        <th>Componente</th>
+        <th class="num">Nivel (pts)</th>
+        <th class="num">Δ mensual (pts)</th>
+        <th class="num">Δ anual (pts)</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr class="bajo-umbral">
+        <td>ICC</td>
+        <td class="num"><strong>44.13</strong></td>
+        <td class="num neg">
+          -0.27
+        </td>
+        <td class="num neg">
+          -1.99
+        </td>
+      </tr>
+      
+      <tr class="sobre-umbral">
+        <td>Hogar: situación actual</td>
+        <td class="num"><strong>50.97</strong></td>
+        <td class="num pos">
+          +0.2
+        </td>
+        <td class="num neg">
+          -0.54
+        </td>
+      </tr>
+      
+      <tr class="sobre-umbral">
+        <td>Hogar: situación futura</td>
+        <td class="num"><strong>56.72</strong></td>
+        <td class="num pos">
+          +0.46
+        </td>
+        <td class="num neg">
+          -0.54
+        </td>
+      </tr>
+      
+      <tr class="bajo-umbral">
+        <td>País: situación actual</td>
+        <td class="num"><strong>38.83</strong></td>
+        <td class="num neg">
+          -1.15
+        </td>
+        <td class="num neg">
+          -3.31
+        </td>
+      </tr>
+      
+      <tr class="bajo-umbral">
+        <td>País: situación futura</td>
+        <td class="num"><strong>45.07</strong></td>
+        <td class="num neg">
+          -0.02
+        </td>
+        <td class="num neg">
+          -3.52
+        </td>
+      </tr>
+      
+      <tr class="bajo-umbral">
+        <td>Compra de duraderos</td>
+        <td class="num"><strong>29.13</strong></td>
+        <td class="num neg">
+          -1.21
+        </td>
+        <td class="num neg">
+          -2.02
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+  <div class="productos-nota">Índice de difusión: >50 indica expansión, &lt;50 contracción. Series desestacionalizadas con X-13ARIMA-SEATS. Base 2018.</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="chart-card">
+  <h3>Serie completa</h3>
+  <div class="table-wrap" style="box-shadow:none;border:none">
+    <table>
+      <caption class="sr-only">Serie histórica completa de Indicador de Confianza del Consumidor</caption>
+      
+      <thead>
+        <tr>
+          <th scope="col">Periodo</th>
+          <th scope="col" class="num">Var. mensual</th><th scope="col" class="num">Var. anual</th>
+          <th scope="col" class="num advanced">MA12</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        
+        <tr>
+          <td>mar-25</td>
+          
+            
+            <td class="num neg">-0.3</td>
+            
+          
+            
+            <td class="num neg">-1.3</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.1</td>
+        </tr>
+        
+        
+        <tr>
+          <td>abr-25</td>
+          
+            
+            <td class="num neg">-0.6</td>
+            
+          
+            
+            <td class="num neg">-2.1</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.2</td>
+        </tr>
+        
+        
+        <tr>
+          <td>may-25</td>
+          
+            
+            <td class="num pos">1.1</td>
+            
+          
+            
+            <td class="num neg">-0.2</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.0</td>
+        </tr>
+        
+        
+        <tr>
+          <td>jun-25</td>
+          
+            
+            <td class="num neg">-1.1</td>
+            
+          
+            
+            <td class="num neg">-2.2</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.2</td>
+        </tr>
+        
+        
+        <tr>
+          <td>jul-25</td>
+          
+            
+            <td class="num pos">0.4</td>
+            
+          
+            
+            <td class="num neg">-1.2</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.1</td>
+        </tr>
+        
+        
+        <tr>
+          <td>ago-25</td>
+          
+            
+            <td class="num pos">0.6</td>
+            
+          
+            
+            <td class="num neg">-0.7</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.1</td>
+        </tr>
+        
+        
+        <tr>
+          <td>sep-25</td>
+          
+            
+            <td class="num neg">-0.3</td>
+            
+          
+            
+            <td class="num neg">-0.6</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.1</td>
+        </tr>
+        
+        
+        <tr>
+          <td>oct-25</td>
+          
+            
+            <td class="num neg">-0.4</td>
+            
+          
+            
+            <td class="num neg">-3.3</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.3</td>
+        </tr>
+        
+        
+        <tr>
+          <td>nov-25</td>
+          
+            
+            <td class="num neg">-1.7</td>
+            
+          
+            
+            <td class="num neg">-3.5</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.3</td>
+        </tr>
+        
+        
+        <tr>
+          <td>dic-25</td>
+          
+            
+            <td class="num pos">0.6</td>
+            
+          
+            
+            <td class="num neg">-2.4</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.2</td>
+        </tr>
+        
+        
+        <tr>
+          <td>ene-26</td>
+          
+            
+            <td class="num neg">-0.5</td>
+            
+          
+            
+            <td class="num neg">-2.7</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.2</td>
+        </tr>
+        
+        
+        <tr>
+          <td>feb-26</td>
+          
+            
+            <td class="num pos">0.3</td>
+            
+          
+            
+            <td class="num neg">-2.0</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.2</td>
+        </tr>
+        
+        
+        <tr>
+          <td>mar-26</td>
+          
+            
+            <td class="num neg">-0.3</td>
+            
+          
+            
+            <td class="num neg">-2.0</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">-0.2</td>
+        </tr>
+        
+      </tbody>
+      
+    </table>
+  </div>
+  
+  <div class="detail-meta" style="margin-top:12px">
+    Fuente: <a href="https://www.inegi.org.mx/app/saladeprensa/noticia/10754" target="_blank" rel="noopener">Boletín INEGI · saladeprensa →</a>
+  </div>
+</div>
+
+
+
+<details class="metodologia-details">
+  <summary class="metodologia-summary">Nota metodológica · Indicador de Confianza del Consumidor (ICC) — ENCO</summary>
+  <div class="metodologia-body">
+    
+    <h4>Antecedentes y cobertura</h4>
+    <p>Mide la percepción de los consumidores sobre su situación económica actual y futura, y la del país. Continua desde abril de 2001. Levantamiento en las 32 ciudades más importantes del país.</p>
+    
+    
+    <h4>Periodicidad y publicación</h4>
+    <p>Mensual. Se publica conforme al Calendario de Difusión del INEGI.</p>
+    
+    
+    <h4>Cobertura geográfica</h4>
+    <p>32 ciudades principales del país.</p>
+    
+    
+    <h4>Fuentes de información</h4>
+    <p>INEGI y Banco de México. Encuesta Nacional sobre Confianza del Consumidor (ENCO). Levantamiento durante los primeros días del mes.</p>
+    
+    
+    
+    <h4>Ajuste estacional</h4>
+    <p>Series originales ajustadas estacionalmente con X-13ARIMA-SEATS.</p>
+    
+    
+    <div class="metodologia-links">
+      
+      <a class="metodologia-link" href="https://www.inegi.org.mx/programas/enco/" target="_blank" rel="noopener">Programa ENCO →</a>
+      
+    </div>
+    
+  </div>
+</details>
+
+
+<script id="page-data" type="application/json">{"view": "detail", "indicador": {"id": "confianza_consumidor", "tabular": false, "series": {"Var. mensual": [null, -2.46, -0.43, 2.12, 1.25, -2.72, -2.37, 0.51, -0.08, -5.92, 1.46, 1.22, 0.58, 0.87, 0.11, 0.57, 0.7, -0.28, -0.2, 1.54, -0.95, -1.68, -0.94, -2.29, 2.71, 0.07, 0.63, 0.04, -0.06, -0.76, 0.43, -0.3, -1.2, 0.44, 0.51, -0.9, 0.77, 0.57, 0.3, -1.17, -0.38, 0.92, -0.33, 0.46, 0.87, 0.81, 1.82, -1.53, -1.04, -1.04, 0.76, 0.14, -0.96, 1.56, 1.12, 0.49, 0.38, 0.23, 0.53, 0.5, -0.2, -0.42, -0.05, 0.61, -0.19, 0.19, 0.42, -0.91, -0.24, -1.48, 0.18, 0.17, 0.29, 0.34, -0.46, -0.22, 0.58, -0.88, -0.37, -0.34, 0.3, -0.19, -0.4, -0.13, -1.53, -1.0, -1.3, -1.17, 0.24, -0.54, -1.15, 0.76, -1.18, -0.45, -0.53, -0.33, 1.13, -1.11, 0.75, 1.55, -1.63, 0.01, -0.63, 0.6, -0.25, 0.73, 0.03, 0.2, 0.24, 0.92, 0.68, -0.27, 0.35, 1.23, 0.36, -0.12, -0.08, 0.0, 0.75, -0.3, -0.92, 0.09, 0.83, 0.45, -0.56, -0.29, 0.26, -0.06, -0.71, 1.38, 0.48, -0.4, 1.16, -0.22, -0.59, 0.86, 0.08, -1.24, 1.05, -0.25, 1.1, 0.3, -0.95, -0.24, -0.27, -0.31, -1.03, 1.38, 0.35, -1.14, -0.64, -0.97, -0.34, -1.77, 1.12, 0.87, 0.31, 0.02, -0.04, -0.7, 0.34, 0.94, -0.28, 0.8, -0.41, -0.38, 0.44, 0.46, -0.94, -0.16, 1.02, -1.13, -0.33, 0.21, 0.47, 0.2, -0.29, 0.23, -0.54, -0.41, -0.35, 0.32, 0.85, -1.86, -0.5, -0.74, 0.26, -0.4, 0.29, -6.42, 3.52, 2.06, 0.86, 0.52, 0.15, 0.47, 0.3, 0.52, -0.51, 0.11, -0.75, -1.21, 0.09, 0.0, 0.95, 0.8, 0.42, 6.14, -0.02, -0.63, 0.11, -0.87, 2.66, 1.37, 2.82, -1.66, -1.4, -1.15, -0.93, -0.24, 0.87, 1.62, -1.61, -0.05, -0.75, 0.57, 0.06, -1.5, -10.25, -0.92, 0.55, 2.62, 1.03, 1.19, 1.32, -0.62, 1.05, 0.54, 0.14, 1.76, 1.51, 0.41, 1.27, 0.33, -1.28, 0.72, 0.16, 2.34, -1.8, -1.3, 0.12, 0.44, 0.39, 0.0, -1.27, -1.5, -0.48, 0.35, 0.22, 0.59, 0.89, 1.49, 0.51, -0.24, -0.18, 0.46, 0.58, 1.0, 0.1, 0.15, -0.89, 1.27, -0.28, 0.34, 0.04, 0.25, 0.26, -0.86, 0.88, -0.65, 0.18, -0.45, 2.27, -1.49, -0.56, -0.2, -0.41, -0.28, -0.58, 1.08, -1.1, 0.37, 0.63, -0.32, -0.43, -1.72, 0.57, -0.53, 0.31, -0.27], "Var. anual": [null, null, null, null, null, null, null, null, null, null, null, null, -6.84, -3.52, -2.97, -4.53, -5.08, -2.64, -0.47, 0.56, -0.31, 3.93, 1.53, -1.98, 0.15, -0.64, -0.13, -0.65, -1.41, -1.88, -1.25, -3.09, -3.34, -1.22, 0.24, 1.62, -0.32, 0.18, -0.15, -1.37, -1.69, -0.01, -0.78, -0.02, 2.05, 2.42, 3.73, 3.1, 1.28, -0.33, 0.13, 1.45, 0.88, 1.52, 2.97, 3.0, 2.51, 1.93, 0.64, 2.67, 3.52, 4.14, 3.33, 3.8, 4.57, 3.19, 2.49, 1.09, 0.46, -1.25, -1.6, -1.92, -1.44, -0.68, -1.09, -1.92, -1.16, -2.23, -3.01, -2.43, -1.89, -0.6, -1.17, -1.47, -3.29, -4.62, -5.46, -6.41, -6.75, -6.4, -7.18, -6.08, -7.56, -7.81, -7.95, -8.15, -5.5, -5.61, -3.56, -0.84, -2.72, -2.17, -1.65, -1.82, -0.89, 0.29, 0.85, 1.38, 0.49, 2.52, 2.45, 0.63, 2.62, 3.84, 4.83, 4.12, 4.28, 3.55, 4.27, 3.77, 2.61, 1.78, 1.93, 2.66, 1.75, 0.23, 0.13, 0.19, -0.44, 0.94, 0.67, 0.56, 2.64, 2.33, 0.91, 1.32, 1.95, 0.99, 1.78, 1.59, 3.39, 2.31, 0.89, 1.05, -0.38, -0.47, -0.92, -0.39, -0.13, -0.03, -1.71, -2.43, -3.87, -5.94, -3.88, -2.77, -2.19, -1.86, -0.86, -2.94, -2.95, -0.86, -0.5, 1.27, 1.2, 2.6, 1.92, 1.5, 0.26, 0.08, 1.14, 0.71, 0.05, -0.68, 0.07, -0.53, -0.41, 0.19, -0.79, -1.66, -1.07, -0.59, -0.76, -1.5, -1.67, -2.63, -2.85, -3.45, -2.87, -9.51, -5.45, -2.98, -1.77, -1.57, -2.28, 0.05, 0.85, 2.11, 1.34, 1.86, 0.82, 6.03, 2.6, 0.54, 0.63, 0.92, 1.19, 6.86, 6.54, 5.39, 6.01, 5.03, 8.44, 11.02, 13.75, 12.09, 9.73, 7.79, 6.44, 0.06, 0.96, 3.21, 1.49, 2.32, -1.09, -1.9, -4.67, -4.51, -13.35, -13.13, -11.65, -8.8, -8.64, -9.07, -6.14, -6.72, -4.92, -4.95, -4.86, -1.59, 10.16, 11.49, 12.21, 9.92, 7.61, 7.14, 5.98, 8.95, 6.1, 4.26, 4.23, 2.92, 1.8, 1.39, -1.15, -2.98, -2.18, -2.56, -2.5, -4.25, -1.56, 1.23, 1.62, 0.93, 0.37, 0.82, 2.67, 5.18, 5.76, 5.56, 4.45, 5.13, 3.96, 2.81, 2.34, 2.84, 3.29, 1.97, 2.27, 0.62, 0.7, 0.1, 3.26, 0.49, 0.21, -0.33, -0.77, -1.3, -2.14, -0.21, -2.2, -1.17, -0.72, -0.59, -3.29, -3.52, -2.39, -2.72, -2.0, -1.99]}, "ma12": [null, null, null, null, null, null, null, null, null, null, null, null, -0.57, -0.29, -0.25, -0.38, -0.42, -0.22, -0.04, 0.05, -0.02, 0.33, 0.13, -0.16, 0.01, -0.05, -0.01, -0.05, -0.12, -0.16, -0.11, -0.26, -0.28, -0.1, 0.02, 0.13, -0.03, 0.01, -0.01, -0.11, -0.14, -0.0, -0.06, -0.0, 0.17, 0.2, 0.31, 0.26, 0.11, -0.03, 0.01, 0.12, 0.07, 0.13, 0.25, 0.25, 0.21, 0.16, 0.05, 0.22, 0.29, 0.34, 0.28, 0.32, 0.38, 0.27, 0.21, 0.09, 0.04, -0.1, -0.13, -0.16, -0.12, -0.06, -0.09, -0.16, -0.1, -0.18, -0.25, -0.2, -0.16, -0.05, -0.1, -0.12, -0.27, -0.39, -0.46, -0.54, -0.56, -0.54, -0.6, -0.51, -0.63, -0.65, -0.67, -0.68, -0.46, -0.47, -0.3, -0.07, -0.23, -0.18, -0.14, -0.15, -0.07, 0.02, 0.07, 0.11, 0.04, 0.21, 0.2, 0.05, 0.22, 0.32, 0.4, 0.34, 0.36, 0.29, 0.35, 0.31, 0.22, 0.15, 0.16, 0.22, 0.14, 0.02, 0.01, 0.01, -0.04, 0.08, 0.05, 0.05, 0.22, 0.19, 0.07, 0.11, 0.16, 0.08, 0.15, 0.13, 0.28, 0.19, 0.08, 0.09, -0.03, -0.04, -0.07, -0.03, -0.01, -0.0, -0.14, -0.2, -0.32, -0.49, -0.32, -0.23, -0.18, -0.15, -0.07, -0.24, -0.24, -0.07, -0.04, 0.11, 0.1, 0.22, 0.16, 0.13, 0.02, 0.01, 0.09, 0.06, 0.0, -0.06, 0.0, -0.05, -0.04, 0.02, -0.07, -0.14, -0.09, -0.05, -0.06, -0.12, -0.14, -0.22, -0.24, -0.29, -0.24, -0.79, -0.45, -0.25, -0.15, -0.13, -0.19, 0.01, 0.07, 0.18, 0.11, 0.16, 0.07, 0.5, 0.22, 0.05, 0.05, 0.08, 0.1, 0.57, 0.55, 0.45, 0.5, 0.42, 0.7, 0.92, 1.15, 1.01, 0.81, 0.65, 0.54, 0.0, 0.08, 0.27, 0.12, 0.19, -0.09, -0.16, -0.39, -0.38, -1.11, -1.09, -0.97, -0.73, -0.72, -0.76, -0.51, -0.56, -0.41, -0.41, -0.4, -0.13, 0.85, 0.96, 1.02, 0.83, 0.64, 0.6, 0.5, 0.75, 0.51, 0.35, 0.35, 0.24, 0.15, 0.12, -0.1, -0.25, -0.18, -0.21, -0.21, -0.35, -0.13, 0.1, 0.14, 0.08, 0.03, 0.07, 0.22, 0.43, 0.48, 0.46, 0.37, 0.43, 0.33, 0.23, 0.2, 0.24, 0.27, 0.16, 0.19, 0.05, 0.06, 0.01, 0.27, 0.04, 0.02, -0.03, -0.07, -0.11, -0.18, -0.02, -0.18, -0.1, -0.06, -0.05, -0.27, -0.29, -0.2, -0.23, -0.17, -0.17], "periodos": ["abr-01", "may-01", "jun-01", "jul-01", "ago-01", "sep-01", "oct-01", "nov-01", "dic-01", "ene-02", "feb-02", "mar-02", "abr-02", "may-02", "jun-02", "jul-02", "ago-02", "sep-02", "oct-02", "nov-02", "dic-02", "ene-03", "feb-03", "mar-03", "abr-03", "may-03", "jun-03", "jul-03", "ago-03", "sep-03", "oct-03", "nov-03", "dic-03", "ene-04", "feb-04", "mar-04", "abr-04", "may-04", "jun-04", "jul-04", "ago-04", "sep-04", "oct-04", "nov-04", "dic-04", "ene-05", "feb-05", "mar-05", "abr-05", "may-05", "jun-05", "jul-05", "ago-05", "sep-05", "oct-05", "nov-05", "dic-05", "ene-06", "feb-06", "mar-06", "abr-06", "may-06", "jun-06", "jul-06", "ago-06", "sep-06", "oct-06", "nov-06", "dic-06", "ene-07", "feb-07", "mar-07", "abr-07", "may-07", "jun-07", "jul-07", "ago-07", "sep-07", "oct-07", "nov-07", "dic-07", "ene-08", "feb-08", "mar-08", "abr-08", "may-08", "jun-08", "jul-08", "ago-08", "sep-08", "oct-08", "nov-08", "dic-08", "ene-09", "feb-09", "mar-09", "abr-09", "may-09", "jun-09", "jul-09", "ago-09", "sep-09", "oct-09", "nov-09", "dic-09", "ene-10", "feb-10", "mar-10", "abr-10", "may-10", "jun-10", "jul-10", "ago-10", "sep-10", "oct-10", "nov-10", "dic-10", "ene-11", "feb-11", "mar-11", "abr-11", "may-11", "jun-11", "jul-11", "ago-11", "sep-11", "oct-11", "nov-11", "dic-11", "ene-12", "feb-12", "mar-12", "abr-12", "may-12", "jun-12", "jul-12", "ago-12", "sep-12", "oct-12", "nov-12", "dic-12", "ene-13", "feb-13", "mar-13", "abr-13", "may-13", "jun-13", "jul-13", "ago-13", "sep-13", "oct-13", "nov-13", "dic-13", "ene-14", "feb-14", "mar-14", "abr-14", "may-14", "jun-14", "jul-14", "ago-14", "sep-14", "oct-14", "nov-14", "dic-14", "ene-15", "feb-15", "mar-15", "abr-15", "may-15", "jun-15", "jul-15", "ago-15", "sep-15", "oct-15", "nov-15", "dic-15", "ene-16", "feb-16", "mar-16", "abr-16", "may-16", "jun-16", "jul-16", "ago-16", "sep-16", "oct-16", "nov-16", "dic-16", "ene-17", "feb-17", "mar-17", "abr-17", "may-17", "jun-17", "jul-17", "ago-17", "sep-17", "oct-17", "nov-17", "dic-17", "ene-18", "feb-18", "mar-18", "abr-18", "may-18", "jun-18", "jul-18", "ago-18", "sep-18", "oct-18", "nov-18", "dic-18", "ene-19", "feb-19", "mar-19", "abr-19", "may-19", "jun-19", "jul-19", "ago-19", "sep-19", "oct-19", "nov-19", "dic-19", "ene-20", "feb-20", "mar-20", "abr-20", "may-20", "jun-20", "jul-20", "ago-20", "sep-20", "oct-20", "nov-20", "dic-20", "ene-21", "feb-21", "mar-21", "abr-21", "may-21", "jun-21", "jul-21", "ago-21", "sep-21", "oct-21", "nov-21", "dic-21", "ene-22", "feb-22", "mar-22", "abr-22", "may-22", "jun-22", "jul-22", "ago-22", "sep-22", "oct-22", "nov-22", "dic-22", "ene-23", "feb-23", "mar-23", "abr-23", "may-23", "jun-23", "jul-23", "ago-23", "sep-23", "oct-23", "nov-23", "dic-23", "ene-24", "feb-24", "mar-24", "abr-24", "may-24", "jun-24", "jul-24", "ago-24", "sep-24", "oct-24", "nov-24", "dic-24", "ene-25", "feb-25", "mar-25", "abr-25", "may-25", "jun-25", "jul-25", "ago-25", "sep-25", "oct-25", "nov-25", "dic-25", "ene-26", "feb-26", "mar-26"], "unidad": "pts", "chart_tipo": null, "chart_titulo": null, "drilldown": {"tipo": "confianza_consumidor", "periodos": ["abr-21", "may-21", "jun-21", "jul-21", "ago-21", "sep-21", "oct-21", "nov-21", "dic-21", "ene-22", "feb-22", "mar-22", "abr-22", "may-22", "jun-22", "jul-22", "ago-22", "sep-22", "oct-22", "nov-22", "dic-22", "ene-23", "feb-23", "mar-23", "abr-23", "may-23", "jun-23", "jul-23", "ago-23", "sep-23", "oct-23", "nov-23", "dic-23", "ene-24", "feb-24", "mar-24", "abr-24", "may-24", "jun-24", "jul-24", "ago-24", "sep-24", "oct-24", "nov-24", "dic-24", "ene-25", "feb-25", "mar-25", "abr-25", "may-25", "jun-25", "jul-25", "ago-25", "sep-25", "oct-25", "nov-25", "dic-25", "ene-26", "feb-26", "mar-26"], "componentes": {"ICC anual": [10.16, 11.49, 12.21, 9.92, 7.61, 7.14, 5.98, 8.95, 6.1, 4.26, 4.23, 2.92, 1.8, 1.39, -1.15, -2.98, -2.18, -2.56, -2.5, -4.25, -1.56, 1.23, 1.62, 0.93, 0.37, 0.82, 2.67, 5.18, 5.76, 5.56, 4.45, 5.13, 3.96, 2.81, 2.34, 2.84, 3.29, 1.97, 2.27, 0.62, 0.7, 0.1, 3.26, 0.49, 0.21, -0.33, -0.77, -1.3, -2.14, -0.21, -2.2, -1.17, -0.72, -0.59, -3.29, -3.52, -2.39, -2.72, -2.0, -1.99], "Hogar actual": [11.07, 10.48, 11.1, 11.28, 8.0, 7.7, 5.2, 9.82, 7.26, 5.8, 6.43, 5.61, 3.39, 3.56, 1.55, -0.63, 0.04, -0.26, 0.17, -2.51, -0.75, 0.73, 1.31, 0.17, 0.3, 0.4, 1.75, 3.43, 4.61, 4.79, 4.33, 4.69, 4.0, 2.7, 3.21, 3.83, 3.98, 3.45, 2.75, 1.51, 0.89, 0.62, 1.08, -0.1, -0.54, 0.1, -0.72, -1.24, -1.56, -0.49, -0.8, -0.34, -0.29, 0.02, -0.08, -0.74, -0.11, -1.33, -0.85, -0.54], "Hogar futura": [12.75, 12.69, 13.05, 10.2, 6.36, 5.07, 3.56, 6.43, 2.55, 2.49, 2.85, 1.42, 0.39, -0.12, -3.05, -4.84, -2.99, -3.52, -3.31, -4.92, -1.58, 0.66, -0.73, -1.16, -0.71, -0.62, 0.29, 4.78, 3.62, 3.11, 2.24, 3.5, 1.75, 1.63, 2.07, 2.98, 1.8, 1.22, 2.47, 0.13, 0.91, -0.1, 3.5, 0.41, 1.31, -0.39, -0.14, -1.75, -1.17, -0.28, -0.88, -0.9, -0.21, 1.23, -2.05, -1.22, -1.25, -1.45, -1.85, -0.54], "País actual": [6.9, 9.4, 10.52, 10.66, 9.98, 9.77, 9.23, 11.95, 9.54, 5.91, 6.93, 5.16, 4.17, 2.44, 0.29, -1.68, -1.96, -2.81, -3.04, -3.91, -0.69, 2.46, 2.66, 2.66, 1.55, 2.59, 5.16, 5.83, 7.24, 7.98, 6.69, 5.55, 4.31, 3.39, 2.53, 2.55, 3.47, 0.48, 0.8, 0.48, 0.72, -0.61, 2.49, 0.58, -0.23, -0.22, -1.61, -2.01, -2.92, -0.28, -3.54, -2.99, -3.26, -2.95, -5.49, -6.63, -4.26, -4.61, -2.45, -3.31], "País futura": [10.94, 12.5, 15.21, 8.7, 6.72, 6.29, 6.44, 7.32, 3.5, 2.18, 0.83, -2.61, -1.84, -2.11, -6.07, -7.39, -5.5, -6.04, -6.97, -6.7, -2.5, -0.17, 0.68, 1.73, 0.32, -0.52, 2.45, 5.42, 6.25, 5.14, 3.5, 4.67, 2.97, 2.48, 1.46, 1.19, 1.36, 0.89, 3.63, 1.43, 0.53, 0.46, 7.27, 1.62, 1.42, -0.23, -0.35, -1.64, -2.7, -1.11, -4.78, -3.9, -2.59, -3.05, -8.83, -8.19, -6.88, -6.41, -4.63, -3.52], "Compra durables": [9.19, 12.27, 11.25, 8.79, 7.06, 6.91, 5.5, 9.06, 7.68, 4.77, 4.46, 4.94, 2.81, 2.98, 1.42, -0.26, -0.5, -0.14, 0.63, -3.21, -2.15, 2.37, 4.53, 1.22, 0.36, 2.13, 3.65, 6.32, 7.21, 6.77, 5.37, 7.39, 6.71, 3.94, 2.65, 3.69, 5.71, 3.73, 1.58, -0.39, 0.5, -0.0, 1.79, 0.11, -0.94, -0.79, -1.03, 0.19, -2.41, 0.98, -0.97, 2.15, 2.74, 1.74, 0.22, -0.62, 0.52, 0.34, -0.35, -2.02]}, "ultimo": {"ICC anual": -1.99, "Hogar actual": -0.54, "Hogar futura": -0.54, "País actual": -3.31, "País futura": -3.52, "Compra durables": -2.02}, "radar": {"labels": ["Hogar actual", "Hogar futura", "País actual", "País futura", "Compra durables"], "current": [-0.54, -0.54, -3.31, -3.52, -2.02], "prev": [-1.24, -1.75, -2.01, -1.64, 0.19], "periodo_actual": "mar-26", "periodo_prev": "mar-25"}}, "benchmark": {"tipo": "linea", "y": 0, "color": "#7A7A7A", "label": "Sin cambio"}, "eventos_macro": [{"fecha": "2008-09", "label": "Crisis financiera global", "categoria": "crisis", "color": "#9B2247", "periodo": "sep-08", "indice": 89}, {"fecha": "2014-12", "label": "Caída de precios del petróleo", "categoria": "shock", "color": "#A57F2C", "periodo": "dic-14", "indice": 164}, {"fecha": "2017-01", "label": "Renegociación TLCAN", "categoria": "policy", "color": "#003057", "periodo": "ene-17", "indice": 189}, {"fecha": "2018-12", "label": "Cambio de gobierno federal", "categoria": "policy", "color": "#003057", "periodo": "dic-18", "indice": 212}, {"fecha": "2020-03", "label": "Inicio pandemia COVID-19", "categoria": "crisis", "color": "#9B2247", "periodo": "mar-20", "indice": 227}, {"fecha": "2020-07", "label": "Entrada en vigor T-MEC", "categoria": "policy", "color": "#1E5B4F", "periodo": "jul-20", "indice": 231}, {"fecha": "2022-02", "label": "Invasión rusa a Ucrania", "categoria": "shock", "color": "#A57F2C", "periodo": "feb-22", "indice": 250}, {"fecha": "2024-10", "label": "Cambio de gobierno federal", "categoria": "policy", "color": "#003057", "periodo": "oct-24", "indice": 282}]}}</script>
+
+
+    <footer class="site-footer">
+      Datos oficiales del Banco de Información Económica (BIE-INEGI) vía API. Interpretaciones generadas con IA (DeepSeek) · no son posición oficial de la Secretaría de Economía.
+      <br>Build 18 de mayo de 2026.
+    </footer>
+  </main>
+</div>
+</body>
+</html>

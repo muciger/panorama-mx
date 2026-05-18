@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reporte semanal · Panorama MX</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════════════
+   WARM EDITORIAL — design tokens
+   ═══════════════════════════════════════════════════ */
+:root {
+  --paper:       #FAF7F2;
+  --ink:         #1C1A17;
+  --accent:      #C0512F;
+  --forest:      #2F5B4F;
+  --muted:       #8A817A;
+  --surface:     #FFFFFF;
+  --rule:        rgba(28,26,23,0.12);
+  --rule-strong: rgba(28,26,23,0.55);
+  --pos:         #2A6B43;
+  --neg:         #B83025;
+  --warn:        #8B5E20;
+  --serif: 'Playfair Display','Times New Roman',Georgia,serif;
+  --sans:  'Inter',-apple-system,system-ui,sans-serif;
+  --mono:  'JetBrains Mono',ui-monospace,monospace;
+}
+
+*,*::before,*::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--sans);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.skip-link { position: absolute; top: -40px; left: 0; z-index: 1000; background: var(--accent); color: #fff; padding: 10px 16px; font-weight: 600; font-size: 13px; border-radius: 0 0 6px 0; }
+.skip-link:focus { top: 0; }
+*:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.page { max-width: 860px; margin: 0 auto; padding: 32px 32px 64px; }
+
+/* Nav editorial: regreso al tablero + secciones del sitio */
+.rpt-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 22px;
+  flex-wrap: wrap;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+.rpt-nav-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--rule);
+  padding: 7px 13px;
+  border-radius: 6px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: all 0.12s;
+}
+.rpt-nav-back:hover { background: var(--ink); color: var(--paper); text-decoration: none; border-color: var(--ink); }
+.rpt-nav-back svg { width: 13px; height: 13px; flex-shrink: 0; }
+.rpt-nav-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11.5px;
+  font-family: var(--mono);
+  color: var(--muted);
+  padding: 6px 11px;
+  border-radius: 5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.12s;
+}
+.rpt-nav-section:hover { color: var(--accent); text-decoration: none; background: rgba(192,81,47,0.06); }
+.rpt-nav-section.current {
+  color: var(--ink);
+  font-weight: 600;
+  background: rgba(28,26,23,0.05);
+}
+.rpt-nav-section svg { width: 12px; height: 12px; flex-shrink: 0; opacity: 0.7; }
+.rpt-nav-print {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 6px;
+  font-size: 11.5px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  font-family: var(--sans);
+  letter-spacing: 0.02em;
+  transition: background 0.12s;
+}
+.rpt-nav-print:hover { background: #2E2B27; text-decoration: none; }
+.rpt-nav-print svg { flex-shrink: 0; }
+.rpt-nav-sep { color: var(--rule-strong); margin: 0 2px; font-size: 11px; }
+
+/* Header */
+.rpt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 18px;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 20px;
+}
+.rpt-brand-block { display: flex; align-items: center; gap: 14px; }
+.pmx-mark {
+  width: 42px; height: 42px;
+  background: var(--ink);
+  border-radius: 7px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.pmx-mark-text {
+  font-family: var(--serif);
+  font-size: 14px; font-weight: 700;
+  color: var(--paper);
+  letter-spacing: -0.02em;
+  font-style: italic;
+  line-height: 1;
+}
+.pmx-mark-text span { color: var(--accent); font-style: normal; }
+.rpt-brand-name { font-size: 14.5px; font-weight: 600; color: var(--ink); letter-spacing: -0.01em; }
+.rpt-brand-sub {
+  font-size: 10px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.1em;
+  margin-top: 2px; font-family: var(--mono);
+}
+.rpt-meta { text-align: right; }
+.rpt-title {
+  font-family: var(--serif);
+  font-size: 24px; font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.02em; line-height: 1.2;
+  font-style: italic;
+}
+.rpt-semana {
+  font-size: 10.5px; color: var(--muted);
+  margin-top: 4px;
+  text-transform: uppercase; letter-spacing: 0.1em;
+  font-family: var(--mono);
+}
+
+/* Sub-nav anclas */
+.rpt-anchors {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0;
+}
+.rpt-anchors a {
+  font-size: 11px;
+  font-family: var(--mono);
+  color: var(--muted);
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 6px 12px 8px;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color 0.1s, border-color 0.1s;
+}
+.rpt-anchors a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* Estado agregado */
+.estado-block {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 20px;
+  border-radius: 8px; margin-bottom: 24px;
+  border-left: 4px solid;
+}
+.estado-rojo     { background: #FDF2EE; border-color: var(--neg); }
+.estado-amarillo { background: #FBF5EA; border-color: var(--warn); }
+.estado-verde    { background: #EFF6F1; border-color: var(--pos); }
+.estado-neutro   { background: #F5F3F0; border-color: var(--muted); }
+.estado-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.estado-rojo     .estado-dot { background: var(--neg); }
+.estado-amarillo .estado-dot { background: var(--warn); }
+.estado-verde    .estado-dot { background: var(--pos); }
+.estado-neutro   .estado-dot { background: var(--muted); }
+.estado-texto { font-size: 13.5px; font-weight: 600; color: var(--ink); font-family: var(--serif); }
+.estado-sep { color: var(--rule-strong); margin: 0 6px; }
+.estado-detalle { font-size: 12.5px; color: var(--muted); }
+
+/* Section labels */
+.section-label {
+  font-size: 10px; font-weight: 500;
+  font-family: var(--mono); color: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.12em;
+  margin-bottom: 16px;
+  display: flex; align-items: center; gap: 10px;
+}
+.section-label::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+
+/* Síntesis ejecutiva — fondo claro, headlines en prosa */
+.resumen-box { background: var(--surface); border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 8px; padding: 22px 26px; margin-bottom: 28px; }
+.resumen-header { display: flex; flex-direction: column; gap: 4px; margin-bottom: 18px; }
+.resumen-header > span:first-child {
+  font-size: 11px; font-weight: 700; font-family: var(--mono);
+  color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em;
+}
+.resumen-sub { font-size: 12px; color: var(--muted); font-style: italic; }
+.resumen-grid { display: flex; flex-direction: column; gap: 18px; }
+.resumen-section { display: flex; flex-direction: column; gap: 8px; padding-bottom: 14px; border-bottom: 1px dashed var(--rule); }
+.resumen-section:last-child { border-bottom: none; padding-bottom: 0; }
+.resumen-section-head { display: flex; align-items: center; gap: 10px; }
+.resumen-tema-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.resumen-tema-name {
+  font-size: 11px; font-weight: 700;
+  color: var(--ink);
+  font-family: var(--mono);
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+.resumen-tema-count { font-size: 10.5px; color: var(--muted); font-family: var(--mono); letter-spacing: 0.02em; }
+.resumen-dir { font-size: 13px; margin-left: auto; line-height: 1; font-weight: 700; }
+.resumen-dir-up { color: var(--pos); }
+.resumen-dir-down { color: var(--neg); }
+.resumen-dir-flat { color: var(--muted); }
+.resumen-headlines { display: flex; flex-direction: column; gap: 12px; padding-left: 18px; }
+.resumen-headline-item { display: flex; flex-direction: column; gap: 3px; }
+.resumen-headline-item p { margin: 0; font-size: 13.5px; line-height: 1.55; color: var(--ink); font-weight: 500; }
+.resumen-headline-link { font-size: 11px; color: var(--accent); font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.04em; align-self: flex-start; }
+.resumen-headline-link:hover { text-decoration: underline; }
+.resumen-bullets { display: flex; flex-direction: column; gap: 4px; padding-left: 18px; }
+.resumen-bullet-item { font-size: 12.5px; color: var(--text-soft, #3C3830); line-height: 1.5; }
+
+/* Leyenda semáforo */
+.legend-row { display: flex; gap: 18px; margin-bottom: 18px; flex-wrap: wrap; }
+.legend-item {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 11px; color: var(--muted);
+  font-family: var(--mono); letter-spacing: 0.03em;
+}
+.legend-dot { width: 8px; height: 8px; }
+
+/* Encabezado de grupo de tema */
+.indic-tema-header {
+  display: flex; align-items: center; gap: 10px;
+  margin: 20px 0 8px;
+}
+.indic-tema-header:first-child { margin-top: 0; }
+.indic-tema-label {
+  font-size: 10px; font-weight: 500;
+  font-family: var(--mono); color: var(--forest);
+  text-transform: uppercase; letter-spacing: 0.12em;
+  white-space: nowrap;
+}
+.indic-tema-rule { flex: 1; height: 1px; background: var(--rule); }
+.indic-tema-count {
+  font-size: 10px; font-family: var(--mono);
+  color: var(--muted); letter-spacing: 0.03em;
+}
+
+/* Cards de indicadores (filas clickables al detalle) */
+.indic-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
+.indic-row {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 18px 22px;
+  display: grid;
+  grid-template-columns: 10px 1fr 150px;
+  grid-template-rows: auto auto;
+  column-gap: 16px;
+  row-gap: 0;
+  align-items: start;
+}
+.indic-row-link { text-decoration: none; color: inherit; transition: border-color .12s, box-shadow .12s, transform .12s; }
+.indic-row-link:hover { border-color: var(--accent); box-shadow: 0 1px 6px rgba(192,81,47,0.08); text-decoration: none; }
+.indic-row-link:hover .indic-nombre { color: var(--accent); }
+.indic-row-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.indic-row.indic-priority { border-top: 3px solid var(--ink); }
+.indic-row.indic-priority.alerta-rojo    { border-top-color: var(--neg); }
+.indic-row.indic-priority.alerta-amarillo { border-top-color: var(--warn); }
+.indic-row.indic-priority.alerta-verde   { border-top-color: var(--pos); }
+
+.semaforo { width: 10px; height: 10px; flex-shrink: 0; margin-top: 5px; grid-row: 1; }
+.sem-verde    { background: var(--pos);  border-radius: 50%; }
+.sem-amarillo { background: var(--warn); border-radius: 2px; transform: rotate(45deg); }
+.sem-rojo     { background: var(--neg);  clip-path: polygon(50% 0%,0% 100%,100% 100%); }
+.sem-neutro   { background: var(--muted); border-radius: 2px; }
+
+.indic-body { min-width: 0; grid-column: 2; grid-row: 1; }
+.indic-nombre { font-size: 13.5px; font-weight: 600; color: var(--ink); margin-bottom: 3px; letter-spacing: -0.01em; }
+.indic-meta {
+  font-size: 10px; font-family: var(--mono);
+  color: var(--muted);
+  display: flex; gap: 10px; flex-wrap: wrap;
+  margin-bottom: 6px;
+  letter-spacing: 0.03em; text-transform: uppercase;
+}
+.indic-meta-pub { color: var(--accent); }
+.indic-context { font-size: 12.5px; color: #3C3830; line-height: 1.6; }
+
+.indic-vals { text-align: right; grid-column: 3; grid-row: 1; }
+.indic-valor {
+  font-family: var(--serif);
+  font-size: 30px; font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  line-height: 1;
+  font-feature-settings: 'tnum';
+}
+.indic-unidad {
+  font-size: 10px; font-family: var(--mono);
+  color: var(--muted);
+  letter-spacing: 0.06em; text-transform: uppercase;
+  margin-top: 4px;
+}
+.indic-delta {
+  font-size: 11px; font-family: var(--mono);
+  font-weight: 500; margin-top: 5px;
+  letter-spacing: 0.03em;
+}
+.delta-pos { color: var(--pos); }
+.delta-neg { color: var(--neg); }
+.delta-neu { color: var(--muted); }
+
+/* Sparkline full-width bajo el contenido */
+.indic-spark {
+  grid-column: 2 / 4;
+  grid-row: 2;
+  padding-top: 12px;
+  margin-top: 10px;
+  border-top: 1px solid var(--rule);
+  line-height: 0;
+}
+.indic-spark svg {
+  width: 100% !important;
+  height: 38px !important;
+  display: block;
+}
+
+/* Sin publicaciones */
+.empty-state {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 24px; text-align: center;
+  color: var(--muted); font-size: 13px;
+  font-family: var(--mono); letter-spacing: 0.03em;
+  margin-bottom: 32px;
+}
+
+/* Timeline de próximas publicaciones */
+.proximas-grupos { display: flex; flex-direction: column; gap: 24px; margin-bottom: 40px; }
+.prox-grupo-label {
+  font-size: 10px; font-weight: 500;
+  font-family: var(--mono); color: var(--forest);
+  text-transform: uppercase; letter-spacing: 0.1em;
+  margin-bottom: 10px;
+}
+.prox-timeline {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.prox-tl-col {
+  min-width: 148px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.prox-tl-date {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 7px 7px 0 0;
+  border-bottom: 2px solid var(--accent);
+  padding: 8px 12px 7px;
+}
+.prox-tl-dia {
+  display: block;
+  font-size: 9px; font-family: var(--mono);
+  color: var(--accent);
+  text-transform: uppercase; letter-spacing: 0.12em;
+  margin-bottom: 1px;
+}
+.prox-tl-num {
+  display: block;
+  font-family: var(--serif);
+  font-size: 18px; font-weight: 600;
+  color: var(--ink); line-height: 1.1;
+}
+.prox-tl-item {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-top: none;
+  padding: 9px 12px;
+}
+.prox-tl-col > .prox-tl-item:last-child {
+  border-radius: 0 0 7px 7px;
+}
+.prox-tl-nombre { font-size: 11.5px; font-weight: 500; color: var(--ink); line-height: 1.35; }
+.prox-tl-freq {
+  font-size: 10px; font-family: var(--mono);
+  color: var(--muted); margin-top: 2px;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.rpt-footer {
+  border-top: 1px solid var(--rule);
+  margin-top: 48px; padding-top: 18px;
+  font-size: 10px; font-family: var(--mono);
+  color: var(--muted);
+  display: flex; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap;
+  letter-spacing: 0.03em;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .page { padding: 20px 18px 40px; }
+  .indic-row { grid-template-columns: 10px 1fr; column-gap: 12px; }
+  .indic-vals { grid-column: 2; text-align: left; margin-top: 8px; }
+  .indic-spark { grid-column: 2 / 3; }
+  .indic-valor { font-size: 26px; }
+  .rpt-header { flex-direction: column; gap: 14px; }
+  .rpt-meta { text-align: left; }
+  .resumen-section { flex-direction: column; gap: 5px; }
+  .resumen-section-left { min-width: unset; }
+  .prox-timeline { flex-direction: column; }
+  .prox-tl-col { min-width: unset; }
+}
+
+/* Print */
+@media print {
+  body { background: var(--surface); font-size: 12px; }
+  .page { padding: 16px 20px; max-width: none; }
+  .rpt-nav, .rpt-anchors { display: none; }
+  .indic-row { break-inside: avoid; border-radius: 0; margin-bottom: 6px; }
+  .prox-tl-col { break-inside: avoid; }
+  .resumen-box { background: var(--ink) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .estado-block { break-inside: avoid; }
+  .indic-spark svg { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  a[href]::after { content: none; }
+}
+</style>
+</head>
+<body>
+<a href="#rpt-main" class="skip-link">Saltar al contenido</a>
+<div class="page">
+
+  <nav class="rpt-nav" aria-label="Navegación principal">
+    <a class="rpt-nav-back" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12l9-9 9 9M5 10v10h14V10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Inicio
+    </a>
+    <span class="rpt-nav-sep">·</span>
+    <a class="rpt-nav-section current" href="reporte_semanal.html" aria-current="page">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z M14 2v6h6M16 13H8M16 17H8" stroke-linecap="round"/></svg>
+      Reporte semanal
+    </a>
+    <a class="rpt-nav-section" href="comparar.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Comparar
+    </a>
+    <a class="rpt-nav-section" href="imss_explorador.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Empleo IMSS
+    </a>
+    <a class="rpt-nav-print" href="reporte_semanal_completo.html?print=1">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></svg>
+      Descargar PDF
+    </a>
+  </nav>
+
+  <header class="rpt-header" id="rpt-main" tabindex="-1">
+    <div class="rpt-brand-block">
+      <div class="pmx-mark"><div class="pmx-mark-text">P<span>MX</span></div></div>
+      <div>
+        <div class="rpt-brand-name">Panorama MX</div>
+        <div class="rpt-brand-sub">INEGI · BIE · Datos oficiales</div>
+      </div>
+    </div>
+    <div class="rpt-meta">
+      <div class="rpt-title">Reporte semanal</div>
+      <div class="rpt-semana">18–22 May 2026</div>
+    </div>
+  </header>
+
+  
+  <nav class="rpt-anchors" aria-label="Secciones del reporte">
+    <a href="#estado">Estado</a>
+    <a href="#sintesis">Síntesis</a>
+    <a href="#publicaciones">Publicaciones</a>
+    <a href="#proximas">Próximas</a>
+  </nav>
+
+  
+  <div id="estado" class="estado-block estado-amarillo">
+    <div class="estado-dot"></div>
+    <span class="estado-texto">Presiones concentradas</span>
+    <span class="estado-sep">·</span>
+    <span class="estado-detalle">1 en alerta · 1 en vigilancia</span>
+  </div>
+
+  
+  
+  <div id="sintesis" class="resumen-box">
+    <div class="resumen-header">
+      <span>Síntesis ejecutiva de la semana</span>
+      <span class="resumen-sub">Lectura por tema. Ordenado por severidad.</span>
+    </div>
+    <div class="resumen-grid">
+      
+      <div class="resumen-section">
+        <div class="resumen-section-head">
+          <span class="resumen-tema-dot sem-rojo"></span>
+          <span class="resumen-tema-name">Inflación</span>
+          <span class="resumen-tema-count">4 indicadores</span>
+          <span class="resumen-dir resumen-dir-up" aria-hidden="true">↑</span>
+        </div>
+        
+        <div class="resumen-headlines">
+          
+          <div class="resumen-headline-item">
+            <p>La inflación general anual subió a 4.59% en marzo de 2026, impulsada por un fuerte repunte en los precios agropecuarios, mientras la inflación subyacente se mantiene estable cerca de 4.5%.</p>
+            <a class="resumen-headline-link" href="indicador/inpc_mensual.html">Índice Nacional de Precios al Consumidor →</a>
+          </div>
+          
+          <div class="resumen-headline-item">
+            <p>La inflación general anual subió a 4.59% en marzo, su nivel más alto en el periodo disponible de los últimos doce meses, impulsada por un repunte en el componente no subyacente, mientras la inflación subyacente se mantiene estable cerca de 4.5%.</p>
+            <a class="resumen-headline-link" href="indicador/inflacion_resumen.html">Inflación anual INPC (resumen) →</a>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+      <div class="resumen-section">
+        <div class="resumen-section-head">
+          <span class="resumen-tema-dot sem-neutro"></span>
+          <span class="resumen-tema-name">Actividad</span>
+          <span class="resumen-tema-count">3 indicadores</span>
+          <span class="resumen-dir resumen-dir-down" aria-hidden="true">↓</span>
+        </div>
+        
+        <div class="resumen-headlines">
+          
+          <div class="resumen-headline-item">
+            <p>El consumo privado creció 2.66% anual en enero de 2026, pero cayó 1.55% mensual, con un fuerte retroceso del gasto en bienes importados y una moderación en el consumo de bienes nacionales.</p>
+            <a class="resumen-headline-link" href="indicador/consumo_privado.html">Indicador Mensual del Consumo Privado →</a>
+          </div>
+          
+          <div class="resumen-headline-item">
+            <p>La inversión total cayó 2.2% anual en enero de 2026, arrastrada por una fuerte contracción en maquinaria y equipo, mientras la construcción mostró un repunte moderado.</p>
+            <a class="resumen-headline-link" href="indicador/fbcf.html">Formación Bruta de Capital Fijo →</a>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+      <div class="resumen-section">
+        <div class="resumen-section-head">
+          <span class="resumen-tema-dot sem-verde"></span>
+          <span class="resumen-tema-name">Sector externo</span>
+          <span class="resumen-tema-count">1 indicador</span>
+          <span class="resumen-dir resumen-dir-up" aria-hidden="true">↑</span>
+        </div>
+        
+        <div class="resumen-headlines">
+          
+          <div class="resumen-headline-item">
+            <p>Las exportaciones totales crecieron 23.86% anual en marzo de 2026, el mayor avance en el periodo disponible (abril de 2024 a marzo de 2026), impulsadas por manufacturas no automotrices. El saldo comercial fue superavitario en 2,499 millones de dólares, el nivel más alto registrado en dicho periodo.</p>
+            <a class="resumen-headline-link" href="indicador/balanza_comercial.html">Balanza Comercial de Mercancías →</a>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+      <div class="resumen-section">
+        <div class="resumen-section-head">
+          <span class="resumen-tema-dot sem-amarillo"></span>
+          <span class="resumen-tema-name">Sentimiento</span>
+          <span class="resumen-tema-count">4 indicadores</span>
+          <span class="resumen-dir resumen-dir-down" aria-hidden="true">↓</span>
+        </div>
+        
+        <div class="resumen-headlines">
+          
+          <div class="resumen-headline-item">
+            <p>La confianza del consumidor retrocedió en marzo de 2026 y se ubicó en 44.1 puntos, nivel que se mantiene entre los más bajos del rango de datos disponible. La percepción sobre la situación económica del país y la disposición a comprar bienes durables se deterioraron.</p>
+            <a class="resumen-headline-link" href="indicador/confianza_consumidor.html">Indicador de Confianza del Consumidor →</a>
+          </div>
+          
+          <div class="resumen-headline-item">
+            <p>El Indicador de Pedidos Manufactureros se mantuvo en terreno expansivo en abril de 2026, aunque con una leve contracción anual que refleja un crecimiento moderado del sector sin señales de aceleración.</p>
+            <a class="resumen-headline-link" href="indicador/emoe_ipm.html">EMOE Indicador de Pedidos Manufactureros →</a>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+
+  
+  <div id="publicaciones" class="section-label">Publicaciones recientes · 13 indicadores</div>
+
+  
+  <div class="legend-row">
+    <div class="legend-item"><div class="legend-dot sem-verde" role="img" aria-label="círculo verde"></div>En parámetro</div>
+    <div class="legend-item"><div class="legend-dot sem-amarillo" role="img" aria-label="diamante amarillo"></div>Vigilancia</div>
+    <div class="legend-item"><div class="legend-dot sem-rojo" role="img" aria-label="triángulo rojo"></div>Fuera de banda</div>
+    <div class="legend-item"><div class="legend-dot sem-neutro" role="img" aria-label="cuadrado gris"></div>Sin umbral</div>
+  </div>
+
+  
+  <div class="indic-tema-header">
+    <span class="indic-tema-label">Inflación</span>
+    <span class="indic-tema-rule"></span>
+    <span class="indic-tema-count">4</span>
+  </div>
+  <div class="indic-list">
+    
+    <a class="indic-row indic-row-link indic-priority alerta-rojo" href="indicador/inpc_mensual.html">
+      <div class="semaforo sem-rojo" role="img" aria-label="Estado: Fuera de banda"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">Índice Nacional de Precios al Consumidor</div>
+        <div class="indic-meta">
+          <span>Mensual · mar-26</span>
+          <span class="indic-meta-pub">7 may 2026</span>
+        </div>
+        
+        <div class="indic-context">La inflación general anual subió a 4.59% en marzo de 2026, impulsada por un fuerte repunte en los precios agropecuarios, mientras la inflación subyacente se mantiene estable cerca de 4.5%.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">4.6</div>
+        <div class="indic-unidad">%</div>
+        
+        <div class="indic-delta delta-pos">+0.6pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,23.5 11.7,20.1 21.3,7.4 31.0,10.0 40.7,31.0 50.3,29.4 60.0,24.5 69.7,29.4 79.3,23.5 89.0,26.3 98.7,23.7 108.3,17.8 118.0,3.0 118.0,31" fill="#DC2626" opacity="0.12"/><polyline points="2.0,23.5 11.7,20.1 21.3,7.4 31.0,10.0 40.7,31.0 50.3,29.4 60.0,24.5 69.7,29.4 79.3,23.5 89.0,26.3 98.7,23.7 108.3,17.8 118.0,3.0" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+    <a class="indic-row indic-row-link indic-priority alerta-neutro" href="indicador/inflacion_resumen.html">
+      <div class="semaforo sem-neutro" role="img" aria-label="Estado: Sin umbral"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">Inflación anual INPC (resumen)</div>
+        <div class="indic-meta">
+          <span>Mensual · mar-26</span>
+          <span class="indic-meta-pub">7 may 2026</span>
+        </div>
+        
+        <div class="indic-context">La inflación general anual subió a 4.59% en marzo, su nivel más alto en el periodo disponible de los últimos doce meses, impulsada por un repunte en el componente no subyacente, mientras la inflación subyacente se mantiene estable cerca de 4.5%.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">4.6</div>
+        <div class="indic-unidad">%</div>
+        
+        <div class="indic-delta delta-pos">+0.6pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,20.1 12.5,7.4 23.1,10.0 33.6,31.0 44.2,29.4 54.7,24.5 65.3,29.4 75.8,23.5 86.4,26.3 96.9,23.7 107.5,17.8 118.0,3.0 118.0,31" fill="#71717A" opacity="0.12"/><polyline points="2.0,20.1 12.5,7.4 23.1,10.0 33.6,31.0 44.2,29.4 54.7,24.5 65.3,29.4 75.8,23.5 86.4,26.3 96.9,23.7 107.5,17.8 118.0,3.0" fill="none" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+    <a class="indic-row indic-row-link" href="indicador/inpc_quincenal.html">
+      <div class="semaforo sem-neutro" role="img" aria-label="Estado: Sin umbral"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">INPC quincenal</div>
+        <div class="indic-meta">
+          <span>Quincenal · Q07-26</span>
+          <span class="indic-meta-pub">7 may 2026</span>
+        </div>
+        
+        <div class="indic-context">La inflación general anual se mantiene en 4.53%, sin cambios significativos respecto a la quincena anterior, mientras la subyacente desciende ligeramente a 4.27%.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">4.5</div>
+        <div class="indic-unidad">%</div>
+        
+        <div class="indic-delta delta-neg">-0.0pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,27.8 11.7,31.0 21.3,28.3 31.0,18.9 40.7,25.5 50.3,27.0 60.0,24.3 69.7,23.1 79.3,20.6 89.0,15.4 98.7,3.0 108.3,5.0 118.0,5.5 118.0,31" fill="#71717A" opacity="0.12"/><polyline points="2.0,27.8 11.7,31.0 21.3,28.3 31.0,18.9 40.7,25.5 50.3,27.0 60.0,24.3 69.7,23.1 79.3,20.6 89.0,15.4 98.7,3.0 108.3,5.0 118.0,5.5" fill="none" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+    <a class="indic-row indic-row-link" href="indicador/inpp.html">
+      <div class="semaforo sem-neutro" role="img" aria-label="Estado: Sin umbral"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">Índice Nacional de Precios Productor</div>
+        <div class="indic-meta">
+          <span>Mensual · mar-26</span>
+          <span class="indic-meta-pub">7 may 2026</span>
+        </div>
+        
+        <div class="indic-context">La inflación al productor repuntó en marzo, pero la tendencia anual sigue a la baja: el índice sin petróleo subió 1.02% mensual y 2.46% anual, muy por debajo del pico de 7.92% registrado en febrero de 2025.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">2.5</div>
+        <div class="indic-unidad">%</div>
+        
+        <div class="indic-delta delta-pos">+0.8pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,3.0 11.7,3.9 21.3,5.6 31.0,13.6 40.7,19.2 50.3,20.7 60.0,22.6 69.7,22.4 79.3,25.2 89.0,26.4 98.7,28.7 108.3,31.0 118.0,27.1 118.0,31" fill="#71717A" opacity="0.12"/><polyline points="2.0,3.0 11.7,3.9 21.3,5.6 31.0,13.6 40.7,19.2 50.3,20.7 60.0,22.6 69.7,22.4 79.3,25.2 89.0,26.4 98.7,28.7 108.3,31.0 118.0,27.1" fill="none" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+  </div>
+  
+  <div class="indic-tema-header">
+    <span class="indic-tema-label">Actividad</span>
+    <span class="indic-tema-rule"></span>
+    <span class="indic-tema-count">3</span>
+  </div>
+  <div class="indic-list">
+    
+    <a class="indic-row indic-row-link" href="indicador/consumo_privado.html">
+      <div class="semaforo sem-neutro" role="img" aria-label="Estado: Sin umbral"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">Indicador Mensual del Consumo Privado</div>
+        <div class="indic-meta">
+          <span>Mensual · ene-26</span>
+          <span class="indic-meta-pub">6 may 2026</span>
+        </div>
+        
+        <div class="indic-context">El consumo privado creció 2.66% anual en enero de 2026, pero cayó 1.55% mensual, con un fuerte retroceso del gasto en bienes importados y una moderación en el consumo de bienes nacionales.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">2.7</div>
+        <div class="indic-unidad">%</div>
+        
+        <div class="indic-delta delta-neg">-2.8pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,30.5 11.7,30.3 21.3,31.0 31.0,23.1 40.7,24.8 50.3,22.0 60.0,24.0 69.7,19.1 79.3,16.4 89.0,8.3 98.7,14.4 108.3,3.0 118.0,14.5 118.0,31" fill="#71717A" opacity="0.12"/><polyline points="2.0,30.5 11.7,30.3 21.3,31.0 31.0,23.1 40.7,24.8 50.3,22.0 60.0,24.0 69.7,19.1 79.3,16.4 89.0,8.3 98.7,14.4 108.3,3.0 118.0,14.5" fill="none" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+    <a class="indic-row indic-row-link" href="indicador/fbcf.html">
+      <div class="semaforo sem-neutro" role="img" aria-label="Estado: Sin umbral"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">Formación Bruta de Capital Fijo</div>
+        <div class="indic-meta">
+          <span>Mensual · ene-26</span>
+          <span class="indic-meta-pub">6 may 2026</span>
+        </div>
+        
+        <div class="indic-context">La inversión total cayó 2.2% anual en enero de 2026, arrastrada por una fuerte contracción en maquinaria y equipo, mientras la construcción mostró un repunte moderado.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">-2.2</div>
+        <div class="indic-unidad">%</div>
+        
+        <div class="indic-delta delta-neg">-0.5pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,20.7 11.7,20.1 21.3,16.4 31.0,26.1 40.7,20.0 50.3,21.5 60.0,23.8 69.7,31.0 79.3,27.0 89.0,17.9 98.7,17.2 108.3,3.0 118.0,4.8 118.0,31" fill="#71717A" opacity="0.12"/><polyline points="2.0,20.7 11.7,20.1 21.3,16.4 31.0,26.1 40.7,20.0 50.3,21.5 60.0,23.8 69.7,31.0 79.3,27.0 89.0,17.9 98.7,17.2 108.3,3.0 118.0,4.8" fill="none" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+    <a class="indic-row indic-row-link" href="indicador/ind_ciclicos.html">
+      <div class="semaforo sem-neutro" role="img" aria-label="Estado: Sin umbral"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">Sistema de Indicadores Cíclicos</div>
+        <div class="indic-meta">
+          <span>Mensual · feb-26</span>
+          <span class="indic-meta-pub">6 may 2026</span>
+        </div>
+        
+        <div class="indic-context">El Indicador Adelantado del Sistema de Indicadores Cíclicos subió 0.09 puntos en febrero de 2026, manteniéndose por arriba de su tendencia de largo plazo y sugiriendo que la economía podría seguir expandiéndose en los próximos meses.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">0.1</div>
+        <div class="indic-unidad">pts</div>
+        
+        <div class="indic-delta delta-neg">-0.0pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,31.0 11.7,26.5 21.3,18.7 31.0,9.7 40.7,4.1 50.3,3.0 60.0,4.1 69.7,6.4 79.3,8.6 89.0,10.8 98.7,12.0 108.3,12.0 118.0,13.1 118.0,31" fill="#71717A" opacity="0.12"/><polyline points="2.0,31.0 11.7,26.5 21.3,18.7 31.0,9.7 40.7,4.1 50.3,3.0 60.0,4.1 69.7,6.4 79.3,8.6 89.0,10.8 98.7,12.0 108.3,12.0 118.0,13.1" fill="none" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+  </div>
+  
+  <div class="indic-tema-header">
+    <span class="indic-tema-label">Sector externo</span>
+    <span class="indic-tema-rule"></span>
+    <span class="indic-tema-count">1</span>
+  </div>
+  <div class="indic-list">
+    
+    <a class="indic-row indic-row-link indic-priority alerta-verde" href="indicador/balanza_comercial.html">
+      <div class="semaforo sem-verde" role="img" aria-label="Estado: En parámetro"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">Balanza Comercial de Mercancías</div>
+        <div class="indic-meta">
+          <span>Mensual · mar-26</span>
+          <span class="indic-meta-pub">11 may 2026</span>
+        </div>
+        
+        <div class="indic-context">Las exportaciones totales crecieron 23.86% anual en marzo de 2026, el mayor avance en el periodo disponible (abril de 2024 a marzo de 2026), impulsadas por manufacturas no automotrices. El saldo comercial fue superavitario en 2,499 millones de dólares, el nivel más alto registrado en dicho periodo.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">23.9</div>
+        <div class="indic-unidad">%</div>
+        
+        <div class="indic-delta delta-pos">+8.0pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,26.3 11.7,24.9 21.3,31.0 31.0,24.3 40.7,30.9 50.3,20.7 60.0,21.8 69.7,16.0 79.3,19.7 89.0,17.1 98.7,18.8 108.3,13.7 118.0,3.0 118.0,31" fill="#16A34A" opacity="0.12"/><polyline points="2.0,26.3 11.7,24.9 21.3,31.0 31.0,24.3 40.7,30.9 50.3,20.7 60.0,21.8 69.7,16.0 79.3,19.7 89.0,17.1 98.7,18.8 108.3,13.7 118.0,3.0" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+  </div>
+  
+  <div class="indic-tema-header">
+    <span class="indic-tema-label">Sentimiento</span>
+    <span class="indic-tema-rule"></span>
+    <span class="indic-tema-count">4</span>
+  </div>
+  <div class="indic-list">
+    
+    <a class="indic-row indic-row-link" href="indicador/confianza_consumidor.html">
+      <div class="semaforo sem-amarillo" role="img" aria-label="Estado: Vigilancia"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">Indicador de Confianza del Consumidor</div>
+        <div class="indic-meta">
+          <span>Mensual · mar-26</span>
+          <span class="indic-meta-pub">8 may 2026</span>
+        </div>
+        
+        <div class="indic-context">La confianza del consumidor retrocedió en marzo de 2026 y se ubicó en 44.1 puntos, nivel que se mantiene entre los más bajos del rango de datos disponible. La percepción sobre la situación económica del país y la disposición a comprar bienes durables se deterioraron.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">-0.3</div>
+        <div class="indic-unidad">pts</div>
+        
+        <div class="indic-delta delta-neg">-0.6pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,16.6 11.7,19.6 21.3,3.0 31.0,24.8 40.7,10.1 50.3,7.5 60.0,17.0 69.7,18.1 79.3,31.0 89.0,8.1 98.7,19.1 108.3,10.7 118.0,16.5 118.0,31" fill="#D97706" opacity="0.12"/><polyline points="2.0,16.6 11.7,19.6 21.3,3.0 31.0,24.8 40.7,10.1 50.3,7.5 60.0,17.0 69.7,18.1 79.3,31.0 89.0,8.1 98.7,19.1 108.3,10.7 118.0,16.5" fill="none" stroke="#D97706" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+    <a class="indic-row indic-row-link" href="indicador/emoe_ipm.html">
+      <div class="semaforo sem-neutro" role="img" aria-label="Estado: Sin umbral"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">EMOE Indicador de Pedidos Manufactureros</div>
+        <div class="indic-meta">
+          <span>Mensual · abr-26</span>
+          <span class="indic-meta-pub">4 may 2026</span>
+        </div>
+        
+        <div class="indic-context">El Indicador de Pedidos Manufactureros se mantuvo en terreno expansivo en abril de 2026, aunque con una leve contracción anual que refleja un crecimiento moderado del sector sin señales de aceleración.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">-0.6</div>
+        <div class="indic-unidad">pts</div>
+        
+        <div class="indic-delta delta-neg">-1.2pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,20.3 11.7,20.1 21.3,15.7 31.0,23.3 40.7,18.3 50.3,19.3 60.0,5.0 69.7,31.0 79.3,25.0 89.0,3.0 98.7,20.5 108.3,15.6 118.0,20.5 118.0,31" fill="#71717A" opacity="0.12"/><polyline points="2.0,20.3 11.7,20.1 21.3,15.7 31.0,23.3 40.7,18.3 50.3,19.3 60.0,5.0 69.7,31.0 79.3,25.0 89.0,3.0 98.7,20.5 108.3,15.6 118.0,20.5" fill="none" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+    <a class="indic-row indic-row-link" href="indicador/emoe_iat.html">
+      <div class="semaforo sem-neutro" role="img" aria-label="Estado: Sin umbral"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">EMOE Indicadores Agregados de Tendencia</div>
+        <div class="indic-meta">
+          <span>Mensual · abr-26</span>
+          <span class="indic-meta-pub">4 may 2026</span>
+        </div>
+        
+        <div class="indic-context">El Indicador Agregado de Tendencia manufacturero cayó en abril, pero se mantiene en terreno expansivo. La construcción sigue en contracción, mientras el comercio se debilita.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">-1.3</div>
+        <div class="indic-unidad">pts</div>
+        
+        <div class="indic-delta delta-neg">-3.2pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,14.6 11.7,18.8 21.3,26.1 31.0,15.7 40.7,23.7 50.3,14.2 60.0,4.9 69.7,31.0 79.3,24.5 89.0,13.7 98.7,23.9 108.3,3.0 118.0,28.8 118.0,31" fill="#71717A" opacity="0.12"/><polyline points="2.0,14.6 11.7,18.8 21.3,26.1 31.0,15.7 40.7,23.7 50.3,14.2 60.0,4.9 69.7,31.0 79.3,24.5 89.0,13.7 98.7,23.9 108.3,3.0 118.0,28.8" fill="none" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+    <a class="indic-row indic-row-link" href="indicador/emoe_ice.html">
+      <div class="semaforo sem-neutro" role="img" aria-label="Estado: Sin umbral"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">EMOE Indicador Global de Confianza Empresarial</div>
+        <div class="indic-meta">
+          <span>Mensual · abr-26</span>
+          <span class="indic-meta-pub">4 may 2026</span>
+        </div>
+        
+        <div class="indic-context">La confianza empresarial permanece en terreno de contracción, aunque la caída anual se reduce a menos de medio punto, la menor del periodo analizado.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">-0.2</div>
+        <div class="indic-unidad">pts</div>
+        
+        <div class="indic-delta delta-pos">+0.2pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,28.7 11.7,15.2 21.3,16.5 31.0,9.6 40.7,9.4 50.3,15.4 60.0,31.0 69.7,19.0 79.3,19.0 89.0,18.8 98.7,3.0 108.3,22.7 118.0,19.2 118.0,31" fill="#71717A" opacity="0.12"/><polyline points="2.0,28.7 11.7,15.2 21.3,16.5 31.0,9.6 40.7,9.4 50.3,15.4 60.0,31.0 69.7,19.0 79.3,19.0 89.0,18.8 98.7,3.0 108.3,22.7 118.0,19.2" fill="none" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+  </div>
+  
+  <div class="indic-tema-header">
+    <span class="indic-tema-label">Automotriz</span>
+    <span class="indic-tema-rule"></span>
+    <span class="indic-tema-count">1</span>
+  </div>
+  <div class="indic-list">
+    
+    <a class="indic-row indic-row-link" href="indicador/autos_ligeros.html">
+      <div class="semaforo sem-neutro" role="img" aria-label="Estado: Sin umbral"></div>
+      <div class="indic-body">
+        <div class="indic-nombre">Industria Automotriz, vehículos ligeros</div>
+        <div class="indic-meta">
+          <span>Mensual · mar-26</span>
+          <span class="indic-meta-pub">11 may 2026</span>
+        </div>
+        
+        <div class="indic-context">Las ventas de vehículos ligeros crecieron 2.4% anual en marzo, revirtiendo la contracción de febrero. La producción y exportación también repuntaron, con los tres componentes del sector automotriz en terreno positivo.</div>
+        
+      </div>
+      <div class="indic-vals">
+        
+        <div class="indic-valor">2.4</div>
+        <div class="indic-unidad">%</div>
+        
+        <div class="indic-delta delta-pos">+2.7pp</div>
+        
+        
+      </div>
+      
+      <div class="indic-spark"><svg viewBox="0 0 120 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block;width:120px;height:34px"><polygon points="2.0,31 2.0,17.5 11.7,29.2 21.3,20.9 31.0,31.0 40.7,19.9 50.3,24.4 60.0,16.9 69.7,5.6 79.3,21.7 89.0,11.1 98.7,3.0 108.3,21.7 118.0,16.3 118.0,31" fill="#71717A" opacity="0.12"/><polyline points="2.0,17.5 11.7,29.2 21.3,20.9 31.0,31.0 40.7,19.9 50.3,24.4 60.0,16.9 69.7,5.6 79.3,21.7 89.0,11.1 98.7,3.0 108.3,21.7 118.0,16.3" fill="none" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      
+    </a>
+    
+  </div>
+  
+  
+
+  
+  
+  <div id="proximas" class="section-label" style="margin-top:28px">Próximas publicaciones · 16 en los próximos 14 días</div>
+  <div class="proximas-grupos">
+    
+    <div>
+      <div class="prox-grupo-label">Esta semana</div>
+      <div class="prox-timeline">
+        
+        <div class="prox-tl-col">
+          <div class="prox-tl-date">
+            <span class="prox-tl-dia"></span>
+            <span class="prox-tl-num"></span>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">Encuesta Nacional de Empresas Constructoras</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">Empresas Comerciales, comercio al por mayor</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">Empresas Comerciales, comercio al por menor</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">Encuesta Mensual de Servicios</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+        </div>
+        
+        <div class="prox-tl-col">
+          <div class="prox-tl-date">
+            <span class="prox-tl-dia"></span>
+            <span class="prox-tl-num"></span>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">PIB anual, variación real</div>
+            <div class="prox-tl-freq">Anual</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">PIB Total, variación trimestral y anual</div>
+            <div class="prox-tl-freq">Trimestral</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">PIB por actividad</div>
+            <div class="prox-tl-freq">Trimestral</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">Inflación anual INPC (resumen)</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">IGAE e IOAE resumen</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">Indicador Global de la Actividad Económica</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">INPC quincenal</div>
+            <div class="prox-tl-freq">Quincenal</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">Índice Nacional de Precios al Consumidor</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    <div>
+      <div class="prox-grupo-label">Próxima semana</div>
+      <div class="prox-timeline">
+        
+        <div class="prox-tl-col">
+          <div class="prox-tl-date">
+            <span class="prox-tl-dia"></span>
+            <span class="prox-tl-num"></span>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">Balanza Comercial de Mercancías</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+        </div>
+        
+        <div class="prox-tl-col">
+          <div class="prox-tl-date">
+            <span class="prox-tl-dia"></span>
+            <span class="prox-tl-num"></span>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">Encuesta Nacional de Ocupación y Empleo (trimestral)</div>
+            <div class="prox-tl-freq">Trimestral</div>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">ENOE, tasas mensuales de participación, subocupación, desocupación e informalidad</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+        </div>
+        
+        <div class="prox-tl-col">
+          <div class="prox-tl-date">
+            <span class="prox-tl-dia"></span>
+            <span class="prox-tl-num"></span>
+          </div>
+          
+          <div class="prox-tl-item">
+            <div class="prox-tl-nombre">EMOE Indicador de Pedidos Manufactureros</div>
+            <div class="prox-tl-freq">Mensual</div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+
+  <footer class="rpt-footer">
+    <span>Panorama MX · datos BIE-INEGI vía API oficial · interpretaciones con IA</span>
+    <span>Build 18 de mayo de 2026 · La interpretación no es posición oficial</span>
+  </footer>
+
+</div>
+</body>
+</html>

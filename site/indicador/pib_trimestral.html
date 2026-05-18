@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PIB Total, variación trimestral y anual · Panorama económico de México</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
+<script src="../assets/app.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Saltar al contenido</a>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand-block">
+      <a class="brand-gob" href="../index.html" aria-label="Inicio">
+        <div class="brand-gob-text">
+          <div class="brand-gob-line">Panorama MX</div>
+          <div class="brand-gob-line strong">INEGI · BIE</div>
+        </div>
+      </a>
+    </div>
+    <nav class="nav-list">
+      <a class="nav-item" href="../index.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12l9-9 9 9M5 10v10h14V10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Inicio</span>
+      </a>
+      <a class="nav-item" href="../reporte_semanal.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="nav-label">Reporte semanal</span>
+      </a>
+      <a class="nav-item" href="../comparar.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 3h5v5M8 21H3v-5M21 3l-7 7M3 21l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Comparar</span>
+      </a>
+      <a class="nav-item" href="../imss_explorador.html">
+        <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="nav-label">Empleo IMSS</span>
+      </a>
+      <details class="nav-group-details" open id="nav-indicadores-details">
+        <summary class="nav-item nav-summary active" aria-haspopup="listbox">
+          <svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18M7 14l4-4 4 4 5-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="nav-label nav-label-always">Indicadores</span>
+          <svg class="nav-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round"/></svg>
+        </summary>
+        <div class="nav-sub">
+          
+          <div class="nav-sub-label">Resúmenes</div>
+          
+          <a class="nav-sub-item" href="../indicador/pib_anual.html">PIB anual (resumen)</a>
+          
+          <a class="nav-sub-item" href="../indicador/inflacion_resumen.html">Inflación (resumen)</a>
+          
+          <a class="nav-sub-item" href="../indicador/igae_ioae_resumen.html">IGAE/IOAE por sector</a>
+          
+          
+          <div class="nav-sub-label">Macro</div>
+          
+          <a class="nav-sub-item active" aria-current="page" href="../indicador/pib_trimestral.html">PIB trimestral</a>
+          
+          <a class="nav-sub-item" href="../indicador/pib_por_actividad.html">PIB por actividad</a>
+          
+          
+          <div class="nav-sub-label">Actividad</div>
+          
+          <a class="nav-sub-item" href="../indicador/igae.html">IGAE</a>
+          
+          <a class="nav-sub-item" href="../indicador/actividad_industrial.html">Actividad industrial</a>
+          
+          <a class="nav-sub-item" href="../indicador/consumo_privado.html">Consumo privado</a>
+          
+          <a class="nav-sub-item" href="../indicador/fbcf.html">FBCF</a>
+          
+          <a class="nav-sub-item" href="../indicador/balanza_comercial.html">Balanza comercial</a>
+          
+          <a class="nav-sub-item" href="../indicador/ind_ciclicos.html">Indicadores cíclicos</a>
+          
+          
+          <div class="nav-sub-label">Encuestas sectoriales</div>
+          
+          <a class="nav-sub-item" href="../indicador/emim.html">EMIM manufactura</a>
+          
+          <a class="nav-sub-item" href="../indicador/enec.html">ENEC construcción</a>
+          
+          <a class="nav-sub-item" href="../indicador/comercio_mayoreo.html">Comercio mayoreo</a>
+          
+          <a class="nav-sub-item" href="../indicador/comercio_menudeo.html">Comercio menudeo</a>
+          
+          <a class="nav-sub-item" href="../indicador/servicios.html">Servicios</a>
+          
+          
+          <div class="nav-sub-label">Precios</div>
+          
+          <a class="nav-sub-item" href="../indicador/inpc_mensual.html">INPC mensual</a>
+          
+          <a class="nav-sub-item" href="../indicador/inpc_quincenal.html">INPC quincenal</a>
+          
+          <a class="nav-sub-item" href="../indicador/inpp.html">INPP</a>
+          
+          
+          <div class="nav-sub-label">Empleo</div>
+          
+          <a class="nav-sub-item" href="../indicador/enoe_trimestral.html">ENOE trimestral</a>
+          
+          <a class="nav-sub-item" href="../indicador/enoe_mensual.html">ENOE mensual</a>
+          
+          
+          <div class="nav-sub-label">Automotriz</div>
+          
+          <a class="nav-sub-item" href="../indicador/autos_ligeros.html">Vehículos ligeros</a>
+          
+          <a class="nav-sub-item" href="../indicador/autos_pesados.html">Vehículos pesados</a>
+          
+          
+          <div class="nav-sub-label">Regional</div>
+          
+          <a class="nav-sub-item" href="../indicador/export_entidad.html">Exportaciones entidad</a>
+          
+          
+          <div class="nav-sub-label">Sentimiento</div>
+          
+          <a class="nav-sub-item" href="../indicador/confianza_consumidor.html">Confianza consumidor</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_ipm.html">EMOE IPM</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_iat.html">EMOE IAT</a>
+          
+          <a class="nav-sub-item" href="../indicador/emoe_ice.html">EMOE ICE</a>
+          
+          
+        </div>
+      </details>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="updated-row">
+        <span class="status-dot status-ok"></span>
+        <div>
+          <div class="updated-label">Última actualización</div>
+          <div class="updated-value">18 de mayo de 2026</div>
+        </div>
+      </div>
+      <a href="mailto:german.mucino@gmail.com?subject=Tablero%20INEGI%20-%20Reporte%20de%20problema" class="feedback-link">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12c0 4.4-4 8-9 8-1.7 0-3.3-.4-4.7-1.1L3 20l1.4-3.7C3.5 15.1 3 13.6 3 12c0-4.4 4-8 9-8s9 3.6 9 8z" stroke-width="2"/></svg>
+        <span>Reportar problema</span>
+      </a>
+    </div>
+  </aside>
+
+  <main class="main" id="main-content" tabindex="-1">
+    <header class="topbar">
+      <div class="topbar-status">
+        <span class="status-dot status-ok"></span>
+        <span>Sistema actualizado</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="16" rx="2" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke-width="2"/></svg>
+        <span>18 de mayo de 2026</span>
+      </div>
+      <div class="topbar-meta">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9" stroke-width="2"/><path d="M12 7v5l3 3" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>08:30 h (Centro)</span>
+      </div>
+      <div class="topbar-spacer"></div>
+      <div class="topbar-search" id="topbar-search">
+        <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
+        <kbd class="topbar-search-kbd">/</kbd>
+        <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
+      </div>
+    </header>
+
+    
+
+<nav class="breadcrumb-nav" aria-label="Ruta">
+  <a class="breadcrumb" href="../index.html">Vista general</a>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-cat">Macro</span>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-current">PIB Total, variación trimestral y anual</span>
+</nav>
+
+<div class="detail-header">
+  <div>
+    <h1 class="detail-title">PIB Total, variación trimestral y anual</h1>
+    <div class="detail-meta">
+      Categoría: <strong>Macro</strong> · Unidad: <strong>%</strong>
+       · Último periodo: <strong>T1-26</strong>
+      
+    </div>
+  </div>
+  <div class="detail-actions">
+    <a class="indic-btn" href="../data/pib_trimestral.csv" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 4v12M7 11l5 5 5-5M5 20h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Descargar CSV</span>
+    </a>
+    
+    <a class="indic-btn" href="https://www.inegi.org.mx/temas/pib/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 4h6v6M10 14L20 4M19 13v6a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Boletín INEGI</span>
+    </a>
+    
+    
+  </div>
+</div>
+
+
+
+
+<div class="inegi-strip">
+  
+  <div class="inegi-strip-prox">Próxima publicación: 22 may 2026</div>
+  
+  <div class="inegi-tiles inegi-tiles-1">
+    
+    <div class="inegi-tile">
+      <div class="inegi-tile-head">Variación anual</div>
+      <div class="inegi-tile-period">T1-26</div>
+      <div class="inegi-tile-value inegi-up">
+        <span class="inegi-arrow" aria-hidden="true">▲</span>
+        <span>+0.1%</span>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="inegi-headline">
+    <p>El Producto Interno Bruto creció 0.05% anual en el primer trimestre de 2026, con contracciones en los sectores secundario y primario que el sector terciario no logró compensar.</p>
+    
+  </div>
+  
+</div>
+
+
+<div class="detail-grid">
+  <div class="chart-card">
+    <div class="chart-card-head">
+      <h3>Serie histórica con promedio móvil</h3>
+      
+      <div class="range-pills" id="range-pills" role="tablist" aria-label="Rango temporal del chart">
+        <button class="range-pill" data-range="12" type="button">1A</button>
+        <button class="range-pill" data-range="36" type="button">3A</button>
+        <button class="range-pill active" data-range="60" type="button">5A</button>
+        <button class="range-pill" data-range="120" type="button">10A</button>
+        <button class="range-pill" data-range="0" type="button">Todo</button>
+      </div>
+      
+    </div>
+    <div class="chart-container">
+      
+      <canvas id="detail-chart"></canvas>
+      
+    </div>
+    
+    <div class="legend">
+      <span><span class="swatch" style="background:#0891B2"></span>Serie principal</span>
+      <span><span class="swatch" style="background:#7C3AED"></span>Serie secundaria</span>
+      <span><span class="dashed" style="border-top-color:#18181B"></span>Promedio móvil 12M</span>
+    </div>
+    
+    
+  </div>
+
+  <div class="stats-col">
+    <div class="stat-card">
+      <div class="label">Último valor</div>
+      <div class="valor">0.1%</div>
+      <div class="nota">Var. anual · T1-26</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Δ vs MA12</div>
+      <div class="valor">-1.3pp</div>
+      <div class="nota">MA12: 1.4%</div>
+    </div>
+    <div class="stat-card" id="proxima-pub-card" data-next-date="2026-05-22">
+      <div class="label">Próxima publicación</div>
+      <div class="valor-fecha" id="proxima-pub-valor">22 may 2026</div>
+      <div class="nota" id="proxima-pub-nota">Producto Interno Bruto Trimestral (PIBT)</div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<section class="interp-section">
+  <header class="interp-section-head">
+    <h3>Lectura del indicador</h3>
+    <span class="interp-section-source">Análisis IA · deepseek + claude</span>
+  </header>
+
+  
+    
+    <div class="interp-diag-block">
+      <p>El PIB del primer trimestre de 2026 confirma que la economía mexicana se encuentra en una fase de expansión muy reducida, con el sector secundario en contracción anual y los servicios creciendo a un ritmo que no alcanza a compensar dicha caída. El sector primario también aportó negativamente en términos anuales, lo que concentra en el terciario el único soporte del crecimiento agregado en el periodo.</p>
+    </div>
+    
+    
+    <details class="interp-details">
+      <summary><span class="interp-summary-label">Ver lectura completa</span><span class="interp-summary-meta">3 párrafos</span></summary>
+      <div class="interp-prosa-block">
+        <p>El Producto Interno Bruto (PIB), que mide el valor total de los bienes y servicios producidos en el país, registró un crecimiento anual de 0.05% en el primer trimestre de 2026. Este resultado se ubica por encima de las contracciones anuales observadas en el segundo trimestre de 2025 (-0.06%) y el tercer trimestre de 2025 (-0.05%), aunque sigue siendo un ritmo de expansión marginal que refleja una pérdida significativa de dinamismo respecto a trimestres anteriores.</p><p>El resultado estuvo presionado a la baja por el sector secundario, que cayó 1.29% anual, y por el sector primario, que se contrajo 0.14% anual. El sector terciario, que agrupa servicios y comercio, creció 0.73% anual, expansión insuficiente para compensar las caídas de los otros dos sectores. En términos de producción por grandes divisiones, las actividades secundarias también registraron una variación trimestral de -1.05%, mientras que las primarias mostraron una variación trimestral de -1.36%; el dato de variación trimestral del PIB total no se encuentra disponible para este periodo.</p><p>Este bajo crecimiento se da en un contexto de debilidad de la demanda externa de manufacturas mexicanas y de condiciones que han limitado la inversión en el sector industrial. Los datos del trimestre reflejan que la dinámica del sector terciario no ha sido suficiente para sostener un ritmo de crecimiento agregado más robusto.</p>
+      </div>
+    </details>
+    
+  
+
+  <footer class="interp-section-foot">
+    Análisis asistido por IA. Verifica con el boletín INEGI antes de tomar decisiones de política.
+    
+    · <span title="El validador automático (claude) detectó 6 issues en el draft inicial y aplicó correcciones antes de publicar.">Versión revisada por validador automático.</span>
+    
+  </footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="analytics-grid" id="analytics-grid">
+  <div class="analytics-card">
+    <div class="analytics-card-head">
+      <h4>Estadísticos descriptivos · últimos 120 obs<span class="advanced-hint-off">desviación estándar y percentiles ocultos · activa "Datos avanzados" arriba</span></h4>
+    </div>
+    <table class="analytics-tbl">
+      <caption class="sr-only">Estadísticos descriptivos de PIB Total, variación trimestral y anual, últimos 120 periodos</caption>
+      <thead><tr><th scope="col">Métrica</th><th scope="col" class="num">Valor</th><th scope="col">Métrica</th><th scope="col" class="num">Valor</th></tr></thead>
+      <tbody>
+      <tr><td>Media</td><td class="num">2.18%</td>
+          <td>Mediana</td><td class="num">2.29%</td></tr>
+      <tr><td>Mínimo</td><td class="num">-20.29%</td>
+          <td>Máximo</td><td class="num">22.70%</td></tr>
+      <tr class="advanced"><td>Desv. estándar</td><td class="num">4.14%</td>
+          <td>p25 / p75</td><td class="num">0.8 / 3.7%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="analytics-card">
+    <h4>Comparativos lag</h4>
+    <table class="analytics-tbl">
+      <caption class="sr-only">Comparativos históricos de PIB Total, variación trimestral y anual respecto al valor actual</caption>
+      <thead><tr><th scope="col">Periodo</th><th scope="col" class="num">Hace</th><th scope="col" class="num">Δ vs hoy</th></tr></thead>
+      <tbody>
+      
+        <tr><td>1m (T4-25)</td>
+            <td class="num">1.79%</td>
+            <td class="num neg">-1.74%</td></tr>
+      
+        <tr><td>3m (T2-25)</td>
+            <td class="num">-0.06%</td>
+            <td class="num pos">+0.11%</td></tr>
+      
+        <tr><td>6m (T3-24)</td>
+            <td class="num">1.40%</td>
+            <td class="num neg">-1.35%</td></tr>
+      
+        <tr><td>12m (T1-23)</td>
+            <td class="num">3.79%</td>
+            <td class="num neg">-3.74%</td></tr>
+      
+        <tr><td>24m (T1-20)</td>
+            <td class="num">-1.43%</td>
+            <td class="num pos">+1.48%</td></tr>
+      
+      </tbody>
+    </table>
+  </div>
+  
+  
+  <div class="analytics-card">
+    <h4>Récords históricos · T1-23 a T1-26</h4>
+    <div class="record-row">
+      <div class="record-card record-mejor">
+        <div class="record-label">Récord positivo</div>
+        <div class="record-valor">+22.70%</div>
+        <div class="record-periodo">T2-21</div>
+      </div>
+      <div class="record-card record-peor">
+        <div class="record-label">Récord negativo</div>
+        <div class="record-valor">-20.29%</div>
+        <div class="record-periodo">T2-20</div>
+      </div>
+      
+      <div class="record-card record-percentil advanced">
+        <div class="record-label">Posición actual</div>
+        <div class="record-valor">p17</div>
+        <div class="record-periodo">sobre 120 obs</div>
+      </div>
+      
+      
+      <div class="record-card record-zscore record-z-normal advanced">
+        <div class="record-label">Z-score</div>
+        <div class="record-valor">-0.51σ</div>
+        <div class="record-periodo">normal</div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>PIB por gran actividad económica · variación anual desestacionalizada</h3>
+    <div class="source">Últimos 40 trimestres · BIE-INEGI</div>
+  </div>
+  <div class="drilldown-saldo-cards">
+    
+    <div class="drilldown-stat-card">
+      <div class="label">PIB total</div>
+      <div class="valor">+0.05%</div>
+    </div>
+    
+    <div class="drilldown-stat-card">
+      <div class="label">Primarias</div>
+      <div class="valor">-0.14%</div>
+    </div>
+    
+    <div class="drilldown-stat-card">
+      <div class="label">Secundarias</div>
+      <div class="valor">-1.29%</div>
+    </div>
+    
+    <div class="drilldown-stat-card">
+      <div class="label">Terciarias</div>
+      <div class="valor">+0.73%</div>
+    </div>
+    
+  </div>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-pib-actividades"></canvas>
+  </div>
+</div>
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>PIB secundarias por subsector · variación anual</h3>
+    <div class="source">Minería, energía, construcción, manufacturas · último trimestre disponible</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead><tr><th>Subsector SCIAN</th><th class="num">Var. anual</th><th>Lectura</th></tr></thead>
+    <tbody>
+      
+      <tr>
+        <td>Minería</td>
+        <td class="num neg">-0.37%</td>
+        <td>Estancamiento</td>
+      </tr>
+      
+      <tr>
+        <td>Energía/agua/gas</td>
+        <td class="num pos">+2.31%</td>
+        <td>Crecimiento moderado</td>
+      </tr>
+      
+      <tr>
+        <td>Construcción</td>
+        <td class="num pos">+4.25%</td>
+        <td>Crecimiento moderado</td>
+      </tr>
+      
+      <tr>
+        <td>Manufacturas</td>
+        <td class="num neg">-0.70%</td>
+        <td>Estancamiento</td>
+      </tr>
+      
+    </tbody>
+  </table>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-pib-secundarias"></canvas>
+  </div>
+</div>
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>PIB terciarias por subsector · variación anual</h3>
+    <div class="source">Servicios y comercio · último trimestre disponible</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead><tr><th>Subsector SCIAN</th><th class="num">Var. anual</th><th>Lectura</th></tr></thead>
+    <tbody>
+      
+      <tr>
+        <td>Comercio mayoreo</td>
+        <td class="num neg">-0.77%</td>
+        <td>Estancamiento</td>
+      </tr>
+      
+      <tr>
+        <td>Comercio menudeo</td>
+        <td class="num pos">+4.56%</td>
+        <td>Crecimiento moderado</td>
+      </tr>
+      
+      <tr>
+        <td>Transportes</td>
+        <td class="num pos">+1.00%</td>
+        <td>Crecimiento moderado</td>
+      </tr>
+      
+      <tr>
+        <td>Servicios financieros</td>
+        <td class="num pos">+3.67%</td>
+        <td>Crecimiento moderado</td>
+      </tr>
+      
+      <tr>
+        <td>Servicios inmobiliarios</td>
+        <td class="num pos">+1.77%</td>
+        <td>Crecimiento moderado</td>
+      </tr>
+      
+      <tr>
+        <td>Servicios profesionales</td>
+        <td class="num pos">+5.74%</td>
+        <td>Crecimiento sólido</td>
+      </tr>
+      
+      <tr>
+        <td>Actividades gubernamentales</td>
+        <td class="num pos">+1.60%</td>
+        <td>Crecimiento moderado</td>
+      </tr>
+      
+    </tbody>
+  </table>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-pib-terciarias"></canvas>
+  </div>
+</div>
+
+<div class="drilldown-card">
+  <div class="drilldown-head">
+    <h3>PIB por componentes de la demanda agregada · variación anual</h3>
+    <div class="source">Y = C + G + I + (X − M) · BIE oferta y demanda global</div>
+  </div>
+  <table class="analytics-tbl">
+    <thead><tr><th>Componente</th><th class="num">Var. anual</th><th>Lectura macro</th></tr></thead>
+    <tbody>
+      <tr><td>Consumo privado (C)</td>
+          <td class="num ">—</td>
+          <td>Demanda interna de hogares</td></tr>
+      <tr><td>Consumo gobierno (G)</td>
+          <td class="num ">—</td>
+          <td>Gasto público corriente</td></tr>
+      <tr><td>FBCF total (I)</td>
+          <td class="num ">—</td>
+          <td>Inversión productiva agregada</td></tr>
+      <tr><td>FBCF privada</td>
+          <td class="num ">—</td>
+          <td>Inversión empresarial</td></tr>
+      <tr><td>FBCF pública</td>
+          <td class="num ">—</td>
+          <td>Inversión gobierno (Tren Maya, Pemex, infra)</td></tr>
+      <tr><td>Exportaciones B+S (X)</td>
+          <td class="num ">—</td>
+          <td>Demanda externa por bienes y servicios mexicanos</td></tr>
+      <tr><td>Importaciones B+S (M)</td>
+          <td class="num ">—</td>
+          <td>Demanda doméstica por bienes y servicios extranjeros</td></tr>
+    </tbody>
+  </table>
+  <div class="drilldown-chart-wrap">
+    <canvas id="chart-pib-demanda"></canvas>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="chart-card">
+  <h3>Serie completa</h3>
+  <div class="table-wrap" style="box-shadow:none;border:none">
+    <table>
+      <caption class="sr-only">Serie histórica completa de PIB Total, variación trimestral y anual</caption>
+      
+      <thead>
+        <tr>
+          <th scope="col">Periodo</th>
+          <th scope="col" class="num">Var. anual</th><th scope="col" class="num">Var. trimestral</th>
+          <th scope="col" class="num advanced">MA12</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        
+        <tr>
+          <td>T1-23</td>
+          
+            
+            <td class="num pos">3.8</td>
+            
+          
+            
+            <td class="num neg">-2.9</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">1.1</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T2-23</td>
+          
+            
+            <td class="num pos">3.3</td>
+            
+          
+            
+            <td class="num pos">3.2</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">3.1</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T3-23</td>
+          
+            
+            <td class="num pos">3.3</td>
+            
+          
+            
+            <td class="num neg">-0.1</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">4.1</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T4-23</td>
+          
+            
+            <td class="num pos">2.1</td>
+            
+          
+            
+            <td class="num pos">2.0</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">4.5</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T1-24</td>
+          
+            
+            <td class="num pos">1.7</td>
+            
+          
+            
+            <td class="num neg">-3.3</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">4.9</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T2-24</td>
+          
+            
+            <td class="num pos">2.1</td>
+            
+          
+            
+            <td class="num pos">3.6</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">3.2</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T3-24</td>
+          
+            
+            <td class="num pos">1.4</td>
+            
+          
+            
+            <td class="num neg">-0.7</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">2.9</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T4-24</td>
+          
+            
+            <td class="num pos">0.3</td>
+            
+          
+            
+            <td class="num pos">0.8</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">2.7</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T1-25</td>
+          
+            
+            <td class="num pos">0.6</td>
+            
+          
+            
+            <td class="num neg">-3.0</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">2.6</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T2-25</td>
+          
+            
+            <td class="num neg">-0.1</td>
+            
+          
+            
+            <td class="num pos">2.9</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">2.3</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T3-25</td>
+          
+            
+            <td class="num neg">-0.1</td>
+            
+          
+            
+            <td class="num neg">-0.7</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">1.9</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T4-25</td>
+          
+            
+            <td class="num pos">1.8</td>
+            
+          
+            
+            <td class="num pos">2.7</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">1.7</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T1-26</td>
+          
+            
+            <td class="num pos">0.1</td>
+            
+          
+            
+            <td class="num">—</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">1.4</td>
+        </tr>
+        
+      </tbody>
+      
+    </table>
+  </div>
+  
+  <div class="detail-meta" style="margin-top:12px">
+    Fuente: <a href="https://www.inegi.org.mx/temas/pib/" target="_blank" rel="noopener">Boletín INEGI · saladeprensa →</a>
+  </div>
+</div>
+
+
+
+<details class="metodologia-details">
+  <summary class="metodologia-summary">Nota metodológica · Producto Interno Bruto (PIB) — Variación trimestral y anual</summary>
+  <div class="metodologia-body">
+    
+    <h4>Antecedentes y cobertura</h4>
+    <p>Visión oportuna y con periodicidad trimestral sobre la situación económica del país. Disponible desde 1980. Índices de volumen físico tipo Laspeyres, base 2018.</p>
+    
+    
+    <h4>Periodicidad y publicación</h4>
+    <p>Trimestral. Se publica en promedio 53 días después de concluido el trimestre de referencia.</p>
+    
+    
+    <h4>Cobertura geográfica</h4>
+    <p>Nacional.</p>
+    
+    
+    <h4>Fuentes de información</h4>
+    <p>EMIM, ENEC, EMEC, EMS, ENOE, índices nacionales de precios, registros administrativos y estadísticas del sector externo.</p>
+    
+    
+    
+    <h4>Ajuste estacional</h4>
+    <p>Series originales ajustadas estacionalmente con X-13ARIMA-SEATS.</p>
+    
+    
+    <div class="metodologia-links">
+      
+      <a class="metodologia-link" href="https://www.inegi.org.mx/programas/pib/2018/" target="_blank" rel="noopener">Programa PIB trimestral 2018 →</a>
+      
+      <a class="metodologia-link" href="https://www.inegi.org.mx/sistemas/bie/" target="_blank" rel="noopener">BIE — Cuentas Nacionales →</a>
+      
+    </div>
+    
+  </div>
+</details>
+
+
+<script id="page-data" type="application/json">{"view": "detail", "indicador": {"id": "pib_trimestral", "tabular": false, "series": {"Var. trimestral": [null, 0.9455, -0.1891, 1.5471, 0.1614, 3.9362, -1.1344, 2.0583, -5.0255, -5.3867, 0.9392, 3.3207, 2.7424, 0.7246, 0.5025, 4.1093, -1.3033, 5.2314, 0.2561, 3.3869, 1.1377, 1.2388, 0.0798, 0.2088, 0.709, 1.3418, 0.7169, 0.5906, 2.9066, 1.2029, 0.8894, -1.6984, 0.279, 0.618, -0.632, -1.3184, -2.5547, 5.4901, -1.0479, 0.0362, -1.2608, 2.6864, -1.2361, 1.0454, 0.7712, 3.2183, -1.6456, 1.4733, -2.4645, 5.183, -1.7454, 2.4363, 0.0995, 3.8917, -1.3924, 1.031, -1.4716, 3.8686, -1.183, 1.0627, -2.8282, 5.5046, -2.3937, -0.6095, -9.0015, 1.5661, 2.4679, 3.4806, -2.9645, 4.1746, 0.1003, 2.3552, -2.8304, 2.9445, 1.2921, 2.5069, -1.8235, 2.079, -0.2003, 2.7571, -4.7365, 4.1269, -0.871, 2.6047, -3.2348, 3.5845, -0.2776, 3.0616, -3.357, 3.0378, 0.7386, 1.8971, -3.8863, 3.6514, -0.6225, 3.3078, -2.8203, 1.7346, -0.9239, 3.5652, -3.1254, 3.5104, -1.0594, 1.9388, -3.311, 1.5309, -0.5378, 1.3807, -3.7224, -17.8986, 14.6444, 6.4906, -2.8226, 3.4242, -1.7727, 3.2102, -2.124, 3.7083, -0.0861, 3.1396, -2.8814, 3.1911, -0.0634, 1.9584, -3.279, 3.5669, -0.7164, 0.8184, -2.9937, 2.9293, -0.7127, 2.6732, null], "Var. anual": [null, null, null, null, 2.4786, 5.5146, 4.5153, 5.0415, -0.3981, -9.3322, -7.4305, -6.2855, 1.3793, 7.9276, 7.4607, 8.2809, 4.0171, 8.6712, 8.4047, 7.6526, 10.3151, 6.1296, 5.943, 2.6863, 2.2511, 2.3551, 3.0066, 3.3991, 5.6554, 5.5106, 5.6913, 3.2862, 0.6489, 0.0672, -1.4418, -1.0608, -3.8566, 0.7988, 0.3769, 1.7548, 3.1059, 0.3656, 0.1747, 1.1853, 3.2676, 3.8025, 3.3721, 3.8098, 0.4766, 2.3892, 2.2853, 3.256, 5.9703, 4.6694, 5.0454, 3.6043, 1.9782, 1.9554, 2.1719, 2.2039, 0.7968, 2.3844, 1.1301, -0.5432, -6.8616, -10.3385, -5.8727, -1.9992, 4.5023, 7.1863, 4.7096, 3.5709, 3.7141, 2.4894, 3.7097, 3.8633, 4.9396, 4.0573, 2.5242, 2.7745, -0.275, 1.7256, 1.042, 0.8922, 2.4826, 1.9487, 2.559, 3.0156, 2.8855, 2.3426, 3.3855, 2.2174, 1.6576, 2.263, 0.8813, 2.2779, 3.4123, 1.4999, 1.192, 1.4441, 1.1255, 2.8908, 2.75, 1.1365, 0.9428, -0.9876, -0.4656, -1.0105, -1.4317, -20.2943, -8.1278, -3.4972, -2.5953, 22.7021, 5.1311, 1.8926, 2.625, 2.9069, 4.6738, 4.6022, 3.7928, 3.2752, 3.2986, 2.1156, 1.6975, 2.0678, 1.401, 0.2673, 0.5631, -0.056, -0.0523, 1.7864, 0.0517]}, "ma12": [null, null, null, null, null, null, null, null, null, null, null, null, 0.33, 0.31, 0.37, 0.58, 0.46, 0.56, 0.68, 0.79, 1.31, 1.86, 1.79, 1.53, 1.36, 1.41, 1.43, 1.13, 1.48, 1.15, 1.2, 0.78, 0.71, 0.65, 0.59, 0.47, 0.2, 0.54, 0.39, 0.35, 0.0, 0.12, -0.05, 0.18, 0.22, 0.43, 0.35, 0.58, 0.59, 0.56, 0.51, 0.71, 0.82, 0.92, 0.91, 0.9, 0.72, 0.77, 0.81, 0.78, 0.75, 0.77, 0.72, 0.46, -0.29, -0.49, -0.17, 0.04, -0.09, -0.06, 0.05, 0.15, 0.15, -0.06, 0.25, 0.51, 1.11, 1.15, 0.93, 0.87, 0.72, 0.71, 0.63, 0.65, 0.62, 0.67, 0.54, 0.59, 0.46, 0.54, 0.62, 0.55, 0.62, 0.58, 0.6, 0.66, 0.69, 0.54, 0.48, 0.53, 0.55, 0.59, 0.44, 0.44, 0.49, 0.31, 0.32, 0.16, 0.08, -1.55, -0.26, -0.01, 0.01, 0.0, -0.05, 0.05, 0.15, 0.33, 0.37, 0.52, 0.59, 2.34, 1.12, 0.74, 0.7, 0.71, 0.8, 0.6, 0.53, 0.47, 0.41, 0.37, null], "periodos": ["T1-93", "T2-93", "T3-93", "T4-93", "T1-94", "T2-94", "T3-94", "T4-94", "T1-95", "T2-95", "T3-95", "T4-95", "T1-96", "T2-96", "T3-96", "T4-96", "T1-97", "T2-97", "T3-97", "T4-97", "T1-98", "T2-98", "T3-98", "T4-98", "T1-99", "T2-99", "T3-99", "T4-99", "T1-00", "T2-00", "T3-00", "T4-00", "T1-01", "T2-01", "T3-01", "T4-01", "T1-02", "T2-02", "T3-02", "T4-02", "T1-03", "T2-03", "T3-03", "T4-03", "T1-04", "T2-04", "T3-04", "T4-04", "T1-05", "T2-05", "T3-05", "T4-05", "T1-06", "T2-06", "T3-06", "T4-06", "T1-07", "T2-07", "T3-07", "T4-07", "T1-08", "T2-08", "T3-08", "T4-08", "T1-09", "T2-09", "T3-09", "T4-09", "T1-10", "T2-10", "T3-10", "T4-10", "T1-11", "T2-11", "T3-11", "T4-11", "T1-12", "T2-12", "T3-12", "T4-12", "T1-13", "T2-13", "T3-13", "T4-13", "T1-14", "T2-14", "T3-14", "T4-14", "T1-15", "T2-15", "T3-15", "T4-15", "T1-16", "T2-16", "T3-16", "T4-16", "T1-17", "T2-17", "T3-17", "T4-17", "T1-18", "T2-18", "T3-18", "T4-18", "T1-19", "T2-19", "T3-19", "T4-19", "T1-20", "T2-20", "T3-20", "T4-20", "T1-21", "T2-21", "T3-21", "T4-21", "T1-22", "T2-22", "T3-22", "T4-22", "T1-23", "T2-23", "T3-23", "T4-23", "T1-24", "T2-24", "T3-24", "T4-24", "T1-25", "T2-25", "T3-25", "T4-25", "T1-26"], "unidad": "%", "chart_tipo": null, "chart_titulo": null, "drilldown": {"tipo": "pib_trimestral", "periodos": ["T2-16", "T3-16", "T4-16", "T1-17", "T2-17", "T3-17", "T4-17", "T1-18", "T2-18", "T3-18", "T4-18", "T1-19", "T2-19", "T3-19", "T4-19", "T1-20", "T2-20", "T3-20", "T4-20", "T1-21", "T2-21", "T3-21", "T4-21", "T1-22", "T2-22", "T3-22", "T4-22", "T1-23", "T2-23", "T3-23", "T4-23", "T1-24", "T2-24", "T3-24", "T4-24", "T1-25", "T2-25", "T3-25", "T4-25", "T1-26"], "actividades_anual": {"Total": [2.263, 0.8813, 2.2779, 3.4123, 1.4999, 1.192, 1.4441, 1.1255, 2.8908, 2.75, 1.1365, 0.9428, -0.9876, -0.4656, -1.0105, -1.4317, -20.2943, -8.1278, -3.4972, -2.5953, 22.7021, 5.1311, 1.8926, 2.625, 2.9069, 4.6738, 4.6022, 3.7928, 3.2752, 3.2986, 2.1156, 1.6975, 2.0678, 1.401, 0.2673, 0.5631, -0.056, -0.0523, 1.7864, 0.0517], "Primarias": [2.7549, 6.4885, 3.5908, 5.6931, 2.6646, 0.2944, 4.2243, 4.529, 3.9748, 0.2465, 1.1524, 2.1604, -0.589, 1.7992, -1.4967, -1.1478, -1.2084, 5.7473, 1.6311, 0.5582, 6.2069, -1.3883, 3.2406, 0.7213, -0.3201, 0.6703, 4.6227, 0.5934, -0.3303, 0.6629, -4.4182, -0.802, -0.1949, 7.0331, -3.1985, 4.0708, 1.7929, 3.4791, 7.165, -0.14], "Secundarias": [1.5913, -1.4689, -0.01, 2.3613, -0.0792, 0.3382, -0.0656, -1.3092, 1.4372, 1.3348, -0.8111, -0.1415, -1.998, -1.7424, -3.0592, -2.59, -24.3826, -7.2451, -0.8012, -1.6629, 27.2087, 3.4686, 0.8533, 4.218, 4.492, 5.2288, 5.0657, 2.9686, 3.0143, 3.2809, 2.612, 0.1528, 0.8074, -0.3027, -2.3524, -1.0781, -1.6478, -2.7062, 0.4165, -1.2941], "Terciarias": [2.6026, 1.8796, 3.5438, 3.8671, 2.2117, 1.7327, 2.2164, 2.2368, 3.7284, 3.6715, 2.0302, 1.4326, -0.5564, 0.0586, 0.0101, -0.6105, -18.2674, -8.848, -4.7902, -2.8803, 20.5713, 5.7868, 1.6341, 1.526, 1.8614, 4.4277, 4.3674, 4.1143, 3.5554, 3.4538, 2.2687, 2.655, 2.8651, 2.0737, 1.8147, 1.2286, 0.6518, 1.1793, 2.1647, 0.7266]}, "actividades_ultimo": {"PIB total": 0.0517, "Primarias": -0.14, "Secundarias": -1.2941, "Terciarias": 0.7266}, "secundarias_anual": {"Minería (21)": [-2.1278, -4.7163, -5.5616, -8.3887, -6.0306, -9.5161, -8.2705, -6.736, -7.0699, -4.6056, -7.4014, -8.8262, -8.7003, -3.4664, -0.1688, 5.3997, -4.6897, -1.4766, -0.8873, -3.5292, 8.0557, 3.0387, 3.2542, 3.9553, 4.3914, 3.0083, 5.0673, 3.5805, 2.775, -0.6887, -3.7221, -3.8927, -9.1898, -6.7672, -8.5466, -11.8081, -8.3436, -4.9936, -0.367, null], "Energía/agua/gas (22)": [1.3582, -0.6218, -1.9104, 5.9739, 4.4469, 3.8061, 4.3959, 0.5059, 1.6875, 4.1673, 0.9999, -6.3929, -5.9726, -5.3656, -3.3752, 2.0996, -8.0492, -4.0351, -7.3169, -25.6789, -18.4203, -24.0208, -20.7797, -1.1353, 1.8302, 2.2711, -1.9289, -1.7949, -5.0936, -2.2853, -0.439, -4.7182, -0.895, -1.8036, -2.0837, 0.4771, -2.1551, -1.4035, 2.3089, null], "Construcción (23)": [3.5463, -4.2579, 3.7481, 2.3692, -3.4538, 0.7892, -0.5118, 1.7394, 4.2896, -0.1953, -4.1394, -0.7379, -3.337, -6.0057, -5.6416, -9.1325, -35.5819, -17.733, -8.4853, -5.241, 39.2339, 13.6303, 2.7389, 4.7556, 3.6894, -0.1486, 4.0143, 3.6556, 8.3518, 17.3934, 19.1654, 9.3248, 9.1339, 1.1346, -5.9252, -1.3582, -2.1527, -4.7131, 4.2533, null], "Manufacturas (31-33)": [1.9271, 0.1425, 0.3175, 4.6895, 1.9203, 2.1525, 1.5549, -1.1945, 2.4149, 2.7446, 1.4568, 2.3519, 0.0718, 0.2118, -2.7874, -2.4961, -26.1295, -5.6985, 2.0902, 1.7075, 33.5967, 3.7336, 1.7091, 4.4604, 4.8953, 7.2884, 5.8024, 2.959, 2.2199, 0.8979, -0.366, -1.1802, 0.5102, 0.5494, -0.1077, 0.8536, -0.3472, -1.8259, -0.7029, null]}, "secundarias_ultimo": {"Minería": -0.367, "Energía/agua/gas": 2.3089, "Construcción": 4.2533, "Manufacturas": -0.7029}, "terciarias_anual": {"Comercio mayoreo (43)": [4.4285, 0.8816, 3.5684, 4.252, -1.2757, 1.8986, 3.1006, 1.57, 5.8218, 4.3339, 3.4584, -0.1682, -2.884, -1.6128, -2.6887, -0.6057, -21.5333, -8.0094, -1.7671, 1.9767, 24.0742, 6.8012, 3.5128, 4.5869, 6.4303, 8.7371, 3.3459, 2.2843, 1.9407, 4.6966, 6.1819, 4.8294, 3.5036, -1.2333, -2.1243, -5.6268, -8.0749, -3.7952, -0.7703, null], "Comercio menudeo (46)": [-1.2876, -1.9381, 4.6066, 1.8311, 2.4764, 1.4055, 3.9589, 5.4132, 4.6286, 5.5162, 1.2854, 0.284, -2.1637, -0.9466, -0.0353, -0.9475, -26.7511, -5.4883, -0.9111, -4.1815, 36.5414, 6.8271, 3.6713, 5.9208, 8.1207, 6.5739, 4.9477, 7.7004, 5.517, 3.0415, 1.3557, 1.4426, 3.4293, 3.9979, 4.7551, 4.7666, 3.748, 4.2555, 4.5614, null], "Transportes (48-49)": [3.4113, 2.728, 3.0616, 4.3324, 4.0575, 3.0568, 3.7665, 2.9943, 4.0649, 3.5116, 1.6624, 1.373, 0.2866, 0.2561, -1.2295, -1.4571, -37.2465, -20.9908, -12.249, -10.5671, 51.5171, 19.8909, 14.9737, 15.3871, 13.0183, 12.1135, 7.1816, 6.6104, 3.5326, 1.5544, 1.4047, 4.0445, 4.9669, 4.6339, 4.2781, 0.4322, 0.8401, 0.3774, 1.0005, null], "Servicios financieros (52)": [11.5814, 13.1429, 12.4794, 10.7203, 10.0735, 8.8298, 5.319, 1.8746, 2.5459, 4.8429, 4.9832, 7.7672, 5.6576, -0.6435, -4.8678, -4.8705, -7.4243, -7.1255, -5.6176, -3.6343, 2.9671, 4.9574, 3.5125, 6.9675, 6.2119, 4.8643, 7.7137, 8.3828, 10.0303, 9.1571, 3.4351, 3.0907, 3.4223, 1.5821, 0.8925, 1.9536, 2.3219, 1.9233, 3.6689, null], "Servicios inmobiliarios (53)": [2.1352, 1.9846, 1.7422, 3.8588, 1.6934, 0.1922, -0.1061, 0.9891, 1.8115, 2.1652, 1.7685, 1.8347, 0.9206, 1.3363, 2.2937, 1.6524, -3.192, -0.629, 0.6559, 1.2959, 7.3711, 5.9291, 4.5472, 3.72, 2.2933, 2.2023, 3.4117, 3.315, 2.7916, 2.37, 1.2551, 0.8841, 0.9372, 1.1595, 1.1531, 1.8356, 1.6728, 1.578, 1.7675, null], "Servicios profesionales (54)": [2.7704, 1.1142, 4.0461, 5.8905, 2.1782, -5.9153, -4.4466, -3.2384, -0.3536, 3.8663, 2.881, 0.0144, -4.0127, 2.727, 3.3159, 2.5231, -4.775, 0.2534, -3.0136, 4.8082, 13.043, 5.6987, -1.2952, 0.4714, -0.4902, 3.5016, 20.6837, 8.4566, 9.4215, 11.1249, 0.4268, 19.001, 14.9439, 12.0528, 9.9117, 11.9815, 8.6964, 8.6322, 5.7422, null], "Actividades gubernamentales (93)": [-0.0963, 1.4087, 1.9298, 0.2329, -1.2112, -1.4337, -1.1186, 4.3617, 6.3267, 1.3405, -1.4902, -2.7579, -5.5469, -2.4695, 0.1873, 0.771, 1.3593, 0.7856, -1.5243, -2.4696, -1.1438, -1.8121, -1.2725, -0.7649, -0.3861, 2.3692, -1.0292, -0.0937, -0.3299, -0.0992, 1.7814, 0.3589, 3.5189, 2.7237, 0.7123, 2.0606, 0.0524, -0.4414, 1.5982, null]}, "terciarias_ultimo": {"Comercio mayoreo": -0.7703, "Comercio menudeo": 4.5614, "Transportes": 1.0005, "Servicios financieros": 3.6689, "Servicios inmobiliarios": 1.7675, "Servicios profesionales": 5.7422, "Actividades gubernamentales": 1.5982}, "demanda_anual": {"Consumo privado": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], "Consumo gobierno": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], "FBCF total": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], "Exportaciones bienes y servicios": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], "Importaciones bienes y servicios": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]}, "demanda_ultimo": {"Consumo privado": null, "Consumo gobierno": null, "FBCF total": null, "FBCF privada": null, "FBCF pública": null, "Exportaciones B+S": null, "Importaciones B+S": null}}}}</script>
+
+
+    <footer class="site-footer">
+      Datos oficiales del Banco de Información Económica (BIE-INEGI) vía API. Interpretaciones generadas con IA (DeepSeek) · no son posición oficial de la Secretaría de Economía.
+      <br>Build 18 de mayo de 2026.
+    </footer>
+  </main>
+</div>
+</body>
+</html>
