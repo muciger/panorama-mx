@@ -5,7 +5,7 @@
 <header class="h2-page-header">
   <div class="h2-page-eyebrow">Secretaría de Economía · {{ topbar_fecha }}</div>
   <h1 class="h2-page-title">Panorama MX, indicadores económicos clave</h1>
-  <p class="h2-page-sub">32 series oficiales BIE-INEGI, consulta permanente. Actividad, precios, empleo, automotriz, sector externo, regional y sentimiento.</p>
+  <p class="h2-page-sub">Seguimiento de coyuntura económica de México para la Secretaría de Economía. 32 series oficiales BIE-INEGI actualizadas diariamente: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.</p>
 </header>
 
 {# ─── PUBLICACIONES DE HOY ─────────────────────────────────────────────── #}
@@ -138,6 +138,24 @@
   </a>
   {% endfor %}
 </div>
+
+{# ─── RESUMEN DE COYUNTURA ───────────────────────────────────────────────── #}
+{% if synthesis and synthesis.parrafos %}
+<div class="h2-coyuntura-card">
+  <div class="h2-coyuntura-head">
+    <span class="h2-coyuntura-title">Lectura de coyuntura</span>
+    {% if synthesis.titulo %}
+    <span class="h2-coyuntura-fecha">{{ synthesis.titulo }}</span>
+    {% endif %}
+    <a href="{{ asset_prefix }}reporte.html" class="h2-coyuntura-link">Ver reporte completo →</a>
+  </div>
+  <div class="h2-coyuntura-body">
+    {% for p in synthesis.parrafos %}
+    <p class="h2-coyuntura-p">{{ p }}</p>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
 
 {# ─── CATEGORY GROUPS ───────────────────────────────────────────────────── #}
 <div class="h2-section-row">

@@ -2737,6 +2737,14 @@ def build_v3(env: Environment, indicadores: dict, calendar: dict, hoy: date) -> 
     hero = _v3_build_hero(indicadores)
     cat_groups = _v3_build_cat_groups(indicadores)
 
+    synthesis: dict = {}
+    synth_path = ROOT / "data" / "home_synthesis.json"
+    if synth_path.exists():
+        try:
+            synthesis = json.loads(synth_path.read_text(encoding="utf-8"))
+        except Exception:
+            synthesis = {}
+
     ctx = {
         "page_title": "Panorama económico de México",
         "asset_prefix": "",
@@ -2750,6 +2758,7 @@ def build_v3(env: Environment, indicadores: dict, calendar: dict, hoy: date) -> 
         "tabla_rows": tabla_rows,
         "hero": hero,
         "cat_groups": cat_groups,
+        "synthesis": synthesis,
     }
     (SITE_DIR / "index.html").write_text(tmpl.render(**ctx), encoding="utf-8")
 
