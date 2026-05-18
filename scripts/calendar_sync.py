@@ -205,10 +205,12 @@ def main(argv: list[str] | None = None) -> int:
         indicators_cfg, eventos, hoy, args.max_proximas, len(eventos)
     )
 
-    CONFIG_CALENDAR.write_text(
+    _tmp_cal = CONFIG_CALENDAR.with_name(CONFIG_CALENDAR.name + ".tmp")
+    _tmp_cal.write_text(
         json.dumps(calendar, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    _tmp_cal.replace(CONFIG_CALENDAR)
     logging.info("Escrito %s con %d indicadores", CONFIG_CALENDAR, len(calendar["indicadores"]))
 
     sin_match = [

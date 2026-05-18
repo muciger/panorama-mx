@@ -474,6 +474,14 @@ async function v3InitSearch() {
   const wrap = document.getElementById("topbar-search");
   if (!input || !results || !wrap) return;
 
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => (
+    { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
+  ));
+  const safeUrl = (u) => {
+    u = String(u == null ? "" : u);
+    return /^[\w./-]+$/.test(u) && !u.includes("..") ? u : "#";
+  };
+
   // Detectar prefix de assets para fetch index (relativo según ubicación)
   const isDetail = location.pathname.includes("/indicador/");
   const idxPath = (isDetail ? "../" : "") + "data/search-index.json";
@@ -502,13 +510,15 @@ async function v3InitSearch() {
       return;
     }
     results.innerHTML = matches.slice(0, 12).map((m, i) => {
-      const initial = m.nombre.charAt(0).toUpperCase();
-      const url = (isDetail ? "../" : "") + m.url;
+      const initial = esc(String(m.nombre || "?").charAt(0).toUpperCase());
+      const url = esc((isDetail ? "../" : "") + safeUrl(m.url));
+      const cat = esc(m.categoria || "");
+      const uni = m.unidad ? " · " + esc(m.unidad) : "";
       return `<a class="search-result${i === activeIdx ? " active" : ""}" href="${url}" data-idx="${i}">
         <div class="search-result-icon">${initial}</div>
         <div class="search-result-body">
-          <div class="search-result-title">${m.nombre}</div>
-          <div class="search-result-cat">${m.categoria || ""}${m.unidad ? " · " + m.unidad : ""}</div>
+          <div class="search-result-title">${esc(m.nombre)}</div>
+          <div class="search-result-cat">${cat}${uni}</div>
         </div>
       </a>`;
     }).join("");
@@ -931,9 +941,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // Pages detalle (reutilizan page-data inline)
   const detailRaw = document.getElementById("page-data");
   if (detailRaw) {
-    let payload;
-    try { payload = JSON.parse(detailRaw.textContent); } catch (e) { return; }
-    if (payload.view === "detail") {
+    let payload = null;
+    try { payload = JSON.parse(detailRaw.textContent); }
+    catch (e) { console.error("page-data inválido", e); }
+    if (payload && payload.view === "detail") {
       // IMSS tiene su propio sistema de charts
       if (payload.indicador && payload.indicador.id === "empleo_imss") {
         imssInitCharts(payload.indicador);

@@ -29,6 +29,52 @@ from bie.client import INEGIBIEClient  # noqa: E402
 
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 
+_PERIODO_KEYS = {"Periodo", "Mes", "Trimestre", "Anio", "Quincena", "Entidad", "_geo", "_periodo"}
+
+
+def _write_json_atomic(path: Path, obj: Any) -> None:
+    """Escribe JSON de forma atómica (tmp + rename). Evita dejar el archivo bueno
+    truncado si el proceso muere o json.dumps falla a mitad de escritura."""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(path)
+
+
+def _celdas_con_valor(d: dict) -> int:
+    """Cuenta celdas con dato real (no None) en series, ignorando llaves de periodo.
+    Un data/*.json con 0 celdas = respuesta BIE vacía o totalmente nula."""
+    n = 0
+    for fila in (d.get("series") or []):
+        if not isinstance(fila, dict):
+            continue
+        for k, v in fila.items():
+            if v is None or k in _PERIODO_KEYS:
+                continue
+            n += 1
+    return n
+
+
+def guarda_segura(existing_path: Path, new_data: dict, label: str) -> tuple[bool, str]:
+    """Verifica que new_data no esté vacío ni encoja drásticamente vs el archivo
+    existente antes de sobrescribir. Defensa contra respuestas BIE vacías/parciales:
+    la API geo-bloquea IPs no mexicanas devolviendo HTTP 200 con cuerpo vacío, lo
+    que ya destruyó 112,652 líneas de datos buenos en un run cloud previo."""
+    cells_new = _celdas_con_valor(new_data)
+    if not (new_data.get("periodos") or new_data.get("series")) or cells_new == 0:
+        return False, f"{label}: respuesta vacía o sin valores, NO se sobrescribe"
+    if existing_path.exists():
+        try:
+            viejo = json.loads(existing_path.read_text(encoding="utf-8"))
+        except Exception:
+            viejo = {}
+        cells_old = _celdas_con_valor(viejo)
+        if cells_old >= 8 and cells_new < cells_old * 0.5:
+            return False, (
+                f"{label}: las celdas con dato encogieron >50% "
+                f"({cells_old} → {cells_new}), NO se sobrescribe (posible BIE parcial)"
+            )
+    return True, ""
+
 
 def load_env(root: Path) -> None:
     """Carga .env si existe y la var no esta seteada."""
@@ -333,8 +379,13 @@ def main(argv: list[str] | None = None) -> int:
             ]
             # Sincronizar periodos con número de filas (validate exige len iguales)
             d["periodos"] = [resultado.get("periodo_referencia") or ""] * len(d["series"])
+            ok, motivo = guarda_segura(existing, d, iid)
+            if not ok:
+                print(f"  ABORT {motivo}", file=sys.stderr)
+                rc = 1
+                continue
             if not args.dry_run:
-                existing.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+                _write_json_atomic(existing, d)
                 print(f"  -> escrito {existing.relative_to(ROOT)}")
             else:
                 print(f"  [dry-run]")
@@ -354,8 +405,13 @@ def main(argv: list[str] | None = None) -> int:
         if args.diff:
             print(diff_summary(existing, new_data))
 
+        ok, motivo = guarda_segura(existing, new_data, iid)
+        if not ok:
+            print(f"  ABORT {motivo}", file=sys.stderr)
+            rc = 1
+            continue
         if not args.dry_run:
-            existing.write_text(json.dumps(new_data, ensure_ascii=False, indent=2), encoding="utf-8")
+            _write_json_atomic(existing, new_data)
             print(f"  -> escrito {existing.relative_to(ROOT)}")
         else:
             print(f"  [dry-run] no se escribio")

@@ -213,6 +213,14 @@ def parse_md(path: Path) -> Optional[dict]:
 # ── Upsert JSON ──────────────────────────────────────────────────────────────
 
 
+def _write_json_atomic(path: Path, obj: dict) -> None:
+    """Escritura atómica (tmp + rename): preserva la serie histórica si el
+    proceso muere a mitad de escritura."""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(path)
+
+
 def upsert_json(indicador: str, periodo: str, datos: dict, fuente_md: str, dry_run: bool) -> bool:
     """
     Actualiza data/{indicador}.json con el periodo nuevo o revisado.
@@ -258,7 +266,7 @@ def upsert_json(indicador: str, periodo: str, datos: dict, fuente_md: str, dry_r
             f"Actualizado desde comunicado INEGI {fuente_md}. "
             "Variaciones % anuales extraídas del headline del boletín RAIAVL/RAIAVP."
         )
-        jpath.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+        _write_json_atomic(jpath, d)
         log.info("data/%s.json escrito", indicador)
 
     return True

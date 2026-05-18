@@ -19,6 +19,7 @@ import argparse
 import json
 import logging
 import os
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -167,6 +168,60 @@ def call_claude(datos: str, fecha_corta: str) -> dict:
     return json.loads(text)
 
 
+def _numeros(texto: str) -> list[float]:
+    """Extrae números (tolerando coma de miles y signo) de un texto."""
+    out = []
+    for m in re.findall(r"-?\d[\d,]*\.?\d*", texto or ""):
+        try:
+            out.append(round(float(m.replace(",", "")), 2))
+        except ValueError:
+            continue
+    return out
+
+
+def _numero_en_fuente(valor: float, fuente: set[float]) -> bool:
+    """True si 'valor' aparece en la fuente con tolerancia de redondeo
+    (o coincide en magnitud, p. ej. saldo -1234 vs 1234)."""
+    return any(abs(valor - f) <= 0.05 or abs(abs(valor) - abs(f)) <= 0.05 for f in fuente)
+
+
+def validar_sintesis(resultado: dict, datos: str) -> list[str]:
+    """Único guardrail antifabricación de los KPI hero. Verifica estructura y que
+    cada número citado en kpis_destacados exista en los datos fuente (derivados de
+    data/*.json). Devuelve lista de problemas; vacía = OK."""
+    problemas = []
+    if not isinstance(resultado.get("titulo"), str) or not resultado["titulo"].strip():
+        problemas.append("titulo ausente o vacío")
+    parrafos = resultado.get("parrafos")
+    if not isinstance(parrafos, list) or not any(
+        isinstance(p, str) and p.strip() for p in parrafos
+    ):
+        problemas.append("parrafos ausentes o vacíos")
+    kpis = resultado.get("kpis_destacados")
+    if not isinstance(kpis, list) or not kpis:
+        problemas.append("kpis_destacados ausentes")
+        return problemas
+    fuente = set(_numeros(datos))
+    for i, k in enumerate(kpis):
+        if not isinstance(k, dict) or not k.get("etiqueta") or not k.get("valor"):
+            problemas.append(f"kpi[{i}] incompleto")
+            continue
+        for n in _numeros(str(k.get("valor", ""))):
+            if not _numero_en_fuente(n, fuente):
+                problemas.append(
+                    f"kpi[{i}] '{k.get('etiqueta')}' cita {n} que no existe en los "
+                    "datos fuente (posible fabricación)"
+                )
+    return problemas
+
+
+def _write_json_atomic(path: Path, obj) -> None:
+    """Escritura atómica (tmp + rename)."""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(path)
+
+
 def fmt_fecha_corta(d: date) -> str:
     meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio",
              "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
@@ -201,6 +256,14 @@ def main(argv: list[str] | None = None) -> int:
         log.error("Falla en llamada Claude: %s", e)
         return 1
 
+    problemas = validar_sintesis(resultado, datos)
+    if problemas:
+        log.error("Síntesis RECHAZADA. NO se sobrescribe %s (se conserva la previa):",
+                  SYNTHESIS_PATH.name)
+        for p in problemas:
+            log.error("  · %s", p)
+        return 1
+
     # Estructura final con metadata
     out = {
         "_descripcion": "Síntesis macro generada automáticamente con Claude Sonnet. Revisar antes de publicar.",
@@ -217,7 +280,7 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(out, ensure_ascii=False, indent=2))
         return 0
 
-    SYNTHESIS_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    _write_json_atomic(SYNTHESIS_PATH, out)
     log.info("Síntesis escrita en %s", SYNTHESIS_PATH.relative_to(ROOT))
     log.info("Título: %s", out["titulo"])
     log.info("KPIs: %d destacados", len(out.get("kpis_destacados", [])))

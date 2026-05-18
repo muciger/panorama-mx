@@ -310,6 +310,11 @@ class INEGIBIEClient:
         self.lang = lang
         self.fuente = fuente
 
+    def _redact(self, msg: str) -> str:
+        """Quita el token de mensajes de error/URLs. El token va en el path de la
+        URL del BIE; sin esto se filtraría a los logs de GitHub Actions."""
+        return msg.replace(self.token, "***") if self.token else msg
+
     def get_indicator(
         self,
         indicator_id: str,
@@ -332,9 +337,12 @@ class INEGIBIEClient:
             f"{BASE_URL}/INDICATOR/{indicator_id}/{self.lang}/{geo}"
             f"/{recent_str}/{self.fuente}/2.0/{self.token}?type=json"
         )
-        resp = requests.get(url, timeout=15)
-        resp.raise_for_status()
-        return resp.json()
+        try:
+            resp = requests.get(url, timeout=15)
+            resp.raise_for_status()
+            return resp.json()
+        except requests.exceptions.RequestException as e:
+            raise RuntimeError(f"BIE request falló: {self._redact(str(e))}") from None
 
     def get_catalog(
         self,
@@ -364,9 +372,12 @@ class INEGIBIEClient:
             f"{BASE_URL}/{catalog}/{id_str}/{self.lang}"
             f"/{self.fuente}/2.0/{self.token}?type=json"
         )
-        resp = requests.get(url, timeout=15)
-        resp.raise_for_status()
-        return resp.json()
+        try:
+            resp = requests.get(url, timeout=15)
+            resp.raise_for_status()
+            return resp.json()
+        except requests.exceptions.RequestException as e:
+            raise RuntimeError(f"BIE request falló: {self._redact(str(e))}") from None
 
     def parse_series(self, response: dict) -> list[dict]:
         """

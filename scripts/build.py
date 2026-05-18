@@ -45,6 +45,19 @@ BUILD_LABEL = "Tablero mensual · v1"
 BUILD_CHIP = "v1"
 TOPBAR_TITLE = "Indicadores económicos México"
 
+
+def _json_for_script(obj: Any) -> str:
+    """Serializa a JSON seguro para incrustar en <script>. json.dumps no escapa
+    '<' '>' '/', así que un valor con '</script>' cerraría el bloque e inyectaría
+    HTML/JS (XSS). Escapamos la secuencia de cierre y los separadores Unicode.
+    Sigue siendo JSON válido: JSON.parse revierte el escape."""
+    return (
+        json.dumps(obj, ensure_ascii=False)
+        .replace("</", "<\\/")
+        .replace(chr(0x2028), "\\u2028")
+        .replace(chr(0x2029), "\\u2029")
+    )
+
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 DIAS = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]
 DIAS_ES_ABR = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
@@ -2678,7 +2691,7 @@ def build_comparar(env: Environment, indicadores: dict, hoy: date) -> None:
         "topbar_fecha": fecha_larga,
         "nav_groups": nav_groups,
         "comparativas": comparativas,
-        "cmp_data_json": json.dumps(cmp_data, ensure_ascii=False),
+        "cmp_data_json": _json_for_script(cmp_data),
     }
     (SITE_DIR / "comparar.html").write_text(tmpl.render(**ctx), encoding="utf-8")
 
@@ -2943,7 +2956,7 @@ def main() -> None:
                 {"id": iid2, "label": lbl2, "href": href} for iid2, lbl2, href in items
             ]} for lbl, items in NAV_STRUCTURE],
             "d": d_ctx,
-            "page_data_json": json.dumps(page_data_det, ensure_ascii=False),
+            "page_data_json": _json_for_script(page_data_det),
         }
         (SITE_DIR / "indicador" / f"{iid}.html").write_text(
             tmpl_det.render(**ctx), encoding="utf-8"

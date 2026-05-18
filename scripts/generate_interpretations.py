@@ -90,6 +90,14 @@ def load_text(path: Path) -> str:
     return ""
 
 
+def _write_json_atomic(path: Path, obj) -> None:
+    """Escritura atómica (tmp + rename). Un crash a mitad no deja
+    interpretations.json truncado y tumbando los 31 indicadores."""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(path)
+
+
 def get_deepseek_client():
     try:
         from openai import OpenAI
@@ -736,14 +744,13 @@ def main(argv: list[str] | None = None) -> int:
             verificacion_meta = None
             draft_publicado = draft
             draft_original = None
-            revision_humana = False
 
             if use_verify:
                 log.info("  ↳ verifier (%s) revisando...", verifier_provider)
                 try:
                     verif = call_verifier(verifier_provider, verifier_client, datos_resumen, draft, iid, verifier_model)
                 except Exception as ve:
-                    log.error("[%s] Verifier falló: %s · publicando draft sin verificar y marcando revisión humana", iid, ve)
+                    log.error("[%s] Verifier falló: %s · NO se publica draft sin verificar", iid, ve)
                     verif = {"veredicto": "error", "issues": [{"campo": "_meta", "tipo": "verifier_error", "descripcion": str(ve)}]}
 
                 veredicto = verif.get("veredicto")
@@ -778,25 +785,25 @@ def main(argv: list[str] | None = None) -> int:
                             "verifier_model": verifier_model,
                         }
                     else:
-                        log.error("  ✗ verifier marcó fix pero draft_corregido inválido. Marcando revisión humana.")
-                        revision_humana = True
-                        verificacion_meta = {
-                            "veredicto": "fix_sin_correccion",
-                            "issues_encontrados": issues,
-                            "correccion_aplicada": False,
-                            "verifier_provider": verifier_provider,
-                            "verifier_model": verifier_model,
-                        }
+                        log.error(
+                            "  ✗ [%s] verifier=fix pero draft_corregido inválido. "
+                            "NO se publica draft sin verificar (se conserva versión previa si existe).",
+                            iid,
+                        )
+                        revisiones_humanas += 1
+                        if iid not in interps:
+                            log.warning("  [%s] queda SIN interpretación hasta revisión humana", iid)
+                        continue
                 else:
-                    log.error("  ✗ verifier en estado %s, marcando revisión humana", veredicto)
-                    revision_humana = True
-                    verificacion_meta = {
-                        "veredicto": veredicto or "error",
-                        "issues_encontrados": issues,
-                        "correccion_aplicada": False,
-                        "verifier_provider": verifier_provider,
-                        "verifier_model": verifier_model,
-                    }
+                    log.error(
+                        "  ✗ [%s] verifier en estado '%s'. "
+                        "NO se publica draft sin verificar (se conserva versión previa si existe).",
+                        iid, veredicto,
+                    )
+                    revisiones_humanas += 1
+                    if iid not in interps:
+                        log.warning("  [%s] queda SIN interpretación hasta revisión humana", iid)
+                    continue
 
             ult_pub = ultima_publicacion_calendar(iid, calendar)
             registro = {
@@ -816,9 +823,6 @@ def main(argv: list[str] | None = None) -> int:
                 registro["verificacion"] = verificacion_meta
             if draft_original is not None:
                 registro["draft_original"] = draft_original
-            if revision_humana:
-                registro["revision_humana"] = True
-                revisiones_humanas += 1
 
             interps[iid] = registro
             actualizados += 1
@@ -834,10 +838,7 @@ def main(argv: list[str] | None = None) -> int:
         time.sleep(0.5)
 
     if not args.dry_run and actualizados > 0:
-        INTERP_PATH.write_text(
-            json.dumps(interps, ensure_ascii=False, indent=2),
-            encoding="utf-8",
-        )
+        _write_json_atomic(INTERP_PATH, interps)
         log.info("=== %d interpretaciones escritas en %s ===", actualizados, INTERP_PATH.relative_to(ROOT))
 
     if errores:

@@ -204,7 +204,8 @@ class BIEClient:
                 return data
             except requests.exceptions.RequestException as e:
                 wait = 2 ** attempt
-                log.warning("Error en lote (intento %d/%d): %s. Backoff %ds", attempt, self.max_retries, e, wait)
+                msg = str(e).replace(self.token, "***") if self.token else str(e)
+                log.warning("Error en lote (intento %d/%d): %s. Backoff %ds", attempt, self.max_retries, msg, wait)
                 time.sleep(wait)
         log.error("Agotados retries en lote de %d IDs", len(ids))
         return None
@@ -288,6 +289,13 @@ def ensamblar_indicador(
     }
 
 
+def _write_json_atomic(path: Path, obj: Any) -> None:
+    """Escritura atómica (tmp + rename): un crash a mitad no trunca el JSON bueno."""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(path)
+
+
 def merge_con_json_local(indicador_id: str, ensamble: dict, dry_run: bool = False) -> Path | None:
     """Escribe el ensamble en data/<indicador>.json preservando metadatos existentes.
 
@@ -319,7 +327,7 @@ def merge_con_json_local(indicador_id: str, ensamble: dict, dry_run: bool = Fals
         log.info("DRY RUN: no escribe %s (%d periodos)", out_path.name, len(ensamble["periodos"]))
         return None
 
-    out_path.write_text(json.dumps(current, ensure_ascii=False, indent=2), encoding="utf-8")
+    _write_json_atomic(out_path, current)
     log.info("Escrito %s con %d periodos, %d columnas", out_path.name, len(ensamble["periodos"]), len(ensamble["columnas"]))
     return out_path
 
