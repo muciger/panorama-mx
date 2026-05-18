@@ -42,7 +42,7 @@
     "No_subyacente_energeticos_Mensual",
     "No_subyacente_energeticos_Anual"
   ],
-  "ultima_actualizacion": "2026-05-02",
+  "ultima_actualizacion": "2026-05-18",
   "proxima_actualizacion_manual": "7 de mayo de 2026",
   "periodos": [
     "ene-69",
@@ -731,7 +731,8 @@
     "dic-25",
     "ene-26",
     "feb-26",
-    "mar-26"
+    "mar-26",
+    "abr-26"
   ],
   "series": [
     {
@@ -12412,6 +12413,23 @@
       "No_subyacente_agropecuarios_Anual": 8.77,
       "No_subyacente_energeticos_Mensual": 0.85,
       "No_subyacente_energeticos_Anual": 2.21
+    },
+    {
+      "Periodo": "abr-26",
+      "INPC_Mensual": 0.2,
+      "INPC_Anual": 4.45,
+      "Subyacente_Mensual": 0.31,
+      "Subyacente_Anual": 4.26,
+      "No_subyacente_Mensual": -0.18,
+      "No_subyacente_Anual": 5.08,
+      "Subyacente_mercancias_Mensual": 0.31,
+      "Subyacente_mercancias_Anual": 3.99,
+      "Subyacente_servicios_Mensual": 0.31,
+      "Subyacente_servicios_Anual": 4.52,
+      "No_subyacente_agropecuarios_Mensual": 0.86,
+      "No_subyacente_agropecuarios_Anual": 7.98,
+      "No_subyacente_energeticos_Mensual": -1.03,
+      "No_subyacente_energeticos_Anual": 2.8
     }
   ],
   "benchmarks": {

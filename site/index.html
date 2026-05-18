@@ -3,14 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Panorama económico de México · Panorama económico de México</title>
+<title>Panorama económico de México · Panorama MX</title>
+<meta name="description" content="Seguimiento de coyuntura económica de México. 33 series oficiales BIE-INEGI actualizadas diariamente: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'">
+<link rel="canonical" href="https://muciger.github.io/panorama-mx/index.html">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="assets/styles.css">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
-<script src="assets/app.js" defer></script>
+<link rel="stylesheet" href="assets/styles.css?v=cabb5a46">
+
+<script src="assets/app.js?v=0352c849" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Dataset", "name": "Panorama MX — Indicadores Económicos de México", "description": "33 series oficiales BIE-INEGI: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.", "url": "https://muciger.github.io/panorama-mx/index.html", "dateModified": "2026-05-18", "inLanguage": "es-MX", "license": "https://www.inegi.org.mx/datos/terminos.html", "creator": {"@type": "GovernmentOrganization", "name": "Instituto Nacional de Estadística y Geografía (INEGI)", "url": "https://www.inegi.org.mx"}, "publisher": {"@type": "GovernmentOrganization", "name": "Secretaría de Economía", "url": "https://www.economia.gob.mx"}}, {"@type": "WebSite", "name": "Panorama MX", "url": "https://muciger.github.io/panorama-mx", "description": "Tablero de indicadores económicos de México — BIE-INEGI"}]}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Saltar al contenido</a>
@@ -167,8 +172,9 @@
       <div class="topbar-spacer"></div>
       <div class="topbar-search" id="topbar-search">
         <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
-        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
-        <kbd class="topbar-search-kbd">/</kbd>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" aria-keyshortcuts="/" autocomplete="off">
+        <kbd class="topbar-search-kbd topbar-search-kbd-open">/</kbd>
+        <kbd class="topbar-search-kbd topbar-search-kbd-close">Esc</kbd>
         <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
       </div>
     </header>
@@ -179,7 +185,7 @@
 <header class="h2-page-header">
   <div class="h2-page-eyebrow">Secretaría de Economía · 18 de mayo de 2026</div>
   <h1 class="h2-page-title">Panorama MX, indicadores económicos clave</h1>
-  <p class="h2-page-sub">Seguimiento de coyuntura económica de México para la Secretaría de Economía. 32 series oficiales BIE-INEGI actualizadas diariamente: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.</p>
+  <p class="h2-page-sub">Seguimiento de coyuntura económica de México para la Secretaría de Economía. 33 indicadores oficiales BIE-INEGI actualizados diariamente: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.</p>
 </header>
 
 
@@ -294,15 +300,15 @@
       <text x="14" y="100" font-family="'JetBrains Mono',ui-monospace,monospace"
             font-size="9" fill="#71717A" text-anchor="end">-1.0%</text>
       
-      <path d="M 20.0,10 43.5,61.3 67.0,44.8 90.4,53.2 113.9,30.9 137.4,57.3 160.9,69.8 184.3,92.0 207.8,67.1 231.3,100 254.8,81.0 278.3,69.5 301.7,81.2 325.2,49.4 348.7,64.2 372.2,64.7 395.7,99.0 419.1,69.2 442.6,85.3 466.1,42.9 489.6,57.4 513.0,28.4 536.5,67.6 560.0,84.4 L560,100 L20,100 Z"
+      <path d="M 20.0,10 43.5,61.2 67.0,44.9 90.4,53.2 113.9,31.0 137.4,57.2 160.9,69.8 184.3,92.1 207.8,67.1 231.3,100 254.8,80.8 278.3,69.6 301.7,81.2 325.2,49.3 348.7,64.3 372.2,64.7 395.7,98.9 419.1,69.1 442.6,85.2 466.1,42.9 489.6,57.4 513.0,28.5 536.5,67.6 560.0,84.3 L560,100 L20,100 Z"
             fill="url(#hero-grad-neg)" />
-      <polyline points="20.0,10 43.5,61.3 67.0,44.8 90.4,53.2 113.9,30.9 137.4,57.3 160.9,69.8 184.3,92.0 207.8,67.1 231.3,100 254.8,81.0 278.3,69.5 301.7,81.2 325.2,49.4 348.7,64.2 372.2,64.7 395.7,99.0 419.1,69.2 442.6,85.3 466.1,42.9 489.6,57.4 513.0,28.4 536.5,67.6 560.0,84.4"
+      <polyline points="20.0,10 43.5,61.2 67.0,44.9 90.4,53.2 113.9,31.0 137.4,57.2 160.9,69.8 184.3,92.1 207.8,67.1 231.3,100 254.8,80.8 278.3,69.6 301.7,81.2 325.2,49.3 348.7,64.3 372.2,64.7 395.7,98.9 419.1,69.1 442.6,85.2 466.1,42.9 489.6,57.4 513.0,28.5 536.5,67.6 560.0,84.3"
         fill="none"
         stroke="#DC2626"
         stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="560.0" cy="84.4" r="4"
+      <circle cx="560.0" cy="84.3" r="4"
         fill="#DC2626"/>
-      <circle cx="560.0" cy="84.4" r="7"
+      <circle cx="560.0" cy="84.3" r="7"
         fill="none"
         stroke="#DC2626"
         stroke-width="1" opacity="0.3"/>
@@ -354,17 +360,17 @@
   <a class="h2-kpi-tile" href="indicador/inpc_mensual.html"
      aria-label="Ver detalle de Inflación general">
     <div class="h2-kpi-k">Inflación general</div>
-    <div class="h2-kpi-v pos">
-      4.59<span class="h2-kpi-u"></span>
+    <div class="h2-kpi-v neg">
+      4.45<span class="h2-kpi-u"></span>
     </div>
     
-    <div class="h2-kpi-d pos">
-      ↑ Subió 0.57 pp
+    <div class="h2-kpi-d neg">
+      ↓ Bajó 0.14 pp
     </div>
     
-    <div class="h2-kpi-period">(mar 2026)</div>
+    <div class="h2-kpi-period">(abr 2026)</div>
     
-    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,12.8 3.9,12.4 7.8,9.3 11.7,3.0 15.7,9.2 19.6,13.6 23.5,11.7 27.4,13.9 31.3,17.5 35.2,24.1 39.1,22.2 43.0,21.9 47.0,20.5 50.9,15.3 54.8,16.3 58.7,25.0 62.6,24.4 66.5,22.3 70.4,24.4 74.3,21.9 78.3,23.1 82.2,22.0 86.1,19.6 90.0,13.5" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="13.5" r="1.6" fill="#16A34A"/></svg></div>
+    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,12.4 3.9,9.3 7.8,3.0 11.7,9.2 15.7,13.6 19.6,11.7 23.5,13.9 27.4,17.5 31.3,24.1 35.2,22.2 39.1,21.9 43.0,20.5 47.0,15.3 50.9,16.3 54.8,25.0 58.7,24.4 62.6,22.3 66.5,24.4 70.4,21.9 74.3,23.1 78.3,22.0 82.2,19.6 86.1,13.5 90.0,15.0" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="15.0" r="1.6" fill="#DC2626"/></svg></div>
     
   </a>
   
@@ -381,7 +387,7 @@
     
     <div class="h2-kpi-period">(feb 2026)</div>
     
-    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.4" x2="90" y2="13.4" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,11.1 3.9,25.0 7.8,4.8 11.7,12.9 15.7,3.0 19.6,22.1 23.5,11.2 27.4,21.8 31.3,10.1 35.2,24.8 39.1,4.4 43.0,6.0 47.0,15.6 50.9,12.9 54.8,10.5 58.7,13.1 62.6,16.3 66.5,10.7 70.4,17.4 74.3,5.6 78.3,15.6 82.2,13.9 86.1,19.2 90.0,12.5" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="12.5" r="1.6" fill="#16A34A"/></svg></div>
+    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.4" x2="90" y2="13.4" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,11.2 3.9,25.0 7.8,4.9 11.7,12.9 15.7,3.0 19.6,22.1 23.5,11.2 27.4,21.9 31.3,10.1 35.2,24.8 39.1,4.4 43.0,6.1 47.0,15.7 50.9,12.9 54.8,10.6 58.7,13.1 62.6,16.3 66.5,10.6 70.4,17.4 74.3,5.6 78.3,15.7 82.2,14.0 86.1,19.2 90.0,12.5" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="12.5" r="1.6" fill="#16A34A"/></svg></div>
     
   </a>
   
@@ -406,16 +412,16 @@
      aria-label="Ver detalle de Confianza del consumidor">
     <div class="h2-kpi-k">Confianza del consumidor</div>
     <div class="h2-kpi-v pos">
-      -1.99<span class="h2-kpi-u">pts</span>
+      -1.09<span class="h2-kpi-u">pts</span>
     </div>
     
     <div class="h2-kpi-d pos">
-      ↑ Creció 0.01 pts
+      ↑ Creció 0.89 pts
     </div>
     
-    <div class="h2-kpi-period">(mar 2026)</div>
+    <div class="h2-kpi-period">(abr 2026)</div>
     
-    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.6" x2="90" y2="13.6" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,3.0 3.9,7.3 7.8,6.3 11.7,11.6 15.7,11.4 19.6,13.3 23.5,3.1 27.4,12.0 31.3,13.0 35.2,14.7 39.1,16.1 43.0,17.8 47.0,20.5 50.9,14.3 54.8,20.7 58.7,17.4 62.6,16.0 66.5,15.5 70.4,24.3 74.3,25.0 78.3,21.3 82.2,22.4 86.1,20.1 90.0,20.1" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="20.1" r="1.6" fill="#16A34A"/></svg></div>
+    <div class="h2-kpi-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.6" x2="90" y2="13.6" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,7.2 3.9,6.2 7.8,11.5 11.7,11.3 15.7,13.3 19.6,3.0 23.5,12.0 27.4,12.9 31.3,14.6 35.2,16.0 39.1,17.7 43.0,20.6 47.0,14.3 50.9,20.7 54.8,17.4 58.7,15.9 62.6,15.5 66.5,24.3 70.4,25.0 74.3,21.4 78.3,22.4 82.2,20.0 86.1,20.0 90.0,17.1" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="17.1" r="1.6" fill="#16A34A"/></svg></div>
     
   </a>
   
@@ -465,7 +471,7 @@
     
     <span class="h2-coyuntura-fecha">Lectura macro al 18 de mayo</span>
     
-    <a href="reporte.html" class="h2-coyuntura-link">Ver reporte completo →</a>
+    <a href="reporte_semanal_completo.html" class="h2-coyuntura-link">Ver reporte completo →</a>
   </div>
   <div class="h2-coyuntura-body">
     
@@ -482,7 +488,7 @@
 
 <div class="h2-section-row">
   <span class="h2-section-title">Indicadores por categoría</span>
-  <span class="h2-section-sub">32 series · BIE-INEGI</span>
+  <span class="h2-section-sub">33 indicadores · BIE-INEGI</span>
 </div>
 <div class="h2-cat-grid">
   
@@ -496,36 +502,36 @@
        aria-label="PIB anual, variación real">
       <span class="h2-cat-row-name">PIB anual, variación real</span>
       <span class="h2-cat-row-val neg">
-        1.35%
+        1.46%
       </span>
       <span class="h2-cat-row-d neg">
-        ↓ 1.76 pp
+        ↓ 1.66 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="12.2" x2="90" y2="12.2" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,6.8 4.5,9.0 9.0,4.9 13.5,9.1 18.0,10.8 22.5,21.9 27.0,4.6 31.5,7.0 36.0,6.8 40.5,10.9 45.0,8.4 49.5,8.1 54.0,9.5 58.5,9.4 63.0,9.2 67.5,12.8 72.0,25.0 76.5,3.0 81.0,6.6 85.5,7.5 90.0,10.2" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="10.2" r="1.6" fill="#DC2626"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="12.2" x2="90" y2="12.2" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,6.8 4.5,9.0 9.0,4.9 13.5,9.1 18.0,10.8 22.5,21.9 27.0,4.6 31.5,7.0 36.0,6.8 40.5,10.9 45.0,8.4 49.5,8.1 54.0,9.5 58.5,9.4 63.0,9.2 67.5,12.8 72.0,25.0 76.5,3.0 81.0,6.6 85.5,7.5 90.0,10.0" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="10.0" r="1.6" fill="#DC2626"/></svg></div>
     </a>
     
     <a class="h2-cat-row" href="indicador/pib_trimestral.html"
        aria-label="PIB Total, variación trimestral y anual">
       <span class="h2-cat-row-name">PIB Total, variación trimestral y anual</span>
-      <span class="h2-cat-row-val neg">
-        0.05%
+      <span class="h2-cat-row-val pos">
+        3.40%
       </span>
-      <span class="h2-cat-row-d neg">
-        ↓ 1.74 pp
+      <span class="h2-cat-row-d pos">
+        ↑ 0.71 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="14.6" x2="90" y2="14.6" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,25.0 3.9,18.8 7.8,16.4 11.7,15.9 15.7,3.0 19.6,12.0 23.5,13.6 27.4,13.3 31.3,13.1 35.2,12.2 39.1,12.3 43.0,12.7 47.0,12.9 50.9,12.9 54.8,13.5 58.7,13.7 62.6,13.6 66.5,13.9 70.4,14.5 74.3,14.3 78.3,14.6 82.2,14.6 86.1,13.7 90.0,14.6" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="14.6" r="1.6" fill="#DC2626"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="15.5" x2="90" y2="15.5" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,9.1 4.1,12.0 8.2,14.6 12.3,13.1 16.4,4.0 20.5,21.5 24.5,18.5 28.6,10.5 32.7,13.1 36.8,23.4 40.9,6.7 45.0,14.4 49.1,11.3 53.2,4.5 57.3,9.6 61.4,11.4 65.5,12.3 69.5,7.9 73.6,25.0 77.7,3.0 81.8,3.9 85.9,11.4 90.0,10.4" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="10.4" r="1.6" fill="#16A34A"/></svg></div>
     </a>
     
     <a class="h2-cat-row" href="indicador/pib_por_actividad.html"
        aria-label="PIB por actividad">
       <span class="h2-cat-row-name">PIB por actividad</span>
-      <span class="h2-cat-row-val neg">
-        0.73%
+      <span class="h2-cat-row-val pos">
+        4.64%
       </span>
-      <span class="h2-cat-row-d neg">
-        ↓ 1.43 pp
+      <span class="h2-cat-row-d pos">
+        ↑ 1.89 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,18.0 6.0,3.0 12.0,3.4 18.0,4.8 24.0,8.1 30.0,8.7 36.0,15.6 42.0,13.3 48.0,12.1 54.0,16.7 60.0,18.2 66.0,21.6 72.0,25.0 78.0,21.9 84.0,16.2 90.0,24.6" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="24.6" r="1.6" fill="#DC2626"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="16.3" x2="90" y2="16.3" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,13.3 6.0,13.8 12.0,19.0 18.0,10.9 24.0,14.6 30.0,10.8 36.0,6.6 42.0,9.3 48.0,11.3 54.0,12.8 60.0,5.4 66.0,25.0 72.0,7.5 78.0,3.0 84.0,11.7 90.0,8.5" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="8.5" r="1.6" fill="#16A34A"/></svg></div>
     </a>
     
   </div>
@@ -539,49 +545,49 @@
     <a class="h2-cat-row" href="indicador/inflacion_resumen.html"
        aria-label="Inflación anual INPC (resumen)">
       <span class="h2-cat-row-name">Inflación anual INPC (resumen)</span>
-      <span class="h2-cat-row-val pos">
-        4.59%
+      <span class="h2-cat-row-val neg">
+        4.45%
       </span>
-      <span class="h2-cat-row-d pos">
-        ↑ 0.57 pp
+      <span class="h2-cat-row-d neg">
+        ↓ 0.14 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,16.4 8.2,6.5 16.4,8.5 24.5,25.0 32.7,23.8 40.9,19.9 49.1,23.8 57.3,19.1 65.5,21.3 73.6,19.3 81.8,14.6 90.0,3.0" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="3.0" r="1.6" fill="#16A34A"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,6.5 8.2,8.5 16.4,25.0 24.5,23.8 32.7,19.9 40.9,23.8 49.1,19.1 57.3,21.3 65.5,19.3 73.6,14.6 81.8,3.0 90.0,5.9" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="5.9" r="1.6" fill="#DC2626"/></svg></div>
     </a>
     
     <a class="h2-cat-row" href="indicador/inpc_quincenal.html"
        aria-label="INPC quincenal">
       <span class="h2-cat-row-name">INPC quincenal</span>
       <span class="h2-cat-row-val neg">
-        4.53%
+        4.37%
       </span>
       <span class="h2-cat-row-d neg">
-        ↓ 0.02 pp
+        ↓ 0.16 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,17.0 3.9,10.8 7.8,3.2 11.7,5.3 15.7,12.6 19.6,23.7 23.5,25.0 27.4,24.8 31.3,21.7 35.2,20.0 39.1,19.3 43.0,22.1 47.0,24.6 50.9,22.5 54.8,15.2 58.7,20.4 62.6,21.6 66.5,19.5 70.4,18.5 74.3,16.6 78.3,12.6 82.2,3.0 86.1,4.5 90.0,4.9" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="4.9" r="1.6" fill="#DC2626"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,10.8 3.9,3.2 7.8,5.3 11.7,12.6 15.7,23.7 19.6,25.0 23.5,24.8 27.4,21.7 31.3,20.0 35.2,19.3 39.1,22.1 43.0,24.6 47.0,22.5 50.9,15.2 54.8,20.4 58.7,21.6 62.6,19.5 66.5,18.5 70.4,16.6 74.3,12.6 78.3,3.0 82.2,4.5 86.1,4.9 90.0,8.0" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="8.0" r="1.6" fill="#DC2626"/></svg></div>
     </a>
     
     <a class="h2-cat-row" href="indicador/inpc_mensual.html"
        aria-label="Índice Nacional de Precios al Consumidor">
       <span class="h2-cat-row-name">Índice Nacional de Precios al Consumidor</span>
-      <span class="h2-cat-row-val pos">
-        4.59%
+      <span class="h2-cat-row-val neg">
+        4.45%
       </span>
-      <span class="h2-cat-row-d pos">
-        ↑ 0.57 pp
+      <span class="h2-cat-row-d neg">
+        ↓ 0.14 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,12.8 3.9,12.4 7.8,9.3 11.7,3.0 15.7,9.2 19.6,13.6 23.5,11.7 27.4,13.9 31.3,17.5 35.2,24.1 39.1,22.2 43.0,21.9 47.0,20.5 50.9,15.3 54.8,16.3 58.7,25.0 62.6,24.4 66.5,22.3 70.4,24.4 74.3,21.9 78.3,23.1 82.2,22.0 86.1,19.6 90.0,13.5" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="13.5" r="1.6" fill="#16A34A"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,12.4 3.9,9.3 7.8,3.0 11.7,9.2 15.7,13.6 19.6,11.7 23.5,13.9 27.4,17.5 31.3,24.1 35.2,22.2 39.1,21.9 43.0,20.5 47.0,15.3 50.9,16.3 54.8,25.0 58.7,24.4 62.6,22.3 66.5,24.4 70.4,21.9 74.3,23.1 78.3,22.0 82.2,19.6 86.1,13.5 90.0,15.0" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="15.0" r="1.6" fill="#DC2626"/></svg></div>
     </a>
     
     <a class="h2-cat-row" href="indicador/inpp.html"
        aria-label="Índice Nacional de Precios Productor">
       <span class="h2-cat-row-name">Índice Nacional de Precios Productor</span>
-      <span class="h2-cat-row-val pos">
-        2.46%
+      <span class="h2-cat-row-val neg">
+        1.96%
       </span>
-      <span class="h2-cat-row-d pos">
-        ↑ 0.80 pp
+      <span class="h2-cat-row-d neg">
+        ↓ 0.50 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,22.2 3.9,19.5 7.8,13.9 11.7,12.1 15.7,13.3 19.6,11.5 23.5,11.4 27.4,7.9 31.3,4.8 35.2,4.1 39.1,3.0 43.0,5.0 47.0,5.7 50.9,6.9 54.8,12.6 58.7,16.6 62.6,17.7 66.5,19.0 70.4,18.8 74.3,20.9 78.3,21.7 82.2,23.4 86.1,25.0 90.0,22.2" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="22.2" r="1.6" fill="#16A34A"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="25" x2="90" y2="25" stroke="#E4E4E7" stroke-width="0.6"/><polyline points="0.0,19.5 3.9,13.9 7.8,12.1 11.7,13.3 15.7,11.5 19.6,11.4 23.5,7.9 27.4,4.8 31.3,4.1 35.2,3.0 39.1,5.0 43.0,5.7 47.0,6.9 50.9,12.6 54.8,16.6 58.7,17.7 62.6,19.0 66.5,18.8 70.4,20.9 74.3,21.7 78.3,23.4 82.2,25.0 86.1,22.2 90.0,23.9" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="23.9" r="1.6" fill="#DC2626"/></svg></div>
     </a>
     
   </div>
@@ -613,43 +619,43 @@
       <span class="h2-cat-row-d neg">
         ↓ 0.76 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="19.7" x2="90" y2="19.7" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,3.0 3.9,15.5 7.8,11.5 11.7,13.6 15.7,8.1 19.6,14.6 23.5,17.6 27.4,23.1 31.3,17.0 35.2,25.0 39.1,20.3 43.0,17.6 47.0,20.4 50.9,12.6 54.8,16.3 58.7,16.4 62.6,24.8 66.5,17.5 70.4,21.4 74.3,11.0 78.3,14.6 82.2,7.5 86.1,17.1 90.0,21.2" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="21.2" r="1.6" fill="#DC2626"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="19.7" x2="90" y2="19.7" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,3.0 3.9,15.5 7.8,11.5 11.7,13.6 15.7,8.1 19.6,14.5 23.5,17.6 27.4,23.1 31.3,17.0 35.2,25.0 39.1,20.3 43.0,17.6 47.0,20.4 50.9,12.6 54.8,16.3 58.7,16.4 62.6,24.7 66.5,17.5 70.4,21.4 74.3,11.0 78.3,14.6 82.2,7.5 86.1,17.1 90.0,21.2" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="21.2" r="1.6" fill="#DC2626"/></svg></div>
     </a>
     
     <a class="h2-cat-row" href="indicador/actividad_industrial.html"
        aria-label="Indicador Mensual de la Actividad Industrial">
       <span class="h2-cat-row-name">Indicador Mensual de la Actividad Industrial</span>
-      <span class="h2-cat-row-val pos">
-        0.40%
+      <span class="h2-cat-row-val neg">
+        -0.63%
       </span>
-      <span class="h2-cat-row-d pos">
-        ↑ 1.48 pp
+      <span class="h2-cat-row-d neg">
+        ↓ 1.01 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.8" x2="90" y2="13.8" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,10.8 3.9,17.2 7.8,13.2 11.7,12.4 15.7,9.6 19.6,17.1 23.5,9.9 27.4,25.0 31.3,12.9 35.2,21.9 39.1,11.9 43.0,3.0 47.0,18.1 50.9,14.6 54.8,10.2 58.7,16.1 62.6,20.2 66.5,15.3 70.4,15.1 74.3,8.6 78.3,10.2 82.2,13.0 86.1,20.5 90.0,11.2" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="11.2" r="1.6" fill="#16A34A"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.8" x2="90" y2="13.8" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,17.7 3.9,13.2 7.8,12.2 11.7,9.7 15.7,17.0 19.6,10.0 23.5,25.0 27.4,13.1 31.3,21.8 35.2,12.4 39.1,3.0 43.0,16.7 47.0,15.0 50.9,10.5 54.8,16.1 58.7,20.4 62.6,15.2 66.5,15.0 70.4,8.8 74.3,10.5 78.3,13.4 82.2,20.9 86.1,11.4 90.0,17.8" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="17.8" r="1.6" fill="#DC2626"/></svg></div>
     </a>
     
     <a class="h2-cat-row" href="indicador/consumo_privado.html"
        aria-label="Indicador Mensual del Consumo Privado">
       <span class="h2-cat-row-name">Indicador Mensual del Consumo Privado</span>
       <span class="h2-cat-row-val neg">
-        2.66%
+        0.93%
       </span>
       <span class="h2-cat-row-d neg">
-        ↓ 2.76 pp
+        ↓ 1.62 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="19.6" x2="90" y2="19.6" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,3.8 3.9,3.0 7.8,8.5 11.7,10.7 15.7,13.5 19.6,11.5 23.5,14.0 27.4,17.5 31.3,21.1 35.2,20.0 39.1,25.0 43.0,22.7 47.0,22.6 50.9,23.0 54.8,17.9 58.7,19.0 62.6,17.2 66.5,18.5 70.4,15.3 74.3,13.6 78.3,8.4 82.2,12.3 86.1,5.0 90.0,12.4" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="12.4" r="1.6" fill="#DC2626"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="19.5" x2="90" y2="19.5" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,3.0 3.9,8.5 7.8,10.6 11.7,13.4 15.7,11.5 19.6,14.0 23.5,17.5 27.4,21.1 31.3,20.0 35.2,25.0 39.1,22.8 43.0,22.2 47.0,22.9 50.9,17.8 54.8,18.9 58.7,17.2 62.6,18.5 66.5,15.3 70.4,13.6 74.3,8.4 78.3,12.4 82.2,5.2 86.1,12.7 90.0,17.0" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="17.0" r="1.6" fill="#DC2626"/></svg></div>
     </a>
     
     <a class="h2-cat-row" href="indicador/fbcf.html"
        aria-label="Formación Bruta de Capital Fijo">
       <span class="h2-cat-row-name">Formación Bruta de Capital Fijo</span>
       <span class="h2-cat-row-val neg">
-        -2.18%
+        -3.58%
       </span>
       <span class="h2-cat-row-d neg">
-        ↓ 0.49 pp
+        ↓ 1.20 pp
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.9" x2="90" y2="13.9" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,3.0 3.9,4.3 7.8,3.1 11.7,7.6 15.7,11.7 19.6,6.6 23.5,9.9 27.4,14.7 31.3,18.4 35.2,15.0 39.1,20.5 43.0,21.6 47.0,21.5 50.9,20.2 54.8,23.4 58.7,21.4 62.6,21.9 66.5,22.7 70.4,25.0 74.3,23.7 78.3,20.7 82.2,20.5 86.1,15.9 90.0,16.4" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="16.4" r="1.6" fill="#DC2626"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="13.9" x2="90" y2="13.9" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,4.2 3.9,3.0 7.8,7.6 11.7,11.7 15.7,6.5 19.6,9.9 23.5,14.7 27.4,18.5 31.3,15.1 35.2,20.6 39.1,21.8 43.0,21.2 47.0,20.2 50.9,23.4 54.8,21.4 58.7,21.9 62.6,22.7 66.5,25.0 70.4,23.7 74.3,20.8 78.3,20.6 82.2,16.0 86.1,16.7 90.0,18.1" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="18.1" r="1.6" fill="#DC2626"/></svg></div>
     </a>
     
     <a class="h2-cat-row" href="indicador/balanza_comercial.html"
@@ -673,7 +679,7 @@
       <span class="h2-cat-row-d neg">
         ↓ 0.01 pts
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="14.3" x2="90" y2="14.3" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,11.2 3.9,14.9 7.8,19.3 11.7,22.5 15.7,24.4 19.6,25.0 23.5,24.4 27.4,23.7 31.3,22.5 35.2,21.9 39.1,20.6 43.0,18.7 47.0,16.2 50.9,11.8 54.8,6.8 58.7,3.6 62.6,3.0 66.5,3.6 70.4,4.9 74.3,6.1 78.3,7.4 82.2,8.0 86.1,8.0 90.0,8.7" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="8.7" r="1.6" fill="#DC2626"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="14.3" x2="90" y2="14.3" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,15.6 3.9,19.3 7.8,22.5 11.7,24.4 15.7,25.0 19.6,24.4 23.5,23.7 27.4,22.5 31.3,21.9 35.2,20.6 39.1,19.3 43.0,16.2 47.0,11.8 50.9,6.8 54.8,4.3 58.7,3.0 62.6,3.0 66.5,4.3 70.4,6.1 74.3,6.8 78.3,7.4 82.2,8.0 86.1,8.0 90.0,8.7" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="8.7" r="1.6" fill="#DC2626"/></svg></div>
     </a>
     
   </div>
@@ -800,7 +806,7 @@
        aria-label="IMAI estatal, actividad industrial por entidad">
       <span class="h2-cat-row-name">IMAI estatal, actividad industrial por entidad</span>
       <span class="h2-cat-row-val ">
-        150.29%
+        139.19%
       </span>
       <span class="h2-cat-row-d ">
         —
@@ -819,13 +825,13 @@
     <a class="h2-cat-row" href="indicador/confianza_consumidor.html"
        aria-label="Indicador de Confianza del Consumidor">
       <span class="h2-cat-row-name">Indicador de Confianza del Consumidor</span>
-      <span class="h2-cat-row-val neg">
-        -0.27 pts
+      <span class="h2-cat-row-val pos">
+        0.22 pts
       </span>
-      <span class="h2-cat-row-d neg">
-        ↓ 0.58 pts
+      <span class="h2-cat-row-d pos">
+        ↑ 0.46 pts
       </span>
-      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="15.5" x2="90" y2="15.5" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,14.1 3.9,20.3 7.8,10.7 11.7,19.1 15.7,14.5 19.6,18.0 23.5,3.0 27.4,23.7 31.3,18.6 35.2,16.6 39.1,17.8 43.0,17.1 47.0,18.7 50.9,9.6 54.8,21.6 58.7,13.5 62.6,12.0 66.5,17.3 70.4,17.9 74.3,25.0 78.3,12.4 82.2,18.4 86.1,13.8 90.0,17.0" fill="none" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="17.0" r="1.6" fill="#DC2626"/></svg></div>
+      <div class="h2-cat-row-spark"><svg viewBox="0 0 90 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="0" y1="15.6" x2="90" y2="15.6" stroke="#9CA3AF" stroke-width="0.6" stroke-dasharray="2,2"/><polyline points="0.0,20.3 3.9,10.6 7.8,19.2 11.7,14.6 15.7,18.1 19.6,3.0 23.5,23.7 27.4,18.6 31.3,16.6 35.2,17.7 39.1,16.9 43.0,19.3 47.0,9.5 50.9,21.6 54.8,13.5 58.7,12.1 62.6,17.4 66.5,18.0 70.4,25.0 74.3,12.3 78.3,18.4 82.2,13.7 86.1,16.9 90.0,14.3" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="90.0" cy="14.3" r="1.6" fill="#16A34A"/></svg></div>
     </a>
     
     <a class="h2-cat-row" href="indicador/emoe_ipm.html"
@@ -942,13 +948,14 @@
       </div>
     </div>
     <div class="indic-tbl-wrap">
-      <table class="indic-tbl" id="indic-tbl-v3">
+      <table class="indic-tbl" id="indic-tbl-v3" aria-label="Indicadores económicos">
+        <caption class="sr-only">33 series oficiales BIE-INEGI. Filtra por categoría o busca por nombre.</caption>
         <thead>
           <tr>
-            <th>Indicador</th>
-            <th>Periodo</th>
-            <th class="num">Valor</th>
-            <th class="num">Variación</th>
+            <th scope="col">Indicador</th>
+            <th scope="col">Periodo</th>
+            <th scope="col" class="num">Valor</th>
+            <th scope="col" class="num">Variación</th>
           </tr>
         </thead>
         <tbody>
@@ -960,12 +967,12 @@
                 <strong>INPC anual</strong>
               </a>
             </td>
-            <td class="muted">mar 2026</td>
-            <td class="num">4.59 %</td>
+            <td class="muted">abr 2026</td>
+            <td class="num">4.45 %</td>
             <td class="num">
-              <div class="cell-delta delta-up">
-                <span class="delta-arrow" aria-hidden="true">↑</span>
-                <span>+0.57 pp</span>
+              <div class="cell-delta delta-down">
+                <span class="delta-arrow" aria-hidden="true">↓</span>
+                <span>-0.14 pp</span>
               </div>
               <div class="delta-sub">Anual</div>
             </td>
@@ -1014,12 +1021,12 @@
                 <strong>Conf. consumidor</strong>
               </a>
             </td>
-            <td class="muted">mar 2026</td>
-            <td class="num">-0.27 pts</td>
+            <td class="muted">abr 2026</td>
+            <td class="num">0.22 pts</td>
             <td class="num">
-              <div class="cell-delta delta-down">
-                <span class="delta-arrow" aria-hidden="true">↓</span>
-                <span>-0.58 pts</span>
+              <div class="cell-delta delta-up">
+                <span class="delta-arrow" aria-hidden="true">↑</span>
+                <span>+0.46 pts</span>
               </div>
               <div class="delta-sub">Mensual</div>
             </td>
@@ -1068,12 +1075,12 @@
                 <strong>IMAI total</strong>
               </a>
             </td>
-            <td class="muted">feb 2026</td>
-            <td class="num">0.40 %</td>
+            <td class="muted">mar 2026</td>
+            <td class="num">-0.63 %</td>
             <td class="num">
-              <div class="cell-delta delta-up">
-                <span class="delta-arrow" aria-hidden="true">↑</span>
-                <span>+1.48 pp</span>
+              <div class="cell-delta delta-down">
+                <span class="delta-arrow" aria-hidden="true">↓</span>
+                <span>-1.01 pp</span>
               </div>
               <div class="delta-sub">Mensual</div>
             </td>
@@ -1086,12 +1093,12 @@
                 <strong>FBCF anual</strong>
               </a>
             </td>
-            <td class="muted">ene 2026</td>
-            <td class="num">-2.18 %</td>
+            <td class="muted">feb 2026</td>
+            <td class="num">-3.58 %</td>
             <td class="num">
               <div class="cell-delta delta-down">
                 <span class="delta-arrow" aria-hidden="true">↓</span>
-                <span>-0.49 pp</span>
+                <span>-1.20 pp</span>
               </div>
               <div class="delta-sub">Anual</div>
             </td>
@@ -1104,12 +1111,12 @@
                 <strong>Consumo privado</strong>
               </a>
             </td>
-            <td class="muted">ene 2026</td>
-            <td class="num">2.66 %</td>
+            <td class="muted">feb 2026</td>
+            <td class="num">0.93 %</td>
             <td class="num">
               <div class="cell-delta delta-down">
                 <span class="delta-arrow" aria-hidden="true">↓</span>
-                <span>-2.76 pp</span>
+                <span>-1.62 pp</span>
               </div>
               <div class="delta-sub">Anual</div>
             </td>
@@ -1158,12 +1165,12 @@
                 <strong>EMIM producción</strong>
               </a>
             </td>
-            <td class="muted">feb 2026</td>
-            <td class="num">3.43 %</td>
+            <td class="muted">mar 2026</td>
+            <td class="num">-1.09 %</td>
             <td class="num">
-              <div class="cell-delta delta-up">
-                <span class="delta-arrow" aria-hidden="true">↑</span>
-                <span>+6.20 pp</span>
+              <div class="cell-delta delta-down">
+                <span class="delta-arrow" aria-hidden="true">↓</span>
+                <span>-4.43 pp</span>
               </div>
               <div class="delta-sub">Mensual</div>
             </td>
@@ -1387,30 +1394,5 @@
     </button>
   </div>
 </nav>
-<script>
-(function(){
-  var btn=document.getElementById('bn-indic-btn');
-  var sheet=document.getElementById('bn-sheet');
-  var overlay=document.getElementById('bn-overlay');
-  if(!btn||!sheet||!overlay)return;
-  function open(){
-    sheet.classList.add('open');
-    overlay.classList.add('open');
-    btn.setAttribute('aria-expanded','true');
-    document.body.style.overflow='hidden';
-  }
-  function close(){
-    sheet.classList.remove('open');
-    overlay.classList.remove('open');
-    btn.setAttribute('aria-expanded','false');
-    document.body.style.overflow='';
-  }
-  btn.addEventListener('click',function(){
-    sheet.classList.contains('open')?close():open();
-  });
-  overlay.addEventListener('click',close);
-  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
-})();
-</script>
 </body>
 </html>

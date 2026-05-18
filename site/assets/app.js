@@ -550,7 +550,11 @@ async function v3InitSearch() {
 
   input.addEventListener("input", e => search(e.target.value.trim()));
   input.addEventListener("focus", () => {
+    wrap.classList.add("active");
     if (input.value.trim()) search(input.value.trim());
+  });
+  input.addEventListener("blur", () => {
+    setTimeout(() => wrap.classList.remove("active"), 150);
   });
   document.addEventListener("click", e => {
     if (!wrap.contains(e.target)) results.classList.remove("open");
@@ -1087,3 +1091,30 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+
+/* ── Bottom nav sheet (móvil ≤768px) ───────────────────────── */
+(function () {
+  var btn = document.getElementById("bn-indic-btn");
+  var sheet = document.getElementById("bn-sheet");
+  var overlay = document.getElementById("bn-overlay");
+  if (!btn || !sheet || !overlay) return;
+  function openSheet() {
+    sheet.classList.add("open");
+    overlay.classList.add("open");
+    btn.setAttribute("aria-expanded", "true");
+    document.body.style.overflow = "hidden";
+  }
+  function closeSheet() {
+    sheet.classList.remove("open");
+    overlay.classList.remove("open");
+    btn.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+  }
+  btn.addEventListener("click", function () {
+    sheet.classList.contains("open") ? closeSheet() : openSheet();
+  });
+  overlay.addEventListener("click", closeSheet);
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeSheet();
+  });
+}());

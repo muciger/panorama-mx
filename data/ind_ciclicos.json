@@ -18,7 +18,7 @@
     "Coincidente",
     "Adelantado"
   ],
-  "ultima_actualizacion": "2026-05-02",
+  "ultima_actualizacion": "2026-05-18",
   "proxima_actualizacion_manual": "6 de mayo de 2026",
   "periodos": [
     "feb-80",
@@ -573,7 +573,8 @@
     "nov-25",
     "dic-25",
     "ene-26",
-    "feb-26"
+    "feb-26",
+    "mar-26"
   ],
   "series": [
     {
@@ -614,7 +615,7 @@
     {
       "Periodo": "sep-80",
       "Coincidente": 0.42,
-      "Adelantado": 0.28
+      "Adelantado": 0.29
     },
     {
       "Periodo": "oct-80",
@@ -673,7 +674,7 @@
     },
     {
       "Periodo": "sep-81",
-      "Coincidente": 0.16,
+      "Coincidente": 0.17,
       "Adelantado": -0.29
     },
     {
@@ -819,7 +820,7 @@
     {
       "Periodo": "feb-84",
       "Coincidente": 0.18,
-      "Adelantado": 0.21
+      "Adelantado": 0.2
     },
     {
       "Periodo": "mar-84",
@@ -943,7 +944,7 @@
     },
     {
       "Periodo": "mar-86",
-      "Coincidente": -0.31,
+      "Coincidente": -0.32,
       "Adelantado": -0.27
     },
     {
@@ -1044,7 +1045,7 @@
     {
       "Periodo": "nov-87",
       "Coincidente": -0.01,
-      "Adelantado": -0.86
+      "Adelantado": -0.87
     },
     {
       "Periodo": "dic-87",
@@ -1064,7 +1065,7 @@
     {
       "Periodo": "mar-88",
       "Coincidente": -0.06,
-      "Adelantado": 0.03
+      "Adelantado": 0.02
     },
     {
       "Periodo": "abr-88",
@@ -1218,7 +1219,7 @@
     },
     {
       "Periodo": "oct-90",
-      "Coincidente": 0.11,
+      "Coincidente": 0.12,
       "Adelantado": -0.09
     },
     {
@@ -1598,7 +1599,7 @@
     },
     {
       "Periodo": "feb-97",
-      "Coincidente": 0.21,
+      "Coincidente": 0.22,
       "Adelantado": 0.24
     },
     {
@@ -1773,7 +1774,7 @@
     },
     {
       "Periodo": "ene-00",
-      "Coincidente": 0.14,
+      "Coincidente": 0.15,
       "Adelantado": 0.17
     },
     {
@@ -1933,7 +1934,7 @@
     },
     {
       "Periodo": "sep-02",
-      "Coincidente": -0.0,
+      "Coincidente": -0.01,
       "Adelantado": -0.35
     },
     {
@@ -2463,7 +2464,7 @@
     },
     {
       "Periodo": "jul-11",
-      "Coincidente": 0.06,
+      "Coincidente": 0.07,
       "Adelantado": -0.21
     },
     {
@@ -2478,7 +2479,7 @@
     },
     {
       "Periodo": "oct-11",
-      "Coincidente": 0.08,
+      "Coincidente": 0.09,
       "Adelantado": -0.12
     },
     {
@@ -2699,7 +2700,7 @@
     {
       "Periodo": "jun-15",
       "Coincidente": 0.04,
-      "Adelantado": -0.06
+      "Adelantado": -0.07
     },
     {
       "Periodo": "jul-15",
@@ -2773,7 +2774,7 @@
     },
     {
       "Periodo": "sep-16",
-      "Coincidente": 0.08,
+      "Coincidente": 0.07,
       "Adelantado": -0.08
     },
     {
@@ -2853,7 +2854,7 @@
     },
     {
       "Periodo": "ene-18",
-      "Coincidente": 0.05,
+      "Coincidente": 0.06,
       "Adelantado": 0.01
     },
     {
@@ -3033,7 +3034,7 @@
     },
     {
       "Periodo": "ene-21",
-      "Coincidente": 0.22,
+      "Coincidente": 0.23,
       "Adelantado": 0.31
     },
     {
@@ -3103,7 +3104,7 @@
     },
     {
       "Periodo": "mar-22",
-      "Coincidente": 0.19,
+      "Coincidente": 0.2,
       "Adelantado": -0.19
     },
     {
@@ -3179,7 +3180,7 @@
     {
       "Periodo": "jun-23",
       "Coincidente": 0.04,
-      "Adelantado": 0.07
+      "Adelantado": 0.06
     },
     {
       "Periodo": "jul-23",
@@ -3213,23 +3214,23 @@
     },
     {
       "Periodo": "ene-24",
-      "Coincidente": -0.08,
-      "Adelantado": 0.13
+      "Coincidente": -0.07,
+      "Adelantado": 0.12
     },
     {
       "Periodo": "feb-24",
       "Coincidente": -0.07,
-      "Adelantado": 0.1
+      "Adelantado": 0.09
     },
     {
       "Periodo": "mar-24",
-      "Coincidente": -0.07,
+      "Coincidente": -0.06,
       "Adelantado": 0.05
     },
     {
       "Periodo": "abr-24",
-      "Coincidente": -0.06,
-      "Adelantado": -0.01
+      "Coincidente": -0.05,
+      "Adelantado": -0.02
     },
     {
       "Periodo": "may-24",
@@ -3258,7 +3259,7 @@
     },
     {
       "Periodo": "oct-24",
-      "Coincidente": -0.07,
+      "Coincidente": -0.08,
       "Adelantado": -0.15
     },
     {
@@ -3268,22 +3269,22 @@
     },
     {
       "Periodo": "dic-24",
-      "Coincidente": -0.08,
+      "Coincidente": -0.07,
       "Adelantado": -0.12
     },
     {
       "Periodo": "ene-25",
-      "Coincidente": -0.06,
+      "Coincidente": -0.05,
       "Adelantado": -0.1
     },
     {
       "Periodo": "feb-25",
       "Coincidente": -0.04,
-      "Adelantado": -0.07
+      "Adelantado": -0.08
     },
     {
       "Periodo": "mar-25",
-      "Coincidente": -0.04,
+      "Coincidente": -0.03,
       "Adelantado": -0.03
     },
     {
@@ -3299,7 +3300,7 @@
     {
       "Periodo": "jun-25",
       "Coincidente": -0.04,
-      "Adelantado": 0.17
+      "Adelantado": 0.16
     },
     {
       "Periodo": "jul-25",
@@ -3309,35 +3310,40 @@
     {
       "Periodo": "ago-25",
       "Coincidente": -0.03,
-      "Adelantado": 0.17
+      "Adelantado": 0.18
     },
     {
       "Periodo": "sep-25",
-      "Coincidente": -0.01,
-      "Adelantado": 0.15
+      "Coincidente": -0.02,
+      "Adelantado": 0.16
     },
     {
       "Periodo": "oct-25",
-      "Coincidente": 0.01,
+      "Coincidente": 0.0,
       "Adelantado": 0.13
     },
     {
       "Periodo": "nov-25",
-      "Coincidente": 0.01,
-      "Adelantado": 0.11
+      "Coincidente": -0.0,
+      "Adelantado": 0.12
     },
     {
       "Periodo": "dic-25",
-      "Coincidente": 0.01,
-      "Adelantado": 0.1
+      "Coincidente": -0.01,
+      "Adelantado": 0.11
     },
     {
       "Periodo": "ene-26",
-      "Coincidente": -0.0,
+      "Coincidente": -0.03,
       "Adelantado": 0.1
     },
     {
       "Periodo": "feb-26",
+      "Coincidente": -0.04,
+      "Adelantado": 0.1
+    },
+    {
+      "Periodo": "mar-26",
       "Coincidente": null,
       "Adelantado": 0.09
     }

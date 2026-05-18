@@ -26,7 +26,7 @@
     "No_subyacente_Quincenal",
     "No_subyacente_Anual"
   ],
-  "ultima_actualizacion": "2026-05-02",
+  "ultima_actualizacion": "2026-05-18",
   "proxima_actualizacion_manual": "23 de abril de 2026",
   "periodos": [
     "Q01-88",
@@ -947,7 +947,8 @@
     "Q04-26",
     "Q05-26",
     "Q06-26",
-    "Q07-26"
+    "Q07-26",
+    "Q08-26"
   ],
   "series": [
     {
@@ -9220,6 +9221,15 @@
       "Subyacente_Anual": 4.27,
       "No_subyacente_Quincenal": -0.13,
       "No_subyacente_Anual": 5.41
+    },
+    {
+      "Periodo": "Q08-26",
+      "INPC_Quincenal": 0.04,
+      "INPC_Anual": 4.37,
+      "Subyacente_Quincenal": 0.1,
+      "Subyacente_Anual": 4.25,
+      "No_subyacente_Quincenal": -0.19,
+      "No_subyacente_Anual": 4.76
     }
   ],
   "benchmarks": {

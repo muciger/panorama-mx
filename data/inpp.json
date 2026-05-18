@@ -22,7 +22,7 @@
     "Con_petróleo_c_serv_Mensual",
     "Con_petróleo_c_serv_Anual"
   ],
-  "ultima_actualizacion": "2026-05-02",
+  "ultima_actualizacion": "2026-05-18",
   "proxima_actualizacion_manual": "7 de mayo de 2026",
   "periodos": [
     "ene-04",
@@ -291,7 +291,8 @@
     "dic-25",
     "ene-26",
     "feb-26",
-    "mar-26"
+    "mar-26",
+    "abr-26"
   ],
   "series": [
     {
@@ -2162,6 +2163,13 @@
       "Sin_petróleo_c_serv_Anual": 2.46,
       "Con_petróleo_c_serv_Mensual": 1.72,
       "Con_petróleo_c_serv_Anual": 2.77
+    },
+    {
+      "Periodo": "abr-26",
+      "Sin_petróleo_c_serv_Mensual": -0.15,
+      "Sin_petróleo_c_serv_Anual": 1.96,
+      "Con_petróleo_c_serv_Mensual": 0.04,
+      "Con_petróleo_c_serv_Anual": 2.56
     }
   ],
   "benchmarks": {

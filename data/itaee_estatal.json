@@ -18,7 +18,7 @@
     "Indice_desest",
     "Var_anual"
   ],
-  "ultima_actualizacion": "2026-05-02",
+  "ultima_actualizacion": "2026-05-18",
   "proxima_actualizacion_manual": "",
   "periodos": [
     "T4-25",
@@ -108,7 +108,7 @@
     {
       "Entidad": "Guanajuato",
       "Indice_desest": 105.33,
-      "Var_anual": null
+      "Var_anual": -0.79
     },
     {
       "Entidad": "Guerrero",
@@ -293,7 +293,7 @@
       "Entidad": "Guanajuato",
       "_geo": "11",
       "Indice_desest": 105.33,
-      "Var_anual": null,
+      "Var_anual": -0.79,
       "_periodo": "T4-25"
     },
     {

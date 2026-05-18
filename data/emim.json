@@ -22,7 +22,7 @@
     "Horas_trabajadas",
     "Remuneraciones_medias_reales"
   ],
-  "ultima_actualizacion": "2026-05-02",
+  "ultima_actualizacion": "2026-05-18",
   "proxima_actualizacion_manual": "16 de abril de 2026",
   "periodos": [
     "feb-07",
@@ -253,131 +253,132 @@
     "nov-25",
     "dic-25",
     "ene-26",
-    "feb-26"
+    "feb-26",
+    "mar-26"
   ],
   "series": [
     {
       "Periodo": "feb-07",
-      "Volumen_producción": 1.04,
+      "Volumen_producción": 1.03,
       "Personal_ocupado": -0.84,
       "Horas_trabajadas": -0.22,
-      "Remuneraciones_medias_reales": 0.39
+      "Remuneraciones_medias_reales": 0.4
     },
     {
       "Periodo": "mar-07",
-      "Volumen_producción": 0.66,
+      "Volumen_producción": 0.67,
       "Personal_ocupado": -0.52,
       "Horas_trabajadas": -0.71,
-      "Remuneraciones_medias_reales": -0.25
+      "Remuneraciones_medias_reales": -0.36
     },
     {
       "Periodo": "abr-07",
-      "Volumen_producción": -1.04,
+      "Volumen_producción": -1.03,
       "Personal_ocupado": -0.25,
       "Horas_trabajadas": -0.4,
-      "Remuneraciones_medias_reales": 1.13
+      "Remuneraciones_medias_reales": 1.26
     },
     {
       "Periodo": "may-07",
-      "Volumen_producción": 1.54,
+      "Volumen_producción": 1.55,
       "Personal_ocupado": -0.16,
-      "Horas_trabajadas": 0.05,
+      "Horas_trabajadas": 0.04,
       "Remuneraciones_medias_reales": 0.33
     },
     {
       "Periodo": "jun-07",
-      "Volumen_producción": -0.28,
+      "Volumen_producción": -0.27,
       "Personal_ocupado": 0.24,
       "Horas_trabajadas": -0.16,
-      "Remuneraciones_medias_reales": -1.12
+      "Remuneraciones_medias_reales": -1.13
     },
     {
       "Periodo": "jul-07",
       "Volumen_producción": -0.58,
       "Personal_ocupado": -0.04,
       "Horas_trabajadas": -0.14,
-      "Remuneraciones_medias_reales": 0.52
+      "Remuneraciones_medias_reales": 0.56
     },
     {
       "Periodo": "ago-07",
-      "Volumen_producción": 0.57,
+      "Volumen_producción": 0.56,
       "Personal_ocupado": 0.39,
       "Horas_trabajadas": 0.98,
-      "Remuneraciones_medias_reales": 0.66
+      "Remuneraciones_medias_reales": 0.65
     },
     {
       "Periodo": "sep-07",
-      "Volumen_producción": -1.3,
+      "Volumen_producción": -1.29,
       "Personal_ocupado": -0.4,
       "Horas_trabajadas": 0.7,
-      "Remuneraciones_medias_reales": -1.22
+      "Remuneraciones_medias_reales": -1.24
     },
     {
       "Periodo": "oct-07",
       "Volumen_producción": 0.09,
       "Personal_ocupado": 0.25,
-      "Horas_trabajadas": -0.47,
-      "Remuneraciones_medias_reales": 1.48
+      "Horas_trabajadas": -0.48,
+      "Remuneraciones_medias_reales": 1.49
     },
     {
       "Periodo": "nov-07",
-      "Volumen_producción": 0.21,
+      "Volumen_producción": 0.22,
       "Personal_ocupado": -0.28,
       "Horas_trabajadas": 0.0,
-      "Remuneraciones_medias_reales": -1.82
+      "Remuneraciones_medias_reales": -1.81
     },
     {
       "Periodo": "dic-07",
-      "Volumen_producción": -0.04,
+      "Volumen_producción": -0.05,
       "Personal_ocupado": -0.01,
       "Horas_trabajadas": 0.23,
-      "Remuneraciones_medias_reales": 1.1
+      "Remuneraciones_medias_reales": 1.07
     },
     {
       "Periodo": "ene-08",
-      "Volumen_producción": 0.81,
+      "Volumen_producción": 0.8,
       "Personal_ocupado": 1.68,
       "Horas_trabajadas": -0.17,
-      "Remuneraciones_medias_reales": -0.3
+      "Remuneraciones_medias_reales": -0.29
     },
     {
       "Periodo": "feb-08",
-      "Volumen_producción": -0.69,
+      "Volumen_producción": -0.68,
       "Personal_ocupado": 0.23,
       "Horas_trabajadas": 0.43,
-      "Remuneraciones_medias_reales": -0.27
+      "Remuneraciones_medias_reales": -0.25
     },
     {
       "Periodo": "mar-08",
-      "Volumen_producción": -0.27,
+      "Volumen_producción": -0.31,
       "Personal_ocupado": -0.88,
       "Horas_trabajadas": 0.06,
-      "Remuneraciones_medias_reales": -0.49
+      "Remuneraciones_medias_reales": -0.67
     },
     {
       "Periodo": "abr-08",
-      "Volumen_producción": 1.02,
+      "Volumen_producción": 1.06,
       "Personal_ocupado": -0.39,
       "Horas_trabajadas": -0.01,
-      "Remuneraciones_medias_reales": 3.74
+      "Remuneraciones_medias_reales": 3.9
     },
     {
       "Periodo": "may-08",
-      "Volumen_producción": -0.66,
+      "Volumen_producción": -0.67,
       "Personal_ocupado": -0.05,
       "Horas_trabajadas": -1.32,
-      "Remuneraciones_medias_reales": -2.96
+      "Remuneraciones_medias_reales": -2.98
     },
     {
       "Periodo": "jun-08",
-      "Volumen_producción": -0.22,
+      "Volumen_producción": -0.19,
       "Personal_ocupado": -0.4,
       "Horas_trabajadas": 0.3,
-      "Remuneraciones_medias_reales": 1.23
+      "Remuneraciones_medias_reales": 1.26
     },
     {
       "Periodo": "jul-08",
-      "Volumen_producción": -3.77,
+      "Volumen_producción": -3.79,
       "Personal_ocupado": -0.17,
       "Horas_trabajadas": -0.63,
       "Remuneraciones_medias_reales": -1.87
@@ -394,35 +395,35 @@
       "Volumen_producción": -0.74,
       "Personal_ocupado": -0.92,
       "Horas_trabajadas": -0.73,
-      "Remuneraciones_medias_reales": 1.65
+      "Remuneraciones_medias_reales": 1.66
     },
     {
       "Periodo": "oct-08",
       "Volumen_producción": -1.67,
       "Personal_ocupado": -1.06,
       "Horas_trabajadas": -0.61,
-      "Remuneraciones_medias_reales": -0.18
+      "Remuneraciones_medias_reales": -0.19
     },
     {
       "Periodo": "nov-08",
-      "Volumen_producción": -1.98,
+      "Volumen_producción": -1.97,
       "Personal_ocupado": -1.3,
       "Horas_trabajadas": -0.49,
-      "Remuneraciones_medias_reales": -0.29
+      "Remuneraciones_medias_reales": -0.3
     },
     {
       "Periodo": "dic-08",
-      "Volumen_producción": -1.8,
+      "Volumen_producción": -1.81,
       "Personal_ocupado": -1.18,
       "Horas_trabajadas": -4.57,
-      "Remuneraciones_medias_reales": -0.77
+      "Remuneraciones_medias_reales": -0.75
     },
     {
       "Periodo": "ene-09",
-      "Volumen_producción": -5.47,
+      "Volumen_producción": -5.48,
       "Personal_ocupado": -1.5,
       "Horas_trabajadas": -2.28,
-      "Remuneraciones_medias_reales": -1.23
+      "Remuneraciones_medias_reales": -1.24
     },
     {
       "Periodo": "feb-09",
@@ -433,367 +434,367 @@
     },
     {
       "Periodo": "mar-09",
-      "Volumen_producción": -2.52,
+      "Volumen_producción": -2.53,
       "Personal_ocupado": -1.45,
       "Horas_trabajadas": -1.43,
-      "Remuneraciones_medias_reales": 0.18
+      "Remuneraciones_medias_reales": 0.07
     },
     {
       "Periodo": "abr-09",
       "Volumen_producción": 0.68,
       "Personal_ocupado": -0.42,
       "Horas_trabajadas": -0.85,
-      "Remuneraciones_medias_reales": -0.08
+      "Remuneraciones_medias_reales": 0.03
     },
     {
       "Periodo": "may-09",
-      "Volumen_producción": -1.15,
+      "Volumen_producción": -1.14,
       "Personal_ocupado": -0.73,
       "Horas_trabajadas": -2.13,
-      "Remuneraciones_medias_reales": -0.38
+      "Remuneraciones_medias_reales": -0.36
     },
     {
       "Periodo": "jun-09",
-      "Volumen_producción": -1.06,
+      "Volumen_producción": -1.02,
       "Personal_ocupado": 0.61,
       "Horas_trabajadas": 1.3,
-      "Remuneraciones_medias_reales": -1.21
+      "Remuneraciones_medias_reales": -1.2
     },
     {
       "Periodo": "jul-09",
-      "Volumen_producción": 3.71,
+      "Volumen_producción": 3.67,
       "Personal_ocupado": -1.06,
       "Horas_trabajadas": 1.09,
-      "Remuneraciones_medias_reales": 1.53
+      "Remuneraciones_medias_reales": 1.51
     },
     {
       "Periodo": "ago-09",
-      "Volumen_producción": 0.82,
+      "Volumen_producción": 0.83,
       "Personal_ocupado": 0.99,
       "Horas_trabajadas": 0.09,
-      "Remuneraciones_medias_reales": -1.24
+      "Remuneraciones_medias_reales": -1.26
     },
     {
       "Periodo": "sep-09",
       "Volumen_producción": 3.03,
       "Personal_ocupado": 0.72,
       "Horas_trabajadas": 1.47,
-      "Remuneraciones_medias_reales": 0.82
+      "Remuneraciones_medias_reales": 0.85
     },
     {
       "Periodo": "oct-09",
       "Volumen_producción": 2.58,
       "Personal_ocupado": 0.45,
       "Horas_trabajadas": 0.94,
-      "Remuneraciones_medias_reales": -1.14
+      "Remuneraciones_medias_reales": -1.16
     },
     {
       "Periodo": "nov-09",
       "Volumen_producción": 2.44,
       "Personal_ocupado": 0.61,
       "Horas_trabajadas": 1.99,
-      "Remuneraciones_medias_reales": 0.98
+      "Remuneraciones_medias_reales": 0.99
     },
     {
       "Periodo": "dic-09",
-      "Volumen_producción": -0.31,
+      "Volumen_producción": -0.32,
       "Personal_ocupado": 0.5,
       "Horas_trabajadas": -0.71,
-      "Remuneraciones_medias_reales": 0.3
+      "Remuneraciones_medias_reales": 0.32
     },
     {
       "Periodo": "ene-10",
-      "Volumen_producción": -2.09,
+      "Volumen_producción": -2.1,
       "Personal_ocupado": -0.22,
       "Horas_trabajadas": -0.81,
-      "Remuneraciones_medias_reales": -0.23
+      "Remuneraciones_medias_reales": -0.24
     },
     {
       "Periodo": "feb-10",
-      "Volumen_producción": 0.08,
+      "Volumen_producción": 0.07,
       "Personal_ocupado": 0.44,
       "Horas_trabajadas": 1.23,
-      "Remuneraciones_medias_reales": -0.65
+      "Remuneraciones_medias_reales": -0.68
     },
     {
       "Periodo": "mar-10",
-      "Volumen_producción": 0.39,
+      "Volumen_producción": 0.35,
       "Personal_ocupado": 0.16,
-      "Horas_trabajadas": 0.55,
-      "Remuneraciones_medias_reales": 1.78
+      "Horas_trabajadas": 0.54,
+      "Remuneraciones_medias_reales": 1.64
     },
     {
       "Periodo": "abr-10",
-      "Volumen_producción": 1.23,
+      "Volumen_producción": 1.27,
       "Personal_ocupado": 0.88,
       "Horas_trabajadas": 0.97,
-      "Remuneraciones_medias_reales": -2.17
+      "Remuneraciones_medias_reales": -2.01
     },
     {
       "Periodo": "may-10",
       "Volumen_producción": 0.74,
       "Personal_ocupado": 1.11,
       "Horas_trabajadas": 0.52,
-      "Remuneraciones_medias_reales": -0.98
-    },
-    {
-      "Periodo": "jun-10",
-      "Volumen_producción": -0.24,
-      "Personal_ocupado": 0.58,
-      "Horas_trabajadas": 0.06,
-      "Remuneraciones_medias_reales": 1.78
-    },
-    {
-      "Periodo": "jul-10",
-      "Volumen_producción": -0.18,
-      "Personal_ocupado": 0.79,
-      "Horas_trabajadas": 1.0,
-      "Remuneraciones_medias_reales": -0.86
-    },
-    {
-      "Periodo": "ago-10",
-      "Volumen_producción": 1.53,
-      "Personal_ocupado": 0.47,
-      "Horas_trabajadas": 0.4,
-      "Remuneraciones_medias_reales": 0.66
-    },
-    {
-      "Periodo": "sep-10",
-      "Volumen_producción": -1.65,
-      "Personal_ocupado": 0.13,
-      "Horas_trabajadas": -0.09,
       "Remuneraciones_medias_reales": -1.0
     },
     {
+      "Periodo": "jun-10",
+      "Volumen_producción": -0.22,
+      "Personal_ocupado": 0.58,
+      "Horas_trabajadas": 0.06,
+      "Remuneraciones_medias_reales": 1.8
+    },
+    {
+      "Periodo": "jul-10",
+      "Volumen_producción": -0.2,
+      "Personal_ocupado": 0.79,
+      "Horas_trabajadas": 1.0,
+      "Remuneraciones_medias_reales": -0.88
+    },
+    {
+      "Periodo": "ago-10",
+      "Volumen_producción": 1.57,
+      "Personal_ocupado": 0.47,
+      "Horas_trabajadas": 0.4,
+      "Remuneraciones_medias_reales": 0.7
+    },
+    {
+      "Periodo": "sep-10",
+      "Volumen_producción": -1.69,
+      "Personal_ocupado": 0.13,
+      "Horas_trabajadas": -0.09,
+      "Remuneraciones_medias_reales": -1.04
+    },
+    {
       "Periodo": "oct-10",
-      "Volumen_producción": 0.4,
+      "Volumen_producción": 0.43,
       "Personal_ocupado": -0.14,
       "Horas_trabajadas": 0.58,
-      "Remuneraciones_medias_reales": -0.05
+      "Remuneraciones_medias_reales": -0.03
     },
     {
       "Periodo": "nov-10",
-      "Volumen_producción": 0.4,
+      "Volumen_producción": 0.38,
       "Personal_ocupado": 0.44,
       "Horas_trabajadas": 0.71,
-      "Remuneraciones_medias_reales": 0.08
+      "Remuneraciones_medias_reales": 0.09
     },
     {
       "Periodo": "dic-10",
       "Volumen_producción": -0.51,
       "Personal_ocupado": 0.17,
       "Horas_trabajadas": 0.08,
-      "Remuneraciones_medias_reales": 0.02
+      "Remuneraciones_medias_reales": 0.01
     },
     {
       "Periodo": "ene-11",
-      "Volumen_producción": 1.47,
+      "Volumen_producción": 1.46,
       "Personal_ocupado": 0.17,
       "Horas_trabajadas": 0.68,
-      "Remuneraciones_medias_reales": 1.23
+      "Remuneraciones_medias_reales": 1.21
     },
     {
       "Periodo": "feb-11",
-      "Volumen_producción": 0.41,
-      "Personal_ocupado": 0.35,
+      "Volumen_producción": 0.43,
+      "Personal_ocupado": 0.34,
       "Horas_trabajadas": -0.56,
-      "Remuneraciones_medias_reales": -0.43
+      "Remuneraciones_medias_reales": -0.41
     },
     {
       "Periodo": "mar-11",
-      "Volumen_producción": 1.78,
+      "Volumen_producción": 1.71,
       "Personal_ocupado": 0.42,
       "Horas_trabajadas": 0.58,
-      "Remuneraciones_medias_reales": 1.05
+      "Remuneraciones_medias_reales": 0.92
     },
     {
       "Periodo": "abr-11",
-      "Volumen_producción": -2.29,
+      "Volumen_producción": -2.26,
       "Personal_ocupado": 0.28,
       "Horas_trabajadas": -0.33,
-      "Remuneraciones_medias_reales": -1.62
+      "Remuneraciones_medias_reales": -1.49
     },
     {
       "Periodo": "may-11",
-      "Volumen_producción": 1.12,
-      "Personal_ocupado": 0.02,
+      "Volumen_producción": 1.16,
+      "Personal_ocupado": 0.01,
       "Horas_trabajadas": 0.73,
-      "Remuneraciones_medias_reales": 1.19
+      "Remuneraciones_medias_reales": 1.22
     },
     {
       "Periodo": "jun-11",
-      "Volumen_producción": -0.74,
+      "Volumen_producción": -0.76,
       "Personal_ocupado": 0.27,
       "Horas_trabajadas": -0.09,
-      "Remuneraciones_medias_reales": 0.02
+      "Remuneraciones_medias_reales": -0.02
     },
     {
       "Periodo": "jul-11",
-      "Volumen_producción": 1.33,
+      "Volumen_producción": 1.32,
       "Personal_ocupado": 0.18,
       "Horas_trabajadas": 0.1,
       "Remuneraciones_medias_reales": -0.66
     },
     {
       "Periodo": "ago-11",
-      "Volumen_producción": -0.78,
+      "Volumen_producción": -0.75,
       "Personal_ocupado": 0.01,
       "Horas_trabajadas": 0.45,
       "Remuneraciones_medias_reales": 2.16
     },
     {
       "Periodo": "sep-11",
-      "Volumen_producción": 1.57,
+      "Volumen_producción": 1.54,
       "Personal_ocupado": 0.52,
       "Horas_trabajadas": 0.16,
-      "Remuneraciones_medias_reales": -0.67
+      "Remuneraciones_medias_reales": -0.65
     },
     {
       "Periodo": "oct-11",
-      "Volumen_producción": -0.09,
+      "Volumen_producción": -0.05,
       "Personal_ocupado": -0.1,
       "Horas_trabajadas": 0.08,
-      "Remuneraciones_medias_reales": 0.62
+      "Remuneraciones_medias_reales": 0.59
     },
     {
       "Periodo": "nov-11",
-      "Volumen_producción": 1.18,
+      "Volumen_producción": 1.15,
       "Personal_ocupado": -0.08,
       "Horas_trabajadas": 0.18,
-      "Remuneraciones_medias_reales": -0.08
+      "Remuneraciones_medias_reales": -0.06
     },
     {
       "Periodo": "dic-11",
       "Volumen_producción": 1.13,
       "Personal_ocupado": 0.23,
       "Horas_trabajadas": 0.58,
-      "Remuneraciones_medias_reales": -0.38
+      "Remuneraciones_medias_reales": -0.39
     },
     {
       "Periodo": "ene-12",
-      "Volumen_producción": 1.29,
+      "Volumen_producción": 1.31,
       "Personal_ocupado": 0.56,
       "Horas_trabajadas": 1.49,
-      "Remuneraciones_medias_reales": 0.44
+      "Remuneraciones_medias_reales": 0.48
     },
     {
       "Periodo": "feb-12",
-      "Volumen_producción": 0.09,
-      "Personal_ocupado": 0.31,
+      "Volumen_producción": 0.15,
+      "Personal_ocupado": 0.3,
       "Horas_trabajadas": -1.07,
-      "Remuneraciones_medias_reales": -0.24
+      "Remuneraciones_medias_reales": -0.26
     },
     {
       "Periodo": "mar-12",
-      "Volumen_producción": 0.28,
+      "Volumen_producción": 0.18,
       "Personal_ocupado": 0.3,
       "Horas_trabajadas": 0.56,
-      "Remuneraciones_medias_reales": -0.0
+      "Remuneraciones_medias_reales": -0.12
     },
     {
       "Periodo": "abr-12",
-      "Volumen_producción": 0.02,
+      "Volumen_producción": 0.07,
       "Personal_ocupado": 0.26,
       "Horas_trabajadas": 0.12,
-      "Remuneraciones_medias_reales": 0.39
+      "Remuneraciones_medias_reales": 0.53
     },
     {
       "Periodo": "may-12",
-      "Volumen_producción": -0.98,
-      "Personal_ocupado": 0.38,
+      "Volumen_producción": -0.96,
+      "Personal_ocupado": 0.37,
       "Horas_trabajadas": 0.25,
-      "Remuneraciones_medias_reales": 0.61
+      "Remuneraciones_medias_reales": 0.58
     },
     {
       "Periodo": "jun-12",
-      "Volumen_producción": 2.19,
-      "Personal_ocupado": 0.38,
+      "Volumen_producción": 2.16,
+      "Personal_ocupado": 0.39,
       "Horas_trabajadas": 0.82,
-      "Remuneraciones_medias_reales": -0.82
+      "Remuneraciones_medias_reales": -0.83
     },
     {
       "Periodo": "jul-12",
-      "Volumen_producción": 0.49,
+      "Volumen_producción": 0.51,
       "Personal_ocupado": 0.34,
       "Horas_trabajadas": -0.07,
-      "Remuneraciones_medias_reales": 0.09
+      "Remuneraciones_medias_reales": 0.13
     },
     {
       "Periodo": "ago-12",
-      "Volumen_producción": -3.45,
+      "Volumen_producción": -3.42,
       "Personal_ocupado": 0.12,
       "Horas_trabajadas": 0.28,
-      "Remuneraciones_medias_reales": -0.84
+      "Remuneraciones_medias_reales": -0.87
     },
     {
       "Periodo": "sep-12",
-      "Volumen_producción": 3.02,
-      "Personal_ocupado": 0.17,
+      "Volumen_producción": 2.96,
+      "Personal_ocupado": 0.16,
       "Horas_trabajadas": 0.32,
-      "Remuneraciones_medias_reales": 0.61
-    },
-    {
-      "Periodo": "oct-12",
-      "Volumen_producción": -2.06,
-      "Personal_ocupado": 0.12,
-      "Horas_trabajadas": -0.17,
-      "Remuneraciones_medias_reales": -1.68
-    },
-    {
-      "Periodo": "nov-12",
-      "Volumen_producción": 1.72,
-      "Personal_ocupado": -0.15,
-      "Horas_trabajadas": 0.18,
-      "Remuneraciones_medias_reales": 1.42
-    },
-    {
-      "Periodo": "dic-12",
-      "Volumen_producción": 1.11,
-      "Personal_ocupado": 1.02,
-      "Horas_trabajadas": 0.13,
       "Remuneraciones_medias_reales": 0.59
     },
     {
+      "Periodo": "oct-12",
+      "Volumen_producción": -2.02,
+      "Personal_ocupado": 0.12,
+      "Horas_trabajadas": -0.17,
+      "Remuneraciones_medias_reales": -1.67
+    },
+    {
+      "Periodo": "nov-12",
+      "Volumen_producción": 1.69,
+      "Personal_ocupado": -0.15,
+      "Horas_trabajadas": 0.18,
+      "Remuneraciones_medias_reales": 1.43
+    },
+    {
+      "Periodo": "dic-12",
+      "Volumen_producción": 1.09,
+      "Personal_ocupado": 1.03,
+      "Horas_trabajadas": 0.13,
+      "Remuneraciones_medias_reales": 0.56
+    },
+    {
       "Periodo": "ene-13",
-      "Volumen_producción": -0.93,
+      "Volumen_producción": -0.92,
       "Personal_ocupado": -0.23,
       "Horas_trabajadas": 0.03,
-      "Remuneraciones_medias_reales": 2.25
+      "Remuneraciones_medias_reales": 2.28
     },
     {
       "Periodo": "feb-13",
-      "Volumen_producción": 0.82,
+      "Volumen_producción": 0.91,
       "Personal_ocupado": 0.17,
       "Horas_trabajadas": 0.65,
-      "Remuneraciones_medias_reales": -1.68
+      "Remuneraciones_medias_reales": -1.69
     },
     {
       "Periodo": "mar-13",
-      "Volumen_producción": -0.92,
-      "Personal_ocupado": 0.06,
+      "Volumen_producción": -1.03,
+      "Personal_ocupado": 0.07,
       "Horas_trabajadas": 0.01,
-      "Remuneraciones_medias_reales": -0.46
+      "Remuneraciones_medias_reales": -0.5
     },
     {
       "Periodo": "abr-13",
-      "Volumen_producción": 0.47,
-      "Personal_ocupado": 0.52,
+      "Volumen_producción": 0.52,
+      "Personal_ocupado": 0.51,
       "Horas_trabajadas": 0.31,
-      "Remuneraciones_medias_reales": 1.62
+      "Remuneraciones_medias_reales": 1.71
     },
     {
       "Periodo": "may-13",
-      "Volumen_producción": 1.3,
+      "Volumen_producción": 1.29,
       "Personal_ocupado": 0.46,
       "Horas_trabajadas": 0.32,
-      "Remuneraciones_medias_reales": -3.36
+      "Remuneraciones_medias_reales": -3.41
     },
     {
       "Periodo": "jun-13",
       "Volumen_producción": -0.42,
-      "Personal_ocupado": -0.04,
+      "Personal_ocupado": -0.03,
       "Horas_trabajadas": -0.48,
-      "Remuneraciones_medias_reales": 1.18
+      "Remuneraciones_medias_reales": 1.2
     },
     {
       "Periodo": "jul-13",
@@ -804,80 +805,80 @@
     },
     {
       "Periodo": "ago-13",
-      "Volumen_producción": 0.12,
+      "Volumen_producción": 0.18,
       "Personal_ocupado": 0.08,
       "Horas_trabajadas": 0.33,
-      "Remuneraciones_medias_reales": -0.69
+      "Remuneraciones_medias_reales": -0.68
     },
     {
       "Periodo": "sep-13",
-      "Volumen_producción": -0.88,
+      "Volumen_producción": -0.93,
       "Personal_ocupado": -0.17,
       "Horas_trabajadas": 0.37,
-      "Remuneraciones_medias_reales": -0.46
+      "Remuneraciones_medias_reales": -0.45
     },
     {
       "Periodo": "oct-13",
-      "Volumen_producción": 0.29,
+      "Volumen_producción": 0.32,
       "Personal_ocupado": 0.18,
       "Horas_trabajadas": 0.07,
       "Remuneraciones_medias_reales": 0.9
     },
     {
       "Periodo": "nov-13",
-      "Volumen_producción": 0.24,
+      "Volumen_producción": 0.2,
       "Personal_ocupado": 0.39,
       "Horas_trabajadas": 0.15,
-      "Remuneraciones_medias_reales": -0.4
+      "Remuneraciones_medias_reales": -0.43
     },
     {
       "Periodo": "dic-13",
-      "Volumen_producción": 0.62,
-      "Personal_ocupado": 0.34,
+      "Volumen_producción": 0.63,
+      "Personal_ocupado": 0.35,
       "Horas_trabajadas": 0.09,
-      "Remuneraciones_medias_reales": 0.65
+      "Remuneraciones_medias_reales": 0.69
     },
     {
       "Periodo": "ene-14",
-      "Volumen_producción": 1.32,
+      "Volumen_producción": 1.3,
       "Personal_ocupado": -0.05,
       "Horas_trabajadas": 0.14,
-      "Remuneraciones_medias_reales": 0.08
+      "Remuneraciones_medias_reales": 0.05
     },
     {
       "Periodo": "feb-14",
-      "Volumen_producción": -2.04,
-      "Personal_ocupado": 0.56,
+      "Volumen_producción": -1.95,
+      "Personal_ocupado": 0.55,
       "Horas_trabajadas": 0.76,
-      "Remuneraciones_medias_reales": -0.59
+      "Remuneraciones_medias_reales": -0.6
     },
     {
       "Periodo": "mar-14",
-      "Volumen_producción": 3.39,
-      "Personal_ocupado": 0.17,
+      "Volumen_producción": 3.29,
+      "Personal_ocupado": 0.18,
       "Horas_trabajadas": -0.1,
-      "Remuneraciones_medias_reales": -0.63
+      "Remuneraciones_medias_reales": -0.65
     },
     {
       "Periodo": "abr-14",
-      "Volumen_producción": 0.35,
-      "Personal_ocupado": 0.31,
+      "Volumen_producción": 0.37,
+      "Personal_ocupado": 0.3,
       "Horas_trabajadas": 0.47,
-      "Remuneraciones_medias_reales": 0.68
+      "Remuneraciones_medias_reales": 0.74
     },
     {
       "Periodo": "may-14",
       "Volumen_producción": 0.52,
-      "Personal_ocupado": 0.13,
+      "Personal_ocupado": 0.12,
       "Horas_trabajadas": -0.28,
-      "Remuneraciones_medias_reales": -0.46
+      "Remuneraciones_medias_reales": -0.5
     },
     {
       "Periodo": "jun-14",
-      "Volumen_producción": -0.52,
+      "Volumen_producción": -0.51,
       "Personal_ocupado": 0.21,
       "Horas_trabajadas": 0.8,
-      "Remuneraciones_medias_reales": 1.01
+      "Remuneraciones_medias_reales": 1.03
     },
     {
       "Periodo": "jul-14",
@@ -888,24 +889,24 @@
     },
     {
       "Periodo": "ago-14",
-      "Volumen_producción": -3.05,
+      "Volumen_producción": -3.0,
       "Personal_ocupado": 0.35,
       "Horas_trabajadas": -0.32,
       "Remuneraciones_medias_reales": -0.78
     },
     {
       "Periodo": "sep-14",
-      "Volumen_producción": 2.48,
-      "Personal_ocupado": 0.43,
+      "Volumen_producción": 2.44,
+      "Personal_ocupado": 0.42,
       "Horas_trabajadas": 0.41,
-      "Remuneraciones_medias_reales": 0.24
+      "Remuneraciones_medias_reales": 0.25
     },
     {
       "Periodo": "oct-14",
       "Volumen_producción": 0.64,
       "Personal_ocupado": 0.57,
       "Horas_trabajadas": 0.63,
-      "Remuneraciones_medias_reales": -0.13
+      "Remuneraciones_medias_reales": -0.16
     },
     {
       "Periodo": "nov-14",
@@ -917,7 +918,7 @@
     {
       "Periodo": "dic-14",
       "Volumen_producción": -1.95,
-      "Personal_ocupado": 0.02,
+      "Personal_ocupado": 0.03,
       "Horas_trabajadas": -0.32,
       "Remuneraciones_medias_reales": -0.49
     },
@@ -930,73 +931,73 @@
     },
     {
       "Periodo": "feb-15",
-      "Volumen_producción": 1.3,
-      "Personal_ocupado": 0.22,
+      "Volumen_producción": 1.38,
+      "Personal_ocupado": 0.21,
       "Horas_trabajadas": 0.85,
       "Remuneraciones_medias_reales": 0.96
     },
     {
       "Periodo": "mar-15",
-      "Volumen_producción": -0.42,
+      "Volumen_producción": -0.49,
       "Personal_ocupado": 0.4,
       "Horas_trabajadas": -0.15,
-      "Remuneraciones_medias_reales": 0.26
+      "Remuneraciones_medias_reales": 0.29
     },
     {
       "Periodo": "abr-15",
-      "Volumen_producción": 0.92,
+      "Volumen_producción": 0.9,
       "Personal_ocupado": -0.01,
       "Horas_trabajadas": 1.74,
-      "Remuneraciones_medias_reales": -1.02
+      "Remuneraciones_medias_reales": -1.04
     },
     {
       "Periodo": "may-15",
-      "Volumen_producción": -0.87,
+      "Volumen_producción": -0.86,
       "Personal_ocupado": 0.37,
       "Horas_trabajadas": -1.19,
       "Remuneraciones_medias_reales": 1.34
     },
     {
       "Periodo": "jun-15",
-      "Volumen_producción": 0.28,
+      "Volumen_producción": 0.29,
       "Personal_ocupado": 0.25,
       "Horas_trabajadas": 0.16,
-      "Remuneraciones_medias_reales": -0.79
+      "Remuneraciones_medias_reales": -0.78
     },
     {
       "Periodo": "jul-15",
-      "Volumen_producción": -0.63,
+      "Volumen_producción": -0.64,
       "Personal_ocupado": -0.05,
       "Horas_trabajadas": 0.59,
-      "Remuneraciones_medias_reales": 0.54
+      "Remuneraciones_medias_reales": 0.52
     },
     {
       "Periodo": "ago-15",
-      "Volumen_producción": 0.57,
+      "Volumen_producción": 0.61,
       "Personal_ocupado": 0.04,
       "Horas_trabajadas": 0.09,
-      "Remuneraciones_medias_reales": 0.24
+      "Remuneraciones_medias_reales": 0.23
     },
     {
       "Periodo": "sep-15",
-      "Volumen_producción": 1.56,
+      "Volumen_producción": 1.54,
       "Personal_ocupado": 0.65,
       "Horas_trabajadas": 0.1,
-      "Remuneraciones_medias_reales": -0.89
+      "Remuneraciones_medias_reales": -0.85
     },
     {
       "Periodo": "oct-15",
-      "Volumen_producción": 1.37,
-      "Personal_ocupado": 0.39,
+      "Volumen_producción": 1.35,
+      "Personal_ocupado": 0.4,
       "Horas_trabajadas": 0.83,
-      "Remuneraciones_medias_reales": 1.2
+      "Remuneraciones_medias_reales": 1.16
     },
     {
       "Periodo": "nov-15",
-      "Volumen_producción": -2.19,
-      "Personal_ocupado": 0.14,
+      "Volumen_producción": -2.17,
+      "Personal_ocupado": 0.13,
       "Horas_trabajadas": -0.15,
-      "Remuneraciones_medias_reales": 0.44
+      "Remuneraciones_medias_reales": 0.46
     },
     {
       "Periodo": "dic-15",
@@ -1007,105 +1008,105 @@
     },
     {
       "Periodo": "ene-16",
-      "Volumen_producción": -0.55,
+      "Volumen_producción": -0.56,
       "Personal_ocupado": 0.71,
       "Horas_trabajadas": 0.91,
-      "Remuneraciones_medias_reales": 0.38
+      "Remuneraciones_medias_reales": 0.37
     },
     {
       "Periodo": "feb-16",
-      "Volumen_producción": -1.17,
-      "Personal_ocupado": 0.46,
+      "Volumen_producción": -1.11,
+      "Personal_ocupado": 0.45,
       "Horas_trabajadas": 0.21,
-      "Remuneraciones_medias_reales": -0.21
+      "Remuneraciones_medias_reales": -0.19
     },
     {
       "Periodo": "mar-16",
-      "Volumen_producción": -1.74,
+      "Volumen_producción": -1.81,
       "Personal_ocupado": -0.17,
       "Horas_trabajadas": 0.57,
-      "Remuneraciones_medias_reales": 0.22
+      "Remuneraciones_medias_reales": 0.21
     },
     {
       "Periodo": "abr-16",
-      "Volumen_producción": 0.06,
+      "Volumen_producción": 0.07,
       "Personal_ocupado": 0.25,
       "Horas_trabajadas": 0.05,
-      "Remuneraciones_medias_reales": 1.53
+      "Remuneraciones_medias_reales": 1.52
     },
     {
       "Periodo": "may-16",
-      "Volumen_producción": 0.14,
+      "Volumen_producción": 0.15,
       "Personal_ocupado": 0.39,
       "Horas_trabajadas": 0.97,
-      "Remuneraciones_medias_reales": -0.4
+      "Remuneraciones_medias_reales": -0.38
     },
     {
       "Periodo": "jun-16",
-      "Volumen_producción": 0.77,
+      "Volumen_producción": 0.75,
       "Personal_ocupado": 0.31,
       "Horas_trabajadas": -0.13,
-      "Remuneraciones_medias_reales": 0.7
+      "Remuneraciones_medias_reales": 0.67
     },
     {
       "Periodo": "jul-16",
-      "Volumen_producción": -0.23,
+      "Volumen_producción": -0.22,
       "Personal_ocupado": 0.22,
       "Horas_trabajadas": -0.65,
-      "Remuneraciones_medias_reales": -0.08
+      "Remuneraciones_medias_reales": -0.07
     },
     {
       "Periodo": "ago-16",
-      "Volumen_producción": 0.54,
-      "Personal_ocupado": 0.42,
+      "Volumen_producción": 0.55,
+      "Personal_ocupado": 0.41,
       "Horas_trabajadas": 0.99,
       "Remuneraciones_medias_reales": 0.4
     },
     {
       "Periodo": "sep-16",
-      "Volumen_producción": -0.71,
+      "Volumen_producción": -0.72,
       "Personal_ocupado": 0.64,
       "Horas_trabajadas": 0.61,
-      "Remuneraciones_medias_reales": 1.23
+      "Remuneraciones_medias_reales": 1.27
     },
     {
       "Periodo": "oct-16",
-      "Volumen_producción": 1.01,
-      "Personal_ocupado": 0.25,
+      "Volumen_producción": 0.98,
+      "Personal_ocupado": 0.26,
       "Horas_trabajadas": 0.07,
-      "Remuneraciones_medias_reales": -0.75
+      "Remuneraciones_medias_reales": -0.8
     },
     {
       "Periodo": "nov-16",
-      "Volumen_producción": 0.23,
-      "Personal_ocupado": 0.16,
+      "Volumen_producción": 0.26,
+      "Personal_ocupado": 0.15,
       "Horas_trabajadas": 0.7,
-      "Remuneraciones_medias_reales": -0.73
+      "Remuneraciones_medias_reales": -0.71
     },
     {
       "Periodo": "dic-16",
       "Volumen_producción": 0.68,
-      "Personal_ocupado": 0.43,
+      "Personal_ocupado": 0.44,
       "Horas_trabajadas": 0.81,
-      "Remuneraciones_medias_reales": 0.21
+      "Remuneraciones_medias_reales": 0.2
     },
     {
       "Periodo": "ene-17",
-      "Volumen_producción": 0.9,
+      "Volumen_producción": 0.92,
       "Personal_ocupado": 0.47,
       "Horas_trabajadas": 0.36,
-      "Remuneraciones_medias_reales": -0.5
+      "Remuneraciones_medias_reales": -0.46
     },
     {
       "Periodo": "feb-17",
-      "Volumen_producción": 0.79,
+      "Volumen_producción": 0.8,
       "Personal_ocupado": 0.35,
       "Horas_trabajadas": -0.19,
-      "Remuneraciones_medias_reales": -0.7
+      "Remuneraciones_medias_reales": -0.73
     },
     {
       "Periodo": "mar-17",
-      "Volumen_producción": 0.94,
+      "Volumen_producción": 0.92,
       "Personal_ocupado": 0.8,
       "Horas_trabajadas": 1.25,
       "Remuneraciones_medias_reales": 0.05
@@ -1122,147 +1123,147 @@
       "Volumen_producción": -0.87,
       "Personal_ocupado": 0.1,
       "Horas_trabajadas": 0.4,
-      "Remuneraciones_medias_reales": 0.01
+      "Remuneraciones_medias_reales": -0.0
     },
     {
       "Periodo": "jun-17",
-      "Volumen_producción": -0.73,
+      "Volumen_producción": -0.72,
       "Personal_ocupado": 0.38,
       "Horas_trabajadas": 1.28,
-      "Remuneraciones_medias_reales": -0.18
+      "Remuneraciones_medias_reales": -0.14
     },
     {
       "Periodo": "jul-17",
-      "Volumen_producción": -1.07,
+      "Volumen_producción": -1.08,
       "Personal_ocupado": 0.64,
       "Horas_trabajadas": -0.47,
-      "Remuneraciones_medias_reales": -0.29
+      "Remuneraciones_medias_reales": -0.33
     },
     {
       "Periodo": "ago-17",
-      "Volumen_producción": 1.27,
+      "Volumen_producción": 1.29,
       "Personal_ocupado": 0.46,
       "Horas_trabajadas": 0.75,
-      "Remuneraciones_medias_reales": -0.54
+      "Remuneraciones_medias_reales": -0.5
     },
     {
       "Periodo": "sep-17",
-      "Volumen_producción": -3.52,
+      "Volumen_producción": -3.53,
       "Personal_ocupado": 0.1,
       "Horas_trabajadas": -0.01,
-      "Remuneraciones_medias_reales": 1.26
+      "Remuneraciones_medias_reales": 1.25
     },
     {
       "Periodo": "oct-17",
       "Volumen_producción": 2.77,
-      "Personal_ocupado": 0.02,
+      "Personal_ocupado": 0.04,
       "Horas_trabajadas": 0.08,
-      "Remuneraciones_medias_reales": -0.16
+      "Remuneraciones_medias_reales": -0.13
     },
     {
       "Periodo": "nov-17",
       "Volumen_producción": 0.64,
-      "Personal_ocupado": 0.59,
+      "Personal_ocupado": 0.57,
       "Horas_trabajadas": 0.68,
-      "Remuneraciones_medias_reales": -0.08
+      "Remuneraciones_medias_reales": -0.12
     },
     {
       "Periodo": "dic-17",
-      "Volumen_producción": -0.29,
+      "Volumen_producción": -0.28,
       "Personal_ocupado": 0.34,
       "Horas_trabajadas": 0.73,
-      "Remuneraciones_medias_reales": -1.04
+      "Remuneraciones_medias_reales": -1.02
     },
     {
       "Periodo": "ene-18",
-      "Volumen_producción": -0.83,
-      "Personal_ocupado": 0.1,
+      "Volumen_producción": -0.84,
+      "Personal_ocupado": 0.09,
       "Horas_trabajadas": -0.36,
-      "Remuneraciones_medias_reales": 0.09
+      "Remuneraciones_medias_reales": 0.08
     },
     {
       "Periodo": "feb-18",
       "Volumen_producción": -0.85,
       "Personal_ocupado": 0.35,
       "Horas_trabajadas": -0.22,
-      "Remuneraciones_medias_reales": 1.13
+      "Remuneraciones_medias_reales": 1.14
     },
     {
       "Periodo": "mar-18",
       "Volumen_producción": 2.36,
       "Personal_ocupado": 0.27,
       "Horas_trabajadas": -0.08,
-      "Remuneraciones_medias_reales": 0.32
+      "Remuneraciones_medias_reales": 0.3
     },
     {
       "Periodo": "abr-18",
-      "Volumen_producción": -1.3,
+      "Volumen_producción": -1.29,
       "Personal_ocupado": 0.32,
       "Horas_trabajadas": 0.81,
-      "Remuneraciones_medias_reales": -0.41
+      "Remuneraciones_medias_reales": -0.38
     },
     {
       "Periodo": "may-18",
-      "Volumen_producción": 1.84,
+      "Volumen_producción": 1.83,
       "Personal_ocupado": 0.34,
       "Horas_trabajadas": -0.03,
-      "Remuneraciones_medias_reales": 4.59
+      "Remuneraciones_medias_reales": 4.58
     },
     {
       "Periodo": "jun-18",
-      "Volumen_producción": -0.69,
+      "Volumen_producción": -0.7,
       "Personal_ocupado": 0.32,
       "Horas_trabajadas": -0.35,
-      "Remuneraciones_medias_reales": -3.65
+      "Remuneraciones_medias_reales": -3.67
     },
     {
       "Periodo": "jul-18",
-      "Volumen_producción": 0.46,
+      "Volumen_producción": 0.47,
       "Personal_ocupado": 0.14,
-      "Horas_trabajadas": 0.69,
-      "Remuneraciones_medias_reales": -1.15
+      "Horas_trabajadas": 0.68,
+      "Remuneraciones_medias_reales": -1.11
     },
     {
       "Periodo": "ago-18",
-      "Volumen_producción": 0.46,
-      "Personal_ocupado": 0.34,
+      "Volumen_producción": 0.45,
+      "Personal_ocupado": 0.33,
       "Horas_trabajadas": 0.18,
-      "Remuneraciones_medias_reales": 0.22
+      "Remuneraciones_medias_reales": 0.2
     },
     {
       "Periodo": "sep-18",
       "Volumen_producción": -0.49,
       "Personal_ocupado": 0.11,
       "Horas_trabajadas": 0.46,
-      "Remuneraciones_medias_reales": -0.59
+      "Remuneraciones_medias_reales": -0.58
     },
     {
       "Periodo": "oct-18",
-      "Volumen_producción": -1.12,
-      "Personal_ocupado": 0.23,
+      "Volumen_producción": -1.13,
+      "Personal_ocupado": 0.24,
       "Horas_trabajadas": 0.02,
-      "Remuneraciones_medias_reales": 0.08
+      "Remuneraciones_medias_reales": 0.06
     },
     {
       "Periodo": "nov-18",
-      "Volumen_producción": 0.85,
-      "Personal_ocupado": 0.35,
+      "Volumen_producción": 0.87,
+      "Personal_ocupado": 0.34,
       "Horas_trabajadas": -0.5,
-      "Remuneraciones_medias_reales": -0.02
+      "Remuneraciones_medias_reales": 0.0
     },
     {
       "Periodo": "dic-18",
-      "Volumen_producción": -1.88,
+      "Volumen_producción": -1.89,
       "Personal_ocupado": -0.06,
       "Horas_trabajadas": -0.05,
-      "Remuneraciones_medias_reales": 0.65
+      "Remuneraciones_medias_reales": 0.61
     },
     {
       "Periodo": "ene-19",
       "Volumen_producción": -0.37,
       "Personal_ocupado": 0.31,
       "Horas_trabajadas": 0.0,
-      "Remuneraciones_medias_reales": 0.81
+      "Remuneraciones_medias_reales": 0.83
     },
     {
       "Periodo": "feb-19",
@@ -1273,105 +1274,105 @@
     },
     {
       "Periodo": "mar-19",
-      "Volumen_producción": -1.36,
+      "Volumen_producción": -1.34,
       "Personal_ocupado": 0.18,
       "Horas_trabajadas": -0.04,
       "Remuneraciones_medias_reales": 0.17
     },
     {
       "Periodo": "abr-19",
-      "Volumen_producción": 1.08,
+      "Volumen_producción": 1.06,
       "Personal_ocupado": -0.01,
       "Horas_trabajadas": 0.51,
-      "Remuneraciones_medias_reales": 0.37
+      "Remuneraciones_medias_reales": 0.39
     },
     {
       "Periodo": "may-19",
-      "Volumen_producción": 0.91,
+      "Volumen_producción": 0.9,
       "Personal_ocupado": 0.27,
       "Horas_trabajadas": 0.19,
-      "Remuneraciones_medias_reales": 3.66
+      "Remuneraciones_medias_reales": 3.63
     },
     {
       "Periodo": "jun-19",
-      "Volumen_producción": 0.98,
+      "Volumen_producción": 0.99,
       "Personal_ocupado": -0.04,
       "Horas_trabajadas": -0.33,
       "Remuneraciones_medias_reales": -3.38
     },
     {
       "Periodo": "jul-19",
-      "Volumen_producción": 0.4,
+      "Volumen_producción": 0.39,
       "Personal_ocupado": 0.2,
       "Horas_trabajadas": 0.58,
-      "Remuneraciones_medias_reales": -0.37
+      "Remuneraciones_medias_reales": -0.36
     },
     {
       "Periodo": "ago-19",
       "Volumen_producción": -1.19,
       "Personal_ocupado": -0.26,
       "Horas_trabajadas": -0.45,
-      "Remuneraciones_medias_reales": 1.38
+      "Remuneraciones_medias_reales": 1.37
     },
     {
       "Periodo": "sep-19",
-      "Volumen_producción": 0.33,
+      "Volumen_producción": 0.35,
       "Personal_ocupado": -0.3,
       "Horas_trabajadas": -0.7,
-      "Remuneraciones_medias_reales": -0.07
+      "Remuneraciones_medias_reales": -0.05
     },
     {
       "Periodo": "oct-19",
-      "Volumen_producción": -4.55,
-      "Personal_ocupado": -0.33,
+      "Volumen_producción": -4.56,
+      "Personal_ocupado": -0.32,
       "Horas_trabajadas": -0.39,
-      "Remuneraciones_medias_reales": -0.95
+      "Remuneraciones_medias_reales": -0.97
     },
     {
       "Periodo": "nov-19",
-      "Volumen_producción": 2.34,
-      "Personal_ocupado": -0.29,
+      "Volumen_producción": 2.33,
+      "Personal_ocupado": -0.3,
       "Horas_trabajadas": -0.25,
-      "Remuneraciones_medias_reales": 0.73
+      "Remuneraciones_medias_reales": 0.72
     },
     {
       "Periodo": "dic-19",
-      "Volumen_producción": -1.81,
+      "Volumen_producción": -1.79,
       "Personal_ocupado": -0.27,
       "Horas_trabajadas": -0.96,
-      "Remuneraciones_medias_reales": 0.13
+      "Remuneraciones_medias_reales": 0.17
     },
     {
       "Periodo": "ene-20",
-      "Volumen_producción": 1.58,
+      "Volumen_producción": 1.57,
       "Personal_ocupado": 0.2,
       "Horas_trabajadas": 0.67,
-      "Remuneraciones_medias_reales": -1.01
+      "Remuneraciones_medias_reales": -1.04
     },
     {
       "Periodo": "feb-20",
-      "Volumen_producción": -0.62,
+      "Volumen_producción": -0.61,
       "Personal_ocupado": -0.03,
       "Horas_trabajadas": 0.64,
-      "Remuneraciones_medias_reales": 0.67
+      "Remuneraciones_medias_reales": 0.68
     },
     {
       "Periodo": "mar-20",
-      "Volumen_producción": -5.49,
+      "Volumen_producción": -5.47,
       "Personal_ocupado": -0.69,
       "Horas_trabajadas": -2.52,
-      "Remuneraciones_medias_reales": -0.98
+      "Remuneraciones_medias_reales": -0.95
     },
     {
       "Periodo": "abr-20",
-      "Volumen_producción": -31.15,
+      "Volumen_producción": -31.17,
       "Personal_ocupado": -1.59,
       "Horas_trabajadas": -24.33,
-      "Remuneraciones_medias_reales": -1.32
+      "Remuneraciones_medias_reales": -1.35
     },
     {
       "Periodo": "may-20",
-      "Volumen_producción": 1.3,
+      "Volumen_producción": 1.31,
       "Personal_ocupado": -1.35,
       "Horas_trabajadas": 4.62,
       "Remuneraciones_medias_reales": 0.03
@@ -1381,46 +1382,46 @@
       "Volumen_producción": 34.84,
       "Personal_ocupado": 0.21,
       "Horas_trabajadas": 16.53,
-      "Remuneraciones_medias_reales": 0.31
+      "Remuneraciones_medias_reales": 0.33
     },
     {
       "Periodo": "jul-20",
-      "Volumen_producción": 6.01,
+      "Volumen_producción": 6.0,
       "Personal_ocupado": 0.84,
       "Horas_trabajadas": 3.41,
-      "Remuneraciones_medias_reales": 1.86
+      "Remuneraciones_medias_reales": 1.84
     },
     {
       "Periodo": "ago-20",
       "Volumen_producción": 1.75,
       "Personal_ocupado": 0.37,
       "Horas_trabajadas": 2.06,
-      "Remuneraciones_medias_reales": 0.97
+      "Remuneraciones_medias_reales": 0.96
     },
     {
       "Periodo": "sep-20",
-      "Volumen_producción": 5.65,
+      "Volumen_producción": 5.67,
       "Personal_ocupado": 0.36,
       "Horas_trabajadas": 0.87,
-      "Remuneraciones_medias_reales": -0.76
+      "Remuneraciones_medias_reales": -0.74
     },
     {
       "Periodo": "oct-20",
-      "Volumen_producción": 0.97,
+      "Volumen_producción": 0.95,
       "Personal_ocupado": 0.84,
       "Horas_trabajadas": 1.41,
-      "Remuneraciones_medias_reales": 2.65
+      "Remuneraciones_medias_reales": 2.61
     },
     {
       "Periodo": "nov-20",
-      "Volumen_producción": -0.78,
-      "Personal_ocupado": 0.25,
+      "Volumen_producción": -0.77,
+      "Personal_ocupado": 0.24,
       "Horas_trabajadas": -0.28,
-      "Remuneraciones_medias_reales": -0.61
+      "Remuneraciones_medias_reales": -0.58
     },
     {
       "Periodo": "dic-20",
-      "Volumen_producción": 1.42,
+      "Volumen_producción": 1.41,
       "Personal_ocupado": 0.79,
       "Horas_trabajadas": 0.76,
       "Remuneraciones_medias_reales": -0.9
@@ -1430,67 +1431,67 @@
       "Volumen_producción": -0.82,
       "Personal_ocupado": 0.31,
       "Horas_trabajadas": 0.05,
-      "Remuneraciones_medias_reales": 1.03
+      "Remuneraciones_medias_reales": 1.02
     },
     {
       "Periodo": "feb-21",
-      "Volumen_producción": -3.08,
+      "Volumen_producción": -3.09,
       "Personal_ocupado": 0.11,
       "Horas_trabajadas": 0.54,
       "Remuneraciones_medias_reales": -0.81
     },
     {
       "Periodo": "mar-21",
-      "Volumen_producción": 5.74,
+      "Volumen_producción": 5.75,
       "Personal_ocupado": 0.31,
       "Horas_trabajadas": 1.05,
-      "Remuneraciones_medias_reales": 1.1
+      "Remuneraciones_medias_reales": 1.12
     },
     {
       "Periodo": "abr-21",
       "Volumen_producción": -2.88,
       "Personal_ocupado": 0.09,
-      "Horas_trabajadas": -0.24,
+      "Horas_trabajadas": -0.23,
       "Remuneraciones_medias_reales": -2.84
     },
     {
       "Periodo": "may-21",
-      "Volumen_producción": -1.2,
+      "Volumen_producción": -1.21,
       "Personal_ocupado": -0.27,
       "Horas_trabajadas": 0.02,
-      "Remuneraciones_medias_reales": 2.61
+      "Remuneraciones_medias_reales": 2.57
     },
     {
       "Periodo": "jun-21",
       "Volumen_producción": 0.93,
       "Personal_ocupado": 0.54,
       "Horas_trabajadas": 0.5,
-      "Remuneraciones_medias_reales": -3.18
+      "Remuneraciones_medias_reales": -3.15
     },
     {
       "Periodo": "jul-21",
-      "Volumen_producción": -0.06,
+      "Volumen_producción": -0.07,
       "Personal_ocupado": 0.69,
       "Horas_trabajadas": 0.26,
-      "Remuneraciones_medias_reales": 3.92
+      "Remuneraciones_medias_reales": 3.9
     },
     {
       "Periodo": "ago-21",
-      "Volumen_producción": -0.18,
+      "Volumen_producción": -0.16,
       "Personal_ocupado": -0.61,
-      "Horas_trabajadas": 0.06,
-      "Remuneraciones_medias_reales": -0.21
+      "Horas_trabajadas": 0.05,
+      "Remuneraciones_medias_reales": -0.18
     },
     {
       "Periodo": "sep-21",
       "Volumen_producción": -1.25,
       "Personal_ocupado": 0.41,
-      "Horas_trabajadas": 0.04,
-      "Remuneraciones_medias_reales": 0.79
+      "Horas_trabajadas": 0.05,
+      "Remuneraciones_medias_reales": 0.75
     },
     {
       "Periodo": "oct-21",
-      "Volumen_producción": 2.48,
+      "Volumen_producción": 2.46,
       "Personal_ocupado": -0.01,
       "Horas_trabajadas": 0.09,
       "Remuneraciones_medias_reales": 0.5
@@ -1500,364 +1501,371 @@
       "Volumen_producción": 1.65,
       "Personal_ocupado": 0.32,
       "Horas_trabajadas": 0.85,
-      "Remuneraciones_medias_reales": 0.06
+      "Remuneraciones_medias_reales": 0.08
     },
     {
       "Periodo": "dic-21",
-      "Volumen_producción": 2.08,
+      "Volumen_producción": 2.07,
       "Personal_ocupado": -0.05,
       "Horas_trabajadas": 0.09,
-      "Remuneraciones_medias_reales": 1.25
+      "Remuneraciones_medias_reales": 1.23
     },
     {
       "Periodo": "ene-22",
       "Volumen_producción": 0.57,
-      "Personal_ocupado": 0.22,
+      "Personal_ocupado": 0.23,
       "Horas_trabajadas": 0.58,
-      "Remuneraciones_medias_reales": -0.28
+      "Remuneraciones_medias_reales": -0.29
     },
     {
       "Periodo": "feb-22",
-      "Volumen_producción": 0.56,
+      "Volumen_producción": 0.54,
       "Personal_ocupado": 0.56,
       "Horas_trabajadas": 0.11,
-      "Remuneraciones_medias_reales": 0.61
+      "Remuneraciones_medias_reales": 0.63
     },
     {
       "Periodo": "mar-22",
-      "Volumen_producción": 0.38,
+      "Volumen_producción": 0.41,
       "Personal_ocupado": 0.68,
       "Horas_trabajadas": 0.5,
-      "Remuneraciones_medias_reales": -1.34
+      "Remuneraciones_medias_reales": -1.27
     },
     {
       "Periodo": "abr-22",
-      "Volumen_producción": -0.03,
+      "Volumen_producción": -0.05,
       "Personal_ocupado": -0.31,
       "Horas_trabajadas": -0.31,
-      "Remuneraciones_medias_reales": 1.82
+      "Remuneraciones_medias_reales": 1.75
     },
     {
       "Periodo": "may-22",
-      "Volumen_producción": 1.18,
+      "Volumen_producción": 1.2,
       "Personal_ocupado": 0.08,
       "Horas_trabajadas": 0.99,
-      "Remuneraciones_medias_reales": -1.09
+      "Remuneraciones_medias_reales": -1.06
     },
     {
       "Periodo": "jun-22",
-      "Volumen_producción": -3.56,
+      "Volumen_producción": -3.58,
       "Personal_ocupado": -0.04,
       "Horas_trabajadas": -1.36,
-      "Remuneraciones_medias_reales": -0.05
+      "Remuneraciones_medias_reales": -0.08
     },
     {
       "Periodo": "jul-22",
-      "Volumen_producción": 3.35,
+      "Volumen_producción": 3.37,
       "Personal_ocupado": -0.23,
       "Horas_trabajadas": 0.46,
-      "Remuneraciones_medias_reales": 0.42
+      "Remuneraciones_medias_reales": 0.44
     },
     {
       "Periodo": "ago-22",
-      "Volumen_producción": 1.03,
+      "Volumen_producción": 1.02,
       "Personal_ocupado": 0.22,
       "Horas_trabajadas": -0.1,
-      "Remuneraciones_medias_reales": -0.9
+      "Remuneraciones_medias_reales": -0.92
     },
     {
       "Periodo": "sep-22",
-      "Volumen_producción": -1.14,
+      "Volumen_producción": -1.12,
       "Personal_ocupado": 0.28,
       "Horas_trabajadas": -0.3,
-      "Remuneraciones_medias_reales": 1.34
+      "Remuneraciones_medias_reales": 1.36
     },
     {
       "Periodo": "oct-22",
-      "Volumen_producción": 1.54,
-      "Personal_ocupado": -0.14,
-      "Horas_trabajadas": 0.42,
-      "Remuneraciones_medias_reales": -0.68
+      "Volumen_producción": 1.52,
+      "Personal_ocupado": -0.15,
+      "Horas_trabajadas": 0.43,
+      "Remuneraciones_medias_reales": -0.74
     },
     {
       "Periodo": "nov-22",
       "Volumen_producción": 0.09,
       "Personal_ocupado": 0.13,
       "Horas_trabajadas": 0.02,
-      "Remuneraciones_medias_reales": 0.31
+      "Remuneraciones_medias_reales": 0.33
     },
     {
       "Periodo": "dic-22",
-      "Volumen_producción": 0.9,
+      "Volumen_producción": 0.89,
       "Personal_ocupado": 0.19,
       "Horas_trabajadas": 0.8,
-      "Remuneraciones_medias_reales": 1.19
+      "Remuneraciones_medias_reales": 1.17
     },
     {
       "Periodo": "ene-23",
-      "Volumen_producción": -0.71,
-      "Personal_ocupado": -0.68,
+      "Volumen_producción": -0.69,
+      "Personal_ocupado": -0.67,
       "Horas_trabajadas": 0.1,
-      "Remuneraciones_medias_reales": 0.6
+      "Remuneraciones_medias_reales": 0.65
     },
     {
       "Periodo": "feb-23",
-      "Volumen_producción": -1.39,
-      "Personal_ocupado": -0.03,
-      "Horas_trabajadas": -1.37,
-      "Remuneraciones_medias_reales": -0.21
+      "Volumen_producción": -1.45,
+      "Personal_ocupado": -0.04,
+      "Horas_trabajadas": -1.36,
+      "Remuneraciones_medias_reales": -0.27
     },
     {
       "Periodo": "mar-23",
-      "Volumen_producción": 0.62,
+      "Volumen_producción": 0.7,
       "Personal_ocupado": -0.2,
       "Horas_trabajadas": -0.53,
-      "Remuneraciones_medias_reales": 1.18
+      "Remuneraciones_medias_reales": 1.41
     },
     {
       "Periodo": "abr-23",
-      "Volumen_producción": 1.61,
+      "Volumen_producción": 1.58,
       "Personal_ocupado": -0.03,
       "Horas_trabajadas": 0.71,
-      "Remuneraciones_medias_reales": 0.61
+      "Remuneraciones_medias_reales": 0.43
     },
     {
       "Periodo": "may-23",
-      "Volumen_producción": -0.56,
+      "Volumen_producción": -0.57,
       "Personal_ocupado": 0.14,
       "Horas_trabajadas": -0.71,
-      "Remuneraciones_medias_reales": 1.04
+      "Remuneraciones_medias_reales": 1.05
     },
     {
       "Periodo": "jun-23",
-      "Volumen_producción": -0.88,
+      "Volumen_producción": -0.87,
       "Personal_ocupado": 0.19,
       "Horas_trabajadas": 0.86,
-      "Remuneraciones_medias_reales": 0.36
+      "Remuneraciones_medias_reales": 0.38
     },
     {
       "Periodo": "jul-23",
       "Volumen_producción": 0.79,
       "Personal_ocupado": -0.11,
       "Horas_trabajadas": -0.72,
-      "Remuneraciones_medias_reales": -0.57
+      "Remuneraciones_medias_reales": -0.58
     },
     {
       "Periodo": "ago-23",
-      "Volumen_producción": -1.55,
-      "Personal_ocupado": 0.16,
+      "Volumen_producción": -1.54,
+      "Personal_ocupado": 0.17,
       "Horas_trabajadas": 0.15,
-      "Remuneraciones_medias_reales": -0.2
+      "Remuneraciones_medias_reales": -0.19
     },
     {
       "Periodo": "sep-23",
       "Volumen_producción": 1.83,
       "Personal_ocupado": -0.79,
       "Horas_trabajadas": 0.1,
-      "Remuneraciones_medias_reales": 1.44
+      "Remuneraciones_medias_reales": 1.43
     },
     {
       "Periodo": "oct-23",
-      "Volumen_producción": -0.65,
+      "Volumen_producción": -0.64,
       "Personal_ocupado": -0.01,
       "Horas_trabajadas": -0.47,
-      "Remuneraciones_medias_reales": -0.94
+      "Remuneraciones_medias_reales": -0.93
     },
     {
       "Periodo": "nov-23",
-      "Volumen_producción": -0.75,
+      "Volumen_producción": -0.78,
       "Personal_ocupado": -0.13,
-      "Horas_trabajadas": -0.6,
-      "Remuneraciones_medias_reales": 1.08
+      "Horas_trabajadas": -0.61,
+      "Remuneraciones_medias_reales": 1.03
     },
     {
       "Periodo": "dic-23",
-      "Volumen_producción": 0.32,
+      "Volumen_producción": 0.31,
       "Personal_ocupado": -0.26,
       "Horas_trabajadas": 0.18,
-      "Remuneraciones_medias_reales": 0.39
+      "Remuneraciones_medias_reales": 0.38
     },
     {
       "Periodo": "ene-24",
       "Volumen_producción": 1.26,
-      "Personal_ocupado": -0.59,
+      "Personal_ocupado": -0.57,
       "Horas_trabajadas": -0.4,
-      "Remuneraciones_medias_reales": -0.04
+      "Remuneraciones_medias_reales": -0.05
     },
     {
       "Periodo": "feb-24",
-      "Volumen_producción": -0.34,
-      "Personal_ocupado": -0.1,
+      "Volumen_producción": -0.39,
+      "Personal_ocupado": -0.12,
       "Horas_trabajadas": -0.23,
-      "Remuneraciones_medias_reales": 1.0
+      "Remuneraciones_medias_reales": 0.99
     },
     {
       "Periodo": "mar-24",
-      "Volumen_producción": 1.3,
-      "Personal_ocupado": -0.51,
-      "Horas_trabajadas": -0.18,
-      "Remuneraciones_medias_reales": 0.84
+      "Volumen_producción": 1.42,
+      "Personal_ocupado": -0.5,
+      "Horas_trabajadas": -0.17,
+      "Remuneraciones_medias_reales": 1.24
     },
     {
       "Periodo": "abr-24",
-      "Volumen_producción": -0.6,
-      "Personal_ocupado": 0.47,
+      "Volumen_producción": -0.63,
+      "Personal_ocupado": 0.46,
       "Horas_trabajadas": -0.44,
-      "Remuneraciones_medias_reales": -1.17
+      "Remuneraciones_medias_reales": -1.48
     },
     {
       "Periodo": "may-24",
-      "Volumen_producción": -1.2,
+      "Volumen_producción": -1.22,
       "Personal_ocupado": 0.02,
       "Horas_trabajadas": 0.54,
-      "Remuneraciones_medias_reales": 1.41
+      "Remuneraciones_medias_reales": 1.39
     },
     {
       "Periodo": "jun-24",
-      "Volumen_producción": 1.4,
+      "Volumen_producción": 1.41,
       "Personal_ocupado": -0.22,
       "Horas_trabajadas": -0.61,
-      "Remuneraciones_medias_reales": 0.04
+      "Remuneraciones_medias_reales": 0.03
     },
     {
       "Periodo": "jul-24",
-      "Volumen_producción": 0.23,
+      "Volumen_producción": 0.24,
       "Personal_ocupado": 0.14,
-      "Horas_trabajadas": 0.07,
-      "Remuneraciones_medias_reales": -1.57
+      "Horas_trabajadas": 0.08,
+      "Remuneraciones_medias_reales": -1.54
     },
     {
       "Periodo": "ago-24",
       "Volumen_producción": 0.73,
-      "Personal_ocupado": -0.17,
+      "Personal_ocupado": -0.16,
       "Horas_trabajadas": 0.11,
-      "Remuneraciones_medias_reales": 2.53
+      "Remuneraciones_medias_reales": 2.51
     },
     {
       "Periodo": "sep-24",
-      "Volumen_producción": 1.23,
+      "Volumen_producción": 1.24,
       "Personal_ocupado": -0.31,
       "Horas_trabajadas": -0.11,
-      "Remuneraciones_medias_reales": -0.39
+      "Remuneraciones_medias_reales": -0.36
     },
     {
       "Periodo": "oct-24",
-      "Volumen_producción": -2.86,
+      "Volumen_producción": -2.88,
       "Personal_ocupado": -0.19,
-      "Horas_trabajadas": -0.83,
-      "Remuneraciones_medias_reales": 0.61
+      "Horas_trabajadas": -0.81,
+      "Remuneraciones_medias_reales": 0.55
     },
     {
       "Periodo": "nov-24",
-      "Volumen_producción": 0.39,
-      "Personal_ocupado": -0.18,
-      "Horas_trabajadas": 0.45,
-      "Remuneraciones_medias_reales": 1.03
+      "Volumen_producción": 0.37,
+      "Personal_ocupado": -0.19,
+      "Horas_trabajadas": 0.43,
+      "Remuneraciones_medias_reales": 0.98
     },
     {
       "Periodo": "dic-24",
-      "Volumen_producción": -1.52,
+      "Volumen_producción": -1.53,
       "Personal_ocupado": -0.12,
       "Horas_trabajadas": -0.78,
-      "Remuneraciones_medias_reales": -0.32
+      "Remuneraciones_medias_reales": -0.33
     },
     {
       "Periodo": "ene-25",
-      "Volumen_producción": 0.09,
-      "Personal_ocupado": 0.16,
-      "Horas_trabajadas": -0.05,
-      "Remuneraciones_medias_reales": 1.07
+      "Volumen_producción": 0.07,
+      "Personal_ocupado": 0.19,
+      "Horas_trabajadas": -0.06,
+      "Remuneraciones_medias_reales": 1.0
     },
     {
       "Periodo": "feb-25",
-      "Volumen_producción": 2.38,
-      "Personal_ocupado": -0.24,
-      "Horas_trabajadas": 0.71,
-      "Remuneraciones_medias_reales": 0.54
+      "Volumen_producción": 2.29,
+      "Personal_ocupado": -0.28,
+      "Horas_trabajadas": 0.7,
+      "Remuneraciones_medias_reales": 0.48
     },
     {
       "Periodo": "mar-25",
-      "Volumen_producción": -1.51,
-      "Personal_ocupado": -0.23,
-      "Horas_trabajadas": -0.69,
-      "Remuneraciones_medias_reales": -0.3
+      "Volumen_producción": -1.31,
+      "Personal_ocupado": -0.21,
+      "Horas_trabajadas": -0.68,
+      "Remuneraciones_medias_reales": 0.38
     },
     {
       "Periodo": "abr-25",
-      "Volumen_producción": -0.11,
-      "Personal_ocupado": -0.23,
+      "Volumen_producción": -0.18,
+      "Personal_ocupado": -0.24,
       "Horas_trabajadas": 0.3,
-      "Remuneraciones_medias_reales": 1.43
+      "Remuneraciones_medias_reales": 0.93
     },
     {
       "Periodo": "may-25",
-      "Volumen_producción": 1.06,
+      "Volumen_producción": 1.05,
       "Personal_ocupado": -0.38,
       "Horas_trabajadas": -1.09,
-      "Remuneraciones_medias_reales": -0.79
+      "Remuneraciones_medias_reales": -0.8
     },
     {
       "Periodo": "jun-25",
-      "Volumen_producción": 2.41,
+      "Volumen_producción": 2.42,
       "Personal_ocupado": -0.24,
       "Horas_trabajadas": 0.03,
-      "Remuneraciones_medias_reales": 0.19
+      "Remuneraciones_medias_reales": 0.21
     },
     {
       "Periodo": "jul-25",
-      "Volumen_producción": -2.71,
-      "Personal_ocupado": -0.19,
-      "Horas_trabajadas": -0.28,
-      "Remuneraciones_medias_reales": 0.53
+      "Volumen_producción": -2.69,
+      "Personal_ocupado": -0.18,
+      "Horas_trabajadas": -0.27,
+      "Remuneraciones_medias_reales": 0.57
     },
     {
       "Periodo": "ago-25",
-      "Volumen_producción": -0.28,
-      "Personal_ocupado": -0.54,
+      "Volumen_producción": -0.27,
+      "Personal_ocupado": -0.53,
       "Horas_trabajadas": -0.66,
-      "Remuneraciones_medias_reales": 0.65
+      "Remuneraciones_medias_reales": 0.64
     },
     {
       "Periodo": "sep-25",
-      "Volumen_producción": 0.79,
+      "Volumen_producción": 0.8,
       "Personal_ocupado": -0.21,
       "Horas_trabajadas": -0.38,
-      "Remuneraciones_medias_reales": -0.94
+      "Remuneraciones_medias_reales": -0.91
     },
     {
       "Periodo": "oct-25",
-      "Volumen_producción": -0.13,
+      "Volumen_producción": -0.17,
       "Personal_ocupado": -0.1,
-      "Horas_trabajadas": 0.57,
-      "Remuneraciones_medias_reales": 1.79
+      "Horas_trabajadas": 0.6,
+      "Remuneraciones_medias_reales": 1.71
     },
     {
       "Periodo": "nov-25",
-      "Volumen_producción": 1.0,
+      "Volumen_producción": 0.99,
       "Personal_ocupado": -0.44,
-      "Horas_trabajadas": -0.6,
-      "Remuneraciones_medias_reales": -0.57
+      "Horas_trabajadas": -0.64,
+      "Remuneraciones_medias_reales": -0.6
     },
     {
       "Periodo": "dic-25",
-      "Volumen_producción": -0.06,
-      "Personal_ocupado": 0.03,
+      "Volumen_producción": -0.11,
+      "Personal_ocupado": 0.02,
       "Horas_trabajadas": -0.12,
-      "Remuneraciones_medias_reales": 0.99
+      "Remuneraciones_medias_reales": 0.9
     },
     {
       "Periodo": "ene-26",
-      "Volumen_producción": -2.77,
-      "Personal_ocupado": 0.22,
+      "Volumen_producción": -2.78,
+      "Personal_ocupado": 0.25,
       "Horas_trabajadas": -0.44,
-      "Remuneraciones_medias_reales": -0.3
+      "Remuneraciones_medias_reales": -0.37
     },
     {
       "Periodo": "feb-26",
-      "Volumen_producción": 3.43,
-      "Personal_ocupado": -0.29,
-      "Horas_trabajadas": 0.16,
-      "Remuneraciones_medias_reales": 0.1
+      "Volumen_producción": 3.34,
+      "Personal_ocupado": -0.33,
+      "Horas_trabajadas": 0.15,
+      "Remuneraciones_medias_reales": 0.09
+    },
+    {
+      "Periodo": "mar-26",
+      "Volumen_producción": -1.09,
+      "Personal_ocupado": -0.11,
+      "Horas_trabajadas": 0.05,
+      "Remuneraciones_medias_reales": -0.66
     }
   ],
   "benchmarks": {

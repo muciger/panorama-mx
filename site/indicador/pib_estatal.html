@@ -3,14 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PIB estatal, variación anual real · Panorama económico de México</title>
+<title>PIB estatal, variación anual real · Panorama MX</title>
+<meta name="description" content="Datos oficiales de PIB estatal, variación anual real (%). Seguimiento regional con series históricas del BIE-INEGI. Panorama MX — Secretaría de Economía.">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'">
+<link rel="canonical" href="https://muciger.github.io/panorama-mx/indicador/pib_estatal.html">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="../assets/styles.css">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
-<script src="../assets/app.js" defer></script>
+<link rel="stylesheet" href="../assets/styles.css?v=cabb5a46">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" integrity="sha384-9nhczxUqK87bcKHh20fSQcTGD4qq5GhayNYSYWqwBkINBhOfQLg/P5HG5lF1urn4" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" integrity="sha384-oNtu+d18330MVFpltUTve1DatxCkkctlpA2AC3GulbVFOSqhHdDat3qHse/Lbuek" crossorigin="anonymous" defer></script>
+<script src="../assets/app.js?v=0352c849" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Dataset", "name": "PIB estatal, variación anual real — Panorama MX", "description": "Datos oficiales de PIB estatal, variación anual real (%). Seguimiento regional con series históricas del BIE-INEGI. Panorama MX — Secretaría de Economía.", "url": "https://muciger.github.io/panorama-mx/indicador/pib_estatal.html", "dateModified": "18 de mayo de 2026", "inLanguage": "es-MX", "license": "https://www.inegi.org.mx/datos/terminos.html", "creator": {"@type": "GovernmentOrganization", "name": "Instituto Nacional de Estadística y Geografía (INEGI)", "url": "https://www.inegi.org.mx"}, "publisher": {"@type": "GovernmentOrganization", "name": "Secretaría de Economía", "url": "https://www.economia.gob.mx"}}, {"@type": "WebSite", "name": "Panorama MX", "url": "https://muciger.github.io/panorama-mx", "description": "Tablero de indicadores económicos de México — BIE-INEGI"}]}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Saltar al contenido</a>
@@ -167,8 +173,9 @@
       <div class="topbar-spacer"></div>
       <div class="topbar-search" id="topbar-search">
         <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
-        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
-        <kbd class="topbar-search-kbd">/</kbd>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" aria-keyshortcuts="/" autocomplete="off">
+        <kbd class="topbar-search-kbd topbar-search-kbd-open">/</kbd>
+        <kbd class="topbar-search-kbd topbar-search-kbd-close">Esc</kbd>
         <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
       </div>
     </header>
@@ -1003,30 +1010,5 @@
     </button>
   </div>
 </nav>
-<script>
-(function(){
-  var btn=document.getElementById('bn-indic-btn');
-  var sheet=document.getElementById('bn-sheet');
-  var overlay=document.getElementById('bn-overlay');
-  if(!btn||!sheet||!overlay)return;
-  function open(){
-    sheet.classList.add('open');
-    overlay.classList.add('open');
-    btn.setAttribute('aria-expanded','true');
-    document.body.style.overflow='hidden';
-  }
-  function close(){
-    sheet.classList.remove('open');
-    overlay.classList.remove('open');
-    btn.setAttribute('aria-expanded','false');
-    document.body.style.overflow='';
-  }
-  btn.addEventListener('click',function(){
-    sheet.classList.contains('open')?close():open();
-  });
-  overlay.addEventListener('click',close);
-  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
-})();
-</script>
 </body>
 </html>

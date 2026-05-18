@@ -3208,8 +3208,72 @@ def main() -> None:
             tmpl_det.render(**ctx), encoding="utf-8"
         )
 
+    audit_fechas()
     log.info("Build OK · %d indicadores · output: %s", len(indicadores), SITE_DIR)
     print(f"Build OK · {len(indicadores)} indicadores · output: {SITE_DIR}")
+
+
+# ── Auditor de fechas ────────────────────────────────────────────────────────
+
+_SKIP_FILES = {"catalog.json", "home_synthesis.json", "interpretations.json"}
+
+_MAX_DIAS: dict[str, int] = {
+    "quincenal":  20,
+    "mensual":    50,
+    "trimestral": 120,
+    "anual":      400,
+}
+
+
+def audit_fechas() -> None:
+    """Imprime advertencias para indicadores cuya ultima_actualizacion supera el umbral."""
+    hoy = date.today()
+    stale: list[tuple[int, str, str, str]] = []
+    sin_fecha: list[str] = []
+
+    data_dir = Path(__file__).resolve().parent.parent / "data"
+    for path in sorted(data_dir.glob("*.json")):
+        if path.name in _SKIP_FILES:
+            continue
+        try:
+            d = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        nombre = d.get("nombre") or path.stem
+        freq = (d.get("frecuencia") or "?").lower()
+        upd_raw = d.get("ultima_actualizacion")
+        if not upd_raw or upd_raw == "?":
+            sin_fecha.append(nombre)
+            continue
+        try:
+            upd = date.fromisoformat(str(upd_raw)[:10])
+        except ValueError:
+            sin_fecha.append(nombre)
+            continue
+        dias = (hoy - upd).days
+        umbral = _MAX_DIAS.get(freq, 60)
+        if dias > umbral:
+            stale.append((dias, freq, nombre, str(upd)))
+
+    if not stale and not sin_fecha:
+        log.info("audit_fechas: todos los indicadores están al día.")
+        return
+
+    stale.sort(reverse=True)
+    print("\n" + "=" * 64)
+    print("AUDITOR DE FECHAS")
+    print("=" * 64)
+    if stale:
+        print(f"{'Días':>5}  {'Frecuencia':<12}  {'Última act.':<12}  Indicador")
+        print("-" * 64)
+        for dias, freq, nombre, upd in stale:
+            tag = "⚠" if dias < (_MAX_DIAS.get(freq, 60) * 2) else "✗"
+            print(f"{tag} {dias:>4}  {freq:<12}  {upd:<12}  {nombre}")
+    if sin_fecha:
+        print("\nSin fecha de actualización:")
+        for n in sin_fecha:
+            print(f"  - {n}")
+    print("=" * 64 + "\n")
 
 
 if __name__ == "__main__":

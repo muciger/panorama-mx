@@ -3,14 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PIB por actividad · Panorama económico de México</title>
+<title>PIB por actividad · Panorama MX</title>
+<meta name="description" content="Datos oficiales de PIB por actividad (%). Seguimiento macro con series históricas del BIE-INEGI. Panorama MX — Secretaría de Economía.">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'">
+<link rel="canonical" href="https://muciger.github.io/panorama-mx/indicador/pib_por_actividad.html">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="../assets/styles.css">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" defer></script>
-<script src="../assets/app.js" defer></script>
+<link rel="stylesheet" href="../assets/styles.css?v=cabb5a46">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" integrity="sha384-9nhczxUqK87bcKHh20fSQcTGD4qq5GhayNYSYWqwBkINBhOfQLg/P5HG5lF1urn4" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js" integrity="sha384-oNtu+d18330MVFpltUTve1DatxCkkctlpA2AC3GulbVFOSqhHdDat3qHse/Lbuek" crossorigin="anonymous" defer></script>
+<script src="../assets/app.js?v=0352c849" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Dataset", "name": "PIB por actividad — Panorama MX", "description": "Datos oficiales de PIB por actividad (%). Seguimiento macro con series históricas del BIE-INEGI. Panorama MX — Secretaría de Economía.", "url": "https://muciger.github.io/panorama-mx/indicador/pib_por_actividad.html", "dateModified": "18 de mayo de 2026", "inLanguage": "es-MX", "license": "https://www.inegi.org.mx/datos/terminos.html", "creator": {"@type": "GovernmentOrganization", "name": "Instituto Nacional de Estadística y Geografía (INEGI)", "url": "https://www.inegi.org.mx"}, "publisher": {"@type": "GovernmentOrganization", "name": "Secretaría de Economía", "url": "https://www.economia.gob.mx"}}, {"@type": "WebSite", "name": "Panorama MX", "url": "https://muciger.github.io/panorama-mx", "description": "Tablero de indicadores económicos de México — BIE-INEGI"}]}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Saltar al contenido</a>
@@ -167,8 +173,9 @@
       <div class="topbar-spacer"></div>
       <div class="topbar-search" id="topbar-search">
         <svg class="topbar-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7" stroke-width="2"/><path d="M21 21l-5-5" stroke-width="2" stroke-linecap="round"/></svg>
-        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" autocomplete="off">
-        <kbd class="topbar-search-kbd">/</kbd>
+        <input type="search" id="global-search" placeholder="Buscar indicador (ej. IGAE, inflación, balanza)" aria-label="Búsqueda global de indicadores" aria-keyshortcuts="/" autocomplete="off">
+        <kbd class="topbar-search-kbd topbar-search-kbd-open">/</kbd>
+        <kbd class="topbar-search-kbd topbar-search-kbd-close">Esc</kbd>
         <div class="topbar-search-results" id="global-search-results" role="listbox" aria-label="Resultados de búsqueda"></div>
       </div>
     </header>
@@ -188,7 +195,7 @@
     <h1 class="detail-title">PIB por actividad</h1>
     <div class="detail-meta">
       Categoría: <strong>Macro</strong> · Unidad: <strong>%</strong>
-       · Último periodo: <strong>T1-26</strong>
+       · Último periodo: <strong>T04-99</strong>
       
     </div>
   </div>
@@ -218,17 +225,17 @@
     
     <div class="inegi-tile">
       <div class="inegi-tile-head">Variación anual</div>
-      <div class="inegi-tile-period">T1-26</div>
-      <div class="inegi-tile-value inegi-down">
-        <span class="inegi-arrow" aria-hidden="true">▼</span>
-        <span>-0.1%</span>
+      <div class="inegi-tile-period">T04-99</div>
+      <div class="inegi-tile-value inegi-up">
+        <span class="inegi-arrow" aria-hidden="true">▲</span>
+        <span>+0.1%</span>
       </div>
     </div>
     
   </div>
   
   <div class="inegi-headline">
-    <p>El PIB del sector primario cayó 0.14% anual en el primer trimestre de 2026, interrumpiendo cuatro trimestres consecutivos de crecimiento.</p>
+    <p>El PIB de actividades primarias creció apenas 0.09% anual en el cuarto trimestre de 1999, un repunte marginal tras la caída del año previo, pero muy por debajo del dinamismo de los sectores secundario y terciario.</p>
     
   </div>
   
@@ -252,13 +259,13 @@
   <div class="stats-col">
     <div class="stat-card">
       <div class="label">Último valor</div>
-      <div class="valor">0.7%</div>
-      <div class="nota">Terciarias · T1-26</div>
+      <div class="valor">4.6%</div>
+      <div class="nota">Terciarias · T04-99</div>
     </div>
     <div class="stat-card">
       <div class="label">Δ vs MA12</div>
-      <div class="valor">-1.3pp</div>
-      <div class="nota">MA12: 2.0%</div>
+      <div class="valor">+1.2pp</div>
+      <div class="nota">MA12: 3.4%</div>
     </div>
     <div class="stat-card" id="proxima-pub-card" data-next-date="2026-05-22">
       <div class="label">Próxima publicación</div>
@@ -280,14 +287,14 @@
   
     
     <div class="interp-diag-block">
-      <p>El dato del sector primario refuerza la imagen de una economía con múltiples focos de debilidad. La contracción de los sectores primario y secundario, junto con el magro crecimiento del terciario, apuntan a un estancamiento generalizado. La volatilidad histórica del sector primario, visible a lo largo del rango de datos disponible, dificulta anticipar su trayectoria, y la caída registrada en T1-26 constituye un elemento adicional en el patrón de desaceleración que caracteriza los trimestres recientes.</p>
+      <p>El crecimiento casi nulo del sector primario en el cuarto trimestre de 1999 contrasta con la expansión de los servicios y la industria energética, configurando una recuperación de ritmos diferenciados entre sectores. Las actividades terciarias lideraron el avance con 4.64% anual, seguidas por las secundarias con 1.74%, mientras que las primarias apenas alcanzaron 0.09%, resultado que revierte la caída de 1.38% registrada en el mismo trimestre del año anterior sin consolidar aún una trayectoria de crecimiento más robusta.</p>
     </div>
     
     
     <details class="interp-details">
       <summary><span class="interp-summary-label">Ver lectura completa</span><span class="interp-summary-meta">3 párrafos</span></summary>
       <div class="interp-prosa-block">
-        <p>El Producto Interno Bruto (PIB), que mide el valor total de los bienes y servicios producidos en el país, se desagrega en tres grandes sectores. El sector primario, que incluye agricultura, ganadería, silvicultura y pesca, registró una caída anual de 0.14% en el primer trimestre de 2026. Esto significa que la producción de este sector fue ligeramente menor que la del mismo periodo del año anterior, lo que contrasta con el crecimiento de 7.17% observado en el trimestre previo.</p><p>La caída del sector primario se suma a la contracción del sector secundario, que cayó 1.29% anual, mientras que el sector terciario apenas creció 0.73%. En conjunto, esto refleja un bajo dinamismo generalizado en la economía mexicana. El sector primario había mostrado un comportamiento volátil a lo largo del rango de datos disponible, alternando contracciones y expansiones de magnitud variable, por lo que la caída registrada en T1-26 se inscribe en una trayectoria irregular.</p><p>En términos trimestrales, el sector primario retrocedió 1.36% respecto al trimestre inmediato anterior, mientras que el sector secundario acumuló una caída trimestral de 1.05%. El sector terciario, por su parte, sostuvo un crecimiento anual modesto de 0.73%, insuficiente para compensar las contracciones de los otros dos sectores.</p>
+        <p>El Producto Interno Bruto (PIB), que mide el valor total de bienes y servicios producidos en el país, se desglosa por grandes sectores. En el cuarto trimestre de 1999, las actividades primarias —agricultura, ganadería, silvicultura y pesca— registraron un crecimiento anual de apenas 0.09%, una recuperación modesta después de la caída de 1.38% observada en el mismo trimestre de 1998. El desempeño del sector contrasta con la expansión registrada en los sectores secundario y terciario durante el mismo periodo.</p><p>Las actividades secundarias —industria manufacturera, construcción, minería y generación de energía— crecieron 1.74% anual, impulsadas principalmente por el sector de energía, agua y gas, que se expandió 14.85%. Las actividades terciarias —comercio, transportes, servicios financieros y gubernamentales— crecieron 4.64%, con un desempeño destacado de los servicios financieros (10.85%) y el comercio al por menor (7.61%). Esta divergencia refleja que los mayores ritmos de expansión se concentraron en los servicios y en la energía, mientras que la producción primaria registró un avance prácticamente nulo.</p><p>Al interior del sector secundario, la minería mostró una contracción anual de 1.34%, en tanto que manufacturas avanzaron 1.91% y construcción 2.56%. En el sector terciario, el comercio al por mayor creció 6.00% y los transportes 5.74%, lo que contribuyó al dinamismo general de las actividades de servicios frente al comportamiento más moderado de la industria y el estancamiento del sector primario.</p>
       </div>
     </details>
     
@@ -296,7 +303,7 @@
   <footer class="interp-section-foot">
     Análisis asistido por IA. Verifica con el boletín INEGI antes de tomar decisiones de política.
     
-    · <span title="El validador automático (claude) detectó 5 issues en el draft inicial y aplicó correcciones antes de publicar.">Versión revisada por validador automático.</span>
+    · <span title="El validador automático (claude) detectó 4 issues en el draft inicial y aplicó correcciones antes de publicar.">Versión revisada por validador automático.</span>
     
   </footer>
 </section>
@@ -321,12 +328,12 @@
       <caption class="sr-only">Estadísticos descriptivos de PIB por actividad, últimos 16 periodos</caption>
       <thead><tr><th scope="col">Métrica</th><th scope="col" class="num">Valor</th><th scope="col">Métrica</th><th scope="col" class="num">Valor</th></tr></thead>
       <tbody>
-      <tr><td>Media</td><td class="num">2.46%</td>
-          <td>Mediana</td><td class="num">2.16%</td></tr>
-      <tr><td>Mínimo</td><td class="num">0.65%</td>
-          <td>Máximo</td><td class="num">4.43%</td></tr>
-      <tr class="advanced"><td>Desv. estándar</td><td class="num">1.20%</td>
-          <td>p25 / p75</td><td class="num">1.2 / 3.5%</td></tr>
+      <tr><td>Media</td><td class="num">2.89%</td>
+          <td>Mediana</td><td class="num">3.00%</td></tr>
+      <tr><td>Mínimo</td><td class="num">-5.21%</td>
+          <td>Máximo</td><td class="num">7.95%</td></tr>
+      <tr class="advanced"><td>Desv. estándar</td><td class="num">3.07%</td>
+          <td>p25 / p75</td><td class="num">1.5 / 4.6%</td></tr>
       </tbody>
     </table>
   </div>
@@ -338,21 +345,21 @@
       <thead><tr><th scope="col">Periodo</th><th scope="col" class="num">Hace</th><th scope="col" class="num">Δ vs hoy</th></tr></thead>
       <tbody>
       
-        <tr><td>1m (T4-25)</td>
-            <td class="num">2.16%</td>
-            <td class="num neg">-1.43%</td></tr>
+        <tr><td>1m (T04-98)</td>
+            <td class="num">2.75%</td>
+            <td class="num pos">+1.89%</td></tr>
       
-        <tr><td>3m (T2-25)</td>
-            <td class="num">0.65%</td>
-            <td class="num pos">+0.08%</td></tr>
+        <tr><td>3m (T04-96)</td>
+            <td class="num">5.26%</td>
+            <td class="num neg">-0.62%</td></tr>
       
-        <tr><td>6m (T3-24)</td>
-            <td class="num">2.07%</td>
-            <td class="num neg">-1.34%</td></tr>
+        <tr><td>6m (T04-93)</td>
+            <td class="num">2.10%</td>
+            <td class="num pos">+2.54%</td></tr>
       
-        <tr><td>12m (T1-23)</td>
-            <td class="num">4.11%</td>
-            <td class="num neg">-3.38%</td></tr>
+        <tr><td>12m (T04-87)</td>
+            <td class="num">3.20%</td>
+            <td class="num pos">+1.44%</td></tr>
       
       </tbody>
     </table>
@@ -360,17 +367,17 @@
   
   
   <div class="analytics-card">
-    <h4>Récords históricos · T2-23 a T1-26</h4>
+    <h4>Récords históricos · T04-88 a T04-99</h4>
     <div class="record-row">
       <div class="record-card record-mejor">
         <div class="record-label">Récord positivo</div>
-        <div class="record-valor">+4.43%</div>
-        <div class="record-periodo">T3-22</div>
+        <div class="record-valor">+7.95%</div>
+        <div class="record-periodo">T04-97</div>
       </div>
       <div class="record-card record-peor">
-        <div class="record-label">Peor valor</div>
-        <div class="record-valor">+0.65%</div>
-        <div class="record-periodo">T2-25</div>
+        <div class="record-label">Récord negativo</div>
+        <div class="record-valor">-5.21%</div>
+        <div class="record-periodo">T04-95</div>
       </div>
       
       
@@ -462,14 +469,14 @@
         
         
         <tr>
-          <td>T2-23</td>
+          <td>T04-88</td>
           
             
-            <td class="num pos">3.6</td>
+            <td class="num pos">1.0</td>
             
           
             
-            <td class="num pos">3.0</td>
+            <td class="num pos">0.6</td>
             
           
           
@@ -478,10 +485,74 @@
         
         
         <tr>
-          <td>T3-23</td>
+          <td>T04-89</td>
           
             
-            <td class="num pos">3.5</td>
+            <td class="num pos">3.3</td>
+            
+          
+            
+            <td class="num pos">2.1</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">—</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T04-90</td>
+          
+            
+            <td class="num pos">5.8</td>
+            
+          
+            
+            <td class="num pos">8.5</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">—</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T04-91</td>
+          
+            
+            <td class="num pos">4.2</td>
+            
+          
+            
+            <td class="num pos">3.7</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">—</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T04-92</td>
+          
+            
+            <td class="num pos">3.0</td>
+            
+          
+            
+            <td class="num pos">2.2</td>
+            
+          
+          
+          <td class="num advanced" style="color:var(--texto-light)">—</td>
+        </tr>
+        
+        
+        <tr>
+          <td>T04-93</td>
+          
+            
+            <td class="num pos">2.1</td>
             
           
             
@@ -494,30 +565,14 @@
         
         
         <tr>
-          <td>T4-23</td>
+          <td>T04-94</td>
           
             
-            <td class="num pos">2.3</td>
-            
-          
-            
-            <td class="num pos">2.6</td>
-            
-          
-          
-          <td class="num advanced" style="color:var(--texto-light)">—</td>
-        </tr>
-        
-        
-        <tr>
-          <td>T1-24</td>
-          
-            
-            <td class="num pos">2.6</td>
+            <td class="num pos">6.5</td>
             
           
             
-            <td class="num pos">0.1</td>
+            <td class="num pos">3.7</td>
             
           
           
@@ -526,130 +581,82 @@
         
         
         <tr>
-          <td>T2-24</td>
+          <td>T04-95</td>
           
             
-            <td class="num pos">2.9</td>
+            <td class="num neg">-5.2</td>
             
           
             
-            <td class="num pos">0.8</td>
+            <td class="num neg">-8.9</td>
             
           
           
-          <td class="num advanced" style="color:var(--texto-light)">—</td>
+          <td class="num advanced" style="color:var(--texto-light)">2.1</td>
         </tr>
         
         
         <tr>
-          <td>T3-24</td>
+          <td>T04-96</td>
           
             
-            <td class="num pos">2.1</td>
+            <td class="num pos">5.3</td>
             
           
             
-            <td class="num neg">-0.3</td>
+            <td class="num pos">13.6</td>
             
           
           
-          <td class="num advanced" style="color:var(--texto-light)">—</td>
+          <td class="num advanced" style="color:var(--texto-light)">2.4</td>
         </tr>
         
         
         <tr>
-          <td>T4-24</td>
+          <td>T04-97</td>
           
             
-            <td class="num pos">1.8</td>
+            <td class="num pos">8.0</td>
             
           
             
-            <td class="num neg">-2.4</td>
+            <td class="num pos">8.1</td>
             
           
           
-          <td class="num advanced" style="color:var(--texto-light)">—</td>
+          <td class="num advanced" style="color:var(--texto-light)">3.0</td>
         </tr>
         
         
         <tr>
-          <td>T1-25</td>
+          <td>T04-98</td>
           
             
-            <td class="num pos">1.2</td>
+            <td class="num pos">2.8</td>
             
           
             
-            <td class="num neg">-1.1</td>
+            <td class="num pos">3.0</td>
             
           
           
-          <td class="num advanced" style="color:var(--texto-light)">2.9</td>
+          <td class="num advanced" style="color:var(--texto-light)">3.3</td>
         </tr>
         
         
         <tr>
-          <td>T2-25</td>
+          <td>T04-99</td>
           
             
-            <td class="num pos">0.7</td>
-            
-          
-            
-            <td class="num neg">-1.6</td>
-            
-          
-          
-          <td class="num advanced" style="color:var(--texto-light)">2.8</td>
-        </tr>
-        
-        
-        <tr>
-          <td>T3-25</td>
-          
-            
-            <td class="num pos">1.2</td>
+            <td class="num pos">4.6</td>
             
           
             
-            <td class="num neg">-2.7</td>
+            <td class="num pos">1.7</td>
             
           
           
-          <td class="num advanced" style="color:var(--texto-light)">2.5</td>
-        </tr>
-        
-        
-        <tr>
-          <td>T4-25</td>
-          
-            
-            <td class="num pos">2.2</td>
-            
-          
-            
-            <td class="num pos">0.4</td>
-            
-          
-          
-          <td class="num advanced" style="color:var(--texto-light)">2.3</td>
-        </tr>
-        
-        
-        <tr>
-          <td>T1-26</td>
-          
-            
-            <td class="num pos">0.7</td>
-            
-          
-            
-            <td class="num neg">-1.3</td>
-            
-          
-          
-          <td class="num advanced" style="color:var(--texto-light)">2.0</td>
+          <td class="num advanced" style="color:var(--texto-light)">3.4</td>
         </tr>
         
       </tbody>
@@ -699,7 +706,7 @@
 </details>
 
 
-<script id="page-data" type="application/json">{"view": "detail", "indicador": {"id": "pib_por_actividad", "tabular": false, "series": {"Terciarias": [1.86, 4.43, 4.37, 4.11, 3.56, 3.45, 2.27, 2.65, 2.87, 2.07, 1.81, 1.23, 0.65, 1.18, 2.16, 0.73], "Secundarias": [4.49, 5.23, 5.07, 2.97, 3.01, 3.28, 2.61, 0.15, 0.81, -0.3, -2.35, -1.08, -1.65, -2.71, 0.42, -1.29]}, "ma12": [null, null, null, null, null, null, null, null, null, null, null, 2.89, 2.79, 2.52, 2.33, 2.05], "periodos": ["T2-22", "T3-22", "T4-22", "T1-23", "T2-23", "T3-23", "T4-23", "T1-24", "T2-24", "T3-24", "T4-24", "T1-25", "T2-25", "T3-25", "T4-25", "T1-26"], "unidad": "%", "chart_tipo": "bar_grouped", "chart_titulo": "PIB por actividad · variación % anual", "grouped_series": {"Primarias": [-0.33, 0.66, -4.42, -0.8, -0.19, 7.03, -3.2, 4.07, 1.79, 3.48, 7.17, -0.14], "Minería": [2.77, -0.69, -3.72, -3.89, -9.19, -6.77, -8.55, -11.81, -8.34, -4.99, -0.37, null], "Construcción": [8.35, 17.39, 19.17, 9.32, 9.13, 1.13, -5.93, -1.36, -2.15, -4.71, 4.25, null], "Manufacturas": [2.22, 0.9, -0.37, -1.18, 0.51, 0.55, -0.11, 0.85, -0.35, -1.83, -0.7, null], "Terciarias": [3.56, 3.45, 2.27, 2.65, 2.87, 2.07, 1.81, 1.23, 0.65, 1.18, 2.16, 0.73]}}}</script>
+<script id="page-data" type="application/json">{"view": "detail", "indicador": {"id": "pib_por_actividad", "tabular": false, "series": {"Terciarias": [1.8, 1.5, -1.6, 3.2, 1.0, 3.3, 5.8, 4.2, 3.0, 2.1, 6.5, -5.21, 5.26, 7.95, 2.75, 4.64], "Secundarias": [6.2, 1.5, -10.2, 10.2, 0.6, 2.1, 8.5, 3.7, 2.2, 3.3, 3.73, -8.86, 13.58, 8.05, 3.05, 1.74]}, "ma12": [null, null, null, null, null, null, null, null, null, null, null, 2.13, 2.42, 2.96, 3.32, 3.44], "periodos": ["T04-84", "T04-85", "T04-86", "T04-87", "T04-88", "T04-89", "T04-90", "T04-91", "T04-92", "T04-93", "T04-94", "T04-95", "T04-96", "T04-97", "T04-98", "T04-99"], "unidad": "%", "chart_tipo": "bar_grouped", "chart_titulo": "PIB por actividad · variación % anual", "grouped_series": {"Primarias": [-2.6, 1.2, 18.2, 1.6, 1.4, -3.5, 1.53, 3.43, 2.77, 0.02, -1.38, 0.09], "Minería": [null, null, null, null, null, null, -2.36, -6.5, 18.24, 6.35, -0.88, -1.34], "Construcción": [null, null, null, null, null, null, 9.23, -22.59, 15.55, 2.35, 4.04, 2.56], "Manufacturas": [null, null, null, null, null, null, 3.91, -5.61, 12.13, 11.18, 4.42, 1.91], "Terciarias": [1.0, 3.3, 5.8, 4.2, 3.0, 2.1, 6.5, -5.21, 5.26, 7.95, 2.75, 4.64]}}}</script>
 
 
     <footer class="site-footer">
@@ -822,30 +829,5 @@
     </button>
   </div>
 </nav>
-<script>
-(function(){
-  var btn=document.getElementById('bn-indic-btn');
-  var sheet=document.getElementById('bn-sheet');
-  var overlay=document.getElementById('bn-overlay');
-  if(!btn||!sheet||!overlay)return;
-  function open(){
-    sheet.classList.add('open');
-    overlay.classList.add('open');
-    btn.setAttribute('aria-expanded','true');
-    document.body.style.overflow='hidden';
-  }
-  function close(){
-    sheet.classList.remove('open');
-    overlay.classList.remove('open');
-    btn.setAttribute('aria-expanded','false');
-    document.body.style.overflow='';
-  }
-  btn.addEventListener('click',function(){
-    sheet.classList.contains('open')?close():open();
-  });
-  overlay.addEventListener('click',close);
-  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
-})();
-</script>
 </body>
 </html>

@@ -23,7 +23,6 @@
   "ultima_actualizacion": "2026-05-18",
   "proxima_actualizacion_manual": null,
   "periodos": [
-    "abr-25",
     "may-25",
     "jun-25",
     "jul-25",
@@ -34,15 +33,10 @@
     "dic-25",
     "ene-26",
     "feb-26",
-    "mar-26"
+    "mar-26",
+    "abr-26"
   ],
   "series": [
-    {
-      "Periodo": "abr-25",
-      "INPC_anual": 3.93,
-      "Subyacente_anual": 3.93,
-      "No_subyacente_anual": 3.76
-    },
     {
       "Periodo": "may-25",
       "INPC_anual": 4.42,
@@ -108,6 +102,12 @@
       "INPC_anual": 4.59,
       "Subyacente_anual": 4.45,
       "No_subyacente_anual": 5.05
+    },
+    {
+      "Periodo": "abr-26",
+      "INPC_anual": 4.45,
+      "Subyacente_anual": 4.26,
+      "No_subyacente_anual": 5.08
     }
   ],
   "benchmarks": {
@@ -502,22 +502,22 @@
     ]
   },
   "_recuadros_inpc": {
-    "periodo": "mar-26",
+    "periodo": "abr-26",
     "componentes": [
       {
         "nombre": "Inflación general",
-        "var_mensual": 0.86,
-        "var_anual": 4.59
-      },
-      {
-        "nombre": "Subyacente",
-        "var_mensual": 0.38,
+        "var_mensual": 0.2,
         "var_anual": 4.45
       },
       {
+        "nombre": "Subyacente",
+        "var_mensual": 0.31,
+        "var_anual": 4.26
+      },
+      {
         "nombre": "No subyacente",
-        "var_mensual": 2.46,
-        "var_anual": 5.05
+        "var_mensual": -0.18,
+        "var_anual": 5.08
       }
     ]
   }

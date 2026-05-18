@@ -2,8 +2,8 @@
 :root {
   /* Paleta principal */
   --texto:        #111111;
-  --texto-light:  #787774;   /* alias para templates existentes */
-  --texto-2:      #787774;
+  --texto-light:  #6B6966;   /* alias para templates existentes */
+  --texto-2:      #6B6966;   /* 5.47:1 sobre blanco, 5.06:1 sobre beige — pasa WCAG AA */
   --texto-3:      #D0CFC9;
   --surface:      #FFFFFF;
   --bg:           #F7F6F3;
@@ -45,6 +45,7 @@
 .skip-link{position:absolute;top:-40px;left:0;z-index:1000;background:var(--accent);color:#fff;padding:10px 16px;font-weight:600;font-size:13px;border-radius:0 0 6px 0;text-decoration:none}
 .skip-link:focus{top:0}
 *:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sidebar *:focus-visible{outline:2px solid rgba(255,255,255,0.9);outline-offset:2px}
 
 /* ── Reset ──────────────────────────────────────────────────── */
 *,*::before,*::after{box-sizing:border-box}
@@ -78,8 +79,6 @@ input,select{font:inherit}
 }
 .brand-block{padding:22px 18px 16px;border-bottom:1px solid rgba(255,255,255,0.07)}
 .brand-gob{display:flex;align-items:center;gap:10px}
-.brand-gob-eagle{width:28px;height:28px;color:rgba(255,255,255,0.15);display:none}
-.brand-gob-eagle svg{width:100%;height:100%}
 .brand-gob-text{line-height:1.15}
 .brand-gob-line{font-size:15px;font-weight:700;color:#fff;letter-spacing:-0.01em}
 .brand-gob-line.strong{font-size:10px;font-weight:500;color:rgba(255,255,255,0.35);letter-spacing:0.08em;text-transform:uppercase;margin-top:3px}
@@ -173,6 +172,9 @@ input,select{font:inherit}
   background:var(--surface);border:1px solid var(--border);
   border-radius:3px;font-size:10px;font-family:var(--mono);color:var(--texto-2);font-weight:600;flex-shrink:0;
 }
+.topbar-search-kbd-close{display:none}
+.topbar-search.active .topbar-search-kbd-open{display:none}
+.topbar-search.active .topbar-search-kbd-close{display:inline-flex}
 .topbar-search-results{
   position:absolute;top:calc(100% + 8px);left:0;right:0;
   background:var(--surface);border:1px solid var(--border);
@@ -798,12 +800,6 @@ body:not(.show-advanced) .advanced-hint-off{display:inline}
 .componentes-emoe-tbl .neg{color:var(--neg)}
 @media (max-width:900px){.meses-consec-badge{margin:0 22px 14px}}
 
-/* ── KPI género IMSS ─────────────────────────────────────────── */
-.kpi-genero{display:flex;align-items:center;gap:5px;font-size:var(--text-xs);font-weight:600;margin-top:2px}
-.kpi-genero-hom{color:#2563EB}
-.kpi-genero-muj{color:var(--accent)}
-.kpi-genero-sep{color:var(--texto-2)}
-
 /* ── IMSS sector grid ────────────────────────────────────────── */
 .imss-sector-section{background:var(--surface);border-radius:10px;padding:20px;margin:20px 0;border:1px solid var(--border)}
 .imss-sector-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
@@ -849,7 +845,7 @@ body:not(.show-advanced) .advanced-hint-off{display:inline}
 .h2-pub-count{font-size:var(--text-xs);font-family:var(--mono);font-weight:400;color:var(--texto-2);background:var(--bg);border-radius:4px;padding:1px 6px}
 .h2-pub-link{font-size:var(--text-xs);color:var(--accent);text-decoration:none;font-family:var(--mono)}
 .h2-pub-link:hover{text-decoration:underline}
-.h2-pub-chips{display:flex;gap:8px;padding:10px 16px;overflow-x:auto;scrollbar-width:none}
+.h2-pub-chips{display:flex;flex-wrap:wrap;gap:8px;padding:10px 16px;overflow-x:auto;scrollbar-width:none}
 .h2-pub-chips::-webkit-scrollbar{display:none}
 .h2-pub-empty{font-size:var(--text-xs);color:var(--texto-2);padding:8px 0}
 .h2-pub-empty a{color:var(--accent)}
@@ -1225,4 +1221,15 @@ body:not(.show-advanced) .advanced-hint-off{display:inline}
     animation-iteration-count:1 !important;
     transition-duration:.01ms !important;
   }
+}
+
+/* ── prefers-contrast ────────────────────────────────────────── */
+@media (prefers-contrast:more){
+  :root{
+    --texto-2: #3D3B38;        /* secundario más oscuro */
+    --border:  #888580;        /* bordes más visibles   */
+  }
+  .kpi-card,.stat-card,.pub-card,.indic-row{outline:1px solid var(--border)}
+  .gloss-term{border-bottom-width:2px;border-bottom-color:#92400E}
+  *:focus-visible{outline-width:3px}
 }

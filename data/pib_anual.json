@@ -16,7 +16,7 @@
     "Periodo",
     "PIB_anual"
   ],
-  "ultima_actualizacion": "2026-05-05",
+  "ultima_actualizacion": "2026-05-18",
   "proxima_actualizacion_manual": "22 de mayo de 2026",
   "periodos": [
     "2004",
@@ -120,11 +120,11 @@
     },
     {
       "Periodo": "2023",
-      "PIB_anual": 3.11
+      "PIB_anual": 3.12
     },
     {
       "Periodo": "2024",
-      "PIB_anual": 1.35
+      "PIB_anual": 1.46
     }
   ],
   "benchmarks": {
