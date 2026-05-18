@@ -1081,7 +1081,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const valEl = document.getElementById("proxima-pub-valor");
         const notaEl = document.getElementById("proxima-pub-nota");
         if (valEl) { valEl.textContent = "Pendiente"; valEl.style.color = "#DC2626"; }
-        if (notaEl) { notaEl.innerHTML = '<a href="https://www.inegi.org.mx/calendario/" target="_blank" rel="noopener" style="color:inherit">Ver calendario INEGI</a>'; }
+        if (notaEl) { notaEl.innerHTML = '<a href="https://www.inegi.org.mx/app/saladeprensa/calendario/" target="_blank" rel="noopener" style="color:inherit">Ver calendario INEGI</a>'; }
         pubCard.title = "La fecha estimada de publicación ya pasó. Consulta el calendario oficial de INEGI.";
       }
     }
