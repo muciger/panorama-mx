@@ -192,7 +192,7 @@
     },
     {
       "Entidad": "Tamaulipas",
-      "MDD_trimestral": null,
+      "MDD_trimestral": 8932343.0,
       "MDD_anual": 36296590.0
     },
     {
@@ -447,9 +447,9 @@
     {
       "Entidad": "Tamaulipas",
       "_geo": "28",
-      "MDD_trimestral": null,
+      "MDD_trimestral": 8932343.0,
       "MDD_anual": 36296590.0,
-      "_periodo": null
+      "_periodo": "T4-25"
     },
     {
       "Entidad": "Tlaxcala",

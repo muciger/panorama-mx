@@ -1598,16 +1598,16 @@
   },
   "empleo_imss": {
     "tipo": "auto_v2",
-    "headline": "El empleo formal afiliado al Instituto Mexicano del Seguro Social alcanzó 22.72 millones de puestos en marzo de 2026, el nivel más alto dentro del periodo de datos disponibles, con el crecimiento concentrado en los puestos permanentes.",
+    "headline": "El empleo formal alcanzó 22.75 millones de puestos en abril de 2026, el nivel más alto dentro del periodo de datos disponibles, impulsado por el crecimiento de los trabajadores permanentes y la participación femenina.",
     "parrafos": [
-      "El empleo formal afiliado al Instituto Mexicano del Seguro Social (IMSS), que mide el número de puestos de trabajo registrados ante ese organismo, alcanzó 22 millones 724 mil 680 puestos en marzo de 2026. Esta cifra representa el nivel más alto dentro del periodo de datos disponibles, que abarca de abril de 2024 a marzo de 2026. El total acumulado refleja una expansión sostenida del mercado laboral formal a lo largo del periodo analizado.",
-      "El crecimiento del empleo total en marzo de 2026 se explica principalmente por el aumento de los puestos permanentes, que sumaron 19 millones 738 mil 191. Los empleos eventuales, en cambio, se situaron en 2 millones 986 mil 489, por debajo del pico de 3 millones 037 mil 443 registrado en noviembre de 2025. La composición del empleo muestra una mayor participación de contratos de carácter permanente frente a los eventuales en comparación con periodos anteriores del rango disponible. Por género, los hombres representaron 13 millones 553 mil 536 puestos y las mujeres 9 millones 171 mil 065.",
-      "En la comparación anual, el total de marzo de 2026 supera en 259 mil 570 puestos al registrado en marzo de 2025, cuando se contabilizaron 22 millones 465 mil 110 afiliados. Este diferencial se concentra en la modalidad permanente, cuyo stock pasó de 19 millones 510 mil 094 a 19 millones 738 mil 191 en el mismo lapso, mientras que los eventuales mostraron un incremento marginal de 2 millones 955 mil 016 a 2 millones 986 mil 489."
+      "El empleo formal, medido por los puestos de trabajo afiliados al Instituto Mexicano del Seguro Social (IMSS), alcanzó 22 millones 748 mil 603 plazas en abril de 2026. Esta cifra representa el nivel más alto dentro del periodo de datos disponibles, que abarca de mayo de 2024 a abril de 2026. El mercado laboral formal muestra una expansión sostenida, con una creación neta de empleo que sostiene la capacidad de consumo de los hogares.",
+      "El crecimiento se concentró en los trabajadores permanentes, que sumaron 19 millones 763 mil 238 plazas, frente a 2 millones 985 mil 365 eventuales. Respecto a abril de 2025, cuando el total era de 22 millones 417 mil 668 puestos, se agregaron aproximadamente 330 mil 935 plazas en términos anuales. Las mujeres representaron 9 millones 183 mil 739 de los afiliados, una participación que ha ido en aumento dentro del periodo, lo que refleja una mayor inclusión femenina en el empleo formal.",
+      "Este desempeño ocurre en un contexto de incertidumbre en el entorno externo, particularmente en la economía de Estados Unidos, que podría incidir en la demanda de exportaciones mexicanas. El empleo formal muestra resiliencia dentro del periodo analizado, con una tendencia de expansión que se mantiene en los meses más recientes."
     ],
-    "diagnostico": "El empleo formal muestra un desempeño sólido al cierre del primer trimestre de 2026, con el nivel más alto registrado dentro del periodo de datos disponibles y una composición en la que los puestos permanentes concentran la mayor parte del stock total. La variación anual positiva en ambas modalidades de contratación confirma la trayectoria expansiva del mercado laboral formal durante el periodo analizado.",
-    "mensaje": "El empleo formal afiliado al Instituto Mexicano del Seguro Social alcanzó 22.72 millones de puestos en marzo de 2026, el nivel más alto dentro del periodo de datos disponibles, con el crecimiento concentrado en los puestos permanentes.\n\nEl empleo formal afiliado al Instituto Mexicano del Seguro Social (IMSS), que mide el número de puestos de trabajo registrados ante ese organismo, alcanzó 22 millones 724 mil 680 puestos en marzo de 2026. Esta cifra representa el nivel más alto dentro del periodo de datos disponibles, que abarca de abril de 2024 a marzo de 2026. El total acumulado refleja una expansión sostenida del mercado laboral formal a lo largo del periodo analizado.\n\nEl crecimiento del empleo total en marzo de 2026 se explica principalmente por el aumento de los puestos permanentes, que sumaron 19 millones 738 mil 191. Los empleos eventuales, en cambio, se situaron en 2 millones 986 mil 489, por debajo del pico de 3 millones 037 mil 443 registrado en noviembre de 2025. La composición del empleo muestra una mayor participación de contratos de carácter permanente frente a los eventuales en comparación con periodos anteriores del rango disponible. Por género, los hombres representaron 13 millones 553 mil 536 puestos y las mujeres 9 millones 171 mil 065.\n\nEn la comparación anual, el total de marzo de 2026 supera en 259 mil 570 puestos al registrado en marzo de 2025, cuando se contabilizaron 22 millones 465 mil 110 afiliados. Este diferencial se concentra en la modalidad permanente, cuyo stock pasó de 19 millones 510 mil 094 a 19 millones 738 mil 191 en el mismo lapso, mientras que los eventuales mostraron un incremento marginal de 2 millones 955 mil 016 a 2 millones 986 mil 489.\n\nEl empleo formal muestra un desempeño sólido al cierre del primer trimestre de 2026, con el nivel más alto registrado dentro del periodo de datos disponibles y una composición en la que los puestos permanentes concentran la mayor parte del stock total. La variación anual positiva en ambas modalidades de contratación confirma la trayectoria expansiva del mercado laboral formal durante el periodo analizado.",
-    "generado_en": "2026-05-11",
-    "basado_en": "2026-05-05",
+    "diagnostico": "El empleo formal mantiene una tendencia positiva, alcanzando el nivel más alto dentro del periodo analizado de mayo de 2024 a abril de 2026. La composición favorable hacia puestos permanentes y el avance de la participación femenina son señales de calidad en el empleo. El entorno externo representa un factor de atención que los datos disponibles no permiten cuantificar en términos de impacto sobre la dinámica laboral futura.",
+    "mensaje": "El empleo formal alcanzó 22.75 millones de puestos en abril de 2026, el nivel más alto dentro del periodo de datos disponibles, impulsado por el crecimiento de los trabajadores permanentes y la participación femenina.\n\nEl empleo formal, medido por los puestos de trabajo afiliados al Instituto Mexicano del Seguro Social (IMSS), alcanzó 22 millones 748 mil 603 plazas en abril de 2026. Esta cifra representa el nivel más alto dentro del periodo de datos disponibles, que abarca de mayo de 2024 a abril de 2026. El mercado laboral formal muestra una expansión sostenida, con una creación neta de empleo que sostiene la capacidad de consumo de los hogares.\n\nEl crecimiento se concentró en los trabajadores permanentes, que sumaron 19 millones 763 mil 238 plazas, frente a 2 millones 985 mil 365 eventuales. Respecto a abril de 2025, cuando el total era de 22 millones 417 mil 668 puestos, se agregaron aproximadamente 330 mil 935 plazas en términos anuales. Las mujeres representaron 9 millones 183 mil 739 de los afiliados, una participación que ha ido en aumento dentro del periodo, lo que refleja una mayor inclusión femenina en el empleo formal.\n\nEste desempeño ocurre en un contexto de incertidumbre en el entorno externo, particularmente en la economía de Estados Unidos, que podría incidir en la demanda de exportaciones mexicanas. El empleo formal muestra resiliencia dentro del periodo analizado, con una tendencia de expansión que se mantiene en los meses más recientes.\n\nEl empleo formal mantiene una tendencia positiva, alcanzando el nivel más alto dentro del periodo analizado de mayo de 2024 a abril de 2026. La composición favorable hacia puestos permanentes y el avance de la participación femenina son señales de calidad en el empleo. El entorno externo representa un factor de atención que los datos disponibles no permiten cuantificar en términos de impacto sobre la dinámica laboral futura.",
+    "generado_en": "2026-05-19",
+    "basado_en": "2026-05-12",
     "writer_provider": "deepseek",
     "writer_modelo": "deepseek-chat",
     "provider": "deepseek",
@@ -1616,39 +1616,34 @@
       "veredicto": "fix",
       "issues_encontrados": [
         {
+          "campo": "parrafos[1]",
+          "tipo": "factual",
+          "descripcion": "El dato de mujeres afiliadas es 9,183,739 según los datos provistos, pero el draft escribe '9 millones 183 mil 739', que coincide numéricamente. Sin embargo, la diferencia entre abr-26 (22,748,603) y abr-25 (22,417,668) es 330,935 puestos, no 'aproximadamente 130 mil 935' como afirma el draft. Error aritmético significativo."
+        },
+        {
           "campo": "headline",
           "tipo": "alucinacion",
-          "descripcion": "'nivel récord' es una afirmación histórica que va más allá del rango disponible (abr-24 a mar-26). Solo puede decirse que es el nivel más alto dentro del periodo de datos disponibles, no un récord absoluto o histórico."
+          "descripcion": "La frase 'nuevo máximo dentro del periodo disponible' es verificable (abr-26 = 22,748,603 es el valor más alto en el rango may-24 a abr-26), pero el adjetivo 'nuevo' implica que hubo un máximo anterior reciente que fue superado, lo cual no está respaldado explícitamente. Más importante: el headline no expande el acrónimo IMSS en ningún lugar del draft al primer uso."
         },
         {
-          "campo": "parrafos[1]",
-          "tipo": "alucinacion",
-          "descripcion": "Se afirma que los puestos permanentes (19 738 191) son 'también un máximo en el periodo', lo cual es verificable: nov-25 tiene 19 800 325 permanentes, mayor que mar-26 (19 738 191). La afirmación es factualmente incorrecta."
-        },
-        {
-          "campo": "parrafos[1]",
-          "tipo": "politica",
-          "descripcion": "La frase 'la calidad del empleo está mejorando... lo que brinda mayor certidumbre a los hogares y apoya el consumo privado' constituye una interpretación normativa que roza la recomendación implícita de política. Debe reformularse como lectura descriptiva."
+          "campo": "parrafos[0]",
+          "tipo": "estilo",
+          "descripcion": "El acrónimo IMSS aparece por primera vez en el párrafo 0 sin expandirse. Debe escribirse 'Instituto Mexicano del Seguro Social (IMSS)' en el primer uso."
         },
         {
           "campo": "parrafos[2]",
           "tipo": "politica",
-          "descripcion": "La frase 'la desaceleración de la economía estadounidense y la persistente incertidumbre en el entorno global podrían moderar el ritmo de creación de empleo en los próximos meses' introduce proyecciones prospectivas no respaldadas por los datos provistos y roza el territorio de recomendación de política al señalar riesgos futuros de forma prescriptiva."
-        },
-        {
-          "campo": "parrafos[2]",
-          "tipo": "politica",
-          "descripcion": "La frase 'las empresas mantienen expectativas favorables para contratar personal de planta, lo que refleja confianza en la demanda interna' introduce inferencias sobre expectativas empresariales no respaldadas por los datos provistos."
+          "descripcion": "La frase 'posiblemente apuntalado por la fortaleza del consumo interno y la inversión en sectores como la construcción y los servicios' introduce interpretaciones causales no respaldadas por los datos provistos, acercándose a un diagnóstico especulativo que rebasa la lectura interpretativa de los datos disponibles."
         },
         {
           "campo": "diagnostico",
           "tipo": "alucinacion",
-          "descripcion": "'niveles récord en el periodo' reitera la afirmación de récord absoluto. Debe acotarse a 'nivel más alto dentro del periodo de datos disponibles'."
+          "descripcion": "La frase 'máximos históricos' debe limitarse a 'máximos dentro del periodo analizado', ya que los datos solo cubren may-24 a abr-26 y no permiten afirmar máximos históricos en sentido amplio."
         },
         {
           "campo": "diagnostico",
           "tipo": "politica",
-          "descripcion": "La frase 'la desaceleración externa representa un riesgo para la continuidad de esta tendencia' introduce una proyección prospectiva no respaldada por los datos provistos."
+          "descripcion": "La frase 'la desaceleración externa representa un riesgo que podría moderar la creación de empleo en los próximos meses' constituye una proyección prospectiva que excede la lectura interpretativa de los datos provistos y no está respaldada por ningún dato del conjunto."
         }
       ],
       "correccion_aplicada": true,
@@ -1656,13 +1651,13 @@
       "verifier_model": "claude-sonnet-4-6"
     },
     "draft_original": {
-      "headline": "El empleo formal afiliado al IMSS alcanzó 22.72 millones de puestos en marzo de 2026, un nivel récord dentro del periodo disponible, impulsado por el crecimiento de los empleos permanentes.",
+      "headline": "El empleo formal alcanzó 22.75 millones de puestos en abril de 2026, un nuevo máximo dentro del periodo disponible, impulsado por el crecimiento de los trabajadores permanentes y la participación femenina.",
       "parrafos": [
-        "El empleo formal afiliado al IMSS, que mide el número de puestos de trabajo registrados ante el Instituto Mexicano del Seguro Social, alcanzó 22 millones 724 mil 680 puestos en marzo de 2026. Esta cifra representa el nivel más alto dentro del periodo de datos disponibles, que va de abril de 2024 a marzo de 2026. En términos prácticos, esto significa que el mercado laboral formal continúa expandiéndose, con una creación neta de empleo que sostiene la capacidad de consumo de los hogares.",
-        "El crecimiento del empleo total en marzo de 2026 se explica principalmente por el aumento de los puestos permanentes, que sumaron 19 millones 738 mil 191, también un máximo en el periodo. Los empleos eventuales, en cambio, se situaron en 2 millones 986 mil 489, por debajo del pico observado en noviembre de 2025. Esto sugiere que la calidad del empleo está mejorando, con una mayor proporción de trabajadores con contratos estables, lo que brinda mayor certidumbre a los hogares y apoya el consumo privado.",
-        "La desaceleración de la economía estadounidense y la persistente incertidumbre en el entorno global podrían moderar el ritmo de creación de empleo en los próximos meses. Sin embargo, el dinamismo observado en los puestos permanentes indica que las empresas mantienen expectativas favorables para contratar personal de planta, lo que refleja confianza en la demanda interna."
+        "El empleo formal, medido por los puestos de trabajo afiliados al IMSS, alcanzó 22 millones 748 mil 603 plazas en abril de 2026. Esta cifra representa el nivel más alto dentro del periodo de datos disponibles, que abarca de mayo de 2024 a abril de 2026. En términos prácticos, esto indica que el mercado laboral formal continúa expandiéndose, con una creación neta de empleo que sostiene la capacidad de consumo de los hogares.",
+        "El crecimiento se concentró en los trabajadores permanentes, que sumaron 19 millones 763 mil 238 plazas, frente a 2 millones 985 mil 365 eventuales. Respecto a abril de 2025, cuando el total era de 22 millones 417 mil 668, se agregaron aproximadamente 130 mil 935 puestos. Las mujeres representaron 9 millones 183 mil 739 de los afiliados, una participación que ha ido en aumento dentro del periodo, lo que sugiere una mayor inclusión femenina en el empleo formal.",
+        "Este desempeño ocurre en un contexto de desaceleración de la economía estadounidense, que podría afectar la demanda de exportaciones mexicanas. Sin embargo, el empleo formal muestra resiliencia, posiblemente apuntalado por la fortaleza del consumo interno y la inversión en sectores como la construcción y los servicios."
       ],
-      "diagnostico": "El empleo formal muestra un desempeño sólido, con niveles récord en el periodo y una composición favorable hacia puestos permanentes. Esto confirma que el mercado laboral sigue siendo un motor de la economía, aunque la desaceleración externa representa un riesgo para la continuidad de esta tendencia."
+      "diagnostico": "El empleo formal mantiene una tendencia positiva, con máximos históricos dentro del periodo analizado. La composición favorable hacia puestos permanentes y el avance de la participación femenina son señales de calidad en el empleo. No obstante, la desaceleración externa representa un riesgo que podría moderar la creación de empleo en los próximos meses."
     }
   },
   "enec": {

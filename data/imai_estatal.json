@@ -122,7 +122,7 @@
     },
     {
       "Entidad": "Jalisco",
-      "Indice_secundarias": null,
+      "Indice_secundarias": 99.47,
       "Indice_manufacturas": 111.08
     },
     {
@@ -188,7 +188,7 @@
     {
       "Entidad": "Tabasco",
       "Indice_secundarias": 139.19,
-      "Indice_manufacturas": 195.5
+      "Indice_manufacturas": null
     },
     {
       "Entidad": "Tamaulipas",
@@ -313,7 +313,7 @@
     {
       "Entidad": "Jalisco",
       "_geo": "14",
-      "Indice_secundarias": null,
+      "Indice_secundarias": 99.47,
       "Indice_manufacturas": 111.08,
       "_periodo": "ene-26"
     },
@@ -405,7 +405,7 @@
       "Entidad": "Tabasco",
       "_geo": "27",
       "Indice_secundarias": 139.19,
-      "Indice_manufacturas": 195.5,
+      "Indice_manufacturas": null,
       "_periodo": "ene-26"
     },
     {

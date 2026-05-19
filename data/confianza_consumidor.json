@@ -395,7 +395,7 @@
       "Pais_futura_Mensual": -3.45,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 24.67,
-      "Compra_durables_Mensual": -1.93,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -416,7 +416,7 @@
       "Pais_futura_Mensual": 0.12,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 23.53,
-      "Compra_durables_Mensual": -1.14,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -437,7 +437,7 @@
       "Pais_futura_Mensual": 3.75,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 26.51,
-      "Compra_durables_Mensual": 2.98,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -458,7 +458,7 @@
       "Pais_futura_Mensual": 0.19,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 29.15,
-      "Compra_durables_Mensual": 2.64,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -479,7 +479,7 @@
       "Pais_futura_Mensual": -4.12,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 26.88,
-      "Compra_durables_Mensual": -2.27,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -500,7 +500,7 @@
       "Pais_futura_Mensual": -4.94,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 28.54,
-      "Compra_durables_Mensual": 1.66,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -521,7 +521,7 @@
       "Pais_futura_Mensual": 2.21,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 27.02,
-      "Compra_durables_Mensual": -1.52,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -542,7 +542,7 @@
       "Pais_futura_Mensual": -0.07,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 27.4,
-      "Compra_durables_Mensual": 0.38,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -563,7 +563,7 @@
       "Pais_futura_Mensual": -7.82,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 20.29,
-      "Compra_durables_Mensual": -7.12,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -584,7 +584,7 @@
       "Pais_futura_Mensual": 2.27,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 21.38,
-      "Compra_durables_Mensual": 1.09,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -605,7 +605,7 @@
       "Pais_futura_Mensual": 2.23,
       "Pais_futura_Anual": null,
       "Compra_durables_Nivel": 22.95,
-      "Compra_durables_Mensual": 1.57,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": null
     },
     {
@@ -626,7 +626,7 @@
       "Pais_futura_Mensual": 0.66,
       "Pais_futura_Anual": -8.96,
       "Compra_durables_Nivel": 23.16,
-      "Compra_durables_Mensual": 0.21,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -3.45
     },
     {
@@ -647,7 +647,7 @@
       "Pais_futura_Mensual": 0.05,
       "Pais_futura_Anual": -5.46,
       "Compra_durables_Nivel": 25.86,
-      "Compra_durables_Mensual": 2.71,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.19
     },
     {
@@ -668,7 +668,7 @@
       "Pais_futura_Mensual": -0.62,
       "Pais_futura_Anual": -6.2,
       "Compra_durables_Nivel": 26.5,
-      "Compra_durables_Mensual": 0.64,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.97
     },
     {
@@ -689,7 +689,7 @@
       "Pais_futura_Mensual": 0.77,
       "Pais_futura_Anual": -9.18,
       "Compra_durables_Nivel": 28.54,
-      "Compra_durables_Mensual": 2.03,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.02
     },
     {
@@ -710,7 +710,7 @@
       "Pais_futura_Mensual": 0.81,
       "Pais_futura_Anual": -8.57,
       "Compra_durables_Nivel": 29.65,
-      "Compra_durables_Mensual": 1.12,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.5
     },
     {
@@ -731,7 +731,7 @@
       "Pais_futura_Mensual": 1.41,
       "Pais_futura_Anual": -3.04,
       "Compra_durables_Nivel": 27.51,
-      "Compra_durables_Mensual": -2.14,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.63
     },
     {
@@ -752,7 +752,7 @@
       "Pais_futura_Mensual": -1.82,
       "Pais_futura_Anual": 0.08,
       "Compra_durables_Nivel": 29.01,
-      "Compra_durables_Mensual": 1.5,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.47
     },
     {
@@ -773,7 +773,7 @@
       "Pais_futura_Mensual": 0.53,
       "Pais_futura_Anual": -1.6,
       "Compra_durables_Nivel": 35.25,
-      "Compra_durables_Mensual": 6.24,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 8.23
     },
     {
@@ -794,7 +794,7 @@
       "Pais_futura_Mensual": 0.06,
       "Pais_futura_Anual": -1.47,
       "Compra_durables_Nivel": 31.46,
-      "Compra_durables_Mensual": -3.79,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.06
     },
     {
@@ -815,7 +815,7 @@
       "Pais_futura_Mensual": -0.66,
       "Pais_futura_Anual": 5.69,
       "Compra_durables_Nivel": 23.56,
-      "Compra_durables_Mensual": -7.9,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.27
     },
     {
@@ -836,7 +836,7 @@
       "Pais_futura_Mensual": -1.08,
       "Pais_futura_Anual": 2.34,
       "Compra_durables_Nivel": 20.67,
-      "Compra_durables_Mensual": -2.89,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.71
     },
     {
@@ -857,7 +857,7 @@
       "Pais_futura_Mensual": -3.73,
       "Pais_futura_Anual": -3.62,
       "Compra_durables_Nivel": 18.77,
-      "Compra_durables_Mensual": -1.9,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -4.18
     },
     {
@@ -878,7 +878,7 @@
       "Pais_futura_Mensual": 4.06,
       "Pais_futura_Anual": -0.22,
       "Compra_durables_Nivel": 21.96,
-      "Compra_durables_Mensual": 3.19,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.2
     },
     {
@@ -899,7 +899,7 @@
       "Pais_futura_Mensual": 1.44,
       "Pais_futura_Anual": 1.17,
       "Compra_durables_Nivel": 21.23,
-      "Compra_durables_Mensual": -0.73,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -4.63
     },
     {
@@ -920,7 +920,7 @@
       "Pais_futura_Mensual": 1.37,
       "Pais_futura_Anual": 3.16,
       "Compra_durables_Nivel": 21.64,
-      "Compra_durables_Mensual": 0.41,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -4.86
     },
     {
@@ -941,7 +941,7 @@
       "Pais_futura_Mensual": -0.13,
       "Pais_futura_Anual": 2.27,
       "Compra_durables_Nivel": 22.5,
-      "Compra_durables_Mensual": 0.86,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -6.04
     },
     {
@@ -962,7 +962,7 @@
       "Pais_futura_Mensual": -0.46,
       "Pais_futura_Anual": 1.0,
       "Compra_durables_Nivel": 21.9,
-      "Compra_durables_Mensual": -0.6,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -7.75
     },
     {
@@ -983,7 +983,7 @@
       "Pais_futura_Mensual": -0.42,
       "Pais_futura_Anual": -0.82,
       "Compra_durables_Nivel": 21.14,
-      "Compra_durables_Mensual": -0.76,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -6.38
     },
     {
@@ -1004,7 +1004,7 @@
       "Pais_futura_Mensual": -0.39,
       "Pais_futura_Anual": 0.61,
       "Compra_durables_Nivel": 21.04,
-      "Compra_durables_Mensual": -0.1,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -7.98
     },
     {
@@ -1025,7 +1025,7 @@
       "Pais_futura_Mensual": 0.02,
       "Pais_futura_Anual": 0.1,
       "Compra_durables_Nivel": 20.89,
-      "Compra_durables_Mensual": -0.15,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -14.37
     },
     {
@@ -1046,7 +1046,7 @@
       "Pais_futura_Mensual": -1.09,
       "Pais_futura_Anual": -1.05,
       "Compra_durables_Nivel": 19.97,
-      "Compra_durables_Mensual": -0.91,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -11.49
     },
     {
@@ -1067,7 +1067,7 @@
       "Pais_futura_Mensual": -0.05,
       "Pais_futura_Anual": -0.45,
       "Compra_durables_Nivel": 19.46,
-      "Compra_durables_Mensual": -0.51,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -4.09
     },
     {
@@ -1088,7 +1088,7 @@
       "Pais_futura_Mensual": 0.45,
       "Pais_futura_Anual": 1.08,
       "Compra_durables_Nivel": 20.71,
-      "Compra_durables_Mensual": 1.24,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.04
     },
     {
@@ -1109,7 +1109,7 @@
       "Pais_futura_Mensual": -2.03,
       "Pais_futura_Anual": 2.79,
       "Compra_durables_Nivel": 21.32,
-      "Compra_durables_Mensual": 0.61,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.55
     },
     {
@@ -1130,7 +1130,7 @@
       "Pais_futura_Mensual": 1.46,
       "Pais_futura_Anual": 0.18,
       "Compra_durables_Nivel": 21.63,
-      "Compra_durables_Mensual": 0.32,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.32
     },
     {
@@ -1151,7 +1151,7 @@
       "Pais_futura_Mensual": 0.14,
       "Pais_futura_Anual": -1.12,
       "Compra_durables_Nivel": 23.71,
-      "Compra_durables_Mensual": 2.08,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.48
     },
     {
@@ -1172,7 +1172,7 @@
       "Pais_futura_Mensual": 0.61,
       "Pais_futura_Anual": -1.87,
       "Compra_durables_Nivel": 23.76,
-      "Compra_durables_Mensual": 0.05,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.12
     },
     {
@@ -1193,7 +1193,7 @@
       "Pais_futura_Mensual": -1.21,
       "Pais_futura_Anual": -2.96,
       "Compra_durables_Nivel": 21.51,
-      "Compra_durables_Mensual": -2.25,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.99
     },
     {
@@ -1214,7 +1214,7 @@
       "Pais_futura_Mensual": 0.62,
       "Pais_futura_Anual": -1.88,
       "Compra_durables_Nivel": 20.15,
-      "Compra_durables_Mensual": -1.36,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.75
     },
     {
@@ -1235,7 +1235,7 @@
       "Pais_futura_Mensual": 0.2,
       "Pais_futura_Anual": -1.26,
       "Compra_durables_Nivel": 21.87,
-      "Compra_durables_Mensual": 1.72,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.74
     },
     {
@@ -1256,7 +1256,7 @@
       "Pais_futura_Mensual": 0.8,
       "Pais_futura_Anual": -0.07,
       "Compra_durables_Nivel": 21.29,
-      "Compra_durables_Mensual": -0.58,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.25
     },
     {
@@ -1277,7 +1277,7 @@
       "Pais_futura_Mensual": -0.03,
       "Pais_futura_Anual": -0.13,
       "Compra_durables_Nivel": 22.05,
-      "Compra_durables_Mensual": 0.76,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.17
     },
     {
@@ -1298,7 +1298,7 @@
       "Pais_futura_Mensual": 0.1,
       "Pais_futura_Anual": 1.06,
       "Compra_durables_Nivel": 23.72,
-      "Compra_durables_Mensual": 1.67,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.75
     },
     {
@@ -1319,7 +1319,7 @@
       "Pais_futura_Mensual": 1.16,
       "Pais_futura_Anual": 2.27,
       "Compra_durables_Nivel": 23.79,
-      "Compra_durables_Mensual": 0.06,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.32
     },
     {
@@ -1340,7 +1340,7 @@
       "Pais_futura_Mensual": 1.63,
       "Pais_futura_Anual": 3.45,
       "Compra_durables_Nivel": 26.95,
-      "Compra_durables_Mensual": 3.16,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 6.24
     },
     {
@@ -1361,7 +1361,7 @@
       "Pais_futura_Mensual": -1.59,
       "Pais_futura_Anual": 3.89,
       "Compra_durables_Nivel": 24.85,
-      "Compra_durables_Mensual": -2.09,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.54
     },
     {
@@ -1382,7 +1382,7 @@
       "Pais_futura_Mensual": -2.02,
       "Pais_futura_Anual": 0.42,
       "Compra_durables_Nivel": 24.65,
-      "Compra_durables_Mensual": -0.21,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.01
     },
     {
@@ -1403,7 +1403,7 @@
       "Pais_futura_Mensual": 0.5,
       "Pais_futura_Anual": 0.77,
       "Compra_durables_Nivel": 22.09,
-      "Compra_durables_Mensual": -2.56,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.62
     },
     {
@@ -1424,7 +1424,7 @@
       "Pais_futura_Mensual": -0.46,
       "Pais_futura_Anual": -0.3,
       "Compra_durables_Nivel": 23.89,
-      "Compra_durables_Mensual": 1.8,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.13
     },
     {
@@ -1445,7 +1445,7 @@
       "Pais_futura_Mensual": 1.1,
       "Pais_futura_Anual": 2.02,
       "Compra_durables_Nivel": 23.03,
-      "Compra_durables_Mensual": -0.86,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.52
     },
     {
@@ -1466,7 +1466,7 @@
       "Pais_futura_Mensual": -1.65,
       "Pais_futura_Anual": -0.25,
       "Compra_durables_Nivel": 23.05,
-      "Compra_durables_Mensual": 0.03,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.9
     },
     {
@@ -1487,7 +1487,7 @@
       "Pais_futura_Mensual": 0.93,
       "Pais_futura_Anual": 0.47,
       "Compra_durables_Nivel": 25.17,
-      "Compra_durables_Mensual": 2.12,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.3
     },
     {
@@ -1508,7 +1508,7 @@
       "Pais_futura_Mensual": 1.94,
       "Pais_futura_Anual": 1.61,
       "Compra_durables_Nivel": 25.23,
-      "Compra_durables_Mensual": 0.06,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.94
     },
     {
@@ -1529,7 +1529,7 @@
       "Pais_futura_Mensual": 0.12,
       "Pais_futura_Anual": 1.76,
       "Compra_durables_Nivel": 24.86,
-      "Compra_durables_Mensual": -0.38,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.8
     },
     {
@@ -1550,7 +1550,7 @@
       "Pais_futura_Mensual": 0.43,
       "Pais_futura_Anual": 2.1,
       "Compra_durables_Nivel": 24.98,
-      "Compra_durables_Mensual": 0.13,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.26
     },
     {
@@ -1571,7 +1571,7 @@
       "Pais_futura_Mensual": -0.15,
       "Pais_futura_Anual": 0.78,
       "Compra_durables_Nivel": 27.09,
-      "Compra_durables_Mensual": 2.1,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.3
     },
     {
@@ -1592,7 +1592,7 @@
       "Pais_futura_Mensual": 0.99,
       "Pais_futura_Anual": 0.14,
       "Compra_durables_Nivel": 28.54,
-      "Compra_durables_Mensual": 1.46,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.6
     },
     {
@@ -1613,7 +1613,7 @@
       "Pais_futura_Mensual": 0.06,
       "Pais_futura_Anual": 1.79,
       "Compra_durables_Nivel": 29.65,
-      "Compra_durables_Mensual": 1.1,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.8
     },
     {
@@ -1634,7 +1634,7 @@
       "Pais_futura_Mensual": 1.0,
       "Pais_futura_Anual": 4.81,
       "Compra_durables_Nivel": 26.64,
-      "Compra_durables_Mensual": -3.01,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.99
     },
     {
@@ -1655,7 +1655,7 @@
       "Pais_futura_Mensual": -1.19,
       "Pais_futura_Anual": 3.11,
       "Compra_durables_Nivel": 27.59,
-      "Compra_durables_Mensual": 0.96,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 5.51
     },
     {
@@ -1676,7 +1676,7 @@
       "Pais_futura_Mensual": 1.1,
       "Pais_futura_Anual": 4.68,
       "Compra_durables_Nivel": 25.38,
-      "Compra_durables_Mensual": -2.21,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.49
     },
     {
@@ -1697,7 +1697,7 @@
       "Pais_futura_Mensual": 0.39,
       "Pais_futura_Anual": 3.97,
       "Compra_durables_Nivel": 27.34,
-      "Compra_durables_Mensual": 1.96,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.31
     },
     {
@@ -1718,7 +1718,7 @@
       "Pais_futura_Mensual": -0.2,
       "Pais_futura_Anual": 5.41,
       "Compra_durables_Nivel": 27.55,
-      "Compra_durables_Mensual": 0.21,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.49
     },
     {
@@ -1739,7 +1739,7 @@
       "Pais_futura_Mensual": 0.39,
       "Pais_futura_Anual": 4.88,
       "Compra_durables_Nivel": 27.24,
-      "Compra_durables_Mensual": -0.3,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.07
     },
     {
@@ -1760,7 +1760,7 @@
       "Pais_futura_Mensual": 1.59,
       "Pais_futura_Anual": 4.53,
       "Compra_durables_Nivel": 28.0,
-      "Compra_durables_Mensual": 0.76,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.77
     },
     {
@@ -1781,7 +1781,7 @@
       "Pais_futura_Mensual": -0.37,
       "Pais_futura_Anual": 4.04,
       "Compra_durables_Nivel": 27.83,
-      "Compra_durables_Mensual": -0.17,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.97
     },
     {
@@ -1802,7 +1802,7 @@
       "Pais_futura_Mensual": 0.17,
       "Pais_futura_Anual": 3.77,
       "Compra_durables_Nivel": 26.1,
-      "Compra_durables_Mensual": -1.73,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.11
     },
     {
@@ -1823,7 +1823,7 @@
       "Pais_futura_Mensual": -1.26,
       "Pais_futura_Anual": 2.66,
       "Compra_durables_Nivel": 25.42,
-      "Compra_durables_Mensual": -0.68,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.67
     },
     {
@@ -1844,7 +1844,7 @@
       "Pais_futura_Mensual": -1.4,
       "Pais_futura_Anual": 0.27,
       "Compra_durables_Nivel": 26.36,
-      "Compra_durables_Mensual": 0.94,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -2.19
     },
     {
@@ -1865,7 +1865,7 @@
       "Pais_futura_Mensual": 0.91,
       "Pais_futura_Anual": 1.12,
       "Compra_durables_Nivel": 26.12,
-      "Compra_durables_Mensual": -0.24,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -3.53
     },
     {
@@ -1886,7 +1886,7 @@
       "Pais_futura_Mensual": -1.24,
       "Pais_futura_Anual": -1.12,
       "Compra_durables_Nivel": 26.47,
-      "Compra_durables_Mensual": 0.35,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.16
     },
     {
@@ -1907,7 +1907,7 @@
       "Pais_futura_Mensual": 1.58,
       "Pais_futura_Anual": 1.66,
       "Compra_durables_Nivel": 26.38,
-      "Compra_durables_Mensual": -0.09,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.21
     },
     {
@@ -1928,7 +1928,7 @@
       "Pais_futura_Mensual": -1.23,
       "Pais_futura_Anual": -0.68,
       "Compra_durables_Nivel": 25.72,
-      "Compra_durables_Mensual": -0.66,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.34
     },
     {
@@ -1949,7 +1949,7 @@
       "Pais_futura_Mensual": -1.15,
       "Pais_futura_Anual": -2.21,
       "Compra_durables_Nivel": 25.8,
-      "Compra_durables_Mensual": 0.08,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.54
     },
     {
@@ -1970,7 +1970,7 @@
       "Pais_futura_Mensual": 1.6,
       "Pais_futura_Anual": -0.41,
       "Compra_durables_Nivel": 27.09,
-      "Compra_durables_Mensual": 1.3,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.46
     },
     {
@@ -1991,7 +1991,7 @@
       "Pais_futura_Mensual": -1.79,
       "Pais_futura_Anual": -2.59,
       "Compra_durables_Nivel": 25.06,
-      "Compra_durables_Mensual": -2.03,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -2.18
     },
     {
@@ -2012,7 +2012,7 @@
       "Pais_futura_Mensual": -3.13,
       "Pais_futura_Anual": -7.31,
       "Compra_durables_Nivel": 27.2,
-      "Compra_durables_Mensual": 2.14,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.8
     },
     {
@@ -2033,7 +2033,7 @@
       "Pais_futura_Mensual": 0.76,
       "Pais_futura_Anual": -6.17,
       "Compra_durables_Nivel": 25.93,
-      "Compra_durables_Mensual": -1.27,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.9
     },
     {
@@ -2054,7 +2054,7 @@
       "Pais_futura_Mensual": 0.54,
       "Pais_futura_Anual": -5.8,
       "Compra_durables_Nivel": 27.48,
-      "Compra_durables_Mensual": 1.55,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.38
     },
     {
@@ -2075,7 +2075,7 @@
       "Pais_futura_Mensual": -0.76,
       "Pais_futura_Anual": -5.3,
       "Compra_durables_Nivel": 26.74,
-      "Compra_durables_Mensual": -0.74,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.32
     },
     {
@@ -2096,7 +2096,7 @@
       "Pais_futura_Mensual": -0.05,
       "Pais_futura_Anual": -3.95,
       "Compra_durables_Nivel": 26.37,
-      "Compra_durables_Mensual": -0.37,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.01
     },
     {
@@ -2117,7 +2117,7 @@
       "Pais_futura_Mensual": -0.13,
       "Pais_futura_Anual": -4.99,
       "Compra_durables_Nivel": 26.03,
-      "Compra_durables_Mensual": -0.34,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.09
     },
     {
@@ -2138,7 +2138,7 @@
       "Pais_futura_Mensual": -1.1,
       "Pais_futura_Anual": -4.85,
       "Compra_durables_Nivel": 23.91,
-      "Compra_durables_Mensual": -2.11,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -2.56
     },
     {
@@ -2159,7 +2159,7 @@
       "Pais_futura_Mensual": -1.02,
       "Pais_futura_Anual": -7.45,
       "Compra_durables_Nivel": 21.05,
-      "Compra_durables_Mensual": -2.86,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -5.33
     },
     {
@@ -2180,7 +2180,7 @@
       "Pais_futura_Mensual": -2.09,
       "Pais_futura_Anual": -8.31,
       "Compra_durables_Nivel": 19.33,
-      "Compra_durables_Mensual": -1.72,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -6.38
     },
     {
@@ -2201,7 +2201,7 @@
       "Pais_futura_Mensual": -1.66,
       "Pais_futura_Anual": -8.82,
       "Compra_durables_Nivel": 19.35,
-      "Compra_durables_Mensual": 0.01,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -6.45
     },
     {
@@ -2222,7 +2222,7 @@
       "Pais_futura_Mensual": 0.09,
       "Pais_futura_Anual": -10.34,
       "Compra_durables_Nivel": 19.05,
-      "Compra_durables_Mensual": -0.3,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -8.04
     },
     {
@@ -2243,7 +2243,7 @@
       "Pais_futura_Mensual": 0.21,
       "Pais_futura_Anual": -8.34,
       "Compra_durables_Nivel": 19.55,
-      "Compra_durables_Mensual": 0.5,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -5.52
     },
     {
@@ -2264,7 +2264,7 @@
       "Pais_futura_Mensual": -2.03,
       "Pais_futura_Anual": -7.24,
       "Compra_durables_Nivel": 17.19,
-      "Compra_durables_Mensual": -2.36,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -10.01
     },
     {
@@ -2285,7 +2285,7 @@
       "Pais_futura_Mensual": 1.87,
       "Pais_futura_Anual": -6.14,
       "Compra_durables_Nivel": 18.45,
-      "Compra_durables_Mensual": 1.26,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -7.48
     },
     {
@@ -2306,7 +2306,7 @@
       "Pais_futura_Mensual": -2.3,
       "Pais_futura_Anual": -8.98,
       "Compra_durables_Nivel": 17.65,
-      "Compra_durables_Mensual": -0.8,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -9.83
     },
     {
@@ -2327,7 +2327,7 @@
       "Pais_futura_Mensual": 1.69,
       "Pais_futura_Anual": -6.53,
       "Compra_durables_Nivel": 15.74,
-      "Compra_durables_Mensual": -1.91,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -11.0
     },
     {
@@ -2348,7 +2348,7 @@
       "Pais_futura_Mensual": 0.68,
       "Pais_futura_Anual": -5.8,
       "Compra_durables_Nivel": 14.26,
-      "Compra_durables_Mensual": -1.48,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -12.11
     },
     {
@@ -2369,7 +2369,7 @@
       "Pais_futura_Mensual": -0.34,
       "Pais_futura_Anual": -6.02,
       "Compra_durables_Nivel": 14.98,
-      "Compra_durables_Mensual": 0.72,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -11.05
     },
     {
@@ -2390,7 +2390,7 @@
       "Pais_futura_Mensual": 1.68,
       "Pais_futura_Anual": -3.24,
       "Compra_durables_Nivel": 15.81,
-      "Compra_durables_Mensual": 0.83,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -8.1
     },
     {
@@ -2411,7 +2411,7 @@
       "Pais_futura_Mensual": -0.52,
       "Pais_futura_Anual": -2.74,
       "Compra_durables_Nivel": 13.34,
-      "Compra_durables_Mensual": -2.47,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -7.71
     },
     {
@@ -2432,7 +2432,7 @@
       "Pais_futura_Mensual": 0.67,
       "Pais_futura_Anual": 0.02,
       "Compra_durables_Nivel": 14.49,
-      "Compra_durables_Mensual": 1.15,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -4.84
     },
     {
@@ -2453,7 +2453,7 @@
       "Pais_futura_Mensual": 1.29,
       "Pais_futura_Anual": 2.98,
       "Compra_durables_Nivel": 15.93,
-      "Compra_durables_Mensual": 1.43,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -3.42
     },
     {
@@ -2474,7 +2474,7 @@
       "Pais_futura_Mensual": 0.05,
       "Pais_futura_Anual": 2.94,
       "Compra_durables_Nivel": 13.92,
-      "Compra_durables_Mensual": -2.01,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -5.13
     },
     {
@@ -2495,7 +2495,7 @@
       "Pais_futura_Mensual": -1.32,
       "Pais_futura_Anual": 1.42,
       "Compra_durables_Nivel": 14.55,
-      "Compra_durables_Mensual": 0.64,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -4.99
     },
     {
@@ -2516,7 +2516,7 @@
       "Pais_futura_Mensual": -0.83,
       "Pais_futura_Anual": 2.61,
       "Compra_durables_Nivel": 13.88,
-      "Compra_durables_Mensual": -0.67,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -3.31
     },
     {
@@ -2537,7 +2537,7 @@
       "Pais_futura_Mensual": 0.97,
       "Pais_futura_Anual": 1.72,
       "Compra_durables_Nivel": 13.94,
-      "Compra_durables_Mensual": 0.06,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -4.51
     },
     {
@@ -2558,7 +2558,7 @@
       "Pais_futura_Mensual": 0.4,
       "Pais_futura_Anual": 4.41,
       "Compra_durables_Nivel": 13.61,
-      "Compra_durables_Mensual": -0.33,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -4.04
     },
     {
@@ -2579,7 +2579,7 @@
       "Pais_futura_Mensual": 0.97,
       "Pais_futura_Anual": 3.69,
       "Compra_durables_Nivel": 14.12,
-      "Compra_durables_Mensual": 0.5,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.63
     },
     {
@@ -2600,7 +2600,7 @@
       "Pais_futura_Mensual": -0.63,
       "Pais_futura_Anual": 2.39,
       "Compra_durables_Nivel": 13.67,
-      "Compra_durables_Mensual": -0.44,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.59
     },
     {
@@ -2621,7 +2621,7 @@
       "Pais_futura_Mensual": 0.44,
       "Pais_futura_Anual": 3.17,
       "Compra_durables_Nivel": 14.58,
-      "Compra_durables_Mensual": 0.91,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.39
     },
     {
@@ -2642,7 +2642,7 @@
       "Pais_futura_Mensual": -0.75,
       "Pais_futura_Anual": 0.74,
       "Compra_durables_Nivel": 13.87,
-      "Compra_durables_Mensual": -0.71,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.94
     },
     {
@@ -2663,7 +2663,7 @@
       "Pais_futura_Mensual": 1.26,
       "Pais_futura_Anual": 2.53,
       "Compra_durables_Nivel": 15.34,
-      "Compra_durables_Mensual": 1.47,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.0
     },
     {
@@ -2684,7 +2684,7 @@
       "Pais_futura_Mensual": 0.77,
       "Pais_futura_Anual": 2.62,
       "Compra_durables_Nivel": 16.04,
-      "Compra_durables_Mensual": 0.7,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.54
     },
     {
@@ -2705,7 +2705,7 @@
       "Pais_futura_Mensual": -0.0,
       "Pais_futura_Anual": 1.33,
       "Compra_durables_Nivel": 15.4,
-      "Compra_durables_Mensual": -0.64,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.53
     },
     {
@@ -2726,7 +2726,7 @@
       "Pais_futura_Mensual": -0.15,
       "Pais_futura_Anual": 1.13,
       "Compra_durables_Nivel": 16.93,
-      "Compra_durables_Mensual": 1.53,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.01
     },
     {
@@ -2747,7 +2747,7 @@
       "Pais_futura_Mensual": 1.86,
       "Pais_futura_Anual": 4.31,
       "Compra_durables_Nivel": 17.3,
-      "Compra_durables_Mensual": 0.37,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.75
     },
     {
@@ -2768,7 +2768,7 @@
       "Pais_futura_Mensual": 1.87,
       "Pais_futura_Anual": 7.01,
       "Compra_durables_Nivel": 17.4,
-      "Compra_durables_Mensual": 0.1,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.52
     },
     {
@@ -2789,7 +2789,7 @@
       "Pais_futura_Mensual": -2.08,
       "Pais_futura_Anual": 3.96,
       "Compra_durables_Nivel": 17.34,
-      "Compra_durables_Mensual": -0.06,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.4
     },
     {
@@ -2810,7 +2810,7 @@
       "Pais_futura_Mensual": 0.11,
       "Pais_futura_Anual": 3.67,
       "Compra_durables_Nivel": 17.58,
-      "Compra_durables_Mensual": 0.24,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.97
     },
     {
@@ -2831,7 +2831,7 @@
       "Pais_futura_Mensual": -0.11,
       "Pais_futura_Anual": 2.59,
       "Compra_durables_Nivel": 19.07,
-      "Compra_durables_Mensual": 1.49,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.96
     },
     {
@@ -2852,7 +2852,7 @@
       "Pais_futura_Mensual": 0.41,
       "Pais_futura_Anual": 3.63,
       "Compra_durables_Nivel": 19.73,
-      "Compra_durables_Mensual": 0.65,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 6.05
     },
     {
@@ -2873,7 +2873,7 @@
       "Pais_futura_Mensual": -0.53,
       "Pais_futura_Anual": 2.66,
       "Compra_durables_Nivel": 19.14,
-      "Compra_durables_Mensual": -0.58,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.56
     },
     {
@@ -2894,7 +2894,7 @@
       "Pais_futura_Mensual": -0.14,
       "Pais_futura_Anual": 3.27,
       "Compra_durables_Nivel": 17.68,
-      "Compra_durables_Mensual": -1.47,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.81
     },
     {
@@ -2915,7 +2915,7 @@
       "Pais_futura_Mensual": -0.81,
       "Pais_futura_Anual": 1.2,
       "Compra_durables_Nivel": 17.23,
-      "Compra_durables_Mensual": -0.44,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.9
     },
     {
@@ -2936,7 +2936,7 @@
       "Pais_futura_Mensual": 1.09,
       "Pais_futura_Anual": 1.51,
       "Compra_durables_Nivel": 19.2,
-      "Compra_durables_Mensual": 1.96,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.16
     },
     {
@@ -2957,7 +2957,7 @@
       "Pais_futura_Mensual": 0.53,
       "Pais_futura_Anual": 2.05,
       "Compra_durables_Nivel": 19.71,
-      "Compra_durables_Mensual": 0.52,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.31
     },
     {
@@ -2978,7 +2978,7 @@
       "Pais_futura_Mensual": -0.79,
       "Pais_futura_Anual": 1.4,
       "Compra_durables_Nivel": 19.27,
-      "Compra_durables_Mensual": -0.45,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.34
     },
     {
@@ -2999,7 +2999,7 @@
       "Pais_futura_Mensual": 0.12,
       "Pais_futura_Anual": -0.34,
       "Compra_durables_Nivel": 19.02,
-      "Compra_durables_Mensual": -0.24,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.72
     },
     {
@@ -3020,7 +3020,7 @@
       "Pais_futura_Mensual": -0.08,
       "Pais_futura_Anual": -2.28,
       "Compra_durables_Nivel": 19.72,
-      "Compra_durables_Mensual": 0.69,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.32
     },
     {
@@ -3041,7 +3041,7 @@
       "Pais_futura_Mensual": 0.22,
       "Pais_futura_Anual": 0.02,
       "Compra_durables_Nivel": 18.7,
-      "Compra_durables_Mensual": -1.01,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.36
     },
     {
@@ -3062,7 +3062,7 @@
       "Pais_futura_Mensual": -2.32,
       "Pais_futura_Anual": -2.41,
       "Compra_durables_Nivel": 19.63,
-      "Compra_durables_Mensual": 0.93,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.05
     },
     {
@@ -3083,7 +3083,7 @@
       "Pais_futura_Mensual": 1.64,
       "Pais_futura_Anual": -0.65,
       "Compra_durables_Nivel": 21.77,
-      "Compra_durables_Mensual": 2.14,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.7
     },
     {
@@ -3104,7 +3104,7 @@
       "Pais_futura_Mensual": 1.55,
       "Pais_futura_Anual": 0.48,
       "Compra_durables_Nivel": 20.18,
-      "Compra_durables_Mensual": -1.59,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.45
     },
     {
@@ -3125,7 +3125,7 @@
       "Pais_futura_Mensual": -0.59,
       "Pais_futura_Anual": 0.43,
       "Compra_durables_Nivel": 19.91,
-      "Compra_durables_Mensual": -0.27,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.77
     },
     {
@@ -3146,7 +3146,7 @@
       "Pais_futura_Mensual": 1.22,
       "Pais_futura_Anual": 1.79,
       "Compra_durables_Nivel": 21.64,
-      "Compra_durables_Mensual": 1.73,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.96
     },
     {
@@ -3167,7 +3167,7 @@
       "Pais_futura_Mensual": 0.02,
       "Pais_futura_Anual": 2.62,
       "Compra_durables_Nivel": 21.22,
-      "Compra_durables_Mensual": -0.42,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.98
     },
     {
@@ -3188,7 +3188,7 @@
       "Pais_futura_Mensual": -0.32,
       "Pais_futura_Anual": 1.21,
       "Compra_durables_Nivel": 19.8,
-      "Compra_durables_Mensual": -1.42,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.6
     },
     {
@@ -3209,7 +3209,7 @@
       "Pais_futura_Mensual": 1.17,
       "Pais_futura_Anual": 1.85,
       "Compra_durables_Nivel": 19.81,
-      "Compra_durables_Mensual": 0.01,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.1
     },
     {
@@ -3230,7 +3230,7 @@
       "Pais_futura_Mensual": 0.53,
       "Pais_futura_Anual": 3.18,
       "Compra_durables_Nivel": 18.97,
-      "Compra_durables_Mensual": -0.84,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.3
     },
     {
@@ -3251,7 +3251,7 @@
       "Pais_futura_Mensual": -1.26,
       "Pais_futura_Anual": 1.79,
       "Compra_durables_Nivel": 18.37,
-      "Compra_durables_Mensual": -0.6,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.65
     },
     {
@@ -3272,7 +3272,7 @@
       "Pais_futura_Mensual": 0.22,
       "Pais_futura_Anual": 2.09,
       "Compra_durables_Nivel": 19.54,
-      "Compra_durables_Mensual": 1.17,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.18
     },
     {
@@ -3293,7 +3293,7 @@
       "Pais_futura_Mensual": 0.37,
       "Pais_futura_Anual": 2.24,
       "Compra_durables_Nivel": 19.94,
-      "Compra_durables_Mensual": 0.4,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.23
     },
     {
@@ -3314,7 +3314,7 @@
       "Pais_futura_Mensual": 1.83,
       "Pais_futura_Anual": 6.39,
       "Compra_durables_Nivel": 20.01,
-      "Compra_durables_Mensual": 0.07,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.37
     },
     {
@@ -3335,7 +3335,7 @@
       "Pais_futura_Mensual": 0.06,
       "Pais_futura_Anual": 4.8,
       "Compra_durables_Nivel": 20.01,
-      "Compra_durables_Mensual": 0.01,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.76
     },
     {
@@ -3356,7 +3356,7 @@
       "Pais_futura_Mensual": -1.96,
       "Pais_futura_Anual": 1.29,
       "Compra_durables_Nivel": 20.54,
-      "Compra_durables_Mensual": 0.53,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.36
     },
     {
@@ -3377,7 +3377,7 @@
       "Pais_futura_Mensual": 0.17,
       "Pais_futura_Anual": 2.05,
       "Compra_durables_Nivel": 19.15,
-      "Compra_durables_Mensual": -1.39,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.76
     },
     {
@@ -3398,7 +3398,7 @@
       "Pais_futura_Mensual": -0.44,
       "Pais_futura_Anual": 0.39,
       "Compra_durables_Nivel": 20.06,
-      "Compra_durables_Mensual": 0.91,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.58
     },
     {
@@ -3419,7 +3419,7 @@
       "Pais_futura_Mensual": -0.62,
       "Pais_futura_Anual": -0.24,
       "Compra_durables_Nivel": 19.64,
-      "Compra_durables_Mensual": -0.42,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.58
     },
     {
@@ -3440,7 +3440,7 @@
       "Pais_futura_Mensual": -1.88,
       "Pais_futura_Anual": -1.8,
       "Compra_durables_Nivel": 19.06,
-      "Compra_durables_Mensual": -0.58,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.74
     },
     {
@@ -3461,7 +3461,7 @@
       "Pais_futura_Mensual": 1.28,
       "Pais_futura_Anual": -1.69,
       "Compra_durables_Nivel": 20.01,
-      "Compra_durables_Mensual": 0.95,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.2
     },
     {
@@ -3482,7 +3482,7 @@
       "Pais_futura_Mensual": 0.55,
       "Pais_futura_Anual": -1.67,
       "Compra_durables_Nivel": 20.13,
-      "Compra_durables_Mensual": 0.13,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.17
     },
     {
@@ -3503,7 +3503,7 @@
       "Pais_futura_Mensual": -1.42,
       "Pais_futura_Anual": -1.84,
       "Compra_durables_Nivel": 19.76,
-      "Compra_durables_Mensual": -0.37,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.39
     },
     {
@@ -3524,7 +3524,7 @@
       "Pais_futura_Mensual": -0.99,
       "Pais_futura_Anual": -3.05,
       "Compra_durables_Nivel": 18.72,
-      "Compra_durables_Mensual": -1.05,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.82
     },
     {
@@ -3545,7 +3545,7 @@
       "Pais_futura_Mensual": -2.43,
       "Pais_futura_Anual": -5.84,
       "Compra_durables_Nivel": 18.76,
-      "Compra_durables_Mensual": 0.04,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.18
     },
     {
@@ -3566,7 +3566,7 @@
       "Pais_futura_Mensual": 0.46,
       "Pais_futura_Anual": -7.21,
       "Compra_durables_Nivel": 18.19,
-      "Compra_durables_Mensual": -0.56,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.81
     },
     {
@@ -3587,7 +3587,7 @@
       "Pais_futura_Mensual": -1.34,
       "Pais_futura_Anual": -8.61,
       "Compra_durables_Nivel": 15.51,
-      "Compra_durables_Mensual": -2.68,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -4.5
     },
     {
@@ -3608,7 +3608,7 @@
       "Pais_futura_Mensual": 0.7,
       "Pais_futura_Anual": -5.95,
       "Compra_durables_Nivel": 15.44,
-      "Compra_durables_Mensual": -0.07,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -5.1
     },
     {
@@ -3629,7 +3629,7 @@
       "Pais_futura_Mensual": 0.55,
       "Pais_futura_Anual": -5.56,
       "Compra_durables_Nivel": 18.59,
-      "Compra_durables_Mensual": 3.15,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.56
     },
     {
@@ -3650,7 +3650,7 @@
       "Pais_futura_Mensual": 0.01,
       "Pais_futura_Anual": -5.12,
       "Compra_durables_Nivel": 19.13,
-      "Compra_durables_Mensual": 0.54,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.93
     },
     {
@@ -3671,7 +3671,7 @@
       "Pais_futura_Mensual": -0.18,
       "Pais_futura_Anual": -4.68,
       "Compra_durables_Nivel": 18.6,
-      "Compra_durables_Mensual": -0.54,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.04
     },
     {
@@ -3692,7 +3692,7 @@
       "Pais_futura_Mensual": 0.24,
       "Pais_futura_Anual": -2.57,
       "Compra_durables_Nivel": 18.54,
-      "Compra_durables_Mensual": -0.06,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.52
     },
     {
@@ -3713,7 +3713,7 @@
       "Pais_futura_Mensual": -1.33,
       "Pais_futura_Anual": -5.18,
       "Compra_durables_Nivel": 18.81,
-      "Compra_durables_Mensual": 0.26,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.2
     },
     {
@@ -3734,7 +3734,7 @@
       "Pais_futura_Mensual": 0.36,
       "Pais_futura_Anual": -5.37,
       "Compra_durables_Nivel": 18.05,
-      "Compra_durables_Mensual": -0.76,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -2.08
     },
     {
@@ -3755,7 +3755,7 @@
       "Pais_futura_Mensual": 1.28,
       "Pais_futura_Anual": -2.67,
       "Compra_durables_Nivel": 19.07,
-      "Compra_durables_Mensual": 1.02,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.7
     },
     {
@@ -3776,7 +3776,7 @@
       "Pais_futura_Mensual": -1.24,
       "Pais_futura_Anual": -2.92,
       "Compra_durables_Nivel": 19.26,
-      "Compra_durables_Mensual": 0.19,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.55
     },
     {
@@ -3797,7 +3797,7 @@
       "Pais_futura_Mensual": 1.02,
       "Pais_futura_Anual": 0.53,
       "Compra_durables_Nivel": 20.55,
-      "Compra_durables_Mensual": 1.29,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.79
     },
     {
@@ -3818,7 +3818,7 @@
       "Pais_futura_Mensual": -1.05,
       "Pais_futura_Anual": -0.98,
       "Compra_durables_Nivel": 20.78,
-      "Compra_durables_Mensual": 0.22,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.58
     },
     {
@@ -3839,7 +3839,7 @@
       "Pais_futura_Mensual": 1.51,
       "Pais_futura_Anual": 1.88,
       "Compra_durables_Nivel": 18.46,
-      "Compra_durables_Mensual": -2.31,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.95
     },
     {
@@ -3860,7 +3860,7 @@
       "Pais_futura_Mensual": -1.31,
       "Pais_futura_Anual": -0.13,
       "Compra_durables_Nivel": 21.12,
-      "Compra_durables_Mensual": 2.66,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 5.68
     },
     {
@@ -3881,7 +3881,7 @@
       "Pais_futura_Mensual": 0.45,
       "Pais_futura_Anual": -0.23,
       "Compra_durables_Nivel": 21.84,
-      "Compra_durables_Mensual": 0.71,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.24
     },
     {
@@ -3902,7 +3902,7 @@
       "Pais_futura_Mensual": -1.26,
       "Pais_futura_Anual": -1.5,
       "Compra_durables_Nivel": 20.74,
-      "Compra_durables_Mensual": -1.1,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.61
     },
     {
@@ -3923,7 +3923,7 @@
       "Pais_futura_Mensual": -0.23,
       "Pais_futura_Anual": -1.55,
       "Compra_durables_Nivel": 20.45,
-      "Compra_durables_Mensual": -0.29,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.85
     },
     {
@@ -3944,7 +3944,7 @@
       "Pais_futura_Mensual": 2.0,
       "Pais_futura_Anual": 0.22,
       "Compra_durables_Nivel": 21.39,
-      "Compra_durables_Mensual": 0.94,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.85
     },
     {
@@ -3965,7 +3965,7 @@
       "Pais_futura_Mensual": -1.8,
       "Pais_futura_Anual": -0.26,
       "Compra_durables_Nivel": 20.12,
-      "Compra_durables_Mensual": -1.27,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.31
     },
     {
@@ -3986,7 +3986,7 @@
       "Pais_futura_Mensual": -1.13,
       "Pais_futura_Anual": -1.75,
       "Compra_durables_Nivel": 20.92,
-      "Compra_durables_Mensual": 0.8,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.87
     },
     {
@@ -4007,7 +4007,7 @@
       "Pais_futura_Mensual": 0.52,
       "Pais_futura_Anual": -2.5,
       "Compra_durables_Nivel": 20.86,
-      "Compra_durables_Mensual": -0.06,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.79
     },
     {
@@ -4028,7 +4028,7 @@
       "Pais_futura_Mensual": 0.93,
       "Pais_futura_Anual": -0.33,
       "Compra_durables_Nivel": 20.52,
-      "Compra_durables_Mensual": -0.33,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.26
     },
     {
@@ -4049,7 +4049,7 @@
       "Pais_futura_Mensual": -0.24,
       "Pais_futura_Anual": -1.6,
       "Compra_durables_Nivel": 20.79,
-      "Compra_durables_Mensual": 0.27,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.24
     },
     {
@@ -4070,7 +4070,7 @@
       "Pais_futura_Mensual": -0.28,
       "Pais_futura_Anual": -0.83,
       "Compra_durables_Nivel": 20.8,
-      "Compra_durables_Mensual": 0.01,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.03
     },
     {
@@ -4091,7 +4091,7 @@
       "Pais_futura_Mensual": -0.48,
       "Pais_futura_Anual": -2.82,
       "Compra_durables_Nivel": 21.35,
-      "Compra_durables_Mensual": 0.54,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.89
     },
     {
@@ -4112,7 +4112,7 @@
       "Pais_futura_Mensual": -0.66,
       "Pais_futura_Anual": -2.17,
       "Compra_durables_Nivel": 21.42,
-      "Compra_durables_Mensual": 0.07,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.3
     },
     {
@@ -4133,7 +4133,7 @@
       "Pais_futura_Mensual": -0.76,
       "Pais_futura_Anual": -3.39,
       "Compra_durables_Nivel": 21.51,
-      "Compra_durables_Mensual": 0.09,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.32
     },
     {
@@ -4154,7 +4154,7 @@
       "Pais_futura_Mensual": -0.57,
       "Pais_futura_Anual": -2.71,
       "Compra_durables_Nivel": 21.23,
-      "Compra_durables_Mensual": -0.29,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.49
     },
     {
@@ -4175,7 +4175,7 @@
       "Pais_futura_Mensual": 0.37,
       "Pais_futura_Anual": -2.11,
       "Compra_durables_Nivel": 21.29,
-      "Compra_durables_Mensual": 0.06,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.84
     },
     {
@@ -4196,7 +4196,7 @@
       "Pais_futura_Mensual": 0.95,
       "Pais_futura_Anual": -3.16,
       "Compra_durables_Nivel": 22.55,
-      "Compra_durables_Mensual": 1.26,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.16
     },
     {
@@ -4217,7 +4217,7 @@
       "Pais_futura_Mensual": -3.19,
       "Pais_futura_Anual": -4.55,
       "Compra_durables_Nivel": 21.23,
-      "Compra_durables_Mensual": -1.32,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.11
     },
     {
@@ -4238,7 +4238,7 @@
       "Pais_futura_Mensual": -0.78,
       "Pais_futura_Anual": -4.2,
       "Compra_durables_Nivel": 20.63,
-      "Compra_durables_Mensual": -0.6,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.29
     },
     {
@@ -4259,7 +4259,7 @@
       "Pais_futura_Mensual": -0.94,
       "Pais_futura_Anual": -5.66,
       "Compra_durables_Nivel": 19.86,
-      "Compra_durables_Mensual": -0.77,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.0
     },
     {
@@ -4280,7 +4280,7 @@
       "Pais_futura_Mensual": 0.86,
       "Pais_futura_Anual": -5.74,
       "Compra_durables_Nivel": 20.81,
-      "Compra_durables_Mensual": 0.95,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.28
     },
     {
@@ -4301,7 +4301,7 @@
       "Pais_futura_Mensual": -0.57,
       "Pais_futura_Anual": -6.06,
       "Compra_durables_Nivel": 19.52,
-      "Compra_durables_Mensual": -1.28,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.27
     },
     {
@@ -4322,7 +4322,7 @@
       "Pais_futura_Mensual": 0.29,
       "Pais_futura_Anual": -5.49,
       "Compra_durables_Nivel": 19.27,
-      "Compra_durables_Mensual": -0.25,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.53
     },
     {
@@ -4343,7 +4343,7 @@
       "Pais_futura_Mensual": -8.38,
       "Pais_futura_Anual": -13.39,
       "Compra_durables_Nivel": 14.55,
-      "Compra_durables_Mensual": -4.73,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -6.8
     },
     {
@@ -4364,7 +4364,7 @@
       "Pais_futura_Mensual": 3.86,
       "Pais_futura_Anual": -8.87,
       "Compra_durables_Nivel": 18.23,
-      "Compra_durables_Mensual": 3.69,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -3.19
     },
     {
@@ -4385,7 +4385,7 @@
       "Pais_futura_Mensual": 3.41,
       "Pais_futura_Anual": -4.7,
       "Compra_durables_Nivel": 18.45,
-      "Compra_durables_Mensual": 0.22,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -3.06
     },
     {
@@ -4406,7 +4406,7 @@
       "Pais_futura_Mensual": 2.3,
       "Pais_futura_Anual": -1.83,
       "Compra_durables_Nivel": 18.91,
-      "Compra_durables_Mensual": 0.46,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -2.32
     },
     {
@@ -4427,7 +4427,7 @@
       "Pais_futura_Mensual": -0.1,
       "Pais_futura_Anual": -2.3,
       "Compra_durables_Nivel": 20.45,
-      "Compra_durables_Mensual": 1.54,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.84
     },
     {
@@ -4448,7 +4448,7 @@
       "Pais_futura_Mensual": 0.04,
       "Pais_futura_Anual": -3.22,
       "Compra_durables_Nivel": 20.65,
-      "Compra_durables_Mensual": 0.2,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.9
     },
     {
@@ -4469,7 +4469,7 @@
       "Pais_futura_Mensual": 0.23,
       "Pais_futura_Anual": 0.19,
       "Compra_durables_Nivel": 21.34,
-      "Compra_durables_Mensual": 0.68,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.11
     },
     {
@@ -4490,7 +4490,7 @@
       "Pais_futura_Mensual": 0.51,
       "Pais_futura_Anual": 1.49,
       "Compra_durables_Nivel": 21.0,
-      "Compra_durables_Mensual": -0.33,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.38
     },
     {
@@ -4511,7 +4511,7 @@
       "Pais_futura_Mensual": 0.24,
       "Pais_futura_Anual": 2.67,
       "Compra_durables_Nivel": 21.75,
-      "Compra_durables_Mensual": 0.74,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.89
     },
     {
@@ -4532,7 +4532,7 @@
       "Pais_futura_Mensual": -0.39,
       "Pais_futura_Anual": 1.43,
       "Compra_durables_Nivel": 21.04,
-      "Compra_durables_Mensual": -0.7,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.24
     },
     {
@@ -4553,7 +4553,7 @@
       "Pais_futura_Mensual": -0.17,
       "Pais_futura_Anual": 1.83,
       "Compra_durables_Nivel": 22.08,
-      "Compra_durables_Mensual": 1.04,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.56
     },
     {
@@ -4574,7 +4574,7 @@
       "Pais_futura_Mensual": -1.66,
       "Pais_futura_Anual": -0.13,
       "Compra_durables_Nivel": 22.14,
-      "Compra_durables_Mensual": 0.06,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.86
     },
     {
@@ -4595,7 +4595,7 @@
       "Pais_futura_Mensual": -0.6,
       "Pais_futura_Anual": 7.66,
       "Compra_durables_Nivel": 19.95,
-      "Compra_durables_Mensual": -2.19,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 5.4
     },
     {
@@ -4616,7 +4616,7 @@
       "Pais_futura_Mensual": 1.27,
       "Pais_futura_Anual": 5.07,
       "Compra_durables_Nivel": 19.25,
-      "Compra_durables_Mensual": -0.7,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.01
     },
     {
@@ -4637,7 +4637,7 @@
       "Pais_futura_Mensual": 0.67,
       "Pais_futura_Anual": 2.33,
       "Compra_durables_Nivel": 19.16,
-      "Compra_durables_Mensual": -0.08,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.71
     },
     {
@@ -4658,7 +4658,7 @@
       "Pais_futura_Mensual": 1.16,
       "Pais_futura_Anual": 1.2,
       "Compra_durables_Nivel": 19.73,
-      "Compra_durables_Mensual": 0.56,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.82
     },
     {
@@ -4679,7 +4679,7 @@
       "Pais_futura_Mensual": 2.47,
       "Pais_futura_Anual": 3.77,
       "Compra_durables_Nivel": 19.65,
-      "Compra_durables_Mensual": -0.08,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.8
     },
     {
@@ -4700,7 +4700,7 @@
       "Pais_futura_Mensual": 1.29,
       "Pais_futura_Anual": 5.02,
       "Compra_durables_Nivel": 20.6,
-      "Compra_durables_Mensual": 0.95,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.05
     },
     {
@@ -4721,7 +4721,7 @@
       "Pais_futura_Mensual": 14.11,
       "Pais_futura_Anual": 18.9,
       "Compra_durables_Nivel": 24.05,
-      "Compra_durables_Mensual": 3.45,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.71
     },
     {
@@ -4742,7 +4742,7 @@
       "Pais_futura_Mensual": -0.33,
       "Pais_futura_Anual": 18.06,
       "Compra_durables_Nivel": 23.41,
-      "Compra_durables_Mensual": -0.64,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.4
     },
     {
@@ -4763,7 +4763,7 @@
       "Pais_futura_Mensual": -1.32,
       "Pais_futura_Anual": 16.5,
       "Compra_durables_Nivel": 23.24,
-      "Compra_durables_Mensual": -0.17,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.49
     },
     {
@@ -4784,7 +4784,7 @@
       "Pais_futura_Mensual": -1.75,
       "Pais_futura_Anual": 15.13,
       "Compra_durables_Nivel": 24.2,
-      "Compra_durables_Mensual": 0.96,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.16
     },
     {
@@ -4805,7 +4805,7 @@
       "Pais_futura_Mensual": -0.8,
       "Pais_futura_Anual": 14.51,
       "Compra_durables_Nivel": 23.7,
-      "Compra_durables_Mensual": -0.5,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.62
     },
     {
@@ -4826,7 +4826,7 @@
       "Pais_futura_Mensual": 6.62,
       "Pais_futura_Anual": 22.79,
       "Compra_durables_Nivel": 24.85,
-      "Compra_durables_Mensual": 1.15,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.71
     },
     {
@@ -4847,7 +4847,7 @@
       "Pais_futura_Mensual": 0.22,
       "Pais_futura_Anual": 23.6,
       "Compra_durables_Nivel": 26.08,
-      "Compra_durables_Mensual": 1.23,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 6.13
     },
     {
@@ -4868,7 +4868,7 @@
       "Pais_futura_Mensual": 2.83,
       "Pais_futura_Anual": 25.16,
       "Compra_durables_Nivel": 29.33,
-      "Compra_durables_Mensual": 3.25,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 10.08
     },
     {
@@ -4889,7 +4889,7 @@
       "Pais_futura_Mensual": -2.81,
       "Pais_futura_Anual": 21.69,
       "Compra_durables_Nivel": 26.66,
-      "Compra_durables_Mensual": -2.67,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 7.5
     },
     {
@@ -4910,7 +4910,7 @@
       "Pais_futura_Mensual": -3.36,
       "Pais_futura_Anual": 17.17,
       "Compra_durables_Nivel": 26.46,
-      "Compra_durables_Mensual": -0.2,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 6.74
     },
     {
@@ -4931,7 +4931,7 @@
       "Pais_futura_Mensual": -2.33,
       "Pais_futura_Anual": 12.38,
       "Compra_durables_Nivel": 25.86,
-      "Compra_durables_Mensual": -0.6,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 6.22
     },
     {
@@ -4952,7 +4952,7 @@
       "Pais_futura_Mensual": -2.26,
       "Pais_futura_Anual": 8.83,
       "Compra_durables_Nivel": 23.95,
-      "Compra_durables_Mensual": -1.91,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.35
     },
     {
@@ -4973,7 +4973,7 @@
       "Pais_futura_Mensual": 0.01,
       "Pais_futura_Anual": -5.27,
       "Compra_durables_Nivel": 23.46,
-      "Compra_durables_Mensual": -0.49,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.59
     },
     {
@@ -4994,7 +4994,7 @@
       "Pais_futura_Mensual": 1.1,
       "Pais_futura_Anual": -3.84,
       "Compra_durables_Nivel": 24.88,
-      "Compra_durables_Mensual": 1.42,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.47
     },
     {
@@ -5015,7 +5015,7 @@
       "Pais_futura_Mensual": 2.66,
       "Pais_futura_Anual": 0.14,
       "Compra_durables_Nivel": 24.95,
-      "Compra_durables_Mensual": 0.07,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.71
     },
     {
@@ -5036,7 +5036,7 @@
       "Pais_futura_Mensual": -3.01,
       "Pais_futura_Anual": -1.12,
       "Compra_durables_Nivel": 24.67,
-      "Compra_durables_Mensual": -0.28,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.47
     },
     {
@@ -5057,7 +5057,7 @@
       "Pais_futura_Mensual": -0.73,
       "Pais_futura_Anual": -1.06,
       "Compra_durables_Nivel": 24.92,
-      "Compra_durables_Mensual": 0.25,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.22
     },
     {
@@ -5078,7 +5078,7 @@
       "Pais_futura_Mensual": -0.62,
       "Pais_futura_Anual": -8.29,
       "Compra_durables_Nivel": 25.12,
-      "Compra_durables_Mensual": 0.2,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.28
     },
     {
@@ -5099,7 +5099,7 @@
       "Pais_futura_Mensual": 0.25,
       "Pais_futura_Anual": -8.27,
       "Compra_durables_Nivel": 25.44,
-      "Compra_durables_Mensual": 0.32,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.64
     },
     {
@@ -5120,7 +5120,7 @@
       "Pais_futura_Mensual": -0.17,
       "Pais_futura_Anual": -11.26,
       "Compra_durables_Nivel": 26.01,
-      "Compra_durables_Mensual": 0.57,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -3.32
     },
     {
@@ -5141,7 +5141,7 @@
       "Pais_futura_Mensual": -2.65,
       "Pais_futura_Anual": -11.11,
       "Compra_durables_Nivel": 24.94,
-      "Compra_durables_Mensual": -1.07,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.72
     },
     {
@@ -5162,7 +5162,7 @@
       "Pais_futura_Mensual": -5.75,
       "Pais_futura_Anual": -13.51,
       "Compra_durables_Nivel": 14.39,
-      "Compra_durables_Mensual": -10.55,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -12.08
     },
     {
@@ -5183,7 +5183,7 @@
       "Pais_futura_Mensual": -0.39,
       "Pais_futura_Anual": -11.57,
       "Compra_durables_Nivel": 10.02,
-      "Compra_durables_Mensual": -4.37,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -15.85
     },
     {
@@ -5204,7 +5204,7 @@
       "Pais_futura_Mensual": -1.75,
       "Pais_futura_Anual": -11.06,
       "Compra_durables_Nivel": 12.54,
-      "Compra_durables_Mensual": 2.52,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -11.41
     },
     {
@@ -5225,7 +5225,7 @@
       "Pais_futura_Mensual": 5.68,
       "Pais_futura_Anual": -5.39,
       "Compra_durables_Nivel": 15.41,
-      "Compra_durables_Mensual": 2.87,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -8.06
     },
     {
@@ -5246,7 +5246,7 @@
       "Pais_futura_Mensual": -0.31,
       "Pais_futura_Anual": -6.8,
       "Compra_durables_Nivel": 16.38,
-      "Compra_durables_Mensual": 0.97,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -8.5
     },
     {
@@ -5267,7 +5267,7 @@
       "Pais_futura_Mensual": 1.6,
       "Pais_futura_Anual": -7.86,
       "Compra_durables_Nivel": 16.86,
-      "Compra_durables_Mensual": 0.48,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -8.1
     },
     {
@@ -5288,7 +5288,7 @@
       "Pais_futura_Mensual": 0.55,
       "Pais_futura_Anual": -4.29,
       "Compra_durables_Nivel": 17.99,
-      "Compra_durables_Mensual": 1.13,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -6.68
     },
     {
@@ -5309,7 +5309,7 @@
       "Pais_futura_Mensual": -0.04,
       "Pais_futura_Anual": -3.61,
       "Compra_durables_Nivel": 17.91,
-      "Compra_durables_Mensual": -0.08,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -7.01
     },
     {
@@ -5330,7 +5330,7 @@
       "Pais_futura_Mensual": 1.1,
       "Pais_futura_Anual": -1.88,
       "Compra_durables_Nivel": 18.97,
-      "Compra_durables_Mensual": 1.05,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -6.16
     },
     {
@@ -5351,7 +5351,7 @@
       "Pais_futura_Mensual": 0.27,
       "Pais_futura_Anual": -1.86,
       "Compra_durables_Nivel": 19.77,
-      "Compra_durables_Mensual": 0.81,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -5.67
     },
     {
@@ -5372,7 +5372,7 @@
       "Pais_futura_Mensual": 0.81,
       "Pais_futura_Anual": -0.88,
       "Compra_durables_Nivel": 20.08,
-      "Compra_durables_Mensual": 0.31,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -5.93
     },
     {
@@ -5393,7 +5393,7 @@
       "Pais_futura_Mensual": 2.83,
       "Pais_futura_Anual": 4.6,
       "Compra_durables_Nivel": 21.1,
-      "Compra_durables_Mensual": 1.02,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -3.83
     },
     {
@@ -5414,7 +5414,7 @@
       "Pais_futura_Mensual": 0.59,
       "Pais_futura_Anual": 10.94,
       "Compra_durables_Nivel": 23.58,
-      "Compra_durables_Mensual": 2.47,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 9.19
     },
     {
@@ -5435,7 +5435,7 @@
       "Pais_futura_Mensual": 1.17,
       "Pais_futura_Anual": 12.5,
       "Compra_durables_Nivel": 22.29,
-      "Compra_durables_Mensual": -1.29,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 12.27
     },
     {
@@ -5456,7 +5456,7 @@
       "Pais_futura_Mensual": 0.96,
       "Pais_futura_Anual": 15.21,
       "Compra_durables_Nivel": 23.79,
-      "Compra_durables_Mensual": 1.5,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 11.25
     },
     {
@@ -5477,7 +5477,7 @@
       "Pais_futura_Mensual": -0.83,
       "Pais_futura_Anual": 8.7,
       "Compra_durables_Nivel": 24.2,
-      "Compra_durables_Mensual": 0.41,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 8.79
     },
     {
@@ -5498,7 +5498,7 @@
       "Pais_futura_Mensual": -2.29,
       "Pais_futura_Anual": 6.72,
       "Compra_durables_Nivel": 23.44,
-      "Compra_durables_Mensual": -0.75,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 7.06
     },
     {
@@ -5519,7 +5519,7 @@
       "Pais_futura_Mensual": 1.17,
       "Pais_futura_Anual": 6.29,
       "Compra_durables_Nivel": 23.77,
-      "Compra_durables_Mensual": 0.32,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 6.91
     },
     {
@@ -5540,7 +5540,7 @@
       "Pais_futura_Mensual": 0.7,
       "Pais_futura_Anual": 6.44,
       "Compra_durables_Nivel": 23.49,
-      "Compra_durables_Mensual": -0.28,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 5.5
     },
     {
@@ -5561,7 +5561,7 @@
       "Pais_futura_Mensual": 0.85,
       "Pais_futura_Anual": 7.33,
       "Compra_durables_Nivel": 26.98,
-      "Compra_durables_Mensual": 3.49,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 9.06
     },
     {
@@ -5582,7 +5582,7 @@
       "Pais_futura_Mensual": -2.72,
       "Pais_futura_Anual": 3.5,
       "Compra_durables_Nivel": 26.65,
-      "Compra_durables_Mensual": -0.32,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 7.69
     },
     {
@@ -5603,7 +5603,7 @@
       "Pais_futura_Mensual": -1.05,
       "Pais_futura_Anual": 2.18,
       "Compra_durables_Nivel": 24.54,
-      "Compra_durables_Mensual": -2.11,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.77
     },
     {
@@ -5624,7 +5624,7 @@
       "Pais_futura_Mensual": -0.54,
       "Pais_futura_Anual": 0.83,
       "Compra_durables_Nivel": 24.55,
-      "Compra_durables_Mensual": 0.01,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.47
     },
     {
@@ -5645,7 +5645,7 @@
       "Pais_futura_Mensual": -0.62,
       "Pais_futura_Anual": -2.61,
       "Compra_durables_Nivel": 26.05,
-      "Compra_durables_Mensual": 1.5,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.94
     },
     {
@@ -5666,7 +5666,7 @@
       "Pais_futura_Mensual": 1.36,
       "Pais_futura_Anual": -1.84,
       "Compra_durables_Nivel": 26.37,
-      "Compra_durables_Mensual": 0.32,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.8
     },
     {
@@ -5687,7 +5687,7 @@
       "Pais_futura_Mensual": 0.9,
       "Pais_futura_Anual": -2.11,
       "Compra_durables_Nivel": 25.27,
-      "Compra_durables_Mensual": -1.1,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.99
     },
     {
@@ -5708,7 +5708,7 @@
       "Pais_futura_Mensual": -2.99,
       "Pais_futura_Anual": -6.07,
       "Compra_durables_Nivel": 25.21,
-      "Compra_durables_Mensual": -0.06,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.42
     },
     {
@@ -5729,7 +5729,7 @@
       "Pais_futura_Mensual": -2.15,
       "Pais_futura_Anual": -7.39,
       "Compra_durables_Nivel": 23.93,
-      "Compra_durables_Mensual": -1.28,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.26
     },
     {
@@ -5750,7 +5750,7 @@
       "Pais_futura_Mensual": -0.4,
       "Pais_futura_Anual": -5.5,
       "Compra_durables_Nivel": 22.94,
-      "Compra_durables_Mensual": -0.99,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.5
     },
     {
@@ -5771,7 +5771,7 @@
       "Pais_futura_Mensual": 0.63,
       "Pais_futura_Anual": -6.04,
       "Compra_durables_Nivel": 23.63,
-      "Compra_durables_Mensual": 0.68,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.14
     },
     {
@@ -5792,7 +5792,7 @@
       "Pais_futura_Mensual": -0.23,
       "Pais_futura_Anual": -6.97,
       "Compra_durables_Nivel": 24.11,
-      "Compra_durables_Mensual": 0.49,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.63
     },
     {
@@ -5813,7 +5813,7 @@
       "Pais_futura_Mensual": 1.11,
       "Pais_futura_Anual": -6.71,
       "Compra_durables_Nivel": 23.76,
-      "Compra_durables_Mensual": -0.35,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -3.22
     },
     {
@@ -5834,7 +5834,7 @@
       "Pais_futura_Mensual": 1.49,
       "Pais_futura_Anual": -2.5,
       "Compra_durables_Nivel": 24.5,
-      "Compra_durables_Mensual": 0.74,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -2.15
     },
     {
@@ -5855,7 +5855,7 @@
       "Pais_futura_Mensual": 1.28,
       "Pais_futura_Anual": -0.17,
       "Compra_durables_Nivel": 26.92,
-      "Compra_durables_Mensual": 2.42,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.38
     },
     {
@@ -5876,7 +5876,7 @@
       "Pais_futura_Mensual": 0.31,
       "Pais_futura_Anual": 0.69,
       "Compra_durables_Nivel": 29.1,
-      "Compra_durables_Mensual": 2.17,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 4.55
     },
     {
@@ -5897,7 +5897,7 @@
       "Pais_futura_Mensual": 0.43,
       "Pais_futura_Anual": 1.73,
       "Compra_durables_Nivel": 27.28,
-      "Compra_durables_Mensual": -1.81,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.23
     },
     {
@@ -5918,7 +5918,7 @@
       "Pais_futura_Mensual": -0.06,
       "Pais_futura_Anual": 0.31,
       "Compra_durables_Nivel": 26.72,
-      "Compra_durables_Mensual": -0.56,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.34
     },
     {
@@ -5939,7 +5939,7 @@
       "Pais_futura_Mensual": 0.06,
       "Pais_futura_Anual": -0.52,
       "Compra_durables_Nivel": 27.4,
-      "Compra_durables_Mensual": 0.68,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.13
     },
     {
@@ -5960,7 +5960,7 @@
       "Pais_futura_Mensual": -0.02,
       "Pais_futura_Anual": 2.45,
       "Compra_durables_Nivel": 28.87,
-      "Compra_durables_Mensual": 1.47,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.66
     },
     {
@@ -5981,7 +5981,7 @@
       "Pais_futura_Mensual": 0.83,
       "Pais_futura_Anual": 5.42,
       "Compra_durables_Nivel": 30.26,
-      "Compra_durables_Mensual": 1.39,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 6.32
     },
     {
@@ -6002,7 +6002,7 @@
       "Pais_futura_Mensual": 0.43,
       "Pais_futura_Anual": 6.25,
       "Compra_durables_Nivel": 30.16,
-      "Compra_durables_Mensual": -0.09,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 7.22
     },
     {
@@ -6023,7 +6023,7 @@
       "Pais_futura_Mensual": -0.48,
       "Pais_futura_Anual": 5.14,
       "Compra_durables_Nivel": 30.39,
-      "Compra_durables_Mensual": 0.22,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 6.76
     },
     {
@@ -6044,7 +6044,7 @@
       "Pais_futura_Mensual": -1.88,
       "Pais_futura_Anual": 3.49,
       "Compra_durables_Nivel": 29.47,
-      "Compra_durables_Mensual": -0.91,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 5.36
     },
     {
@@ -6065,7 +6065,7 @@
       "Pais_futura_Mensual": 2.28,
       "Pais_futura_Anual": 4.67,
       "Compra_durables_Nivel": 31.15,
-      "Compra_durables_Mensual": 1.68,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 7.39
     },
     {
@@ -6086,7 +6086,7 @@
       "Pais_futura_Mensual": -0.21,
       "Pais_futura_Anual": 2.97,
       "Compra_durables_Nivel": 31.22,
-      "Compra_durables_Mensual": 0.07,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 6.71
     },
     {
@@ -6107,7 +6107,7 @@
       "Pais_futura_Mensual": 0.8,
       "Pais_futura_Anual": 2.48,
       "Compra_durables_Nivel": 30.87,
-      "Compra_durables_Mensual": -0.35,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.94
     },
     {
@@ -6128,7 +6128,7 @@
       "Pais_futura_Mensual": -0.71,
       "Pais_futura_Anual": 1.47,
       "Compra_durables_Nivel": 31.76,
-      "Compra_durables_Mensual": 0.89,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.66
     },
     {
@@ -6149,7 +6149,7 @@
       "Pais_futura_Mensual": 0.17,
       "Pais_futura_Anual": 1.21,
       "Compra_durables_Nivel": 30.99,
-      "Compra_durables_Mensual": -0.76,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.71
     },
     {
@@ -6170,7 +6170,7 @@
       "Pais_futura_Mensual": 0.09,
       "Pais_futura_Anual": 1.36,
       "Compra_durables_Nivel": 32.4,
-      "Compra_durables_Mensual": 1.41,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 5.69
     },
     {
@@ -6191,7 +6191,7 @@
       "Pais_futura_Mensual": -0.4,
       "Pais_futura_Anual": 0.89,
       "Compra_durables_Nivel": 31.13,
-      "Compra_durables_Mensual": -1.27,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 3.73
     },
     {
@@ -6212,7 +6212,7 @@
       "Pais_futura_Mensual": 2.71,
       "Pais_futura_Anual": 3.63,
       "Compra_durables_Nivel": 30.45,
-      "Compra_durables_Mensual": -0.67,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.58
     },
     {
@@ -6233,7 +6233,7 @@
       "Pais_futura_Mensual": -1.37,
       "Pais_futura_Anual": 1.43,
       "Compra_durables_Nivel": 29.86,
-      "Compra_durables_Mensual": -0.59,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.39
     },
     {
@@ -6254,7 +6254,7 @@
       "Pais_futura_Mensual": -0.47,
       "Pais_futura_Anual": 0.53,
       "Compra_durables_Nivel": 30.67,
-      "Compra_durables_Mensual": 0.8,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.5
     },
     {
@@ -6275,7 +6275,7 @@
       "Pais_futura_Mensual": -0.55,
       "Pais_futura_Anual": 0.46,
       "Compra_durables_Nivel": 30.37,
-      "Compra_durables_Mensual": -0.29,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.01
     },
     {
@@ -6296,7 +6296,7 @@
       "Pais_futura_Mensual": 4.93,
       "Pais_futura_Anual": 7.26,
       "Compra_durables_Nivel": 31.26,
-      "Compra_durables_Mensual": 0.88,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.78
     },
     {
@@ -6317,7 +6317,7 @@
       "Pais_futura_Mensual": -3.38,
       "Pais_futura_Anual": 1.61,
       "Compra_durables_Nivel": 31.25,
-      "Compra_durables_Mensual": -0.01,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.1
     },
     {
@@ -6338,7 +6338,7 @@
       "Pais_futura_Mensual": -0.4,
       "Pais_futura_Anual": 1.42,
       "Compra_durables_Nivel": 30.27,
-      "Compra_durables_Mensual": -0.98,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.94
     },
     {
@@ -6359,7 +6359,7 @@
       "Pais_futura_Mensual": -0.84,
       "Pais_futura_Anual": -0.23,
       "Compra_durables_Nivel": 30.08,
-      "Compra_durables_Mensual": -0.19,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.78
     },
     {
@@ -6380,7 +6380,7 @@
       "Pais_futura_Mensual": -0.82,
       "Pais_futura_Anual": -0.34,
       "Compra_durables_Nivel": 30.74,
-      "Compra_durables_Mensual": 0.66,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -1.01
     },
     {
@@ -6401,7 +6401,7 @@
       "Pais_futura_Mensual": -1.11,
       "Pais_futura_Anual": -1.63,
       "Compra_durables_Nivel": 31.21,
-      "Compra_durables_Mensual": 0.47,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.22
     },
     {
@@ -6422,7 +6422,7 @@
       "Pais_futura_Mensual": -0.99,
       "Pais_futura_Anual": -2.7,
       "Compra_durables_Nivel": 29.97,
-      "Compra_durables_Mensual": -1.24,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -2.43
     },
     {
@@ -6443,7 +6443,7 @@
       "Pais_futura_Mensual": 1.19,
       "Pais_futura_Anual": -1.11,
       "Compra_durables_Nivel": 32.11,
-      "Compra_durables_Mensual": 2.13,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.98
     },
     {
@@ -6464,7 +6464,7 @@
       "Pais_futura_Mensual": -0.96,
       "Pais_futura_Anual": -4.78,
       "Compra_durables_Nivel": 29.49,
-      "Compra_durables_Mensual": -2.62,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.97
     },
     {
@@ -6485,7 +6485,7 @@
       "Pais_futura_Mensual": -0.5,
       "Pais_futura_Anual": -3.9,
       "Compra_durables_Nivel": 32.02,
-      "Compra_durables_Mensual": 2.53,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.15
     },
     {
@@ -6506,7 +6506,7 @@
       "Pais_futura_Mensual": 0.84,
       "Pais_futura_Anual": -2.59,
       "Compra_durables_Nivel": 33.41,
-      "Compra_durables_Mensual": 1.39,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 2.74
     },
     {
@@ -6527,7 +6527,7 @@
       "Pais_futura_Mensual": -1.01,
       "Pais_futura_Anual": -3.05,
       "Compra_durables_Nivel": 32.11,
-      "Compra_durables_Mensual": -1.3,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 1.74
     },
     {
@@ -6548,7 +6548,7 @@
       "Pais_futura_Mensual": -0.86,
       "Pais_futura_Anual": -8.83,
       "Compra_durables_Nivel": 31.47,
-      "Compra_durables_Mensual": -0.64,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.21
     },
     {
@@ -6569,7 +6569,7 @@
       "Pais_futura_Mensual": -2.75,
       "Pais_futura_Anual": -8.2,
       "Compra_durables_Nivel": 30.62,
-      "Compra_durables_Mensual": -0.85,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.63
     },
     {
@@ -6590,7 +6590,7 @@
       "Pais_futura_Mensual": 0.91,
       "Pais_futura_Anual": -6.89,
       "Compra_durables_Nivel": 30.78,
-      "Compra_durables_Mensual": 0.16,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.51
     },
     {
@@ -6611,7 +6611,7 @@
       "Pais_futura_Mensual": -0.37,
       "Pais_futura_Anual": -6.41,
       "Compra_durables_Nivel": 30.42,
-      "Compra_durables_Mensual": -0.37,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": 0.33
     },
     {
@@ -6632,7 +6632,7 @@
       "Pais_futura_Mensual": 0.97,
       "Pais_futura_Anual": -4.62,
       "Compra_durables_Nivel": 30.39,
-      "Compra_durables_Mensual": -0.03,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.35
     },
     {
@@ -6653,7 +6653,7 @@
       "Pais_futura_Mensual": 0.0,
       "Pais_futura_Anual": -3.51,
       "Compra_durables_Nivel": 29.2,
-      "Compra_durables_Mensual": -1.19,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -2.02
     },
     {
@@ -6674,7 +6674,7 @@
       "Pais_futura_Mensual": 0.15,
       "Pais_futura_Anual": -2.37,
       "Compra_durables_Nivel": 29.57,
-      "Compra_durables_Mensual": 0.38,
+      "Compra_durables_Mensual": null,
       "Compra_durables_Anual": -0.4
     }
   ],

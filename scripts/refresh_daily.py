@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import subprocess
 import sys
 import time
@@ -37,6 +38,30 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 log = logging.getLogger("refresh")
+
+
+def _cargar_token() -> None:
+    """Carga INEGI_BIE_TOKEN desde ~/.panorama_env si aún no está en el entorno.
+
+    Permite correr `python3 scripts/refresh_daily.py` sin hacer
+    `source ~/.panorama_env` primero. Los subprocesos heredan la variable.
+    """
+    if os.environ.get("INEGI_BIE_TOKEN"):
+        return
+    env_file = Path.home() / ".panorama_env"
+    if not env_file.exists():
+        return
+    for line in env_file.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        k, v = line.split("=", 1)
+        k = k.strip().removeprefix("export").strip()
+        v = v.strip().strip('"').strip("'")
+        if k:
+            os.environ.setdefault(k, v)
+    if os.environ.get("INEGI_BIE_TOKEN"):
+        log.info("Token BIE cargado desde ~/.panorama_env")
 
 
 def _verificar_calendar_fresco(max_dias: int = 2) -> None:
@@ -73,9 +98,9 @@ def run_step(label: str, cmd: list[str], optional: bool = False) -> bool:
     log.info("→ %s", label)
     t0 = time.time()
     try:
-        result = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=600)
+        result = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=1200)
     except subprocess.TimeoutExpired:
-        log.error("✗ %s TIMEOUT (>600s)", label)
+        log.error("✗ %s TIMEOUT (>1200s)", label)
         return False
     dt = time.time() - t0
     if result.returncode != 0:
@@ -114,6 +139,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.quiet:
         logging.getLogger().setLevel(logging.WARNING)
 
+    _cargar_token()
     log.info("=== refresh diario · %s ===", time.strftime("%Y-%m-%d %H:%M:%S"))
     t_start = time.time()
     pass_count = 0
