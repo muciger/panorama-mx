@@ -33,6 +33,33 @@ ICS_URL = "https://www.inegi.org.mx/contenidos/saladeprensa/doc/inegi.ics"
 DEFAULT_MAX_PROXIMAS = 6
 DEFAULT_LOOKBACK_DIAS = 3
 
+# Fechas suplementarias para indicadores no capturados por el ICS oficial.
+# Fuente: Calendario de Difusión INEGI 2026 (PDF oficial) e IMSS.
+# Actualizar manualmente cada enero cuando INEGI publique el nuevo calendario.
+SUPPLEMENTAL_DATES: dict[str, dict] = {
+    # IOAE: clasificado como "Información Experimental" por INEGI, no aparece en el ICS.
+    # Fuente: cal_2026.pdf, sección "Información Experimental", fila IOAE.
+    "igae_ioae_resumen": {
+        "label": "Indicador Oportuno de la Actividad Económica (IOAE)",
+        "fechas": [
+            "2026-01-21", "2026-02-20", "2026-03-20", "2026-04-20",
+            "2026-05-19", "2026-06-17", "2026-07-21", "2026-08-20",
+            "2026-09-22", "2026-10-20", "2026-11-19", "2026-12-18",
+        ],
+    },
+    # IMSS: publica estadísticas de empleo mensualmente, aprox. día 12.
+    # No aparece en el calendario INEGI. Fechas ajustadas al lunes siguiente
+    # cuando el 12 cae en fin de semana.
+    "empleo_imss": {
+        "label": "Informe mensual de empleo IMSS",
+        "fechas": [
+            "2026-01-12", "2026-02-12", "2026-03-12", "2026-04-13",
+            "2026-05-12", "2026-06-12", "2026-07-13", "2026-08-12",
+            "2026-09-14", "2026-10-12", "2026-11-12", "2026-12-14",
+        ],
+    },
+}
+
 
 def download_ics(url: str, dest: Path, timeout: int = 30) -> None:
     """Descarga ICS a disco. No sobreescribe si la descarga falla."""
@@ -155,6 +182,48 @@ def build_calendar_json(
     return out
 
 
+def merge_supplemental(calendar: dict, hoy: date, max_proximas: int) -> None:
+    """Inyecta fechas suplementarias en indicadores no cubiertos por el ICS.
+
+    Para indicadores sin match ICS (matches_total == 0): reemplaza
+    proximas_publicaciones y ultima_publicacion_ics con los datos suplementarios.
+    Para indicadores con match ICS: mezcla las fechas suplementarias con las
+    del ICS, ordena por fecha y recorta a max_proximas.
+    Modifica calendar en-place.
+    """
+    for ind_id, sup in SUPPLEMENTAL_DATES.items():
+        entry = calendar["indicadores"].get(ind_id)
+        if not entry:
+            continue
+
+        sup_futuras = [
+            {"fecha": f, "evento_ics": sup["label"]}
+            for f in sup["fechas"]
+            if date.fromisoformat(f) >= hoy
+        ]
+        sup_pasadas = [f for f in sup["fechas"] if date.fromisoformat(f) < hoy]
+
+        if entry["matches_total"] == 0:
+            entry["proximas_publicaciones"] = sup_futuras[:max_proximas]
+            if sup_pasadas and not entry.get("ultima_publicacion_ics"):
+                entry["ultima_publicacion_ics"] = {
+                    "fecha": sup_pasadas[-1],
+                    "evento_ics": sup["label"],
+                }
+        else:
+            merged = sorted(
+                sup_futuras + entry["proximas_publicaciones"],
+                key=lambda x: x["fecha"],
+            )
+            seen: set[str] = set()
+            deduped = []
+            for e in merged:
+                if e["fecha"] not in seen:
+                    seen.add(e["fecha"])
+                    deduped.append(e)
+            entry["proximas_publicaciones"] = deduped[:max_proximas]
+
+
 def report_lookback(calendar: dict, hoy: date, lookback_dias: int) -> list[str]:
     """Devuelve ids con ultima_publicacion dentro de la ventana reciente."""
     cutoff = hoy - timedelta(days=lookback_dias)
@@ -210,6 +279,7 @@ def main(argv: list[str] | None = None) -> int:
     calendar = build_calendar_json(
         indicators_cfg, eventos, hoy, args.max_proximas, len(eventos)
     )
+    merge_supplemental(calendar, hoy, args.max_proximas)
 
     _tmp_cal = CONFIG_CALENDAR.with_name(CONFIG_CALENDAR.name + ".tmp")
     _tmp_cal.write_text(

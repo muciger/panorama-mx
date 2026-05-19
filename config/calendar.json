@@ -168,27 +168,27 @@
       },
       "proximas_publicaciones": [
         {
+          "fecha": "2026-05-19",
+          "evento_ics": "Indicador Oportuno de la Actividad Económica (IOAE)"
+        },
+        {
           "fecha": "2026-05-22",
           "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
+        },
+        {
+          "fecha": "2026-06-17",
+          "evento_ics": "Indicador Oportuno de la Actividad Económica (IOAE)"
         },
         {
           "fecha": "2026-06-23",
           "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
         },
         {
+          "fecha": "2026-07-21",
+          "evento_ics": "Indicador Oportuno de la Actividad Económica (IOAE)"
+        },
+        {
           "fecha": "2026-07-23",
-          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
-        },
-        {
-          "fecha": "2026-08-24",
-          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
-        },
-        {
-          "fecha": "2026-09-24",
-          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
-        },
-        {
-          "fecha": "2026-10-23",
           "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
         }
       ],
@@ -1144,8 +1144,36 @@
       "frecuencia": "mensual",
       "patron_ics": null,
       "vinculado_con": null,
-      "ultima_publicacion_ics": null,
-      "proximas_publicaciones": [],
+      "ultima_publicacion_ics": {
+        "fecha": "2026-05-12",
+        "evento_ics": "Informe mensual de empleo IMSS"
+      },
+      "proximas_publicaciones": [
+        {
+          "fecha": "2026-06-12",
+          "evento_ics": "Informe mensual de empleo IMSS"
+        },
+        {
+          "fecha": "2026-07-13",
+          "evento_ics": "Informe mensual de empleo IMSS"
+        },
+        {
+          "fecha": "2026-08-12",
+          "evento_ics": "Informe mensual de empleo IMSS"
+        },
+        {
+          "fecha": "2026-09-14",
+          "evento_ics": "Informe mensual de empleo IMSS"
+        },
+        {
+          "fecha": "2026-10-12",
+          "evento_ics": "Informe mensual de empleo IMSS"
+        },
+        {
+          "fecha": "2026-11-12",
+          "evento_ics": "Informe mensual de empleo IMSS"
+        }
+      ],
       "matches_total": 0
     }
   }
