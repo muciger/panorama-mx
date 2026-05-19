@@ -156,44 +156,6 @@
       ],
       "matches_total": 48
     },
-    "igae_ioae_resumen": {
-      "nombre": "IGAE e IOAE resumen",
-      "categoria": "actividad",
-      "frecuencia": "mensual",
-      "patron_ics": "Indicador Global de la Actividad Económica",
-      "vinculado_con": "igae",
-      "ultima_publicacion_ics": {
-        "fecha": "2026-04-24",
-        "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
-      },
-      "proximas_publicaciones": [
-        {
-          "fecha": "2026-05-19",
-          "evento_ics": "Indicador Oportuno de la Actividad Económica (IOAE)"
-        },
-        {
-          "fecha": "2026-05-22",
-          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
-        },
-        {
-          "fecha": "2026-06-17",
-          "evento_ics": "Indicador Oportuno de la Actividad Económica (IOAE)"
-        },
-        {
-          "fecha": "2026-06-23",
-          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
-        },
-        {
-          "fecha": "2026-07-21",
-          "evento_ics": "Indicador Oportuno de la Actividad Económica (IOAE)"
-        },
-        {
-          "fecha": "2026-07-23",
-          "evento_ics": "Indicador Global de la Actividad Económica (IGAE). Año base 2018. Cifras preliminares"
-        }
-      ],
-      "matches_total": 24
-    },
     "igae": {
       "nombre": "Indicador Global de la Actividad Económica",
       "categoria": "actividad",

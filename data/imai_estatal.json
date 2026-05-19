@@ -188,7 +188,7 @@
     {
       "Entidad": "Tabasco",
       "Indice_secundarias": 139.19,
-      "Indice_manufacturas": null
+      "Indice_manufacturas": 195.5
     },
     {
       "Entidad": "Tamaulipas",
@@ -405,7 +405,7 @@
       "Entidad": "Tabasco",
       "_geo": "27",
       "Indice_secundarias": 139.19,
-      "Indice_manufacturas": null,
+      "Indice_manufacturas": 195.5,
       "_periodo": "ene-26"
     },
     {

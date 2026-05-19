@@ -217,7 +217,7 @@
       "Entidad": "Tabasco",
       "Participacion": 2.39,
       "IVF_2018": 128.34,
-      "Constante_2018": 605206.52
+      "Constante_2018": null
     },
     {
       "Entidad": "Tamaulipas",
@@ -466,7 +466,7 @@
       "_geo": "27",
       "Participacion": 2.39,
       "IVF_2018": 128.34,
-      "Constante_2018": 605206.52,
+      "Constante_2018": null,
       "_periodo": "2024"
     },
     {

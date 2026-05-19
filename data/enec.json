@@ -283,7 +283,7 @@
     {
       "Periodo": "feb-06",
       "Valor_producción": -1.0,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 2.47,
       "Remuneraciones_por_persona": 0.05,
       "Horas_trabajadas": 0.36,
       "Edificacion_Anual": null,
@@ -296,7 +296,7 @@
     {
       "Periodo": "mar-06",
       "Valor_producción": 2.79,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.36,
       "Remuneraciones_por_persona": 0.9,
       "Horas_trabajadas": 1.46,
       "Edificacion_Anual": null,
@@ -309,7 +309,7 @@
     {
       "Periodo": "abr-06",
       "Valor_producción": -1.0,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.1,
       "Remuneraciones_por_persona": -0.3,
       "Horas_trabajadas": 0.18,
       "Edificacion_Anual": null,
@@ -322,7 +322,7 @@
     {
       "Periodo": "may-06",
       "Valor_producción": 1.37,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.12,
       "Remuneraciones_por_persona": 1.11,
       "Horas_trabajadas": 0.97,
       "Edificacion_Anual": null,
@@ -335,7 +335,7 @@
     {
       "Periodo": "jun-06",
       "Valor_producción": -0.56,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.06,
       "Remuneraciones_por_persona": -0.01,
       "Horas_trabajadas": 0.63,
       "Edificacion_Anual": null,
@@ -348,7 +348,7 @@
     {
       "Periodo": "jul-06",
       "Valor_producción": 1.65,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.09,
       "Remuneraciones_por_persona": -0.29,
       "Horas_trabajadas": 0.38,
       "Edificacion_Anual": null,
@@ -361,7 +361,7 @@
     {
       "Periodo": "ago-06",
       "Valor_producción": 0.21,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 2.31,
       "Remuneraciones_por_persona": 0.39,
       "Horas_trabajadas": 0.04,
       "Edificacion_Anual": null,
@@ -374,7 +374,7 @@
     {
       "Periodo": "sep-06",
       "Valor_producción": -0.06,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.33,
       "Remuneraciones_por_persona": -0.51,
       "Horas_trabajadas": -0.16,
       "Edificacion_Anual": null,
@@ -387,7 +387,7 @@
     {
       "Periodo": "oct-06",
       "Valor_producción": -0.16,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.21,
       "Remuneraciones_por_persona": 0.14,
       "Horas_trabajadas": -1.29,
       "Edificacion_Anual": null,
@@ -400,7 +400,7 @@
     {
       "Periodo": "nov-06",
       "Valor_producción": 1.23,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.14,
       "Remuneraciones_por_persona": 0.01,
       "Horas_trabajadas": 1.01,
       "Edificacion_Anual": null,
@@ -413,7 +413,7 @@
     {
       "Periodo": "dic-06",
       "Valor_producción": 1.21,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.45,
       "Remuneraciones_por_persona": -0.15,
       "Horas_trabajadas": -2.29,
       "Edificacion_Anual": null,
@@ -426,7 +426,7 @@
     {
       "Periodo": "ene-07",
       "Valor_producción": -1.21,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.38,
       "Remuneraciones_por_persona": 0.37,
       "Horas_trabajadas": 1.41,
       "Edificacion_Anual": 7.49,
@@ -439,7 +439,7 @@
     {
       "Periodo": "feb-07",
       "Valor_producción": 0.3,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.67,
       "Remuneraciones_por_persona": -0.2,
       "Horas_trabajadas": -0.33,
       "Edificacion_Anual": 9.57,
@@ -452,7 +452,7 @@
     {
       "Periodo": "mar-07",
       "Valor_producción": -0.08,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.51,
       "Remuneraciones_por_persona": 0.15,
       "Horas_trabajadas": -0.18,
       "Edificacion_Anual": 7.78,
@@ -465,7 +465,7 @@
     {
       "Periodo": "abr-07",
       "Valor_producción": -0.02,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.18,
       "Remuneraciones_por_persona": 0.66,
       "Horas_trabajadas": 0.94,
       "Edificacion_Anual": 5.27,
@@ -478,7 +478,7 @@
     {
       "Periodo": "may-07",
       "Valor_producción": -1.4,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.23,
       "Remuneraciones_por_persona": 0.39,
       "Horas_trabajadas": -0.07,
       "Edificacion_Anual": 5.33,
@@ -491,7 +491,7 @@
     {
       "Periodo": "jun-07",
       "Valor_producción": -1.58,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.71,
       "Remuneraciones_por_persona": -0.28,
       "Horas_trabajadas": 0.02,
       "Edificacion_Anual": 2.43,
@@ -504,7 +504,7 @@
     {
       "Periodo": "jul-07",
       "Valor_producción": 0.1,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.23,
       "Remuneraciones_por_persona": 1.0,
       "Horas_trabajadas": 0.56,
       "Edificacion_Anual": 7.08,
@@ -517,7 +517,7 @@
     {
       "Periodo": "ago-07",
       "Valor_producción": 2.46,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.44,
       "Remuneraciones_por_persona": 0.4,
       "Horas_trabajadas": -1.02,
       "Edificacion_Anual": 4.18,
@@ -530,7 +530,7 @@
     {
       "Periodo": "sep-07",
       "Valor_producción": 0.93,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.39,
       "Remuneraciones_por_persona": -0.5,
       "Horas_trabajadas": 0.12,
       "Edificacion_Anual": 5.86,
@@ -543,7 +543,7 @@
     {
       "Periodo": "oct-07",
       "Valor_producción": -1.59,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.64,
       "Remuneraciones_por_persona": -0.2,
       "Horas_trabajadas": 0.22,
       "Edificacion_Anual": 7.58,
@@ -556,7 +556,7 @@
     {
       "Periodo": "nov-07",
       "Valor_producción": 1.22,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.46,
       "Remuneraciones_por_persona": -0.16,
       "Horas_trabajadas": -0.83,
       "Edificacion_Anual": 7.17,
@@ -569,7 +569,7 @@
     {
       "Periodo": "dic-07",
       "Valor_producción": -0.22,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.85,
       "Remuneraciones_por_persona": 0.44,
       "Horas_trabajadas": -2.03,
       "Edificacion_Anual": 7.45,
@@ -582,7 +582,7 @@
     {
       "Periodo": "ene-08",
       "Valor_producción": 0.29,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.05,
       "Remuneraciones_por_persona": 0.14,
       "Horas_trabajadas": 0.07,
       "Edificacion_Anual": 3.23,
@@ -595,7 +595,7 @@
     {
       "Periodo": "feb-08",
       "Valor_producción": -0.45,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.85,
       "Remuneraciones_por_persona": -2.24,
       "Horas_trabajadas": 3.37,
       "Edificacion_Anual": 4.95,
@@ -608,7 +608,7 @@
     {
       "Periodo": "mar-08",
       "Valor_producción": -5.63,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -3.64,
       "Remuneraciones_por_persona": 0.16,
       "Horas_trabajadas": 1.65,
       "Edificacion_Anual": -2.63,
@@ -621,7 +621,7 @@
     {
       "Periodo": "abr-08",
       "Valor_producción": 4.55,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 2.57,
       "Remuneraciones_por_persona": 3.59,
       "Horas_trabajadas": -1.45,
       "Edificacion_Anual": 4.73,
@@ -634,7 +634,7 @@
     {
       "Periodo": "may-08",
       "Valor_producción": -1.12,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.07,
       "Remuneraciones_por_persona": -0.88,
       "Horas_trabajadas": 0.24,
       "Edificacion_Anual": 5.33,
@@ -647,7 +647,7 @@
     {
       "Periodo": "jun-08",
       "Valor_producción": 0.78,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.24,
       "Remuneraciones_por_persona": 0.84,
       "Horas_trabajadas": -0.25,
       "Edificacion_Anual": 4.25,
@@ -660,7 +660,7 @@
     {
       "Periodo": "jul-08",
       "Valor_producción": -0.92,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.19,
       "Remuneraciones_por_persona": -0.39,
       "Horas_trabajadas": -0.65,
       "Edificacion_Anual": 2.19,
@@ -673,7 +673,7 @@
     {
       "Periodo": "ago-08",
       "Valor_producción": -3.21,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -2.83,
       "Remuneraciones_por_persona": -0.22,
       "Horas_trabajadas": 0.27,
       "Edificacion_Anual": -6.08,
@@ -686,7 +686,7 @@
     {
       "Periodo": "sep-08",
       "Valor_producción": -1.58,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.37,
       "Remuneraciones_por_persona": -0.49,
       "Horas_trabajadas": -0.97,
       "Edificacion_Anual": -8.65,
@@ -699,7 +699,7 @@
     {
       "Periodo": "oct-08",
       "Valor_producción": 0.7,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.27,
       "Remuneraciones_por_persona": 0.63,
       "Horas_trabajadas": -2.19,
       "Edificacion_Anual": -7.45,
@@ -712,7 +712,7 @@
     {
       "Periodo": "nov-08",
       "Valor_producción": -2.09,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.4,
       "Remuneraciones_por_persona": 0.16,
       "Horas_trabajadas": 0.31,
       "Edificacion_Anual": -10.47,
@@ -725,7 +725,7 @@
     {
       "Periodo": "dic-08",
       "Valor_producción": 1.36,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.17,
       "Remuneraciones_por_persona": 0.6,
       "Horas_trabajadas": -0.41,
       "Edificacion_Anual": -12.32,
@@ -738,7 +738,7 @@
     {
       "Periodo": "ene-09",
       "Valor_producción": 1.41,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.81,
       "Remuneraciones_por_persona": -0.49,
       "Horas_trabajadas": -1.14,
       "Edificacion_Anual": -15.2,
@@ -751,7 +751,7 @@
     {
       "Periodo": "feb-09",
       "Valor_producción": 1.01,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.9,
       "Remuneraciones_por_persona": 1.38,
       "Horas_trabajadas": -0.23,
       "Edificacion_Anual": -20.67,
@@ -764,7 +764,7 @@
     {
       "Periodo": "mar-09",
       "Valor_producción": -2.47,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.57,
       "Remuneraciones_por_persona": -0.4,
       "Horas_trabajadas": -0.3,
       "Edificacion_Anual": -17.08,
@@ -777,7 +777,7 @@
     {
       "Periodo": "abr-09",
       "Valor_producción": 0.72,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.0,
       "Remuneraciones_por_persona": -0.18,
       "Horas_trabajadas": -1.16,
       "Edificacion_Anual": -20.98,
@@ -790,7 +790,7 @@
     {
       "Periodo": "may-09",
       "Valor_producción": -0.28,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.21,
       "Remuneraciones_por_persona": -0.1,
       "Horas_trabajadas": -0.8,
       "Edificacion_Anual": -19.57,
@@ -803,7 +803,7 @@
     {
       "Periodo": "jun-09",
       "Valor_producción": 2.25,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 4.01,
       "Remuneraciones_por_persona": -0.82,
       "Horas_trabajadas": 0.5,
       "Edificacion_Anual": -14.48,
@@ -816,7 +816,7 @@
     {
       "Periodo": "jul-09",
       "Valor_producción": -1.7,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -3.66,
       "Remuneraciones_por_persona": 0.32,
       "Horas_trabajadas": -1.1,
       "Edificacion_Anual": -16.96,
@@ -829,7 +829,7 @@
     {
       "Periodo": "ago-09",
       "Valor_producción": -3.57,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -2.54,
       "Remuneraciones_por_persona": -1.42,
       "Horas_trabajadas": -0.23,
       "Edificacion_Anual": -13.56,
@@ -842,7 +842,7 @@
     {
       "Periodo": "sep-09",
       "Valor_producción": -1.44,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.92,
       "Remuneraciones_por_persona": 0.4,
       "Horas_trabajadas": -1.07,
       "Edificacion_Anual": -12.98,
@@ -855,7 +855,7 @@
     {
       "Periodo": "oct-09",
       "Valor_producción": 0.02,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.67,
       "Remuneraciones_por_persona": 0.08,
       "Horas_trabajadas": 0.85,
       "Edificacion_Anual": -13.95,
@@ -868,7 +868,7 @@
     {
       "Periodo": "nov-09",
       "Valor_producción": 1.01,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -3.41,
       "Remuneraciones_por_persona": -0.56,
       "Horas_trabajadas": -1.31,
       "Edificacion_Anual": -11.2,
@@ -881,7 +881,7 @@
     {
       "Periodo": "dic-09",
       "Valor_producción": -2.22,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.51,
       "Remuneraciones_por_persona": -0.76,
       "Horas_trabajadas": 0.13,
       "Edificacion_Anual": -8.14,
@@ -894,7 +894,7 @@
     {
       "Periodo": "ene-10",
       "Valor_producción": 1.95,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 3.58,
       "Remuneraciones_por_persona": 1.57,
       "Horas_trabajadas": 0.92,
       "Edificacion_Anual": -7.03,
@@ -907,7 +907,7 @@
     {
       "Periodo": "feb-10",
       "Valor_producción": 0.41,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.12,
       "Remuneraciones_por_persona": -0.64,
       "Horas_trabajadas": -0.16,
       "Edificacion_Anual": -6.43,
@@ -920,7 +920,7 @@
     {
       "Periodo": "mar-10",
       "Valor_producción": 2.04,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.52,
       "Remuneraciones_por_persona": 0.2,
       "Horas_trabajadas": 0.04,
       "Edificacion_Anual": -6.97,
@@ -933,7 +933,7 @@
     {
       "Periodo": "abr-10",
       "Valor_producción": 0.59,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.32,
       "Remuneraciones_por_persona": 0.2,
       "Horas_trabajadas": -0.04,
       "Edificacion_Anual": -11.49,
@@ -946,7 +946,7 @@
     {
       "Periodo": "may-10",
       "Valor_producción": 0.29,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.04,
       "Remuneraciones_por_persona": -0.77,
       "Horas_trabajadas": -0.26,
       "Edificacion_Anual": -13.41,
@@ -959,7 +959,7 @@
     {
       "Periodo": "jun-10",
       "Valor_producción": -2.39,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.99,
       "Remuneraciones_por_persona": 0.72,
       "Horas_trabajadas": -0.16,
       "Edificacion_Anual": -12.9,
@@ -972,7 +972,7 @@
     {
       "Periodo": "jul-10",
       "Valor_producción": 1.14,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.14,
       "Remuneraciones_por_persona": -0.62,
       "Horas_trabajadas": -0.56,
       "Edificacion_Anual": -12.4,
@@ -985,7 +985,7 @@
     {
       "Periodo": "ago-10",
       "Valor_producción": 3.03,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.4,
       "Remuneraciones_por_persona": 0.24,
       "Horas_trabajadas": 2.55,
       "Edificacion_Anual": -8.12,
@@ -998,7 +998,7 @@
     {
       "Periodo": "sep-10",
       "Valor_producción": 1.0,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.11,
       "Remuneraciones_por_persona": 2.39,
       "Horas_trabajadas": 1.59,
       "Edificacion_Anual": -7.4,
@@ -1011,7 +1011,7 @@
     {
       "Periodo": "oct-10",
       "Valor_producción": 0.57,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.3,
       "Remuneraciones_por_persona": -1.54,
       "Horas_trabajadas": 1.93,
       "Edificacion_Anual": -6.03,
@@ -1024,7 +1024,7 @@
     {
       "Periodo": "nov-10",
       "Valor_producción": -1.69,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.48,
       "Remuneraciones_por_persona": -0.6,
       "Horas_trabajadas": -1.01,
       "Edificacion_Anual": -7.37,
@@ -1037,7 +1037,7 @@
     {
       "Periodo": "dic-10",
       "Valor_producción": 1.27,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.8,
       "Remuneraciones_por_persona": -0.06,
       "Horas_trabajadas": 1.44,
       "Edificacion_Anual": -7.03,
@@ -1050,7 +1050,7 @@
     {
       "Periodo": "ene-11",
       "Valor_producción": -0.58,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.56,
       "Remuneraciones_por_persona": -0.45,
       "Horas_trabajadas": -0.72,
       "Edificacion_Anual": 0.71,
@@ -1063,7 +1063,7 @@
     {
       "Periodo": "feb-11",
       "Valor_producción": -1.09,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.02,
       "Remuneraciones_por_persona": 0.23,
       "Horas_trabajadas": -2.51,
       "Edificacion_Anual": 1.67,
@@ -1076,7 +1076,7 @@
     {
       "Periodo": "mar-11",
       "Valor_producción": 1.67,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.04,
       "Remuneraciones_por_persona": 1.2,
       "Horas_trabajadas": 2.32,
       "Edificacion_Anual": 1.06,
@@ -1089,7 +1089,7 @@
     {
       "Periodo": "abr-11",
       "Valor_producción": -0.32,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.46,
       "Remuneraciones_por_persona": -0.11,
       "Horas_trabajadas": -0.67,
       "Edificacion_Anual": 7.8,
@@ -1102,7 +1102,7 @@
     {
       "Periodo": "may-11",
       "Valor_producción": 1.15,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.6,
       "Remuneraciones_por_persona": 0.36,
       "Horas_trabajadas": 1.26,
       "Edificacion_Anual": 10.12,
@@ -1115,7 +1115,7 @@
     {
       "Periodo": "jun-11",
       "Valor_producción": 0.76,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.02,
       "Remuneraciones_por_persona": 0.05,
       "Horas_trabajadas": -2.7,
       "Edificacion_Anual": 6.64,
@@ -1128,7 +1128,7 @@
     {
       "Periodo": "jul-11",
       "Valor_producción": 0.31,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.51,
       "Remuneraciones_por_persona": -0.62,
       "Horas_trabajadas": 2.2,
       "Edificacion_Anual": 8.03,
@@ -1141,7 +1141,7 @@
     {
       "Periodo": "ago-11",
       "Valor_producción": 0.59,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.6,
       "Remuneraciones_por_persona": 0.31,
       "Horas_trabajadas": 0.84,
       "Edificacion_Anual": 6.88,
@@ -1154,7 +1154,7 @@
     {
       "Periodo": "sep-11",
       "Valor_producción": 1.15,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.65,
       "Remuneraciones_por_persona": 0.86,
       "Horas_trabajadas": 0.51,
       "Edificacion_Anual": 10.98,
@@ -1167,7 +1167,7 @@
     {
       "Periodo": "oct-11",
       "Valor_producción": -0.22,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.1,
       "Remuneraciones_por_persona": -0.97,
       "Horas_trabajadas": 0.6,
       "Edificacion_Anual": 8.38,
@@ -1180,7 +1180,7 @@
     {
       "Periodo": "nov-11",
       "Valor_producción": 0.37,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.24,
       "Remuneraciones_por_persona": 0.44,
       "Horas_trabajadas": 0.1,
       "Edificacion_Anual": 8.04,
@@ -1193,7 +1193,7 @@
     {
       "Periodo": "dic-11",
       "Valor_producción": 0.36,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.32,
       "Remuneraciones_por_persona": -0.51,
       "Horas_trabajadas": -0.16,
       "Edificacion_Anual": 5.34,
@@ -1206,7 +1206,7 @@
     {
       "Periodo": "ene-12",
       "Valor_producción": -4.18,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.18,
       "Remuneraciones_por_persona": 0.18,
       "Horas_trabajadas": -0.62,
       "Edificacion_Anual": -0.4,
@@ -1219,7 +1219,7 @@
     {
       "Periodo": "feb-12",
       "Valor_producción": 0.39,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.62,
       "Remuneraciones_por_persona": -0.13,
       "Horas_trabajadas": -0.45,
       "Edificacion_Anual": 1.49,
@@ -1232,7 +1232,7 @@
     {
       "Periodo": "mar-12",
       "Valor_producción": 0.47,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.29,
       "Remuneraciones_por_persona": -0.6,
       "Horas_trabajadas": 0.49,
       "Edificacion_Anual": 2.73,
@@ -1245,7 +1245,7 @@
     {
       "Periodo": "abr-12",
       "Valor_producción": -0.18,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.24,
       "Remuneraciones_por_persona": -1.14,
       "Horas_trabajadas": -0.88,
       "Edificacion_Anual": 6.41,
@@ -1258,7 +1258,7 @@
     {
       "Periodo": "may-12",
       "Valor_producción": 1.42,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.99,
       "Remuneraciones_por_persona": 0.26,
       "Horas_trabajadas": 0.77,
       "Edificacion_Anual": 5.46,
@@ -1271,7 +1271,7 @@
     {
       "Periodo": "jun-12",
       "Valor_producción": 0.85,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.45,
       "Remuneraciones_por_persona": -0.95,
       "Horas_trabajadas": -0.14,
       "Edificacion_Anual": 4.89,
@@ -1284,7 +1284,7 @@
     {
       "Periodo": "jul-12",
       "Valor_producción": 1.14,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.27,
       "Remuneraciones_por_persona": 0.06,
       "Horas_trabajadas": 1.2,
       "Edificacion_Anual": 5.49,
@@ -1297,7 +1297,7 @@
     {
       "Periodo": "ago-12",
       "Valor_producción": 0.77,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 2.09,
       "Remuneraciones_por_persona": 0.51,
       "Horas_trabajadas": 0.2,
       "Edificacion_Anual": -0.17,
@@ -1310,7 +1310,7 @@
     {
       "Periodo": "sep-12",
       "Valor_producción": -0.13,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.69,
       "Remuneraciones_por_persona": 0.22,
       "Horas_trabajadas": 2.35,
       "Edificacion_Anual": -1.16,
@@ -1323,7 +1323,7 @@
     {
       "Periodo": "oct-12",
       "Valor_producción": -0.18,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -2.55,
       "Remuneraciones_por_persona": -1.18,
       "Horas_trabajadas": -2.46,
       "Edificacion_Anual": -0.1,
@@ -1336,7 +1336,7 @@
     {
       "Periodo": "nov-12",
       "Valor_producción": -1.02,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.72,
       "Remuneraciones_por_persona": 1.56,
       "Horas_trabajadas": 0.05,
       "Edificacion_Anual": 2.12,
@@ -1349,7 +1349,7 @@
     {
       "Periodo": "dic-12",
       "Valor_producción": -3.75,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -4.32,
       "Remuneraciones_por_persona": 0.26,
       "Horas_trabajadas": -1.41,
       "Edificacion_Anual": -1.53,
@@ -1362,7 +1362,7 @@
     {
       "Periodo": "ene-13",
       "Valor_producción": 1.08,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.71,
       "Remuneraciones_por_persona": 0.17,
       "Horas_trabajadas": 1.08,
       "Edificacion_Anual": -4.49,
@@ -1375,7 +1375,7 @@
     {
       "Periodo": "feb-13",
       "Valor_producción": -0.28,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.15,
       "Remuneraciones_por_persona": -8.32,
       "Horas_trabajadas": -1.76,
       "Edificacion_Anual": -2.64,
@@ -1388,7 +1388,7 @@
     {
       "Periodo": "mar-13",
       "Valor_producción": -1.07,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.11,
       "Remuneraciones_por_persona": -0.88,
       "Horas_trabajadas": 0.29,
       "Edificacion_Anual": -2.1,
@@ -1401,7 +1401,7 @@
     {
       "Periodo": "abr-13",
       "Valor_producción": 1.6,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.61,
       "Remuneraciones_por_persona": 0.33,
       "Horas_trabajadas": 0.14,
       "Edificacion_Anual": -5.24,
@@ -1414,7 +1414,7 @@
     {
       "Periodo": "may-13",
       "Valor_producción": -1.94,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.76,
       "Remuneraciones_por_persona": 1.43,
       "Horas_trabajadas": -0.6,
       "Edificacion_Anual": -10.09,
@@ -1427,7 +1427,7 @@
     {
       "Periodo": "jun-13",
       "Valor_producción": -0.06,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.42,
       "Remuneraciones_por_persona": 1.43,
       "Horas_trabajadas": 1.04,
       "Edificacion_Anual": -13.62,
@@ -1440,7 +1440,7 @@
     {
       "Periodo": "jul-13",
       "Valor_producción": -0.11,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.4,
       "Remuneraciones_por_persona": 0.67,
       "Horas_trabajadas": -1.35,
       "Edificacion_Anual": -12.72,
@@ -1453,7 +1453,7 @@
     {
       "Periodo": "ago-13",
       "Valor_producción": -1.12,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.94,
       "Remuneraciones_por_persona": 5.34,
       "Horas_trabajadas": -0.97,
       "Edificacion_Anual": -5.53,
@@ -1466,7 +1466,7 @@
     {
       "Periodo": "sep-13",
       "Valor_producción": -2.71,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.77,
       "Remuneraciones_por_persona": -6.1,
       "Horas_trabajadas": -0.77,
       "Edificacion_Anual": -13.11,
@@ -1479,7 +1479,7 @@
     {
       "Periodo": "oct-13",
       "Valor_producción": 1.45,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.27,
       "Remuneraciones_por_persona": 0.59,
       "Horas_trabajadas": -0.13,
       "Edificacion_Anual": -8.18,
@@ -1492,7 +1492,7 @@
     {
       "Periodo": "nov-13",
       "Valor_producción": -0.73,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.26,
       "Remuneraciones_por_persona": 3.4,
       "Horas_trabajadas": -0.15,
       "Edificacion_Anual": -11.16,
@@ -1505,7 +1505,7 @@
     {
       "Periodo": "dic-13",
       "Valor_producción": 3.2,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.23,
       "Remuneraciones_por_persona": -3.14,
       "Horas_trabajadas": 0.99,
       "Edificacion_Anual": -4.82,
@@ -1518,7 +1518,7 @@
     {
       "Periodo": "ene-14",
       "Valor_producción": -0.09,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.12,
       "Remuneraciones_por_persona": -0.19,
       "Horas_trabajadas": -2.78,
       "Edificacion_Anual": 0.85,
@@ -1531,7 +1531,7 @@
     {
       "Periodo": "feb-14",
       "Valor_producción": -0.17,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.04,
       "Remuneraciones_por_persona": 1.36,
       "Horas_trabajadas": 0.87,
       "Edificacion_Anual": -0.46,
@@ -1544,7 +1544,7 @@
     {
       "Periodo": "mar-14",
       "Valor_producción": -1.11,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.5,
       "Remuneraciones_por_persona": 0.1,
       "Horas_trabajadas": -2.35,
       "Edificacion_Anual": 0.35,
@@ -1557,7 +1557,7 @@
     {
       "Periodo": "abr-14",
       "Valor_producción": 0.34,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.83,
       "Remuneraciones_por_persona": 1.63,
       "Horas_trabajadas": -0.1,
       "Edificacion_Anual": -3.33,
@@ -1570,7 +1570,7 @@
     {
       "Periodo": "may-14",
       "Valor_producción": 0.69,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 5.07,
       "Remuneraciones_por_persona": -2.56,
       "Horas_trabajadas": 1.43,
       "Edificacion_Anual": 2.88,
@@ -1583,7 +1583,7 @@
     {
       "Periodo": "jun-14",
       "Valor_producción": -0.45,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -3.74,
       "Remuneraciones_por_persona": 3.93,
       "Horas_trabajadas": -3.02,
       "Edificacion_Anual": 10.1,
@@ -1596,7 +1596,7 @@
     {
       "Periodo": "jul-14",
       "Valor_producción": -2.93,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.77,
       "Remuneraciones_por_persona": -0.19,
       "Horas_trabajadas": 0.69,
       "Edificacion_Anual": 4.87,
@@ -1609,7 +1609,7 @@
     {
       "Periodo": "ago-14",
       "Valor_producción": 2.78,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.87,
       "Remuneraciones_por_persona": 4.52,
       "Horas_trabajadas": -3.16,
       "Edificacion_Anual": 2.98,
@@ -1622,7 +1622,7 @@
     {
       "Periodo": "sep-14",
       "Valor_producción": 0.81,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.32,
       "Remuneraciones_por_persona": -4.75,
       "Horas_trabajadas": 4.3,
       "Edificacion_Anual": 8.59,
@@ -1635,7 +1635,7 @@
     {
       "Periodo": "oct-14",
       "Valor_producción": -0.25,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.29,
       "Remuneraciones_por_persona": 2.11,
       "Horas_trabajadas": -0.78,
       "Edificacion_Anual": 5.61,
@@ -1648,7 +1648,7 @@
     {
       "Periodo": "nov-14",
       "Valor_producción": 2.13,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.98,
       "Remuneraciones_por_persona": -0.7,
       "Horas_trabajadas": 2.01,
       "Edificacion_Anual": 8.77,
@@ -1661,7 +1661,7 @@
     {
       "Periodo": "dic-14",
       "Valor_producción": -2.12,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.73,
       "Remuneraciones_por_persona": 0.14,
       "Horas_trabajadas": -2.69,
       "Edificacion_Anual": 4.78,
@@ -1674,7 +1674,7 @@
     {
       "Periodo": "ene-15",
       "Valor_producción": -0.8,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.63,
       "Remuneraciones_por_persona": 1.34,
       "Horas_trabajadas": -0.77,
       "Edificacion_Anual": -3.83,
@@ -1687,7 +1687,7 @@
     {
       "Periodo": "feb-15",
       "Valor_producción": -0.7,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.97,
       "Remuneraciones_por_persona": -0.25,
       "Horas_trabajadas": -0.5,
       "Edificacion_Anual": -1.64,
@@ -1700,7 +1700,7 @@
     {
       "Periodo": "mar-15",
       "Valor_producción": 2.25,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.46,
       "Remuneraciones_por_persona": 0.1,
       "Horas_trabajadas": 0.36,
       "Edificacion_Anual": 1.49,
@@ -1713,7 +1713,7 @@
     {
       "Periodo": "abr-15",
       "Valor_producción": -2.01,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.16,
       "Remuneraciones_por_persona": 0.61,
       "Horas_trabajadas": 0.45,
       "Edificacion_Anual": 0.44,
@@ -1726,7 +1726,7 @@
     {
       "Periodo": "may-15",
       "Valor_producción": 1.49,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.43,
       "Remuneraciones_por_persona": -3.26,
       "Horas_trabajadas": -0.25,
       "Edificacion_Anual": -0.05,
@@ -1739,7 +1739,7 @@
     {
       "Periodo": "jun-15",
       "Valor_producción": -0.85,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.45,
       "Remuneraciones_por_persona": 1.01,
       "Horas_trabajadas": 1.91,
       "Edificacion_Anual": -5.28,
@@ -1752,7 +1752,7 @@
     {
       "Periodo": "jul-15",
       "Valor_producción": 1.59,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.27,
       "Remuneraciones_por_persona": -2.62,
       "Horas_trabajadas": -2.11,
       "Edificacion_Anual": 0.11,
@@ -1765,7 +1765,7 @@
     {
       "Periodo": "ago-15",
       "Valor_producción": -1.39,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.9,
       "Remuneraciones_por_persona": 4.51,
       "Horas_trabajadas": -1.51,
       "Edificacion_Anual": -2.9,
@@ -1778,7 +1778,7 @@
     {
       "Periodo": "sep-15",
       "Valor_producción": 2.24,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.04,
       "Remuneraciones_por_persona": 1.37,
       "Horas_trabajadas": -0.49,
       "Edificacion_Anual": 2.13,
@@ -1791,7 +1791,7 @@
     {
       "Periodo": "oct-15",
       "Valor_producción": -4.09,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.19,
       "Remuneraciones_por_persona": -0.78,
       "Horas_trabajadas": -0.32,
       "Edificacion_Anual": -8.4,
@@ -1804,7 +1804,7 @@
     {
       "Periodo": "nov-15",
       "Valor_producción": -0.57,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.43,
       "Remuneraciones_por_persona": 0.91,
       "Horas_trabajadas": 0.08,
       "Edificacion_Anual": -8.58,
@@ -1817,7 +1817,7 @@
     {
       "Periodo": "dic-15",
       "Valor_producción": -0.03,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.09,
       "Remuneraciones_por_persona": -0.54,
       "Horas_trabajadas": 0.58,
       "Edificacion_Anual": -6.56,
@@ -1830,7 +1830,7 @@
     {
       "Periodo": "ene-16",
       "Valor_producción": 0.92,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 6.0,
       "Remuneraciones_por_persona": -4.01,
       "Horas_trabajadas": -1.66,
       "Edificacion_Anual": 1.79,
@@ -1843,7 +1843,7 @@
     {
       "Periodo": "feb-16",
       "Valor_producción": 0.31,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -6.68,
       "Remuneraciones_por_persona": 2.09,
       "Horas_trabajadas": 0.27,
       "Edificacion_Anual": -0.17,
@@ -1856,7 +1856,7 @@
     {
       "Periodo": "mar-16",
       "Valor_producción": -1.33,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.02,
       "Remuneraciones_por_persona": -0.59,
       "Horas_trabajadas": -1.69,
       "Edificacion_Anual": -6.49,
@@ -1869,7 +1869,7 @@
     {
       "Periodo": "abr-16",
       "Valor_producción": -0.74,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.04,
       "Remuneraciones_por_persona": 1.56,
       "Horas_trabajadas": 1.1,
       "Edificacion_Anual": -2.63,
@@ -1882,7 +1882,7 @@
     {
       "Periodo": "may-16",
       "Valor_producción": -0.34,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.43,
       "Remuneraciones_por_persona": 1.75,
       "Horas_trabajadas": -1.05,
       "Edificacion_Anual": -4.34,
@@ -1895,7 +1895,7 @@
     {
       "Periodo": "jun-16",
       "Valor_producción": 0.67,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.33,
       "Remuneraciones_por_persona": 0.58,
       "Horas_trabajadas": -0.78,
       "Edificacion_Anual": 3.1,
@@ -1908,7 +1908,7 @@
     {
       "Periodo": "jul-16",
       "Valor_producción": -0.04,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.85,
       "Remuneraciones_por_persona": 0.06,
       "Horas_trabajadas": 0.37,
       "Edificacion_Anual": 1.65,
@@ -1921,7 +1921,7 @@
     {
       "Periodo": "ago-16",
       "Valor_producción": -0.99,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.59,
       "Remuneraciones_por_persona": -0.06,
       "Horas_trabajadas": -0.09,
       "Edificacion_Anual": 3.3,
@@ -1934,7 +1934,7 @@
     {
       "Periodo": "sep-16",
       "Valor_producción": 0.03,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 4.23,
       "Remuneraciones_por_persona": -1.58,
       "Horas_trabajadas": -1.06,
       "Edificacion_Anual": -4.67,
@@ -1947,7 +1947,7 @@
     {
       "Periodo": "oct-16",
       "Valor_producción": 1.7,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -5.48,
       "Remuneraciones_por_persona": 0.43,
       "Horas_trabajadas": 0.72,
       "Edificacion_Anual": 10.95,
@@ -1960,7 +1960,7 @@
     {
       "Periodo": "nov-16",
       "Valor_producción": 1.98,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 6.64,
       "Remuneraciones_por_persona": -1.66,
       "Horas_trabajadas": 4.18,
       "Edificacion_Anual": 16.43,
@@ -1973,7 +1973,7 @@
     {
       "Periodo": "dic-16",
       "Valor_producción": 0.83,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -2.3,
       "Remuneraciones_por_persona": 0.81,
       "Horas_trabajadas": -2.8,
       "Edificacion_Anual": 11.59,
@@ -1986,7 +1986,7 @@
     {
       "Periodo": "ene-17",
       "Valor_producción": -1.57,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.5,
       "Remuneraciones_por_persona": 0.34,
       "Horas_trabajadas": 1.09,
       "Edificacion_Anual": 4.96,
@@ -1999,7 +1999,7 @@
     {
       "Periodo": "feb-17",
       "Valor_producción": 0.98,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.83,
       "Remuneraciones_por_persona": -0.45,
       "Horas_trabajadas": -1.36,
       "Edificacion_Anual": 6.17,
@@ -2012,7 +2012,7 @@
     {
       "Periodo": "mar-17",
       "Valor_producción": -2.49,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.19,
       "Remuneraciones_por_persona": 0.74,
       "Horas_trabajadas": 1.21,
       "Edificacion_Anual": 5.56,
@@ -2025,7 +2025,7 @@
     {
       "Periodo": "abr-17",
       "Valor_producción": 1.54,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -2.36,
       "Remuneraciones_por_persona": -0.81,
       "Horas_trabajadas": -3.99,
       "Edificacion_Anual": 8.76,
@@ -2038,7 +2038,7 @@
     {
       "Periodo": "may-17",
       "Valor_producción": -4.13,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.45,
       "Remuneraciones_por_persona": 1.41,
       "Horas_trabajadas": 3.82,
       "Edificacion_Anual": 7.57,
@@ -2051,7 +2051,7 @@
     {
       "Periodo": "jun-17",
       "Valor_producción": -0.75,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.86,
       "Remuneraciones_por_persona": -1.68,
       "Horas_trabajadas": -0.38,
       "Edificacion_Anual": 1.87,
@@ -2064,7 +2064,7 @@
     {
       "Periodo": "jul-17",
       "Valor_producción": 0.39,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.07,
       "Remuneraciones_por_persona": 0.93,
       "Horas_trabajadas": -0.93,
       "Edificacion_Anual": -0.65,
@@ -2077,7 +2077,7 @@
     {
       "Periodo": "ago-17",
       "Valor_producción": 1.39,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 2.03,
       "Remuneraciones_por_persona": 0.54,
       "Horas_trabajadas": 2.13,
       "Edificacion_Anual": 3.41,
@@ -2090,7 +2090,7 @@
     {
       "Periodo": "sep-17",
       "Valor_producción": -1.4,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.12,
       "Remuneraciones_por_persona": 1.66,
       "Horas_trabajadas": -1.32,
       "Edificacion_Anual": 8.91,
@@ -2103,7 +2103,7 @@
     {
       "Periodo": "oct-17",
       "Valor_producción": 2.21,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.17,
       "Remuneraciones_por_persona": -0.7,
       "Horas_trabajadas": 1.94,
       "Edificacion_Anual": 2.11,
@@ -2116,7 +2116,7 @@
     {
       "Periodo": "nov-17",
       "Valor_producción": 0.03,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.38,
       "Remuneraciones_por_persona": -0.96,
       "Horas_trabajadas": -1.9,
       "Edificacion_Anual": -7.81,
@@ -2129,7 +2129,7 @@
     {
       "Periodo": "dic-17",
       "Valor_producción": -0.84,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.27,
       "Remuneraciones_por_persona": 0.16,
       "Horas_trabajadas": -1.93,
       "Edificacion_Anual": -2.56,
@@ -2142,7 +2142,7 @@
     {
       "Periodo": "ene-18",
       "Valor_producción": -2.9,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 3.57,
       "Remuneraciones_por_persona": -1.66,
       "Horas_trabajadas": 3.49,
       "Edificacion_Anual": -2.35,
@@ -2155,7 +2155,7 @@
     {
       "Periodo": "feb-18",
       "Valor_producción": -2.14,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -2.24,
       "Remuneraciones_por_persona": -1.39,
       "Horas_trabajadas": 0.6,
       "Edificacion_Anual": -8.97,
@@ -2168,7 +2168,7 @@
     {
       "Periodo": "mar-18",
       "Valor_producción": 1.11,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.29,
       "Remuneraciones_por_persona": 3.07,
       "Horas_trabajadas": 1.19,
       "Edificacion_Anual": -3.34,
@@ -2181,7 +2181,7 @@
     {
       "Periodo": "abr-18",
       "Valor_producción": -3.54,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.45,
       "Remuneraciones_por_persona": -0.43,
       "Horas_trabajadas": -0.6,
       "Edificacion_Anual": -11.04,
@@ -2194,7 +2194,7 @@
     {
       "Periodo": "may-18",
       "Valor_producción": 4.61,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.22,
       "Remuneraciones_por_persona": 0.16,
       "Horas_trabajadas": -1.72,
       "Edificacion_Anual": -3.18,
@@ -2207,7 +2207,7 @@
     {
       "Periodo": "jun-18",
       "Valor_producción": -0.56,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.64,
       "Remuneraciones_por_persona": -0.27,
       "Horas_trabajadas": -0.96,
       "Edificacion_Anual": -2.94,
@@ -2220,7 +2220,7 @@
     {
       "Periodo": "jul-18",
       "Valor_producción": -0.96,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.06,
       "Remuneraciones_por_persona": 0.24,
       "Horas_trabajadas": 0.22,
       "Edificacion_Anual": -4.0,
@@ -2233,7 +2233,7 @@
     {
       "Periodo": "ago-18",
       "Valor_producción": -2.48,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.72,
       "Remuneraciones_por_persona": -1.15,
       "Horas_trabajadas": -1.29,
       "Edificacion_Anual": -7.99,
@@ -2246,7 +2246,7 @@
     {
       "Periodo": "sep-18",
       "Valor_producción": 1.0,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.37,
       "Remuneraciones_por_persona": 0.48,
       "Horas_trabajadas": 0.35,
       "Edificacion_Anual": -8.54,
@@ -2259,7 +2259,7 @@
     {
       "Periodo": "oct-18",
       "Valor_producción": 0.15,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.14,
       "Remuneraciones_por_persona": -1.89,
       "Horas_trabajadas": -1.92,
       "Edificacion_Anual": -11.86,
@@ -2272,7 +2272,7 @@
     {
       "Periodo": "nov-18",
       "Valor_producción": -3.67,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.76,
       "Remuneraciones_por_persona": 2.6,
       "Horas_trabajadas": -0.85,
       "Edificacion_Anual": -8.73,
@@ -2285,7 +2285,7 @@
     {
       "Periodo": "dic-18",
       "Valor_producción": 0.64,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.47,
       "Remuneraciones_por_persona": -0.61,
       "Horas_trabajadas": 0.82,
       "Edificacion_Anual": -8.44,
@@ -2298,7 +2298,7 @@
     {
       "Periodo": "ene-19",
       "Valor_producción": 2.12,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.26,
       "Remuneraciones_por_persona": 0.7,
       "Horas_trabajadas": -0.93,
       "Edificacion_Anual": -0.96,
@@ -2311,7 +2311,7 @@
     {
       "Periodo": "feb-19",
       "Valor_producción": -0.63,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.93,
       "Remuneraciones_por_persona": -1.79,
       "Horas_trabajadas": 2.07,
       "Edificacion_Anual": 5.21,
@@ -2324,7 +2324,7 @@
     {
       "Periodo": "mar-19",
       "Valor_producción": -2.43,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.9,
       "Remuneraciones_por_persona": 0.58,
       "Horas_trabajadas": -3.72,
       "Edificacion_Anual": -0.76,
@@ -2337,7 +2337,7 @@
     {
       "Periodo": "abr-19",
       "Valor_producción": -1.38,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.5,
       "Remuneraciones_por_persona": -0.35,
       "Horas_trabajadas": -1.56,
       "Edificacion_Anual": 2.42,
@@ -2350,7 +2350,7 @@
     {
       "Periodo": "may-19",
       "Valor_producción": 1.06,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.59,
       "Remuneraciones_por_persona": -0.53,
       "Horas_trabajadas": 0.11,
       "Edificacion_Anual": -4.82,
@@ -2363,7 +2363,7 @@
     {
       "Periodo": "jun-19",
       "Valor_producción": 1.64,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.54,
       "Remuneraciones_por_persona": 0.28,
       "Horas_trabajadas": 0.56,
       "Edificacion_Anual": -2.66,
@@ -2376,7 +2376,7 @@
     {
       "Periodo": "jul-19",
       "Valor_producción": -2.54,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.72,
       "Remuneraciones_por_persona": -0.59,
       "Horas_trabajadas": -1.64,
       "Edificacion_Anual": -1.79,
@@ -2389,7 +2389,7 @@
     {
       "Periodo": "ago-19",
       "Valor_producción": -1.34,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.43,
       "Remuneraciones_por_persona": -0.52,
       "Horas_trabajadas": -0.57,
       "Edificacion_Anual": -6.41,
@@ -2402,7 +2402,7 @@
     {
       "Periodo": "sep-19",
       "Valor_producción": -2.35,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.32,
       "Remuneraciones_por_persona": -0.36,
       "Horas_trabajadas": 1.61,
       "Edificacion_Anual": -7.74,
@@ -2415,7 +2415,7 @@
     {
       "Periodo": "oct-19",
       "Valor_producción": -3.98,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.33,
       "Remuneraciones_por_persona": 0.32,
       "Horas_trabajadas": -1.3,
       "Edificacion_Anual": -5.59,
@@ -2428,7 +2428,7 @@
     {
       "Periodo": "nov-19",
       "Valor_producción": 2.5,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.38,
       "Remuneraciones_por_persona": 1.47,
       "Horas_trabajadas": 0.52,
       "Edificacion_Anual": -3.24,
@@ -2441,7 +2441,7 @@
     {
       "Periodo": "dic-19",
       "Valor_producción": -0.29,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.5,
       "Remuneraciones_por_persona": 0.08,
       "Horas_trabajadas": 0.06,
       "Edificacion_Anual": -9.2,
@@ -2454,7 +2454,7 @@
     {
       "Periodo": "ene-20",
       "Valor_producción": -1.33,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -5.61,
       "Remuneraciones_por_persona": 1.42,
       "Horas_trabajadas": -6.28,
       "Edificacion_Anual": -14.02,
@@ -2467,7 +2467,7 @@
     {
       "Periodo": "feb-20",
       "Valor_producción": -0.17,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.19,
       "Remuneraciones_por_persona": -0.81,
       "Horas_trabajadas": 2.44,
       "Edificacion_Anual": -16.52,
@@ -2480,7 +2480,7 @@
     {
       "Periodo": "mar-20",
       "Valor_producción": -4.4,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -2.74,
       "Remuneraciones_por_persona": 1.47,
       "Horas_trabajadas": -4.61,
       "Edificacion_Anual": -16.32,
@@ -2493,7 +2493,7 @@
     {
       "Periodo": "abr-20",
       "Valor_producción": -8.27,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -9.05,
       "Remuneraciones_por_persona": 0.69,
       "Horas_trabajadas": -9.77,
       "Edificacion_Anual": -30.7,
@@ -2506,7 +2506,7 @@
     {
       "Periodo": "may-20",
       "Valor_producción": -8.55,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -3.16,
       "Remuneraciones_por_persona": -1.2,
       "Horas_trabajadas": -2.36,
       "Edificacion_Anual": -36.97,
@@ -2519,7 +2519,7 @@
     {
       "Periodo": "jun-20",
       "Valor_producción": 1.68,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 2.08,
       "Remuneraciones_por_persona": 0.76,
       "Horas_trabajadas": 1.71,
       "Edificacion_Anual": -32.76,
@@ -2532,7 +2532,7 @@
     {
       "Periodo": "jul-20",
       "Valor_producción": 2.29,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.34,
       "Remuneraciones_por_persona": 0.63,
       "Horas_trabajadas": 0.9,
       "Edificacion_Anual": -29.35,
@@ -2545,7 +2545,7 @@
     {
       "Periodo": "ago-20",
       "Valor_producción": 0.99,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.16,
       "Remuneraciones_por_persona": -1.55,
       "Horas_trabajadas": 0.47,
       "Edificacion_Anual": -26.97,
@@ -2558,7 +2558,7 @@
     {
       "Periodo": "sep-20",
       "Valor_producción": -0.61,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.24,
       "Remuneraciones_por_persona": 0.51,
       "Horas_trabajadas": -1.06,
       "Edificacion_Anual": -26.86,
@@ -2571,7 +2571,7 @@
     {
       "Periodo": "oct-20",
       "Valor_producción": 2.14,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.88,
       "Remuneraciones_por_persona": 0.71,
       "Horas_trabajadas": 1.05,
       "Edificacion_Anual": -24.58,
@@ -2584,7 +2584,7 @@
     {
       "Periodo": "nov-20",
       "Valor_producción": -2.68,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.13,
       "Remuneraciones_por_persona": -0.32,
       "Horas_trabajadas": 1.4,
       "Edificacion_Anual": -24.01,
@@ -2597,7 +2597,7 @@
     {
       "Periodo": "dic-20",
       "Valor_producción": 0.01,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.71,
       "Remuneraciones_por_persona": 1.13,
       "Horas_trabajadas": -0.2,
       "Edificacion_Anual": -20.54,
@@ -2610,7 +2610,7 @@
     {
       "Periodo": "ene-21",
       "Valor_producción": -1.09,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.5,
       "Remuneraciones_por_persona": -1.25,
       "Horas_trabajadas": 2.01,
       "Edificacion_Anual": -23.55,
@@ -2623,7 +2623,7 @@
     {
       "Periodo": "feb-21",
       "Valor_producción": 2.8,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.22,
       "Remuneraciones_por_persona": 1.93,
       "Horas_trabajadas": 1.18,
       "Edificacion_Anual": -22.34,
@@ -2636,7 +2636,7 @@
     {
       "Periodo": "mar-21",
       "Valor_producción": 2.47,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.2,
       "Remuneraciones_por_persona": 0.06,
       "Horas_trabajadas": 0.21,
       "Edificacion_Anual": -20.16,
@@ -2649,7 +2649,7 @@
     {
       "Periodo": "abr-21",
       "Valor_producción": 0.89,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.0,
       "Remuneraciones_por_persona": 1.04,
       "Horas_trabajadas": 1.05,
       "Edificacion_Anual": -1.39,
@@ -2662,7 +2662,7 @@
     {
       "Periodo": "may-21",
       "Valor_producción": -2.85,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.27,
       "Remuneraciones_por_persona": 0.57,
       "Horas_trabajadas": 0.51,
       "Edificacion_Anual": 4.51,
@@ -2675,7 +2675,7 @@
     {
       "Periodo": "jun-21",
       "Valor_producción": -6.28,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.4,
       "Remuneraciones_por_persona": -0.05,
       "Horas_trabajadas": -0.97,
       "Edificacion_Anual": -7.17,
@@ -2688,7 +2688,7 @@
     {
       "Periodo": "jul-21",
       "Valor_producción": 6.52,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.97,
       "Remuneraciones_por_persona": -0.38,
       "Horas_trabajadas": -1.07,
       "Edificacion_Anual": -8.2,
@@ -2701,7 +2701,7 @@
     {
       "Periodo": "ago-21",
       "Valor_producción": 1.55,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.37,
       "Remuneraciones_por_persona": 3.81,
       "Horas_trabajadas": -0.35,
       "Edificacion_Anual": -3.59,
@@ -2714,7 +2714,7 @@
     {
       "Periodo": "sep-21",
       "Valor_producción": 0.34,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.0,
       "Remuneraciones_por_persona": -1.35,
       "Horas_trabajadas": 1.13,
       "Edificacion_Anual": -3.77,
@@ -2727,7 +2727,7 @@
     {
       "Periodo": "oct-21",
       "Valor_producción": 0.09,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.17,
       "Remuneraciones_por_persona": 0.45,
       "Horas_trabajadas": 0.72,
       "Edificacion_Anual": -5.16,
@@ -2740,7 +2740,7 @@
     {
       "Periodo": "nov-21",
       "Valor_producción": -1.26,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.59,
       "Remuneraciones_por_persona": -0.51,
       "Horas_trabajadas": -0.36,
       "Edificacion_Anual": -7.29,
@@ -2753,7 +2753,7 @@
     {
       "Periodo": "dic-21",
       "Valor_producción": -1.2,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.13,
       "Remuneraciones_por_persona": -0.64,
       "Horas_trabajadas": 0.93,
       "Edificacion_Anual": -7.13,
@@ -2766,7 +2766,7 @@
     {
       "Periodo": "ene-22",
       "Valor_producción": 5.43,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 2.43,
       "Remuneraciones_por_persona": 0.33,
       "Horas_trabajadas": 6.41,
       "Edificacion_Anual": 5.7,
@@ -2779,7 +2779,7 @@
     {
       "Periodo": "feb-22",
       "Valor_producción": -0.87,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 2.84,
       "Remuneraciones_por_persona": -0.81,
       "Horas_trabajadas": 0.78,
       "Edificacion_Anual": 10.43,
@@ -2792,7 +2792,7 @@
     {
       "Periodo": "mar-22",
       "Valor_producción": 2.25,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.94,
       "Remuneraciones_por_persona": -0.78,
       "Horas_trabajadas": 2.78,
       "Edificacion_Anual": 13.26,
@@ -2805,7 +2805,7 @@
     {
       "Periodo": "abr-22",
       "Valor_producción": -0.11,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.02,
       "Remuneraciones_por_persona": 0.64,
       "Horas_trabajadas": -1.87,
       "Edificacion_Anual": 9.6,
@@ -2818,7 +2818,7 @@
     {
       "Periodo": "may-22",
       "Valor_producción": -1.19,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.25,
       "Remuneraciones_por_persona": 0.43,
       "Horas_trabajadas": 0.74,
       "Edificacion_Anual": 13.08,
@@ -2831,7 +2831,7 @@
     {
       "Periodo": "jun-22",
       "Valor_producción": -3.28,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.36,
       "Remuneraciones_por_persona": 0.66,
       "Horas_trabajadas": -0.59,
       "Edificacion_Anual": 14.64,
@@ -2844,7 +2844,7 @@
     {
       "Periodo": "jul-22",
       "Valor_producción": 2.36,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.92,
       "Remuneraciones_por_persona": 1.25,
       "Horas_trabajadas": 0.34,
       "Edificacion_Anual": 9.57,
@@ -2857,7 +2857,7 @@
     {
       "Periodo": "ago-22",
       "Valor_producción": -3.61,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.24,
       "Remuneraciones_por_persona": -1.61,
       "Horas_trabajadas": 0.42,
       "Edificacion_Anual": 6.3,
@@ -2870,7 +2870,7 @@
     {
       "Periodo": "sep-22",
       "Valor_producción": 2.03,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.03,
       "Remuneraciones_por_persona": 2.22,
       "Horas_trabajadas": 0.27,
       "Edificacion_Anual": 6.81,
@@ -2883,7 +2883,7 @@
     {
       "Periodo": "oct-22",
       "Valor_producción": -0.14,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.3,
       "Remuneraciones_por_persona": -1.25,
       "Horas_trabajadas": 0.48,
       "Edificacion_Anual": 7.95,
@@ -2896,7 +2896,7 @@
     {
       "Periodo": "nov-22",
       "Valor_producción": 4.25,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.05,
       "Remuneraciones_por_persona": 0.98,
       "Horas_trabajadas": 0.15,
       "Edificacion_Anual": 8.43,
@@ -2909,7 +2909,7 @@
     {
       "Periodo": "dic-22",
       "Valor_producción": 0.97,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.82,
       "Remuneraciones_por_persona": 3.91,
       "Horas_trabajadas": 2.18,
       "Edificacion_Anual": 7.98,
@@ -2922,7 +2922,7 @@
     {
       "Periodo": "ene-23",
       "Valor_producción": 1.45,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -3.13,
       "Remuneraciones_por_persona": -3.05,
       "Horas_trabajadas": 0.25,
       "Edificacion_Anual": 9.48,
@@ -2935,7 +2935,7 @@
     {
       "Periodo": "feb-23",
       "Valor_producción": -0.17,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 2.58,
       "Remuneraciones_por_persona": -0.08,
       "Horas_trabajadas": 0.1,
       "Edificacion_Anual": -0.96,
@@ -2948,7 +2948,7 @@
     {
       "Periodo": "mar-23",
       "Valor_producción": 5.02,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.3,
       "Remuneraciones_por_persona": 1.34,
       "Horas_trabajadas": 2.37,
       "Edificacion_Anual": -2.6,
@@ -2961,7 +2961,7 @@
     {
       "Periodo": "abr-23",
       "Valor_producción": 5.57,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.79,
       "Remuneraciones_por_persona": -3.69,
       "Horas_trabajadas": 1.11,
       "Edificacion_Anual": -0.26,
@@ -2974,7 +2974,7 @@
     {
       "Periodo": "may-23",
       "Valor_producción": 9.11,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.77,
       "Remuneraciones_por_persona": -0.58,
       "Horas_trabajadas": 0.05,
       "Edificacion_Anual": 5.17,
@@ -2987,7 +2987,7 @@
     {
       "Periodo": "jun-23",
       "Valor_producción": 4.96,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 2.8,
       "Remuneraciones_por_persona": 3.32,
       "Horas_trabajadas": 3.24,
       "Edificacion_Anual": 9.69,
@@ -3000,7 +3000,7 @@
     {
       "Periodo": "jul-23",
       "Valor_producción": 7.74,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.99,
       "Remuneraciones_por_persona": 0.31,
       "Horas_trabajadas": -0.56,
       "Edificacion_Anual": 13.23,
@@ -3013,7 +3013,7 @@
     {
       "Periodo": "ago-23",
       "Valor_producción": 3.38,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.26,
       "Remuneraciones_por_persona": 2.96,
       "Horas_trabajadas": 1.25,
       "Edificacion_Anual": 20.28,
@@ -3026,7 +3026,7 @@
     {
       "Periodo": "sep-23",
       "Valor_producción": 2.04,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.05,
       "Remuneraciones_por_persona": 1.04,
       "Horas_trabajadas": -0.04,
       "Edificacion_Anual": 21.58,
@@ -3039,7 +3039,7 @@
     {
       "Periodo": "oct-23",
       "Valor_producción": -1.52,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.78,
       "Remuneraciones_por_persona": 0.34,
       "Horas_trabajadas": 0.82,
       "Edificacion_Anual": 20.2,
@@ -3052,7 +3052,7 @@
     {
       "Periodo": "nov-23",
       "Valor_producción": -1.47,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.66,
       "Remuneraciones_por_persona": 2.56,
       "Horas_trabajadas": 2.33,
       "Edificacion_Anual": 22.73,
@@ -3065,7 +3065,7 @@
     {
       "Periodo": "dic-23",
       "Valor_producción": -3.15,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.05,
       "Remuneraciones_por_persona": 0.46,
       "Horas_trabajadas": -0.99,
       "Edificacion_Anual": 22.48,
@@ -3078,7 +3078,7 @@
     {
       "Periodo": "ene-24",
       "Valor_producción": -6.44,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -2.77,
       "Remuneraciones_por_persona": -0.98,
       "Horas_trabajadas": -3.19,
       "Edificacion_Anual": 8.91,
@@ -3091,7 +3091,7 @@
     {
       "Periodo": "feb-24",
       "Valor_producción": -3.11,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.81,
       "Remuneraciones_por_persona": 1.09,
       "Horas_trabajadas": 2.63,
       "Edificacion_Anual": 11.29,
@@ -3104,7 +3104,7 @@
     {
       "Periodo": "mar-24",
       "Valor_producción": -2.06,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.22,
       "Remuneraciones_por_persona": 0.19,
       "Horas_trabajadas": -1.4,
       "Edificacion_Anual": 10.45,
@@ -3117,7 +3117,7 @@
     {
       "Periodo": "abr-24",
       "Valor_producción": -0.01,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.03,
       "Remuneraciones_por_persona": 0.6,
       "Horas_trabajadas": -0.16,
       "Edificacion_Anual": 14.0,
@@ -3130,7 +3130,7 @@
     {
       "Periodo": "may-24",
       "Valor_producción": 0.17,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 1.41,
       "Remuneraciones_por_persona": 2.8,
       "Horas_trabajadas": 1.09,
       "Edificacion_Anual": 10.93,
@@ -3143,7 +3143,7 @@
     {
       "Periodo": "jun-24",
       "Valor_producción": 2.61,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.01,
       "Remuneraciones_por_persona": -3.61,
       "Horas_trabajadas": -2.0,
       "Edificacion_Anual": 8.79,
@@ -3156,7 +3156,7 @@
     {
       "Periodo": "jul-24",
       "Valor_producción": -2.15,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.34,
       "Remuneraciones_por_persona": -1.44,
       "Horas_trabajadas": 1.2,
       "Edificacion_Anual": 12.07,
@@ -3169,7 +3169,7 @@
     {
       "Periodo": "ago-24",
       "Valor_producción": -1.21,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.45,
       "Remuneraciones_por_persona": 2.51,
       "Horas_trabajadas": -1.19,
       "Edificacion_Anual": 6.08,
@@ -3182,7 +3182,7 @@
     {
       "Periodo": "sep-24",
       "Valor_producción": -5.51,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.8,
       "Remuneraciones_por_persona": -4.6,
       "Horas_trabajadas": -2.6,
       "Edificacion_Anual": 3.54,
@@ -3195,7 +3195,7 @@
     {
       "Periodo": "oct-24",
       "Valor_producción": -1.2,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -3.02,
       "Remuneraciones_por_persona": 1.89,
       "Horas_trabajadas": -3.23,
       "Edificacion_Anual": 1.42,
@@ -3208,7 +3208,7 @@
     {
       "Periodo": "nov-24",
       "Valor_producción": -4.42,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -3.08,
       "Remuneraciones_por_persona": -1.37,
       "Horas_trabajadas": -1.7,
       "Edificacion_Anual": -3.84,
@@ -3221,7 +3221,7 @@
     {
       "Periodo": "dic-24",
       "Valor_producción": -0.6,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.09,
       "Remuneraciones_por_persona": 0.79,
       "Horas_trabajadas": -2.24,
       "Edificacion_Anual": -3.72,
@@ -3234,7 +3234,7 @@
     {
       "Periodo": "ene-25",
       "Valor_producción": -3.88,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.23,
       "Remuneraciones_por_persona": 1.17,
       "Horas_trabajadas": -0.2,
       "Edificacion_Anual": -1.85,
@@ -3247,7 +3247,7 @@
     {
       "Periodo": "feb-25",
       "Valor_producción": 0.05,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.57,
       "Remuneraciones_por_persona": 0.48,
       "Horas_trabajadas": -0.97,
       "Edificacion_Anual": 3.45,
@@ -3260,7 +3260,7 @@
     {
       "Periodo": "mar-25",
       "Valor_producción": 0.7,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.09,
       "Remuneraciones_por_persona": -0.07,
       "Horas_trabajadas": 0.02,
       "Edificacion_Anual": 1.37,
@@ -3273,7 +3273,7 @@
     {
       "Periodo": "abr-25",
       "Valor_producción": -0.21,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.15,
       "Remuneraciones_por_persona": 0.76,
       "Horas_trabajadas": -0.9,
       "Edificacion_Anual": -0.46,
@@ -3286,7 +3286,7 @@
     {
       "Periodo": "may-25",
       "Valor_producción": -2.21,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -1.57,
       "Remuneraciones_por_persona": -0.13,
       "Horas_trabajadas": -1.0,
       "Edificacion_Anual": -3.21,
@@ -3299,7 +3299,7 @@
     {
       "Periodo": "jun-25",
       "Valor_producción": 0.95,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.4,
       "Remuneraciones_por_persona": 0.19,
       "Horas_trabajadas": -0.37,
       "Edificacion_Anual": -0.13,
@@ -3312,7 +3312,7 @@
     {
       "Periodo": "jul-25",
       "Valor_producción": -1.69,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.59,
       "Remuneraciones_por_persona": 0.59,
       "Horas_trabajadas": -0.23,
       "Edificacion_Anual": -6.42,
@@ -3325,7 +3325,7 @@
     {
       "Periodo": "ago-25",
       "Valor_producción": -2.55,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.42,
       "Remuneraciones_por_persona": -0.59,
       "Horas_trabajadas": -0.72,
       "Edificacion_Anual": -7.33,
@@ -3338,7 +3338,7 @@
     {
       "Periodo": "sep-25",
       "Valor_producción": -0.91,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.01,
       "Remuneraciones_por_persona": 0.55,
       "Horas_trabajadas": -0.14,
       "Edificacion_Anual": -6.1,
@@ -3351,7 +3351,7 @@
     {
       "Periodo": "oct-25",
       "Valor_producción": 0.56,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.35,
       "Remuneraciones_por_persona": 0.59,
       "Horas_trabajadas": 1.26,
       "Edificacion_Anual": -3.87,
@@ -3364,7 +3364,7 @@
     {
       "Periodo": "nov-25",
       "Valor_producción": 1.89,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.35,
       "Remuneraciones_por_persona": -0.22,
       "Horas_trabajadas": -0.59,
       "Edificacion_Anual": -0.81,
@@ -3377,7 +3377,7 @@
     {
       "Periodo": "dic-25",
       "Valor_producción": 1.82,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.06,
       "Remuneraciones_por_persona": -0.14,
       "Horas_trabajadas": -0.93,
       "Edificacion_Anual": -2.15,
@@ -3390,7 +3390,7 @@
     {
       "Periodo": "ene-26",
       "Valor_producción": 0.6,
-      "Personal_ocupado": null,
+      "Personal_ocupado": -0.05,
       "Remuneraciones_por_persona": 1.05,
       "Horas_trabajadas": 0.39,
       "Edificacion_Anual": -4.8,
@@ -3403,7 +3403,7 @@
     {
       "Periodo": "feb-26",
       "Valor_producción": 0.33,
-      "Personal_ocupado": null,
+      "Personal_ocupado": 0.25,
       "Remuneraciones_por_persona": -0.3,
       "Horas_trabajadas": -0.23,
       "Edificacion_Anual": -5.85,

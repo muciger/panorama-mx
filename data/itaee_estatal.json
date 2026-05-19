@@ -128,7 +128,7 @@
     {
       "Entidad": "México",
       "Indice_desest": 105.0,
-      "Var_anual": 1.09
+      "Var_anual": null
     },
     {
       "Entidad": "Michoacán",
@@ -321,7 +321,7 @@
       "Entidad": "México",
       "_geo": "15",
       "Indice_desest": 105.0,
-      "Var_anual": 1.09,
+      "Var_anual": null,
       "_periodo": "T4-25"
     },
     {

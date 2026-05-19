@@ -143,7 +143,7 @@
     {
       "Entidad": "Nayarit",
       "MDD_trimestral": 81874.0,
-      "MDD_anual": 355369.0
+      "MDD_anual": null
     },
     {
       "Entidad": "Nuevo León",
@@ -378,7 +378,7 @@
       "Entidad": "Nayarit",
       "_geo": "18",
       "MDD_trimestral": 81874.0,
-      "MDD_anual": 355369.0,
+      "MDD_anual": null,
       "_periodo": "T4-25"
     },
     {
