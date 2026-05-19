@@ -18,7 +18,7 @@
     "MDD_trimestral",
     "MDD_anual"
   ],
-  "ultima_actualizacion": "2026-05-18",
+  "ultima_actualizacion": "2026-05-19",
   "proxima_actualizacion_manual": "30 de junio de 2026",
   "periodos": [
     "T4-25",
@@ -192,7 +192,7 @@
     },
     {
       "Entidad": "Tamaulipas",
-      "MDD_trimestral": 8932343.0,
+      "MDD_trimestral": null,
       "MDD_anual": 36296590.0
     },
     {
@@ -447,9 +447,9 @@
     {
       "Entidad": "Tamaulipas",
       "_geo": "28",
-      "MDD_trimestral": 8932343.0,
+      "MDD_trimestral": null,
       "MDD_anual": 36296590.0,
-      "_periodo": "T4-25"
+      "_periodo": null
     },
     {
       "Entidad": "Tlaxcala",

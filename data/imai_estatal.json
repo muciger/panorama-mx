@@ -18,7 +18,7 @@
     "Indice_secundarias",
     "Indice_manufacturas"
   ],
-  "ultima_actualizacion": "2026-05-18",
+  "ultima_actualizacion": "2026-05-19",
   "proxima_actualizacion_manual": "",
   "periodos": [
     "ene-26",
@@ -122,7 +122,7 @@
     },
     {
       "Entidad": "Jalisco",
-      "Indice_secundarias": 99.47,
+      "Indice_secundarias": null,
       "Indice_manufacturas": 111.08
     },
     {
@@ -313,7 +313,7 @@
     {
       "Entidad": "Jalisco",
       "_geo": "14",
-      "Indice_secundarias": 99.47,
+      "Indice_secundarias": null,
       "Indice_manufacturas": 111.08,
       "_periodo": "ene-26"
     },
