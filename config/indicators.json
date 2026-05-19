@@ -47,17 +47,6 @@
       "vinculado_con": "inpc_mensual"
     },
     {
-      "id": "igae_ioae_resumen",
-      "nombre": "IGAE e IOAE resumen",
-      "categoria": "actividad",
-      "frecuencia": "mensual",
-      "unidad": "variación % real anual",
-      "sheet": "IGAE_IOAE_resumen",
-      "patron_ics": "Indicador Global de la Actividad Económica",
-      "boletin_url": "https://www.inegi.org.mx/app/saladeprensa/noticia/10741",
-      "vinculado_con": "igae"
-    },
-    {
       "id": "igae",
       "nombre": "Indicador Global de la Actividad Económica",
       "categoria": "actividad",

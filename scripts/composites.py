@@ -1,7 +1,6 @@
 """Recalcula composites derivados desde series base ya ingeridas.
 
 Composites:
-  - igae_ioae_resumen: IGAE por gran actividad (último periodo)
   - inflacion_resumen: INPC anual últimos 12 meses
   - pib_por_actividad: PIB trimestral primarias/secundarias/terciarias últimos 13 trim
   - pib_anual: variación real calculada desde volumen 2018 (BIE 782389)
@@ -568,7 +567,6 @@ def main() -> int:
         print(f"  WARN composite_pib_trimestral_bie: {e}", file=sys.stderr)
 
     composites = [
-        ("igae_ioae_resumen", composite_igae_ioae_resumen),
         ("inflacion_resumen", composite_inflacion_resumen),
         ("pib_por_actividad", composite_pib_por_actividad),
         ("pib_anual", composite_pib_anual),

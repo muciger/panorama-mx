@@ -37,16 +37,6 @@ DEFAULT_LOOKBACK_DIAS = 3
 # Fuente: Calendario de Difusión INEGI 2026 (PDF oficial) e IMSS.
 # Actualizar manualmente cada enero cuando INEGI publique el nuevo calendario.
 SUPPLEMENTAL_DATES: dict[str, dict] = {
-    # IOAE: clasificado como "Información Experimental" por INEGI, no aparece en el ICS.
-    # Fuente: cal_2026.pdf, sección "Información Experimental", fila IOAE.
-    "igae_ioae_resumen": {
-        "label": "Indicador Oportuno de la Actividad Económica (IOAE)",
-        "fechas": [
-            "2026-01-21", "2026-02-20", "2026-03-20", "2026-04-20",
-            "2026-05-19", "2026-06-17", "2026-07-21", "2026-08-20",
-            "2026-09-22", "2026-10-20", "2026-11-19", "2026-12-18",
-        ],
-    },
     # IMSS: publica estadísticas de empleo mensualmente, aprox. día 12.
     # No aparece en el calendario INEGI. Fechas ajustadas al lunes siguiente
     # cuando el 12 cae en fin de semana.

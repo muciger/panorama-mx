@@ -42,16 +42,6 @@
     "url": "indicador/inflacion_resumen.html"
   },
   {
-    "id": "igae_ioae_resumen",
-    "nombre": "IGAE / IOAE por sector",
-    "categoria": "Actividad",
-    "unidad": "%",
-    "keywords": [
-      "actividad"
-    ],
-    "url": "indicador/igae_ioae_resumen.html"
-  },
-  {
     "id": "igae",
     "nombre": "IGAE anual",
     "categoria": "Actividad",
