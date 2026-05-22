@@ -5,34 +5,34 @@
   "ventana_cubierta": "Indicadores publicados entre abril y mayo 2026",
   "titulo": "Lectura macro al 22 de mayo",
   "parrafos": [
-    "La inflación general anual se ubicó en 4.45% en abril de 2026, con una reducción de 14 puntos base respecto al mes previo. La inflación subyacente bajó a 4.26% anual, acumulando una caída de 19 puntos base, lo que indica que las presiones de precios en los componentes más persistentes continúan cediendo. El INPP sin petróleo registró 1.96% anual con una baja de 50 puntos base, señal de que los costos en la cadena productiva también se moderan. En conjunto, los tres indicadores apuntan a una trayectoria desinflacionaria sostenida, aunque la inflación general todavía supera el objetivo de Banxico.",
-    "El IGAE creció 0.51% anual en marzo de 2026, con una mejora mensual de 85 puntos base respecto a febrero, lo que sugiere cierta recuperación en el margen. Sin embargo, el PIB del T1-26 registró una contracción trimestral de 0.11% y un avance anual desestacionalizado de apenas 0.37%, este último con una caída de 124 puntos base frente al trimestre anterior. La actividad industrial profundizó su debilidad con una variación real de -0.63% mensual en marzo, 101 puntos base peor que en febrero. La producción manufacturera cayó 1.09% real mensual en el EMIM y la construcción prácticamente no creció (0.04% en la ENEC), lo que confirma que el sector industrial es el principal lastre del ciclo actual.",
-    "El saldo de la balanza comercial fue de 2,499 millones de dólares en marzo, con una mejora de 3,479 millones respecto al mes previo, impulsada por exportaciones que crecieron 23.86% anual frente a importaciones que avanzaron 19.93%. En el mercado laboral, la tasa de desocupación se mantuvo baja en 2.80% de la PEA, aunque la tasa de informalidad subió 17 puntos base a 54.99% y la tasa de participación cayó 53 puntos base a 58.83%, lo que matiza la lectura positiva del empleo. La confianza del consumidor mejoró 89 puntos base en su comparación anual en abril, aunque el indicador sigue en terreno negativo con -1.09 puntos, en línea con las expectativas empresariales que también permanecen negativas según el ICE e IPM de la EMOE."
+    "La inflación general anual cedió a 4.45% en abril de 2026, con una reducción de 14 puntos base respecto al mes previo. El componente subyacente también retrocedió, al ubicarse en 4.26% anual, 19 puntos base menos que en marzo, lo que indica que la moderación de precios no se limita a los volátiles. El INPP sin petróleo cayó con mayor fuerza, al registrar 1.96% anual con una baja de 50 puntos base, señal de que las presiones de costos en el sector productor continúan disminuyendo. La trayectoria de los tres índices apunta a una desinflación ordenada, aunque el INPC general todavía se mantiene por encima del objetivo de Banxico.",
+    "El IGAE mostró una recuperación mensual de 0.43% real en marzo de 2026, con una mejora de 28 puntos base frente al mes anterior, aunque la variación anual se mantiene acotada en 0.51%. El PIB del primer trimestre de 2026 confirma la fragilidad del ciclo: cayó 0.11% en términos trimestrales y creció apenas 0.37% en términos anuales desestacionalizados, con deterioros de 27 y 124 puntos base respecto al trimestre previo, respectivamente. La actividad industrial profundizó su contracción al caer 0.63% mensual real en marzo, acumulando un retroceso de 101 puntos base frente a febrero. La formación bruta de capital fijo se contrajo 3.58% anual real en febrero, con una caída adicional de 120 puntos base respecto a enero, lo que anticipa presión sostenida sobre la inversión productiva.",
+    "La balanza comercial registró un superávit de 2,499 millones de dólares en marzo de 2026, con una mejora de 3,479 millones de dólares frente al mes previo, impulsada por exportaciones que crecieron 23.86% anual mientras las importaciones avanzaron a menor ritmo, 19.93% anual. En el mercado laboral, la tasa de desocupación subió marginalmente a 2.80% de la PEA en marzo, la tasa de participación bajó 53 puntos base a 58.83% y la informalidad aumentó 17 puntos base a 54.99%, lo que sugiere un mercado laboral que empieza a mostrar señales de enfriamiento. La confianza del consumidor retrocedió 1.09 puntos en su comparación anual en abril, aunque mejoró 89 puntos base respecto a marzo, mientras que los indicadores de confianza empresarial del EMOE permanecen en terreno negativo tanto en producción como en condiciones económicas generales."
   ],
   "kpis_destacados": [
     {
       "id": "inpc_mensual",
       "etiqueta": "Inflación anual",
       "valor": "4.45%",
-      "nota": "Baja 14 pb respecto a marzo; subyacente en 4.26%, también en descenso."
+      "nota": "Baja 14 pb en abril-26. Subyacente también cede a 4.26%, señal de desinflación amplia."
     },
     {
       "id": "igae",
-      "etiqueta": "PIB T1-26 anual desest.",
+      "etiqueta": "PIB T1-26 (anual desest.)",
       "valor": "0.37%",
-      "nota": "Cae 124 pb vs T4-25; variación trimestral en -0.11%, señal de estancamiento."
+      "nota": "Cae 124 pb vs T4-25. Variación trimestral en -0.11%, confirmando debilidad del ciclo."
     },
     {
       "id": "balanza_comercial",
       "etiqueta": "Saldo balanza comercial",
       "valor": "USD 2,499 M",
-      "nota": "Mejora de 3,479 MDD vs febrero; exportaciones crecen 23.86% anual."
+      "nota": "Mejora de USD 3,479 M respecto a febrero. Exportaciones crecen 23.86% anual en marzo."
     },
     {
       "id": "enoe_mensual",
       "etiqueta": "Tasa de informalidad",
       "valor": "54.99%",
-      "nota": "Sube 17 pb mensual; participación laboral cae 53 pb a 58.83%."
+      "nota": "Sube 17 pb en marzo-26. La participación laboral cae 53 pb, señales de enfriamiento en el mercado."
     }
   ],
   "_fuente": "Claude Sonnet 4.6 sobre datos BIE-INEGI"
