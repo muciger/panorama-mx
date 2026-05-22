@@ -24,7 +24,7 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 log = logging.getLogger("build")
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -1722,6 +1722,17 @@ def build_reporte_semanal(
     publicados.sort(key=lambda x: (_alerta_order.get(x["alerta"], 9), not x["is_priority"]))
 
     # --- Próximas publicaciones con agrupación temporal ---
+    # Calcular límites de semana calendario (lunes–viernes laboral)
+    # fin_semana_actual: próximo viernes (o hoy si es viernes)
+    dias_para_viernes = (4 - hoy.weekday()) % 7  # 4 = viernes
+    if dias_para_viernes == 0:
+        fin_semana_actual = hoy
+    else:
+        fin_semana_actual = hoy + timedelta(days=dias_para_viernes)
+    # inicio y fin de la semana siguiente
+    inicio_prox_semana = fin_semana_actual + timedelta(days=3)  # lunes siguiente
+    fin_prox_semana = inicio_prox_semana + timedelta(days=4)     # viernes siguiente
+
     proximas: list[dict] = []
     for iid, cal in calendar.items():
         for p in cal.get("proximas_publicaciones", []) or []:
@@ -1731,12 +1742,12 @@ def build_reporte_semanal(
                 continue
             if 0 < dias_prox <= 14:
                 pub_dt = date.fromisoformat(p["fecha"])
-                if dias_prox == 1:
-                    grupo = "Mañana"
-                elif dias_prox <= 5:
+                if pub_dt <= fin_semana_actual:
                     grupo = "Esta semana"
-                else:
+                elif pub_dt <= fin_prox_semana:
                     grupo = "Próxima semana"
+                else:
+                    grupo = "En dos semanas"
                 proximas.append({
                     "fecha_iso": p["fecha"],
                     "fecha_display": f"{pub_dt.day} {MESES[pub_dt.month - 1]}",
