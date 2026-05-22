@@ -5,34 +5,34 @@
   "ventana_cubierta": "Indicadores publicados entre abril y mayo 2026",
   "titulo": "Lectura macro al 22 de mayo",
   "parrafos": [
-    "La inflación general anual cedió a 4.45% en abril de 2026, con una reducción de 14 puntos base respecto al mes previo. El componente subyacente también retrocedió, al ubicarse en 4.26% anual, 19 puntos base menos que en marzo, lo que indica que la moderación de precios no se limita a los volátiles. El INPP sin petróleo cayó con mayor fuerza, al registrar 1.96% anual con una baja de 50 puntos base, señal de que las presiones de costos en el sector productor continúan disminuyendo. La trayectoria de los tres índices apunta a una desinflación ordenada, aunque el INPC general todavía se mantiene por encima del objetivo de Banxico.",
-    "El IGAE mostró una recuperación mensual de 0.43% real en marzo de 2026, con una mejora de 28 puntos base frente al mes anterior, aunque la variación anual se mantiene acotada en 0.51%. El PIB del primer trimestre de 2026 confirma la fragilidad del ciclo: cayó 0.11% en términos trimestrales y creció apenas 0.37% en términos anuales desestacionalizados, con deterioros de 27 y 124 puntos base respecto al trimestre previo, respectivamente. La actividad industrial profundizó su contracción al caer 0.63% mensual real en marzo, acumulando un retroceso de 101 puntos base frente a febrero. La formación bruta de capital fijo se contrajo 3.58% anual real en febrero, con una caída adicional de 120 puntos base respecto a enero, lo que anticipa presión sostenida sobre la inversión productiva.",
-    "La balanza comercial registró un superávit de 2,499 millones de dólares en marzo de 2026, con una mejora de 3,479 millones de dólares frente al mes previo, impulsada por exportaciones que crecieron 23.86% anual mientras las importaciones avanzaron a menor ritmo, 19.93% anual. En el mercado laboral, la tasa de desocupación subió marginalmente a 2.80% de la PEA en marzo, la tasa de participación bajó 53 puntos base a 58.83% y la informalidad aumentó 17 puntos base a 54.99%, lo que sugiere un mercado laboral que empieza a mostrar señales de enfriamiento. La confianza del consumidor retrocedió 1.09 puntos en su comparación anual en abril, aunque mejoró 89 puntos base respecto a marzo, mientras que los indicadores de confianza empresarial del EMOE permanecen en terreno negativo tanto en producción como en condiciones económicas generales."
+    "La inflación general anual se ubica en 4.45% en abril de 2026, con una reducción de 0.14 puntos respecto al mes previo, señal de una desaceleración gradual pero sostenida. La inflación subyacente anual cede a 4.26%, bajando 0.19 puntos, lo que indica que las presiones de precios en el componente más persistente también se moderan. El INPP sin petróleo anual registra 1.96%, con una caída de 0.50 puntos, sugiriendo que los costos en la cadena productiva muestran alivio más rápido que los precios al consumidor. En conjunto, los tres indicadores apuntan a un proceso de desinflación activo, aunque el nivel general aún se mantiene por encima del objetivo del Banco de México.",
+    "El IGAE total creció 0.43% real mensual en marzo de 2026, acelerando 0.28 puntos frente al mes anterior, mientras que la variación anual alcanza apenas 0.51%, mejorando 0.85 puntos respecto al dato previo. Sin embargo, el PIB del primer trimestre de 2026 registra una contracción trimestral de 0.11% y un avance anual desestacionalizado de solo 0.37%, que representa una desaceleración de 1.24 puntos frente al trimestre anterior. La actividad industrial profundiza su deterioro con una caída de 0.63% real mensual en marzo, empeorando 1.01 puntos, consistente con la contracción en el volumen de producción manufacturero de 1.09% y el estancamiento en construcción con apenas 0.04% en valor de producción. La FBCF acumula una caída anual de 3.58% en febrero, lo que señala que la inversión sigue siendo el componente más débil de la demanda interna.",
+    "La balanza comercial registró un superávit de 2,499 millones de dólares en marzo de 2026, revirtiéndose frente al déficit del mes previo con un cambio de 3,479 MDD, impulsado por exportaciones que crecieron 23.86% anual, 7.97 puntos por encima del dato anterior. El mercado laboral mantiene una tasa de desocupación baja de 2.80%, aunque la tasa de participación cae 0.53 puntos a 58.83% y la informalidad sube 0.17 puntos a 54.99%, lo que matiza la fortaleza aparente del empleo. La confianza del consumidor mejora 0.89 puntos en su variación anual en abril, aunque permanece en territorio negativo con -1.09 puntos, al tiempo que los indicadores de expectativas empresariales del EMOE siguen en negativo, reflejando cautela persistente en el sector privado."
   ],
   "kpis_destacados": [
     {
       "id": "inpc_mensual",
       "etiqueta": "Inflación anual",
       "valor": "4.45%",
-      "nota": "Baja 14 pb en abril-26. Subyacente también cede a 4.26%, señal de desinflación amplia."
+      "nota": "Baja 0.14 pp en abril; subyacente en 4.26%, también a la baja."
     },
     {
       "id": "igae",
-      "etiqueta": "PIB T1-26 (anual desest.)",
+      "etiqueta": "PIB T1-2026 anual",
       "valor": "0.37%",
-      "nota": "Cae 124 pb vs T4-25. Variación trimestral en -0.11%, confirmando debilidad del ciclo."
+      "nota": "Desacelera 1.24 pp respecto al trimestre previo; variación trimestral en -0.11%."
     },
     {
       "id": "balanza_comercial",
       "etiqueta": "Saldo balanza comercial",
-      "valor": "USD 2,499 M",
-      "nota": "Mejora de USD 3,479 M respecto a febrero. Exportaciones crecen 23.86% anual en marzo."
+      "valor": "2,499 MDD",
+      "nota": "Superávit en marzo; exportaciones crecen 23.86% anual, +7.97 pp vs mes previo."
     },
     {
       "id": "enoe_mensual",
-      "etiqueta": "Tasa de informalidad",
+      "etiqueta": "Tasa informalidad",
       "valor": "54.99%",
-      "nota": "Sube 17 pb en marzo-26. La participación laboral cae 53 pb, señales de enfriamiento en el mercado."
+      "nota": "Sube 0.17 pp; participación laboral cae 0.53 pp a 58.83% en marzo."
     }
   ],
   "_fuente": "Claude Sonnet 4.6 sobre datos BIE-INEGI"

@@ -1561,6 +1561,7 @@ def build_reporte_semanal(
         "confianza_consumidor": "Sentimiento", "emoe_ipm": "Sentimiento",
         "emoe_iat": "Sentimiento", "emoe_ice": "Sentimiento",
         "itaee_estatal": "Regional", "imai_estatal": "Regional",
+        "autos_ligeros": "Automotriz", "autos_pesados": "Automotriz",
     }
 
     # Cargar frecuencia por indicador desde el catálogo
@@ -1749,6 +1750,7 @@ def build_reporte_semanal(
                 else:
                     grupo = "En dos semanas"
                 proximas.append({
+                    "id": iid,
                     "fecha_iso": p["fecha"],
                     "fecha_display": f"{pub_dt.day} {MESES[pub_dt.month - 1]}",
                     "dia_semana": DIAS_ES_ABR[pub_dt.weekday()],
@@ -1758,11 +1760,11 @@ def build_reporte_semanal(
                     "dias": dias_prox,
                 })
     proximas.sort(key=lambda x: x["fecha_iso"])
-    seen_nombres: set[str] = set()
+    seen_ids: set[str] = set()
     proximas_dedup: list[dict] = []
     for p in proximas:
-        if p["nombre"] not in seen_nombres:
-            seen_nombres.add(p["nombre"])
+        if p["id"] not in seen_ids:
+            seen_ids.add(p["id"])
             proximas_dedup.append(p)
 
     # --- Síntesis ejecutiva agrupada por tema ---
@@ -1773,7 +1775,7 @@ def build_reporte_semanal(
 
     # Orden de temas para la síntesis
     TEMA_ORDEN = ["Inflación", "Actividad", "Empleo", "Consumo", "Manufactura",
-                  "Construcción", "Sector externo", "Sentimiento", "Regional", "Otros"]
+                  "Construcción", "Sector externo", "Sentimiento", "Automotriz", "Regional", "Otros"]
     resumen_sections: list[dict] = []
     for tema in TEMA_ORDEN:
         if tema not in temas_vistos:
@@ -2392,19 +2394,21 @@ def _v3_build_kpis() -> list[dict]:
 
 
 def _v3_build_publicaciones(calendar: dict, hoy_iso: str) -> list[dict]:
-    eventos = []
+    # Un evento por indicador: la fecha más próxima >= hoy
+    seen: dict[str, dict] = {}
     for iid, cal in calendar.items():
-        for p in cal.get("proximas_publicaciones", []) or []:
+        for p in sorted(cal.get("proximas_publicaciones", []) or [], key=lambda x: x["fecha"]):
             fecha = p["fecha"]
-            if fecha >= hoy_iso:
-                eventos.append({
+            if fecha >= hoy_iso and iid not in seen:
+                seen[iid] = {
                     "iid": iid,
                     "nombre": cal.get("nombre", iid),
                     "fecha": fecha,
                     "es_hoy": fecha == hoy_iso,
-                })
-    eventos.sort(key=lambda e: e["fecha"])
-    eventos = eventos[:6]
+                }
+                break
+    eventos = sorted(seen.values(), key=lambda e: e["fecha"])
+    eventos = eventos[:10]
     out = []
     for ev in eventos:
         try:
@@ -2874,14 +2878,14 @@ def build_v3(env: Environment, indicadores: dict, calendar: dict, hoy: date) -> 
     ctx = {
         "page_title": "Panorama económico de México",
         "meta_description": (
-            "Seguimiento de coyuntura económica de México. 33 series oficiales BIE-INEGI "
+            f"Seguimiento de coyuntura económica de México. {len(indicadores)} series oficiales BIE-INEGI "
             "actualizadas diariamente: actividad, precios, empleo, sector externo, "
             "inversión y sentimiento empresarial."
         ),
         "canonical_url": _canonical("index.html"),
         "schema_org": _schema_dataset(
             name="Panorama MX — Indicadores Económicos de México",
-            description="33 series oficiales BIE-INEGI: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.",
+            description=f"{len(indicadores)} series oficiales BIE-INEGI: actividad, precios, empleo, sector externo, inversión y sentimiento empresarial.",
             url=_canonical("index.html"),
             date_modified=hoy.isoformat(),
         ),
@@ -2898,6 +2902,7 @@ def build_v3(env: Environment, indicadores: dict, calendar: dict, hoy: date) -> 
         "hero": None,
         "cat_groups": cat_groups,
         "synthesis": synthesis,
+        "n_indicadores": len(indicadores),
     }
     (SITE_DIR / "index.html").write_text(tmpl.render(**ctx), encoding="utf-8")
 
