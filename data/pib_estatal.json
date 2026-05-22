@@ -20,7 +20,7 @@
     "IVF_2018",
     "Constante_2018"
   ],
-  "ultima_actualizacion": "2026-05-19",
+  "ultima_actualizacion": "2026-05-22",
   "proxima_actualizacion_manual": "",
   "periodos": [
     "2024",
@@ -217,7 +217,7 @@
       "Entidad": "Tabasco",
       "Participacion": 2.39,
       "IVF_2018": 128.34,
-      "Constante_2018": null
+      "Constante_2018": 605206.52
     },
     {
       "Entidad": "Tamaulipas",
@@ -466,7 +466,7 @@
       "_geo": "27",
       "Participacion": 2.39,
       "IVF_2018": 128.34,
-      "Constante_2018": null,
+      "Constante_2018": 605206.52,
       "_periodo": "2024"
     },
     {

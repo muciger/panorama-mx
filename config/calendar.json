@@ -1,8 +1,8 @@
 {
   "_fuente": "https://www.inegi.org.mx/contenidos/saladeprensa/doc/inegi.ics",
-  "_generado": "2026-05-19",
+  "_generado": "2026-05-22",
   "_total_eventos_ics": 1201,
-  "_fecha_corte": "2026-05-19",
+  "_fecha_corte": "2026-05-22",
   "indicadores": {
     "pib_anual": {
       "nombre": "PIB anual, variación real",
@@ -429,14 +429,10 @@
       "patron_ics": "Encuesta Nacional de Empresas Constructoras",
       "vinculado_con": null,
       "ultima_publicacion_ics": {
-        "fecha": "2026-04-24",
+        "fecha": "2026-05-21",
         "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018. Cifras preliminares"
       },
       "proximas_publicaciones": [
-        {
-          "fecha": "2026-05-21",
-          "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018. Cifras preliminares"
-        },
         {
           "fecha": "2026-06-24",
           "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018. Cifras preliminares"
@@ -456,6 +452,10 @@
         {
           "fecha": "2026-10-23",
           "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-11-24",
+          "evento_ics": "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018"
         }
       ],
       "matches_total": 24
@@ -467,14 +467,10 @@
       "patron_ics": "Empresas Comerciales",
       "vinculado_con": null,
       "ultima_publicacion_ics": {
-        "fecha": "2026-04-23",
+        "fecha": "2026-05-21",
         "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
       },
       "proximas_publicaciones": [
-        {
-          "fecha": "2026-05-21",
-          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
-        },
         {
           "fecha": "2026-06-23",
           "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
@@ -493,6 +489,10 @@
         },
         {
           "fecha": "2026-10-21",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-11-20",
           "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
         }
       ],
@@ -505,14 +505,10 @@
       "patron_ics": "Empresas Comerciales",
       "vinculado_con": null,
       "ultima_publicacion_ics": {
-        "fecha": "2026-04-23",
+        "fecha": "2026-05-21",
         "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
       },
       "proximas_publicaciones": [
-        {
-          "fecha": "2026-05-21",
-          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
-        },
         {
           "fecha": "2026-06-23",
           "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018. Cifras preliminares"
@@ -531,6 +527,10 @@
         },
         {
           "fecha": "2026-10-21",
+          "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
+        },
+        {
+          "fecha": "2026-11-20",
           "evento_ics": "Encuesta Mensual sobre Empresas Comerciales (EMEC). Serie 2018"
         }
       ],
@@ -543,14 +543,10 @@
       "patron_ics": "Encuesta Mensual de Servicios",
       "vinculado_con": null,
       "ultima_publicacion_ics": {
-        "fecha": "2026-04-23",
+        "fecha": "2026-05-21",
         "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018. Cifras preliminares"
       },
       "proximas_publicaciones": [
-        {
-          "fecha": "2026-05-21",
-          "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018. Cifras preliminares"
-        },
         {
           "fecha": "2026-06-23",
           "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018. Cifras preliminares"
@@ -569,6 +565,10 @@
         },
         {
           "fecha": "2026-10-21",
+          "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018"
+        },
+        {
+          "fecha": "2026-11-20",
           "evento_ics": "Encuesta Mensual de Servicios (EMS). Serie 2018"
         }
       ],

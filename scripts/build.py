@@ -97,7 +97,6 @@ NAV_STRUCTURE = [
     ("Resúmenes", [
         ("pib_anual", "PIB anual (resumen)", "indicador/pib_anual.html"),
         ("inflacion_resumen", "Inflación (resumen)", "indicador/inflacion_resumen.html"),
-        ("igae_ioae_resumen", "IGAE/IOAE por sector", "indicador/igae_ioae_resumen.html"),
     ]),
     ("Macro", [
         ("pib_trimestral", "PIB trimestral", "indicador/pib_trimestral.html"),
@@ -1543,13 +1542,13 @@ def build_reporte_semanal(
 
     # Indicadores estratégicos (jerarquía macro prioritaria)
     PRIORITY_IDS = {
-        "inpc_mensual", "inflacion_resumen", "igae", "igae_ioae_resumen",
+        "inpc_mensual", "inflacion_resumen", "igae",
         "enoe_trimestral", "empleo_imss", "balanza_comercial", "pib_trimestral",
     }
 
     # Mapa de tema por indicador para síntesis ejecutiva agrupada
     TEMA_MAP = {
-        "igae": "Actividad", "igae_ioae_resumen": "Actividad",
+        "igae": "Actividad",
         "actividad_industrial": "Actividad", "consumo_privado": "Actividad",
         "fbcf": "Actividad", "servicios": "Actividad", "ind_ciclicos": "Actividad",
         "pib_trimestral": "Actividad", "pib_anual": "Actividad", "pib_por_actividad": "Actividad",
@@ -2854,6 +2853,12 @@ def build_v3(env: Environment, indicadores: dict, calendar: dict, hoy: date) -> 
             synthesis = json.loads(synth_path.read_text(encoding="utf-8"))
         except Exception:
             synthesis = {}
+
+    # Actualizar título con fecha de build actual para que no quede stale
+    if synthesis:
+        _meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio",
+                  "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+        synthesis["titulo"] = f"Lectura macro al {hoy.day} de {_meses[hoy.month - 1]}"
 
     ctx = {
         "page_title": "Panorama económico de México",

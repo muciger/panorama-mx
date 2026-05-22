@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <key>Label</key>
+    <string>mx.panorama.refresh</string>
+
+    <!-- Cada token del comando en su propio string: así launchd no parte el path por espacios -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>/Users/germanmucino/Desktop/Descargas firefox/INEGI interactivo/Interactivo indicadores INEGI/indicadores_inegi/scripts/auto_refresh.sh</string>
+    </array>
+
+    <!-- Corre a las 8:30 am hora local (ajusta Hour si quieres otra hora) -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>30</integer>
+    </dict>
+
+    <!-- Logs de stdout y stderr al mismo archivo -->
+    <key>StandardOutPath</key>
+    <string>/Users/germanmucino/Desktop/Descargas firefox/INEGI interactivo/Interactivo indicadores INEGI/indicadores_inegi/logs/launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/germanmucino/Desktop/Descargas firefox/INEGI interactivo/Interactivo indicadores INEGI/indicadores_inegi/logs/launchd.log</string>
+
+    <!-- No correr al cargar el agente, solo en el horario definido -->
+    <key>RunAtLoad</key>
+    <false/>
+
+</dict>
+</plist>
